@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents a single component in a document assembly rule</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Apttus__AttachmentId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Id of the attachment</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Id of the attachment</inlineHelpText>
+        <label>Attachment Id</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__ComponentType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Type of the component. Clause considers clause document, Attachment (Id) considers a hardcoded attachment id, Attachment (Object/Field) considers attachment id in a field, Parent (Object/Field) considers the first attachment in the parent represented by the field, Content (Object/Field) considers the raw content of that field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Clause = clause document, Attachment (Id) = hardcoded attachment id, Attachment (Object/Field) = attachment id in a field, Parent (Object/Field) = first attachment in the parent represented by the field, Content (Object/Field) =  raw content of the field.</inlineHelpText>
+        <label>Component Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Clause</fullName>
+                    <default>true</default>
+                    <label>Clause</label>
+                </value>
+                <value>
+                    <fullName>Attachment (Id)</fullName>
+                    <default>false</default>
+                    <label>Attachment (Id)</label>
+                </value>
+                <value>
+                    <fullName>Attachment (Object/Field)</fullName>
+                    <default>false</default>
+                    <label>Attachment (Object/Field)</label>
+                </value>
+                <value>
+                    <fullName>Parent (Object/Field)</fullName>
+                    <default>false</default>
+                    <label>Parent (Object/Field)</label>
+                </value>
+                <value>
+                    <fullName>Content (Object/Field)</fullName>
+                    <default>false</default>
+                    <label>Content (Object/Field)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__ContentFieldType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Type of the content field when the ComponentType is Content (Object/Field)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Type of the content field when the ComponentType is Content (Object/Field)</inlineHelpText>
+        <label>Content Field Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>HTML</fullName>
+                    <default>false</default>
+                    <label>HTML</label>
+                </value>
+                <value>
+                    <fullName>IMAGE</fullName>
+                    <default>false</default>
+                    <label>IMAGE</label>
+                </value>
+                <value>
+                    <fullName>URL</fullName>
+                    <default>false</default>
+                    <label>URL</label>
+                </value>
+                <value>
+                    <fullName>TEXT</fullName>
+                    <default>false</default>
+                    <label>TEXT</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__ContentId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the content for the component</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the content for the component</inlineHelpText>
+        <label>Content</label>
+        <referenceTo>Apttus__APTS_Template__c</referenceTo>
+        <relationshipLabel>Doc Assembly Components</relationshipLabel>
+        <relationshipName>DocAssemblyComponents</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__FieldName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of the field that leads to the target component</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the field that leads to the target component</inlineHelpText>
+        <label>Field Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__InsertPageBreak__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Inserts a page break after the component is inlined</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Inserts a page break after the component is inlined</inlineHelpText>
+        <label>Insert Page Break</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__RuleId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the associated rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated rule</inlineHelpText>
+        <label>Rule</label>
+        <referenceTo>Apttus__DocAssemblyRule__c</referenceTo>
+        <relationshipLabel>Components</relationshipLabel>
+        <relationshipName>Components</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Apttus__Sequence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The component sequence</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The component sequence</inlineHelpText>
+        <label>Sequence</label>
+        <precision>5</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The component type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The component type</inlineHelpText>
+        <label>Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Logo</fullName>
+                    <default>false</default>
+                    <label>Logo</label>
+                </value>
+                <value>
+                    <fullName>Header</fullName>
+                    <default>false</default>
+                    <label>Header</label>
+                </value>
+                <value>
+                    <fullName>Footer</fullName>
+                    <default>false</default>
+                    <label>Footer</label>
+                </value>
+                <value>
+                    <fullName>Terms and Conditions</fullName>
+                    <default>false</default>
+                    <label>Terms and Conditions</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Doc Assembly Component</label>
+    <nameField>
+        <displayFormat>AC-{0000000000}</displayFormat>
+        <label>Component Id</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Doc Assembly Components</pluralLabel>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>Apttus__Sequence__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__RuleId__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__Type__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__Sequence__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__RuleId__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__Type__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Apttus__Sequence__c</searchFilterFields>
+        <searchFilterFields>Apttus__RuleId__c</searchFilterFields>
+        <searchFilterFields>Apttus__Type__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

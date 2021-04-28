@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents a document version</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Apttus__AgreementId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the agreement associated with the document version</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the agreement associated with the document version</inlineHelpText>
+        <label>Agreement</label>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipLabel>Document Versions</relationshipLabel>
+        <relationshipName>DocumentVersions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__CheckoutById__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the user who checked out this document version</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the user who checked out this document version</inlineHelpText>
+        <label>Checkout By</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Document_Version</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__CheckoutDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Date when this document was checked out</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date when this document was checked out</inlineHelpText>
+        <label>Checkout Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__CheckoutVersionDetailId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the checked out version detail</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the checked out version detail</inlineHelpText>
+        <label>Checkout Version Detail</label>
+        <referenceTo>Apttus__DocumentVersionDetail__c</referenceTo>
+        <relationshipLabel>Document Versions (Checkout)</relationshipLabel>
+        <relationshipName>CheckoutVersionDetail</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__CustomObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the custom object associated with the document version</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the custom object associated with the document version</inlineHelpText>
+        <label>Custom Object Id (Deprecated)</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__DocumentType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Document type represents type of document in agreement life cycle</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Document type represents type of document in agreement life cycle</inlineHelpText>
+        <label>Document Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Agreement Document</fullName>
+                    <default>false</default>
+                    <label>Agreement Document</label>
+                </value>
+                <value>
+                    <fullName>Supporting Document</fullName>
+                    <default>false</default>
+                    <label>Supporting Document</label>
+                </value>
+                <value>
+                    <fullName>Executed Document</fullName>
+                    <default>false</default>
+                    <label>Executed Document</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__IsTransient__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates a transient version. A new version is in transient state until the document is successfully attached to the version. Workflow rules should check this field to test for false before firing so that rules are not incorrectly fired when transient versions are created .</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates a transient version. A new version is in transient state until the document is successfully attached to the version. Workflow rules should check this field to test for false before firing.</inlineHelpText>
+        <label>Is Transient</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__LatestReviewCycleStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>holds the status of the latest review cycle for this document.</description>
+        <externalId>false</externalId>
+        <label>Latest Review Cycle Status</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__LatestVersionId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to latest version object</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Lookup to latest version object</inlineHelpText>
+        <label>Latest Version Detail</label>
+        <referenceTo>Apttus__DocumentVersionDetail__c</referenceTo>
+        <relationshipLabel>Document Versions</relationshipLabel>
+        <relationshipName>DocumentVersions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__LatestVersion__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Represents the most recent version of this document</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Represents the most recent version of this document</inlineHelpText>
+        <label>Latest Version</label>
+        <length>25</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__Notes__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The notes associated with the version</description>
+        <externalId>false</externalId>
+        <label>Notes</label>
+        <length>2000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus__NumberOfVersions__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates the number of detail versions associated with the version</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the number of detail versions associated with the version</inlineHelpText>
+        <label>Number Of Versions</label>
+        <summaryForeignKey>Apttus__DocumentVersionDetail__c.Apttus__DocumentVersionId__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__PendingReviews__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Pending Reviews Count</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Count of Review Cycles Pending.</inlineHelpText>
+        <label>Pending Reviews</label>
+        <summarizedField>Apttus__DocumentVersionDetail__c.Apttus__PendingReviews__c</summarizedField>
+        <summaryForeignKey>Apttus__DocumentVersionDetail__c.Apttus__DocumentVersionId__c</summaryForeignKey>
+        <summaryOperation>max</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__ReferenceId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A unique external reference identifier</description>
+        <externalId>true</externalId>
+        <inlineHelpText>A unique external reference identifier</inlineHelpText>
+        <label>Reference</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__ReviewStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Review Status</description>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&apos;/apex/Apttus__ParallelReviewCycle?id=&apos;+  Id  , Apttus__LatestReviewCycleStatus__c, &quot;_self&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Review Status</inlineHelpText>
+        <label>Review Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__TemplateId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the template associated with the version</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the template associated with the version</inlineHelpText>
+        <label>Template</label>
+        <referenceTo>Apttus__APTS_Template__c</referenceTo>
+        <relationshipLabel>Document Versions</relationshipLabel>
+        <relationshipName>DocumentVersions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Title__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Title of the document</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Title of the document</inlineHelpText>
+        <label>Title</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__View__c</fullName>
+        <deprecated>false</deprecated>
+        <description>View latest version of the document</description>
+        <externalId>false</externalId>
+        <formula>Apttus__LatestVersionId__r.Apttus__View__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>View latest version of the document</inlineHelpText>
+        <label>View</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Document Version</label>
+    <nameField>
+        <label>Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Document Versions</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

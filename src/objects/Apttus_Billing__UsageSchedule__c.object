@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents a usage schedule for a product or service</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Apttus_Billing__ActualIncludedQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The actual included quantity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The actual included quantity</inlineHelpText>
+        <label>Actual Included Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ActualOverageQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The actual overage quantity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The actual overage quantity</inlineHelpText>
+        <label>Actual Overage Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ActualQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The actual usage quantity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The actual usage quantity</inlineHelpText>
+        <label>Actual Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__AssetLineItemId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated asset line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated asset line item</inlineHelpText>
+        <label>Asset Line Item</label>
+        <referenceTo>Apttus_Config2__AssetLineItem__c</referenceTo>
+        <relationshipLabel>Usage Schedules</relationshipLabel>
+        <relationshipName>UsageSchedules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__BillingScheduleId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated billing schedule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated billing schedule</inlineHelpText>
+        <label>Billing Schedule</label>
+        <referenceTo>Apttus_Billing__BillingSchedule__c</referenceTo>
+        <relationshipLabel>Usage Schedules</relationshipLabel>
+        <relationshipName>UsageSchedules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__FeeAmount__c</fullName>
+        <defaultValue>0.0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The running total of the usage charges for a given billing period.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The running total of the usage charges for a given billing period.</inlineHelpText>
+        <label>Fee Amount</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__IncludedQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The included quantity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The included quantity</inlineHelpText>
+        <label>Included Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__IsSuperseded__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Will initially be false and will be set to true when the Usage Schedule is superseded due to a Cancellation or Amendment to an Asset Line Item.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Will initially be false and will be set to true when the Usage Schedule is superseded due to a Cancellation or Amendment to an Asset Line Item.</inlineHelpText>
+        <label>Is Superseded</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__MaxQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The maximum usage quantity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The maximum usage quantity</inlineHelpText>
+        <label>Max Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__MinQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The minimum usage quantity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The minimum usage quantity</inlineHelpText>
+        <label>Min Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__PeriodEndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The usage period end date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The usage period end date</inlineHelpText>
+        <label>Period End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__PeriodStartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The usage period start date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The usage period start date</inlineHelpText>
+        <label>Period Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The schedule status</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The schedule status</inlineHelpText>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pending Billing</fullName>
+                    <default>true</default>
+                    <label>Pending Billing</label>
+                </value>
+                <value>
+                    <fullName>Pending Invoiced</fullName>
+                    <default>false</default>
+                    <label>Pending Invoiced</label>
+                </value>
+                <value>
+                    <fullName>Invoiced</fullName>
+                    <default>false</default>
+                    <label>Invoiced</label>
+                </value>
+                <value>
+                    <fullName>Superseded</fullName>
+                    <default>false</default>
+                    <label>Superseded</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The schedule type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The schedule type</inlineHelpText>
+        <label>Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Included Usage</fullName>
+                    <default>false</default>
+                    <label>Included Usage</label>
+                </value>
+                <value>
+                    <fullName>Usage</fullName>
+                    <default>false</default>
+                    <label>Usage</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__Uom__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The product or service unit of measure</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The product or service unit of measure</inlineHelpText>
+        <label>Product Uom</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SAP_EA</fullName>
+                    <default>false</default>
+                    <label>Each</label>
+                </value>
+                <value>
+                    <fullName>SAP_BX</fullName>
+                    <default>false</default>
+                    <label>Box</label>
+                </value>
+                <value>
+                    <fullName>SAP_PF</fullName>
+                    <default>false</default>
+                    <label>Pallet</label>
+                </value>
+                <value>
+                    <fullName>SAP_GRM</fullName>
+                    <default>false</default>
+                    <label>Gram</label>
+                </value>
+                <value>
+                    <fullName>SAP_KGM</fullName>
+                    <default>false</default>
+                    <label>Kilogram</label>
+                </value>
+                <value>
+                    <fullName>SAP_LTR</fullName>
+                    <default>false</default>
+                    <label>Liter</label>
+                </value>
+                <value>
+                    <fullName>SAP_PCE</fullName>
+                    <default>false</default>
+                    <label>Piece</label>
+                </value>
+                <value>
+                    <fullName>SAP_LZ</fullName>
+                    <default>false</default>
+                    <label>LAY120*80</label>
+                </value>
+                <value>
+                    <fullName>SAP_LY</fullName>
+                    <default>false</default>
+                    <label>LAY120*100</label>
+                </value>
+                <value>
+                    <fullName>SAP_PY1</fullName>
+                    <default>false</default>
+                    <label>HAP120*100</label>
+                </value>
+                <value>
+                    <fullName>SAP_PY2</fullName>
+                    <default>false</default>
+                    <label>FUP120*100</label>
+                </value>
+                <value>
+                    <fullName>SAP_ZQH</fullName>
+                    <default>false</default>
+                    <label>Quarter of Hour</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Usage Schedule</label>
+    <listViews>
+        <fullName>Apttus_Billing__All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>US-{00000000}</displayFormat>
+        <label>Schedule Id</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Usage Schedules</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

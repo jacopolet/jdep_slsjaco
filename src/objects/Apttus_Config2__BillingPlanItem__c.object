@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents a billing entry in a billing plan.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Apttus_Config2__Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The billing amount</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The billing amount</inlineHelpText>
+        <label>Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BillingPlanId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the associated billing plan</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated billing plan</inlineHelpText>
+        <label>Billing Plan</label>
+        <referenceTo>Apttus_Config2__BillingPlan__c</referenceTo>
+        <relationshipLabel>Items</relationshipLabel>
+        <relationshipName>Items</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BillingRule__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The billing rule associated with the plan item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The billing rule associated with the plan item</inlineHelpText>
+        <label>Billing Rule (Deprecated)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bill In Advance</fullName>
+                    <default>false</default>
+                    <label>Bill In Advance</label>
+                </value>
+                <value>
+                    <fullName>Bill In Arrears</fullName>
+                    <default>false</default>
+                    <label>Bill In Arrears</label>
+                </value>
+                <value>
+                    <fullName>Milestone Billing</fullName>
+                    <default>false</default>
+                    <label>Milestone Billing</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__FixedBillingDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The fixed billing date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The fixed billing date</inlineHelpText>
+        <label>Fixed Billing Date (Deprecated)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MilestoneId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the milestone associated with the plan item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the milestone associated with the plan item</inlineHelpText>
+        <label>Milestone</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.Apttus_Config2__BillingPlanId__c</field>
+                <operation>equals</operation>
+                <valueField>Apttus_Config2__Milestone2__c.Apttus_Config2__BillingPlanId__c</valueField>
+            </filterItems>
+            <infoMessage>Please choose a milestone to associate with the billing plan item</infoMessage>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Apttus_Config2__Milestone2__c</referenceTo>
+        <relationshipLabel>Billing Plan Items</relationshipLabel>
+        <relationshipName>BillingPlanItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PaymentTermId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the payment term associated with the plan item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the payment term associated with the plan item</inlineHelpText>
+        <label>Payment Term</label>
+        <referenceTo>Apttus_Config2__PaymentTerm__c</referenceTo>
+        <relationshipLabel>Billing Plan Items</relationshipLabel>
+        <relationshipName>BillingPlanItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Percent__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The billing amount expressed as a percentage</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The billing amount expressed as a percentage</inlineHelpText>
+        <label>Percent</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PeriodEndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The billing plan item end date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The billing plan item end date</inlineHelpText>
+        <label>Period End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PeriodStartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The billing plan item start date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The billing plan item start date</inlineHelpText>
+        <label>Period Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PlanItemName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The plan item name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The plan item name</inlineHelpText>
+        <label>Plan Item Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ReadyForInvoiceDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date when the plan is ready for generating an invoice</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date when the plan is ready for generating an invoice</inlineHelpText>
+        <label>Ready For Invoice Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <label>Billing Plan Item</label>
+    <nameField>
+        <displayFormat>BI-{00000000}</displayFormat>
+        <label>Item Id</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Billing Plan Items</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

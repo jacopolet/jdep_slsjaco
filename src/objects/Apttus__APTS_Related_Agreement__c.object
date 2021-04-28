@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>To identify the different types of relationships between agreements</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fieldSets>
+        <fullName>Apttus__AgreementExplorerRelatedFromFieldSet</fullName>
+        <description>Used for Related From Agreements in Agreement Explorer</description>
+        <displayedFields>
+            <field>Apttus__APTS_Contract_To__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus__APTS_Contract_To__r.Apttus__FF_Agreement_Number__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus__APTS_Contract_To__r.Apttus__Account__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus__Relationship_To_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus__APTS_Contract_To__r.Apttus__Status_Category__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus__APTS_Contract_To__r.Apttus__Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Agreement Explorer Related From Field Set</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Apttus__AgreementExplorerRelatedToFieldSet</fullName>
+        <description>Used for Related To Agreements in Agreement Explorer</description>
+        <displayedFields>
+            <field>Apttus__APTS_Contract_From__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus__APTS_Contract_From__r.Apttus__FF_Agreement_Number__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus__APTS_Contract_From__r.Apttus__Account__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus__Relationship_From_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus__APTS_Contract_From__r.Apttus__Status_Category__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus__APTS_Contract_From__r.Apttus__Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Agreement Explorer Related To Field Set</label>
+    </fieldSets>
+    <fields>
+        <fullName>Apttus__APTS_Contract_From__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Relationship From</label>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipName>R00N50000001Xl0WEAS</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__APTS_Contract_To__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Relationship To</label>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipName>R00N50000001Xl0KEAS</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Relationship_From_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Relationship From Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Related NDA Is</fullName>
+                    <default>false</default>
+                    <label>Related NDA Is</label>
+                </value>
+                <value>
+                    <fullName>Is NDA For</fullName>
+                    <default>false</default>
+                    <label>Is NDA For</label>
+                </value>
+                <value>
+                    <fullName>Is Master Of</fullName>
+                    <default>false</default>
+                    <label>Is Master Of</label>
+                </value>
+                <value>
+                    <fullName>Is Child Of</fullName>
+                    <default>false</default>
+                    <label>Is Child Of</label>
+                </value>
+                <value>
+                    <fullName>Is Related Contract</fullName>
+                    <default>false</default>
+                    <label>Is Related Contract</label>
+                </value>
+                <value>
+                    <fullName>Is SOW Of</fullName>
+                    <default>false</default>
+                    <label>Is SOW Of</label>
+                </value>
+                <value>
+                    <fullName>Is Amendment For</fullName>
+                    <default>false</default>
+                    <label>Is Amendment For</label>
+                </value>
+                <value>
+                    <fullName>Is Amended By</fullName>
+                    <default>false</default>
+                    <label>Is Amended By</label>
+                </value>
+                <value>
+                    <fullName>Is Superceded By</fullName>
+                    <default>false</default>
+                    <label>Is Superceded By</label>
+                </value>
+                <value>
+                    <fullName>Is Renewed By</fullName>
+                    <default>false</default>
+                    <label>Is Renewed By</label>
+                </value>
+                <value>
+                    <fullName>Is Renewal For</fullName>
+                    <default>false</default>
+                    <label>Is Renewal For</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__Relationship_To_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Relationship To Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Related NDA Is</fullName>
+                    <default>false</default>
+                    <label>Related NDA Is</label>
+                </value>
+                <value>
+                    <fullName>Is NDA For</fullName>
+                    <default>false</default>
+                    <label>Is NDA For</label>
+                </value>
+                <value>
+                    <fullName>Is Master Of</fullName>
+                    <default>false</default>
+                    <label>Is Master Of</label>
+                </value>
+                <value>
+                    <fullName>Is Child Of</fullName>
+                    <default>false</default>
+                    <label>Is Child Of</label>
+                </value>
+                <value>
+                    <fullName>Is Related Contract</fullName>
+                    <default>false</default>
+                    <label>Is Related Contract</label>
+                </value>
+                <value>
+                    <fullName>Is SOW Of</fullName>
+                    <default>false</default>
+                    <label>Is SOW Of</label>
+                </value>
+                <value>
+                    <fullName>Is Amendment For</fullName>
+                    <default>false</default>
+                    <label>Is Amendment For</label>
+                </value>
+                <value>
+                    <fullName>Is Amended By</fullName>
+                    <default>false</default>
+                    <label>Is Amended By</label>
+                </value>
+                <value>
+                    <fullName>Is Superceded By</fullName>
+                    <default>false</default>
+                    <label>Is Superceded By</label>
+                </value>
+                <value>
+                    <fullName>Is Renewal For</fullName>
+                    <default>false</default>
+                    <label>Is Renewal For</label>
+                </value>
+                <value>
+                    <fullName>Is Renewal By</fullName>
+                    <default>false</default>
+                    <label>Is Renewal By</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Related Agreement</label>
+    <nameField>
+        <label>Relationship Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Related Agreements</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

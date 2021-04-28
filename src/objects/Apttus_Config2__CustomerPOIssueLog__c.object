@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents an issue found when validating purchase order data</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Apttus_Config2__ContextField__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The API name of the field from purchase order header or the purchase order item for which the issue is logged</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The API name of the field from purchase order header or the purchase order item for which the issue is logged</inlineHelpText>
+        <label>Context Field</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CustomerPOItemId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID Of the associated purchase order item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID Of the associated purchase order item</inlineHelpText>
+        <label>Purchase Order Item</label>
+        <referenceTo>Apttus_Config2__CustomerPOItem__c</referenceTo>
+        <relationshipLabel>Customer PO Issue Logs</relationshipLabel>
+        <relationshipName>CustomerPOIssueLogs</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CustomerPurchaseOrderId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated purchase order</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated purchase order</inlineHelpText>
+        <label>Purchase Order</label>
+        <referenceTo>Apttus_Config2__CustomerPurchaseOrder__c</referenceTo>
+        <relationshipLabel>Customer PO Issue Logs</relationshipLabel>
+        <relationshipName>CustomerPOIssueLogs</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnrichmentRuleId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated data enrichment rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated data enrichment rule</inlineHelpText>
+        <label>Enrichment Rule</label>
+        <referenceTo>Apttus_Config2__DataEnrichmentRule__c</referenceTo>
+        <relationshipLabel>Issue Logs</relationshipLabel>
+        <relationshipName>IssueLogs</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ErrorType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The type of issue logged when validation fails. Error will mean that issue needs to be resolved before next process step</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The type of issue logged when validation fails. Error will mean that issue needs to be resolved before next process step</inlineHelpText>
+        <label>Error Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Error</fullName>
+                    <default>false</default>
+                    <label>Error</label>
+                </value>
+                <value>
+                    <fullName>Warning</fullName>
+                    <default>false</default>
+                    <label>Warning</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IssueDetails2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The details of the issue</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The details of the issue</inlineHelpText>
+        <label>Issue Details</label>
+        <length>1024</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IssueDetails__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The details of the issue</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The details of the issue</inlineHelpText>
+        <label>Issue Details (Deprecated)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ResolutionDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The DateTime when the issue was resolved</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The DateTime when the issue was resolved</inlineHelpText>
+        <label>Resolution Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Resolution__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds information about the final resolution of the issue</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Holds information about the final resolution of the issue</inlineHelpText>
+        <label>Resolution</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RulesetId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated data enrichment/validation rule set</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated data enrichment/validation rule set</inlineHelpText>
+        <label>Ruleset</label>
+        <referenceTo>Apttus_Config2__DataValidationEnrichmentRuleset__c</referenceTo>
+        <relationshipLabel>Issue Logs</relationshipLabel>
+        <relationshipName>IssueLogs</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This is to store current status of the issue</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the status of the issue</inlineHelpText>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Resolved</fullName>
+                    <default>false</default>
+                    <label>Resolved</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ValidationRuleId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated data validation rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated data validation rule</inlineHelpText>
+        <label>Validation Rule</label>
+        <referenceTo>Apttus_Config2__DataValidationRule__c</referenceTo>
+        <relationshipLabel>Issue Logs</relationshipLabel>
+        <relationshipName>IssueLogs</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Customer PO Issue Log</label>
+    <nameField>
+        <displayFormat>Log-{00000000}</displayFormat>
+        <label>Issue Id</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Customer PO Issue Logs</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

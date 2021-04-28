@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Store configurations for category discounts page</description>
+    <fields>
+        <fullName>APTS_Adjustment_Type_Structure__c</fullName>
+        <description>JSON string with the structure of type/subtype for adjustments</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Adjustment Type Structure</label>
+        <length>131072</length>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>APTS_Category_Options__c</fullName>
+        <description>Comma separated list of categories available in category adjustments page</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Category Options</label>
+        <length>10000</length>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <label>Category Discount Setting</label>
+    <pluralLabel>Category Discount Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

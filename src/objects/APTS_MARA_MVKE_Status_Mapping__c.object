@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>APTS_Active_Inactive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Active/Inactive</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Has_PLI_Active_PLI__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Has PLI/Active PLI</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_MARA_MVKE_Addition_Removal__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Field to check whether the combination of Cross Plant Status field code of Product Object and Sales Status field code of Sales Org Data field should be added or removed from &apos;Associated Sales Org&apos; field of Product Object. Created as part of Kauri Wave 3 Nov&apos;18 Release.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Field to check whether the combination of Cross Plant Status field code of Product Object and Sales Status field code of Sales Org Data field should be added or removed from &apos;Associated Sales Org&apos; field of Product Object.</inlineHelpText>
+        <label>MARA/MVKE Addition/Removal</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_MARA_MVKE_Field_Combination__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>Field to store the combination of Cross Plant Status field code of Product Object and Sales Status field code of Sales Org Data field. Created as part of Kauri Wave 3 Nov&apos;18 Release.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Field to store the combination of Cross Plant Status field code of Product Object and Sales Status field code of Sales Org Data field.</inlineHelpText>
+        <label>MARA/MVKE Field Combination</label>
+        <length>9</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Visible_in_Catalogue__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Visible in Catalogue</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>MARA MVKE Status Mapping</label>
+    <listViews>
+        <fullName>Mara_MVKE_Status_Mapping</fullName>
+        <columns>NAME</columns>
+        <columns>APTS_MARA_MVKE_Field_Combination__c</columns>
+        <columns>APTS_Active_Inactive__c</columns>
+        <columns>APTS_Has_PLI_Active_PLI__c</columns>
+        <columns>APTS_Visible_in_Catalogue__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>SETUP_OWNER_NAME</columns>
+        <columns>OBJECT_ID</columns>
+        <columns>SETUP_TYPE</columns>
+        <columns>APTS_MARA_MVKE_Addition_Removal__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Mara MVKE Status Mapping</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

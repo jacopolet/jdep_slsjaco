@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents a denormalized (materialized) view of product and classification hierarchies</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Apttus_Config2__CategoryHierarchy__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The category hierarchy associated with the child product</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The category hierarchy associated with the child product</inlineHelpText>
+        <label>Category Hierarchy</label>
+        <length>4000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ChildClassificationId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the child category</description>
+        <externalId>false</externalId>
+        <label>Child Category</label>
+        <referenceTo>Apttus_Config2__ClassificationHierarchy__c</referenceTo>
+        <relationshipLabel>Hierarchy View (Child)</relationshipLabel>
+        <relationshipName>HierarchyView2</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ChildLabel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The child category label</description>
+        <externalId>false</externalId>
+        <formula>Apttus_Config2__ChildClassificationId__r.Apttus_Config2__Label__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Child Label</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ChildLeft__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The child left visitation sequence</description>
+        <externalId>false</externalId>
+        <label>Child Left</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ChildLevel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The child product or category level</description>
+        <externalId>false</externalId>
+        <label>Child Level</label>
+        <precision>5</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ChildName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The child category name</description>
+        <externalId>false</externalId>
+        <formula>Apttus_Config2__ChildClassificationId__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Child Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ChildProductId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the child product</description>
+        <externalId>false</externalId>
+        <label>Child Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Hierarchy View</relationshipLabel>
+        <relationshipName>ProductHierarchyView</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ChildRight__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The child right visitation sequence</description>
+        <externalId>false</externalId>
+        <label>Child Right</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HierarchyId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the category hierarchy</description>
+        <externalId>false</externalId>
+        <label>Hierarchy</label>
+        <referenceTo>Apttus_Config2__ClassificationName__c</referenceTo>
+        <relationshipLabel>Product Hierarchy View</relationshipLabel>
+        <relationshipName>ProductHierarchyView</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IsDetail__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the node in the hierarchy is a detail node.</description>
+        <externalId>false</externalId>
+        <label>Is Detail</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IsInactive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the view is inactive.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the view is inactive.</inlineHelpText>
+        <label>Inactive</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ParentClassificationId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the parent category</description>
+        <externalId>false</externalId>
+        <label>Parent Category</label>
+        <referenceTo>Apttus_Config2__ClassificationHierarchy__c</referenceTo>
+        <relationshipLabel>Hierarchy View (Parent)</relationshipLabel>
+        <relationshipName>HierarchyView</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ParentLabel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The parent category label</description>
+        <externalId>false</externalId>
+        <formula>Apttus_Config2__ParentClassificationId__r.Apttus_Config2__Label__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Parent Label</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ParentLeft__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The parent left visitation sequence</description>
+        <externalId>false</externalId>
+        <label>Parent Left</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ParentLevel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The parent clategory level</description>
+        <externalId>false</externalId>
+        <label>Parent Level</label>
+        <precision>5</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ParentName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The parent category name</description>
+        <externalId>false</externalId>
+        <formula>Apttus_Config2__ParentClassificationId__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Parent Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ParentRight__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The parent right visitation sequence</description>
+        <externalId>false</externalId>
+        <label>Parent Right</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PriceListId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated price list</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated price list</inlineHelpText>
+        <label>Price List</label>
+        <referenceTo>Apttus_Config2__PriceList__c</referenceTo>
+        <relationshipLabel>Product Hierarchy View</relationshipLabel>
+        <relationshipName>ProductHierarchyView</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductActive__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the child product is active</description>
+        <externalId>false</externalId>
+        <formula>Apttus_Config2__ChildProductId__r.IsActive</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicates whether the child product is active</inlineHelpText>
+        <label>Product Active</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductClassificationId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The associated product classification ID.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The associated product classification ID.</inlineHelpText>
+        <label>Product Classification</label>
+        <referenceTo>Apttus_Config2__ProductClassification__c</referenceTo>
+        <relationshipLabel>Product Hierarchy View</relationshipLabel>
+        <relationshipName>ProductHierarchyView</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The product code</description>
+        <externalId>false</externalId>
+        <formula>Apttus_Config2__ChildProductId__r.ProductCode</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Code</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductConfigurationType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The product configuration type</description>
+        <externalId>false</externalId>
+        <formula>TEXT( Apttus_Config2__ChildProductId__r.Apttus_Config2__ConfigurationType__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Configuration Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductDescription__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The product description</description>
+        <externalId>false</externalId>
+        <formula>Apttus_Config2__ChildProductId__r.Description</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductEffectiveDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The product effective date. The product becomes available for selection on this date and time</description>
+        <externalId>false</externalId>
+        <formula>Apttus_Config2__ChildProductId__r.Apttus_Config2__EffectiveDate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Effective Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductExpirationDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The product effective date. The product is unavailable for selection after this date and time.</description>
+        <externalId>false</externalId>
+        <formula>Apttus_Config2__ChildProductId__r.Apttus_Config2__ExpirationDate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Expiration Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductFamily__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The product family</description>
+        <externalId>false</externalId>
+        <formula>TEXT(Apttus_Config2__ChildProductId__r.Family)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Family</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The product name</description>
+        <externalId>false</externalId>
+        <formula>Apttus_Config2__ChildProductId__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RelationshipType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The relationship type</description>
+        <externalId>false</externalId>
+        <label>Relationship Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Root Node</fullName>
+                    <default>false</default>
+                    <label>Root Node</label>
+                </value>
+                <value>
+                    <fullName>Classification Node</fullName>
+                    <default>false</default>
+                    <label>Classification Node</label>
+                </value>
+                <value>
+                    <fullName>Product Node</fullName>
+                    <default>false</default>
+                    <label>Product Node</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Sequence__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>Apttus_Config2__ProductClassificationId__r.Apttus_Config2__Sequence__c</formula>
+        <label>Sequence</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Product Hierarchy View</label>
+    <nameField>
+        <displayFormat>PV-{0000000000}</displayFormat>
+        <label>View Id</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Product Hierarchy Views</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Apttus_Config2__HierarchyId__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__ParentClassificationId__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__ParentLevel__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__ChildClassificationId__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__ChildProductId__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__ChildLevel__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__RelationshipType__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__IsDetail__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__HierarchyId__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__ParentClassificationId__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__ParentLevel__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__ChildClassificationId__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__ChildProductId__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__ChildLevel__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__RelationshipType__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__IsDetail__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__HierarchyId__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__ParentClassificationId__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__ParentLevel__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__ChildClassificationId__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__ChildProductId__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__ChildLevel__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__RelationshipType__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__IsDetail__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

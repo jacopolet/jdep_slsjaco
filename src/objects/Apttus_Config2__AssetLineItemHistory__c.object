@@ -1,0 +1,2531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents a product or service asset line item.history</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>APTS_Amendment_Effective_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Amendment Effective Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Bill_to_Party_Ingredients_and_Payer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Bill to Party (Ingredients)</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Asset Line Item History (Bill to Party (Ingredients))</relationshipLabel>
+        <relationshipName>Asset_Line_Item_History</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Bill_to_Party_Machines_Services__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Bill to Party (Machines &amp; Services)</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Asset Line Item History (Bill to Party (Machines &amp; Services))</relationshipLabel>
+        <relationshipName>Asset_Line_Item_History1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Calculated_Base_Extended_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Calculated Base Extended Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Calculated_List_Price__c</fullName>
+        <description>Field used to roll up the value of all options related with a bundle</description>
+        <externalId>false</externalId>
+        <label>Calculated List Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Category_Label__c</fullName>
+        <externalId>false</externalId>
+        <label>Category Label</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Category_Level__c</fullName>
+        <description>Category level field for CER implementation</description>
+        <externalId>false</externalId>
+        <label>Category Level</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>APTS_Category_Level</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Delivery_Gross_Amount_Rollup__c</fullName>
+        <externalId>false</externalId>
+        <label>Delivery Gross Amount Rollup</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Delivery_Net_Amount_Rollup__c</fullName>
+        <externalId>false</externalId>
+        <label>Delivery Net Amount Rollup</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Installation_Sales_Order_Id__c</fullName>
+        <description>Sales Order Number</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Sales Order Number</inlineHelpText>
+        <label>Sales Order Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Installation_Sales_Order_Item__c</fullName>
+        <description>Sales Order Item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Sales Order Item</inlineHelpText>
+        <label>Sales Order Item</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_PayerIngredients__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Payer Ingredients</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Asset Line Item History (Payer Ingredients)</relationshipLabel>
+        <relationshipName>Asset_Line_Item_History2</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_PayerMachinesServices__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Payer Machines &amp; Services</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Asset Line Item History (Payer Machines &amp; Services)</relationshipLabel>
+        <relationshipName>Asset_Line_Item_History3</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Physical_Asset__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Physical Asset</label>
+        <referenceTo>PhysicalAsset__c</referenceTo>
+        <relationshipLabel>Asset Line Item History</relationshipLabel>
+        <relationshipName>Asset_Line_Item_History</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Reason_code__c</fullName>
+        <description>Reason Code</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Reason Code</inlineHelpText>
+        <label>Reason code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Service_Rollup_Gross_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Service Rollup Gross Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Service_Rollup_Net_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Service Rollup Net Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Sub_Category__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Sub Category</label>
+        <referenceTo>Apttus_Config2__ClassificationHierarchy__c</referenceTo>
+        <relationshipLabel>Asset Line Item History</relationshipLabel>
+        <relationshipName>Asset_Line_Item_History_SubCategory</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Sub_Sub_Category__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Sub Sub Category</label>
+        <referenceTo>Apttus_Config2__ClassificationHierarchy__c</referenceTo>
+        <relationshipLabel>Asset Line Item History (Sub Sub Category)</relationshipLabel>
+        <relationshipName>Asset_Line_Item_History_SubSubCategory</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Type_Of_Contract__c</fullName>
+        <description>Type of Contract</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Type of Contract</inlineHelpText>
+        <label>Type of Contract</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sales</fullName>
+                    <default>false</default>
+                    <label>Sales</label>
+                </value>
+                <value>
+                    <fullName>Rent</fullName>
+                    <default>false</default>
+                    <label>Rent</label>
+                </value>
+                <value>
+                    <fullName>RentBuy</fullName>
+                    <default>false</default>
+                    <label>RentBuy</label>
+                </value>
+                <value>
+                    <fullName>Subscription</fullName>
+                    <default>false</default>
+                    <label>Subscription</label>
+                </value>
+                <value>
+                    <fullName>Free On Loan</fullName>
+                    <default>false</default>
+                    <label>Free On Loan</label>
+                </value>
+                <value>
+                    <fullName>Trial</fullName>
+                    <default>false</default>
+                    <label>Trial</label>
+                </value>
+                <value>
+                    <fullName>Consumption</fullName>
+                    <default>false</default>
+                    <label>Consumption Model</label>
+                </value>
+                <value>
+                    <fullName>Registration Form</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Registration Form</label>
+                </value>
+                <value>
+                    <fullName>Standard Buy</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Standard Buy</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__AgreementId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated agreement</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated agreement</inlineHelpText>
+        <label>Agreement</label>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipLabel>Asset Line Item History</relationshipLabel>
+        <relationshipName>AssetLineItemHistory</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__AgreementLineItemId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated agreement line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated agreement line item</inlineHelpText>
+        <label>Agreement Line Item</label>
+        <referenceTo>Apttus__AgreementLineItem__c</referenceTo>
+        <relationshipLabel>Asset Line Item History</relationshipLabel>
+        <relationshipName>AssetLineItemHistory</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AccountId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the sold to account</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the sold to account</inlineHelpText>
+        <label>Sold To</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Asset Line Item History (Sold To)</relationshipLabel>
+        <relationshipName>AssetLineItemHistory</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AdjustedPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The adjusted price (including option price)</description>
+        <externalId>false</externalId>
+        <label>Adjusted Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AllowedActions__c</fullName>
+        <deprecated>false</deprecated>
+        <description>List of actions that are allowed for the asset line item record. One or more of the pick list values can be selected. When none of the values are selected it is considered as all actions are allowed. The custom settings named Hide Asset Actions overrides the actions listed here.</description>
+        <externalId>false</externalId>
+        <label>Allowed Actions</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Increment</fullName>
+                    <default>false</default>
+                    <label>Increment</label>
+                </value>
+                <value>
+                    <fullName>Amend</fullName>
+                    <default>false</default>
+                    <label>Amend</label>
+                </value>
+                <value>
+                    <fullName>Renew</fullName>
+                    <default>false</default>
+                    <label>Renew</label>
+                </value>
+                <value>
+                    <fullName>Cancel</fullName>
+                    <default>false</default>
+                    <label>Cancel</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AssetARR__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The average annual recurring revenue from the asset over its lifetime.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The average annual recurring revenue from the asset over its lifetime.</inlineHelpText>
+        <label>Asset ARR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AssetAttributeValueId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated product attribute value</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated product attribute value</inlineHelpText>
+        <label>Attribute Value</label>
+        <referenceTo>Apttus_Config2__AssetAttributeValueHistory__c</referenceTo>
+        <relationshipLabel>Asset Line Items</relationshipLabel>
+        <relationshipName>AssetLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AssetCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The asset code</description>
+        <externalId>false</externalId>
+        <label>Asset Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AssetLineItemId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated asset line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated asset line item</inlineHelpText>
+        <label>Asset Line Item</label>
+        <referenceTo>Apttus_Config2__AssetLineItem__c</referenceTo>
+        <relationshipLabel>History</relationshipLabel>
+        <relationshipName>AssetLineItemHistory</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AssetMRR__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The average monthly recurring revenue from the asset over its lifetime</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The average monthly recurring revenue from the asset over its lifetime</inlineHelpText>
+        <label>Asset MRR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AssetNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The asset number</description>
+        <externalId>true</externalId>
+        <inlineHelpText>The asset number</inlineHelpText>
+        <label>Asset Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AssetStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The asset status</description>
+        <externalId>false</externalId>
+        <label>Asset Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>false</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Pending Activation</fullName>
+                    <default>false</default>
+                    <label>Pending Activation</label>
+                </value>
+                <value>
+                    <fullName>Pending Re-activation</fullName>
+                    <default>false</default>
+                    <label>Pending Re-activation</label>
+                </value>
+                <value>
+                    <fullName>Activated</fullName>
+                    <default>false</default>
+                    <label>Activated</label>
+                </value>
+                <value>
+                    <fullName>Pending Renewa</fullName>
+                    <default>false</default>
+                    <label>Pending Renewa</label>
+                </value>
+                <value>
+                    <fullName>Renewed</fullName>
+                    <default>false</default>
+                    <label>Renewed</label>
+                </value>
+                <value>
+                    <fullName>Pending Cancellation</fullName>
+                    <default>false</default>
+                    <label>Pending Cancellation</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>Pending Change</fullName>
+                    <default>false</default>
+                    <label>Pending Change</label>
+                </value>
+                <value>
+                    <fullName>Pending Suspension</fullName>
+                    <default>false</default>
+                    <label>Pending Suspension</label>
+                </value>
+                <value>
+                    <fullName>Suspended</fullName>
+                    <default>false</default>
+                    <label>Suspended</label>
+                </value>
+                <value>
+                    <fullName>Incremented</fullName>
+                    <default>false</default>
+                    <label>Incremented</label>
+                </value>
+                <value>
+                    <fullName>Amended</fullName>
+                    <default>false</default>
+                    <label>Amended</label>
+                </value>
+                <value>
+                    <fullName>Changed Configuration</fullName>
+                    <default>false</default>
+                    <label>Changed Configuration</label>
+                </value>
+                <value>
+                    <fullName>Superseded</fullName>
+                    <default>false</default>
+                    <label>Superseded</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AssetTCV__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total contract value of the asset over its lifetime</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total contract value of the asset over its lifetime</inlineHelpText>
+        <label>Asset TCV</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AssetTxnHistoryId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated asset transaction history</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated asset transaction history</inlineHelpText>
+        <label>Asset Transaction History</label>
+        <referenceTo>Apttus_Config2__AssetTransactionHistory__c</referenceTo>
+        <relationshipLabel>Asset Line Item History</relationshipLabel>
+        <relationshipName>AssetLineItemHistory</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AutoRenew__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the asset is set to auto renew</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the asset is set to auto renew</inlineHelpText>
+        <label>Auto Renew</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AutoRenewalType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The auto renewal type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The auto renewal type</inlineHelpText>
+        <label>Auto Renewal Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Fixed</fullName>
+                    <default>false</default>
+                    <label>Fixed</label>
+                </value>
+                <value>
+                    <fullName>Evergreen</fullName>
+                    <default>false</default>
+                    <label>Evergreen</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AvailableBalance__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The balance currently available for consumption post additions and deductions</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The balance currently available for consumption post additions and deductions</inlineHelpText>
+        <label>Available Balance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BaseCost__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The base cost is Cost + Automatic Adjustments for individual products and options</description>
+        <externalId>false</externalId>
+        <label>Base Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BaseExtendedCost__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The base extended cost is Quantity X Term (if applicable) X (Base Cost + Cost Adjustment) for individual products and options</description>
+        <externalId>false</externalId>
+        <label>Base Extended Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BaseExtendedPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The base extended price is Quantity X Base Price X Term (if applicable) for individual products and options</description>
+        <externalId>false</externalId>
+        <label>Base Extended Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BasePriceMethod__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The base price method</description>
+        <externalId>false</externalId>
+        <label>Base Price Method</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Per Unit</fullName>
+                    <default>false</default>
+                    <label>Per Unit</label>
+                </value>
+                <value>
+                    <fullName>Flat Price</fullName>
+                    <default>false</default>
+                    <label>Flat Price</label>
+                </value>
+                <value>
+                    <fullName>Tiered Rate</fullName>
+                    <default>false</default>
+                    <label>Tiered Rate</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BasePrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The base price is List price + Automatic Adjustments for individual products and options</description>
+        <externalId>false</externalId>
+        <label>Base Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BillThroughDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The last billing period date through which invoice has been generated</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The last billing period date through which invoice has been generated</inlineHelpText>
+        <label>Bill Through Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BillToAccountId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the bill to account</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the bill to account</inlineHelpText>
+        <label>Bill To</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Asset Line Item History (Bill To)</relationshipLabel>
+        <relationshipName>AssetLineItemHistoryBillTo</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BillingEndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The billing end date. Also known as the last billing period end date.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The billing end date. Also known as the last billing period end date.</inlineHelpText>
+        <label>Billing End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BillingFrequency__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The billing frequency associated with the recurring or usage price</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The billing frequency associated with the recurring or usage price</inlineHelpText>
+        <label>Billing Frequency</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hourly</fullName>
+                    <default>false</default>
+                    <label>Hourly</label>
+                </value>
+                <value>
+                    <fullName>Daily</fullName>
+                    <default>false</default>
+                    <label>Daily</label>
+                </value>
+                <value>
+                    <fullName>Monthly</fullName>
+                    <default>false</default>
+                    <label>Monthly</label>
+                </value>
+                <value>
+                    <fullName>Quarterly</fullName>
+                    <default>false</default>
+                    <label>Quarterly</label>
+                </value>
+                <value>
+                    <fullName>Half Yearly</fullName>
+                    <default>false</default>
+                    <label>Half Yearly</label>
+                </value>
+                <value>
+                    <fullName>Yearly</fullName>
+                    <default>false</default>
+                    <label>Yearly</label>
+                </value>
+                <value>
+                    <fullName>One Time</fullName>
+                    <default>false</default>
+                    <label>One Time</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BillingPlanId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated billing plan</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated billing plan</inlineHelpText>
+        <label>Billing Plan</label>
+        <referenceTo>Apttus_Config2__BillingPlan__c</referenceTo>
+        <relationshipLabel>Asset Line Item History</relationshipLabel>
+        <relationshipName>AssetLineItemHistory</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BillingPreferenceId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated billing preference</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated billing preference</inlineHelpText>
+        <label>Billing Preference</label>
+        <referenceTo>Apttus_Config2__BillingPreference__c</referenceTo>
+        <relationshipLabel>Asset Line Items (History)</relationshipLabel>
+        <relationshipName>AssetLineItemHistory</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BillingRule__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The billing rule associated with the price item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The billing rule associated with the price item</inlineHelpText>
+        <label>Billing Rule</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bill In Advance</fullName>
+                    <default>false</default>
+                    <label>Bill In Advance</label>
+                </value>
+                <value>
+                    <fullName>Bill In Arrears</fullName>
+                    <default>false</default>
+                    <label>Bill In Arrears</label>
+                </value>
+                <value>
+                    <fullName>Bill on Ready for Billing Date</fullName>
+                    <default>false</default>
+                    <label>Bill on Ready for Billing Date</label>
+                </value>
+                <value>
+                    <fullName>Milestone Billing</fullName>
+                    <default>false</default>
+                    <label>Milestone Billing</label>
+                </value>
+                <value>
+                    <fullName>Half Yearly</fullName>
+                    <default>false</default>
+                    <label>Half Yearly</label>
+                </value>
+                <value>
+                    <fullName>Yearly</fullName>
+                    <default>false</default>
+                    <label>Yearly</label>
+                </value>
+                <value>
+                    <fullName>One Time</fullName>
+                    <default>false</default>
+                    <label>One Time</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BillingStartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The billing start date. Also known as the first billing period end date.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The billing start date. Also known as the first billing period end date.</inlineHelpText>
+        <label>Billing Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BundeAssetLineItemId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated bundle line item.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated bundle line item.</inlineHelpText>
+        <label>Bundle Asset Line Item</label>
+        <referenceTo>Apttus_Config2__AssetLineItemHistory__c</referenceTo>
+        <relationshipLabel>Option Asset Line Items</relationshipLabel>
+        <relationshipName>OptionAssetLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BusinessLineItemId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Line Item Id  of the business object like agreement line item or proposal line item.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Line Item Id  of the business object like agreement line item or proposal line item.</inlineHelpText>
+        <label>Business Line Item</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BusinessObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the business object associated with the asset line item</description>
+        <externalId>false</externalId>
+        <label>Business Object</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BusinessObjectType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The type of the business object associated with the asset line item</description>
+        <externalId>false</externalId>
+        <label>Business Object Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Agreement</fullName>
+                    <default>false</default>
+                    <label>Agreement</label>
+                </value>
+                <value>
+                    <fullName>Proposal</fullName>
+                    <default>false</default>
+                    <label>Proposal</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CancelledDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date when the asset line item was cancelled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date when the asset line item was cancelled</inlineHelpText>
+        <label>Cancelled Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ChargeGroupId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the charge group to which this charge type is associated</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the charge group to which this charge type is associated</inlineHelpText>
+        <label>Charge Group</label>
+        <referenceTo>Apttus_Config2__ChargeGroup__c</referenceTo>
+        <relationshipLabel>Asset Line Item History</relationshipLabel>
+        <relationshipName>AssetLineItemHistory</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ChargeType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The charge type  associated with the product or service</description>
+        <externalId>false</externalId>
+        <label>Charge Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Rental Fee</fullName>
+                    <default>false</default>
+                    <label>Rental Fee</label>
+                </value>
+                <value>
+                    <fullName>Usage Fee</fullName>
+                    <default>false</default>
+                    <label>Usage Fee</label>
+                </value>
+                <value>
+                    <fullName>Service Fee</fullName>
+                    <default>false</default>
+                    <label>Service Fee</label>
+                </value>
+                <value>
+                    <fullName>Additional Service Fee</fullName>
+                    <default>false</default>
+                    <label>Additional Service Fee</label>
+                </value>
+                <value>
+                    <fullName>Sales Price</fullName>
+                    <default>false</default>
+                    <label>Sales Price</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Comments__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Memo text entered by the user</description>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>4000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CurrentContractStartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The start date of the current contract term as determined during a new sale or a renewal. Mid term changes do not result in a change to this value.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The start date of the current contract term as determined during a new sale or a renewal. Mid term changes do not result in a change to this value.</inlineHelpText>
+        <label>Current Contract Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CurrentContractTerm__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The term of the current contract period as determined during a new sale or a renewal. Mid term changes do not result in a change to this value.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The term of the current contract period as determined during a new sale or a renewal. Mid term changes do not result in a change to this value.</inlineHelpText>
+        <label>Current Contract Term</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CurrentContractUnitPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value of the current contract unit price for the product or service determined for the current contract term during a new sale or a renewal. Mid term changes do not result in a change to this value.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value of the current contract unit price for the product or service determined for the current contract term during a new sale or a renewal. Mid term changes do not result in a change to this value.</inlineHelpText>
+        <label>Current Contract Unit Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CurrentContractValue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value of the current contract as determined for the current contract term during a new sale or a renewal. Mid term changes do not result in a change to this value.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value of the current contract as determined for the current contract term during a new sale or a renewal. Mid term changes do not result in a change to this value.</inlineHelpText>
+        <label>Current Contract Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DeltaPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The change to the net price of the asset due to the latest order. It is positive for increments, negative for decrements and zero when there is no change.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The change to the net price of the asset due to the latest order. It is positive for increments, negative for decrements and zero when there is no change.</inlineHelpText>
+        <label>Delta Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DeltaQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The change in quantity for the asset due to the latest order. It is positive for increments, negative for decrements and zero when there is no change.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The change in quantity for the asset due to the latest order. It is positive for increments, negative for decrements and zero when there is no change.</inlineHelpText>
+        <label>Delta Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The line description</description>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The end date for products and services</description>
+        <externalId>false</externalId>
+        <label>End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ExtendedCost__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The extended cost is Quantity X Term X (Base Cost + Cost Adjustment + Option Cost)</description>
+        <externalId>false</externalId>
+        <label>Extended Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ExtendedDescription__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The extended line description</description>
+        <externalId>false</externalId>
+        <label>Extended Description</label>
+        <length>2048</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ExtendedPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The extended price is Quantity X Term X (Base Price + Price Adjustment + Option Price)</description>
+        <externalId>false</externalId>
+        <label>Extended Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Frequency__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The pricing frequency associated with the recurring or usage price</description>
+        <externalId>false</externalId>
+        <label>Pricing Frequency</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hourly</fullName>
+                    <default>false</default>
+                    <label>Hourly</label>
+                </value>
+                <value>
+                    <fullName>Daily</fullName>
+                    <default>false</default>
+                    <label>Daily</label>
+                </value>
+                <value>
+                    <fullName>Weekly</fullName>
+                    <default>false</default>
+                    <label>Weekly</label>
+                </value>
+                <value>
+                    <fullName>Monthly</fullName>
+                    <default>false</default>
+                    <label>Monthly</label>
+                </value>
+                <value>
+                    <fullName>Quarterly</fullName>
+                    <default>false</default>
+                    <label>Quarterly</label>
+                </value>
+                <value>
+                    <fullName>Half Yearly</fullName>
+                    <default>false</default>
+                    <label>Half Yearly</label>
+                </value>
+                <value>
+                    <fullName>Yearly</fullName>
+                    <default>false</default>
+                    <label>Yearly</label>
+                </value>
+                <value>
+                    <fullName>One Time</fullName>
+                    <default>true</default>
+                    <label>One Time</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HasAttributes__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the product has attributes.</description>
+        <externalId>false</externalId>
+        <label>Has Attributes</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HasOptions__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the product has options.</description>
+        <externalId>false</externalId>
+        <label>Has Options</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideInvoiceDisplay__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the item would be hidden in the invoice display.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the item would be hidden in the invoice display.</inlineHelpText>
+        <label>Hide Invoice Display</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__InitialActivationDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The initial activation date from the ready for activation on the first creation order.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The initial activation date from the ready for activation on the first creation order.</inlineHelpText>
+        <label>Initial Activation Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IsInactive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the asset is inactive.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the asset is inactive.</inlineHelpText>
+        <label>Inactive</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IsOptionRollupLine__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the line is an option rollup line</description>
+        <externalId>false</externalId>
+        <label>Is Option Rollup Line</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IsPrimaryLine__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the line is the primary line for the product or option</description>
+        <externalId>false</externalId>
+        <label>Is Primary Line</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IsPrimaryRampLine__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the line is the primary line for the price ramp. Only applicable when price ramp is in effect for the product or option</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the line is the primary line for the price ramp. Only applicable when price ramp is in effect for the product or option</inlineHelpText>
+        <label>Is Primary Ramp Line</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IsPrimaryService__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the service is primary or not.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the service is primary or not.</inlineHelpText>
+        <label>Is Primary Service</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IsReadOnly__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the asset line item is modifiable</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the asset line item is modifiable</inlineHelpText>
+        <label>Is Read Only</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IsRenewalPending__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates whether renewal is pending for the asset line item</description>
+        <externalId>false</externalId>
+        <formula>Apttus_Config2__NextRenewEndDate__c &gt;= Apttus_Config2__EndDate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicates whether renewal is pending for the asset line item</inlineHelpText>
+        <label>Is Renewal Pending</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IsRenewed__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the asset line item is renewed</description>
+        <externalId>false</externalId>
+        <formula>Apttus_Config2__EndDate__c  =  Apttus_Config2__LastRenewEndDate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicates whether the asset line item is renewed</inlineHelpText>
+        <label>Is Renewed</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IsUsageTierModifiable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the usage price tier is modifiable for the product or option</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the usage price tier is modifiable for the product or option</inlineHelpText>
+        <label>Is Usage Tier Modifiable</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ItemSequence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The sequence of items belonging to a line.</description>
+        <externalId>false</externalId>
+        <label>Item Sequence</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LastRenewEndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The last renew end date for the asset line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The last renew end date for the asset line item</inlineHelpText>
+        <label>Last Renew End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LegalEntityId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the legal entity associated with the asset. This will be used for downstream billing and revenue functions.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the legal entity associated with the asset. This will be used for downstream billing and revenue functions.</inlineHelpText>
+        <label>Legal Entity</label>
+        <referenceTo>Apttus_Config2__LegalEntity__c</referenceTo>
+        <relationshipLabel>Asset Line Item History</relationshipLabel>
+        <relationshipName>AssetLineItemHistory</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LineNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The line number.</description>
+        <externalId>false</externalId>
+        <label>Line Number</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LineType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The line type.</description>
+        <externalId>false</externalId>
+        <label>Line Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Product/Service</fullName>
+                    <default>false</default>
+                    <label>Product/Service</label>
+                </value>
+                <value>
+                    <fullName>Option</fullName>
+                    <default>false</default>
+                    <label>Option</label>
+                </value>
+                <value>
+                    <fullName>Misc</fullName>
+                    <default>false</default>
+                    <label>Misc</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ListPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The list price for the product or service with no adjustments</description>
+        <externalId>false</externalId>
+        <label>List Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LocationId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated account location</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated account location</inlineHelpText>
+        <label>Location</label>
+        <referenceTo>Apttus_Config2__AccountLocation__c</referenceTo>
+        <relationshipLabel>Asset Line Item History</relationshipLabel>
+        <relationshipName>AssetLineItemHistory</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MaxUsageQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The maximum usage quantity. Only applicable to usage items.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The maximum usage quantity. Only applicable to usage items.</inlineHelpText>
+        <label>Max Usage Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MinUsageQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The minimum usage quantity. Only applicable to usage items.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The minimum usage quantity. Only applicable to usage items.</inlineHelpText>
+        <label>Min Usage Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MustUpgrade__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Whether the product requires upgrade during renewal.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Whether the product requires upgrade during renewal.</inlineHelpText>
+        <label>Must Upgrade</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__NetPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The net price for the product or service is the Adjusted Price after applying the Group Adjustment %</description>
+        <externalId>false</externalId>
+        <label>Net Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__NetUnitPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The net unit price for the product or service is the Unit Adjusted Price after applying the Group Adjustment %</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The net unit price for the product or service is the Unit Adjusted Price after applying the Group Adjustment %</inlineHelpText>
+        <label>Net Unit Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__NextRenewEndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The next renew end date for the asset line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The next renew end date for the asset line item</inlineHelpText>
+        <label>Next Renew End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__OptionCost__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rolled up extended cost of options for the product</description>
+        <externalId>false</externalId>
+        <label>Option Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__OptionId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the selected option</description>
+        <externalId>false</externalId>
+        <label>Option</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Option Asset Line Item History</relationshipLabel>
+        <relationshipName>AssetOptionLineItemHistory</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__OptionPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rolled up adjusted price of options for the product</description>
+        <externalId>false</externalId>
+        <label>Option Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__OriginalStartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The original start date associated with the asset</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The original start date associated with the asset</inlineHelpText>
+        <label>Original Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ParentAssetId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The ID of the direct parent asset.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The ID of the direct parent asset.</inlineHelpText>
+        <label>Parent Asset Line Item</label>
+        <referenceTo>Apttus_Config2__AssetLineItemHistory__c</referenceTo>
+        <relationshipLabel>Child Asset Line Items</relationshipLabel>
+        <relationshipName>ChildAssetLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ParentBundleNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Represents the parent bundle number associated with the child bundle</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Represents the parent bundle number associated with the child bundle</inlineHelpText>
+        <label>Parent Bundle Number</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PaymentTermId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the payment term associated with the line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the payment term associated with the line item</inlineHelpText>
+        <label>Payment Term</label>
+        <referenceTo>Apttus_Config2__PaymentTerm__c</referenceTo>
+        <relationshipLabel>Asset Line Item History</relationshipLabel>
+        <relationshipName>AssetLineItemHistory</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PriceGroup__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price group associated with the product or option</description>
+        <externalId>false</externalId>
+        <label>Price Group</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Price Ramp</fullName>
+                    <default>false</default>
+                    <label>Price Ramp</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PriceIncludedInBundle__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the option price is included in the bundle. Only applicable to Option line types.</description>
+        <externalId>false</externalId>
+        <label>Price Included In Bundle</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PriceListId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Price List</label>
+        <referenceTo>Apttus_Config2__PriceList__c</referenceTo>
+        <relationshipName>AssetLineItemHistory</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PriceListItemId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Price List Item</label>
+        <referenceTo>Apttus_Config2__PriceListItem__c</referenceTo>
+        <relationshipName>AssetLineItemHistory</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PriceMethod__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price method</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The price method</inlineHelpText>
+        <label>Price Method</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Per Unit</fullName>
+                    <default>false</default>
+                    <label>Per Unit</label>
+                </value>
+                <value>
+                    <fullName>Flat Price</fullName>
+                    <default>false</default>
+                    <label>Flat Price</label>
+                </value>
+                <value>
+                    <fullName>Percentage</fullName>
+                    <default>false</default>
+                    <label>Percentage</label>
+                </value>
+                <value>
+                    <fullName>Related Price</fullName>
+                    <default>false</default>
+                    <label>Related Price</label>
+                </value>
+                <value>
+                    <fullName>Tiered Rate</fullName>
+                    <default>false</default>
+                    <label>Tiered Rate</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PriceType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price type</description>
+        <externalId>false</externalId>
+        <label>Price Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>One Time</fullName>
+                    <default>false</default>
+                    <label>One Time</label>
+                </value>
+                <value>
+                    <fullName>Recurring</fullName>
+                    <default>false</default>
+                    <label>Recurring</label>
+                </value>
+                <value>
+                    <fullName>Usage</fullName>
+                    <default>false</default>
+                    <label>Usage</label>
+                </value>
+                <value>
+                    <fullName>Included Usage</fullName>
+                    <default>false</default>
+                    <label>Included Usage</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PriceUom__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The pricing unit of measure for the product</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The pricing unit of measure for the product</inlineHelpText>
+        <label>Pricing Uom</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SAP_EA</fullName>
+                    <default>false</default>
+                    <label>Each</label>
+                </value>
+                <value>
+                    <fullName>SAP_BX</fullName>
+                    <default>false</default>
+                    <label>Box</label>
+                </value>
+                <value>
+                    <fullName>SAP_PF</fullName>
+                    <default>false</default>
+                    <label>Pallet</label>
+                </value>
+                <value>
+                    <fullName>SAP_GRM</fullName>
+                    <default>false</default>
+                    <label>Gram</label>
+                </value>
+                <value>
+                    <fullName>SAP_KGM</fullName>
+                    <default>false</default>
+                    <label>Kilogram</label>
+                </value>
+                <value>
+                    <fullName>SAP_LTR</fullName>
+                    <default>false</default>
+                    <label>Liter</label>
+                </value>
+                <value>
+                    <fullName>SAP_PCE</fullName>
+                    <default>false</default>
+                    <label>Piece</label>
+                </value>
+                <value>
+                    <fullName>SAP_LZ</fullName>
+                    <default>false</default>
+                    <label>LAY120*80</label>
+                </value>
+                <value>
+                    <fullName>SAP_LY</fullName>
+                    <default>false</default>
+                    <label>LAY120*100</label>
+                </value>
+                <value>
+                    <fullName>SAP_PY1</fullName>
+                    <default>false</default>
+                    <label>HAP120*100</label>
+                </value>
+                <value>
+                    <fullName>SAP_PY2</fullName>
+                    <default>false</default>
+                    <label>FUP120*100</label>
+                </value>
+                <value>
+                    <fullName>SAP_ZQH</fullName>
+                    <default>false</default>
+                    <label>Quarter of Hour</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PricingDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The pricing date, The product list price is determined based on this date.</description>
+        <externalId>false</externalId>
+        <label>Pricing Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PrimaryLineNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Represents the unique number for each primary line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Represents the unique number for each primary line item</inlineHelpText>
+        <label>Primary Line Number</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the selected product or service</description>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Asset Line Item History</relationshipLabel>
+        <relationshipName>AssetLineItemHistory</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The product type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The product type</inlineHelpText>
+        <label>Product Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Equipment</fullName>
+                    <default>false</default>
+                    <label>Equipment</label>
+                </value>
+                <value>
+                    <fullName>Service</fullName>
+                    <default>false</default>
+                    <label>Service</label>
+                </value>
+                <value>
+                    <fullName>Entitlement</fullName>
+                    <default>false</default>
+                    <label>Entitlement</label>
+                </value>
+                <value>
+                    <fullName>License</fullName>
+                    <default>false</default>
+                    <label>License</label>
+                </value>
+                <value>
+                    <fullName>Maintenance</fullName>
+                    <default>false</default>
+                    <label>Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Wallet</fullName>
+                    <default>false</default>
+                    <label>Wallet</label>
+                </value>
+                <value>
+                    <fullName>Subscription</fullName>
+                    <default>false</default>
+                    <label>Subscription</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PurchaseDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The purchase date for products or services.</description>
+        <externalId>false</externalId>
+        <label>Purchase Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PurchaseId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The purchase identifier associated with the asset</description>
+        <externalId>true</externalId>
+        <inlineHelpText>The purchase identifier associated with the asset</inlineHelpText>
+        <label>Purchase Identifier</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Quantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The product or service quantity</description>
+        <externalId>false</externalId>
+        <label>Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RenewalAdjustmentAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The renewal price adjustment amount.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The renewal price adjustment amount.</inlineHelpText>
+        <label>Renewal Adjustment Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RenewalAdjustmentType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The renewal price adjustment type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The renewal price adjustment type</inlineHelpText>
+        <label>Renewal Adjustment Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>% Uplift</fullName>
+                    <default>false</default>
+                    <label>% Uplift</label>
+                </value>
+                <value>
+                    <fullName>Uplift Amount</fullName>
+                    <default>false</default>
+                    <label>Uplift Amount</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RenewalDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The asset renewal date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The asset renewal date</inlineHelpText>
+        <label>Renewal Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RenewalFrequency__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The asset renewal frequency</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The asset renewal frequency</inlineHelpText>
+        <label>Renewal Frequency</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hourly</fullName>
+                    <default>false</default>
+                    <label>Hourly</label>
+                </value>
+                <value>
+                    <fullName>Daily</fullName>
+                    <default>false</default>
+                    <label>Daily</label>
+                </value>
+                <value>
+                    <fullName>Weekly</fullName>
+                    <default>false</default>
+                    <label>Weekly</label>
+                </value>
+                <value>
+                    <fullName>Monthly</fullName>
+                    <default>false</default>
+                    <label>Monthly</label>
+                </value>
+                <value>
+                    <fullName>Quarterly</fullName>
+                    <default>false</default>
+                    <label>Quarterly</label>
+                </value>
+                <value>
+                    <fullName>Half Yearly</fullName>
+                    <default>false</default>
+                    <label>Half Yearly</label>
+                </value>
+                <value>
+                    <fullName>Yearly</fullName>
+                    <default>false</default>
+                    <label>Yearly</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RenewalLineItemId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated renewal line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated renewal line item</inlineHelpText>
+        <label>Renewal Line Item</label>
+        <referenceTo>Apttus_Config2__LineItem__c</referenceTo>
+        <relationshipLabel>Renewal Asset Line Item History</relationshipLabel>
+        <relationshipName>RenewalAssetLineItemHistory</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RenewalTerm__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The asset renewal term</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The asset renewal term</inlineHelpText>
+        <label>Renewal Term</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SellingFrequency__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The selling frequency associated with the recurring or usage price</description>
+        <externalId>false</externalId>
+        <label>Selling Frequency</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hourly</fullName>
+                    <default>false</default>
+                    <label>Hourly</label>
+                </value>
+                <value>
+                    <fullName>Daily</fullName>
+                    <default>false</default>
+                    <label>Daily</label>
+                </value>
+                <value>
+                    <fullName>Weekly</fullName>
+                    <default>false</default>
+                    <label>Weekly</label>
+                </value>
+                <value>
+                    <fullName>Monthly</fullName>
+                    <default>false</default>
+                    <label>Monthly</label>
+                </value>
+                <value>
+                    <fullName>Quarterly</fullName>
+                    <default>false</default>
+                    <label>Quarterly</label>
+                </value>
+                <value>
+                    <fullName>Half Yearly</fullName>
+                    <default>false</default>
+                    <label>Half Yearly</label>
+                </value>
+                <value>
+                    <fullName>Yearly</fullName>
+                    <default>false</default>
+                    <label>Yearly</label>
+                </value>
+                <value>
+                    <fullName>One Time</fullName>
+                    <default>true</default>
+                    <label>One Time</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SellingTerm__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The selling term associated with the product or service</description>
+        <externalId>false</externalId>
+        <label>Selling Term</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SellingUom__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The selling unit of measure for the product</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The selling unit of measure for the product</inlineHelpText>
+        <label>Selling Uom</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SAP_EA</fullName>
+                    <default>false</default>
+                    <label>Each</label>
+                </value>
+                <value>
+                    <fullName>SAP_BX</fullName>
+                    <default>false</default>
+                    <label>Box</label>
+                </value>
+                <value>
+                    <fullName>SAP_PF</fullName>
+                    <default>false</default>
+                    <label>Pallet</label>
+                </value>
+                <value>
+                    <fullName>SAP_GRM</fullName>
+                    <default>false</default>
+                    <label>Gram</label>
+                </value>
+                <value>
+                    <fullName>SAP_KGM</fullName>
+                    <default>false</default>
+                    <label>Kilogram</label>
+                </value>
+                <value>
+                    <fullName>SAP_LTR</fullName>
+                    <default>false</default>
+                    <label>Liter</label>
+                </value>
+                <value>
+                    <fullName>SAP_PCE</fullName>
+                    <default>false</default>
+                    <label>Piece</label>
+                </value>
+                <value>
+                    <fullName>SAP_LZ</fullName>
+                    <default>false</default>
+                    <label>LAY120*80</label>
+                </value>
+                <value>
+                    <fullName>SAP_LY</fullName>
+                    <default>false</default>
+                    <label>LAY120*100</label>
+                </value>
+                <value>
+                    <fullName>SAP_PY1</fullName>
+                    <default>false</default>
+                    <label>HAP120*100</label>
+                </value>
+                <value>
+                    <fullName>SAP_PY2</fullName>
+                    <default>false</default>
+                    <label>FUP120*100</label>
+                </value>
+                <value>
+                    <fullName>SAP_ZQH</fullName>
+                    <default>false</default>
+                    <label>Quarter of Hour</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ShipToAccountId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the ship to account</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the ship to account</inlineHelpText>
+        <label>Ship To</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Asset Line Item History (Ship To)</relationshipLabel>
+        <relationshipName>AssetLineItemHistoryShipTo</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__StartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The start date for products and services</description>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__TaxCodeId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the tax code associated with the line item. Only applicable for taxable items.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the tax code associated with the line item. Only applicable for taxable items.</inlineHelpText>
+        <label>Tax Code</label>
+        <referenceTo>Apttus_Config2__TaxCode__c</referenceTo>
+        <relationshipLabel>Asset Line Item History</relationshipLabel>
+        <relationshipName>AssetLineItemHistory</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__TaxInclusive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the price is tax inclusive. Only applicable for taxable items.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the price is tax inclusive. Only applicable for taxable items.</inlineHelpText>
+        <label>Tax Inclusive ?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Taxable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the line item is taxable</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the line item is taxable</inlineHelpText>
+        <label>Taxable ?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Term__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The pricing term associated with the product or service</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The pricing term associated with the product or service</inlineHelpText>
+        <label>Pricing Term</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__TotalBalance__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The amount added to the asset till date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The amount added to the asset till date</inlineHelpText>
+        <label>Total Balance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__TotalQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total quantity of product across various instances or purchase identifiers</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total quantity of product across various instances or purchase identifiers</inlineHelpText>
+        <label>Total Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ProposalId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated quote/proposal</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated quote/proposal</inlineHelpText>
+        <label>Quote/Proposal</label>
+        <referenceTo>Apttus_Proposal__Proposal__c</referenceTo>
+        <relationshipLabel>Asset Line Item History</relationshipLabel>
+        <relationshipName>AssetLineItemHistory</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ProposalLineItemId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated quote/proposal line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated quote/proposal line item</inlineHelpText>
+        <label>Quote Line Item</label>
+        <referenceTo>Apttus_Proposal__Proposal_Line_Item__c</referenceTo>
+        <relationshipLabel>Asset Line Item History</relationshipLabel>
+        <relationshipName>AssetLineItemHistory</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Asset Line Item History</label>
+    <nameField>
+        <label>Asset Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Asset Line Item History</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

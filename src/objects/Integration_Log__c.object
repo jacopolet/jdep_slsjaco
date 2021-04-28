@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This object contains the transaction statuses of messages sent to SAP PI.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Read</externalSharingModel>
+    <fields>
+        <fullName>APTS_Product_Ext_ID__c</fullName>
+        <description>ID that is used for APTTUS junction objects to match to the related Product ID.</description>
+        <externalId>false</externalId>
+        <label>Product Ext.ID</label>
+        <length>60</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Product_Staging__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Product Staging record associated to the Integration Log record</description>
+        <externalId>false</externalId>
+        <label>Pricing Staging</label>
+        <referenceTo>APTS_Pricing_Staging__c</referenceTo>
+        <relationshipLabel>Integration Logs</relationshipLabel>
+        <relationshipName>Integration_Logs</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AccountLocation__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account Location</label>
+        <referenceTo>Apttus_Config2__AccountLocation__c</referenceTo>
+        <relationshipLabel>Integration Logs</relationshipLabel>
+        <relationshipName>Integration_Logs</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Lookup to Account object if related to this transaction</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Lookup to Account object if related to this transaction</inlineHelpText>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Integration Logs</relationshipLabel>
+        <relationshipName>Integration_Logs</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Agreement__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Agreement</label>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipLabel>Integration Logs</relationshipLabel>
+        <relationshipName>Integration_Logs</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Asset__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Asset</label>
+        <referenceTo>Asset</referenceTo>
+        <relationshipLabel>Integration Logs</relationshipLabel>
+        <relationshipName>Integration_Logs</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Bank_Detail__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Bank Detail</label>
+        <referenceTo>Bank_Details__c</referenceTo>
+        <relationshipLabel>Integration Logs</relationshipLabel>
+        <relationshipName>Integration_Logs</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Billing_Schedule__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Billing Schedule</label>
+        <referenceTo>Apttus_Billing__BillingSchedule__c</referenceTo>
+        <relationshipLabel>Integration Logs</relationshipLabel>
+        <relationshipName>Integration_Logs</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CSoft_Finish__c</fullName>
+        <externalId>false</externalId>
+        <label>CSoft_Finish</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSoft_Start__c</fullName>
+        <externalId>false</externalId>
+        <label>CSoft_Start</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CSoft_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>CSoft_Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cancelation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Cancelation</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Integration Logs</relationshipLabel>
+        <relationshipName>Integration_Logs</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>First_Aid_Kit__c</fullName>
+        <defaultValue>&quot;https://coffeeandtea.sharepoint.com/:x:/r/sites/jdep-kc/_layouts/15/doc2.aspx?sourcedoc={6C88CD73-642F-4B3C-949D-2F2CB4493AC5}&amp;file=First Aid Kit Integration Logs.xlsx&amp;action=default&amp;mobileredirect=true&amp;cid=3c29c42b-9c29-44b3-a80d-eb4fa2052693&quot;</defaultValue>
+        <externalId>false</externalId>
+        <label>First Aid Kit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Integration_Message__c</fullName>
+        <description>Any messages sent from SAP PI to Salesforce (error and success messages).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Any messages sent from SAP PI to Salesforce (error and success messages).</inlineHelpText>
+        <label>Integration Message</label>
+        <length>50000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Integration_Status_Image__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+AND(
+ISPICKVAL(Integration_Status__c, &apos;Outbound Message Triggered&apos;),
+(NOW() - DATETIMEVALUE(Triggered_Timestamp__c))*24*60 &lt; 1),
+IMAGE(&apos;/resource/Outbound_Message_Green&apos;, &apos;Outbound Message Green&apos;, 20, 20),
+IF(
+AND(
+ISPICKVAL(Integration_Status__c, &apos;Outbound Message Triggered&apos;),
+(NOW() - DATETIMEVALUE(Triggered_Timestamp__c))*24*60 &gt; 1,
+(NOW() - DATETIMEVALUE(Triggered_Timestamp__c))*24*60 &lt; 6),
+IMAGE(&apos;/resource/Outbound_Message_Yellow&apos;, &apos;Outbound Message Yellow&apos;, 20, 20),
+IF(
+AND(
+ISPICKVAL(Integration_Status__c, &apos;Outbound Message Triggered&apos;),
+(NOW() - DATETIMEVALUE(Triggered_Timestamp__c))*24*60 &gt; 6),
+IMAGE(&apos;/resource/Target_System_Error&apos;, &apos;Outbound Message Red&apos;, 20, 20),
+IF(
+ISPICKVAL(Integration_Status__c, &apos;Target System Error&apos;),
+IMAGE(&apos;/resource/Target_System_Error&apos;, &apos;Target System Error&apos;, 20, 20),
+IF(
+ISPICKVAL(Integration_Status__c, &apos;Target System Success&apos;),
+IMAGE(&apos;/resource/Target_System_Success&apos;, &apos;Target System Success&apos;, 20, 20),
+&apos;&apos;
+)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Integration Status Image</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Integration_Status__c</fullName>
+        <description>Status of the triggered transaction.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Status of the triggered transaction.</inlineHelpText>
+        <label>Integration Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Initial</fullName>
+                    <default>true</default>
+                    <label>Initial</label>
+                </value>
+                <value>
+                    <fullName>Waiting on Parent Integration</fullName>
+                    <default>false</default>
+                    <label>Waiting on Parent Integration</label>
+                </value>
+                <value>
+                    <fullName>Outbound Message Triggered</fullName>
+                    <default>false</default>
+                    <label>Outbound Message Triggered</label>
+                </value>
+                <value>
+                    <fullName>Target System Success</fullName>
+                    <default>false</default>
+                    <label>Target System Success</label>
+                </value>
+                <value>
+                    <fullName>Target System Error</fullName>
+                    <default>false</default>
+                    <label>Target System Error</label>
+                </value>
+                <value>
+                    <fullName>Paused</fullName>
+                    <default>false</default>
+                    <label>Paused</label>
+                </value>
+                <value>
+                    <fullName>Product Batch Upsert Completed</fullName>
+                    <default>false</default>
+                    <label>Product Batch Upsert Completed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Invoice__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Invoice</label>
+        <referenceTo>Apttus_Billing__Invoice__c</referenceTo>
+        <relationshipLabel>Integration Logs</relationshipLabel>
+        <relationshipName>Integration_Logs</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Object_Id__c</fullName>
+        <description>This is a generic field that will be used to store the record ID (Account, Order, etc.) and is used by SAP PI. This avoids the use of lookup fields in the interface and the need to change the WSDL per new Salesforce object that needs to be integrated and therefore impacting SAP PI.</description>
+        <externalId>true</externalId>
+        <label>Object Id</label>
+        <length>18</length>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Object__c</fullName>
+        <description>Object triggering the transaction</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Object triggering the transaction</inlineHelpText>
+        <label>Object</label>
+        <length>50</length>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Order</label>
+        <referenceTo>Apttus_Config2__Order__c</referenceTo>
+        <relationshipLabel>Integration Logs</relationshipLabel>
+        <relationshipName>Integration_Logs</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Parent_Integration_Log__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Parent Integration Log</label>
+        <referenceTo>Integration_Log__c</referenceTo>
+        <relationshipLabel>Related Integration Logs</relationshipLabel>
+        <relationshipName>Related_Integration_Logs</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Part_Request__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Part Request</label>
+        <referenceTo>Part_Request__c</referenceTo>
+        <relationshipLabel>Integration Logs</relationshipLabel>
+        <relationshipName>Integration_Logs</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Quote_Proposal__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Quote/Proposal</label>
+        <referenceTo>Apttus_Proposal__Proposal__c</referenceTo>
+        <relationshipLabel>Integration Logs</relationshipLabel>
+        <relationshipName>Integration_Logs</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RTR_LAE_Staging__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>RTR LAE Staging</label>
+        <referenceTo>RTR_LAE_Staging_Data__c</referenceTo>
+        <relationshipLabel>Integration Logs</relationshipLabel>
+        <relationshipName>Integration_Logs</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Ready_To_Be_Sent__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Ready To Be Sent</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Related_Invoice__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related Invoice</label>
+        <referenceTo>Related_Invoice__c</referenceTo>
+        <relationshipLabel>Integration Logs</relationshipLabel>
+        <relationshipName>Integration_Logs</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SessionID__c</fullName>
+        <externalId>false</externalId>
+        <label>Session ID</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Target_System_Processed_TimeStamp__c</fullName>
+        <description>Date Time when the transaction was processed by SAP (success message from SAP to SAP PI).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date Time when the transaction was processed by SAP (success message from SAP to SAP PI).</inlineHelpText>
+        <label>Target System Processed TimeStamp</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Test__c</fullName>
+        <displayFormat>T-{0000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Test</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Timed_Out__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Timed Out</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Triggered_Timestamp__c</fullName>
+        <description>Trigger date time from Salesforce.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Trigger date time from Salesforce.</inlineHelpText>
+        <label>Triggered Timestamp</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>false</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Change</fullName>
+                    <default>false</default>
+                    <label>Change</label>
+                </value>
+                <value>
+                    <fullName>Termination</fullName>
+                    <default>false</default>
+                    <label>Termination</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Useful_Container__c</fullName>
+        <externalId>false</externalId>
+        <label>Useful Container</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Work_Order_Line_Item__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Work Order Line Item</label>
+        <referenceTo>WorkOrderLineItem</referenceTo>
+        <relationshipLabel>Integration Logs</relationshipLabel>
+        <relationshipName>Integration_Logs</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Work_Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Work Order</label>
+        <referenceTo>WorkOrder</referenceTo>
+        <relationshipLabel>Integration Logs</relationshipLabel>
+        <relationshipName>Integration_Logs</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Integration Log</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Asset__c</columns>
+        <columns>Agreement__c</columns>
+        <columns>Integration_Message__c</columns>
+        <columns>Object__c</columns>
+        <columns>Object_Id__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Integration_Status_Image__c</columns>
+        <columns>Type__c</columns>
+        <columns>RTR_LAE_Staging__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Click_Attachment_Failures_Initial</fullName>
+        <columns>NAME</columns>
+        <columns>Integration_Message__c</columns>
+        <columns>Integration_Status__c</columns>
+        <columns>Integration_Status_Image__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>Work_Order_Line_Item__c</columns>
+        <columns>Useful_Container__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Object__c</field>
+            <operation>equals</operation>
+            <value>Click - ATTACHMENT</value>
+        </filters>
+        <filters>
+            <field>Integration_Status__c</field>
+            <operation>equals</operation>
+            <value>Initial,Target System Error</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>LAST_N_DAYS:30</value>
+        </filters>
+        <label>Click Attachment Failures/Initial</label>
+    </listViews>
+    <listViews>
+        <fullName>Click_Integration_Failures</fullName>
+        <columns>NAME</columns>
+        <columns>Integration_Message__c</columns>
+        <columns>Integration_Status__c</columns>
+        <columns>Integration_Status_Image__c</columns>
+        <columns>Object_Id__c</columns>
+        <columns>Object__c</columns>
+        <columns>Work_Order_Line_Item__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Object__c</field>
+            <operation>contains</operation>
+            <value>Click</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <filters>
+            <field>Integration_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Initial,Target System Success</value>
+        </filters>
+        <filters>
+            <field>Object__c</field>
+            <operation>notEqual</operation>
+            <value>Click - ClickNotification,Click - SessionId,Click - OperatingTask</value>
+        </filters>
+        <label>Click Integration Failures (Non-Batch)</label>
+    </listViews>
+    <listViews>
+        <fullName>Click_Integration_Failures_JDE_Batch</fullName>
+        <columns>NAME</columns>
+        <columns>Integration_Message__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>Integration_Status__c</columns>
+        <columns>Integration_Status_Image__c</columns>
+        <columns>Object__c</columns>
+        <columns>Work_Order_Line_Item__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>equals</operation>
+            <value>JDE-Apex-Batch,Karen Hung,Abram Reyes</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <filters>
+            <field>Object__c</field>
+            <operation>contains</operation>
+            <value>Click</value>
+        </filters>
+        <filters>
+            <field>Integration_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Initial,Target System Success</value>
+        </filters>
+        <label>Click Integration Failures (JDE Batch)</label>
+    </listViews>
+    <listViews>
+        <fullName>Click_Integration_Failures_User</fullName>
+        <columns>NAME</columns>
+        <columns>Integration_Message__c</columns>
+        <columns>Integration_Status__c</columns>
+        <columns>Integration_Status_Image__c</columns>
+        <columns>Object_Id__c</columns>
+        <columns>Object__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Object__c</field>
+            <operation>contains</operation>
+            <value>User</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_WEEK</value>
+        </filters>
+        <filters>
+            <field>Integration_Status__c</field>
+            <operation>equals</operation>
+            <value>Initial,Target System Error</value>
+        </filters>
+        <label>Click Integration Failures (User)</label>
+    </listViews>
+    <listViews>
+        <fullName>Click_logs</fullName>
+        <columns>NAME</columns>
+        <columns>Integration_Message__c</columns>
+        <columns>Integration_Status__c</columns>
+        <columns>Object__c</columns>
+        <columns>Object_Id__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>contains</operation>
+            <value>ClickSoftware</value>
+        </filters>
+        <label>Logs Created by ClickSoftwareUser</label>
+    </listViews>
+    <listViews>
+        <fullName>Integration_Create_User</fullName>
+        <columns>NAME</columns>
+        <columns>Integration_Message__c</columns>
+        <columns>Integration_Status__c</columns>
+        <columns>Integration_Status_Image__c</columns>
+        <columns>Object__c</columns>
+        <columns>Object_Id__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Object__c</field>
+            <operation>equals</operation>
+            <value>Click - Request to Create User</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_MONTH</value>
+        </filters>
+        <label>Integration - Create User</label>
+    </listViews>
+    <listViews>
+        <fullName>Integration_Logs_Today</fullName>
+        <columns>NAME</columns>
+        <columns>Object__c</columns>
+        <columns>Object_Id__c</columns>
+        <columns>Integration_Status__c</columns>
+        <columns>Integration_Status_Image__c</columns>
+        <columns>Integration_Message__c</columns>
+        <columns>Work_Order_Line_Item__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>All (Today)</label>
+    </listViews>
+    <listViews>
+        <fullName>Integration_Master_Product</fullName>
+        <columns>NAME</columns>
+        <columns>Integration_Message__c</columns>
+        <columns>Integration_Status__c</columns>
+        <columns>Integration_Status_Image__c</columns>
+        <columns>Object__c</columns>
+        <columns>Object_Id__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Object__c</field>
+            <operation>equals</operation>
+            <value>Click - Sync Master Product</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_MONTH</value>
+        </filters>
+        <filters>
+            <field>Integration_Status__c</field>
+            <operation>equals</operation>
+            <value>Target System Error</value>
+        </filters>
+        <label>Integration - Master Product</label>
+    </listViews>
+    <listViews>
+        <fullName>Logs_on_Initial_State</fullName>
+        <columns>NAME</columns>
+        <columns>Object__c</columns>
+        <columns>Object_Id__c</columns>
+        <columns>Integration_Status__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Work_Order_Line_Item__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Integration_Status__c</field>
+            <operation>equals</operation>
+            <value>Initial</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <filters>
+            <field>Object__c</field>
+            <operation>contains</operation>
+            <value>Click</value>
+        </filters>
+        <label>Click Logs on Initial State</label>
+    </listViews>
+    <listViews>
+        <fullName>Non_Click_Integration_Logs</fullName>
+        <columns>NAME</columns>
+        <columns>Object__c</columns>
+        <columns>Work_Order_Line_Item__c</columns>
+        <columns>Integration_Status_Image__c</columns>
+        <columns>Integration_Status__c</columns>
+        <columns>Integration_Message__c</columns>
+        <columns>Object_Id__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>notContain</operation>
+            <value>JDE-Apex-Batch,Click</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <filters>
+            <field>Integration_Status__c</field>
+            <operation>equals</operation>
+            <value>Target System Error</value>
+        </filters>
+        <filters>
+            <field>Object__c</field>
+            <operation>notContain</operation>
+            <value>Click - ClickNotification</value>
+        </filters>
+        <label>Non-Click Integration Issues</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>SessionID_Click</fullName>
+        <columns>NAME</columns>
+        <columns>Integration_Message__c</columns>
+        <columns>Integration_Status__c</columns>
+        <columns>Integration_Status_Image__c</columns>
+        <columns>Object__c</columns>
+        <columns>Object_Id__c</columns>
+        <columns>SessionID__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Object__c</field>
+            <operation>equals</operation>
+            <value>Click - SessionId</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>SessionID Click</label>
+    </listViews>
+    <nameField>
+        <displayFormat>IL-{0000000000}</displayFormat>
+        <label>#</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Integration Logs</pluralLabel>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>Triggered_Timestamp__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Integration_Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Integration_Message__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Object__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Type__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Triggered_Timestamp__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Integration_Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Integration_Message__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Object__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Type__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+    <validationRules>
+        <fullName>TS_ThirdPartyNotAllowedinClick</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF($Setup.ValidationRulesSettings__c.IntegrationLogValidationRules__c, 
+AND( Work_Order__r.Third_Party__c,  
+Object__c = &apos;Click - RouteOperatingTask&apos;) ,
+false)</errorConditionFormula>
+        <errorMessage>Third party tasks cannot be sent to Click.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Reset_Account_Integration</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Reset Account Integration</masterLabel>
+        <openType>noSidebar</openType>
+        <page>ResetAccout_VFPage</page>
+        <protected>false</protected>
+    </webLinks>
+</CustomObject>

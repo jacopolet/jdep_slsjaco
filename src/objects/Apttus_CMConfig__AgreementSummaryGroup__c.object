@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents a summary of line items associated with an agreement</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Apttus_CMConfig__AdHocGroupDescription__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The ad hoc group description</description>
+        <externalId>false</externalId>
+        <label>Ad Hoc Group Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__AdjustedPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The adjusted price (including option price)</description>
+        <externalId>false</externalId>
+        <label>Adjusted Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__AdjustmentAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price adjustment amount.</description>
+        <externalId>false</externalId>
+        <label>Adjustment Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__AdjustmentType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price adjustment type</description>
+        <externalId>false</externalId>
+        <label>Adjustment Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>% Discount</fullName>
+                    <default>false</default>
+                    <label>% Discount</label>
+                </value>
+                <value>
+                    <fullName>Discount Amount</fullName>
+                    <default>false</default>
+                    <label>Discount Amount</label>
+                </value>
+                <value>
+                    <fullName>% Markup</fullName>
+                    <default>false</default>
+                    <label>% Markup</label>
+                </value>
+                <value>
+                    <fullName>Markup Amount</fullName>
+                    <default>false</default>
+                    <label>Markup Amount</label>
+                </value>
+                <value>
+                    <fullName>Price Override</fullName>
+                    <default>false</default>
+                    <label>Price Override</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__AgreementId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the associated agreement</description>
+        <externalId>false</externalId>
+        <label>Agreement</label>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipLabel>Summary Groups</relationshipLabel>
+        <relationshipName>AgreementSummaryGroups</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__BaseExtendedPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rolled up base extended price of products and options that belong to the group</description>
+        <externalId>false</externalId>
+        <label>Base Extended Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__ChargeType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The charge type  associated with the group</description>
+        <externalId>false</externalId>
+        <label>Charge Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>License Fee</fullName>
+                    <default>false</default>
+                    <label>License Fee</label>
+                </value>
+                <value>
+                    <fullName>Subscription Fee</fullName>
+                    <default>false</default>
+                    <label>Subscription Fee</label>
+                </value>
+                <value>
+                    <fullName>Implementation Fee</fullName>
+                    <default>false</default>
+                    <label>Implementation Fee</label>
+                </value>
+                <value>
+                    <fullName>Installation Fee</fullName>
+                    <default>false</default>
+                    <label>Installation Fee</label>
+                </value>
+                <value>
+                    <fullName>Maintenance Fee</fullName>
+                    <default>false</default>
+                    <label>Maintenance Fee</label>
+                </value>
+                <value>
+                    <fullName>Adjustment</fullName>
+                    <default>false</default>
+                    <label>Adjustment</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__Comments__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Memo text entered by the user</description>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>4000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__ConfigurationId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated configuration</description>
+        <externalId>false</externalId>
+        <label>Configuration</label>
+        <referenceTo>Apttus_Config2__ProductConfiguration__c</referenceTo>
+        <relationshipLabel>Agreement Summary Groups</relationshipLabel>
+        <relationshipName>AgreementSummaryGroups</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__DeltaPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rolled up delta price of products that belong to the group</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The rolled up delta price of products that belong to the group</inlineHelpText>
+        <label>Delta Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The group description</description>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__ExtendedListPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rolled up extended list price of products that belong to the group</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The rolled up extended list price of products that belong to the group</inlineHelpText>
+        <label>Extended List Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__ExtendedPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rolled up extended price of products that belong to the group</description>
+        <externalId>false</externalId>
+        <label>Extended Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__Frequency__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The frequency associated with the recurring or usage price</description>
+        <externalId>false</externalId>
+        <label>Frequency</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hourly</fullName>
+                    <default>false</default>
+                    <label>Hourly</label>
+                </value>
+                <value>
+                    <fullName>Daily</fullName>
+                    <default>false</default>
+                    <label>Daily</label>
+                </value>
+                <value>
+                    <fullName>Monthly</fullName>
+                    <default>false</default>
+                    <label>Monthly</label>
+                </value>
+                <value>
+                    <fullName>Quarterly</fullName>
+                    <default>false</default>
+                    <label>Quarterly</label>
+                </value>
+                <value>
+                    <fullName>Half Yearly</fullName>
+                    <default>false</default>
+                    <label>Half Yearly</label>
+                </value>
+                <value>
+                    <fullName>Yearly</fullName>
+                    <default>false</default>
+                    <label>Yearly</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__GroupAdjustmentPercent__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The group adjustment percent</description>
+        <externalId>false</externalId>
+        <label>Group Adjustment (%)</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__GroupType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The group type</description>
+        <externalId>false</externalId>
+        <label>Group Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Category</fullName>
+                    <default>true</default>
+                    <label>Category</label>
+                </value>
+                <value>
+                    <fullName>Ad Hoc</fullName>
+                    <default>false</default>
+                    <label>Ad Hoc</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__ItemSequence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The sequence of items belonging to a group</description>
+        <externalId>false</externalId>
+        <label>Item Sequence</label>
+        <precision>5</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__LineNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The line number</description>
+        <externalId>false</externalId>
+        <label>Line Number</label>
+        <precision>5</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__LineType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The line type</description>
+        <externalId>false</externalId>
+        <label>Line Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Category Total</fullName>
+                    <default>false</default>
+                    <label>Category Total</label>
+                </value>
+                <value>
+                    <fullName>Group Total</fullName>
+                    <default>false</default>
+                    <label>Group Total</label>
+                </value>
+                <value>
+                    <fullName>Subtotal</fullName>
+                    <default>false</default>
+                    <label>Subtotal</label>
+                </value>
+                <value>
+                    <fullName>Total</fullName>
+                    <default>false</default>
+                    <label>Total</label>
+                </value>
+                <value>
+                    <fullName>Adjustment</fullName>
+                    <default>false</default>
+                    <label>Adjustment</label>
+                </value>
+                <value>
+                    <fullName>Grand Total</fullName>
+                    <default>false</default>
+                    <label>Grand Total</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__NetAdjustmentPercent__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The net adjustment percent</description>
+        <externalId>false</externalId>
+        <label>Net Adjustment (%)</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__NetPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The net price for the group is the Adjusted Price after applying the Group Adjustment %</description>
+        <externalId>false</externalId>
+        <label>Net Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__OptionPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rolled up adjusted price of options that belong to the group</description>
+        <externalId>false</externalId>
+        <label>Option Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__PriceAdjustment__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rolled up price adjustment of products that belong to the group</description>
+        <externalId>false</externalId>
+        <label>Price Adjustment</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <label>Agreement Summary Group</label>
+    <nameField>
+        <label>Group Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Agreement Summary Groups</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

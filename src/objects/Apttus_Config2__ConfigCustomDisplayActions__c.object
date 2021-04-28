@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Holds information about custom actions displayed in installed product view, cart view etc</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Apttus_Config2__ActionArea__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the action is displayed on left, right, center section of the action bar. The value more indicates it is displayed under more button.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select left, right, center or more as the action display area</inlineHelpText>
+        <label>Action Area</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ActionLabelName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the custom label for the action.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the custom label for the action.</inlineHelpText>
+        <label>Action Label Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ActionName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the API name for the action.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the API name for the action.</inlineHelpText>
+        <label>Action Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ActionPage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the custom action page. A custom action may implemented either as a Visualforce page or as a custom class</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the custom action page. A custom action may implemented either as a Visualforce page or as a custom class</inlineHelpText>
+        <label>Action Page</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ActionParams__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The url parameters for the action. Multiple parameters may be passed by using the ampersand character to separate each parameter. Each parameter is expressed in the form param-name=param-value. For e.g. templateName=XYZ&amp;draft=true</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The url parameters for the action. Multiple parameters may be passed by using the ampersand character to separate each parameter. Each parameter is expressed in the form param-name=param-value. For e.g. templateName=XYZ&amp;draft=true</inlineHelpText>
+        <label>Action Params</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ActionStyleClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates style class used  for the action.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter style class name for the action.</inlineHelpText>
+        <label>Action Style Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ActionType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The action type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The action type</inlineHelpText>
+        <label>Action Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AlwaysDisplay__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the action should be displayed even when it is not enabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this to display the action as disabled(grayed out)  even when it is not enabled.</inlineHelpText>
+        <label>Always Display</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Behavior__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The behavior the open page action takes.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The behavior the open page action takes.</inlineHelpText>
+        <label>Behavior</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DisplayAs__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the action is displayed as action or task or both</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter action or task or both to display the action on a page as action button or task.</inlineHelpText>
+        <label>Display As</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DisplayType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The action display type 
+
+Valid values are the following 
+
+Cart Line Item 
+Asset Line Item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The action display type 
+
+Valid values are the following 
+
+Cart Line Item 
+Asset Line Item</inlineHelpText>
+        <label>Display Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Flow__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The flow associated with the action</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The flow associated with the action</inlineHelpText>
+        <label>Flow</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IsEnabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the action is enabled for the display</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the action is enabled for the display</inlineHelpText>
+        <label>Is Enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Sequence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The action display sequence</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The action display sequence</inlineHelpText>
+        <label>Sequence</label>
+        <precision>2</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Config Custom Display Actions</label>
+    <visibility>Public</visibility>
+</CustomObject>

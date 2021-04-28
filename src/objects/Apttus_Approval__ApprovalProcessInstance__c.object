@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents an instance of a single, end-to-end approval process.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Apttus_Approval__ApprovalProcessId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the approval process associated with the instance</description>
+        <externalId>false</externalId>
+        <label>Approval Process</label>
+        <referenceTo>Apttus_Approval__Approval_Process__c</referenceTo>
+        <relationshipLabel>Process Instances</relationshipLabel>
+        <relationshipName>ApprovalProcessInstances</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__AssignmentEmailTemplate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the Email Template used to send notifications when an approval request is submitted.</description>
+        <externalId>false</externalId>
+        <label>Assignment Email Template</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__AttachmentIds__c</fullName>
+        <deprecated>false</deprecated>
+        <description>List of attachment ids that should be sent with email notifications</description>
+        <externalId>false</externalId>
+        <inlineHelpText>List of attachment ids that should be sent with email notifications</inlineHelpText>
+        <label>Attachment Ids</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__BusinessObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the associated business object</description>
+        <externalId>false</externalId>
+        <label>Business Object</label>
+        <length>25</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__BusinessObjectLink__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The link to the associated business object</description>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(Apttus_Approval__BusinessObjectId__c , &quot;View &quot; &amp; Apttus_Approval__BusinessObjectType__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Business Object Link</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__BusinessObjectType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The business object type</description>
+        <externalId>false</externalId>
+        <label>Business Object Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__CancellationEmailTemplate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the Email Template used to send notifications when an approval request is cancelled.</description>
+        <externalId>false</externalId>
+        <label>Cancellation Email Template</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ConsolidationVersionNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Consolidation Implementation Version Number</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Consolidation Implementation Version Number</inlineHelpText>
+        <label>Consolidation Version Number</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Data__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Approval Data Cache</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Approval Data Cache</inlineHelpText>
+        <label>Data</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__EndTime__c</fullName>
+        <deprecated>false</deprecated>
+        <description>the process end time</description>
+        <externalId>false</externalId>
+        <label>End Time</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__EscalationEmailTemplate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the Email Template used to send notifications when an approval request is escalated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the Email Template used to send notifications when an approval request is escalated.</inlineHelpText>
+        <label>Escalation Email Template</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__InstanceNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The process instance number</description>
+        <displayFormat>PI-{0000000000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Instance Number</label>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__NotifyOnlyEmailTemplate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the Email Template used to send notifications when a notify only process step is executed.</description>
+        <externalId>false</externalId>
+        <label>NotifyOnly Email Template</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__OriginalParentApprovalProcessId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds reference to the original process definition id - because we are creating a temporary process definition for each process instance - to avoid locking contention - please refer to Jira - AWA-1970 for further details.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Holds reference to the original process definition id</inlineHelpText>
+        <label>Original Parent Approval Process</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__PrevProcessInstanceId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the previous process instance. Only applicable to resubmissions</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the previous process instance. Only applicable to resubmissions</inlineHelpText>
+        <label>Previous Process Instance</label>
+        <referenceTo>Apttus_Approval__ApprovalProcessInstance__c</referenceTo>
+        <relationshipLabel>Previous Process Instances</relationshipLabel>
+        <relationshipName>PrevProcessInstances</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ReassignmentEmailTemplate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the Email Template used to send notifications when an approval request is reassigned.</description>
+        <externalId>false</externalId>
+        <label>Reassignment Email Template</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ReminderEmailTemplate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the Email Template used to send reminder notifications for an approval request.</description>
+        <externalId>false</externalId>
+        <label>Reminder Email Template</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__StartTime__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The process start time</description>
+        <externalId>false</externalId>
+        <label>Start Time</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The status of this approval process instance, for example Submitted,
+Cancelled, or Approved.</description>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Submitted</fullName>
+                    <default>false</default>
+                    <label>Not Submitted</label>
+                </value>
+                <value>
+                    <fullName>Submitted</fullName>
+                    <default>false</default>
+                    <label>Submitted</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>On Hold</fullName>
+                    <default>false</default>
+                    <label>On Hold</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Approval Process Instance</label>
+    <nameField>
+        <label>Process Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Approval Process Instances</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

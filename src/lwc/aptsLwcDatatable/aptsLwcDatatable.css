@@ -1,0 +1,35 @@
+/**********************************************************************
+Name: aptsLwcDatatable
+Date: 06 July 2020
+Description: Generic Datatable for LWC 
+Author: Sai Sagar
+Change Verison History: 
+**********************************************************************/
+.THIS .slds-table_header-fixed_container {
+    min-height: 12em;
+}
+.customSelect select {
+    padding-right: 1.25rem;
+    min-height: inherit;
+    line-height: normal;
+    height: 1.4rem;    
+}
+.customSelect label {
+    margin-top: .1rem;
+}
+.customSelect .slds-select_container::before {
+    border-bottom: 0;
+}
+.customInput {
+    width: 4rem;
+    height: 1.4rem;
+    text-align: center;
+    border: 1px solid #dddbda;
+    border-radius: 3px;
+    background-color:#fff;
+}
+
+
+.THIS .customFontChanged {
+    font-weight: bold!important;
+}

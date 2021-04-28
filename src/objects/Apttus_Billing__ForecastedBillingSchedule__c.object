@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Apttus_Billing__BillToAccountId__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Id of the corresponding Bill to Account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Id of the corresponding Bill to Account.</inlineHelpText>
+        <label>Bill To</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Forecasted Billing Schedules</relationshipLabel>
+        <relationshipName>ForecastedBillingSchedules</relationshipName>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__BillingDayOfMonth__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Billing Day of Month that was is use when the Billing Schedule was generated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Billing Day of Month that was is use when the Billing Schedule was generated.</inlineHelpText>
+        <label>Billing Day of Month</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__BillingRule__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Billing Rule specified on the corresponding Order Line Item.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Billing Rule specified on the corresponding Order Line Item.</inlineHelpText>
+        <label>Billing Rule</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Apttus_Billing__BillingRule</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ChargeType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The charge type associated with the Product or Service.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The charge type associated with the Product or Service.</inlineHelpText>
+        <label>Charge Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Apttus_Billing__ChargeType</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ConfigurationId__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Id of the associated Product Configuration.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Id of the associated Product Configuration.</inlineHelpText>
+        <label>Product Configuration</label>
+        <referenceTo>Apttus_Config2__ProductConfiguration__c</referenceTo>
+        <relationshipLabel>Forecasted Billing Schedules</relationshipLabel>
+        <relationshipName>ForecastedBillingSchedules</relationshipName>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Schedule description.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Schedule description.</inlineHelpText>
+        <label>Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__FeeAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The fee for the corresponding billing period.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The fee for the corresponding billing period.</inlineHelpText>
+        <label>Fee Amount</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>5</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ForecastedBillingSummaryId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The Id of the Forecasted Billing Summary this Forecasted Billing Schedule contributes to</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Id of the Forecasted Billing Summary this Forecasted Billing Schedule contributes to</inlineHelpText>
+        <label>Forecasted Billing Summary</label>
+        <referenceTo>Apttus_Billing__ForecastedBillingSummary__c</referenceTo>
+        <relationshipLabel>Forecasted Billing Schedules</relationshipLabel>
+        <relationshipName>ForecastedBillingSchedules</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__HideInvoiceDisplay__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether or not the Schedule will be present of the corresponding Invoice.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether or not the Schedule will be present of the corresponding Invoice.</inlineHelpText>
+        <label>Hide Invoice Display</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__InvoicedScheduleId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The Id of the invoiced and superseded Billing Schedule that is the source of the credit.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Id of the invoiced and superseded Billing Schedule that is the source of the credit.
+Will be null if Schedule pertains to a debit.</inlineHelpText>
+        <label>Invoiced Schedule</label>
+        <referenceTo>Apttus_Billing__ForecastedBillingSchedule__c</referenceTo>
+        <relationshipLabel>Forecasted Billing Schedules</relationshipLabel>
+        <relationshipName>ForecastedBillingSchedules</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__IsSuperseded__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Will initially be false and gets set to true when the Billing Schedule is superseded when a Cancellation or
+Amendment is applied to corresponding Asset Line Item.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Will initially be false and gets set to true when the Billing Schedule is superseded when a Cancellation or
+Amendment is applied to corresponding Asset Line Item.</inlineHelpText>
+        <label>Is Superseded</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__LineItemId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Id of the associated Line Item.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Id of the associated Line Item.</inlineHelpText>
+        <label>Line Item</label>
+        <referenceTo>Apttus_Config2__LineItem__c</referenceTo>
+        <relationshipLabel>Forecasted Billing Schedules</relationshipLabel>
+        <relationshipName>ForecastedBillingSchedules</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__LocationId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Id of the corresponding Account Location.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Id of the corresponding Account Location. Can be null.</inlineHelpText>
+        <label>Location Id</label>
+        <referenceTo>Apttus_Config2__AccountLocation__c</referenceTo>
+        <relationshipLabel>Forecasted Billing Schedules</relationshipLabel>
+        <relationshipName>ForecastedBillingSchedules</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__PaymentTermId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated Payment Term. Can be null.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Id of the associated Payment Term.</inlineHelpText>
+        <label>Payment Term</label>
+        <referenceTo>Apttus_Config2__PaymentTerm__c</referenceTo>
+        <relationshipLabel>Forecasted Billing Schedules</relationshipLabel>
+        <relationshipName>ForecastedBillingSchedules</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__PeriodEndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The billing period end date.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The billing period end date.</inlineHelpText>
+        <label>Period End Date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__PeriodStartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The billing period start date.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The billing period start date.</inlineHelpText>
+        <label>Period Start Date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__PriceType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price type of the Product of Service.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The price type of the Product of Service.</inlineHelpText>
+        <label>Price Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Apttus_Billing__PriceType</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ProductName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the associated product.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the associated product.</inlineHelpText>
+        <label>Product Name</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ProposalId__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Id of the associated Quote/Proposal.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Id of the associated Quote/Proposal.</inlineHelpText>
+        <label>Quote/Proposal</label>
+        <referenceTo>Apttus_Proposal__Proposal__c</referenceTo>
+        <relationshipLabel>Forecasted Billing Schedules</relationshipLabel>
+        <relationshipName>ForecastedBillingSchedules</relationshipName>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ReadyForInvoiceDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date when the corresponding Order is ready for generating an Invoice.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date when the corresponding Order is ready for generating an Invoice.</inlineHelpText>
+        <label>Ready For Invoice Date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ShipToAccountId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Id of the ship-to Account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Id of the ship-to Account.</inlineHelpText>
+        <label>Ship To</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Forecasted Billing Schedules (Ship To)</relationshipLabel>
+        <relationshipName>Forecasted_Billing_Schedules1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Schedule status.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Schedule status.</inlineHelpText>
+        <label>Status</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Apttus_Billing__BillingScheduleStatus</valueSetName>
+        </valueSet>
+    </fields>
+    <label>Forecasted Billing Schedule</label>
+    <nameField>
+        <displayFormat>FBS- {00000000}</displayFormat>
+        <label>Schedule Id</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Forecasted Billing Schedules</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

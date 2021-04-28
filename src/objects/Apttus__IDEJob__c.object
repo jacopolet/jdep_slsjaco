@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>IDE Job table, which will be used to communicate to KIRA based on different job status</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Apttus__AgreementId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated agreement</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated agreement</inlineHelpText>
+        <label>Agreement</label>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipLabel>IDE Jobs</relationshipLabel>
+        <relationshipName>IDEJobs</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__AgreementPreviousStatusCategory__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field stores the former Agreement Status Category</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Previous status category of the Agreement</inlineHelpText>
+        <label>Agreement Previous Status Category</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__AgreementPreviousStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field stores the former Agreement Status</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Previous status of the Agreement</inlineHelpText>
+        <label>Agreement Previous Status</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__AnalysedAttachmentId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the Analyzed Attachment/File received from the IDE</description>
+        <externalId>true</externalId>
+        <inlineHelpText>ID of the Analyzed Attachment/File received from the IDE</inlineHelpText>
+        <label>Analyzed Attachment</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__AnalysedHighlightedAttachmentId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Analyzed Highlighted Attachment/file Id receive from IDE</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please provide analyzed highlighted attachment/file ID receive from IDE</inlineHelpText>
+        <label>Analysed Highlighted Attachment Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__AttachmentId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the Attachment or File</description>
+        <externalId>true</externalId>
+        <inlineHelpText>ID of the Attachment or File</inlineHelpText>
+        <label>Attachment/File</label>
+        <length>50</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__AttachmentName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of the Uploaded Attachment or File</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the Uploaded Attachment or File</inlineHelpText>
+        <label>Attachment/File Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__Exception__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Error reported by KIRA</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Error reported by KIRA</inlineHelpText>
+        <label>Exception</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus__ExtractedJSONDocId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the extracted JSON Document received from KIRA</description>
+        <externalId>true</externalId>
+        <inlineHelpText>ID of the extracted JSON Document received from KIRA</inlineHelpText>
+        <label>Extracted JSON Doc Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__ExtractedJSON__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The extracted JSON string containing the mapped clause/field information</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The extracted JSON string containing the mapped clause/field information</inlineHelpText>
+        <label>Extracted JSON</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus__IsTextMatchAlgorithmRun__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Flag to indicate if text-match algorithm is run or not</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Flag to indicate if text-match algorithm is run or not</inlineHelpText>
+        <label>Is Text Match Algorithm Run</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__IsUnzipRequireHighlighted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Flag to indicate if unzip is required or not</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Flag to indicate if unzip is required or not</inlineHelpText>
+        <label>Is Unzip Require Highlighted</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__IsUnzipRequire__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether unzip is required or not</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether unzip is required or not</inlineHelpText>
+        <label>Is Unzip Required</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__JobDetail__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Additional detail of the job</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Additional detail of the job</inlineHelpText>
+        <label>Job Detail</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus__JobStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Job Status</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Job Status</inlineHelpText>
+        <label>Job Status</label>
+        <length>100</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__JobType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Job Type</description>
+        <externalId>true</externalId>
+        <inlineHelpText>The Job Type</inlineHelpText>
+        <label>Job Type</label>
+        <length>100</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__Language__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Language of the Document being imported.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field displays the Language of the document imported.</inlineHelpText>
+        <label>Language</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__Mutex__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Mutex variable to ensure only one process may work with the record at a time</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Mutex variable to ensure only one process may work with the record at a time</inlineHelpText>
+        <label>Mutex</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__NumberOfPages__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of pages of the Document being imported.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field displays the Number of pages the document imported.</inlineHelpText>
+        <label>Number Of Pages</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__RetryCount__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Number of times the IDE job needs to be rerun in case of failure</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Provide the IDE job retry count</inlineHelpText>
+        <label>RetryCount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__ReviewURL__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Review url received from KIRA</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Review url received from KIRA</inlineHelpText>
+        <label>Review URL</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus__ScanQuality__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Scan quality of the document</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Scan quality of the document</inlineHelpText>
+        <label>Scan Quality</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__SourceUseCase__c</fullName>
+        <defaultValue>&quot;Create Offline Agreement&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates the use case for which the record is created</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the use case for which the record is created</inlineHelpText>
+        <label>Source Use Case</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Create Offline Agreement</fullName>
+                    <default>false</default>
+                    <label>Create Offline Agreement</label>
+                </value>
+                <value>
+                    <fullName>Import Offline</fullName>
+                    <default>false</default>
+                    <label>Import Offline</label>
+                </value>
+                <value>
+                    <fullName>Save and Stored Execute</fullName>
+                    <default>false</default>
+                    <label>Save and Stored Execute</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>IDE Job</label>
+    <nameField>
+        <label>Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>IDE Jobs</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

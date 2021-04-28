@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Configuration settings for product selection pages. The record should be named as &quot;Primary Settings&quot;.</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Apttus_Config2__AlwaysDisplayLeafProducts__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Always Display Leaf Products</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CacheAllProducts__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Cache all products to avoid SOQL queries. Should be enabled when number of product records are small.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check to cache all products to avoid extra SOQL queries.</inlineHelpText>
+        <label>Cache All Products</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CarouselCategoryLevel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Maximum Depth allowed to be browsed in the Product Carousel.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>No value will allow infinite browse depth. A value of zero will restrict you to the root level.</inlineHelpText>
+        <label>Carousel Category Level</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CarouselDefaultIcon__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Default Icon used for the categories in the Carousel.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Id to attachment</inlineHelpText>
+        <label>Carousel Default Icon</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CartListItemDescriptionField__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds the API field name of the Long Description field to be used in the Cart Detail View page</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Holds the API field name of the Long Description field to be used in the Cart Detail View page</inlineHelpText>
+        <label>Cart List Item Description Field</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CollapseAllLeafOptionGroups__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Collapse all the leaf option groups in the Config Options Detail View page</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Collapse all the leaf option groups in the Config Options Detail View page</inlineHelpText>
+        <label>Collapse All Leaf Option Groups</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CustomActionLabelName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the custom label for the action.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the custom label for the action.</inlineHelpText>
+        <label>Custom Action Label Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CustomActionPage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the custom action page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the custom action page.</inlineHelpText>
+        <label>Custom Action Page</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DisableAddAnother__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This custom setting removes the user&apos;s ability to add multiple instances of the same product.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This custom setting removes the user&apos;s ability to add multiple instances of the same product.</inlineHelpText>
+        <label>Disable Add Another</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DisableAddToCartForOptionProducts__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether &apos;Add to Cart&apos; and &apos;Configure&apos; button should be hidden for option products on catalog page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A global setting to hide &apos;Add to Cart&apos; and &apos;Configure&apos; button for option products on catalog page.</inlineHelpText>
+        <label>Disable Add To Cart for Option Products</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DisableAddToCartOnClick__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Disable &quot;Add To Cart&quot; button on click until the server confirms addition of product.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check to disable &quot;Add To Cart&quot; button on click until the server confirms addition of product.</inlineHelpText>
+        <label>Disable Add To Cart On Click</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DisableFavorites__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Disable saving the favorite, favorites category and other favorites related UI items</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Disable saving the favorite, favorites category and other favorites related UI items</inlineHelpText>
+        <label>Disable Favorites</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableCategoryFilter__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable Narrow Your Search category filtering during product search.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable Narrow Your Search category filtering during product search.</inlineHelpText>
+        <label>Enable Category Filter</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__FavoritesCategoryUploadImage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Upload an image for displaying across all Favorites categories</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Upload an image for displaying across all Favorites categories</inlineHelpText>
+        <label>Favorites Upload Image</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__FavoritesDisplayLabel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Label for the Favorites (e.g Quick Buys, Pre-defined Solutions, Saved Configurations, Templates, etc..). If empty, it would default to &quot;Favorites&quot;</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Label for the Favorites (e.g Quick Buys, Pre-defined Solutions, Saved Configurations, Templates, etc..). If empty, it would default to &quot;Favorites&quot;</inlineHelpText>
+        <label>Favorites Display Label</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__FavoritesIconAttachmentId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Favorites Icon Attachment Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideBreadcrumb__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Hide the breadcrumb navigation element.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Hide the breadcrumb navigation element.</inlineHelpText>
+        <label>Hide Breadcrumb</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideCartHeader__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Whether to hide the Cart Header in select pages</description>
+        <externalId>false</externalId>
+        <label>Hide Cart Header</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideCompareProducts__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked compare products feature will be hidden from the catalog page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Turn this setting on to hide compare products feature in the catalog page.</inlineHelpText>
+        <label>Hide Compare Products</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideConfigureAction__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the &quot;Configure&quot; action should be hidden in the page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the &quot;Configure&quot; action should be hidden in the page.</inlineHelpText>
+        <label>Hide Configure Action</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideDefaultOptionsInDescription__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked default options are listed along with product descriptions.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked default options are not listed below the product description.</inlineHelpText>
+        <label>Hide Default Options In Description</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideHelpMeChoose__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Whether to hide help me choose link that takes to guided search page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this if the Help Me Choose feature should be hidden.</inlineHelpText>
+        <label>Hide Help Me Choose</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideLineItemAttributeDetails__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Hide Line item &quot;Details&quot; section on the Product Attribute Detail page</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Hide Line item &quot;Details&quot; section on the Product Attribute Detail page if checked.</inlineHelpText>
+        <label>Hide Line Item Attribute Details</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideListedProductsPriceColumn__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Whether to hide the price information column in listed product page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please be careful in hiding this critical price information column.</inlineHelpText>
+        <label>Hide Listed Products Price Column</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideNarrowYourSearch__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked Narrow Your Search is hidden.</inlineHelpText>
+        <label>Hide Narrow Your Search</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideOptions__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether option products should be hidden in Quick Add mode</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether option products should be hidden in Quick Add mode</inlineHelpText>
+        <label>Hide Options in Quick Add Mode</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideProductImage__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether to hide product image.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this to hide product image.</inlineHelpText>
+        <label>Hide Product Image</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideSelectedProductChargeTypes__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>specifies if all charge types should be displayed for the selected products in the tree view options page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>specifies if all charge types should be displayed for the selected products in the tree view options page.</inlineHelpText>
+        <label>Hide Selected Product Charge Types</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideSelectedProductsColumn1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The look up to product record can be hidden by checking this setting.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this if you want to hide the column that  shows the product name.</inlineHelpText>
+        <label>Hide Selected Products Column1</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideSingleTopCategory__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If it is checked when there is only one top category for a price list and it has child categories, the top category will be hidden.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check to hide top category when there is only one top category and it has one or more child categories.</inlineHelpText>
+        <label>Hide Single Top Category</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ListedFavoriteConfigurationsColumn1__c</fullName>
+        <deprecated>false</deprecated>
+        <description>API name of the favorite configuration field to be displayed in the list of favorite configurations on catalog page</description>
+        <externalId>false</externalId>
+        <inlineHelpText>comma separated API name of the favorite configuration field to be displayed in the list of favorite configurations on catalog page.</inlineHelpText>
+        <label>Listed Favorite Configurations Column1</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ListedFavoriteConfigurationsColumn2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>API name of the favorite configuration field to be displayed in the list of favorite configurations on catalog page</description>
+        <externalId>false</externalId>
+        <inlineHelpText>API name of the favorite configuration field to be displayed in the list of favorite configurations on catalog page</inlineHelpText>
+        <label>Listed Favorite Configurations Column2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ListedProductsColumn2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>API name of the product field to be displayed in the listed products section.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>API name of the product field to be displayed in the listed products section. A valid value could be like ProductCode.</inlineHelpText>
+        <label>Listed Products Column2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ListedProductsColumn3__c</fullName>
+        <deprecated>false</deprecated>
+        <description>API name of the product field to be displayed in the listed products section.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>API name of the product field to be displayed in the listed products section. A valid value could be like ProductCode.</inlineHelpText>
+        <label>Listed Products Column3</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ListedProductsDefaultIcon__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Default Product Icon used for the Listed Products.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Id to attachment</inlineHelpText>
+        <label>Listed Products Default Icon</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MainSectionRatio__c</fullName>
+        <defaultValue>&quot;20:60:20&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The ratio of main sections separated by colon. The default value is 20:60:20.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The ratio of main sections separated by colon. The default value is 20:60:20.</inlineHelpText>
+        <label>Main Section Ratio</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__OrderStatusFields__c</fullName>
+        <deprecated>false</deprecated>
+        <description>List of line item fields to display inventory and  order status</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the list of line item fields separated by comma that has information about promotion, delivery info, shipping info etc.</inlineHelpText>
+        <label>Order Status Fields</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductCacheFields1__c</fullName>
+        <deprecated>false</deprecated>
+        <description>List of custom fields required for product cache</description>
+        <externalId>false</externalId>
+        <inlineHelpText>List of custom fields required for product cache</inlineHelpText>
+        <label>Product Cache Fields1</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductCacheFields2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>List of custom fields required for product cache</description>
+        <externalId>false</externalId>
+        <inlineHelpText>List of custom fields required for product cache</inlineHelpText>
+        <label>Product Cache Fields2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductCacheFields3__c</fullName>
+        <deprecated>false</deprecated>
+        <description>List of custom fields required for product cache</description>
+        <externalId>false</externalId>
+        <inlineHelpText>List of custom fields required for product cache</inlineHelpText>
+        <label>Product Cache Fields3</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductCacheFields4__c</fullName>
+        <deprecated>false</deprecated>
+        <description>List of custom fields required for product cache</description>
+        <externalId>false</externalId>
+        <inlineHelpText>List of custom fields required for product cache</inlineHelpText>
+        <label>Product Cache Fields4</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ReadOnlyLocation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the location should be displayed as read only field</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this to display the location as read only field</inlineHelpText>
+        <label>Read Only Location</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SaveAsFavoriteDialogColumns__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Columns for save as favorite configuration dialog on cart page</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter comma separated API names of the columns of favorite configuration object for save as favorite configuration dialog on cart page</inlineHelpText>
+        <label>Save as Favorite Dialog Columns</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SearchQueryLimit__c</fullName>
+        <defaultValue>1000</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Limit applied to product search results.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For faster product search use smaller number. Default is 1000.</inlineHelpText>
+        <label>Search Query Limit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SelectedProductsColumn2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>API name of the line item field in the selected products section. A valid value could be like ProductId__r.ProductCode</description>
+        <externalId>false</externalId>
+        <inlineHelpText>API name of the line item field in the selected products section. A valid value could be like ProductId__r.ProductCode</inlineHelpText>
+        <label>Selected Products Column2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SelectedProductsColumn3__c</fullName>
+        <deprecated>false</deprecated>
+        <description>API name of the line item field in the selected products section. A valid value could be like ProductId__r.ProductCode</description>
+        <externalId>false</externalId>
+        <inlineHelpText>API name of the line item field in the selected products section. A valid value could be like ProductId__r.ProductCode</inlineHelpText>
+        <label>Selected Products Column3</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SelectedProductsColumn4__c</fullName>
+        <deprecated>false</deprecated>
+        <description>API name of the line item field in the selected products section. A valid value could be like ProductId__r.ProductCode</description>
+        <externalId>false</externalId>
+        <inlineHelpText>API name of the line item field in the selected products section. A valid value could be like ProductId__r.ProductCode</inlineHelpText>
+        <label>Selected Products Column4</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ShowCartIcon__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Shows the cart as icon and hides the cart sidebar on the right hand side</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Shows the cart as icon and hides the cart sidebar on the right hand side</inlineHelpText>
+        <label>Minimize Cart</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ShowCheckboxInRuleDialog__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Shows checkbox instead of Add to Cart button in Rule Dialog</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Shows checkbox instead of Add to Cart button in Rule Dialog</inlineHelpText>
+        <label>Show Checkbox In Rule Dialog</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ShowFavoriteAsFirstCategory__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If checked favorites category will be shown on top in list of product categories.</description>
+        <externalId>false</externalId>
+        <label>Show Favorite as First Category</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ShowProductIconCartDetailView__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Show the product icon on each line item in  the Cart Detail View page (Note: this will disable the action item columns and show the actions underneath the product icon)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Show the product icon on each line item in  the Cart Detail View page (Note: this will disable the action item columns and show the actions underneath the product icon)</inlineHelpText>
+        <label>Show Product Icon Cart Detail View</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ShowQuantity__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Check this to show quantity input field. When a product is added to cart quantity entered in this field is used as line item quantity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this to show quantity input field for add to cart action.</inlineHelpText>
+        <label>Show Quantity Input</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ShowRecommendedProductsCartView__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Show the recommended products component in the Cart Detail View page</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Show the recommended products component in the Cart Detail View page</inlineHelpText>
+        <label>Show Recommended Products Cart View</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ShowSelectedProductAllCharges__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>specifies if all charge types should be displayed for the selected products in the tree view options page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>specifies if all charge types should be displayed for the selected products in the tree view options page.</inlineHelpText>
+        <label>Show Selected Product All Charges</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ShowSelectedProductsInConfigOptions__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Shows the Selected Products widget in the Config Options Detail View page</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Shows the Selected Products widget in the Config Options Detail View page</inlineHelpText>
+        <label>Show Selected Products in Config Options</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__TwoColumnAttributeDisplay__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Attribute Details will be gathered in a two column fashion during product configuration. This setting is now handled by option group property.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This setting is now handled by option group property.</inlineHelpText>
+        <label>Show Two Columns In Attribute (D)</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Config Select Products Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,32 @@
+<template>
+    <div class="slds-box slds-theme_default">
+        <div class="slds-grid">
+            <lightning-icon icon-name="standard:picklist_type" size="small" class="slds-media__figure"></lightning-icon>
+            <div class="slds-media__body"><h2 class="slds-card__header-title slds-truncate"><b>Task History</b></h2></div>
+            <!-- button class="slds-button slds-button_icon slds-button_icon-border" title="Refresh"  onclick={handleRefresh}>
+                <svg class="slds-button__icon" aria-hidden="true">
+                    <use xlink:href="/_slds/icons/utility-sprite/svg/symbols.svg?cache=9.28.0#refresh"></use>
+                </svg>
+            </button -->
+        </div>
+        <br/>
+        <div style="height: 300px;">
+            <!-- div if:true={isLoaded}>
+                <div class="slds-spinner_container">
+                    <div role="status" class="slds-spinner slds-spinner_medium">
+                        <span class="slds-assistive-text">Loading</span>
+                        <div class="slds-spinner__dot-a"></div>
+                        <div class="slds-spinner__dot-b"></div>
+                    </div>
+                </div>
+            </div-->
+            <lightning-datatable
+                    key-field="id"
+                    data={allTaskHistory}
+                    columns={columns}
+                    hide-checkbox-column
+                    column-widths-mode="auto">
+            </lightning-datatable>
+        </div>  
+    </div>
+</template>

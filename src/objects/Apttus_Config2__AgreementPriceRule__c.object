@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents a special pricing rule associated with an agreement or an asset</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Apttus_CMConfig__AgreementId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated agreement</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated agreement</inlineHelpText>
+        <label>Agreement</label>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipLabel>Agreement Price Rules</relationshipLabel>
+        <relationshipName>AgreementPriceRules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AccountId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the account associated with the price rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the account associated with the price rule</inlineHelpText>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Agreement Price Rules</relationshipLabel>
+        <relationshipName>AgreementPriceRules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ActivatedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date the price rule was activated in the system</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date the price rule was activated in the system</inlineHelpText>
+        <label>Activated Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AdjustmentAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price adjustment amount.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The price adjustment amount.</inlineHelpText>
+        <label>Adjustment Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AdjustmentType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price adjustment type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The price adjustment type</inlineHelpText>
+        <label>Adjustment Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>% Discount</fullName>
+                    <default>false</default>
+                    <label>% Discount</label>
+                </value>
+                <value>
+                    <fullName>Discount Amount</fullName>
+                    <default>false</default>
+                    <label>Discount Amount</label>
+                </value>
+                <value>
+                    <fullName>% Markup</fullName>
+                    <default>false</default>
+                    <label>% Markup</label>
+                </value>
+                <value>
+                    <fullName>Markup Amount</fullName>
+                    <default>false</default>
+                    <label>Markup Amount</label>
+                </value>
+                <value>
+                    <fullName>Price Override</fullName>
+                    <default>false</default>
+                    <label>Price Override</label>
+                </value>
+                <value>
+                    <fullName>Price Factor</fullName>
+                    <default>false</default>
+                    <label>Price Factor</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AllowRemoval__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the user is allowed to remove the price rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the user is allowed to remove the price rule</inlineHelpText>
+        <label>Allow Removal</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AncestorId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the ancestor price rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the ancestor price rule</inlineHelpText>
+        <label>Ancestor</label>
+        <referenceTo>Apttus_Config2__AgreementPriceRule__c</referenceTo>
+        <relationshipLabel>Derived Price Rules</relationshipLabel>
+        <relationshipName>DerivedPriceRules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BundleProductId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the bundle product associated with the option</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the bundle product associated with the option</inlineHelpText>
+        <label>Bundle Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Agreement Price Rules (Bundle Product)</relationshipLabel>
+        <relationshipName>AgreementPriceRules2</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ChargeType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The charge type associated with the price rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The charge type associated with the price rule</inlineHelpText>
+        <label>Charge Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Standard Price</fullName>
+                    <default>false</default>
+                    <label>Standard Price</label>
+                </value>
+                <value>
+                    <fullName>License Fee</fullName>
+                    <default>false</default>
+                    <label>License Fee</label>
+                </value>
+                <value>
+                    <fullName>Subscription Fee</fullName>
+                    <default>false</default>
+                    <label>Subscription Fee</label>
+                </value>
+                <value>
+                    <fullName>Implementation Fee</fullName>
+                    <default>false</default>
+                    <label>Implementation Fee</label>
+                </value>
+                <value>
+                    <fullName>Installation Fee</fullName>
+                    <default>false</default>
+                    <label>Installation Fee</label>
+                </value>
+                <value>
+                    <fullName>Maintenance Fee</fullName>
+                    <default>false</default>
+                    <label>Maintenance Fee</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ConfigurationId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated configuration</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated configuration</inlineHelpText>
+        <label>Configuration</label>
+        <referenceTo>Apttus_Config2__ProductConfiguration__c</referenceTo>
+        <relationshipLabel>Agreement Price Rules</relationshipLabel>
+        <relationshipName>AgreementPriceRules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ContractItemNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Unique identifier for the item number as referred to in the quote or contract</description>
+        <externalId>true</externalId>
+        <inlineHelpText>The Unique identifier for the item number as referred to in the quote or contract</inlineHelpText>
+        <label>Contract Item Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ContractNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The contract number associated with the price rule. The rule is associated with a conract number after activation.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The contract number associated with the price rule. The rule is associated with a conract number after activation.</inlineHelpText>
+        <label>Contract Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Criteria__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rule criteria specification</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The rule criteria specification</inlineHelpText>
+        <label>Criteria</label>
+        <length>4000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EffectiveDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rule effective date. The rule becomes effective on this date and time.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The rule effective date. The rule becomes effective on this date and time.</inlineHelpText>
+        <label>Effective Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ExpirationDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rule expiration date. The rule becomes ineffective after this date and time.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The rule expiration date. The rule becomes ineffective after this date and time.</inlineHelpText>
+        <label>Expiration Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IsModifiable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the prce rule is modifiable</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the prce rule is modifiable</inlineHelpText>
+        <label>Is Modifiable</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__NetUnitPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The net unit price for the product or service is the Unit Adjusted Price after applying the Group Adjustment %</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The net unit price for the product or service is the Unit Adjusted Price after applying the Group Adjustment %</inlineHelpText>
+        <label>Net Unit Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__OrderId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the order associated with the price rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the order associated with the price rule</inlineHelpText>
+        <label>Order</label>
+        <referenceTo>Apttus_Config2__Order__c</referenceTo>
+        <relationshipLabel>Agreement Price Rules</relationshipLabel>
+        <relationshipName>AgreementPriceRules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PriceListId__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the price list associated with the price rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the price list associated with the price rule</inlineHelpText>
+        <label>Price List</label>
+        <referenceTo>Apttus_Config2__PriceList__c</referenceTo>
+        <relationshipLabel>Agreement Price Rules</relationshipLabel>
+        <relationshipName>AgreementPriceRules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PriceListItemId__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the price list item associated with the price rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the price list item associated with the price rule</inlineHelpText>
+        <label>Price List Item</label>
+        <referenceTo>Apttus_Config2__PriceListItem__c</referenceTo>
+        <relationshipLabel>Agreement Price Rules</relationshipLabel>
+        <relationshipName>AgreementPriceRules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PriceMatrixId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated matrix</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated matrix</inlineHelpText>
+        <label>Price Matrix</label>
+        <referenceTo>Apttus_Config2__PriceMatrix__c</referenceTo>
+        <relationshipLabel>Agreement Price Rules</relationshipLabel>
+        <relationshipName>AgreementPriceRules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductCategory__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The product category associated with the price rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The product category associated with the price rule</inlineHelpText>
+        <label>Product Category</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductFamily__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The product family associated with the price rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The product family associated with the price rule</inlineHelpText>
+        <label>Product Family</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductGroupId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the product group associated with the price rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the product group associated with the price rule</inlineHelpText>
+        <label>Product Group</label>
+        <referenceTo>Apttus_Config2__ProductGroup__c</referenceTo>
+        <relationshipLabel>Agreement Price Rules</relationshipLabel>
+        <relationshipName>AgreementPriceRules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the product associated with the price rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the product associated with the price rule</inlineHelpText>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Agreement Price Rules</relationshipLabel>
+        <relationshipName>AgreementPriceRules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductOptionId__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the product option associated with the price rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the product option associated with the price rule</inlineHelpText>
+        <label>Product Option</label>
+        <referenceTo>Apttus_Config2__ProductOptionComponent__c</referenceTo>
+        <relationshipLabel>Agreement Price Rules</relationshipLabel>
+        <relationshipName>AgreementPriceRules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RuleType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rule type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The rule type</inlineHelpText>
+        <label>Rule Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Contract</fullName>
+                    <default>true</default>
+                    <label>Contract</label>
+                </value>
+                <value>
+                    <fullName>Asset</fullName>
+                    <default>false</default>
+                    <label>Asset</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Sequence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rule evaluation sequence</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The rule evaluation sequence</inlineHelpText>
+        <label>Sequence</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The current status of the price rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The current status of the price rule</inlineHelpText>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>true</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Finalized</fullName>
+                    <default>false</default>
+                    <label>Finalized</label>
+                </value>
+                <value>
+                    <fullName>Being Amended</fullName>
+                    <default>false</default>
+                    <label>Being Amended</label>
+                </value>
+                <value>
+                    <fullName>Superseded</fullName>
+                    <default>false</default>
+                    <label>Superseded</label>
+                </value>
+                <value>
+                    <fullName>Activated</fullName>
+                    <default>false</default>
+                    <label>Activated</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ProposalId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated quote/proposal</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated quote/proposal</inlineHelpText>
+        <label>Quote/Proposal</label>
+        <referenceTo>Apttus_Proposal__Proposal__c</referenceTo>
+        <relationshipLabel>Agreement Price Rules</relationshipLabel>
+        <relationshipName>AgreementPriceRules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Agreement Price Rule</label>
+    <nameField>
+        <label>Rule Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Agreement Price Rules</pluralLabel>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Sequence__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__RuleType__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__ProductId__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__ChargeType__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__ProductFamily__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__ProductCategory__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__ProductGroupId__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__Sequence__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__RuleType__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__ProductId__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__ChargeType__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__ProductFamily__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__ProductCategory__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__ProductGroupId__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__Sequence__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__RuleType__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__ProductId__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__ChargeType__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__ProductFamily__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__ProductCategory__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__ProductGroupId__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,129 @@
+<!--
+  @description       : LWC used for showing second page (category hierarchy and selection of products) of Agreement New UX
+  @author            : Karan Khatri
+  @group             : 
+  @last modified on  : 16-04-2021
+  @last modified by  : Karan Khatri
+  Modifications Log 
+  Ver   Date         Author         Modification
+  1.0   17-03-2021   Karan Khatri   Initial Version(DQ-4112)
+-->
+<template>
+    <div class="slds-grid slds-gutters">
+        <div class="slds-col slds-size_1-of-6 slds-align_absolute-center">
+			<div class="slds-size_1-of-1 slds-float_left">
+				<img src={jdeProfessionalLogo} onclick={handleJDELogoClick}  width="230" height="600"/>
+			</div>
+        </div>
+        <div class="slds-col slds-size_3-of-6">
+            <lightning-layout multiple-rows="true" vertical-align="end">
+                <lightning-layout-item size="12" small-device-size="6" medium-device-size="8" large-device-size="12" padding="around-small">
+					<lightning-input
+						name="productSearch"
+						placeholder="Search by Product Name or Product Code or Replaced Product Code"
+						type="search" value={searchProductText} onchange={handleProductSearch}></lightning-input>
+                </lightning-layout-item>
+                </lightning-layout><br/>
+        </div>
+        <div class="slds-col slds-size_2-of-6 slds-text-heading_small paddingRightProperty slds-align_absolute-center">
+			<div class="slds-size_1-of-1 slds-text-align_right">
+				
+			</div>
+        </div>
+    </div>
+	<div class="relativePosition" if:false={isLoaded}>
+		   <lightning-spinner alternative-text="Loading..." variant="brand" size="large" class="agreementspinner"> </lightning-spinner>      
+    </div>
+    <div class="slds-m-horizontal_none"> 
+		<div class="slds-grid slds-grid_vertical">
+			<div class = "slds-col slds-p-around_medium slds-grid slds-gutters">
+				<div class="lgc-bg slds-col slds-size_1-of-6 lighteningTree">
+                    <b><h2> Browse Catalog: </h2></b><br/>
+                	<lightning-tree items={displayCategories} onselect={handleSelectedCategory} selected-item={selectedCategory}></lightning-tree>
+                    <br/><br/>
+				</div>
+				<div class="slds-col slds-size_3-of-6 paddingLeftProperty">
+					<div class="catalogCartBorder">
+						<div class="lighteningTree paddingTextLeftProperty"> 
+						<b><h2> Catalog Products:</h2></b>
+						</div><br/>
+						<div if:true={showAddToCartButton} class="slds-float_right">
+							<div class="slds-size_1-of-1 paddingRightProperty">
+								<lightning-button variant="brand" label=" Add to Cart " onclick={handleAddToCartBulk}>
+								</lightning-button>
+							</div>
+						</div>
+						<div if:true={showProductsTable}>
+							<c-apts-lwc-datatable records={productClassificationRecs}
+							total-records={productClassificationRecs.length}
+							onpaginatorchange={handlePaginatorChange}
+							key-field="productid"
+							columns={columns}
+							onselected={handleAddToCart}
+							onsetselectedrecords={handleSelectedCatalogItem}
+							resize-column-disabled="true" disable-page-size="true">
+							</c-apts-lwc-datatable>    
+						</div>
+						<div if:false={showProductsTable} class="slds-align_absolute-center slds-text-heading_medium">
+							No products in catalog. Please select category to view products.
+						</div>
+					</div>
+				</div>
+				<div class="slds-col slds-size_2-of-6 paddingLeftProperty">
+					<div class="miniCartBorder">
+						<div class="lighteningTree paddingTextLeftProperty slds-grid" >
+							<div class="slds-size_1-of-2">
+								<b><h2> Selected Products:</h2></b>
+							</div>
+							<div class="slds-size_1-of-2 slds-text-align_right paddingRightProperty">
+								<lightning-icon icon-name="utility:cart" alternative-text="Shopping Cart" size="small">
+								</lightning-icon>
+								<b>
+									[
+									<template if:true={showMiniCart}>  
+										{addToCartList.length}
+									</template>
+									<template if:false={showMiniCart}>  
+									0
+									</template>
+									]
+								</b>
+							</div>
+						</div><br/>
+						<div if:true={showRemoveButton} class="slds-float_right">
+							<div class="slds-size_1-of-1 paddingRightProperty">
+								<lightning-button variant="brand" label=" Remove " onclick={handleRemoveBulk}>
+								</lightning-button>
+							</div>
+						</div>
+						<div  if:true={showMiniCart}>
+							<c-apts-lwc-datatable records={addToCartList}
+							total-records={addToCartList.length}
+							onpaginatorchange={handlePaginatorChange1}
+							key-field="rowIndex"
+							columns={miniCartColumns}
+							show-search-box="true"
+							onselected={handleRemove}
+							onsetselectedrecords={handleSelectedMiniCartitem} 
+							resize-column-disabled="true">
+							</c-apts-lwc-datatable>
+						</div>
+						<div if:false={showMiniCart} class="slds-align_absolute-center slds-text-heading_medium">
+							No items in the cart
+						</div>
+					</div>
+				</div>
+			</div><br/>
+			<div class = "slds-col slds-p-around_medium">
+				<div class="slds-float_left">
+					<lightning-button variant="brand" label=" Back " onclick={handleBack}>
+					</lightning-button> 
+				</div>
+				<div class="slds-float_right" if:true={showMiniCart}>
+					<lightning-button variant="brand" label=" Next " onclick={handleNext}>
+					</lightning-button> 
+				</div>
+			</div>
+		</div>
+	</div>
+</template>

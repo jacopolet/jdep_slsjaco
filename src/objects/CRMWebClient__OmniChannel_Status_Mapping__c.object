@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>This is a generic template for Custom Object.  With this template, you may adjust the default elements and values and add new elements and values.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>CRMWebClient__cic4sf_entering_go_to_on_omni__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The status to go to on Omni-Channel when PureConnect for Salesforce enters the entering status.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The status to go to on Omni-Channel when PureConnect for Salesforce enters the entering status.</inlineHelpText>
+        <label>PureConnect Entering Go To On Omni</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMWebClient__cic4sf_entering_status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The status to listen for on PureConnect for Salesforce, which will trigger a status change on Omni-Channel.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The status to listen for on PureConnect for Salesforce, which will trigger a status change on Omni-Channel.</inlineHelpText>
+        <label>PureConnect Entering Status</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMWebClient__cic4sf_exiting_go_to_on_omni__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The status to go to on Omni-Channel when PureConnect for Salesforce exitings the exiting status.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The status to go to on Omni-Channel when PureConnect for Salesforce exitings the exiting status.</inlineHelpText>
+        <label>PureConnect Exiting Go To On Omni</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMWebClient__cic4sf_exiting_status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The status to listen to on PureConnect for Salesforce (upon exiting) that will trigger a status change on Omni-Channel.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The status to listen to on PureConnect for Salesforce (upon exiting) that will trigger a status change on Omni-Channel.</inlineHelpText>
+        <label>PureConnect Exiting Status</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMWebClient__omni_channel_entering_go_to_on_cic4sf__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The status to go to on PureConnect for Salesforce when the entering status is entered on Omni-Channel.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The status to go to on PureConnect for Salesforce when the entering status is entered on Omni-Channel.</inlineHelpText>
+        <label>Omni Ch. Entering Go To On PureConnect</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMWebClient__omni_channel_entering_status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The status to listen for on Omni-Channel that triggers a status change on PureConnect for Salesforce</description>
+        <externalId>false</externalId>
+        <label>Omni Channel Entering Status</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMWebClient__omni_channel_exiting_go_to_on_cic4sf__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The status to go to on PureConnect for Salesforce when the exiting status is exited on Omni-Channel.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The status to go to on PureConnect for Salesforce when the exiting status is exited on Omni-Channel.</inlineHelpText>
+        <label>Omni Ch. Exiting Go To On PureConnect</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMWebClient__omni_channel_exiting_status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The status to listen for on Omni-Channel (upon exiting) that triggers a status change on PureConnect for Salesforce.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The status to listen for on Omni-Channel (upon exiting) that triggers a status change on PureConnect for Salesforce.</inlineHelpText>
+        <label>Omni Channel Exiting Status</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Omni-Channel Status Mapping</label>
+    <listViews>
+        <fullName>CRMWebClient__All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>OmniChannel Status Mapping Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Omni-Channel Status Mappings</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

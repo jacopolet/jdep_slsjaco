@@ -1,0 +1,59 @@
+/*
+* @author        Karen Hung
+* @date          18.Sep.2018          
+* @description   Test class for TS_AttachPDF_Scheduler
+* @revision(s)
+*/
+@isTest
+public class TS_AttachPDF_Scheduler_Test {
+    
+    /*trigger scheduler*/
+    private static testMethod void TriggerSchedule() {
+        Test.startTest();
+        
+       /* Datetime currentDate = System.now();
+        Datetime computedDate = currentDate.addMinutes(1);
+        
+        String day = string.valueOf(computedDate .day());
+        String month = string.valueOf(computedDate .month());
+        String hour = string.valueOf(computedDate .hour());
+        String minute = string.valueOf(computedDate .minute()); 
+        String second = string.valueOf(computedDate .second());
+        String year = string.valueOf(computedDate .year());
+        String strSchedule = second + ' ' + minute + ' ' + hour + ' ' + day + ' ' + month + ' ?' + ' ' + year;
+        */
+        
+        String strSchedule = '0 0 * * * ?';
+        
+        TS_AttachPDF_Scheduler attachSched = new TS_AttachPDF_Scheduler();
+        String jobID = System.schedule('Attach PDF Scheduler Test Class:', strSchedule, attachSched);
+        
+        CronTrigger ct = [SELECT Id, CronExpression, TimesTriggered, NextFireTime
+                          FROM CronTrigger WHERE id = :jobId];
+        // Verify the job has not run
+        System.assertEquals(0, ct.TimesTriggered);
+        
+        Test.stopTest();
+        
+    }
+    
+    /*method to cover exception*/
+    static testMethod void withEx(){
+        
+        Test.startTest();
+        
+        String strSchedule = '0 0 * * * ?';
+        TS_AttachPDF_Scheduler.hasException = true;
+        
+        TS_AttachPDF_Scheduler attachSched = new TS_AttachPDF_Scheduler();
+        String jobID = System.schedule('Attach PDF Scheduler Test Class:', strSchedule, attachSched);
+        
+        CronTrigger ct = [SELECT Id, CronExpression, TimesTriggered, NextFireTime
+                          FROM CronTrigger WHERE id = :jobId];
+        // Verify the job has not run
+        System.assertEquals(0, ct.TimesTriggered);
+        
+        Test.stopTest();
+    }
+
+}

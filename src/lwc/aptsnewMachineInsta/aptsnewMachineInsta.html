@@ -1,0 +1,94 @@
+<!--
+**********************************************************************
+Name: aptsConverionOrderSelection
+Date: 06 July 2020
+Author: Sai Sagar
+Change Verison History:
+**********************************************************************
+-->
+<!--<template>
+     <lightning-datatable key-field="Id"
+        data={recordsToDisplay}
+        columns={columns}
+        onrowselection={getSelectedRows}>
+    </lightning-datatable>
+</template>--> 
+<template>
+  
+    <lightning-card
+    variant="narrow"
+    icon-name="standard:opportunity">
+<h1 slot="title">Machine Order </h1>
+</lightning-card>
+    <br/>
+    
+        <div class="slds-form-element">
+        <div class="slds-form-element__control">
+        <div class="slds-checkbox">
+        <input type="checkbox" name="options" id="checkbox-unique-id-73" value="checkbox-unique-id-73" checked="" />
+        <label class="slds-checkbox__label" for="checkbox-unique-id-73">
+            <span class="slds-checkbox_faux"></span>
+            &nbsp;&nbsp;    Installation
+        </label> 
+            &nbsp;&nbsp; &nbsp;&nbsp;
+        <input type="checkbox" name="options" id="checkbox-unique-id-74" value="checkbox-unique-id-74" checked="" />
+        <label class="slds-checkbox__label" for="checkbox-unique-id-74">
+            <span class="slds-checkbox_faux"></span>
+            &nbsp;&nbsp;    De Installation
+        </label>
+        </div>
+        </div>
+        </div>
+    
+          <br/>  <br/>  <br/>
+
+          <div class="slds-box slds-p-around_none slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none" >  
+        <lightning-card
+        variant="narrow"
+        icon-name="standard:account">
+    <h1 slot="title">Agreements </h1>
+    </lightning-card>
+        <br/>
+
+        <template for:each={allRecords} for:item="rec">
+               
+                            
+                       
+            <lightning-layout-item  key={rec.name} size="5" class="slds-var-p-around_x-medium">
+               
+               
+            <!--  <lightning-input name="rec.name" type="toggle" unchecked message-toggle-active="" message-toggle-inactive=""> 
+                    </lightning-input>
+                &nbsp;&nbsp;
+                {rec.Name}  -->
+           
+
+                <div>
+                    <div class="slds-form-element">
+                        <label class="slds-checkbox_toggle slds-grid">
+                            
+                            <input type="checkbox" name="checkbox-toggle-18" value="checkbox-toggle-18" aria-describedby="checkbox-toggle-18" checked="" />
+                        <span  class="slds-checkbox_faux_container" aria-live="assertive">
+                            <span class="slds-checkbox_faux"></span>                            
+                        </span> 
+                        &nbsp;&nbsp;
+                        <span class="slds-form-element__label slds-m-left_none">{rec.Name}</span>
+                        </label>
+
+                        <br/><br/>
+                        
+                        
+                    </div>
+                    </div>
+                
+                </lightning-layout-item>
+
+            
+        </template>
+   
+       </div> 
+        
+      
+    
+    
+</template>

@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Operating_Hour_Association_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Operating_Hour_Association_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Account_Location__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account Location</label>
+        <referenceTo>Apttus_Config2__AccountLocation__c</referenceTo>
+        <relationshipLabel>Operating Hour Associations</relationshipLabel>
+        <relationshipName>Operating_Hour_Associations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BusinessUnit__c</fullName>
+        <externalId>false</externalId>
+        <label>Business Unit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>TCS</fullName>
+                    <default>false</default>
+                    <label>TCS</label>
+                </value>
+                <value>
+                    <fullName>Routesales</fullName>
+                    <default>false</default>
+                    <label>Routesales</label>
+                </value>
+                <value>
+                    <fullName>Operating</fullName>
+                    <default>false</default>
+                    <label>Operating</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Close__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(TEXT(MondayException__c), &apos;C&apos;, &apos;Mon; &apos;, &apos;A&apos;, &apos;Mon AM; &apos;, &apos;P&apos;, &apos;Mon PM; &apos;, &apos;&apos;) + 
+CASE(TEXT(TuesdayException__c), &apos;C&apos;, &apos;Tue; &apos;, &apos;A&apos;, &apos;Tue AM; &apos;, &apos;P&apos;, &apos;Tue PM; &apos;, &apos;&apos;) + 
+CASE(TEXT(WednesdayException__c), &apos;C&apos;, &apos;Wed; &apos;, &apos;A&apos;, &apos;Wed AM; &apos;, &apos;P&apos;, &apos;Wed PM; &apos;, &apos;&apos;) + 
+CASE(TEXT(ThursdayException__c), &apos;C&apos;, &apos;Thu; &apos;, &apos;A&apos;, &apos;Thu AM; &apos;, &apos;P&apos;, &apos;Thu PM; &apos;, &apos;&apos;) + 
+CASE(TEXT(FridayException__c), &apos;C&apos;, &apos;Fri; &apos;, &apos;A&apos;, &apos;Fri AM; &apos;, &apos;P&apos;, &apos;Fri PM; &apos;, &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Closed</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CustomServiceHoursDescription__c</fullName>
+        <externalId>false</externalId>
+        <label>Custom Service Hours Description</label>
+        <length>128</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CustomServiceHours__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates that there is no suitable option to determine a default calendar.</inlineHelpText>
+        <label>Custom Service Hours</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Custom__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(CustomServiceHours__c, CustomServiceHoursDescription__c,&apos;&apos; )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Custom</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EndofBusinessDay__c</fullName>
+        <externalId>false</externalId>
+        <label>End of Business Day</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>TS_EndBusinessHours</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FridayException__c</fullName>
+        <externalId>false</externalId>
+        <label>Friday</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>TS_CalendarExceptions</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MondayException__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>None = Open; C = Closed; A = Closed till 13h00; P = Closed from 12h00</inlineHelpText>
+        <label>Monday</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>TS_CalendarExceptions</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Open__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(BusinessUnit__c)+ &apos; | &apos; +TEXT(StartofBusinessDay__c) + &quot;-&quot; + TEXT(EndofBusinessDay__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Open</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>StartofBusinessDay__c</fullName>
+        <externalId>false</externalId>
+        <label>Start of Business Day</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>TS_StartBusinessHours</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TechnicalNameClose__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;XCustClosedHrs_&quot;  + &quot;Mo&quot; + TEXT(MondayException__c) 
+							+ &quot;_Tu&quot; + TEXT(TuesdayException__c) 
+							+ &quot;_We&quot; + TEXT(WednesdayException__c)
+							+ &quot;_Th&quot; + TEXT(ThursdayException__c)
+							+ &quot;_Fr&quot; + TEXT(FridayException__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Technical Name (Close)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TechnicalNameOpen__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;XCustOpenHrs_&quot; + TEXT(StartofBusinessDay__c) + &quot;-&quot; + TEXT(EndofBusinessDay__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Technical Name (Open)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ThursdayException__c</fullName>
+        <externalId>false</externalId>
+        <label>Thursday</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>TS_CalendarExceptions</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TuesdayException__c</fullName>
+        <externalId>false</externalId>
+        <label>Tuesday</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>TS_CalendarExceptions</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>UniqueKey__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>UniqueKey</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>WednesdayException__c</fullName>
+        <externalId>false</externalId>
+        <label>Wednesday</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>TS_CalendarExceptions</valueSetName>
+        </valueSet>
+    </fields>
+    <label>Operating Hour Association</label>
+    <nameField>
+        <displayFormat>OHA-{00000}</displayFormat>
+        <label>Operating Hour Associations Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Operating Hour Associations</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>TS_RequiredValues</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF($Setup.ValidationRulesSettings__c.OperatingHourAssociationValidationRule__c,
+	IF( 
+		OR(
+			CustomServiceHours__c = FALSE &amp;&amp; 
+				OR(	TEXT(StartofBusinessDay__c) = null, 
+					TEXT(EndofBusinessDay__c) = null, 
+					TEXT(MondayException__c) = null, 
+					TEXT(TuesdayException__c) = null, 
+					TEXT(WednesdayException__c) = null, 
+					TEXT(ThursdayException__c) = null, 
+					TEXT(FridayException__c) = null),
+			CustomServiceHours__c &amp;&amp; CustomServiceHoursDescription__c = null
+			),
+		TRUE,
+		FALSE),
+	FALSE)</errorConditionFormula>
+        <errorMessage>Please provide start &amp; end of business hours and close time per day. If custom service hour is set to true, please provide a custom service hour description.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TS_StartEndOfBusinessDaySequence</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF($Setup.ValidationRulesSettings__c.OperatingHourAssociationValidationRule__c,
+	IF(
+		AND(ISNUMBER(MID(TEXT(StartofBusinessDay__c),1,2)),
+			ISNUMBER(MID(TEXT(EndofBusinessDay__c),1,2))
+			),
+			IF(VALUE(MID(TEXT(StartofBusinessDay__c),1,2)) &gt;= VALUE(MID(TEXT(EndofBusinessDay__c),1,2)), TRUE, FALSE),
+			FALSE
+	),	 
+FALSE)</errorConditionFormula>
+        <errorMessage>Start of Business Day cannot be equal or later than End of Business Day</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

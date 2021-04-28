@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents a single rule in an approval ruleset</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>APTS_Ext_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>APTS Ext ID</label>
+        <length>60</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the rule is active</description>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ApprovalCount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of approvals required by the approval policy. Only applicable to quorum approval policy.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of approvals required by the approval policy. Only applicable to quorum approval policy.</inlineHelpText>
+        <label>Approval Count</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ApprovalPercent__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The percent of approvals required by the approval policy. Only applicable to percent approval policy.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The percent of approvals required by the approval policy. Only applicable to percent approval policy.</inlineHelpText>
+        <label>Approval Percent</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ApprovalPolicy__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The approval policy associated with the rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The approval policy associated with the rule</inlineHelpText>
+        <label>Approval Policy</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Unanimous</fullName>
+                    <default>true</default>
+                    <label>Unanimous</label>
+                </value>
+                <value>
+                    <fullName>Majority</fullName>
+                    <default>false</default>
+                    <label>Majority</label>
+                </value>
+                <value>
+                    <fullName>Percent</fullName>
+                    <default>false</default>
+                    <label>Percent</label>
+                </value>
+                <value>
+                    <fullName>Quorum</fullName>
+                    <default>false</default>
+                    <label>Quorum</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__BusinessObject__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The business object which provides the context for the rule</description>
+        <externalId>false</externalId>
+        <label>Business Object</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Apttus__APTS_Agreement__c</fullName>
+                    <default>false</default>
+                    <label>Apttus__APTS_Agreement__c</label>
+                </value>
+                <value>
+                    <fullName>Opportunity</fullName>
+                    <default>false</default>
+                    <label>Opportunity</label>
+                </value>
+                <value>
+                    <fullName>Apttus__AgreementLineItem__c</fullName>
+                    <default>false</default>
+                    <label>Apttus__AgreementLineItem__c</label>
+                </value>
+                <value>
+                    <fullName>Apttus__Agreement_Term_Exception__c</fullName>
+                    <default>false</default>
+                    <label>Apttus__Agreement_Term_Exception__c</label>
+                </value>
+                <value>
+                    <fullName>Apttus_Rebate__IncentivePayoutSchedule__c</fullName>
+                    <default>false</default>
+                    <label>Apttus_Rebate__IncentivePayoutSchedule__c</label>
+                </value>
+                <value>
+                    <fullName>Apttus_Config2__Order__c</fullName>
+                    <default>false</default>
+                    <label>Apttus_Config2__Order__c</label>
+                </value>
+                <value>
+                    <fullName>Apttus_Billing__CreditMemo__c</fullName>
+                    <default>false</default>
+                    <label>Apttus_Billing__CreditMemo__c</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ContinuePolicyApprovalOnAReject__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Continue with policy approval even when a step is rejected.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Continue with policy approval even when a step is rejected.</inlineHelpText>
+        <label>Continue Policy Approval on a Reject?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__CriteriaFieldNames__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The list of field names used in the rule criteria</description>
+        <externalId>false</externalId>
+        <label>Criteria Field Names</label>
+        <length>1024</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Criteria__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rule criteria specification</description>
+        <externalId>false</externalId>
+        <label>Rule Criteria</label>
+        <length>8000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The description for the rule</description>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Dimension1Id__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the first dimension. Only applicable to Dimension rules.</description>
+        <externalId>false</externalId>
+        <label>Dimension 1</label>
+        <referenceTo>Apttus_Approval__ApprovalRuleDimension__c</referenceTo>
+        <relationshipLabel>Approval Rules (Dimension 1)</relationshipLabel>
+        <relationshipName>ApprovalRules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Dimension1ValueType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value type of the first dimension. Only applicable to Dimension rules.</description>
+        <externalId>false</externalId>
+        <label>Dimension 1 Value Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Discrete</fullName>
+                    <default>false</default>
+                    <label>Discrete</label>
+                </value>
+                <value>
+                    <fullName>Range</fullName>
+                    <default>false</default>
+                    <label>Range</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Dimension2Id__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the second dimension. Only applicable to Dimension rules.</description>
+        <externalId>false</externalId>
+        <label>Dimension 2</label>
+        <referenceTo>Apttus_Approval__ApprovalRuleDimension__c</referenceTo>
+        <relationshipLabel>Approval Rules (Dimension 2)</relationshipLabel>
+        <relationshipName>ApprovalRules2</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Dimension2ValueType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value type of the second dimension. Only applicable to Dimension rules.</description>
+        <externalId>false</externalId>
+        <label>Dimension 2 Value Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Discrete</fullName>
+                    <default>false</default>
+                    <label>Discrete</label>
+                </value>
+                <value>
+                    <fullName>Range</fullName>
+                    <default>false</default>
+                    <label>Range</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Dimension3Id__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the third dimension. Only applicable to Dimension rules.</description>
+        <externalId>false</externalId>
+        <label>Dimension 3</label>
+        <referenceTo>Apttus_Approval__ApprovalRuleDimension__c</referenceTo>
+        <relationshipLabel>Approval Rules (Dimension 3)</relationshipLabel>
+        <relationshipName>ApprovalRules3</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Dimension3ValueType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value type of the third dimension. Only applicable to Dimension rules.</description>
+        <externalId>false</externalId>
+        <label>Dimension 3 Value Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Discrete</fullName>
+                    <default>false</default>
+                    <label>Discrete</label>
+                </value>
+                <value>
+                    <fullName>Range</fullName>
+                    <default>false</default>
+                    <label>Range</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Dimension4Id__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the fourth dimension, Only applicable to Dimension rules.</description>
+        <externalId>false</externalId>
+        <label>Dimension 4</label>
+        <referenceTo>Apttus_Approval__ApprovalRuleDimension__c</referenceTo>
+        <relationshipLabel>Approval Rules (Dimension 4)</relationshipLabel>
+        <relationshipName>ApprovalRules4</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Dimension4ValueType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value type of the fourth dimension. Only applicable to Dimension rules.</description>
+        <externalId>false</externalId>
+        <label>Dimension 4 Value Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Discrete</fullName>
+                    <default>false</default>
+                    <label>Discrete</label>
+                </value>
+                <value>
+                    <fullName>Range</fullName>
+                    <default>false</default>
+                    <label>Range</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Dimension5Id__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the fifth dimension. Only applicable to Dimension rules.</description>
+        <externalId>false</externalId>
+        <label>Dimension 5</label>
+        <referenceTo>Apttus_Approval__ApprovalRuleDimension__c</referenceTo>
+        <relationshipLabel>Approval Rules (Dimension 5)</relationshipLabel>
+        <relationshipName>ApprovalRules5</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Dimension5ValueType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value type of the fifth dimension. Only applicable to Dimension rules.</description>
+        <externalId>false</externalId>
+        <label>Dimension 5 Value Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Discrete</fullName>
+                    <default>false</default>
+                    <label>Discrete</label>
+                </value>
+                <value>
+                    <fullName>Range</fullName>
+                    <default>false</default>
+                    <label>Range</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Dimension6Id__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the sixth dimension. Only applicable to Dimension rules.</description>
+        <externalId>false</externalId>
+        <label>Dimension 6</label>
+        <referenceTo>Apttus_Approval__ApprovalRuleDimension__c</referenceTo>
+        <relationshipLabel>Approval Rules (Dimension 6)</relationshipLabel>
+        <relationshipName>ApprovalRules6</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Dimension6ValueType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value type of the sixth dimension. Only applicable to Dimension rules.</description>
+        <externalId>false</externalId>
+        <label>Dimension 6 Value Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Discrete</fullName>
+                    <default>false</default>
+                    <label>Discrete</label>
+                </value>
+                <value>
+                    <fullName>Range</fullName>
+                    <default>false</default>
+                    <label>Range</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__EffectiveDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rule effective date. The rule becomes effective on this date and time.</description>
+        <externalId>false</externalId>
+        <label>Effective Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ExpirationDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rule expiration date. The rule becomes ineffective after this date and time.</description>
+        <externalId>false</externalId>
+        <label>Expiration Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__MatchRule__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates if the rule should match all or match any dimension</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates if the rule should match all or match any dimension</inlineHelpText>
+        <label>Match Rule</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Match All</fullName>
+                    <default>true</default>
+                    <label>Match All</label>
+                </value>
+                <value>
+                    <fullName>Match Any</fullName>
+                    <default>false</default>
+                    <label>Match Any</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__RuleType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rule type</description>
+        <externalId>false</externalId>
+        <label>Rule Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Dimension</fullName>
+                    <default>true</default>
+                    <label>Dimension</label>
+                </value>
+                <value>
+                    <fullName>Condition</fullName>
+                    <default>false</default>
+                    <label>Condition</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Sequence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rule evaluation sequence</description>
+        <externalId>false</externalId>
+        <label>Sequence</label>
+        <precision>5</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__StopProcessingMoreRules__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicator to prevent subsequent rules from processing</description>
+        <externalId>false</externalId>
+        <label>Stop Processing More Rules</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Approval Rule</label>
+    <listViews>
+        <fullName>Apttus_Approval__All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Rule Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Approval Rules</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Apttus_Approval__Sequence__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Approval__BusinessObject__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Approval__RuleType__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Approval__Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Approval__Active__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Approval__Sequence__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Approval__BusinessObject__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Approval__RuleType__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Approval__Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Approval__Active__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Approval__Sequence__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Approval__BusinessObject__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Approval__RuleType__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Approval__Description__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Approval__Active__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Apttus_Approval__Sequence__c</searchFilterFields>
+        <searchFilterFields>Apttus_Approval__BusinessObject__c</searchFilterFields>
+        <searchFilterFields>Apttus_Approval__RuleType__c</searchFilterFields>
+        <searchFilterFields>Apttus_Approval__Description__c</searchFilterFields>
+        <searchFilterFields>Apttus_Approval__Active__c</searchFilterFields>
+        <searchResultsAdditionalFields>Apttus_Approval__Sequence__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Approval__BusinessObject__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Approval__RuleType__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Approval__Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Approval__Active__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

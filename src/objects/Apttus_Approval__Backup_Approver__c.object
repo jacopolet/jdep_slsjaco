@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Allows approvers and administrators to specify backup approvers.  There is an option to transfer all pending request from and to the approver and the backup approver upon activation or cancellation of backups.  The approvals engine automatically routes requests to backup approvers when this is in effect.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Apttus_Approval__Backup_Action__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Backup action</description>
+        <externalId>false</externalId>
+        <formula>IF(NOT(Apttus_Approval__InEffect__c), HYPERLINK(&quot;/apex/Apttus_Approval__BackupApproverAction?backupApproverObjId=&quot; &amp; Id &amp; &quot;&amp;approverId=&quot; &amp; Apttus_Approval__Current_User__c &amp; &quot;&amp;backupApproverAction=activate&quot;, IMAGE(&quot;/resource/Apttus_Approval__Button_Activate&quot;, &quot;Activate Backup&quot;), &quot;_self&quot;), IF(AND(Apttus_Approval__InEffect__c,Apttus_Approval__IsActive__c), HYPERLINK(&quot;/apex/Apttus_Approval__BackupApproverAction?backupApproverObjId=&quot; &amp; Id &amp; &quot;&amp;approverId=&quot; &amp; Apttus_Approval__Current_User__c &amp; &quot;&amp;backupApproverAction=deactivate&quot;, IMAGE(&quot;/resource/Apttus_Approval__Button_Deactivate&quot;, &quot;Deactivate Backup&quot;), &quot;_self&quot;), &quot;&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Action to activate or deactivate the backup</inlineHelpText>
+        <label>Backup/Delegate Action</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Backup_User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The backup/delegate user for the current user.</description>
+        <externalId>false</externalId>
+        <label>Backup/Delegate User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>R00N700000028l1cEAA</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Cancellation_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date on which approval requests will stop getting assigned to the backup/delegate.</description>
+        <externalId>false</externalId>
+        <label>Cancellation Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Comment__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter a comment to the person you are setting as your backup/delegate.</description>
+        <externalId>false</externalId>
+        <label>Comment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Current_User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The user who for whom the backup or delegate approver applies.</description>
+        <externalId>false</externalId>
+        <label>Current User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>R00N700000028l1fEAA</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__DelegateUserIds__c</fullName>
+        <deprecated>false</deprecated>
+        <description>IDs of approvers who are designated as delegates of the current user.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>IDs of approvers who were designated as Delegate of Backup</inlineHelpText>
+        <label>Delegate Users</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Effective_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Please enter an effective date only if you are not activating it immediately. Otherwise use the Activate button to activate the backup/delegate approver immediately.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter an effective date only if you are not activating it immediately. Otherwise use the Activate button on the next screen to Activate Backup immediately.</inlineHelpText>
+        <label>Effective Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Expiration_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Please enter an expiration date only if you need the system to expire it automatically at a future date. Otherwise use the Deactivate button to cancel the backup/delegate immediately.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter an expiration date only if you need the system to expire it automatically at a future date. Otherwise use the Deactivate button on the next screen to cancel the backup immediately</inlineHelpText>
+        <label>Expiration Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__InEffect__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked this means this backup/delegate is in effect.  A backup/delegate can be active, in effect, or both.  In order for requests to be actively assigned to the backup/delegate they must be active and in effect.</description>
+        <externalId>false</externalId>
+        <label>In Effect</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__IsActive__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked this means this backup/delegate is active but not necessarily in effect.  A backup/delegate can be active, in effect, or both.  In order for requests to be actively assigned to the backup/delegate they must be active and in effect.</description>
+        <externalId>false</externalId>
+        <label>Is Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__IsDelegate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If unchecked, requests assigned to the current user get assigned to the backup instead.  When checked, requests assigned to the current user remain assigned to them but their delegates are notified and can take action on the requests as well.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates that the this entry is for delegate user.</inlineHelpText>
+        <label>Is Delegate</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__SuppressDelegateNotification__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicator to enable/disable notification to Delegate Approver.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicator to enable/disable notification to Delegate Approver</inlineHelpText>
+        <label>Suppress Delegate Notification</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Transfer_in_flight__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>All in-flight and pending approval requests will be directed to the person designated as backup/delegate.</description>
+        <externalId>false</externalId>
+        <label>Transfer in-flight</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Backup/Delegate Approver</label>
+    <listViews>
+        <fullName>Apttus_Approval__All</fullName>
+        <columns>NAME</columns>
+        <columns>Apttus_Approval__IsActive__c</columns>
+        <columns>Apttus_Approval__InEffect__c</columns>
+        <columns>Apttus_Approval__Transfer_in_flight__c</columns>
+        <columns>Apttus_Approval__Current_User__c</columns>
+        <columns>Apttus_Approval__Backup_User__c</columns>
+        <columns>Apttus_Approval__Effective_Date__c</columns>
+        <columns>Apttus_Approval__Expiration_Date__c</columns>
+        <columns>Apttus_Approval__Cancellation_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>BU-{00000}</displayFormat>
+        <label>Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Backup/Delegate Approvers</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Apttus_Approval__InEffect__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Approval__IsActive__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Approval__Current_User__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Approval__Backup_User__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Approval__Transfer_in_flight__c</customTabListAdditionalFields>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Apttus_Approval__InEffect__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Approval__IsActive__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Approval__Current_User__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Approval__Backup_User__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Approval__Transfer_in_flight__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Approval__InEffect__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Approval__IsActive__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Approval__Current_User__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Approval__Backup_User__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Approval__Transfer_in_flight__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Apttus_Approval__InEffect__c</searchFilterFields>
+        <searchFilterFields>Apttus_Approval__IsActive__c</searchFilterFields>
+        <searchFilterFields>Apttus_Approval__Current_User__c</searchFilterFields>
+        <searchFilterFields>Apttus_Approval__Backup_User__c</searchFilterFields>
+        <searchFilterFields>Apttus_Approval__Transfer_in_flight__c</searchFilterFields>
+        <searchResultsAdditionalFields>Apttus_Approval__InEffect__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Approval__IsActive__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Approval__Current_User__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Approval__Backup_User__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Approval__Transfer_in_flight__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Apttus_Approval__Activate</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>sControl</linkType>
+        <masterLabel>Activate (OBSOLETE)</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <scontrol>Apttus_Approval__aptsApprovalBackupActivate</scontrol>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Approval__Cancel</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>sControl</linkType>
+        <masterLabel>Cancel Backup (OBSOLETE)</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <scontrol>Apttus_Approval__aptsApprovalBackupCancel</scontrol>
+    </webLinks>
+</CustomObject>

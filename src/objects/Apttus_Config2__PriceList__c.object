@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Lightning_Price_List</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents a price list that contains the list of products the organization sells</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>APTS_Conversion_Id__c</fullName>
+        <description>Kauri Nov 18 DM Team</description>
+        <externalId>false</externalId>
+        <label>Conversion Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Ext_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>APTS Ext ID</label>
+        <length>60</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_PriceListExtId__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>Price List External Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_PriceList_Type__c</fullName>
+        <description>This will hold price list type which will be used when assigning default Price List. Created as part of Kauri Wave 3 Nov&apos;18 Release.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This indicates the type of the Price List.</inlineHelpText>
+        <label>Price List Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Direct</fullName>
+                    <default>false</default>
+                    <label>Direct</label>
+                </value>
+                <value>
+                    <fullName>Indirect</fullName>
+                    <default>false</default>
+                    <label>Indirect</label>
+                </value>
+                <value>
+                    <fullName>Routesales</fullName>
+                    <default>false</default>
+                    <label>Routesales</label>
+                </value>
+                <value>
+                    <fullName>CSP</fullName>
+                    <default>false</default>
+                    <label>Customer Specific Pricelist</label>
+                </value>
+                <value>
+                    <fullName>Segment Specific Pricelist</fullName>
+                    <default>false</default>
+                    <label>Segment Specific Pricelist</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Region__c</fullName>
+        <externalId>false</externalId>
+        <label>Region</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>PKL_SalesOrganization</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_SAP_Deletion_Indicator__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>SAP Deletion Indicator</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_SalesOrg__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This must be populated with a unique 4 digit code for sales orgs for Batches to Run</inlineHelpText>
+        <label>SalesOrg</label>
+        <length>100</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Source_System__c</fullName>
+        <description>Kauri Nov 2018 - DM Team</description>
+        <externalId>false</externalId>
+        <label>Source System</label>
+        <length>3</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Threshold__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(TEXT(APTS_Region__c), 
+&apos;SAP_0333&apos;,200, 
+&apos;SAP_0975&apos;,2500, 
+&apos;SAP_0976&apos;,20000, 
+&apos;SAP_6864&apos;,5000, 
+&apos;SAP_6706&apos;,0, 
+&apos;SAP_0080&apos;,0, 
+&apos;SAP_0111&apos;,75, 
+&apos;SAP_6709&apos;,0, 
+&apos;SAP_6712&apos;,300, 
+&apos;SAP_6750&apos;,0,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Threshold</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AccountId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the account associated with the price list</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the account associated with the price list</inlineHelpText>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Price Lists</relationshipLabel>
+        <relationshipName>PriceLists</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the price list is active</description>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BasedOnAdjustmentAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The adjustment amount.to apply to the based on price</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The adjustment amount.to apply to the based on price</inlineHelpText>
+        <label>Based On Adjustment Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BasedOnAdjustmentType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The adjustment type to apply to the based on price</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The adjustment type to apply to the based on price</inlineHelpText>
+        <label>Based On Adjustment Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>% Discount</fullName>
+                    <default>false</default>
+                    <label>% Discount</label>
+                </value>
+                <value>
+                    <fullName>Discount Amount</fullName>
+                    <default>false</default>
+                    <label>Discount Amount</label>
+                </value>
+                <value>
+                    <fullName>% Markup</fullName>
+                    <default>false</default>
+                    <label>% Markup</label>
+                </value>
+                <value>
+                    <fullName>Markup Amount</fullName>
+                    <default>false</default>
+                    <label>Markup Amount</label>
+                </value>
+                <value>
+                    <fullName>Price Factor</fullName>
+                    <default>false</default>
+                    <label>Price Factor</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BasedOnPriceListId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the price list this is based on</description>
+        <externalId>false</externalId>
+        <label>Based On Price List</label>
+        <referenceTo>Apttus_Config2__PriceList__c</referenceTo>
+        <relationshipLabel>Derived Price Lists</relationshipLabel>
+        <relationshipName>DerivedPriceLists</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ContractNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The contract number associated with the price list.</description>
+        <externalId>false</externalId>
+        <label>Contract Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CostModelId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Reference to the default cost model for the price list</description>
+        <externalId>false</externalId>
+        <label>Cost Model</label>
+        <referenceTo>Apttus_Config2__CostModel__c</referenceTo>
+        <relationshipLabel>Price Lists</relationshipLabel>
+        <relationshipName>PriceLists</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The description of the price list.</description>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DisableBasedOnCurrencyAdjustment__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether currency adjustment is disabled when the currency of the price list and the based on price list are different in a multi-currency enabled org</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether currency adjustment is disabled when the currency of the price list and the based on price list are different in a multi-currency enabled org</inlineHelpText>
+        <label>Disable Based On Currency Adjustment</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EffectiveDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price list effective date. The price list becomes effective on this date and time.</description>
+        <externalId>false</externalId>
+        <label>Effective Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ExpirationDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price list expiration date. The price list becomes ineffective after this date and time.</description>
+        <externalId>false</externalId>
+        <label>Expiration Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__GuidePage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the guide page to use for Help Me Choose (All Categories)</description>
+        <externalId>false</externalId>
+        <label>Guide Page</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price list type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The price list type</inlineHelpText>
+        <label>Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Standard</fullName>
+                    <default>true</default>
+                    <label>Standard</label>
+                </value>
+                <value>
+                    <fullName>Contract</fullName>
+                    <default>false</default>
+                    <label>Contract</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Create_CSP_Price__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;/flow/Create_CSP_PLIs?varPriceListIdInput=&quot;&amp;Id&amp;&quot;&amp;varPLExtIDInput=&quot;&amp;APTS_PriceListExtId__c&amp;&quot;&amp;varRegionInput=&quot;&amp;TEXT(APTS_Region__c)&amp;&quot;&amp;retURL=&quot;&amp;Id&amp;&quot;&quot;,IMAGE(&quot;/resource/APTS_Create_CSP_Price&quot;,&quot;Create_CSP_Price&quot;) , &quot;_self&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Create CSP Price</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Delete_CSP_PLI__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;/flow/CSPDeletionPLI?varPriceListIdInput=&quot;&amp;Id&amp;&quot;&amp;varPLExtIDInput=&quot;&amp;APTS_PriceListExtId__c&amp;&quot;&amp;varRegionInput=&quot;&amp;TEXT(APTS_Region__c)&amp;&quot;&amp;retURL=&quot;&amp;Id&amp;&quot;&quot;,IMAGE(&quot;/resource/APTS_Deletion_CSP&quot;,&quot;Deletion CSP&quot;) , &quot;_self&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Delete CSP PLI</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Migration_Date__c</fullName>
+        <description>Kauri Nov 17 DM Team</description>
+        <externalId>false</externalId>
+        <label>Migration Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <label>Price List</label>
+    <listViews>
+        <fullName>Apttus_Config2__All</fullName>
+        <columns>NAME</columns>
+        <columns>APTS_SalesOrg__c</columns>
+        <columns>Apttus_Config2__Type__c</columns>
+        <columns>Apttus_Config2__Description__c</columns>
+        <columns>Apttus_Config2__EffectiveDate__c</columns>
+        <columns>Apttus_Config2__ExpirationDate__c</columns>
+        <columns>Apttus_Config2__Active__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <columns>APTS_SAP_Deletion_Indicator__c</columns>
+        <columns>APTS_Source_System__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Apttus_Config2__All1</fullName>
+        <columns>NAME</columns>
+        <columns>APTS_SalesOrg__c</columns>
+        <columns>APTS_Region__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>General</value>
+        </filters>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>DK_PLIs</fullName>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>APTS_SalesOrg__c</field>
+            <operation>equals</operation>
+            <value>0975</value>
+        </filters>
+        <label>DK PLIs</label>
+    </listViews>
+    <nameField>
+        <label>Price List Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Price Lists</pluralLabel>
+    <recordTypes>
+        <fullName>Customer_Specific</fullName>
+        <active>true</active>
+        <label>Customer Specific</label>
+        <picklistValues>
+            <picklist>APTS_PriceList_Type__c</picklist>
+            <values>
+                <fullName>CSP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Direct</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Indirect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Routesales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Segment Specific Pricelist</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>APTS_Region__c</picklist>
+            <values>
+                <fullName>SAP_0080</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_0111</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_0333</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_0975</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_0976</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6706</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6709</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6712</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6750</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6864</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_Config2__BasedOnAdjustmentType__c</picklist>
+            <values>
+                <fullName>%25 Discount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%25 Markup</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Discount Amount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Markup Amount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price Factor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_Config2__Type__c</picklist>
+            <values>
+                <fullName>Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Standard</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>General</fullName>
+        <active>true</active>
+        <label>General</label>
+        <picklistValues>
+            <picklist>APTS_PriceList_Type__c</picklist>
+            <values>
+                <fullName>CSP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Direct</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Indirect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Routesales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Segment Specific Pricelist</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>APTS_Region__c</picklist>
+            <values>
+                <fullName>SAP_0080</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_0111</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_0333</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_0975</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_0976</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6706</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6709</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6712</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6750</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6864</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_Config2__BasedOnAdjustmentType__c</picklist>
+            <values>
+                <fullName>%25 Discount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%25 Markup</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Discount Amount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Markup Amount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price Factor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_Config2__Type__c</picklist>
+            <values>
+                <fullName>Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Standard</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Apttus_Config2__Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__EffectiveDate__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__ExpirationDate__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__Active__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OWNER.ALIAS</customTabListAdditionalFields>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <searchFilterFields>NAME</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>AccountRequired_IfPriceListTypeIsCSP</fullName>
+        <active>true</active>
+        <description>Account should be populated when Price List Type is CSP.</description>
+        <errorConditionFormula>AND($Setup.ValidationRulesSettings__c.APTS_PriceListValidationRules__c,
+ISPICKVAL(APTS_PriceList_Type__c, &apos;CSP&apos;), 
+ISBLANK(Apttus_Config2__AccountId__c))</errorConditionFormula>
+        <errorMessage>Account should be populated for CSP Price Lists.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>APTS_Customer_Specific_Prices</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Customer Specific Prices</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>https://jdep--dev2.cs83.my.salesforce.com/apex/APTS_CustomerSpecificPrices?id={!Apttus_Config2__PriceList__c.Id}&amp;accId={!Apttus_Config2__PriceList__c.Apttus_Config2__AccountIdId__c}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>APTS_Launch_XAE</fullName>
+        <availability>online</availability>
+        <description>Launch Price List Item Export App</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Launch XAE</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/apex/Apttus_XApps__EditInExcelLaunch?parentRecordId={!Apttus_Config2__PriceList__c.Id}&amp;&quot;&amp;appName=ExportPLI&quot;</url>
+    </webLinks>
+    <webLinks>
+        <fullName>APTS_List_Price_Extraction</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>List Price Extraction</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/apex/APTS_ListPriceExtractionSelectPage?pliid={!Apttus_Config2__PriceList__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Create_CSP_Price</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Create CSP Price</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/flow/Create_CSP_PLIs?varPriceListIdInput={!Apttus_Config2__PriceList__c.Id}&amp;varPLExtIDInput={!Apttus_Config2__PriceList__c.APTS_PriceListExtId__c}&amp;varRegionInput={!Apttus_Config2__PriceList__c.APTS_Region__c}&amp;retURL={!Apttus_Config2__PriceList__c.Id}</url>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Net Price Extraction report configs</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Environment_Name__c</fullName>
+        <description>Environment Name</description>
+        <externalId>false</externalId>
+        <label>Environment Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Report__c</fullName>
+        <description>Report Record ID</description>
+        <externalId>false</externalId>
+        <label>Report Record ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Net Price Extraction report configs</label>
+    <visibility>Public</visibility>
+</CustomObject>

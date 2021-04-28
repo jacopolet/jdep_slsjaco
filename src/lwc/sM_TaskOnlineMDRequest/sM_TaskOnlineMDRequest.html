@@ -1,0 +1,168 @@
+<template>
+  <p></p>
+  <div class="slds-grid slds-gutters">
+    <div class="slds-col slds-size_1-of-2">
+      <lightning-input label="Requested Operation" value={selectedOperation} readonly style="padding-bottom: 10px;">
+      </lightning-input>
+    </div>
+    <div class="slds-col slds-size_1-of-2">
+      <lightning-input label="Touchpoint Type" value={touchpointType} readonly style="padding-bottom: 10px;">
+      </lightning-input>
+    </div>
+  </div>
+
+
+  <template if:true={updateAccount}>
+    <p></p>
+    <div class="slds-grid slds-gutters">
+      <div class="slds-col slds-size_1-of-2">
+        <div class="slds-border_bottom slds-text-heading_medium">Requested Field Values</div>
+        <lightning-input label="Requested Account Name" value={reqAccountName} readonly style="padding-top: 25px;">
+        </lightning-input>
+        <lightning-input label="Requested Second Name" value={reqSecondName} readonly></lightning-input>
+        <lightning-input label="Requested Third Name" value={reqThirdName} readonly></lightning-input>
+        <lightning-input label="Requested Fourth Name" value={reqFourthName} readonly></lightning-input>
+        <lightning-input label="Requested Main Street Only" value={reqMainStreetOnly} readonly></lightning-input>
+        <lightning-input label="Requested Main House Number" value={reqMainHouseNo} readonly></lightning-input>
+        <lightning-input label="Requested Main House Number Supplement" value={reqMainHouseNoSupp} readonly>
+        </lightning-input>
+        <lightning-input label="Requested Main Postal Code" value={reqMainPostalCode} readonly></lightning-input>
+        <lightning-input label="Requested Main State" value={reqMainState} readonly></lightning-input>
+        <lightning-input label="Requested Main City" value={reqMainCity} readonly></lightning-input>
+        <lightning-input label="Requested Main Country" value={reqMainCountry} readonly></lightning-input>
+        <lightning-input label="Requested Main Country ISO" value={reqMainCountryISO} readonly></lightning-input>
+        <lightning-input label="Requested Main Postal Box" value={reqMainPostalBox} readonly></lightning-input>
+        <lightning-input label="Requested Main Postal Box City" value={reqMainPostalBoxCity} readonly></lightning-input>
+        <lightning-input label="Requested Commercial Register Number" value={reqCommercialRegNo} readonly>
+        </lightning-input>
+        <lightning-input label="Requested VAT Number" value={reqVATNo} readonly></lightning-input>
+        <lightning-input label="Requested AddressValidationTimestamp" value={reqAddValidationStamp} readonly>
+        </lightning-input>
+        <lightning-input label="Comments" value={comments} readonly></lightning-input>
+      </div>
+      <div class="slds-col slds-size_1-of-2">
+        <div class="slds-border_bottom slds-text-heading_medium">Related Account Values</div>
+        <lightning-record-view-form object-api-name={accountObject} record-id={relatedAccId}
+          style="padding-left: 6px; padding-right: 6px;">
+          <lightning-output-field field-name="Name" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="Second_Account_Name__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="Third_Account_Name__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="Fourth_Account_Name__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="Main_Street_Only__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="Main_House_Number__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="House_Number_Supplement__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="Main_Postal_Code__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="Main_State__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="Main_City__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="Main_Country__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="Main_Country_ISO__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="Main_Postal_Box__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="Main_Postal_Box_City__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="Commercial_Register_Number__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="VAT_Registration_Number__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="Main_Address_Validation_Timestamp__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+        </lightning-record-view-form>
+      </div>
+    </div>
+  </template>
+  <template if:true={createAccountLocation}>
+    <div class="slds-grid slds-gutters">
+      <div class="slds-col slds-size_1-of-2">
+        <div class="slds-border_bottom slds-text-heading_medium">Requested Field Values</div><br>
+        <lightning-input label="Requested Account Location Name" value={reqAccLocName} readonly
+          style="padding-top: 25px;"></lightning-input>
+        <lightning-input label="Requested Second Name" value={reqSecondName} readonly></lightning-input>
+        <lightning-input label="Requested Third Name" value={reqThirdName} readonly></lightning-input>
+        <lightning-input label="Requested Fourth Name" value={reqFourthName} readonly></lightning-input>
+        <lightning-input label="Requested Shipping Street" value={reqShipStreet} readonly></lightning-input>
+        <lightning-input label="Requested Shipping House Number" value={reqShipHouseNo} readonly></lightning-input>
+        <lightning-input label="Requested Shipping House No Supplement" value={reqShipHouseNoSupp} readonly>
+        </lightning-input>
+        <lightning-input label="Requested Shipping Postal Code" value={reqShipPostalCode} readonly></lightning-input>
+        <lightning-input label="Requested Shipping City" value={reqShipCity} readonly></lightning-input>
+        <lightning-input label="Requested Shipping State" value={reqShipState} readonly></lightning-input>
+        <lightning-input label="Requested Shipping Country" value={reqShipCountry} readonly></lightning-input>
+        <lightning-input label="Requested Country ISO" value={reqCountryISO} readonly></lightning-input>
+        <lightning-input label="Requested AddressValidationTimestamp" value={reqAddValidationStamp} readonly>
+        </lightning-input>
+        <lightning-input label="Comments" value={comments} readonly></lightning-input>
+      </div>
+      <div class="slds-col slds-size_1-of-2">
+
+      </div>
+    </div>
+  </template>
+  <template if:true={updateAccountLocation}>
+    <div class="slds-grid slds-gutters">
+      <div class="slds-col slds-size_1-of-2">
+        <div class="slds-border_bottom slds-text-heading_medium">Requested Field Values</div><br>
+        <lightning-input label="Requested Account Location Name" value={reqAccLocName} readonly
+          style="padding-top: 25px;"></lightning-input>
+        <lightning-input label="Requested Second Name" value={reqSecondName} readonly></lightning-input>
+        <lightning-input label="Requested Third Name" value={reqThirdName} readonly></lightning-input>
+        <lightning-input label="Requested Fourth Name" value={reqFourthName} readonly></lightning-input>
+        <lightning-input label="Requested Shipping Street" value={reqShipStreet} readonly></lightning-input>
+        <lightning-input label="Requested Shipping House Number" value={reqShipHouseNo} readonly></lightning-input>
+        <lightning-input label="Requested Shipping House No Supplement" value={reqShipHouseNoSupp} readonly>
+        </lightning-input>
+        <lightning-input label="Requested Shipping Postal Code" value={reqShipPostalCode} readonly></lightning-input>
+        <lightning-input label="Requested Shipping City" value={reqShipCity} readonly></lightning-input>
+        <lightning-input label="Requested Shipping State" value={reqShipState} readonly></lightning-input>
+        <lightning-input label="Requested Shipping Country" value={reqShipCountry} readonly></lightning-input>
+        <lightning-input label="Requested Country ISO" value={reqCountryISO} readonly></lightning-input>
+        <lightning-input label="Requested AddressValidationTimestamp" value={reqAddValidationStamp} readonly>
+        </lightning-input>
+        <lightning-input label="Comments" value={comments} readonly></lightning-input>
+      </div>
+      <div class="slds-col slds-size_1-of-2">
+        <div class="slds-border_bottom slds-text-heading_medium">Related Account Location Values</div><br>
+        <lightning-record-view-form object-api-name={acclocObject} record-id={relatedAccLocId}
+          style="padding-left: 6px; padding-right: 6px;">
+          <lightning-output-field field-name="Name" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="Second_Account_Name__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="Third_Account_Name__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="Fourth_Account_Name__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="Apttus_Config2__Street__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="Shipping_House_Number__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="House_Number_Supplement__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="Apttus_Config2__PostalCode__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="Apttus_Config2__City__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="Apttus_Config2__State__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="Apttus_Config2__Country__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="Shipping_Country_ISO__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+          <lightning-output-field field-name="Shipping_Address_Validation_Timestamp__c" class="slds-form-element_1-col"
+            style="padding-top: 2px; padding-bottom: 1.5px;"></lightning-output-field>
+        </lightning-record-view-form>
+      </div>
+    </div>
+  </template>
+</template>

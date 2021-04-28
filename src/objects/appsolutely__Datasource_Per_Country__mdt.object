@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Join object to join the data source CMDT with the ISO 3166 CMDT. Used to select the data source for a country for organisation searches</description>
+    <fields>
+        <fullName>appsolutely__Data_Source_Select_Record__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>True if this is the record that determines the selected data source for the country. There should only be one record per country with value true.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>True if this is the record that determines the selected data source for the country. There should only be one record per country with value true.</inlineHelpText>
+        <label>Data source Select Record</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Data_source__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The data source that can be used to search for organisations for this country</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>The data source that can be used to search for organisations for this country</inlineHelpText>
+        <label>Data source[DEPRECATED]</label>
+        <referenceTo>appsolutely__Data_source__mdt</referenceTo>
+        <relationshipLabel>Data source Per Countries</relationshipLabel>
+        <relationshipName>Data_source_Per_Countries</relationshipName>
+        <required>false</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Data_source_editable__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Created to enable subscriber to edit the field</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Data source</label>
+        <referenceTo>appsolutely__Data_source__mdt</referenceTo>
+        <relationshipLabel>Data source Per Countries (Data source editable)</relationshipLabel>
+        <relationshipName>Data_source_Per_Countries2</relationshipName>
+        <required>false</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__ISO_3166_Entry__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The country (as ISO3166 code) for which the given data source can be selected</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>The country (as ISO3166 code) for which the given data source can be selected</inlineHelpText>
+        <label>ISO 3166 Entry</label>
+        <referenceTo>appsolutely__ISO_3166_Entry__mdt</referenceTo>
+        <relationshipLabel>Data source Per Countries</relationshipLabel>
+        <relationshipName>Data_source_Per_Countries</relationshipName>
+        <required>true</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <label>Data source Per Country</label>
+    <pluralLabel>Data source Per Countries</pluralLabel>
+    <validationRules>
+        <fullName>appsolutely__Data_source_selected_records_public</fullName>
+        <active>true</active>
+        <description>Checks if the record is public whenever the data source selected field is true</description>
+        <errorConditionFormula>appsolutely__Data_Source_Select_Record__c &amp;&amp; IsProtected</errorConditionFormula>
+        <errorMessage>A record that determines which data source is selected for the country should always be public. Please change to public or deselect the Data Source Selected field</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>APTS_AgreementExtId__c</fullName>
+        <externalId>false</externalId>
+        <label>Agreement External Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Agreement_Number__c</fullName>
+        <description>This is Agreement number</description>
+        <externalId>false</externalId>
+        <label>Agreement Number</label>
+        <length>15</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_AssetAdjustmentLineItemExtId__c</fullName>
+        <externalId>false</externalId>
+        <label>Asset Adjustment Line Item External Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_AssetLineItemExtId__c</fullName>
+        <externalId>false</externalId>
+        <label>Asset Line Item External Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_ConversionId__c</fullName>
+        <externalId>false</externalId>
+        <label>Conversion Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Discount_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Discount Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Auto</fullName>
+                    <default>false</default>
+                    <label>Auto</label>
+                </value>
+                <value>
+                    <fullName>Manual</fullName>
+                    <default>true</default>
+                    <label>Manual</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Incentive_Amount_Per_Billing_Period__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( ISPICKVAL( Apttus_Config2_AssetLineItemId__r.Apttus_Config2__SellingFrequency__c , &apos;Monthly&apos;) , (Apttus_Config2_IncentiveAsetAdjustAmount__c/  Apttus_Config2_AssetLineItemId__r.Apttus_Config2__Term__c)*1 , IF( ISPICKVAL( Apttus_Config2_AssetLineItemId__r.Apttus_Config2__SellingFrequency__c , &apos;Quarterly&apos;) , (Apttus_Config2_IncentiveAsetAdjustAmount__c/ Apttus_Config2_AssetLineItemId__r.Apttus_Config2__Term__c)*3,  IF( ISPICKVAL( Apttus_Config2_AssetLineItemId__r.Apttus_Config2__SellingFrequency__c , &apos;Half Yearly&apos;) , (Apttus_Config2_IncentiveAsetAdjustAmount__c/ Apttus_Config2_AssetLineItemId__r.Apttus_Config2__Term__c)*6, IF( ISPICKVAL( Apttus_Config2_AssetLineItemId__r.Apttus_Config2__SellingFrequency__c , &apos;Yearly&apos;) , (Apttus_Config2_IncentiveAsetAdjustAmount__c/ Apttus_Config2_AssetLineItemId__r.Apttus_Config2__Term__c)*12,0))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Incentive Amount Per Billing Period</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Index_batch_asset_Adj_Ext_ID__c</fullName>
+        <externalId>true</externalId>
+        <label>Index batch asset Adj Ext ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_MigrationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Migration Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>APTS_SourceSystem__c</fullName>
+        <externalId>false</externalId>
+        <label>Source System</label>
+        <length>3</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Agreement_LineItem_Id__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This is reference to agreement Line Item id</description>
+        <externalId>false</externalId>
+        <label>Agreement Line Item Id</label>
+        <referenceTo>Apttus__AgreementLineItem__c</referenceTo>
+        <relationshipLabel>Asset Adjustment Line Item</relationshipLabel>
+        <relationshipName>Asset_Adjustment_Line_Item</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2_Adjustment_Uom__c</fullName>
+        <externalId>false</externalId>
+        <label>Adjustment Uom</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SAP_EA</fullName>
+                    <default>false</default>
+                    <label>Each</label>
+                </value>
+                <value>
+                    <fullName>SAP_BX</fullName>
+                    <default>false</default>
+                    <label>Box</label>
+                </value>
+                <value>
+                    <fullName>SAP_PF</fullName>
+                    <default>false</default>
+                    <label>Pallet</label>
+                </value>
+                <value>
+                    <fullName>SAP_GRM</fullName>
+                    <default>false</default>
+                    <label>Gram</label>
+                </value>
+                <value>
+                    <fullName>SAP_KGM</fullName>
+                    <default>false</default>
+                    <label>Kilogram</label>
+                </value>
+                <value>
+                    <fullName>SAP_LTR</fullName>
+                    <default>false</default>
+                    <label>Liter</label>
+                </value>
+                <value>
+                    <fullName>SAP_PCE</fullName>
+                    <default>false</default>
+                    <label>Piece</label>
+                </value>
+                <value>
+                    <fullName>SAP_LZ</fullName>
+                    <default>false</default>
+                    <label>LAY120*80</label>
+                </value>
+                <value>
+                    <fullName>SAP_LY</fullName>
+                    <default>false</default>
+                    <label>LAY120*100</label>
+                </value>
+                <value>
+                    <fullName>SAP_PY1</fullName>
+                    <default>false</default>
+                    <label>HAP120*100</label>
+                </value>
+                <value>
+                    <fullName>SAP_PY2</fullName>
+                    <default>false</default>
+                    <label>FUP120*100</label>
+                </value>
+                <value>
+                    <fullName>SAP_ZQH</fullName>
+                    <default>false</default>
+                    <label>Quarter of Hour</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2_AssetAdjustAmount__c</fullName>
+        <externalId>false</externalId>
+        <label>Adjustment Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2_AssetAdjustAppliesTo__c</fullName>
+        <externalId>false</externalId>
+        <label>Adjustment Applies To</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Starting Price</fullName>
+                    <default>false</default>
+                    <label>On Starting Price</label>
+                </value>
+                <value>
+                    <fullName>Bucket 1</fullName>
+                    <default>false</default>
+                    <label>On Net List</label>
+                </value>
+                <value>
+                    <fullName>Bucket 2</fullName>
+                    <default>false</default>
+                    <label>On Inflation</label>
+                </value>
+                <value>
+                    <fullName>Bucket 3</fullName>
+                    <default>false</default>
+                    <label>On PPR</label>
+                </value>
+                <value>
+                    <fullName>Bucket 4</fullName>
+                    <default>false</default>
+                    <label>On TPR</label>
+                </value>
+                <value>
+                    <fullName>Bucket 5</fullName>
+                    <default>false</default>
+                    <label>On BMC/BDF/EFF</label>
+                </value>
+                <value>
+                    <fullName>Bucket 6</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Bucket 6</label>
+                </value>
+                <value>
+                    <fullName>Bucket 7</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Bucket 7</label>
+                </value>
+                <value>
+                    <fullName>Bucket 8</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Bucket 8</label>
+                </value>
+                <value>
+                    <fullName>Bucket 9</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Bucket 9</label>
+                </value>
+                <value>
+                    <fullName>On Inflation</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>On Inflation</label>
+                </value>
+                <value>
+                    <fullName>Previous Price</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Previous Price</label>
+                </value>
+                <value>
+                    <fullName>Price</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Price</label>
+                </value>
+                <value>
+                    <fullName>PricePrevious</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>PricePrevious</label>
+                </value>
+                <value>
+                    <fullName>Starting</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Starting</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2_AssetAdjustType__c</fullName>
+        <externalId>false</externalId>
+        <label>Adjustment Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>% Discount</fullName>
+                    <default>true</default>
+                    <label>% Discount</label>
+                </value>
+                <value>
+                    <fullName>Base Price Discount</fullName>
+                    <default>false</default>
+                    <label>Discount Amount PerUnit</label>
+                </value>
+                <value>
+                    <fullName>% Markup</fullName>
+                    <default>false</default>
+                    <label>% Markup</label>
+                </value>
+                <value>
+                    <fullName>Markup Amount</fullName>
+                    <default>false</default>
+                    <label>Markup Amount</label>
+                </value>
+                <value>
+                    <fullName>Price Override</fullName>
+                    <default>false</default>
+                    <label>Price Override</label>
+                </value>
+                <value>
+                    <fullName>Price Factor</fullName>
+                    <default>false</default>
+                    <label>Price Factor</label>
+                </value>
+                <value>
+                    <fullName>Discount Amount</fullName>
+                    <default>false</default>
+                    <label>Discount Amount Extended</label>
+                </value>
+                <value>
+                    <fullName>Amount%</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Amount%</label>
+                </value>
+                <value>
+                    <fullName>AmountPrice</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>AmountPrice</label>
+                </value>
+                <value>
+                    <fullName>Factor</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Factor</label>
+                </value>
+                <value>
+                    <fullName>MarkupMarkup</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>MarkupMarkup</label>
+                </value>
+                <value>
+                    <fullName>OverridePrice</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>OverridePrice</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2_AssetLineItemId__c</fullName>
+        <externalId>false</externalId>
+        <label>Asset Line Item</label>
+        <referenceTo>Apttus_Config2__AssetLineItem__c</referenceTo>
+        <relationshipLabel>Asset Adjustment Line Item</relationshipLabel>
+        <relationshipName>Asset_Adjustment_Line_Item</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2_BenefitQuantity__c</fullName>
+        <externalId>false</externalId>
+        <label>Benefit Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2_Bucket__c</fullName>
+        <externalId>false</externalId>
+        <label>Bucket</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bucket 1</fullName>
+                    <default>false</default>
+                    <label>Discount GSV</label>
+                </value>
+                <value>
+                    <fullName>Bucket 2</fullName>
+                    <default>false</default>
+                    <label>Inflation</label>
+                </value>
+                <value>
+                    <fullName>Bucket 3</fullName>
+                    <default>false</default>
+                    <label>PPR</label>
+                </value>
+                <value>
+                    <fullName>Bucket 4</fullName>
+                    <default>false</default>
+                    <label>TPR</label>
+                </value>
+                <value>
+                    <fullName>Bucket 5</fullName>
+                    <default>false</default>
+                    <label>BMC/BDF/EFF</label>
+                </value>
+                <value>
+                    <fullName>Bucket 6</fullName>
+                    <default>false</default>
+                    <label>YOCI/YOFT</label>
+                </value>
+                <value>
+                    <fullName>Bucket 7</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Bucket 7</label>
+                </value>
+                <value>
+                    <fullName>Bucket 8</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Bucket 8</label>
+                </value>
+                <value>
+                    <fullName>Bucket 9</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Bucket 9</label>
+                </value>
+                <value>
+                    <fullName>Inflation</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Inflation</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2_CouponCode__c</fullName>
+        <externalId>false</externalId>
+        <label>Coupon Code</label>
+        <length>6</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2_IncentiveAsetAdjustAmount__c</fullName>
+        <externalId>false</externalId>
+        <label>Incentive Adjustment Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2_IncentiveCode__c</fullName>
+        <externalId>false</externalId>
+        <label>Incentive Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2_IncentiveId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Incentive</label>
+        <referenceTo>Apttus_Config2__Incentive__c</referenceTo>
+        <relationshipLabel>Asset Adjustment Line Item</relationshipLabel>
+        <relationshipName>Asset_Adjustment_Line_Item</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2_IsModifiable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Modifiable</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2_LineNumber__c</fullName>
+        <externalId>false</externalId>
+        <label>Line Number</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2_LineType__c</fullName>
+        <externalId>false</externalId>
+        <label>Line Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Manual</fullName>
+                    <default>false</default>
+                    <label>Manual</label>
+                </value>
+                <value>
+                    <fullName>Auto</fullName>
+                    <default>false</default>
+                    <label>Auto</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2_PriceRuleEntryId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Price Rule Entry</label>
+        <referenceTo>Apttus_Config2__PriceRuleEntry__c</referenceTo>
+        <relationshipLabel>Asset Adjustment Line Item</relationshipLabel>
+        <relationshipName>Asset_Adjustment_Line_Item</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2_PriceRuleId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Price Rule</label>
+        <referenceTo>Apttus_Config2__PriceRule__c</referenceTo>
+        <relationshipLabel>Asset Adjustment Line Item</relationshipLabel>
+        <relationshipName>Asset_Adjustment_Line_Item</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2_SubType__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ZP06</fullName>
+                    <default>false</default>
+                    <label>Permanent Discount</label>
+                </value>
+                <value>
+                    <fullName>ZP07</fullName>
+                    <default>false</default>
+                    <label>Additional Permanent Discount</label>
+                </value>
+                <value>
+                    <fullName>ZP04</fullName>
+                    <default>false</default>
+                    <label>Temporary Discount (Manual)</label>
+                </value>
+                <value>
+                    <fullName>ZP08</fullName>
+                    <default>false</default>
+                    <label>Promotional Discount</label>
+                </value>
+                <value>
+                    <fullName>ZP10</fullName>
+                    <default>false</default>
+                    <label>Promotional Discount (Coupons)</label>
+                </value>
+                <value>
+                    <fullName>ZX10</fullName>
+                    <default>false</default>
+                    <label>Free Of Charge (100% Discount)</label>
+                </value>
+                <value>
+                    <fullName>ZP15</fullName>
+                    <default>false</default>
+                    <label>Brand Marketing Campaign (Budget)</label>
+                </value>
+                <value>
+                    <fullName>ZP11</fullName>
+                    <default>false</default>
+                    <label>Business Development Funds (YER)</label>
+                </value>
+                <value>
+                    <fullName>ZP13</fullName>
+                    <default>false</default>
+                    <label>Business Development Funds (PPR)</label>
+                </value>
+                <value>
+                    <fullName>ZP12</fullName>
+                    <default>false</default>
+                    <label>Efficiency Discount</label>
+                </value>
+                <value>
+                    <fullName>YOCI</fullName>
+                    <default>false</default>
+                    <label>Consignment Ingredients</label>
+                </value>
+                <value>
+                    <fullName>YOFT</fullName>
+                    <default>false</default>
+                    <label>Fixed term</label>
+                </value>
+                <value>
+                    <fullName>ZP03</fullName>
+                    <default>false</default>
+                    <label>Discount Surcharge GSV</label>
+                </value>
+                <value>
+                    <fullName>ZP02</fullName>
+                    <default>false</default>
+                    <label>Inflation correction</label>
+                </value>
+                <value>
+                    <fullName>1BDF uncond (PPR)</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>1BDF uncond (PPR)</label>
+                </value>
+                <value>
+                    <fullName>Cost avoid returns</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Cost avoid returns</label>
+                </value>
+                <value>
+                    <fullName>Coupons</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Coupons</label>
+                </value>
+                <value>
+                    <fullName>Default</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Default</label>
+                </value>
+                <value>
+                    <fullName>ECR/Administration</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>ECR/Administration</label>
+                </value>
+                <value>
+                    <fullName>Loyalty Cards</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Loyalty Cards</label>
+                </value>
+                <value>
+                    <fullName>Payment</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Payment</label>
+                </value>
+                <value>
+                    <fullName>Price Restitution</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Price Restitution</label>
+                </value>
+                <value>
+                    <fullName>Trade</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Trade</label>
+                </value>
+                <value>
+                    <fullName>ZX05</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>ZX05</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>PPR</fullName>
+                    <default>true</default>
+                    <label>Permanent Discount</label>
+                </value>
+                <value>
+                    <fullName>TPR</fullName>
+                    <default>false</default>
+                    <label>Temporary Discount</label>
+                </value>
+                <value>
+                    <fullName>BMC</fullName>
+                    <default>false</default>
+                    <label>Budget/Development/Efficiency</label>
+                </value>
+                <value>
+                    <fullName>YOCI</fullName>
+                    <default>false</default>
+                    <label>Consignment</label>
+                </value>
+                <value>
+                    <fullName>YOFT</fullName>
+                    <default>false</default>
+                    <label>Fixed Term</label>
+                </value>
+                <value>
+                    <fullName>GSV</fullName>
+                    <default>false</default>
+                    <label>Discount Surcharge GSV</label>
+                </value>
+                <value>
+                    <fullName>Inflation</fullName>
+                    <default>false</default>
+                    <label>Inflation</label>
+                </value>
+                <value>
+                    <fullName>Default</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Default</label>
+                </value>
+                <value>
+                    <fullName>BDF</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Development</label>
+                </value>
+                <value>
+                    <fullName>EFF</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Efficiency</label>
+                </value>
+                <value>
+                    <fullName>PPRTPRBMCBDFEFF</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>PPRTPRBMCBDFEFF</label>
+                </value>
+                <value>
+                    <fullName>Promotion</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Promotion</label>
+                </value>
+                <value>
+                    <fullName>Rebate</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Rebate</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Line_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Line Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Manual</fullName>
+                    <default>false</default>
+                    <label>Manual</label>
+                </value>
+                <value>
+                    <fullName>Auto</fullName>
+                    <default>false</default>
+                    <label>Auto</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>RunningTotalAdjustedPrice__c</fullName>
+        <externalId>false</externalId>
+        <label>Running Total (Adjusted Price)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <label>Asset Adjustment Line Item</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Asset Adjustment Line Item Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Asset Adjustment Line Item</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

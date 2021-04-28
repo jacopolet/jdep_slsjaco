@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents the price breakup of a product/service</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fieldSets>
+        <fullName>Apttus_Config2__RelatedPriceBreakupDisplayFieldSet</fullName>
+        <availableFields>
+            <field>Apttus_Config2__BasePrice__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Config2__NetUnitPrice__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Config2__RelatedBasePrice__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Config2__RelatedExtendedPrice__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Config2__RelatedListPrice__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Config2__RelatedSellingFrequency__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Config2__RelatedSellingTerm__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Config2__SubType__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Config2__Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>RelatedPriceBreakupDisplay</description>
+        <displayedFields>
+            <field>Apttus_Config2__Sequence__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__BreakupType__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__RelatedProductId__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__RelatedQuantity__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__RelatedChargeType__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__RelatedStartDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__RelatedEndDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__RelatedNetPrice__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Related Price Breakup Display FieldSet</label>
+    </fieldSets>
+    <fields>
+        <fullName>Apttus_Config2__BasePrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The computed base price</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The computed base price</inlineHelpText>
+        <label>Base Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BreakupType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price break type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The price break type</inlineHelpText>
+        <label>Breakup Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Related Price</fullName>
+                    <default>false</default>
+                    <label>Related Price</label>
+                </value>
+                <value>
+                    <fullName>Tier Price</fullName>
+                    <default>false</default>
+                    <label>Tier Price</label>
+                </value>
+                <value>
+                    <fullName>Total</fullName>
+                    <default>false</default>
+                    <label>Total</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Data__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Json for list of computed values for price points with adjustments.</description>
+        <externalId>false</externalId>
+        <label>Data</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LineItemId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the associated line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated line item</inlineHelpText>
+        <label>Line Item</label>
+        <referenceTo>Apttus_Config2__LineItem__c</referenceTo>
+        <relationshipLabel>Price Breakups</relationshipLabel>
+        <relationshipName>PriceBreakups</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__NetUnitPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The computed net unit price</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The computed net unit price</inlineHelpText>
+        <label>Net Unit Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RelatedBasePrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The related base price computed based on the related product/service</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The related base price computed based on the related product/service</inlineHelpText>
+        <label>Related Base Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RelatedChargeType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The charge type associated with the related product/service</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The charge type associated with the related product/service</inlineHelpText>
+        <label>Related Charge Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Adjustment</fullName>
+                    <default>false</default>
+                    <label>Adjustment</label>
+                </value>
+                <value>
+                    <fullName>Implementation Fee</fullName>
+                    <default>false</default>
+                    <label>Implementation Fee</label>
+                </value>
+                <value>
+                    <fullName>Installation Fee</fullName>
+                    <default>false</default>
+                    <label>Installation Fee</label>
+                </value>
+                <value>
+                    <fullName>License Fee</fullName>
+                    <default>false</default>
+                    <label>License Fee</label>
+                </value>
+                <value>
+                    <fullName>Maintenance Fee</fullName>
+                    <default>false</default>
+                    <label>Maintenance Fee</label>
+                </value>
+                <value>
+                    <fullName>Sales Tax</fullName>
+                    <default>false</default>
+                    <label>Sales Tax</label>
+                </value>
+                <value>
+                    <fullName>Shipping &amp; Handling</fullName>
+                    <default>false</default>
+                    <label>Shipping &amp; Handling</label>
+                </value>
+                <value>
+                    <fullName>Standard Price</fullName>
+                    <default>false</default>
+                    <label>Standard Price</label>
+                </value>
+                <value>
+                    <fullName>Subscription Fee</fullName>
+                    <default>false</default>
+                    <label>Subscription Fee</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RelatedEndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The end date associated with the related product/service</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The end date associated with the related product/service</inlineHelpText>
+        <label>Related End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RelatedExtendedPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The related extended price is Quantity X Term X Related Base Price</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The related extended price is Quantity X Term X Related Base Price</inlineHelpText>
+        <label>Related Extended Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RelatedLineItemId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the related line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the related line item</inlineHelpText>
+        <label>Related Line Item</label>
+        <referenceTo>Apttus_Config2__RelatedLineItem__c</referenceTo>
+        <relationshipLabel>Price Breakups</relationshipLabel>
+        <relationshipName>PriceBreakups</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RelatedListPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The list price associated with the related product/service</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The list price associated with the related product/service</inlineHelpText>
+        <label>Related List Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RelatedNetPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The net price associated with the related product/service</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The net price associated with the related product/service</inlineHelpText>
+        <label>Related Net Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RelatedProductId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the related product</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the related product</inlineHelpText>
+        <label>Related Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Price Breakups</relationshipLabel>
+        <relationshipName>PriceBreakups</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RelatedQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The quantity associated with the related product/service</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The quantity associated with the related product/service</inlineHelpText>
+        <label>Related Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RelatedSellingFrequency__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The selling frequency associated with the related product/service</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The selling frequency associated with the related product/service</inlineHelpText>
+        <label>Related Selling Frequency</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hourly</fullName>
+                    <default>false</default>
+                    <label>Hourly</label>
+                </value>
+                <value>
+                    <fullName>Daily</fullName>
+                    <default>false</default>
+                    <label>Daily</label>
+                </value>
+                <value>
+                    <fullName>Monthly</fullName>
+                    <default>false</default>
+                    <label>Monthly</label>
+                </value>
+                <value>
+                    <fullName>Quarterly</fullName>
+                    <default>false</default>
+                    <label>Quarterly</label>
+                </value>
+                <value>
+                    <fullName>Half Yearly</fullName>
+                    <default>false</default>
+                    <label>Half Yearly</label>
+                </value>
+                <value>
+                    <fullName>Yearly</fullName>
+                    <default>false</default>
+                    <label>Yearly</label>
+                </value>
+                <value>
+                    <fullName>One Time</fullName>
+                    <default>false</default>
+                    <label>One Time</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RelatedSellingTerm__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The selling term associated with the related product/service</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The selling term associated with the related product/service</inlineHelpText>
+        <label>Related Selling Term</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RelatedStartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The start date associated with the related product/service</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The start date associated with the related product/service</inlineHelpText>
+        <label>Related Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Sequence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The breakup sequence</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The breakup sequence</inlineHelpText>
+        <label>Sequence</label>
+        <precision>5</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SubType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The user defined sub type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The user defined sub type</inlineHelpText>
+        <label>SubType</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Default</fullName>
+                    <default>false</default>
+                    <label>Default</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__TierBasePrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The unit price associated with the tier</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The unit price associated with the tier</inlineHelpText>
+        <label>Tier Unit Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__TierEndValue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The tier end value</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The tier end value</inlineHelpText>
+        <label>Tier End Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__TierExtendedPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The tier extended price is Tier Quantity X Tier Base Price</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The tier extended price is Tier Quantity X Tier Base Price</inlineHelpText>
+        <label>Tier Extended Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__TierFlatPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The flat price associated with the tier</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The flat price associated with the tier</inlineHelpText>
+        <label>Tier Flat Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__TierQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The quantity associated with the tier</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The quantity associated with the tier</inlineHelpText>
+        <label>Tier Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__TierStartValue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The tier start value</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The tier start value</inlineHelpText>
+        <label>Tier Start Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The user defined type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The user defined type</inlineHelpText>
+        <label>Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Default</fullName>
+                    <default>false</default>
+                    <label>Default</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Price Breakup</label>
+    <nameField>
+        <displayFormat>PB-{00000000}</displayFormat>
+        <label>Breakup Id</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Price Breakups</pluralLabel>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Sequence__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__BreakupType__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__RelatedProductId__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__RelatedQuantity__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__RelatedChargeType__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__RelatedBasePrice__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__RelatedNetPrice__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__BasePrice__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__Sequence__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__BreakupType__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__RelatedProductId__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__RelatedQuantity__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__RelatedChargeType__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__RelatedBasePrice__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__RelatedNetPrice__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__BasePrice__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__Sequence__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__BreakupType__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__RelatedProductId__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__RelatedQuantity__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__RelatedChargeType__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__RelatedBasePrice__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__RelatedNetPrice__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__BasePrice__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Country</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Organization__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Organization</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>User__c</fullName>
+        <externalId>false</externalId>
+        <label>User</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Country Super Users</label>
+    <listViews>
+        <fullName>Country_Super_Users</fullName>
+        <columns>NAME</columns>
+        <columns>User__c</columns>
+        <columns>Country__c</columns>
+        <columns>Sales_Organization__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Country Super Users</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Country_Super_Users1</fullName>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>NAME</columns>
+        <columns>User__c</columns>
+        <columns>Country__c</columns>
+        <columns>Sales_Organization__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Country Super Users1</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

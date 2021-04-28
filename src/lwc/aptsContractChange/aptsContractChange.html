@@ -1,0 +1,294 @@
+<!-- v100 26-Mar-2021 DQ-5726 :Sneha Jaiwant : prevent user to press Submit button more than once -->
+<template>
+    <template if:true={bShowChangeAssetModal}>
+    <!-- New Row in Layout-->  
+   <div class="slds-m-around_large">
+       <div if:false={isLoaded} class="slds-is-relative">
+          <lightning-spinner alternative-text="Please wait gathering asset data ..." variant="brand" size="large"> </lightning-spinner>    
+      </div>     
+  </div>
+<!--<lightning-layout-item padding="around-small">
+   <lightning-input type="date" name="input2" label="Start date" onchange={handleDateChange}></lightning-input>
+</lightning-layout-item>
+<lightning-layout-item padding="around-small" style="width: 25%;" >                
+   <c-apts-lwc-custom-lookup object-name="Apttus_Config2__BillingPreference__c"  ex    tra-fields="Apttus_Config2__BillingCycleStart__c , Apttus_Config2__BillingDayOfMonth2__c" lookup-label ="Billing Preference" icon-name="standard:event" extra-filters={billingPreFilter} oncustomrecordselected={handleSelected} onremoveselected={handleSelected}></c-apts-lwc-custom-lookup>              
+</lightning-layout-item>-->
+<template if:true={allRecords}>
+
+    
+    
+        <p style='padding-left : 10px'>Please select the Type of Contract to be converted:</p> 
+        <select   onchange={assignValue} class="slds-select">
+            <template for:each={ContractTypes} for:item="next">
+                <option class="uiINputSelectOption" key={next} value={next}>{next}</option>
+            </template>
+        </select> 
+    
+   
+          
+
+<div if:true={hasBundleAttributes} style="display: inline-block"  class="slds-box slds-p-around_none slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none">   
+   <p style='padding-left : 10px'>Old Contract:</p>    
+   <lightning-layout vertical-align="center">
+       <table class="slds-table">
+           <tbody>
+               <tr class="slds-line-height_reset"> 
+                   <td role="gridcell"  class="slds-cell-shrink">
+                       <lightning-record-edit-form object-api-name="Apttus_Config2__AssetAttributeValue__c">
+                           <ul class="slds-list_inline">
+                           <template for:each={bundleAttributes} for:item="attribute">
+                               <li key={attribute.key}>
+                                   
+                                   <lightning-layout-item padding="horizontal-medium">
+                                       <div if:true={attribute.readOnly}>
+                                           <lightning-input-field field-name={attribute.attributeFieldName} value={attribute.assignedValue} disabled={attribute.readOnly}></lightning-input-field>
+                                       </div>
+                                       <div if:false={attribute.readOnly}>
+                                           <lightning-input-field field-name={attribute.attributeFieldName} onchange={handleBundleAttributes} value={attribute.assignedValue}></lightning-input-field>
+                                       </div>
+                                   </lightning-layout-item>
+                               </li>
+                           </template>
+                           </ul>
+                       </lightning-record-edit-form>
+                   </td>
+               </tr>
+           </tbody>
+       </table>
+   </lightning-layout>
+</div> 
+&nbsp;&nbsp;
+
+
+ <div if:true={newhasBundleAttributes} style="display: inline-block"  class="slds-box slds-p-around_none slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none">   
+    <p style='padding-left : 10px'>New Contract:</p>    
+    <lightning-layout vertical-align="center">
+        <table class="slds-table">
+            <tbody>
+                <tr class="slds-line-height_reset"> 
+                    <td role="gridcell"  class="slds-cell-shrink">
+                        <lightning-record-edit-form object-api-name="Apttus_Config2__ProductAttributeValue__c">
+                            <ul class="slds-list_inline">
+                            <template for:each={newbundleAttributes} for:item="attribute">
+                                <li key={attribute.key}>
+                                    
+                                    <lightning-layout-item padding="horizontal-medium">
+                                        <div if:true={attribute.readOnly}>
+                                            <lightning-input-field field-name={attribute.attributeFieldName} value={attribute.assignedValue} disabled={attribute.readOnly}></lightning-input-field>
+                                        </div>
+                                        <div if:false={attribute.readOnly}>
+                                            <lightning-input-field field-name={attribute.attributeFieldName} onchange={handleNewBundleAttributes} value={attribute.assignedValue}></lightning-input-field>
+                                        </div>
+                                    </lightning-layout-item>
+                                </li>
+                            </template>
+                            </ul>
+                        </lightning-record-edit-form>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </lightning-layout>
+ </div> 
+
+</br>
+<form>
+   
+<div class="slds-box slds-p-around_none slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none" if:true={isLoaded}>   
+   <p style='padding-left : 10px'>Please update the Start Date of New Bundle:</p> 
+   <lightning-layout > 
+       <table class="slds-table slds-grid slds-wrap">
+       <tbody>
+       <tr>
+
+
+        <td>
+            <div  style='padding-left : 10px'>
+                <lightning-layout-item padding="horizontal-medium">
+                    <!--<lightning-helptext content="Enter the Base price override. Please note : Start Date is mandatory for the transaction for adding an option"></lightning-helptext>-->
+                    <lightning-input type="date" name="startDate" label="Start date" value={startDateValue} onchange={handleDatesChange} style="width: 140px"></lightning-input>
+                </lightning-layout-item>
+            </div>
+        </td>
+          
+           <td>
+            <div  style='padding-left : 10px'>
+                <lightning-layout-item padding="horizontal-medium" >
+                    <!--<lightning-helptext content="Enter the Base price override. Please note : End Date is mandatory for the transaction for removing an option"></lightning-helptext>-->
+                    <lightning-input type="date" read-only="true" value ={endDateValue} name="endDate" label="End date" onchange={handleDatesChange} style="width: 140px" ></lightning-input>
+                </lightning-layout-item>
+            </div>
+           </td> 
+          
+           
+           </tr>
+        </tbody>
+       </table>
+   </lightning-layout>
+</div>
+
+      <!--  <lightning-button variant="brand"
+        label="Confirm"
+        title="Confirm"
+        onclick={createOrder}
+        class="slds-m-left_x-small"></lightning-button>  -->
+       
+        <lightning-button variant="brand"
+        label="Proceed"
+        title="Proceed"
+        onclick={openModal}
+        disabled={disableProceed}
+        class="slds-m-left_x-small"></lightning-button> 
+      
+      
+       
+   
+</form>
+
+
+<!--<div if:true={hasAttributes} style="display: inline-block" class="slds-box slds-p-around_none slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none">   
+   <lightning-helptext content="These Attributes are related to the option you have currently selected."></lightning-helptext>
+   <p style='padding-left : 10px'>Related attributes:</p>    
+   <lightning-layout vertical-align="center">
+       <table class="slds-table">
+           <tbody>
+               <tr class="slds-line-height_reset"> 
+                   <td role="gridcell"  class="slds-cell-shrink">
+                       <lightning-record-edit-form object-api-name="Apttus_Config2__ProductAttributeValue__c">
+                           <ul class="slds-list_inline">
+                           <template for:each={relatedAttributes} for:item="attribute">
+                               <li key={attribute.key}>
+                                   
+                                   <lightning-layout-item padding="horizontal-medium">
+                                       <div if:true={attribute.readOnly}>
+                                           <lightning-input-field field-name={attribute.attributeFieldName} value={attribute.assignedValue} disabled={attribute.readOnly}></lightning-input-field>
+                                       </div>
+                                       <div if:false={attribute.readOnly}>
+                                           <lightning-input-field field-name={attribute.attributeFieldName} onchange={handleOptionAttributes} value={attribute.assignedValue}></lightning-input-field>
+                                       </div>
+                                   </lightning-layout-item>
+                               </li>
+                           </template>
+                           </ul>
+                       </lightning-record-edit-form>
+                   </td>
+               </tr>
+           </tbody>
+       </table>
+   </lightning-layout>
+</div>                                                                      
+<div if:true={showTable}>
+<c-apts-lwc-datatable records={allRecords}
+   total-records={allRecords.length}
+   columns={columns}
+   key-field="productid"
+   show-search-box="true" 
+   onpaginatorchange={handlePaginatorChange}
+   onsetselectedrecords={handleSelectedItem}>
+</c-apts-lwc-datatable>    
+</div>
+<div if:true={showAddTable}>
+<c-apts-lwc-datatable records={allRecords}
+   total-records={allRecords.length}
+   key-field="productid"
+   columns={columns}
+   onpaginatorchange={handlePaginatorChange}
+   hide-check-box="true">
+</c-apts-lwc-datatable>    
+</div>-->
+
+</template>
+</template>
+
+<template if:true={bShowActionModal}>
+
+    <lightning-layout>
+        <lightning-layout-item padding="around-small">
+            <lightning-input type="number" name="input1" step=".001" label="Base Price Override"  onchange={handleBPOChange} value={bpoValue}></lightning-input>
+        </lightning-layout-item>
+       <!-- <lightning-layout-item padding="around-small">
+            <lightning-combobox name="progress"
+                                label="Sub Type"
+                                value={subTypeValue}
+                                placeholder="Select Progress"
+                                options={options}
+                                onchange={handleSubTypeChange}></lightning-combobox> 
+        </lightning-layout-item>-->
+        <lightning-layout-item padding="around-small">
+            <lightning-combobox name="progress"
+            label="Discount Type"
+            value={discountTypeValue}
+            placeholder="Select Progress"
+            options={discountType}
+            onchange={handleDiscountTypeChange}></lightning-combobox>          
+        </lightning-layout-item>
+
+        <!-- Temprorary Commenting
+        <lightning-layout-item padding="around-small">
+            <lightning-combobox name="progress"
+            label="Billing Frequency"
+            value={billingFreqValue}
+            placeholder="Select Progress"
+            options={billingFrequencies}
+            onchange={handleBillingFreqChange}></lightning-combobox>          
+        </lightning-layout-item>
+        -->
+
+        <lightning-layout-item padding="around-small">
+            <lightning-input type="number" name="input1" step=".001"  onchange={handleTypeValueChange} label="Value" value={typeValue}></lightning-input>
+        </lightning-layout-item>
+       <!-- <lightning-layout-item padding="around-small">
+            <lightning-input type="date" name="input1" label="Start date"  disabled={disableStartDate} onchange={handleStartDateChange} value={startDateValue}></lightning-input>
+        </lightning-layout-item> -->
+        <lightning-layout-item class="slds-p-around_x-large">
+            <template if:true={cascadeButtonLabel}>
+            <lightning-button variant="brand" label="Cascade" onclick={handleCascade} class="slds-m-left_x-small"></lightning-button>
+            </template> 
+        </lightning-layout-item> 
+    </lightning-layout>
+
+<div>
+    <template if:true={allNewBundleRecs}>
+    <c-apts-lwc-datatable records={allNewBundleRecs} 
+    total-records={allNewBundleRecs.length} 
+    columns = {columns}
+    key-field="productid"
+    show-search-box="true" 
+    onpaginatorchange={handlePaginatorChange}
+    onsetselectedrecords={handleSelectedItem}>    
+ </c-apts-lwc-datatable> 
+ 
+ 
+ <template if:true={allNewBundleRecs}>
+    <lightning-button variant="brand"
+    label="Previous"
+    title="Previous"
+    onclick={openPrevious} disabled={orderStatus}
+    class="slds-m-left_x-small"></lightning-button> 
+
+    <lightning-button variant="brand"
+    label="Submit"
+    title="Submit"
+    onclick={createOrder} disabled={orderStatus}
+    class="slds-m-left_x-small"></lightning-button> 
+
+  
+</template>
+ 
+</template> 
+
+ </div>   
+</template>
+<!-- v100-->
+<template if:true={bstatusModal}>
+    <template if:true={allNewBundleRecs}>
+          <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+
+                <c-apts-Status record-id={bundleAssetId} ></c-apts-Status>
+          </div> 
+    </template>      
+ </template> 
+ <!--v100-->
+</template>
+
+</template>

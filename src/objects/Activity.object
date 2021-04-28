@@ -1,0 +1,2291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Account_Address__c</fullName>
+        <description>Contains account address when task is related to opportunity, case, lead, contact and directly from account</description>
+        <externalId>false</externalId>
+        <label>Account Address</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Account_Call_List_Day__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.Call_List_Day__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Call List Day</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Lifecycle_HANA__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Lifecycle</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>PKL_AccountLifecycle</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Account_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Owner__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.Owner.FirstName + &apos; &apos; + Account__r.Owner.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Owner</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Sales_1__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.Sales_Inside_1__r.FirstName + &apos; &apos; + Account__r.Sales_Inside_1__r.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Sales 1</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Segment_HANA__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Segment</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Call_list_frequency__c</fullName>
+        <description>Direct access of account call list frequency on task</description>
+        <externalId>false</externalId>
+        <formula>Account__r.Call_Frequency__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Call list frequency</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Campaign__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Campaign</label>
+        <referenceTo>Campaign</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Case__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Case</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Cloned__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Cloned?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Contact_Person__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Contact__r.Function__c, &apos;Buyer All&apos;), &apos;Buyer All&apos;,
+IF(ISPICKVAL(Contact__r.Function__c, &apos;Buyer Ingredients&apos;), &apos;Buyer Ingredients&apos;,
+IF( Contact__r.Main_Commercial_Person__c = true, &apos;Main Commercial Person&apos;, &apos;&apos;)
+)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contact Person</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_Phone_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF ( Contact__r.Id != null, Contact__r.Phone , &apos; &apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contact Phone Number</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Contract_Asset_Expiration_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Contract/Asset Expiration Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Contract_Asset_Lifetime__c</fullName>
+        <externalId>false</externalId>
+        <label>Contract/Asset Lifetime</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Date_Time_Closed__c</fullName>
+        <externalId>false</externalId>
+        <label>Date/Time Closed</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DueDateTime__c</fullName>
+        <externalId>false</externalId>
+        <label>Due Date Time</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0:00</fullName>
+                    <default>false</default>
+                    <label>0:00</label>
+                </value>
+                <value>
+                    <fullName>0:15</fullName>
+                    <default>false</default>
+                    <label>0:15</label>
+                </value>
+                <value>
+                    <fullName>0:30</fullName>
+                    <default>false</default>
+                    <label>0:30</label>
+                </value>
+                <value>
+                    <fullName>0:45</fullName>
+                    <default>false</default>
+                    <label>0:45</label>
+                </value>
+                <value>
+                    <fullName>1:00</fullName>
+                    <default>false</default>
+                    <label>1:00</label>
+                </value>
+                <value>
+                    <fullName>1:15</fullName>
+                    <default>false</default>
+                    <label>1:15</label>
+                </value>
+                <value>
+                    <fullName>1:30</fullName>
+                    <default>false</default>
+                    <label>1:30</label>
+                </value>
+                <value>
+                    <fullName>1:45</fullName>
+                    <default>false</default>
+                    <label>1:45</label>
+                </value>
+                <value>
+                    <fullName>2:00</fullName>
+                    <default>false</default>
+                    <label>2:00</label>
+                </value>
+                <value>
+                    <fullName>2:15</fullName>
+                    <default>false</default>
+                    <label>2:15</label>
+                </value>
+                <value>
+                    <fullName>2:30</fullName>
+                    <default>false</default>
+                    <label>2:30</label>
+                </value>
+                <value>
+                    <fullName>2:45</fullName>
+                    <default>false</default>
+                    <label>2:45</label>
+                </value>
+                <value>
+                    <fullName>3:00</fullName>
+                    <default>false</default>
+                    <label>3:00</label>
+                </value>
+                <value>
+                    <fullName>3:15</fullName>
+                    <default>false</default>
+                    <label>3:15</label>
+                </value>
+                <value>
+                    <fullName>3:30</fullName>
+                    <default>false</default>
+                    <label>3:30</label>
+                </value>
+                <value>
+                    <fullName>3:45</fullName>
+                    <default>false</default>
+                    <label>3:45</label>
+                </value>
+                <value>
+                    <fullName>4:00</fullName>
+                    <default>false</default>
+                    <label>4:00</label>
+                </value>
+                <value>
+                    <fullName>4:15</fullName>
+                    <default>false</default>
+                    <label>4:15</label>
+                </value>
+                <value>
+                    <fullName>4:30</fullName>
+                    <default>false</default>
+                    <label>4:30</label>
+                </value>
+                <value>
+                    <fullName>4:45</fullName>
+                    <default>false</default>
+                    <label>4:45</label>
+                </value>
+                <value>
+                    <fullName>5:00</fullName>
+                    <default>false</default>
+                    <label>5:00</label>
+                </value>
+                <value>
+                    <fullName>5:15</fullName>
+                    <default>false</default>
+                    <label>5:15</label>
+                </value>
+                <value>
+                    <fullName>5:30</fullName>
+                    <default>false</default>
+                    <label>5:30</label>
+                </value>
+                <value>
+                    <fullName>5:45</fullName>
+                    <default>false</default>
+                    <label>5:45</label>
+                </value>
+                <value>
+                    <fullName>6:00</fullName>
+                    <default>false</default>
+                    <label>6:00</label>
+                </value>
+                <value>
+                    <fullName>6:15</fullName>
+                    <default>false</default>
+                    <label>6:15</label>
+                </value>
+                <value>
+                    <fullName>6:30</fullName>
+                    <default>false</default>
+                    <label>6:30</label>
+                </value>
+                <value>
+                    <fullName>6:45</fullName>
+                    <default>false</default>
+                    <label>6:45</label>
+                </value>
+                <value>
+                    <fullName>7:00</fullName>
+                    <default>false</default>
+                    <label>7:00</label>
+                </value>
+                <value>
+                    <fullName>7:15</fullName>
+                    <default>false</default>
+                    <label>7:15</label>
+                </value>
+                <value>
+                    <fullName>7:30</fullName>
+                    <default>false</default>
+                    <label>7:30</label>
+                </value>
+                <value>
+                    <fullName>7:45</fullName>
+                    <default>false</default>
+                    <label>7:45</label>
+                </value>
+                <value>
+                    <fullName>8:00</fullName>
+                    <default>false</default>
+                    <label>8:00</label>
+                </value>
+                <value>
+                    <fullName>8:15</fullName>
+                    <default>false</default>
+                    <label>8:15</label>
+                </value>
+                <value>
+                    <fullName>8:30</fullName>
+                    <default>false</default>
+                    <label>8:30</label>
+                </value>
+                <value>
+                    <fullName>8:45</fullName>
+                    <default>false</default>
+                    <label>8:45</label>
+                </value>
+                <value>
+                    <fullName>9:00</fullName>
+                    <default>false</default>
+                    <label>9:00</label>
+                </value>
+                <value>
+                    <fullName>9:15</fullName>
+                    <default>false</default>
+                    <label>9:15</label>
+                </value>
+                <value>
+                    <fullName>9:30</fullName>
+                    <default>false</default>
+                    <label>9:30</label>
+                </value>
+                <value>
+                    <fullName>9:45</fullName>
+                    <default>false</default>
+                    <label>9:45</label>
+                </value>
+                <value>
+                    <fullName>10:00</fullName>
+                    <default>false</default>
+                    <label>10:00</label>
+                </value>
+                <value>
+                    <fullName>10:15</fullName>
+                    <default>false</default>
+                    <label>10:15</label>
+                </value>
+                <value>
+                    <fullName>10:30</fullName>
+                    <default>false</default>
+                    <label>10:30</label>
+                </value>
+                <value>
+                    <fullName>10:45</fullName>
+                    <default>false</default>
+                    <label>10:45</label>
+                </value>
+                <value>
+                    <fullName>11:00</fullName>
+                    <default>false</default>
+                    <label>11:00</label>
+                </value>
+                <value>
+                    <fullName>11:15</fullName>
+                    <default>false</default>
+                    <label>11:15</label>
+                </value>
+                <value>
+                    <fullName>11:30</fullName>
+                    <default>false</default>
+                    <label>11:30</label>
+                </value>
+                <value>
+                    <fullName>11:45</fullName>
+                    <default>false</default>
+                    <label>11:45</label>
+                </value>
+                <value>
+                    <fullName>12:00</fullName>
+                    <default>false</default>
+                    <label>12:00</label>
+                </value>
+                <value>
+                    <fullName>12:15</fullName>
+                    <default>false</default>
+                    <label>12:15</label>
+                </value>
+                <value>
+                    <fullName>12:30</fullName>
+                    <default>false</default>
+                    <label>12:30</label>
+                </value>
+                <value>
+                    <fullName>12:45</fullName>
+                    <default>false</default>
+                    <label>12:45</label>
+                </value>
+                <value>
+                    <fullName>13:00</fullName>
+                    <default>false</default>
+                    <label>13:00</label>
+                </value>
+                <value>
+                    <fullName>13:15</fullName>
+                    <default>false</default>
+                    <label>13:15</label>
+                </value>
+                <value>
+                    <fullName>13:30</fullName>
+                    <default>false</default>
+                    <label>13:30</label>
+                </value>
+                <value>
+                    <fullName>13:45</fullName>
+                    <default>false</default>
+                    <label>13:45</label>
+                </value>
+                <value>
+                    <fullName>14:00</fullName>
+                    <default>false</default>
+                    <label>14:00</label>
+                </value>
+                <value>
+                    <fullName>14:15</fullName>
+                    <default>false</default>
+                    <label>14:15</label>
+                </value>
+                <value>
+                    <fullName>14:30</fullName>
+                    <default>false</default>
+                    <label>14:30</label>
+                </value>
+                <value>
+                    <fullName>14:45</fullName>
+                    <default>false</default>
+                    <label>14:45</label>
+                </value>
+                <value>
+                    <fullName>15:00</fullName>
+                    <default>false</default>
+                    <label>15:00</label>
+                </value>
+                <value>
+                    <fullName>15:15</fullName>
+                    <default>false</default>
+                    <label>15:15</label>
+                </value>
+                <value>
+                    <fullName>15:30</fullName>
+                    <default>false</default>
+                    <label>15:30</label>
+                </value>
+                <value>
+                    <fullName>15:45</fullName>
+                    <default>false</default>
+                    <label>15:45</label>
+                </value>
+                <value>
+                    <fullName>16:00</fullName>
+                    <default>false</default>
+                    <label>16:00</label>
+                </value>
+                <value>
+                    <fullName>16:15</fullName>
+                    <default>false</default>
+                    <label>16:15</label>
+                </value>
+                <value>
+                    <fullName>16:30</fullName>
+                    <default>false</default>
+                    <label>16:30</label>
+                </value>
+                <value>
+                    <fullName>16:45</fullName>
+                    <default>false</default>
+                    <label>16:45</label>
+                </value>
+                <value>
+                    <fullName>17:00</fullName>
+                    <default>false</default>
+                    <label>17:00</label>
+                </value>
+                <value>
+                    <fullName>17:15</fullName>
+                    <default>false</default>
+                    <label>17:15</label>
+                </value>
+                <value>
+                    <fullName>17:30</fullName>
+                    <default>false</default>
+                    <label>17:30</label>
+                </value>
+                <value>
+                    <fullName>17:45</fullName>
+                    <default>false</default>
+                    <label>17:45</label>
+                </value>
+                <value>
+                    <fullName>18:00</fullName>
+                    <default>false</default>
+                    <label>18:00</label>
+                </value>
+                <value>
+                    <fullName>18:15</fullName>
+                    <default>false</default>
+                    <label>18:15</label>
+                </value>
+                <value>
+                    <fullName>18:30</fullName>
+                    <default>false</default>
+                    <label>18:30</label>
+                </value>
+                <value>
+                    <fullName>18:45</fullName>
+                    <default>false</default>
+                    <label>18:45</label>
+                </value>
+                <value>
+                    <fullName>19:00</fullName>
+                    <default>false</default>
+                    <label>19:00</label>
+                </value>
+                <value>
+                    <fullName>19:15</fullName>
+                    <default>false</default>
+                    <label>19:15</label>
+                </value>
+                <value>
+                    <fullName>19:30</fullName>
+                    <default>false</default>
+                    <label>19:30</label>
+                </value>
+                <value>
+                    <fullName>19:45</fullName>
+                    <default>false</default>
+                    <label>19:45</label>
+                </value>
+                <value>
+                    <fullName>20:00</fullName>
+                    <default>false</default>
+                    <label>20:00</label>
+                </value>
+                <value>
+                    <fullName>20:15</fullName>
+                    <default>false</default>
+                    <label>20:15</label>
+                </value>
+                <value>
+                    <fullName>20:30</fullName>
+                    <default>false</default>
+                    <label>20:30</label>
+                </value>
+                <value>
+                    <fullName>20:45</fullName>
+                    <default>false</default>
+                    <label>20:45</label>
+                </value>
+                <value>
+                    <fullName>21:00</fullName>
+                    <default>false</default>
+                    <label>21:00</label>
+                </value>
+                <value>
+                    <fullName>21:15</fullName>
+                    <default>false</default>
+                    <label>21:15</label>
+                </value>
+                <value>
+                    <fullName>21:30</fullName>
+                    <default>false</default>
+                    <label>21:30</label>
+                </value>
+                <value>
+                    <fullName>21:45</fullName>
+                    <default>false</default>
+                    <label>21:45</label>
+                </value>
+                <value>
+                    <fullName>22:00</fullName>
+                    <default>false</default>
+                    <label>22:00</label>
+                </value>
+                <value>
+                    <fullName>22:15</fullName>
+                    <default>false</default>
+                    <label>22:15</label>
+                </value>
+                <value>
+                    <fullName>22:30</fullName>
+                    <default>false</default>
+                    <label>22:30</label>
+                </value>
+                <value>
+                    <fullName>22:45</fullName>
+                    <default>false</default>
+                    <label>22:45</label>
+                </value>
+                <value>
+                    <fullName>23:00</fullName>
+                    <default>false</default>
+                    <label>23:00</label>
+                </value>
+                <value>
+                    <fullName>23:15</fullName>
+                    <default>false</default>
+                    <label>23:15</label>
+                </value>
+                <value>
+                    <fullName>23:30</fullName>
+                    <default>false</default>
+                    <label>23:30</label>
+                </value>
+                <value>
+                    <fullName>23:45</fullName>
+                    <default>false</default>
+                    <label>23:45</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DurationInMin__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+ISPICKVAL(Status, &quot;Completed Effective&quot;) || ISPICKVAL(Status, &quot;Completed Non-Effective&quot;), 
+(Date_Time_Closed__c - CreatedDate)*1440, 
+(NOW() - CreatedDate)*24*60)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Duration in Min.</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Guidance__c</fullName>
+        <externalId>false</externalId>
+        <label>Guidance</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IsRelatedToCase__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Related To Case</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Lead__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Lead</label>
+        <referenceTo>Lead</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Meeting_Type__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Guidance for use: when meant as agenda block: don&apos;t add account. If there is an account related to the event, it is an external meeting. If there’s no account related to the event, it&apos;s interpreted as an internal meeting.</inlineHelpText>
+        <label>Meeting Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>On-site</fullName>
+                    <default>false</default>
+                    <label>On-site</label>
+                </value>
+                <value>
+                    <fullName>Virtual / Digital</fullName>
+                    <default>false</default>
+                    <label>Virtual / Digital</label>
+                </value>
+                <value>
+                    <fullName>Call</fullName>
+                    <default>false</default>
+                    <label>Call</label>
+                </value>
+                <value>
+                    <fullName>Teams</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Teams</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Newest_Contract_End_Date_Expiration_F__c</fullName>
+        <externalId>false</externalId>
+        <label>Newest Contract End Date (EXP/FOLL-UP)</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Newest_Contract_End_Date_Relationship__c</fullName>
+        <externalId>false</externalId>
+        <label>Newest Contract End Date (RM)</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Newest_Machine_Installation_Date_Expira__c</fullName>
+        <externalId>false</externalId>
+        <label>Newest Machine Instal. Date(EXP/FOLL-UP)</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Newest_Machine_Installation_Date_Relati__c</fullName>
+        <externalId>false</externalId>
+        <label>Newest Machine Instal. Date (RM)</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OTC_relevant_flag__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>If you create manual task related to OTC object, please make sure to check flag.</inlineHelpText>
+        <label>OTC relevant flag</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Oldest_Contract_End_Date_Expiration_F__c</fullName>
+        <externalId>false</externalId>
+        <label>Oldest Contract End Date (EXP/FOLL-UP)</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Oldest_Contract_End_Date_Relationship__c</fullName>
+        <externalId>false</externalId>
+        <label>Oldest Contract End Date (RM)</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Oldest_Machine_Installation_Date_Expira__c</fullName>
+        <externalId>false</externalId>
+        <label>Oldest Machine Instal Date (EXP/FOLL-UP)</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Oldest_Machine_Installation_Date_Relati__c</fullName>
+        <externalId>false</externalId>
+        <label>Oldest Machine Instal. Date (RM)</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Operational_Tasks__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Operational Task</label>
+        <referenceTo>Operational_Tasks__c</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Power_of_One__c</fullName>
+        <externalId>false</externalId>
+        <formula>1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ACTIVITY</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Priority_Score__c</fullName>
+        <externalId>false</externalId>
+        <label>Priority Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Reason</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Status</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Prospect visit</fullName>
+                    <default>false</default>
+                    <label>Prospect visit</label>
+                </value>
+                <value>
+                    <fullName>Quality</fullName>
+                    <default>false</default>
+                    <label>Quality</label>
+                </value>
+                <value>
+                    <fullName>Price</fullName>
+                    <default>false</default>
+                    <label>Price</label>
+                </value>
+                <value>
+                    <fullName>Service</fullName>
+                    <default>false</default>
+                    <label>Service</label>
+                </value>
+                <value>
+                    <fullName>Stopped by Customer</fullName>
+                    <default>false</default>
+                    <label>Stopped by Customer</label>
+                </value>
+                <value>
+                    <fullName>Wrong Solution</fullName>
+                    <default>false</default>
+                    <label>Wrong Solution</label>
+                </value>
+                <value>
+                    <fullName>Sales Process</fullName>
+                    <default>false</default>
+                    <label>Sales Process</label>
+                </value>
+                <value>
+                    <fullName>No Fit For JDE</fullName>
+                    <default>false</default>
+                    <label>No Fit For JDE</label>
+                </value>
+                <value>
+                    <fullName>Credit Check</fullName>
+                    <default>false</default>
+                    <label>Credit Check</label>
+                </value>
+                <value>
+                    <fullName>Future Follow Up &gt; 1 year</fullName>
+                    <default>false</default>
+                    <label>Future Follow Up &gt; 1 year</label>
+                </value>
+                <value>
+                    <fullName>Converted to Quote</fullName>
+                    <default>false</default>
+                    <label>Converted to Quote</label>
+                </value>
+                <value>
+                    <fullName>Converted to Event</fullName>
+                    <default>false</default>
+                    <label>Converted to Event</label>
+                </value>
+                <value>
+                    <fullName>Converted to Opportunity</fullName>
+                    <default>false</default>
+                    <label>Converted to Opportunity</label>
+                </value>
+                <value>
+                    <fullName>No Interest</fullName>
+                    <default>false</default>
+                    <label>No Interest</label>
+                </value>
+                <value>
+                    <fullName>Unreachable</fullName>
+                    <default>false</default>
+                    <label>Unreachable</label>
+                </value>
+                <value>
+                    <fullName>Recent contact (&lt; 3 mo)</fullName>
+                    <default>false</default>
+                    <label>Recent contact (&lt; 3 mo)</label>
+                </value>
+                <value>
+                    <fullName>Company not active</fullName>
+                    <default>false</default>
+                    <label>Company not active</label>
+                </value>
+                <value>
+                    <fullName>Conversation was rejected</fullName>
+                    <default>false</default>
+                    <label>Conversation was rejected</label>
+                </value>
+                <value>
+                    <fullName>Active customer</fullName>
+                    <default>false</default>
+                    <label>Active customer</label>
+                </value>
+                <value>
+                    <fullName>Company is not DMU</fullName>
+                    <default>false</default>
+                    <label>Company is not DMU</label>
+                </value>
+                <value>
+                    <fullName>Current contract expiration &gt; 6 mo</fullName>
+                    <default>false</default>
+                    <label>Current contract expiration &gt; 6 mo</label>
+                </value>
+                <value>
+                    <fullName>Company too small</fullName>
+                    <default>false</default>
+                    <label>Company too small</label>
+                </value>
+                <value>
+                    <fullName>Duplicate</fullName>
+                    <default>false</default>
+                    <label>Duplicate</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>Converter to Case</fullName>
+                    <default>false</default>
+                    <label>Converter to Case</label>
+                </value>
+                <value>
+                    <fullName>No Follow Up Needed</fullName>
+                    <default>false</default>
+                    <label>No Follow Up Needed</label>
+                </value>
+                <value>
+                    <fullName>Follow Up &gt; 1 yr</fullName>
+                    <default>false</default>
+                    <label>Follow Up &gt; 1 yr</label>
+                </value>
+                <value>
+                    <fullName>Follow Up Order Survey Email</fullName>
+                    <default>false</default>
+                    <label>Follow Up Order Survey Email</label>
+                </value>
+                <value>
+                    <fullName>Lost Customer to Competitor</fullName>
+                    <default>false</default>
+                    <label>Lost Customer to Competitor</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Relationship Management Call</fullName>
+                    <default>false</default>
+                    <label>Relationship Management Call</label>
+                </value>
+                <value>
+                    <fullName>Incomplete Data</fullName>
+                    <default>false</default>
+                    <label>Incomplete Data</label>
+                </value>
+                <value>
+                    <fullName>Spam/No interest</fullName>
+                    <default>false</default>
+                    <label>Spam/No interest</label>
+                </value>
+                <value>
+                    <fullName>Fails Creditcheck</fullName>
+                    <default>false</default>
+                    <label>Fails Creditcheck</label>
+                </value>
+                <value>
+                    <fullName>Consumer</fullName>
+                    <default>false</default>
+                    <label>Consumer</label>
+                </value>
+                <value>
+                    <fullName>Indirect customer</fullName>
+                    <default>false</default>
+                    <label>Indirect customer</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Completed Effective</controllingFieldValue>
+                <valueName>Converted to Quote</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Completed Effective</controllingFieldValue>
+                <valueName>Converted to Event</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Completed Effective</controllingFieldValue>
+                <valueName>Converted to Opportunity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Completed Effective</controllingFieldValue>
+                <valueName>Converter to Case</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Completed Effective</controllingFieldValue>
+                <valueName>No Follow Up Needed</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Completed Effective</controllingFieldValue>
+                <valueName>Follow Up Order Survey Email</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Completed Effective</controllingFieldValue>
+                <controllingFieldValue>Completed Non-Effective</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Completed Effective</controllingFieldValue>
+                <valueName>Relationship Management Call</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Completed Non-Effective</controllingFieldValue>
+                <valueName>No Interest</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Completed Non-Effective</controllingFieldValue>
+                <valueName>Unreachable</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Completed Non-Effective</controllingFieldValue>
+                <valueName>Recent contact (&lt; 3 mo)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Completed Non-Effective</controllingFieldValue>
+                <valueName>Company not active</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Completed Non-Effective</controllingFieldValue>
+                <valueName>Conversation was rejected</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Completed Non-Effective</controllingFieldValue>
+                <valueName>Active customer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Completed Non-Effective</controllingFieldValue>
+                <valueName>Company is not DMU</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Completed Non-Effective</controllingFieldValue>
+                <valueName>Current contract expiration &gt; 6 mo</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Completed Non-Effective</controllingFieldValue>
+                <valueName>Company too small</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Completed Non-Effective</controllingFieldValue>
+                <valueName>Duplicate</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Completed Non-Effective</controllingFieldValue>
+                <valueName>Cancelled</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Completed Non-Effective</controllingFieldValue>
+                <valueName>Follow Up &gt; 1 yr</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Completed Non-Effective</controllingFieldValue>
+                <valueName>Lost Customer to Competitor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Completed Non-Effective</controllingFieldValue>
+                <valueName>Incomplete Data</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Completed Non-Effective</controllingFieldValue>
+                <valueName>Spam/No interest</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Completed Non-Effective</controllingFieldValue>
+                <valueName>Fails Creditcheck</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Completed Non-Effective</controllingFieldValue>
+                <valueName>Consumer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Completed Non-Effective</controllingFieldValue>
+                <valueName>Indirect customer</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Reminder_Date_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Reminder Date/Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Reminder_set__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Reminder set</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Reorder__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK(Account__r.Id)),IF(
+ISPICKVAL(Account__r.Account_Status__c, &apos;Not Valid&apos;),
+&quot;You cannot Order, when an Account is Invalid&quot;, IF(NOT(ISPICKVAL(Account__r.Delivery_Block_Reason__c,&quot;&quot;)),&quot;You cannot Order, when there is a Delivery block reason&quot;,
+IF(ISPICKVAL(Account__r.Front_Back_end_customer__c, &quot;Back-End&quot;) , &quot;Back-end customer cannot order&quot;, HYPERLINK(&quot;/apex/APTS_CreateReOrder?Id=&quot; &amp;Account__r.Id, IMAGE(&quot;/resource/APTS_Create_ReOrderButton&quot;, &quot;Create ReOrder&quot;),&quot;_blank&quot;)
+))),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Reorder</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Report_Newest_Contract_End_Date_EXP__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( NOT(ISBLANK(Newest_Contract_End_Date_Expiration_F__c)) , TEXT(MONTH(Newest_Contract_End_Date_Expiration_F__c))&amp;&quot;/&quot;&amp;text(DAY(Newest_Contract_End_Date_Expiration_F__c))&amp;&quot;/&quot;&amp;text(YEAR(Newest_Contract_End_Date_Expiration_F__c)), &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Report Newest Contract End Date EXP</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Report_Newest_Contract_End_Date_RM__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK(Newest_Contract_End_Date_Relationship__c)), TEXT(MONTH(Newest_Contract_End_Date_Relationship__c))&amp;&quot;/&quot;&amp;text(DAY(Newest_Contract_End_Date_Relationship__c))&amp;&quot;/&quot;&amp;text(YEAR(Newest_Contract_End_Date_Relationship__c)), &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Report Newest Contract End Date RM</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Report_Newest_Machine_Install_EXP__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK(Newest_Machine_Installation_Date_Expira__c)),TEXT(MONTH(Newest_Machine_Installation_Date_Expira__c))&amp;&quot;/&quot;&amp;text(DAY(Newest_Machine_Installation_Date_Expira__c))&amp;&quot;/&quot;&amp;text(YEAR(Newest_Machine_Installation_Date_Expira__c)), &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Report Newest Machine Install EXP</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Report_Newest_Machine_Install_RM__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK(Newest_Machine_Installation_Date_Relati__c)),TEXT(MONTH(Newest_Machine_Installation_Date_Relati__c))&amp;&quot;/&quot;&amp;text(DAY(Newest_Machine_Installation_Date_Relati__c))&amp;&quot;/&quot;&amp;text(YEAR(Newest_Machine_Installation_Date_Relati__c)), &apos;&apos; )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Report Newest Machine Install RM</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Report_Oldest_Contract_End_Date_EXP__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( NOT( ISBLANK(Oldest_Contract_End_Date_Expiration_F__c) ) , TEXT(MONTH(Oldest_Contract_End_Date_Expiration_F__c))&amp;&quot;/&quot;&amp;text(DAY(Oldest_Contract_End_Date_Expiration_F__c))&amp;&quot;/&quot;&amp;text(YEAR(Oldest_Contract_End_Date_Expiration_F__c)), &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Report Oldest Contract End Date EXP</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Report_Oldest_Contract_End_Date_RM__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( NOT( ISBLANK(Oldest_Contract_End_Date_Relationship__c) ) , TEXT(MONTH(Oldest_Contract_End_Date_Relationship__c))&amp;&quot;/&quot;&amp;text(DAY(Oldest_Contract_End_Date_Relationship__c))&amp;&quot;/&quot;&amp;text(YEAR(Oldest_Contract_End_Date_Relationship__c)), &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Report Oldest Contract End Date RM</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Report_Oldest_Machine_Install_EXP__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK(Oldest_Machine_Installation_Date_Expira__c)), TEXT(MONTH(Oldest_Machine_Installation_Date_Expira__c))&amp;&quot;/&quot;&amp;text(DAY(Oldest_Machine_Installation_Date_Expira__c))&amp;&quot;/&quot;&amp;text(YEAR(Oldest_Machine_Installation_Date_Expira__c)), &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Report Oldest Machine Install EXP</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Report_Oldest_Machine_Install_RM__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK(Oldest_Machine_Installation_Date_Relati__c)), TEXT(MONTH(Oldest_Machine_Installation_Date_Relati__c))&amp;&quot;/&quot;&amp;text(DAY(Oldest_Machine_Installation_Date_Relati__c))&amp;&quot;/&quot;&amp;text(YEAR(Oldest_Machine_Installation_Date_Relati__c)), &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Report Oldest Machine Install RM</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requested_Account_Location_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Account Location Name</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requested_Account_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Account Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requested_AddressValidationTimestamp__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested AddressValidationTimestamp</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Requested_Commercial_Register_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Commercial Register Number</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requested_CountryISO__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested CountryISO</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requested_Fourth_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Fourth Name</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requested_Main_City__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Main City</label>
+        <length>40</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requested_Main_Country_ISO__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Main Country ISO</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requested_Main_Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Main Country</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requested_Main_House_Number_Supplement__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Main House Number Supplement</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requested_Main_House_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Main House Number</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requested_Main_Postal_Box_City__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Main Postal Box City</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requested_Main_Postal_Box__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Main Postal Box</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requested_Main_Postal_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Main Postal Code</label>
+        <length>20</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requested_Main_State__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Main State</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requested_Main_Street_Only__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Main Street Only</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Requested_Main_Street__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Main Street</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Requested_Operation__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Operation</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Update Account</fullName>
+                    <default>false</default>
+                    <label>Update Account</label>
+                </value>
+                <value>
+                    <fullName>Create Account Location</fullName>
+                    <default>false</default>
+                    <label>Create Account Location</label>
+                </value>
+                <value>
+                    <fullName>Update Account Location</fullName>
+                    <default>false</default>
+                    <label>Update Account Location</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Requested_Second_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Second Name</label>
+        <length>40</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requested_Shipping_City__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Shipping City</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requested_Shipping_Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Shipping Country</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requested_Shipping_House_No_Supplement__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Shipping House No. Supplement</label>
+        <length>10</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requested_Shipping_House_number__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Shipping House number</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requested_Shipping_Postal_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Shipping Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requested_Shipping_Street__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Shipping Street</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requested_State__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested State</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Requested_Street__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Street</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Requested_Third_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Third Name</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requested_VAT_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested VAT Number</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Role_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Role Name</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SAP_HANA_Queue_Task__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Queue Task</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SLA_Overdue__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(ISPICKVAL(Status  , &apos;Open&apos;),  DATEVALUE(Suggested_Completion_Date__c) &lt; Today()),TRUE, FALSE)</formula>
+        <label>SLA Overdue?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Organization__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Organization</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>PKL_SalesOrganization</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Segment__c</fullName>
+        <externalId>false</externalId>
+        <label>Segment</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>PKL_Segment</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ShippingAddressValidationTimestamp__c</fullName>
+        <externalId>false</externalId>
+        <label>ShippingAddressValidationTimestamp</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Start_DateCS__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>true</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Suggested_Completion_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Target Completion Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Task_Expiration_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Task Expiration Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Task_Expired__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(ISPICKVAL( Status , &apos;Open&apos;), DATEVALUE( Task_Expiration_Date__c )  &lt; Today()),TRUE,FALSE)</formula>
+        <label>Task Expired?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Task_ID__c</fullName>
+        <displayFormat>TA{0000000000}</displayFormat>
+        <externalId>true</externalId>
+        <label>Activity ID</label>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Task_In_Progress_Timestamp__c</fullName>
+        <externalId>false</externalId>
+        <label>Task In Progress Timestamp</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Task_Source__c</fullName>
+        <externalId>false</externalId>
+        <label>Task Source</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Manual</fullName>
+                    <default>false</default>
+                    <label>MANUAL</label>
+                </value>
+                <value>
+                    <fullName>SAP HANA</fullName>
+                    <default>false</default>
+                    <label>SAP HANA</label>
+                </value>
+                <value>
+                    <fullName>MC</fullName>
+                    <default>false</default>
+                    <label>MC</label>
+                </value>
+                <value>
+                    <fullName>SFDC</fullName>
+                    <default>false</default>
+                    <label>SFDC</label>
+                </value>
+                <value>
+                    <fullName>APTTUS</fullName>
+                    <default>false</default>
+                    <label>APTTUS</label>
+                </value>
+                <value>
+                    <fullName>EPI</fullName>
+                    <default>false</default>
+                    <label>EPI</label>
+                </value>
+                <value>
+                    <fullName>CTI</fullName>
+                    <default>false</default>
+                    <label>CTI</label>
+                </value>
+                <value>
+                    <fullName>SC</fullName>
+                    <default>false</default>
+                    <label>SC</label>
+                </value>
+                <value>
+                    <fullName>Facebook</fullName>
+                    <default>false</default>
+                    <label>Facebook</label>
+                </value>
+                <value>
+                    <fullName>LinkedIn</fullName>
+                    <default>false</default>
+                    <label>LinkedIn</label>
+                </value>
+                <value>
+                    <fullName>Offerte.nl</fullName>
+                    <default>false</default>
+                    <label>Offerte.nl</label>
+                </value>
+                <value>
+                    <fullName>Companeo</fullName>
+                    <default>false</default>
+                    <label>Companeo</label>
+                </value>
+                <value>
+                    <fullName>KonceptM</fullName>
+                    <default>false</default>
+                    <label>KonceptM</label>
+                </value>
+                <value>
+                    <fullName>Event</fullName>
+                    <default>false</default>
+                    <label>Event</label>
+                </value>
+                <value>
+                    <fullName>EpiServer</fullName>
+                    <default>false</default>
+                    <label>EpiServer</label>
+                </value>
+                <value>
+                    <fullName>Bobex</fullName>
+                    <default>false</default>
+                    <label>Bobex</label>
+                </value>
+                <value>
+                    <fullName>Cold Acquisition</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>COLD AQCUISITION</label>
+                </value>
+                <value>
+                    <fullName>End Warranty MC</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>END WARR MC CAMP</label>
+                </value>
+                <value>
+                    <fullName>Expiration</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Expiration</label>
+                </value>
+                <value>
+                    <fullName>Follow Up</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Follow Up</label>
+                </value>
+                <value>
+                    <fullName>Inbound Call</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>INBOUND CALL</label>
+                </value>
+                <value>
+                    <fullName>Installation Case SFDC</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>INSTAL CASE SFDC</label>
+                </value>
+                <value>
+                    <fullName>Movement Case SFDC</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>MOVEMNT CASE SFDC</label>
+                </value>
+                <value>
+                    <fullName>MPV SAP HANA</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>MPV SAP HANA</label>
+                </value>
+                <value>
+                    <fullName>NPS Detail SFDC</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NPS DETAIL SFDC</label>
+                </value>
+                <value>
+                    <fullName>Online MC</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>ONLINE MC</label>
+                </value>
+                <value>
+                    <fullName>Online OTH</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>ONLINE OTH</label>
+                </value>
+                <value>
+                    <fullName>Prospect List</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>PROSPECT LIST</label>
+                </value>
+                <value>
+                    <fullName>Referral Customer</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>REFERRAL CUSTOMER</label>
+                </value>
+                <value>
+                    <fullName>Referral Employee</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>REFERRAL EMPLOYEE</label>
+                </value>
+                <value>
+                    <fullName>Referral Partner</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>REFERRAL PARTNER</label>
+                </value>
+                <value>
+                    <fullName>Referral Route Sales</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>REFERRAL ROUTESALES</label>
+                </value>
+                <value>
+                    <fullName>Referral Technician</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>REFERRAL TECHNICIAN</label>
+                </value>
+                <value>
+                    <fullName>Relationship Management</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Relationship Management</label>
+                </value>
+                <value>
+                    <fullName>Service and Advice</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Service and Advice</label>
+                </value>
+                <value>
+                    <fullName>Trade Show</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>TRADE SHOW</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Task_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Task Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Gesprek</fullName>
+                    <default>false</default>
+                    <label>Gesprek</label>
+                </value>
+                <value>
+                    <fullName>Vergadering</fullName>
+                    <default>false</default>
+                    <label>Vergadering</label>
+                </value>
+                <value>
+                    <fullName>Overig</fullName>
+                    <default>false</default>
+                    <label>Overig</label>
+                </value>
+                <value>
+                    <fullName>KPI/SLA</fullName>
+                    <default>false</default>
+                    <label>KPI/SLA</label>
+                </value>
+                <value>
+                    <fullName>Fixed term</fullName>
+                    <default>false</default>
+                    <label>Fixed term</label>
+                </value>
+                <value>
+                    <fullName>Customer visit</fullName>
+                    <default>false</default>
+                    <label>Customer visit</label>
+                </value>
+                <value>
+                    <fullName>Dealer visit</fullName>
+                    <default>false</default>
+                    <label>Dealer visit</label>
+                </value>
+                <value>
+                    <fullName>Prospect visit</fullName>
+                    <default>false</default>
+                    <label>Prospect visit</label>
+                </value>
+                <value>
+                    <fullName>Commercial appointment</fullName>
+                    <default>false</default>
+                    <label>Commercial appointment</label>
+                </value>
+                <value>
+                    <fullName>Call Log</fullName>
+                    <default>false</default>
+                    <label>Call Log</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Task_owner_Role__c</fullName>
+        <externalId>false</externalId>
+        <label>Task owner Role</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>General Manager</fullName>
+                    <default>false</default>
+                    <label>General Manager</label>
+                </value>
+                <value>
+                    <fullName>Sales director</fullName>
+                    <default>false</default>
+                    <label>Sales director</label>
+                </value>
+                <value>
+                    <fullName>Segment Manager</fullName>
+                    <default>false</default>
+                    <label>Segment Manager</label>
+                </value>
+                <value>
+                    <fullName>Key Account Manager</fullName>
+                    <default>false</default>
+                    <label>Key Account Manager</label>
+                </value>
+                <value>
+                    <fullName>FSM (Facilities Sales Manager)</fullName>
+                    <default>false</default>
+                    <label>FSM (Facilities Sales Manager)</label>
+                </value>
+                <value>
+                    <fullName>Account Manager</fullName>
+                    <default>false</default>
+                    <label>Account Manager</label>
+                </value>
+                <value>
+                    <fullName>Tender Manager</fullName>
+                    <default>false</default>
+                    <label>Tender Manager</label>
+                </value>
+                <value>
+                    <fullName>Marketing Director</fullName>
+                    <default>false</default>
+                    <label>Marketing Director</label>
+                </value>
+                <value>
+                    <fullName>Channel manager</fullName>
+                    <default>false</default>
+                    <label>Channel manager</label>
+                </value>
+                <value>
+                    <fullName>Hospitality</fullName>
+                    <default>false</default>
+                    <label>Hospitality</label>
+                </value>
+                <value>
+                    <fullName>Customer Relations</fullName>
+                    <default>false</default>
+                    <label>Customer Relations</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Territory__c</fullName>
+        <externalId>false</externalId>
+        <label>Territory</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Touchpoint_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Touchpoint Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>PKL_TouchpointType</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Updated_by_Trigger__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Updated by Trigger</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>WhatType__c</fullName>
+        <externalId>false</externalId>
+        <label>WhatType</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WhoType__c</fullName>
+        <externalId>false</externalId>
+        <label>WhoType</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>MyActivities</fullName>
+        <columns>ACTIVITY_SUBTYPE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>EVENT.LOCATION</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>MyDelegatedActivities</fullName>
+        <filterScope>Delegated</filterScope>
+        <label>My Delegated Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>MyTeamsActivities</fullName>
+        <filterScope>Team</filterScope>
+        <label>My Team&apos;s Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>TodaysTasks</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>TASK.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>lessThan</operation>
+            <value>TOMORROW</value>
+        </filters>
+        <label>Today&apos;s Tasks</label>
+    </listViews>
+    <listViews>
+        <fullName>UpcomingEvents</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>greaterThan</operation>
+            <value>YESTERDAY</value>
+        </filters>
+        <label>Upcoming Events</label>
+    </listViews>
+    <searchLayouts>
+        <listViewButtons>Change_Status</listViewButtons>
+        <listViewButtons>Accept_Task</listViewButtons>
+        <listViewButtons>Change_Owner</listViewButtons>
+        <listViewButtons>Complete_Task</listViewButtons>
+        <searchResultsAdditionalFields>TASK.SUBJECT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHO_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHAT_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.DUE_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+        <searchResultsCustomButtons>Complete_Task</searchResultsCustomButtons>
+        <searchResultsCustomButtons>Change_Owner</searchResultsCustomButtons>
+        <searchResultsCustomButtons>Change_Status</searchResultsCustomButtons>
+        <searchResultsCustomButtons>Accept_Task</searchResultsCustomButtons>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <webLinks>
+        <fullName>Accept_Task</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Accept Task</masterLabel>
+        <openType>noSidebar</openType>
+        <page>Task_Accept_Task</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>Change_Owner</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Change Owner</masterLabel>
+        <openType>noSidebar</openType>
+        <page>SM_ChangeTaskOwner</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>Change_Status</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Change Status</masterLabel>
+        <openType>noSidebar</openType>
+        <page>SM_ChangeTaskStatus</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>Complete_Task</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Complete Task</masterLabel>
+        <openType>noSidebar</openType>
+        <page>CompleteTask</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+</CustomObject>

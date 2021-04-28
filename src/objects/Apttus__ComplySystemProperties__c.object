@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Comply System properties</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Apttus_CMConfig__AutoCreateOrder__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether an order and assets would be created automatically when the agreement is activated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether an order and assets would be created automatically when the agreement is activated.</inlineHelpText>
+        <label>Auto Create Order</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__AutoSyncWithOpportunity__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the agreement will be automatically synchronized with the opportunity.</description>
+        <externalId>false</externalId>
+        <label>Auto Sync With Opportunity</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__CloneWithApprovalStatus__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether approval status should be retained on the cart and line items associated with the cloned quote/proposal</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether approval status should be retained on the cart and line items associated with the cloned quote/proposal</inlineHelpText>
+        <label>Clone With Approval Status</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__EnableAgreementSummary__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicator to enable the agreement summary object</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicator to enable the agreement summary object</inlineHelpText>
+        <label>Enable Agreement Summary</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__SyncBundleUsingLineItems__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether agreement line items should be used to synchronize bundle products. The default uses agreement summary objects. Only applicable when agreement summary is enabled.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether agreement line items should be used to synchronize bundle products. The default uses agreement summary objects. Only applicable when agreement summary is enabled.</inlineHelpText>
+        <label>Sync Bundle Using Line Items</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__SyncOptionProducts__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the option products should be synchronized along with the bundle. The default is synchronize bundle only.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the option products should be synchronized along with the bundle. The default is synchronize bundle only.</inlineHelpText>
+        <label>Sync Option Products</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__AdminUser__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The admin user name (format = first name, last name)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The admin user is the default owner of activities created by a user who is not allowed to be the owner (for e.g. customer portal user).</inlineHelpText>
+        <label>Admin User</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__AgreementNumberFieldForImportedDocs__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The API name of the agreement number field for third party documents</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The API name of the agreement number field for third party documents</inlineHelpText>
+        <label>Agreement Number Field For Imported Docs</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__AllowPDFSelectionOverride__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the pdf selection is allowed to be overridden by the user. Only applicable when pdf is auto enabled for final documents.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the pdf selection is allowed to be overridden by the user. Only applicable when pdf is auto enabled for final documents.</inlineHelpText>
+        <label>Allow PDF Selection Override</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__AllowPrivateSelectionOverride__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the private document selection is allowed to be overridden by the user. Only applicable when private indicator is auto enabled for documents</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the private document selection is allowed to be overridden by the user. Only applicable when private indicator is auto enabled for documents</inlineHelpText>
+        <label>Allow Private Selection Override</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__AllowReconcileSelectionOverride__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the reconcile selection is allowed to be overridden by the user. Only applicable when reconciliation is auto enabled for documents.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the reconcile selection is allowed to be overridden by the user. Only applicable when reconciliation is auto enabled for documents.</inlineHelpText>
+        <label>Allow Reconcile Selection Override</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__AllowRegenerateFromXAC__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This is a flag to control the UI button visibility on the XAC for regenerate</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is a flag to control the UI button visibility on the XAC for regenerate</inlineHelpText>
+        <label>Allow Regenerate From XAC</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__AncestorSelectionForImportOffline__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Ancestor selection for Import Offline</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allows a user to link an offline document to an existing major version of a document.</inlineHelpText>
+        <label>Ancestor selection for Import Offline</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__ApiUserKey__c</fullName>
+        <deprecated>false</deprecated>
+        <description>NO LONGER USED</description>
+        <externalId>false</externalId>
+        <inlineHelpText>NO LONGER USED</inlineHelpText>
+        <label>Api User Key (DEPRECATED)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__AsynchronousCheckinRecipient__c</fullName>
+        <defaultValue>&quot;Both&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Asynchronous Checkin Recipient</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter a recipient role (Contract Owner, Logged in XAC user or Both) to receive Asynchronous Check-in email notification.</inlineHelpText>
+        <label>Asynchronous Checkin Recipient</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__AutoEnableAsynchronousCheckin__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Auto Enable Asynchronous Checkin</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Default value of the Asynchronous Check-in checkbox available on the X-Author Contracts Check-in pop-up window.</inlineHelpText>
+        <label>Auto Enable Asynchronous Checkin</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__AutoEnablePDFForFinalDocs__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether PDF format is auto enabled for final documents</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether PDF format is auto enabled for final documents</inlineHelpText>
+        <label>Auto Enable PDF For Final Docs</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__AutoEnablePrivateIndicator__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether private indicator is auto enabled for documents</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether private indicator is auto enabled for documents</inlineHelpText>
+        <label>Auto Enable Private Indicator</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__AutoEnableReconciliation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether reconciliation is auto enabled for documents</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether reconciliation is auto enabled for documents</inlineHelpText>
+        <label>Auto Enable Reconciliation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__AutoInsertHeaderFooterData__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicator to allow automatic placement of Agreement number in the header and last modified timestamp in the footer of the document for generate actions and also check-in, offline and import actions by X-Author (7.1.721 or later). The agreement is either the Apttus agreement number  or as indicated by the agreement number field property ( for offline and import actions). The footer datetime format property may be used to indicate the timestamp format.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicator to allow automatic placement of Agreement number in the header and last modified timestamp in the footer of the document for generate, offline and import actions.</inlineHelpText>
+        <label>Auto Insert Header Footer Data</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__BypassSharing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether apex code can bypass record sharing</description>
+        <externalId>false</externalId>
+        <label>Bypass Sharing</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__ContractSummaryTemplate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the contract summary template.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the contract summary template.</inlineHelpText>
+        <label>Contract Summary Template</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__DefaultDocumentTags__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Default set of document tags to be used during check-in from X-Author. Tags are comma separated values.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Default set of document tags to be used during check-in from X-Author. Tags are comma separated values.</inlineHelpText>
+        <label>Default Document Tags</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__DefaultOpportunityAgreementOwner__c</fullName>
+        <defaultValue>&quot;Opportunity Owner&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The default owner for the agreement created from an opportunity. Valid values are Opportunity Owner and Current User. If not set, the Opportunity Owner will become the owner of the new agreement</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The default owner for the agreement created from an opportunity. Valid values are Opportunity Owner and Current User. If not set, the Opportunity Owner will become the owner of the new agreement</inlineHelpText>
+        <label>Default Opportunity Agreement Owner</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__DocumentNamingConvention__c</fullName>
+        <deprecated>false</deprecated>
+        <description>You may apply your own naming convention to documents at generation, check-in and signature events, by defining a string of delimited variables, in the format %VariableName1%_%VariableName 2% … The default value is &apos;%:Name%_%action%_%templatename%_%timestamp%&apos;.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>You may apply your own naming convention to documents at generation, check-in and signature events, by defining a string of delimited variables, in the format %VarName1%_%VarName 2% … The default value is &apos;%:Name%_%action%_%templatename%_%timestamp%&apos;.</inlineHelpText>
+        <label>Document Naming Convention</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__DocumentStructureFX2ForImportedDocs__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Applies FX2 framework to CM actions Create, Import Offline Documents, else Pre-FX2. Not for X-Author actions</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Applies FX2 framework to CM actions Create, Import Offline Documents, else Pre-FX2. Not for X-Author actions</inlineHelpText>
+        <label>Document Structure FX2 For Imported Docs</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__DocumentVersioningNamingConvention__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Optional naming convention to be used for naming versioned documents</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Optional naming convention to be used for naming versioned documents</inlineHelpText>
+        <label>Document Versioning Naming Convention (D</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__EmailLiteMonitoringReportToApttus__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Flag to decide if email the Lite license usage report to the Apttus administrator.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Emails the Lite license usage report to the Apttus administrator.</inlineHelpText>
+        <label>Email Lite Monitoring Report to Apttus?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__EmailTemplateForCheckinNotification__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The email template for sending checkin notifications.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The email template for sending checkin notifications.</inlineHelpText>
+        <label>Email Template For Checkin Notification</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__EnableClauseApprovals__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether clause approvals are enabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether clause approvals are enabled</inlineHelpText>
+        <label>Enable Clause Approvals</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__EnableDocumentVersioning__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enables document versioning. Make sure EnableVersionControl is set to true.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enables document versioning. Make sure EnableVersionControl is set to true.</inlineHelpText>
+        <label>Enable Document Versioning</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__EnableFile__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable use of Files , It is mandatory to Run the Migration after making it true.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable use of Files , It is mandatory to Run the Migration after making it true.</inlineHelpText>
+        <label>Enable File</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__EnableMergeCallDebug__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the merge service debug is enabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the merge service debug is enabled</inlineHelpText>
+        <label>Enable Merge Call Debug</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__EnableMultipleCheckout__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether multiple checkout is allowed. Only applicable when version control is in effect.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether multiple checkout is allowed. Only applicable when version control is in effect.</inlineHelpText>
+        <label>Enable Multiple Checkout</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__EnableOnlineContractCollaboration__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether Online Contract Collaboration is enabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether Online Contract Collaboration is enabled</inlineHelpText>
+        <label>Online Contract Collaboration</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__EnablePDFSecurity__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enabling pdf security lets users apply security settings to pdf documents and protect them with a password.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enabling pdf security lets users apply security settings to pdf documents and protect them with a password.</inlineHelpText>
+        <label>Enable PDF Security</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__EnableSubmitMergeCall__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether merge calls may be submitted for processing. If enabled, a Submit button is displayed during document generation.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether merge calls may be submitted for processing. If enabled, a Submit button is displayed during document generation.</inlineHelpText>
+        <label>Enable Submit Merge Call</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__EnableTemplateVersioning__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enables template versioning</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enables template versioning</inlineHelpText>
+        <label>Enable Template Versioning</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__EnableVersionControl__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether version control is in effect. If enabled, checkout/check-in policy is enforced for agreement documents.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether version control is in effect. If enabled, checkout/check-in policy is enforced for agreement documents.</inlineHelpText>
+        <label>Enable Version Control</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__ExcludedNamespaces__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A comma separated list of namespaces to exclude objects from the wizard dropdown</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A comma separated list of namespaces to exclude objects from the wizard dropdown</inlineHelpText>
+        <label>Excluded Namespaces</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__FooterDatetimeFormatForImportedDocs__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The format of the date time to place in the footer of the imported document</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The format of the date time to place in the footer of the imported document</inlineHelpText>
+        <label>Footer Datetime Format For Imported Docs</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__HideContentControlBorder__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates if content control border has to hidden</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates if content control border has to hidden</inlineHelpText>
+        <label>Hide Content Control Border</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__InactivateNonCompliantLiteUser__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If the Lite user login count exceeded then user access will be controlled through this flag.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Determines whether to deactivate Lite user who exceeds allowed login limit</inlineHelpText>
+        <label>Inactivate Non-Compliant Lite User</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__InstanceUrl__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Salesforce instance url for redirecting to custom pages</description>
+        <externalId>false</externalId>
+        <label>Instance Url</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__IntelligentImportForSignedDocument__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Intelligent Import for Signed Document</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether to process the signed document using intelligent import</inlineHelpText>
+        <label>Intelligent Import for Signed Document</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__LargeDocProcessBatchSize__c</fullName>
+        <defaultValue>2000</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates the number of repeating child items to process in a single batch transaction</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the number of repeating child items to process in a single batch transaction</inlineHelpText>
+        <label>Large Doc Process Batch Size</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__LargeDocThreshold__c</fullName>
+        <defaultValue>10000</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The threshold of the number of line items in the proposal when exceeded indicates a large doc. A value of -1 inactivates the threshold.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The threshold of the number of line items in the proposal when exceeded indicates a large doc. A value of -1 inactivates the threshold.</inlineHelpText>
+        <label>Large Doc Threshold</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__LiteLicenceAdminEmail__c</fullName>
+        <deprecated>false</deprecated>
+        <description>To hold the email address of customer admin to report license violation.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>System admin email address to send CLM Lite License Usage Monitoring Report</inlineHelpText>
+        <label>CLM Lite License Admin Email</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__LiteProfiles__c</fullName>
+        <deprecated>false</deprecated>
+        <description>To hold the value of lite profiles.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>List of profile(s) users that will use CLM Lite Licenses.</inlineHelpText>
+        <label>CLM Lite License Profile(s)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__MaxChildLevel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The maximum level to generate the merge data for</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The maximum level to generate the merge data for</inlineHelpText>
+        <label>Max Child Level</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__MergeCallTimeoutMillis__c</fullName>
+        <defaultValue>60000</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The timeout in milliseconds for the merge request</description>
+        <externalId>false</externalId>
+        <label>Merge Call Timeout Millis</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__MergeWebserviceEndpoint__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Apttus merge web service endpoint</description>
+        <externalId>false</externalId>
+        <label>Merge Webservice Endpoint</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__OverridePlaybookDefaultFilter__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Playbook Default Filter</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter Playbook filter names separated by commas that should inherit filter value from template properties on clicking Playbook tab in X-Author</inlineHelpText>
+        <label>Override Playbook default filter</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__PDFOwnerPwd__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The password required to change permissions of the PDF document like printing or editing.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The password required to change permissions of the PDF document like printing or editing.</inlineHelpText>
+        <label>PDF Owner Password</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__ParallelReview__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Choice to Turn On-Off Parallel Review feature and have a way to make it available for users</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable/Disable Parallel Review for document review process</inlineHelpText>
+        <label>Parallel Review</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__PublishAuthorEvents__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether author events should be published. If enabled, a record is inserted in the Merge Event table.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether author events should be published. If enabled, a record is inserted in the Merge Event table.</inlineHelpText>
+        <label>Publish Author Events</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__PublishMergeEvents__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether merge events should be published. If enabled, a record is inserted in the Merge Event table.</description>
+        <externalId>false</externalId>
+        <label>Publish Merge Events</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__RestrictCheckinOfDocuments__c</fullName>
+        <deprecated>false</deprecated>
+        <description>List of Status category and Statuses for which Check in and Checkout actions will be restricted</description>
+        <externalId>false</externalId>
+        <inlineHelpText>List of Status category and Statuses for which Check in and Checkout actions will be restricted</inlineHelpText>
+        <label>Restrict Checkin of Documents</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__TempEmailTemplateInactiveHours__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates the hours of inactivity after which a temp email template is considered abandoned. The default value is 4 hours</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the hours of inactivity after which a temp email template is considered abandoned. The default value is 4 hours</inlineHelpText>
+        <label>Temp Email Template Inactive Hours</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__UnlockSmartElements__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Allow to delete smart element from the Word document</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allow to delete smart element from the Word document</inlineHelpText>
+        <label>Unlock Smart Elements</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__UseAgreementLocksForVersioning__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates agreement lock is turned on for a version-aware record on first document check-out, thereby locking all the record’s documents to that user. Lock released on all documents on first check-in.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates agreement lock is turned on for a version-aware record on first document check-out, thereby locking all the record’s documents to that user. Lock released on all documents on first check-in.</inlineHelpText>
+        <label>Use Agreement Locks for Versioning</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__UseLongQuestionsInWizard__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enabling this setting allows you to have more characters available for questions and answers in your wizards</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enabling this setting allows you to have more characters available for questions and answers in your wizards</inlineHelpText>
+        <label>Use text areas for wizards</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__XAJSEndPoint__c</fullName>
+        <deprecated>false</deprecated>
+        <description>XAJS End Point used to process the request through XAJS service</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Provide XAJS Endpoint instance url</inlineHelpText>
+        <label>XAJS End Point</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <label>Comply System Properties</label>
+    <visibility>Public</visibility>
+</CustomObject>

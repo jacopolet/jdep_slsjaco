@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Quote/Proposal System properties</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Apttus_Proposal__AdminUser__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The admin user name (format = first name, last name)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The admin user is the default owner of activities created by a user who is not allowed to be the owner (for e.g. customer portal user).</inlineHelpText>
+        <label>Admin User</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__BypassSharing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether apex code can bypass record sharing</description>
+        <externalId>false</externalId>
+        <label>Bypass Sharing</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__CSSOverride__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the static resource to override CSS in Proposal document generation page</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the static resource to override CSS in Proposal document generation page</inlineHelpText>
+        <label>CSS Override</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__CustomDocGenURL__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The custom URL accessed when using custom button in DocGen page</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The custom URL accessed when using custom button in DocGen page</inlineHelpText>
+        <label>Custom Doc Gen URL</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__DefaultEmailTemplate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The default email used when sending the email</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The default email used when sending the email</inlineHelpText>
+        <label>Default Template Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__DefaultOpportunityQuoteOwner__c</fullName>
+        <defaultValue>&quot;Opportunity Owner&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The default owner for the quote/proposal created from an opportunity. Valid values are Opportunity Owner and Current User. If not set, the Opportunity Owner will become the owner of the new quote/proposal.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The default owner for the quote/proposal created from an opportunity. Valid values are Opportunity Owner and Current User. If not set, the Opportunity Owner will become the owner of the new quote/proposal.</inlineHelpText>
+        <label>Default Opportunity Quote Owner</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__DefaultQuoteAgreementOwner__c</fullName>
+        <defaultValue>&quot;Quote Owner &quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The default owner for the agreement created from a quote/proposal. Valid values are Quote Owner and Current User. If not set, the Quote Owner will become the owner of the new agreement</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The default owner for the agreement created from a quote/proposal. Valid values are Quote Owner and Current User. If not set, the Quote Owner will become the owner of the new agreement</inlineHelpText>
+        <label>Default Quote Agreement Owner</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__DisableOpportunityProductsCopy__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether opportunity products copy to the quote/proposal is disabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether opportunity products copy to the quote/proposal is disabled</inlineHelpText>
+        <label>Disable Opportunity Products Copy</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__DocumentNamingConvention__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Document generation naming convention, by defining a string of delimited variables, in the format %VariableName1%_%VariableName 2%. The default value is %:Proposal_Name__c%_%action%_%templatename%_%timestamp%.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Document generation naming convention, by defining a string of delimited variables, in the format %VariableName1%_%VariableName 2%. The default value is %:Proposal_Name__c%_%action%_%templatename%_%timestamp%.</inlineHelpText>
+        <label>Document Naming Convention</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__EmailTemplateForPresentingProposals__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the email template to use for presenting proposals</description>
+        <externalId>false</externalId>
+        <label>Email Template For Presenting Proposals</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__EnableFastDocGen__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicator to enable the fast document generation feature</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicator to enable the fast document generation feature</inlineHelpText>
+        <label>Enable Fast Doc Gen</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__EnableFile__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable use of Files , It is mandatory to Run the Migration after making it true.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable use of Files , It is mandatory to Run the Migration after making it true.</inlineHelpText>
+        <label>Enable File</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__EnablePDFSecurity__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enabling pdf security lets users apply security settings to pdf documents and protect them with a password.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enabling pdf security lets users apply security settings to pdf documents and protect them with a password.</inlineHelpText>
+        <label>Enable PDF Security</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__EnableProposalEmailEditing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable editing of Proposal email template.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable editing of Proposal email template.</inlineHelpText>
+        <label>Enable Proposal Email Editing</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__EnableSubmitMergeCall__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether merge calls may be submitted for processing. If enabled, a Submit button is displayed during document generation.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether merge calls may be submitted for processing. If enabled, a Submit button is displayed during document generation.</inlineHelpText>
+        <label>Enable Submit Merge Call</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__InstanceUrl__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Salesforce instance url</description>
+        <externalId>false</externalId>
+        <label>Instance Url</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__LargeDocProcessBatchSize__c</fullName>
+        <defaultValue>2000</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates the number of repeating child items to process in a single batch transaction</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the number of repeating child items to process in a single batch transaction</inlineHelpText>
+        <label>Large Doc Process Batch Size</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__LargeDocThreshold__c</fullName>
+        <defaultValue>10000</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The threshold of the number of line items in the proposal when exceeded indicates a large doc. A value of -1 inactivates the threshold.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The threshold of the number of line items in the proposal when exceeded indicates a large doc. A value of -1 inactivates the threshold.</inlineHelpText>
+        <label>Large Doc Threshold</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__MaxChildLevel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The maximum level to generate the merge data for</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The maximum level to generate the merge data for</inlineHelpText>
+        <label>Max Child Level</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__MergeCallTimeoutMillis__c</fullName>
+        <defaultValue>60000</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The timeout in milliseconds for the merge request</description>
+        <externalId>false</externalId>
+        <label>Merge Call Timeout Millis</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__MergeWebserviceEndpoint__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Apttus merge web service endpoint</description>
+        <externalId>false</externalId>
+        <label>Merge Webservice Endpoint</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__PDFOwnerPwd__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The password required to change permissions of the PDF document like printing or editing.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The password required to change permissions of the PDF document like printing or editing.</inlineHelpText>
+        <label>PDF Owner Password</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPComply__CreateAgreementWithApprovalStatus__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether approval status should be retained on the cart and line items associated with the agreement created from the quote/proposal</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether approval status should be retained on the cart and line items associated with the agreement created from the quote/proposal</inlineHelpText>
+        <label>Create Agreement With Approval Status</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__AutoCreateCartVersionAfterFinalize__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether a new version of the cart is auto created after it is finalized</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether a new version of the cart is auto created after it is finalized</inlineHelpText>
+        <label>Auto Create Cart Version After Finalize</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__AutoCreateOrder__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether an order and assets would be created automatically when the proposal is accepted.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether an order and assets would be created automatically when the proposal is accepted.</inlineHelpText>
+        <label>Auto Create Order</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__AutoSyncWithOpportunity__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the proposal will be automatically synchronized with the opportunity when the proposal is accepted.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the proposal will be automatically synchronized with the opportunity when the proposal is accepted.</inlineHelpText>
+        <label>Auto Sync With Opportunity</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__CloneWithApprovalStatus__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether approval status should be retained on the cart and line items associated with the cloned quote/proposal</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether approval status should be retained on the cart and line items associated with the cloned quote/proposal</inlineHelpText>
+        <label>Clone With Approval Status</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__EnableProposalSummary__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicator to enable the proposal summary object</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicator to enable the proposal summary object</inlineHelpText>
+        <label>Enable Proposal Summary</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__SyncBundleUsingLineItems__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether proposal line items should be used to synchronize bundle products. The default uses proposal summary objects. Only applicable when proposal summary is enabled.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether proposal line items should be used to synchronize bundle products. The default uses proposal summary objects. Only applicable when proposal summary is enabled.</inlineHelpText>
+        <label>Sync Bundle Using Line Items</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__SyncOptionProducts__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the option products should be synchronized along with the bundle. The default is synchronize bundle only.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the option products should be synchronized along with the bundle. The default is synchronize bundle only.</inlineHelpText>
+        <label>Sync Option Products</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Proposal System Properties</label>
+    <visibility>Public</visibility>
+</CustomObject>

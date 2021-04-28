@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents a price matrix associated with a price list entry</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>APTS_Ext_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>APTS Ext ID</label>
+        <length>60</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_PriceMatrixExtId__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>Price Matrix External Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The description for the price matrix</description>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension1Id__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the first dimension</description>
+        <externalId>false</externalId>
+        <label>Dimension 1</label>
+        <referenceTo>Apttus_Config2__PriceDimension__c</referenceTo>
+        <relationshipLabel>Price Matrices (Dimension 1)</relationshipLabel>
+        <relationshipName>PriceMatrices</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension1ValueType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value type of the first dimension</description>
+        <externalId>false</externalId>
+        <label>Dimension 1 Value Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Discrete</fullName>
+                    <default>false</default>
+                    <label>Discrete</label>
+                </value>
+                <value>
+                    <fullName>Range</fullName>
+                    <default>false</default>
+                    <label>Range</label>
+                </value>
+                <value>
+                    <fullName>Cumulative Range</fullName>
+                    <default>false</default>
+                    <label>Cumulative Range</label>
+                </value>
+                <value>
+                    <fullName>Weighted Range</fullName>
+                    <default>false</default>
+                    <label>Weighted Range</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension2Id__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the second dimension</description>
+        <externalId>false</externalId>
+        <label>Dimension 2</label>
+        <referenceTo>Apttus_Config2__PriceDimension__c</referenceTo>
+        <relationshipLabel>Price Matrices (Dimension 2)</relationshipLabel>
+        <relationshipName>PriceMatrices2</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension2ValueType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value type of the second dimension</description>
+        <externalId>false</externalId>
+        <label>Dimension 2 Value Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Discrete</fullName>
+                    <default>false</default>
+                    <label>Discrete</label>
+                </value>
+                <value>
+                    <fullName>Range</fullName>
+                    <default>false</default>
+                    <label>Range</label>
+                </value>
+                <value>
+                    <fullName>Cumulative Range</fullName>
+                    <default>false</default>
+                    <label>Cumulative Range</label>
+                </value>
+                <value>
+                    <fullName>Weighted Range</fullName>
+                    <default>false</default>
+                    <label>Weighted Range</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension3Id__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the third dimension</description>
+        <externalId>false</externalId>
+        <label>Dimension 3</label>
+        <referenceTo>Apttus_Config2__PriceDimension__c</referenceTo>
+        <relationshipLabel>Price Matrices (Dimension 3)</relationshipLabel>
+        <relationshipName>PriceMatrices3</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension3ValueType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value type of the third dimension</description>
+        <externalId>false</externalId>
+        <label>Dimension 3 Value Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Discrete</fullName>
+                    <default>false</default>
+                    <label>Discrete</label>
+                </value>
+                <value>
+                    <fullName>Range</fullName>
+                    <default>false</default>
+                    <label>Range</label>
+                </value>
+                <value>
+                    <fullName>Cumulative Range</fullName>
+                    <default>false</default>
+                    <label>Cumulative Range</label>
+                </value>
+                <value>
+                    <fullName>Weighted Range</fullName>
+                    <default>false</default>
+                    <label>Weighted Range</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension4Id__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the fourth dimension</description>
+        <externalId>false</externalId>
+        <label>Dimension 4</label>
+        <referenceTo>Apttus_Config2__PriceDimension__c</referenceTo>
+        <relationshipLabel>Price Matrices (Dimension 4)</relationshipLabel>
+        <relationshipName>PriceMatrices4</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension4ValueType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value type of the fourth dimension</description>
+        <externalId>false</externalId>
+        <label>Dimension 4 Value Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Discrete</fullName>
+                    <default>false</default>
+                    <label>Discrete</label>
+                </value>
+                <value>
+                    <fullName>Range</fullName>
+                    <default>false</default>
+                    <label>Range</label>
+                </value>
+                <value>
+                    <fullName>Cumulative Range</fullName>
+                    <default>false</default>
+                    <label>Cumulative Range</label>
+                </value>
+                <value>
+                    <fullName>Weighted Range</fullName>
+                    <default>false</default>
+                    <label>Weighted Range</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension5Id__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the fifth dimension</description>
+        <externalId>false</externalId>
+        <label>Dimension 5</label>
+        <referenceTo>Apttus_Config2__PriceDimension__c</referenceTo>
+        <relationshipLabel>Price Matrices (Dimension 5)</relationshipLabel>
+        <relationshipName>PriceMatrices5</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension5ValueType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value type of the fifth dimension</description>
+        <externalId>false</externalId>
+        <label>Dimension 5 Value Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Discrete</fullName>
+                    <default>false</default>
+                    <label>Discrete</label>
+                </value>
+                <value>
+                    <fullName>Range</fullName>
+                    <default>false</default>
+                    <label>Range</label>
+                </value>
+                <value>
+                    <fullName>Cumulative Range</fullName>
+                    <default>false</default>
+                    <label>Cumulative Range</label>
+                </value>
+                <value>
+                    <fullName>Weighted Range</fullName>
+                    <default>false</default>
+                    <label>Weighted Range</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension6Id__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the sixth dimension</description>
+        <externalId>false</externalId>
+        <label>Dimension 6</label>
+        <referenceTo>Apttus_Config2__PriceDimension__c</referenceTo>
+        <relationshipLabel>Price Matrices (Dimension 6)</relationshipLabel>
+        <relationshipName>PriceMatrices6</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension6ValueType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value type of the sixth dimension</description>
+        <externalId>false</externalId>
+        <label>Dimension 6 Value Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Discrete</fullName>
+                    <default>false</default>
+                    <label>Discrete</label>
+                </value>
+                <value>
+                    <fullName>Range</fullName>
+                    <default>false</default>
+                    <label>Range</label>
+                </value>
+                <value>
+                    <fullName>Cumulative Range</fullName>
+                    <default>false</default>
+                    <label>Cumulative Range</label>
+                </value>
+                <value>
+                    <fullName>Weighted Range</fullName>
+                    <default>false</default>
+                    <label>Weighted Range</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableDateRange__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether date range is enabled for the matrix</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether date range is enabled for the matrix</inlineHelpText>
+        <label>Enable Date Range</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableUsageIndexing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Index the usage quantity to enable cumulative usage rating</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Index the usage quantity to enable cumulative usage rating</inlineHelpText>
+        <label>Enable Usage Indexing</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__InitialRows__c</fullName>
+        <defaultValue>5</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The number of initial rows in the matrix</description>
+        <externalId>false</externalId>
+        <label>Initial Rows</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IsCumulativeRange__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the range dimension values are cumulative. This field is deprecated. Use the Cumulative Range value type instead.</description>
+        <externalId>false</externalId>
+        <label>Is Cumulative Range (Deprecated)</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MatrixType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The matrix type</description>
+        <externalId>false</externalId>
+        <label>Matrix Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Dimension</fullName>
+                    <default>false</default>
+                    <label>Dimension</label>
+                </value>
+                <value>
+                    <fullName>Condition</fullName>
+                    <default>false</default>
+                    <label>Condition</label>
+                </value>
+                <value>
+                    <fullName>Usage</fullName>
+                    <default>false</default>
+                    <label>Usage</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__NumberOfEntries__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates the number of entries associated with the price matrix</description>
+        <externalId>false</externalId>
+        <label>Number Of Entries</label>
+        <summaryForeignKey>Apttus_Config2__PriceMatrixEntry__c.Apttus_Config2__PriceMatrixId__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PriceListItemId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the associated price list item</description>
+        <externalId>false</externalId>
+        <label>Price List Item</label>
+        <referenceTo>Apttus_Config2__PriceListItem__c</referenceTo>
+        <relationshipLabel>Matrix Pricing</relationshipLabel>
+        <relationshipName>PriceMatrices</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Sequence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The matrix evaluation sequence</description>
+        <externalId>false</externalId>
+        <label>Sequence</label>
+        <precision>5</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__StopProcessingMoreMatrices__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicator to prevent subsequent matrices from processing.</description>
+        <externalId>false</externalId>
+        <label>Stop Processing More Matrices</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Price Matrix</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Apttus_Config2__Sequence__c</columns>
+        <columns>Apttus_Config2__MatrixType__c</columns>
+        <columns>Apttus_Config2__Dimension1Id__c</columns>
+        <columns>Apttus_Config2__Dimension1ValueType__c</columns>
+        <columns>Apttus_Config2__NumberOfEntries__c</columns>
+        <columns>Apttus_Config2__PriceListItemId__c</columns>
+        <columns>APTS_PriceMatrixExtId__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>Rental Price Issue - 01 - 0 PME&apos;s?</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>all_price_matrices</fullName>
+        <columns>NAME</columns>
+        <columns>Apttus_Config2__Dimension1Id__c</columns>
+        <columns>Apttus_Config2__Dimension1ValueType__c</columns>
+        <columns>Apttus_Config2__MatrixType__c</columns>
+        <columns>APTS_PriceMatrixExtId__c</columns>
+        <columns>Apttus_Config2__Sequence__c</columns>
+        <columns>Apttus_Config2__PriceListItemId__c</columns>
+        <columns>Apttus_Config2__NumberOfEntries__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>all price matrices -</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>PM-{0000000000}</displayFormat>
+        <label>Matrix Id</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Price Matrices</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Apttus_Config2__PriceListItemId__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Dimension1Id__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Dimension2Id__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Dimension3Id__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Dimension4Id__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Dimension5Id__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Dimension6Id__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__PriceListItemId__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__Dimension1Id__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__Dimension2Id__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__Dimension3Id__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__Dimension4Id__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__Dimension5Id__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__Dimension6Id__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>Apttus_Config2__Description__c</searchFilterFields>
+        <searchResultsAdditionalFields>Apttus_Config2__MatrixType__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Config2__Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Config2__Dimension1Id__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Config2__Dimension1ValueType__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Config2__PriceListItemId__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Config2__NumberOfEntries__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>APTS_PriceMatrixExtId__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATEDBY_USER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>UPDATEDBY_USER</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Apttus_Config2__EditPriceMatrix</fullName>
+        <availability>online</availability>
+        <description>Edit matrix prices for a price list item</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Edit Matrix Pricing</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/apex/Apttus_Config2__PriceMatrixListEdit?priceListItemId={!Apttus_Config2__PriceListItem__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Config2__NewPriceMatrix</fullName>
+        <availability>online</availability>
+        <description>Create a new price matrix</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Matrix Pricing</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/apex/Apttus_Config2__PriceMatrix?priceListItemId={!Apttus_Config2__PriceListItem__c.Id}</url>
+    </webLinks>
+</CustomObject>

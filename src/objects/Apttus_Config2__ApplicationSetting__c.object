@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Object to contain metadata about application settings</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Apttus_Config2__CustomSettingName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>API Name of the Custom Setting which contains the setting associated with this record</description>
+        <externalId>false</externalId>
+        <inlineHelpText>API Name of the Custom Setting which contains the setting associated with this record</inlineHelpText>
+        <label>Custom Setting Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CustomSettingRecordName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The record name of the custom setting (Eg System Properties)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The record name of the custom setting (Eg System Properties)</inlineHelpText>
+        <label>Custom Setting Record Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DataType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The type of field in application setting</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The type of field in application setting</inlineHelpText>
+        <label>Data Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Text</fullName>
+                    <default>false</default>
+                    <label>Text</label>
+                </value>
+                <value>
+                    <fullName>Boolean</fullName>
+                    <default>false</default>
+                    <label>Boolean</label>
+                </value>
+                <value>
+                    <fullName>Picklist</fullName>
+                    <default>false</default>
+                    <label>Picklist</label>
+                </value>
+                <value>
+                    <fullName>Number</fullName>
+                    <default>false</default>
+                    <label>Number</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DefaultId__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <description>Default Identifier of the Application Setting</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Default Identifier of the Application Setting</inlineHelpText>
+        <label>DefaultId</label>
+        <length>30</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DefaultValue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Field to specify default value for this setting</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Field to specify default value for this setting</inlineHelpText>
+        <label>Default Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DisplayType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Display type of the field in application setting</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Display type of the field in application setting</inlineHelpText>
+        <label>Display Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Picklist</fullName>
+                    <default>false</default>
+                    <label>Picklist</label>
+                </value>
+                <value>
+                    <fullName>Multi-Select Checkbox</fullName>
+                    <default>false</default>
+                    <label>Multi-Select Checkbox</label>
+                </value>
+                <value>
+                    <fullName>Boolean Checkbox</fullName>
+                    <default>false</default>
+                    <label>Boolean Checkbox</label>
+                </value>
+                <value>
+                    <fullName>Text</fullName>
+                    <default>false</default>
+                    <label>Text</label>
+                </value>
+                <value>
+                    <fullName>Radio Button</fullName>
+                    <default>false</default>
+                    <label>Radio Button</label>
+                </value>
+                <value>
+                    <fullName>Number</fullName>
+                    <default>false</default>
+                    <label>Number</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ExternalId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>External Id pointing to the original ApplicationSetting__c record</description>
+        <externalId>false</externalId>
+        <inlineHelpText>External Id pointing to the original ApplicationSetting__c record</inlineHelpText>
+        <label>ExternalId</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ExternalSettingGroupId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>External Id pointing to the SettingGroup__c original parent record</description>
+        <externalId>false</externalId>
+        <inlineHelpText>External Id pointing to the SettingGroup__c original parent record</inlineHelpText>
+        <label>ExternalSettingGroupId</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__FieldLabel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The label of the application setting</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The label of the application setting</inlineHelpText>
+        <label>Field Label</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__FieldName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Field to contain the Field Name from the associated Custom Setting</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Field to contain the Field Name from the associated Custom Setting</inlineHelpText>
+        <label>Field Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__FieldPrecision__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Field Precision</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HelpLink__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The URL accompanying the custom setting for more information</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The URL accompanying the custom setting for more information</inlineHelpText>
+        <label>Help Link</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HelpText__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The help text accompanying the custom setting</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The help text accompanying the custom setting</inlineHelpText>
+        <label>Help Text</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IsPicklist__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Field to specify whether the referenced setting is to be displayed as a picklist</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Field to specify whether the referenced setting is to be displayed as a picklist</inlineHelpText>
+        <label>Is Picklist</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ObjectNameForPicklistOptions__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Field to specify API Name of an object, whose fields need to be displayed as available options if the setting is a picklist</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Field to specify API Name of an object, whose fields need to be displayed as available options if the setting is a picklist</inlineHelpText>
+        <label>Object Name For Picklist Options</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RecordKey__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Field to contain the Record Key used to identify record(s) in the associated Custom Setting</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Field to contain the Record Key used to identify record(s) in the associated Custom Setting</inlineHelpText>
+        <label>Record Key</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SettingGroupId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Parent group of this setting</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Parent group of this setting</inlineHelpText>
+        <label>Setting Group</label>
+        <referenceTo>Apttus_Config2__SettingGroup__c</referenceTo>
+        <relationshipLabel>ApplicationSettings</relationshipLabel>
+        <relationshipName>ApplicationSettings</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__StaticPicklistOptions__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Field to contain a comma-separated list of available options if the setting is a picklist</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Field to contain a comma-separated list of available options if the setting is a picklist</inlineHelpText>
+        <label>Static Picklist Options</label>
+        <length>4000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__URL__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The URL accompanying the custom setting for more information</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The URL accompanying the custom setting for more information</inlineHelpText>
+        <label>URL</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Application Setting</label>
+    <nameField>
+        <label>Application Setting Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Application Settings</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

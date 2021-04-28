@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>This custom settings will hold the list of Assets that needs to be corrected related to Recurring Billing Admin orders</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>APTS_Asset_Line_Item__c</fullName>
+        <description>This field denotes the list of Asset Line item Id to be processed by the Asset Correction batch</description>
+        <externalId>false</externalId>
+        <label>Asset Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Error_Message__c</fullName>
+        <description>Denotes the details of the error if there exists any in the Asset correction process</description>
+        <externalId>false</externalId>
+        <label>Error Message</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Has_Error__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This flag denotes if there exists any error during asset correction process</description>
+        <externalId>false</externalId>
+        <label>Has Error</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Is_Updated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Denotes whether current Asset is picked up and processed by Asset correction batch</description>
+        <externalId>false</externalId>
+        <label>Is Updated</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Asset Correction Configuration</label>
+    <visibility>Public</visibility>
+</CustomObject>

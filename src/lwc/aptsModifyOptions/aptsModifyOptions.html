@@ -1,0 +1,244 @@
+<template>
+    <!-- New Row in Layout-->  
+   <div class="slds-m-around_large">
+       <div if:false={isLoaded} class="slds-is-relative">
+          <lightning-spinner alternative-text="Please wait gathering asset data ..." variant="brand" size="large"> </lightning-spinner>    
+      </div>     
+  </div>
+<!--<lightning-layout-item padding="around-small">
+   <lightning-input type="date" name="input2" label="Start date" onchange={handleDateChange}></lightning-input>
+</lightning-layout-item>
+<lightning-layout-item padding="around-small" style="width: 25%;" >                
+   <c-apts-lwc-custom-lookup object-name="Apttus_Config2__BillingPreference__c"  ex    tra-fields="Apttus_Config2__BillingCycleStart__c , Apttus_Config2__BillingDayOfMonth2__c" lookup-label ="Billing Preference" icon-name="standard:event" extra-filters={billingPreFilter} oncustomrecordselected={handleSelected} onremoveselected={handleSelected}></c-apts-lwc-custom-lookup>              
+</lightning-layout-item>-->
+<template if:true={allRecords}>
+    <div if:true={hasBundleAttributes} style="display: inline-block"  class="slds-box slds-p-around_none slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none">   
+        <p style='padding-left : 10px'>Bundle attributes:</p>    
+        <lightning-layout vertical-align="center">
+            <table class="slds-table">
+                <tbody>
+                    <tr class="slds-line-height_reset"> 
+                        <td role="gridcell"  class="slds-cell-shrink">
+                            <lightning-record-edit-form object-api-name="Apttus_Config2__AssetAttributeValue__c">
+                                <ul class="slds-list_inline">
+                                <template for:each={bundleAttributes} for:item="attribute">
+                                    <li key={attribute.key}>
+                                        
+                                        <lightning-layout-item padding="horizontal-medium">
+                                            <div if:true={attribute.readOnly}>
+                                                <lightning-input-field field-name={attribute.attributeFieldName} value={attribute.assignedValue} disabled={attribute.readOnly}></lightning-input-field>
+                                            </div>
+                                            <div if:false={attribute.readOnly}>
+                                                <lightning-input-field field-name={attribute.attributeFieldName} onchange={handleBundleAttributes} value={attribute.assignedValue}></lightning-input-field>
+                                            </div>
+                                        </lightning-layout-item>
+                                    </li>
+                                </template>
+                                </ul>
+                            </lightning-record-edit-form>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </lightning-layout>
+    </div></br>
+    <form>
+        <div class="slds-box slds-p-around_none slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none" if:true={isLoaded}>   
+        <p style='padding-left : 10px'>Option Actions:</p> 
+        <lightning-layout > 
+            <table class="slds-table slds-grid slds-wrap">
+            <tbody>
+            <tr>
+                <td >
+                    <div style='padding-left : 10px;'>
+                        <lightning-layout-item padding="horizontal-medium">
+                            <!--<lightning-helptext content="What type of action do you wish to perform? Add or Remove or Swap(First Remove an option than add an option"></lightning-helptext>-->
+                            <lightning-combobox name="actionTypeCB"
+                                                label="Select Type of Action:"
+                                                value={selectedAction}
+                                                placeholder="Select Action"
+                                                options={actionOptions} onchange={handleOptionGroup} style="width: 140px"></lightning-combobox>
+                        </lightning-layout-item>
+                    </div>
+                </td>
+                <td>
+                    <div if:true={showEndDate} style='padding-left : 10px'>
+                        <lightning-layout-item padding="horizontal-medium">
+                            <!--<lightning-helptext content="Enter the Base price override. Please note : End Date is mandatory for the transaction for removing an option"></lightning-helptext>-->
+                            <lightning-input type="date" name="endDate" label="End date" onchange={handleDatesChange} style="width: 140px"></lightning-input>
+                        </lightning-layout-item>
+                    </div>
+                </td> 
+                <td >
+                    <div if:true={showOptionGroup} style='padding-left : 10px'>
+                        <lightning-layout-item padding="horizontal-medium">
+                            <!--<lightning-helptext content="Based on option groups you select the options are seen"></lightning-helptext>-->
+                            <lightning-combobox name="optionGroupCB"
+                                                label="Option Group:"
+                                                placeholder="Select Option Group"
+                                                options={displayAllOptionGroups} onchange={handleOptions} style="width: 180px"></lightning-combobox>
+                        </lightning-layout-item>
+                    </div>
+                </td>
+                <td>
+                    <div if:true={showRemoveButton} style='padding-left : 10px'>
+                        <br/>
+                        <lightning-layout-item padding="horizontal-medium">
+                            <lightning-button variant="brand" label=" Remove "  onclick={handleRemove} ></lightning-button>
+                        </lightning-layout-item>
+                    </div>
+                    </td>
+                    <td > 
+                        <div if:true={showRelatedOptions} style='padding-left : 10px'>
+                            <lightning-layout-item padding="horizontal-medium">
+                                <!--<lightning-helptext content="List of options for the option group that you have selected"></lightning-helptext>-->
+                                <lightning-combobox name="optionCB"
+                                                    label="Select option:"
+                                                    placeholder="Select Option"
+                                                    options={displayAllOptions} onchange={handleDatesAndTable} style="width: 250px"></lightning-combobox>
+                                <!--<lightning-dual-listbox name="optionDL"
+                                    source-label="Available Options"
+                                    selected-label="Selected Options"
+                                    value={selectedOptions}
+                                    options={displayAllOptions}
+                                    onchange={handleDates} size='4'></lightning-dual-listbox>-->
+                            </lightning-layout-item>
+                        </div>
+                    </td>
+                    <td>
+                        <div if:true={showStartDate} style='padding-left : 10px'>
+                            <lightning-layout-item padding="horizontal-medium">
+                                <!--<lightning-helptext content="Enter the Base price override. Please note : Start Date is mandatory for the transaction for adding an option"></lightning-helptext>-->
+                                <lightning-input type="date" name="startDate" label="Start date" value={startDateValue} onchange={handleDatesChange} style="width: 140px"></lightning-input>
+                            </lightning-layout-item>
+                        </div>
+                    </td>
+                <td>
+                    <template if:true={showBasePrice} style='padding-left : 10px;'></div>
+                        <lightning-layout-item padding="horizontal-medium">
+                            <!--<lightning-helptext content="Enter the Base price override. Please note : Base price override of 0 is not allowed instead add 100% Discount"></lightning-helptext>-->
+                            <lightning-input type="number" value={basePriceValue} name="baseprice" label="Base Price:"  onchange={handleBasePrice} step="0.001" style="width:100px" disabled></lightning-input>
+                        </lightning-layout-item>
+                    </template>  
+                </td>
+                <td >
+                    <div if:true={showBasePriceOverride} style='padding-left : 10px;'>
+                        <lightning-layout-item padding="horizontal-medium">
+                            <!--<lightning-helptext content="Enter the Base price override. Please note : Base price override of 0 is not allowed instead add 100% Discount"></lightning-helptext>-->
+                            <lightning-input type="number" name="baseproceoverride" label="Base Price Override:" value={selectedBasePriceOverride} onchange={handleBasePriceOverride} step="0.001" style="width:100px"></lightning-input>
+                        </lightning-layout-item>
+                    </div>  
+                </td>
+                <td >
+                    <div if:true={showDiscountType} style='padding-left : 10px;'>
+                        <lightning-layout-item padding="horizontal-medium">
+                            <!--<lightning-helptext content="What type of action do you wish to perform? Add or Remove or Swap(First Remove an option than add an option"></lightning-helptext>-->
+                            <lightning-combobox name="discountTypeCB"
+                                                label="Discount Type:"
+                                                value={selectedDiscountType}
+                                                placeholder="Select discount type"
+                                                options={discountTypes} onchange={handleDiscountType} style="width: 140px"></lightning-combobox>
+                        </lightning-layout-item>
+                    </div>  
+                </td>
+                <td >
+                    <div if:true={showDiscountAmt} style='padding-left : 10px;'>
+                        <lightning-layout-item padding="horizontal-medium">
+                            <!--<lightning-helptext content="Enter the Base price override. Please note : Base price override of 0 is not allowed instead add 100% Discount"></lightning-helptext>-->
+                            <lightning-input type="number" name="discountAmount" label="Discount Amount:"  onchange={handleDiscountAmount} step="0.001" style="width:100px"></lightning-input>
+                        </lightning-layout-item>
+                    </div>  
+                </td>
+                <td >
+                    <div if:true={showAutoRenew} style='padding-left : 10px' >
+                        <lightning-layout-item>
+                            <p>Auto Renew</p>   
+                            <lightning-input type="checkbox" onchange={handleAutoRenew} checked></lightning-input>
+                        </lightning-layout-item>
+                    </div>
+                </td>
+                <td >
+                    <div if:true={showBillingFrequency} style='padding-left : 10px;'>
+                        <lightning-layout-item padding="horizontal-medium">
+                            <!--<lightning-helptext content="What type of action do you wish to perform? Add or Remove or Swap(First Remove an option than add an option"></lightning-helptext>-->
+                            <lightning-combobox name="billingFrequencyCB"
+                                                label="Billing Frequency:"
+                                                value={billingFrequencyValue}
+                                                placeholder="Select Billing Frequency"
+                                                options={billingFrequencies} onchange={handleBillingFrequency} style="width: 140px"></lightning-combobox>
+                        </lightning-layout-item>
+                    </div>  
+                </td>
+                <td>
+                    <div if:true={showAddButton} style='padding-left : 10px'>
+                        <br/>
+                        <lightning-layout-item padding="horizontal-medium">
+                            <lightning-button variant="brand" label=" Add " onclick={handleAdd}>
+                            </lightning-button>
+                        </lightning-layout-item> 
+                    </div>
+                </td>
+                <td>
+                    <br/>
+                    <div if:false={isOptionAdded}>
+                        <lightning-spinner alternative-text="Loading" variant="brand" size="small"></lightning-spinner>
+                    </div>
+                </td>
+                </tr>
+                </tbody>
+            </table>
+        </lightning-layout>
+        </div>
+    </form>
+    <div if:true={hasAttributes} style="display: inline-block" class="slds-box slds-p-around_none slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none">   
+        <lightning-helptext content="These Attributes are related to the option you have currently selected."></lightning-helptext>
+        <p style='padding-left : 10px'>Related attributes:</p>    
+        <lightning-layout vertical-align="center">
+            <table class="slds-table">
+                <tbody>
+                    <tr class="slds-line-height_reset"> 
+                        <td role="gridcell"  class="slds-cell-shrink">
+                            <lightning-record-edit-form object-api-name="Apttus_Config2__ProductAttributeValue__c">
+                                <ul class="slds-list_inline">
+                                <template for:each={relatedAttributes} for:item="attribute">
+                                    <li key={attribute.key}>
+                                        
+                                        <lightning-layout-item padding="horizontal-medium">
+                                            <div if:true={attribute.readOnly}>
+                                                <lightning-input-field field-name={attribute.attributeFieldName} value={attribute.assignedValue} disabled={attribute.readOnly}></lightning-input-field>
+                                            </div>
+                                            <div if:false={attribute.readOnly}>
+                                                <lightning-input-field field-name={attribute.attributeFieldName} onchange={handleOptionAttributes} value={attribute.assignedValue}></lightning-input-field>
+                                            </div>
+                                        </lightning-layout-item>
+                                    </li>
+                                </template>
+                                </ul>
+                            </lightning-record-edit-form>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </lightning-layout>
+    </div>                                                                      
+    <div if:true={showTable}>
+        <c-apts-lwc-datatable records={allRecords}
+        total-records={allRecords.length}
+        columns={columns}
+        key-field="productid"
+        show-search-box="true" 
+        onpaginatorchange={handlePaginatorChange}
+        onsetselectedrecords={handleSelectedItem}>
+        </c-apts-lwc-datatable>    
+        </div>
+    <div if:true={showAddTable}>
+        <c-apts-lwc-datatable records={allRecords}
+        total-records={allRecords.length}
+        key-field="productid"
+        columns={columns}
+        onpaginatorchange={handlePaginatorChange}
+        hide-check-box="true">
+        </c-apts-lwc-datatable>    
+    </div>
+    </template>
+</template>

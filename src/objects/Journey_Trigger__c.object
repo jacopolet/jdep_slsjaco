@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This object is used to initiate journeys within the marketing cloud.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Case__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Case</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Journey Triggers</relationshipLabel>
+        <relationshipName>Journey_Triggers</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Channel__c</fullName>
+        <externalId>false</externalId>
+        <label>Channel</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>TS_Journey_Trigger_Channel</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Journey Triggers</relationshipLabel>
+        <relationshipName>Journey_Triggers</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Journey_Trigger_SubType__c</fullName>
+        <externalId>false</externalId>
+        <label>Journey Trigger SubType</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Journey_Trigger_Type__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>TS_Journey_Trigger_SubType</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>Case Create</controllingFieldValue>
+                <valueName>Case Creation Notification to Known Customer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Case Create</controllingFieldValue>
+                <valueName>Case Creation Notification to Unknown Customer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Case Create</controllingFieldValue>
+                <valueName>Case Creation Notification to Stakeholder</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Fulfillment Closure</controllingFieldValue>
+                <valueName>Fulfillment Summary Notification for Single Task to Customer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Fulfillment Closure</controllingFieldValue>
+                <valueName>Fulfillment Summary Notification for Single Task to Stakeholder</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Consent</controllingFieldValue>
+                <valueName>Double Opt-In</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Consent</controllingFieldValue>
+                <valueName>Single Opt-In</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Case Closure - Fixed by Phone</controllingFieldValue>
+                <valueName>Case Closure Notification to Known Customer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Case Closure - Fixed by Phone</controllingFieldValue>
+                <valueName>Case Closure Notification to Stakeholder</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Case Cancelation</controllingFieldValue>
+                <valueName>Case Cancelation Notification to Known Customer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Case Cancelation</controllingFieldValue>
+                <valueName>Case Cancelation Notification to Stakeholder</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>1-1 Messaging</controllingFieldValue>
+                <valueName>Opt In Request</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Received in Mobile Notification</controllingFieldValue>
+                <valueName>Received in Mobile Notification Customer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Received in Mobile Notification</controllingFieldValue>
+                <valueName>Received in Mobile Notification Stakeholder</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Journey_Trigger_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Journey Trigger Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>TS_Journey_Trigger_Type</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Lead__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Lead</label>
+        <referenceTo>Lead</referenceTo>
+        <relationshipLabel>Journey Triggers</relationshipLabel>
+        <relationshipName>Journey_Triggers</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Origin__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Regular means that case origin is Phone, Manual, Email, Web or Disaster recovery.</inlineHelpText>
+        <label>Origin</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>TS_Journey_Trigger_Origin</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ParsingTextv2__c</fullName>
+        <description>CONTENT: Case__r.AccountLocation__r.Name|Case__r.PhysicalAsset__r.ProductDescription__c|Case__r.PhysicalAsset__r.SerialNumber__c|Case__r.PhysicalAsset__r.Building__c|Case__r.PhysicalAsset__r.Floor__c|Case__r.PhysicalAsset__r.Area__c|Case__r.PhysicalAsset__r.CustomerReferenceNumber__c</description>
+        <externalId>false</externalId>
+        <formula>Case__r.AccountLocation__r.Name + &apos;|&apos; +
+Case__r.PhysicalAsset__r.ProductDescription__c + &apos;|&apos; +
+Case__r.PhysicalAsset__r.SerialNumber__c + &apos;|&apos; +
+Case__r.PhysicalAsset__r.Building__c + &apos;|&apos; +
+Case__r.PhysicalAsset__r.Floor__c + &apos;|&apos; +
+Case__r.PhysicalAsset__r.Area__c + &apos;|&apos; +
+Case__r.PhysicalAsset__r.CustomerReferenceNumber__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Parsing Text for DevOps Operations.</inlineHelpText>
+        <label>Parsing Text v2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Parsing_Text__c</fullName>
+        <externalId>false</externalId>
+        <label>Parsing Text</label>
+        <length>4000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Sales_Organization__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE( TEXT(Case__r.SalesOrganization__c),
+		&apos;SAP_0333&apos;,&apos;Belgium&apos;,
+		&apos;SAP_0975&apos;,&apos;Denmark&apos;,
+		&apos;SAP_0976&apos;,&apos;Sweden&apos;,
+		&apos;SAP_6864&apos;, &apos;Norway&apos;,
+		&apos;SAP_6706&apos;,&apos;France&apos;,
+		&apos;SAP_0080&apos;,&apos;Spain&apos;,
+		&apos;SAP_0111&apos;,&apos;Netherlands&apos;,
+		&apos;SAP_6709&apos;,&apos;Ireland&apos;,
+		&apos;SAP_6712&apos;,&apos;Germany&apos;,
+		&apos;SAP_6750&apos;,&apos;Great Britain&apos;,
+		&apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Sales Organization</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Survey_Invitation__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Survey Invitation</label>
+        <referenceTo>SurveyInvitation</referenceTo>
+        <relationshipLabel>Journey Triggers</relationshipLabel>
+        <relationshipName>Journey_Triggers</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Work_Order_Line_Item__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Work Order Line Item</label>
+        <referenceTo>WorkOrderLineItem</referenceTo>
+        <relationshipLabel>Journey Triggers</relationshipLabel>
+        <relationshipName>Journey_Triggers</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Work_Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Work Order</label>
+        <referenceTo>WorkOrder</referenceTo>
+        <relationshipLabel>Journey Triggers</relationshipLabel>
+        <relationshipName>Journey_Triggers</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Journey Trigger</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Origin__c</columns>
+        <columns>Journey_Trigger_Type__c</columns>
+        <columns>Journey_Trigger_SubType__c</columns>
+        <columns>Contact__c</columns>
+        <columns>Case__c</columns>
+        <columns>Work_Order__c</columns>
+        <columns>Work_Order_Line_Item__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>JT-{0}</displayFormat>
+        <label>Journey Trigger Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Journey Triggers</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Default</fullName>
+        <active>true</active>
+        <description>This is the default record type.</description>
+        <label>Default</label>
+        <picklistValues>
+            <picklist>Channel__c</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Push</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMS</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Journey_Trigger_SubType__c</picklist>
+            <values>
+                <fullName>Case Cancelation Notification to Known Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Case Cancelation Notification to Stakeholder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Case Closure Notification to Known Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Case Closure Notification to Stakeholder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Case Creation Notification to Known Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Case Creation Notification to Stakeholder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Case Creation Notification to Unknown Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Double Opt-In</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fulfillment Summary Notification for Single Task to Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fulfillment Summary Notification for Single Task to Stakeholder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opt In Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Received in Mobile Notification Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Received in Mobile Notification Stakeholder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Single Opt-In</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Journey_Trigger_Type__c</picklist>
+            <values>
+                <fullName>1-1 Messaging</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Case Cancelation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Case Closure - Fixed by Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Case Conversion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Case Create</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fulfillment Closure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Received in Mobile Notification</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origin__c</picklist>
+            <values>
+                <fullName>Contract Order</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IoT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Regular</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Order</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Journey_Trigger_Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Journey_Trigger_SubType__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Contact__c</customTabListAdditionalFields>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>PrintableListView</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Journey_Trigger_Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Journey_Trigger_SubType__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Contact__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Journey_Trigger_Type__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Journey_Trigger_SubType__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Contact__c</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Journey_Trigger_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Journey_Trigger_SubType__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Contact__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Populate_Lead_or_Contact</fullName>
+        <active>true</active>
+        <description>Please fill in either Lead or Contact</description>
+        <errorConditionFormula>AND( 
+$Setup.ValidationRulesSettings__c.ConsentValidationRules__c ,
+ISBLANK( Contact__c ),
+ISBLANK( Lead__c )
+)</errorConditionFormula>
+        <errorMessage>Please fill in either Lead or Contact</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

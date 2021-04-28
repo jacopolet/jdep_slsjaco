@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Apttus_Billing__CustomNumberCreationOption__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Options to control when the custom number will be created. Create custom number when status is Draft or when the Status is Approved.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Options to control when the custom number will be created.</inlineHelpText>
+        <label>Custom Number Creation Option</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>false</default>
+                    <label>Draft</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>true</default>
+                    <label>Approved</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__FieldBasedPrefix__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The field-based prefix to append to the static prefix when generating a Custom Number. Each fetched field value will be separated with the specified field separator.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The field-based prefix to append to the static prefix when generating a Custom Number.</inlineHelpText>
+        <label>Field Based Prefix</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__FieldBasedSuffix__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The field-based suffix to append after the generated Custom Number. Each fetched field value will be separated with the specified field separator.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The field based suffix to append after the generated Custom Number.</inlineHelpText>
+        <label>Field Based Suffix</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__FieldSeparator__c</fullName>
+        <defaultValue>&quot;-&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The separator to place after each field fetched for the field based prefix and/or the field based suffix. based prefix_ or the field based suffix. Example: INV-CA-0000000001-SOUTH</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The separator to place after each field fetched for the field based prefix and/or the field based suffix.</inlineHelpText>
+        <label>Field Separator</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__InitialSequenceNumber__c</fullName>
+        <defaultValue>1</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The initial number for custom numbering sequence.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The initial number for custom numbering sequence.</inlineHelpText>
+        <label>Initial Sequence Number</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__LegalEntityId__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Select the Legal Entity for which the next number is being defined.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Associated Legal Entity eg. US-NY</inlineHelpText>
+        <label>Legal Entity</label>
+        <referenceTo>Apttus_Config2__LegalEntity__c</referenceTo>
+        <relationshipLabel>Legal Entity Custom Numbering Entries</relationshipLabel>
+        <relationshipName>LegalEntityCustomNumberingEntries</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__NextSequenceNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The next number for this custom numbering sequence. Will be initialized to the Initial Sequence Number.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The next number for this custom numbering sequence.</inlineHelpText>
+        <label>Next Sequence Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__NumberOfLeadingZeros__c</fullName>
+        <defaultValue>10</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The number of leading zeros preceding the sequence number.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of leading zeros preceding the sequence number.</inlineHelpText>
+        <label>Number of Leading Zeros</label>
+        <precision>2</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__NumberingType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Select the object or class of objects to apply the custom numbering settings to.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the object or class of objects to apply the custom numbering settings to.</inlineHelpText>
+        <label>Numbering Type</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Invoice</fullName>
+                    <default>false</default>
+                    <label>Invoice</label>
+                </value>
+                <value>
+                    <fullName>Split Invoice</fullName>
+                    <default>false</default>
+                    <label>Split Invoice</label>
+                </value>
+                <value>
+                    <fullName>Credit Memo</fullName>
+                    <default>false</default>
+                    <label>Credit Memo</label>
+                </value>
+                <value>
+                    <fullName>Wallet Credit Memo</fullName>
+                    <default>false</default>
+                    <label>Wallet Credit Memo</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__StaticPrefix__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Initial prefix to prepend when generating a Custom Number. This will precede the optional field based prefix.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Initial prefix to prepend when generating a Custom Number.</inlineHelpText>
+        <label>Static Prefix</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__StaticSuffix__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Final prefix to preconcatenate when generating a Custom Number. This will follow the optional field based suffix.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Final prefix to concatenate when generating a Custom Number.</inlineHelpText>
+        <label>Static Suffix</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Legal Entity Custom Numbering Entry</label>
+    <nameField>
+        <displayFormat>LCNE-{00000000}</displayFormat>
+        <label>Entry Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Legal Entity Custom Numbering Entries</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Apttus_Billing__NoOfLeadingZerosRangeError</fullName>
+        <active>true</active>
+        <errorConditionFormula>Apttus_Billing__NumberOfLeadingZeros__c &lt; 0 || Apttus_Billing__NumberOfLeadingZeros__c &gt; 10</errorConditionFormula>
+        <errorDisplayField>Apttus_Billing__NumberOfLeadingZeros__c</errorDisplayField>
+        <errorMessage>The number of leading zeros must be greater than 0 and less than 11.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents the amortization of a lump sum or upfront payment</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Apttus_Rebate__AccruedAmortizedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The accrued amortized amount</description>
+        <externalId>false</externalId>
+        <label>Accrued Amortized Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__AccruedBalanceAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The accrued balance amount</description>
+        <externalId>false</externalId>
+        <label>Accrued Balance Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__ActualAmortizedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The actual amortized amount</description>
+        <externalId>false</externalId>
+        <label>Actual Amortized Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__ActualBalanceAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The actual balance amount</description>
+        <externalId>false</externalId>
+        <label>Actual Balance Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__ActualDailyInterestAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The actual daily interest amount for the period</description>
+        <externalId>false</externalId>
+        <label>Actual Daily Interest Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__ActualInterestAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The actual interest amount for the period</description>
+        <externalId>false</externalId>
+        <label>Actual Interest Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__ActualLongTermBalanceAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The actual long term balance amount</description>
+        <externalId>false</externalId>
+        <label>Actual Long Term Balance Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__ActualPrincipalAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The actual principal amount for the period</description>
+        <externalId>false</externalId>
+        <label>Actual Principal Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__ActualShortTermBalanceAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The actual short term balance amount</description>
+        <externalId>false</externalId>
+        <label>Actual Short Term Balance Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__AmortizationTrueupAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The amortization trueup amount</description>
+        <externalId>false</externalId>
+        <label>Amortization Trueup Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__EstimatedPaymentAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The estimated payment amount</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The estimated payment amount</inlineHelpText>
+        <label>Estimated Payment Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__ForecastAmortizedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The forecast amortized amount for the period</description>
+        <externalId>false</externalId>
+        <label>Forecast Amortized Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__ForecastBalanceAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The forecast balance amount at the end of the period</description>
+        <externalId>false</externalId>
+        <label>Forecast Balance Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__ForecastDailyInterestAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The forecast daily interest amount for the period</description>
+        <externalId>false</externalId>
+        <label>Forecast Daily Interest Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__ForecastInterestAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The forecast interest amount for the period</description>
+        <externalId>false</externalId>
+        <label>Forecast Interest Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__ForecastLongTermBalanceAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The forecast long term balance amount</description>
+        <externalId>false</externalId>
+        <label>Forecast Long Term Balance Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__ForecastPrincipalAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The forecast principal amount for the period</description>
+        <externalId>false</externalId>
+        <label>Forecast Principal Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__ForecastShortTermBalanceAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The forecast short term balance amount</description>
+        <externalId>false</externalId>
+        <label>Forecast Short Term Balance Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__LineItemId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the associated agreement line item</description>
+        <externalId>false</externalId>
+        <label>Line Item</label>
+        <referenceTo>Apttus__AgreementLineItem__c</referenceTo>
+        <relationshipLabel>Amortization Schedules</relationshipLabel>
+        <relationshipName>AgreementAmortizationSchedules</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__PendingAmortizedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The pending amortized amount</description>
+        <externalId>false</externalId>
+        <label>Pending Amortized Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__PendingBalanceAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The pending balance amount</description>
+        <externalId>false</externalId>
+        <label>Pending Balance Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__PeriodDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The amortization period date</description>
+        <externalId>false</externalId>
+        <label>Period Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__PeriodStartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The amortization period start date</description>
+        <externalId>false</externalId>
+        <label>Period Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__ScheduleType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The schedule type</description>
+        <externalId>false</externalId>
+        <label>Schedule Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Lumpsum</fullName>
+                    <default>false</default>
+                    <label>Lumpsum</label>
+                </value>
+                <value>
+                    <fullName>Rebate</fullName>
+                    <default>false</default>
+                    <label>Rebate</label>
+                </value>
+                <value>
+                    <fullName>Loan</fullName>
+                    <default>false</default>
+                    <label>Loan</label>
+                </value>
+                <value>
+                    <fullName>Trueup</fullName>
+                    <default>false</default>
+                    <label>Trueup</label>
+                </value>
+                <value>
+                    <fullName>Adjustment</fullName>
+                    <default>false</default>
+                    <label>Adjustment</label>
+                </value>
+                <value>
+                    <fullName>Accrual</fullName>
+                    <default>false</default>
+                    <label>Accrual</label>
+                </value>
+                <value>
+                    <fullName>Accrual Trueup</fullName>
+                    <default>false</default>
+                    <label>Accrual Trueup</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The schedule status</description>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Forecast Generated</fullName>
+                    <default>false</default>
+                    <label>Forecast Generated</label>
+                </value>
+                <value>
+                    <fullName>Accrual Generated</fullName>
+                    <default>false</default>
+                    <label>Accrual Generated</label>
+                </value>
+                <value>
+                    <fullName>Pending Actual Generated</fullName>
+                    <default>false</default>
+                    <label>Pending Actual Generated</label>
+                </value>
+                <value>
+                    <fullName>Actual Generated</fullName>
+                    <default>false</default>
+                    <label>Actual Generated</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Agreement Amortization Schedule</label>
+    <nameField>
+        <displayFormat>AS-{0000000000}</displayFormat>
+        <label>Schedule Id</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Agreement Amortization Schedules</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

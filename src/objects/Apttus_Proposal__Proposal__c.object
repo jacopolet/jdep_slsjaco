@@ -1,0 +1,2295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Quote/Proposal object which holds dates and line items, many quotes/proposals may be related to a single opportunity, a quote/proposal may have many detail lines</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Apttus_Proposal__Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Prospect Account</description>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipName>SFDC_520_Quote</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Amount</label>
+        <summarizedField>Apttus_Proposal__Proposal_Line_Item__c.Apttus_Proposal__Ext_Net_Price__c</summarizedField>
+        <summaryForeignKey>Apttus_Proposal__Proposal_Line_Item__c.Apttus_Proposal__Proposal__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Approval_Stage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The proposal approval stage</description>
+        <externalId>false</externalId>
+        <label>Approval Stage</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>true</default>
+                    <label>Draft</label>
+                </value>
+                <value>
+                    <fullName>Approval Required</fullName>
+                    <default>false</default>
+                    <label>Approval Required</label>
+                </value>
+                <value>
+                    <fullName>In Review</fullName>
+                    <default>false</default>
+                    <label>In Review</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Generated</fullName>
+                    <default>false</default>
+                    <label>Generated</label>
+                </value>
+                <value>
+                    <fullName>Presented</fullName>
+                    <default>false</default>
+                    <label>Presented</label>
+                </value>
+                <value>
+                    <fullName>Accepted</fullName>
+                    <default>false</default>
+                    <label>Accepted</label>
+                </value>
+                <value>
+                    <fullName>Denied</fullName>
+                    <default>false</default>
+                    <label>Denied</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__CreateAgreement__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Create Agreement, if the proposal is accepted.</description>
+        <externalId>false</externalId>
+        <formula>IF (ISPICKVAL(Apttus_Proposal__Approval_Stage__c, &quot;Accepted&quot;) , IF($User.UIThemeDisplayed == &apos;Theme4d&apos;,HYPERLINK(&quot;/one/one.app#/alohaRedirect/apex/Apttus_Proposal__ProposalAgreementCreate?id=&quot;&amp;Id, IMAGE(&quot;/resource/Apttus_Proposal__Button_CreateAgreement&quot;, &quot;Create Agreement&quot;),&quot;_self&quot;),HYPERLINK(&quot;/apex/Apttus_Proposal__ProposalAgreementCreate?id=&quot;&amp;Id, IMAGE(&quot;/resource/Apttus_Proposal__Button_CreateAgreement&quot;, &quot;Create Agreement&quot;),&quot;_self&quot;)), NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Create Agreement</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The proposal description</description>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Discount_Percent__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Discount %</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__ExpectedEndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The expected end date for products and services</description>
+        <externalId>false</externalId>
+        <label>Expected End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__ExpectedStartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The expected start date for products and services</description>
+        <externalId>false</externalId>
+        <label>Expected Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Generate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Generate a quote/proposal</description>
+        <externalId>false</externalId>
+        <formula>IF (Apttus_Proposal__ReadyToGenerate__c, IF($User.UIThemeDisplayed == &apos;Theme4d&apos;,HYPERLINK(&quot;/one/one.app#/alohaRedirect/apex/Apttus_Proposal__ProposalGenerate?id=&quot;&amp;Id, IMAGE(&quot;/resource/Apttus_Proposal__Button_Generate&quot;, &quot;Generate&quot;),&quot;_self&quot;),HYPERLINK(&quot;/apex/Apttus_Proposal__ProposalGenerate?id=&quot;&amp;Id, IMAGE(&quot;/resource/Apttus_Proposal__Button_Generate&quot;, &quot;Generate&quot;),&quot;_self&quot;)), NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Generate a quote/proposal</inlineHelpText>
+        <label>Generate</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Grand_Total__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>Apttus_Proposal__Net_Amount__c + Apttus_Proposal__Shipping_Handling__c + Apttus_Proposal__Sales_Tax_Amount__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Grand Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Internal_Deadline__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Internal Deadline</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__MakePrimary__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Make the quote/proposal primary for the associated opportunity</description>
+        <externalId>false</externalId>
+        <formula>IF (AND(LEN(Apttus_Proposal__Opportunity__c ) &gt; 0, NOT(Apttus_Proposal__Primary__c)), HYPERLINK(&quot;/apex/Apttus_Proposal__ProposalMakePrimary?id=&quot;&amp;Id, IMAGE(&quot;/resource/Apttus_Proposal__Button_MakePrimary&quot;, &quot;Make Primary&quot;),&quot;_self&quot;), NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Make Primary</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Net_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>Apttus_Proposal__Amount__c  * (1 - Apttus_Proposal__Discount_Percent__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Net Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The related opportunity</description>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Proposals</relationshipLabel>
+        <relationshipName>R00N70000001yUfDEAU</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Payment_Term__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Payment Term</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Net 30 Days</fullName>
+                    <default>true</default>
+                    <label>Net 30 Days</label>
+                </value>
+                <value>
+                    <fullName>1 Year</fullName>
+                    <default>false</default>
+                    <label>1 Year</label>
+                </value>
+                <value>
+                    <fullName>2 Years</fullName>
+                    <default>false</default>
+                    <label>2 Years</label>
+                </value>
+                <value>
+                    <fullName>3 Years</fullName>
+                    <default>false</default>
+                    <label>3 Years</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Present__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Present the quote/proposal</description>
+        <externalId>false</externalId>
+        <formula>IF (Apttus_Proposal__ReadyToPresent__c, IF($User.UIThemeDisplayed == &apos;Theme4d&apos;,HYPERLINK(&quot;/one/one.app#/alohaRedirect/apex/Apttus_Proposal__ProposalPresent?id=&quot;&amp;Id, IMAGE(&quot;/resource/Apttus_Proposal__Button_Present&quot;, &quot;Present&quot;),&quot;_self&quot;),HYPERLINK(&quot;/apex/Apttus_Proposal__ProposalPresent?id=&quot;&amp;Id, IMAGE(&quot;/resource/Apttus_Proposal__Button_Present&quot;, &quot;Present&quot;),&quot;_self&quot;)), NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Present</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Presented_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date the quote/proposal was presented to the customer</description>
+        <externalId>false</externalId>
+        <label>Presented Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Preview__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Preview a quote/proposal</description>
+        <externalId>false</externalId>
+        <formula>IF($User.UIThemeDisplayed == &apos;Theme4d&apos;,HYPERLINK(&quot;/one/one.app#/alohaRedirect/apex/Apttus_Proposal__ProposalGenerate?id=&quot;&amp;Id &amp; &quot;&amp;action=Preview&quot;, IMAGE(&quot;/resource/Apttus_Proposal__Button_Preview&quot;, &quot;Preview&quot;),&quot;_self&quot;),HYPERLINK(&quot;/apex/Apttus_Proposal__ProposalGenerate?id=&quot;&amp;Id &amp; &quot;&amp;action=Preview&quot;, IMAGE(&quot;/resource/Apttus_Proposal__Button_Preview&quot;, &quot;Preview&quot;),&quot;_self&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Preview a quote/proposal</inlineHelpText>
+        <label>Preview</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Primary_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The primary contact associated with the quote/proposal</description>
+        <externalId>false</externalId>
+        <label>Primary Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Proposals</relationshipLabel>
+        <relationshipName>Proposals</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Primary__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the quote/proposal is the primary quote to update the related opportunity</description>
+        <externalId>false</externalId>
+        <label>Primary</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Proposal_Approval_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date the quote/proposal was approved</description>
+        <externalId>false</externalId>
+        <label>Proposal Approval Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Proposal_Category__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The quote/proposal category</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The quote/proposal category</inlineHelpText>
+        <label>Proposal Category</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Quote</fullName>
+                    <default>true</default>
+                    <label>Quote</label>
+                </value>
+                <value>
+                    <fullName>Proposal</fullName>
+                    <default>false</default>
+                    <label>Proposal</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Proposal_Expiration_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The quote/proposal expiration date</description>
+        <externalId>false</externalId>
+        <label>Proposal Expiration Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Proposal_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Proposal Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__RFP_Intake_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>RFP Intake Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__RFP_Response_Due_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>RFP Response Due Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__RFP_Stage__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>RFP Stage</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Expected</fullName>
+                    <default>false</default>
+                    <label>Expected</label>
+                </value>
+                <value>
+                    <fullName>Received</fullName>
+                    <default>false</default>
+                    <label>Received</label>
+                </value>
+                <value>
+                    <fullName>First Revision</fullName>
+                    <default>false</default>
+                    <label>First Revision</label>
+                </value>
+                <value>
+                    <fullName>Technical Input</fullName>
+                    <default>false</default>
+                    <label>Technical Input</label>
+                </value>
+                <value>
+                    <fullName>Pricing</fullName>
+                    <default>false</default>
+                    <label>Pricing</label>
+                </value>
+                <value>
+                    <fullName>Internal Approval</fullName>
+                    <default>false</default>
+                    <label>Internal Approval</label>
+                </value>
+                <value>
+                    <fullName>Final Draft</fullName>
+                    <default>false</default>
+                    <label>Final Draft</label>
+                </value>
+                <value>
+                    <fullName>Submitted</fullName>
+                    <default>false</default>
+                    <label>Submitted</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__RFP_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>RFP Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__ReadyToGenerate__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the proposal is ready for generation</description>
+        <externalId>false</externalId>
+        <label>Ready To Generate</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__ReadyToPresent__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the proposal is ready for presentation</description>
+        <externalId>false</externalId>
+        <label>Ready To Present</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__RelatedProposalId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the related or parent quote/proposal</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the related or parent quote/proposal</inlineHelpText>
+        <label>Related Quote/Proposal</label>
+        <referenceTo>Apttus_Proposal__Proposal__c</referenceTo>
+        <relationshipLabel>Related Proposals</relationshipLabel>
+        <relationshipName>RelatedProposals</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Request_Approval__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;/servlet/servlet.Integration?lid=01N700000009u2c&amp;eid=&quot;&amp;Id, IMAGE(&quot;/servlet/servlet.ImageServer?oid=00D70000000JXTN&amp;id=01570000000e6nU&quot;, &quot;Submit&quot;) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Request Approval</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Risk_Factors__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The risk factors associated with the quote/proposal</description>
+        <externalId>false</externalId>
+        <label>Risk Factors</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Turnaround Time</fullName>
+                    <default>false</default>
+                    <label>Turnaround Time</label>
+                </value>
+                <value>
+                    <fullName>Price Pressure</fullName>
+                    <default>false</default>
+                    <label>Price Pressure</label>
+                </value>
+                <value>
+                    <fullName>Technical Delivery</fullName>
+                    <default>false</default>
+                    <label>Technical Delivery</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Sales_Tax_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>Apttus_Proposal__Net_Amount__c *  Apttus_Proposal__Sales_Tax_Percent__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Sales Tax Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Sales_Tax_Percent__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Sales Tax %</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__SendProposal__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Generate and send a quote/proposal</description>
+        <externalId>false</externalId>
+        <formula>IF (Apttus_Proposal__ReadyToGenerate__c, IF($User.UIThemeDisplayed == &apos;Theme4d&apos;,HYPERLINK(&quot;/one/one.app#/alohaRedirect/apex/Apttus_Proposal__DocGen?id=&quot;&amp;Id + &quot;&amp;context=proposal&quot; + &quot;&amp;name=&quot;&amp;Name, IMAGE(&quot;/resource/Apttus_Proposal__Button_SendProposal&quot;, &quot;Send Proposal&quot;),&quot;_self&quot;), HYPERLINK(&quot;/apex/Apttus_Proposal__DocGen?id=&quot;&amp;Id + &quot;&amp;context=proposal&quot; + &quot;&amp;name=&quot;&amp;Name, IMAGE(&quot;/resource/Apttus_Proposal__Button_SendProposal&quot;, &quot;Send Proposal&quot;),&quot;_self&quot;)), NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Generate and send a quote/proposal</inlineHelpText>
+        <label>Send Proposal</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Shipping_Handling__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Shipping &amp; Handling</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Special_Terms__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The special terms associated with the quote/proposal</description>
+        <externalId>false</externalId>
+        <label>Special Terms</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Strategic_Importance__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The strategic importance of the quote/proposal</description>
+        <externalId>false</externalId>
+        <label>Strategic Importance</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Strategic</fullName>
+                    <default>false</default>
+                    <label>Not Strategic</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>Must Win</fullName>
+                    <default>false</default>
+                    <label>Must Win</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__SubmitForApproval__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Submit the quote/proposal for approval</description>
+        <externalId>false</externalId>
+        <formula>IF (ISPICKVAL(Apttus_Proposal__Approval_Stage__c, &quot;Approval Required&quot;), HYPERLINK(&quot;/apex/Apttus_Proposal__ProposalSubmit?id=&quot;&amp;Id, IMAGE(&quot;/resource/Apttus_Proposal__Button_SubmitForApproval&quot;, &quot;Submit for Approval&quot;),&quot;_self&quot;), NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Submit For Approval</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Valid_Until_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date until the quote/proposal is valid</description>
+        <externalId>false</externalId>
+        <label>Valid Until Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPApprov__Approval_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The quote approval status</description>
+        <externalId>false</externalId>
+        <label>Approval Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+                <value>
+                    <fullName>Approval Required</fullName>
+                    <default>false</default>
+                    <label>Approval Required</label>
+                </value>
+                <value>
+                    <fullName>Not Submitted</fullName>
+                    <default>true</default>
+                    <label>Not Submitted</label>
+                </value>
+                <value>
+                    <fullName>Pending Approval</fullName>
+                    <default>false</default>
+                    <label>Pending Approval</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPAsset__ConfigureWithAssets__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Configure products (with assets) for the quote/proposal</description>
+        <externalId>false</externalId>
+        <formula>IF ( LEN( Apttus_QPConfig__PriceListId__c ) &gt; 0 , HYPERLINK(&quot;/apex/Apttus_QPAsset__ProposalConfiguration?id=&quot; &amp;Id, IMAGE(&quot;/resource/Apttus_QPConfig__Button_Configure&quot;, &quot;Configure Products&quot;),&quot;_self&quot;), NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Configure products (with assets) for the quote/proposal</inlineHelpText>
+        <label>Configure Products</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPComply__CreateAgreementWithLineItems__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Create Agreement with line items, if the proposal is accepted.</description>
+        <externalId>false</externalId>
+        <formula>IF (ISPICKVAL(Apttus_Proposal__Approval_Stage__c, &quot;Accepted&quot;) , HYPERLINK(&quot;/apex/Apttus_QPComply__ProposalAgreementCreate?id=&quot; &amp;Id, IMAGE(&quot;/resource/Apttus_QPComply__Button_CreateAgreementWithLineItems&quot;, &quot;Create Agreement with Line Items&quot;),&quot;_self&quot;), NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Create Agreement With Line Items</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPComply__MasterAgreementId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the master agreement associated with the quote/proposal</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the master agreement associated with the quote/proposal</inlineHelpText>
+        <label>Master Agreement</label>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipLabel>Quote/Proposals</relationshipLabel>
+        <relationshipName>QuoteProposals</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ABOType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The asset based order type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The asset based order type</inlineHelpText>
+        <label>ABO Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>true</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Add-on</fullName>
+                    <default>false</default>
+                    <label>Add-on</label>
+                </value>
+                <value>
+                    <fullName>Renewal</fullName>
+                    <default>false</default>
+                    <label>Renewal</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__Accept__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Accept the quote/proposal</description>
+        <externalId>false</externalId>
+        <formula>IF (ISPICKVAL(Apttus_Proposal__Approval_Stage__c, &quot;Presented&quot;), HYPERLINK(&quot;/apex/Apttus_QPConfig__ProposalAccept?id=&quot;&amp;Id, IMAGE(&quot;/resource/Apttus_QPConfig__Button_Accept&quot;, &quot;Accept&quot;),&quot;_self&quot;), NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Accept</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__AutoActivateOrder__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the order associated with the quote/proposal will be automatically activated when the quote/proposal is accepted.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the order associated with the quote/proposal will be automatically activated when the quote/proposal is accepted.</inlineHelpText>
+        <label>Auto Activate Order ?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__AutoCreateBill__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether billing schedules would be created for the order associated with the quote/proposal when the quote/proposal is accepted.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether billing schedules would be created for the order associated with the quote/proposal when the quote/proposal is accepted.</inlineHelpText>
+        <label>Auto Create Bill ?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__AutoCreateRevenue__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether revenue schedules would be created for the order associated with the quote/proposal when the quote/proposal is accepted.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether revenue schedules would be created for the order associated with the quote/proposal when the quote/proposal is accepted.</inlineHelpText>
+        <label>Auto Create Revenue ?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__BillToAccountId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the bill to account associated with the quote/proposal</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the bill to account associated with the quote/proposal</inlineHelpText>
+        <label>Bill To</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Quotes (Bill To)</relationshipLabel>
+        <relationshipName>QuotesBillTo</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__BillingPreferenceId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated billing preference</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated billing preference</inlineHelpText>
+        <label>Billing Preference</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Apttus_Config2__BillingPreference__c.Apttus_Config2__Active__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <infoMessage>Please select a billing preference</infoMessage>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Apttus_Config2__BillingPreference__c</referenceTo>
+        <relationshipLabel>Quotes</relationshipLabel>
+        <relationshipName>Quotes</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ConfigurationEffectiveDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The configuration effective date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The configuration effective date</inlineHelpText>
+        <label>Configuration Effective Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ConfigurationFinalizedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Date when the configuration was finalized for the quote/proposal</description>
+        <externalId>false</externalId>
+        <label>Configuration Finalized Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ConfigurationSyncDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Date when the configuration was synchronized for the quote/proposal</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date when the configuration was synchronized for the quote/proposal</inlineHelpText>
+        <label>Configuration Sync Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ConfigureNG__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Configure products for the quote/proposal</description>
+        <externalId>false</externalId>
+        <formula>IF ( LEN( Apttus_QPConfig__PriceListId__c ) &gt; 0 , HYPERLINK(&quot;/apex/Apttus_QPConfig__ProposalConfiguration?id=&quot; &amp;Id &amp; &quot;&amp;flow=NGDefault&quot;, IMAGE(&quot;/resource/Apttus_QPConfig__Button_Configure&quot;, &quot;Configure Products&quot;),&quot;_self&quot;), NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Configure Products (NG)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__Configure__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Configure products for the quote/proposal</description>
+        <externalId>false</externalId>
+        <formula>IF ( LEN( Apttus_QPConfig__PriceListId__c ) &gt; 0 , HYPERLINK(&quot;/apex/Apttus_QPConfig__ProposalConfiguration?id=&quot; &amp;Id &amp; &quot;&amp;flow=Default&quot;, IMAGE(&quot;/resource/Apttus_QPConfig__Button_Configure&quot;, &quot;Configure Products&quot;),&quot;_self&quot;), NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Configure Products</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__DisableCartVersioning__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether cart versioning is disabled for the quote/proposal</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether cart versioning is disabled for the quote/proposal</inlineHelpText>
+        <label>Disable Cart Versioning</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__Intent__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The intent associated with the quote/proposal</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The intent associated with the quote/proposal</inlineHelpText>
+        <label>Intent</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Order</fullName>
+                    <default>false</default>
+                    <label>Order</label>
+                </value>
+                <value>
+                    <fullName>Price Agreement</fullName>
+                    <default>false</default>
+                    <label>Price Agreement</label>
+                </value>
+                <value>
+                    <fullName>Contract</fullName>
+                    <default>false</default>
+                    <label>Contract</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__IsAutoAccepted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the quote/proposal was accepted by an auto system operation</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the quote/proposal was accepted by an auto system operation</inlineHelpText>
+        <label>Is Auto Accepted</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__IsSystemGenerated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether this is a system generated quote</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether this is a system generated quote</inlineHelpText>
+        <label>Is System Generated</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__IsTaskPending__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether there are any tasks pending for the quote</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether there are any tasks pending for the quote</inlineHelpText>
+        <label>Is Task Pending</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__LegalEntityId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the legal entity associated with the quote/proposal. This links the asset to a legal entity and will be used for downstream billing and revenue functions.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the legal entity associated with the quote/proposal. This links the asset to a legal entity and will be used for downstream billing and revenue functions.</inlineHelpText>
+        <label>Legal Entity</label>
+        <referenceTo>Apttus_Config2__LegalEntity__c</referenceTo>
+        <relationshipLabel>Quote/Proposals</relationshipLabel>
+        <relationshipName>Proposals</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__LocationId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated account location</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated account location</inlineHelpText>
+        <label>Location</label>
+        <referenceTo>Apttus_Config2__AccountLocation__c</referenceTo>
+        <relationshipLabel>Quotes</relationshipLabel>
+        <relationshipName>Proposals</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__PODate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The purchase order date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The purchase order date</inlineHelpText>
+        <label>PO Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__PONumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The purchase order number</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The purchase order number</inlineHelpText>
+        <label>PO Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ParentProposalId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the parent quote/proposal</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the parent quote/proposal</inlineHelpText>
+        <label>Parent Quote/Proposal</label>
+        <referenceTo>Apttus_Proposal__Proposal__c</referenceTo>
+        <relationshipLabel>Child Quotes/Proposals</relationshipLabel>
+        <relationshipName>ChildQuotesProposals</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__PartnerAccountId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the partner account who created the quote on behalf of a customer</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the partner account who created the quote on behalf of a customer</inlineHelpText>
+        <label>Partner</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Quotes/Proposals (Partner)</relationshipLabel>
+        <relationshipName>QuotesProposalsPartner</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__PaymentTermId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the payment term associated with the quote/proposal</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the payment term associated with the quote/proposal</inlineHelpText>
+        <label>Payment Term</label>
+        <referenceTo>Apttus_Config2__PaymentTerm__c</referenceTo>
+        <relationshipLabel>Quotes</relationshipLabel>
+        <relationshipName>Quotes</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__PriceListId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated price list</description>
+        <externalId>false</externalId>
+        <label>Price List</label>
+        <referenceTo>Apttus_Config2__PriceList__c</referenceTo>
+        <relationshipLabel>Quotes/Proposals</relationshipLabel>
+        <relationshipName>Proposals</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__PricingDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The pricing date, The product list price is determined based on this date.</description>
+        <externalId>false</externalId>
+        <label>Pricing Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__PurchaseId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The default purchase identifier associated with the quote/proposal</description>
+        <externalId>true</externalId>
+        <inlineHelpText>The default purchase identifier associated with the quote/proposal</inlineHelpText>
+        <label>Purchase Identifier</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__QTCProfile__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The QTC profile associated with the quote/proposal</description>
+        <externalId>false</externalId>
+        <inlineHelpText>“Regular” will process the quote as a single entity. Select “Split” before clicking on Configure Products to allow the subdivision of the quote into multiple smaller quotes for business/volume related reasons or multiple sold to accounts.</inlineHelpText>
+        <label>QTC Profile</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Regular</fullName>
+                    <default>false</default>
+                    <label>Regular</label>
+                </value>
+                <value>
+                    <fullName>Split</fullName>
+                    <default>false</default>
+                    <label>Split</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ReadyForActivationDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date the order is ready for activation. The order is activated on this date.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date the order is ready for activation. The order is activated on this date.</inlineHelpText>
+        <label>Ready For Activation Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ReadyForBillingDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date when the order is ready for billing. The billing schedules are created on this date.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date when the order is ready for billing. The billing schedules are created on this date.</inlineHelpText>
+        <label>Ready For Billing Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ReadyForFulfillmentDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date the order is ready for fulfillment. The order is fulfilled on this date.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date the order is ready for fulfillment. The order is fulfilled on this date.</inlineHelpText>
+        <label>Ready For Fulfillment Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ReadyForRevRecDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date when the order is ready for revenue recognition. The revenue schedules are created on this date.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date when the order is ready for revenue recognition. The revenue schedules are created on this date.</inlineHelpText>
+        <label>Ready For Revenue Recognition Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ShipToAccountId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the ship to account associated with the quote/proposal</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the ship to account associated with the quote/proposal</inlineHelpText>
+        <label>Ship To</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Quotes (Ship To)</relationshipLabel>
+        <relationshipName>QuotesShipTo</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__SourceChannel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The quote channel. Indicates the primary Sales Channel for the Quote/Proposal.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The quote source channel. Indicates the primary Sales Channel for the Quote/Proposal.</inlineHelpText>
+        <label>Source Channel</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Direct</fullName>
+                    <default>true</default>
+                    <label>Direct</label>
+                </value>
+                <value>
+                    <fullName>Partner</fullName>
+                    <default>false</default>
+                    <label>Partner</label>
+                </value>
+                <value>
+                    <fullName>E-Commerce</fullName>
+                    <default>false</default>
+                    <label>E-Commerce</label>
+                </value>
+                <value>
+                    <fullName>EDI</fullName>
+                    <default>false</default>
+                    <label>EDI</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__SyncAssetChangesToQuote__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether asset changes are synchronized to open quotes</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether asset changes are synchronized to open quotes</inlineHelpText>
+        <label>Sync Asset Changes To Quote</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__SyncWithOpportunity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Synchronize the quote/proposal with the associated opportunity</description>
+        <externalId>false</externalId>
+        <formula>IF ( AND(LEN(Apttus_Proposal__Opportunity__c ) &gt; 0, Apttus_Proposal__Primary__c) , HYPERLINK(&quot;/apex/Apttus_QPConfig__ProposalSyncWithOpportunity?id=&quot; &amp;Id, IMAGE(&quot;/resource/Apttus_QPConfig__Button_SynchronizeWithOpportunity&quot;, &quot;Sync with Opportunity&quot;),&quot;_self&quot;), NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Synchronize with Opportunity</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__UseType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The type associated with the split quote</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The type associated with the split quote</inlineHelpText>
+        <label>UseType</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Main</fullName>
+                    <default>true</default>
+                    <label>Main</label>
+                </value>
+                <value>
+                    <fullName>Config</fullName>
+                    <default>false</default>
+                    <label>Config</label>
+                </value>
+                <value>
+                    <fullName>Pricing</fullName>
+                    <default>false</default>
+                    <label>Pricing</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPESign__Send_For_eSignature__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Send To Other Party For eSignatures</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Apttus_Proposal__Approval_Stage__c,&quot;Generated&quot;),HYPERLINK(&quot;/apex/Apttus_QPESign__SelectAttachment?id=&quot;&amp;Id, IMAGE(&quot;/resource/Apttus_QPESign__Button_eSignature&quot;,&quot;Send To Other Party For eSignatures&quot;), &quot;_self&quot;), NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Send To Other Party For eSignatures</inlineHelpText>
+        <label>Send For eSignature</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Quote/Proposal</label>
+    <listViews>
+        <fullName>Apttus_Proposal__All</fullName>
+        <columns>NAME</columns>
+        <columns>Apttus_Proposal__Opportunity__c</columns>
+        <columns>Apttus_Proposal__Approval_Stage__c</columns>
+        <columns>Apttus_Proposal__Valid_Until_Date__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>OWNER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Apttus_Proposal__ApprovedProposals</fullName>
+        <columns>NAME</columns>
+        <columns>Apttus_Proposal__Opportunity__c</columns>
+        <columns>Apttus_Proposal__Presented_Date__c</columns>
+        <columns>Apttus_Proposal__Valid_Until_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Apttus_Proposal__Approval_Stage__c</field>
+            <operation>equals</operation>
+            <value>Approved</value>
+        </filters>
+        <filters>
+            <field>Apttus_Proposal__Grand_Total__c</field>
+            <operation>greaterThan</operation>
+            <value>100000</value>
+        </filters>
+        <label>Approved Proposals</label>
+    </listViews>
+    <listViews>
+        <fullName>Apttus_Proposal__PresentedtoCustomerrecently</fullName>
+        <columns>NAME</columns>
+        <columns>Apttus_Proposal__Opportunity__c</columns>
+        <columns>Apttus_Proposal__Presented_Date__c</columns>
+        <columns>Apttus_Proposal__Net_Amount__c</columns>
+        <columns>Apttus_Proposal__Valid_Until_Date__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Apttus_Proposal__Presented_Date__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>THIS_MONTH,LAST_MONTH</value>
+        </filters>
+        <label>Presented to Customer recently</label>
+    </listViews>
+    <listViews>
+        <fullName>Apttus_Proposal__RejectedProposals</fullName>
+        <columns>NAME</columns>
+        <columns>Apttus_Proposal__Opportunity__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Apttus_Proposal__Approval_Stage__c</field>
+            <operation>equals</operation>
+            <value>Denied</value>
+        </filters>
+        <label>Rejected Proposals</label>
+    </listViews>
+    <nameField>
+        <displayFormat>Q-{00000000}</displayFormat>
+        <label>Proposal ID</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Proposals</pluralLabel>
+    <recordTypes>
+        <fullName>Apttus_Proposal__Proposal</fullName>
+        <active>true</active>
+        <description>Proposal</description>
+        <label>Proposal</label>
+        <picklistValues>
+            <picklist>Apttus_Proposal__Approval_Stage__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Approval Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Denied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Generated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Presented</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_Proposal__Payment_Term__c</picklist>
+            <values>
+                <fullName>1 Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Net 30 Days</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_Proposal__Proposal_Category__c</picklist>
+            <values>
+                <fullName>Proposal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quote</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_Proposal__RFP_Stage__c</picklist>
+            <values>
+                <fullName>Expected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Final Draft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>First Revision</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Input</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_Proposal__Risk_Factors__c</picklist>
+            <values>
+                <fullName>Price Pressure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Turnaround Time</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_Proposal__Strategic_Importance__c</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Must Win</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Strategic</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPApprov__Approval_Status__c</picklist>
+            <values>
+                <fullName>Approval Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__ABOType__c</picklist>
+            <values>
+                <fullName>Add-on</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__Intent__c</picklist>
+            <values>
+                <fullName>Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Order</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price Agreement</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__QTCProfile__c</picklist>
+            <values>
+                <fullName>Regular</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Split</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__SourceChannel__c</picklist>
+            <values>
+                <fullName>Direct</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>E-Commerce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EDI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__UseType__c</picklist>
+            <values>
+                <fullName>Config</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Main</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Apttus_Proposal__RFP</fullName>
+        <active>true</active>
+        <description>RFP</description>
+        <label>RFP</label>
+        <picklistValues>
+            <picklist>Apttus_Proposal__Approval_Stage__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Approval Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Denied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Generated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Presented</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_Proposal__Payment_Term__c</picklist>
+            <values>
+                <fullName>1 Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Net 30 Days</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_Proposal__Proposal_Category__c</picklist>
+            <values>
+                <fullName>Proposal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quote</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_Proposal__RFP_Stage__c</picklist>
+            <values>
+                <fullName>Expected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Final Draft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>First Revision</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Input</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_Proposal__Risk_Factors__c</picklist>
+            <values>
+                <fullName>Price Pressure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Turnaround Time</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_Proposal__Strategic_Importance__c</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Must Win</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Strategic</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPApprov__Approval_Status__c</picklist>
+            <values>
+                <fullName>Approval Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__ABOType__c</picklist>
+            <values>
+                <fullName>Add-on</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__Intent__c</picklist>
+            <values>
+                <fullName>Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Order</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price Agreement</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__QTCProfile__c</picklist>
+            <values>
+                <fullName>Regular</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Split</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__SourceChannel__c</picklist>
+            <values>
+                <fullName>Direct</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>E-Commerce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EDI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__UseType__c</picklist>
+            <values>
+                <fullName>Config</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Main</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Apttus_Proposal__Opportunity__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Proposal__Account__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Proposal__Net_Amount__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Proposal__Valid_Until_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Proposal__Primary__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Proposal__Approval_Stage__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATED_DATE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Proposal__Opportunity__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Proposal__Net_Amount__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Proposal__Valid_Until_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Proposal__Primary__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Proposal__Approval_Stage__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CREATED_DATE</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Proposal__Opportunity__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Proposal__Account__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Proposal__Net_Amount__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Proposal__Valid_Until_Date__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Proposal__Primary__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Proposal__Approval_Stage__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CREATED_DATE</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Apttus_Proposal__Opportunity__c</searchFilterFields>
+        <searchFilterFields>Apttus_Proposal__Account__c</searchFilterFields>
+        <searchFilterFields>Apttus_Proposal__Net_Amount__c</searchFilterFields>
+        <searchFilterFields>Apttus_Proposal__Valid_Until_Date__c</searchFilterFields>
+        <searchFilterFields>Apttus_Proposal__Primary__c</searchFilterFields>
+        <searchFilterFields>Apttus_Proposal__Approval_Stage__c</searchFilterFields>
+        <searchFilterFields>CREATED_DATE</searchFilterFields>
+        <searchResultsAdditionalFields>Apttus_Proposal__Opportunity__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Proposal__Account__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Proposal__Net_Amount__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Proposal__Valid_Until_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Proposal__Primary__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Proposal__Approval_Stage__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATED_DATE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Apttus_Billing__ForecastBillingSchedules</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Forecast Billing Schedules</masterLabel>
+        <openType>noSidebar</openType>
+        <page>Apttus_Billing__ShowForecastBilling</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_CQApprov__Approvals</fullName>
+        <availability>online</availability>
+        <description>Launch cart header approvals page</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Approvals</masterLabel>
+        <openType>sidebar</openType>
+        <page>Apttus_CQApprov__CartApprovalsLaunch</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_CQApprov__MyApprovals</fullName>
+        <availability>online</availability>
+        <description>My Approvals</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>My Approvals</masterLabel>
+        <openType>sidebar</openType>
+        <page>Apttus_CQApprov__MyCartApprovalsLaunch</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Proposal__AddProposalProducts</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <height>900</height>
+        <linkType>sControl</linkType>
+        <masterLabel>Add Products</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <scontrol>Apttus_Proposal__aptsProposalProductAdd</scontrol>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Proposal__CloneProposalwithDetails</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <height>600</height>
+        <linkType>sControl</linkType>
+        <masterLabel>Clone Proposal with Details</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <scontrol>Apttus_Proposal__aptsProposalCloneLineItems</scontrol>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Proposal__CreateAgreement</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <height>600</height>
+        <linkType>sControl</linkType>
+        <masterLabel>Create Agreement</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <scontrol>Apttus_Proposal__aptsProposalCreateAgreement</scontrol>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Proposal__EditProposaProducts</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <height>800</height>
+        <linkType>sControl</linkType>
+        <masterLabel>Edit Products</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <scontrol>Apttus_Proposal__aptsProposalProductEdit</scontrol>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Proposal__Generate</fullName>
+        <availability>online</availability>
+        <description>Generate a quote/proposal</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>sControl</linkType>
+        <masterLabel>Generate</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <scontrol>Apttus_Proposal__aptsProposalGenerate</scontrol>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Proposal__GenerateProposal</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <height>600</height>
+        <linkType>sControl</linkType>
+        <masterLabel>Generate Proposal</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <scontrol>Apttus_Proposal__aptsProposalGenerate</scontrol>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Proposal__NewQuoteProposalFromOpportunity</fullName>
+        <availability>online</availability>
+        <description>Create quote/proposal from the opportunity</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>New Quote/Proposal</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/apex/Apttus_Proposal__OpportunityProposalCreate?id={!Opportunity.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Proposal__PresentProposal</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <height>600</height>
+        <linkType>sControl</linkType>
+        <masterLabel>Present Proposal</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <scontrol>Apttus_Proposal__aptsProposalPresent</scontrol>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Proposal__ReportViewCurrentTotals</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Report View &amp; Current Totals</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/00O70000001oRTc?pv0={!Apttus_Proposal__Proposal__c.Id}</url>
+        <width>900</width>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Proposal__SubmitForApproval</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <height>600</height>
+        <linkType>sControl</linkType>
+        <masterLabel>Submit For Approval</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <scontrol>Apttus_Proposal__aptsProposalSubmitForApproval</scontrol>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Proposal__SyncWithOpportunity</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>false</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>200</height>
+        <isResizable>false</isResizable>
+        <linkType>sControl</linkType>
+        <masterLabel>Synchronize With Opportunity</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <scontrol>Apttus_Proposal__aptsProposalProductUpdate</scontrol>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <width>400</width>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_QPComply__CreateAgreementWithLineItems</fullName>
+        <availability>online</availability>
+        <description>Create agreement from the proposal</description>
+        <displayType>link</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Create Agreement (with Line Items)</masterLabel>
+        <openType>sidebar</openType>
+        <page>Apttus_QPComply__ProposalAgreementCreate</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_QPConfig__AbandonQuote</fullName>
+        <availability>online</availability>
+        <description>Abandon the quote/proposal</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Abandon Quote</masterLabel>
+        <openType>sidebar</openType>
+        <page>Apttus_QPConfig__ProposalAbandon</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_QPConfig__RepriceQuote</fullName>
+        <availability>online</availability>
+        <description>Reprice quote</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Reprice Quote</masterLabel>
+        <openType>sidebar</openType>
+        <page>Apttus_QPConfig__RepriceQuote</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>New_Quote_with_Opportunity</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>New Quote with Opportunity</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/apex/Proposal_NewQuoteWithOpportunity?id={!Account.Id}</url>
+    </webLinks>
+</CustomObject>

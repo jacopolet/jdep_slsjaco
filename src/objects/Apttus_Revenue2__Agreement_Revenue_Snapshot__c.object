@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Holds a revenue snapshot for an agreement</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Apttus_Revenue2__Actual_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Actual amount for the current period</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Actual amount for the current period</inlineHelpText>
+        <label>Actual Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Actual_Units2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Actual units for the current period</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Actual units for the current period</inlineHelpText>
+        <label>Actual Units</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Actual_Units__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Actual units for the current period</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Actual units for the current period</inlineHelpText>
+        <label>Actual Units (Old)</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Agreement_Fee__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Associated agreement fee</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Associated agreement fee</inlineHelpText>
+        <label>Agreement Fee</label>
+        <referenceTo>Apttus_Revenue2__Agreement_Fee__c</referenceTo>
+        <relationshipLabel>Agreement Revenue Snapshots</relationshipLabel>
+        <relationshipName>Agreement_Revenue_Snapshots_F</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Agreement_Prepay__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Associated agreement prepay</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Associated agreement prepay</inlineHelpText>
+        <label>Agreement Prepay</label>
+        <referenceTo>Apttus_Revenue2__Agreement_Prepay__c</referenceTo>
+        <relationshipLabel>Agreement Revenue Snapshots</relationshipLabel>
+        <relationshipName>Agreement_Revenue_Snapshots_P</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Agreement_Trueup__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Associated agreement trueup</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Associated agreement trueup</inlineHelpText>
+        <label>Agreement Trueup</label>
+        <referenceTo>Apttus_Revenue2__Agreement_Trueup__c</referenceTo>
+        <relationshipLabel>Agreement Revenue Snapshots</relationshipLabel>
+        <relationshipName>Agreement_Revenue_Snapshots_T</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Agreement__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Associated agreement</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Associated agreement</inlineHelpText>
+        <label>Agreement</label>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipLabel>Agreement Revenue Snapshots</relationshipLabel>
+        <relationshipName>Agreement_Revenue_Snapshots</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Cumulative_Actual_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Cumulative actual amount</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Cumulative actual amount</inlineHelpText>
+        <label>Cumulative Actual Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Cumulative_Actual_Units2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Cumulative actual units</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Cumulative actual units</inlineHelpText>
+        <label>Cumulative Actual Units</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Cumulative_Actual_Units__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Cumulative actual units</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Cumulative actual units</inlineHelpText>
+        <label>Cumulative Actual Units (Old)</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Cumulative_Prepaid_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Cumulative prepaid amount associated with the trueup</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Cumulative prepaid amount associated with the trueup</inlineHelpText>
+        <label>Cumulative Prepaid Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Cumulative_Recognized_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Cumulative recognized amount</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Cumulative recognized amount</inlineHelpText>
+        <label>Cumulative Recognized Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Current_Period_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The current period date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The current period date</inlineHelpText>
+        <label>Current Period Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Current_Period_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Current period number</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Current period number</inlineHelpText>
+        <label>Current Period Number</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Daily_Price__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The daily price</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The daily price</inlineHelpText>
+        <label>Daily Price</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Deferred_Balance_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Deferred balance amount</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Deferred balance amount</inlineHelpText>
+        <label>Deferred Balance Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__IsActive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Active indicator</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Active indicator</inlineHelpText>
+        <label>Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Monthly_Price__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The monthly price</description>
+        <externalId>false</externalId>
+        <label>Monthly Price</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__RevRec_Period_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Revenue recognition period date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Revenue recognition period date</inlineHelpText>
+        <label>RevRec Period Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__RevRec_Period_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Revenue recognition period number</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Revenue recognition period number</inlineHelpText>
+        <label>RevRec Period Number</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__RevRec_Rule__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Revenue recognition rule</description>
+        <externalId>false</externalId>
+        <formula>IF( NOT( ISNULL( Apttus_Revenue2__Agreement_Fee__c ) ), Apttus_Revenue2__Agreement_Fee__r.Apttus_Revenue2__RevRec_Rule_Text__c , NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Revenue recognition rule</inlineHelpText>
+        <label>RevRec Rule</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__RevRec_Source__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Revenue recognition source</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Revenue recognition source</inlineHelpText>
+        <label>RevRec Source</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Prepay</fullName>
+                    <default>false</default>
+                    <label>Prepay</label>
+                </value>
+                <value>
+                    <fullName>Trueup</fullName>
+                    <default>false</default>
+                    <label>Trueup</label>
+                </value>
+                <value>
+                    <fullName>Fee</fullName>
+                    <default>false</default>
+                    <label>Fee</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Revenue_Subtype__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Revenue subtype</description>
+        <externalId>false</externalId>
+        <formula>IF( LEN( Apttus_Revenue2__Agreement_Prepay__c ) &gt; 0, TEXT(Apttus_Revenue2__Agreement_Prepay__r.Apttus_Revenue2__Revenue_Subtype__c), IF( LEN( Apttus_Revenue2__Agreement_Trueup__c ) &gt; 0, TEXT(Apttus_Revenue2__Agreement_Trueup__r.Apttus_Revenue2__Revenue_Subtype__c) , IF( LEN( Apttus_Revenue2__Agreement_Fee__c ) &gt; 0, TEXT(Apttus_Revenue2__Agreement_Fee__r.Apttus_Revenue2__Revenue_Subtype__c) , NULL)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Revenue subtype</inlineHelpText>
+        <label>Revenue Subtype</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Revenue_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Revenue type</description>
+        <externalId>false</externalId>
+        <formula>IF( LEN( Apttus_Revenue2__Agreement_Prepay__c ) &gt; 0, TEXT(Apttus_Revenue2__Agreement_Prepay__r.Apttus_Revenue2__Revenue_Type__c), IF( LEN( Apttus_Revenue2__Agreement_Trueup__c ) &gt; 0, TEXT(Apttus_Revenue2__Agreement_Trueup__r.Apttus_Revenue2__Revenue_Type__c) , IF( LEN( Apttus_Revenue2__Agreement_Fee__c ) &gt; 0, TEXT(Apttus_Revenue2__Agreement_Fee__r.Apttus_Revenue2__Revenue_Type__c) , NULL)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Revenue type</inlineHelpText>
+        <label>Revenue Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Snapshot_Category__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Snapshot category</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Snapshot category</inlineHelpText>
+        <label>Snapshot Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Forecast</fullName>
+                    <default>false</default>
+                    <label>Forecast</label>
+                </value>
+                <value>
+                    <fullName>Actual</fullName>
+                    <default>false</default>
+                    <label>Actual</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Agreement Revenue Snapshot</label>
+    <nameField>
+        <displayFormat>{0000000000}</displayFormat>
+        <label>Agreement Revenue Snapshot Id</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Agreement Revenue Snapshots</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,2046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>An international address from the Company.info international address service</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fieldSets>
+        <fullName>appsolutely__Dutch_Address_Search_Results</fullName>
+        <availableFields>
+            <field>appsolutely__CeBuco_Code__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Municipality_Code__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Province_Code__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>Used to show the Dutch address search resutls.</description>
+        <displayedFields>
+            <field>appsolutely__Street__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>appsolutely__House_Number__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>appsolutely__House_Number_Addition__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>appsolutely__Postcode__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>appsolutely__Letter_Combination__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>appsolutely__House_Number_From__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>appsolutely__House_Number_To__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>appsolutely__Locality__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>appsolutely__Municipality__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>appsolutely__Province__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>appsolutely__Range_Indication__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Dutch Address Search Results</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>appsolutely__International_Address_search_results</fullName>
+        <availableFields>
+            <field>appsolutely__Building_Match_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Building_Number_Match_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Building_Number_Result_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Building_Result_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Contact__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Country_Specific_Locality__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Country__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Delivery_Address__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Department__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Language__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Locality_Match_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Locality_Result_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Organization_Match_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Organization_Result_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Organization__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__POBox__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__PO_Box_Match_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__PO_Box_Result_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Postcode_Match_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Postcode_Result_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Province_Match_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Province_Result_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Street_Match_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Street_Result_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>Defines which fields in which order are shown for the International address search results.</description>
+        <displayedFields>
+            <field>appsolutely__Matchrate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>appsolutely__Province__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>appsolutely__Locality__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>appsolutely__Postcode__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>appsolutely__Street__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>appsolutely__House_Number__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>International Address search results</label>
+    </fieldSets>
+    <fields>
+        <fullName>appsolutely__Alpha_2_Country_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The ISO 3166 Alpha 2 country code. Set based on the country code whilst retrieving the international address.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The ISO 3166 Alpha 2 country code</inlineHelpText>
+        <label>Alpha 2 Country Code</label>
+        <length>2</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Building_Match_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Describes how the building element matches the available reference data.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Describes how the building element matches the available reference data.</inlineHelpText>
+        <label>Building Match Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>appsolutely__International_Address_Match_Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Building_Number_Match_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Describes how the building number element matches the available reference data.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Describes how the building number element matches the available reference data.</inlineHelpText>
+        <label>Building Number Match Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>appsolutely__International_Address_Match_Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Building_Number_Result_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Describes how the building number element has been modified</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Describes how the building number element has been modified</inlineHelpText>
+        <label>Building Number Result Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>appsolutely__International_Address_Result_Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Building_Result_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Describes how the building element has been modified</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Describes how the building element has been modified</inlineHelpText>
+        <label>Building Result Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>appsolutely__International_Address_Result_Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Building__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of building and / or subbuilding, if available.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of building and / or subbuilding, if available.</inlineHelpText>
+        <label>Building</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__CeBuco_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Code given by CeBuCo (Centraal Bureau voor Courantenpubliciteit).  Range: ‘0’-’999’</description>
+        <externalId>false</externalId>
+        <label>CeBuco Code</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__City_Extract__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Four letter abbreviation of the city name as used by TPG Post; In capitals without punctuation marks.</description>
+        <externalId>false</externalId>
+        <label>City Extract</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__City_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Webservices.nl identifier for the city.</description>
+        <externalId>false</externalId>
+        <label>City Id</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__City_Ptt__c</fullName>
+        <deprecated>false</deprecated>
+        <description>City name in accordance with the PTT standard; In capitals.  Maximum length of 18 characters.</description>
+        <externalId>false</externalId>
+        <label>City Ptt</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Contact__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name or contact information of person, if available.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name or contact information of person, if available.</inlineHelpText>
+        <label>Contact</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Country_Specific_Locality__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Country specific alternative notation for locality</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Country specific alternative notation for locality</inlineHelpText>
+        <label>Country Specific Locality</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Country__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Country of the address.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Country of the address.</inlineHelpText>
+        <label>Country</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Delivery_Address__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Local delivery address</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Local delivery address</inlineHelpText>
+        <label>Delivery Address</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Department__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name or description of the department, if available.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name or description of the department, if available.</inlineHelpText>
+        <label>Department</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Formatted_Address__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Complete formatted address</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Complete formatted address</inlineHelpText>
+        <label>Formatted Address</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__House_Number_Addition__c</fullName>
+        <deprecated>false</deprecated>
+        <description>House number of a perceel.  In case of a Postbus match the house number will always be 0.  Range: 0-99999</description>
+        <externalId>false</externalId>
+        <label>House Number Addition</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__House_Number_From__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Lowest house number of a postcode range.  Range: 0-99999</description>
+        <externalId>false</externalId>
+        <label>House Number From</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__House_Number_To__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Highest house number of a postcode range.  Range: 0-99999</description>
+        <externalId>false</externalId>
+        <label>House Number To</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__House_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>House number of the address, if available.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>House number of the address, if available.</inlineHelpText>
+        <label>House Number</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Language__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field will hold language</description>
+        <externalId>false</externalId>
+        <label>Language</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Letter_Combination__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Two character lettercombination (second part of a postcode).  Range: ‘AA’-’ZZ’</description>
+        <externalId>false</externalId>
+        <label>Letter Combination</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Locality_Match_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Describes how the locality element matches the available reference data.</inlineHelpText>
+        <label>Locality Match Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>appsolutely__International_Address_Match_Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Locality_Result_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Describes how the locality element has been modified</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Describes how the locality element has been modified</inlineHelpText>
+        <label>Locality Result Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>appsolutely__International_Address_Result_Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Locality__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Locality and/or city name of the address.  If both present, values will be separated with a linefeed character.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Locality and/or city name of the address.  If both present, values will be separated with a linefeed character.</inlineHelpText>
+        <label>Locality</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Matchrate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A matchrate in percentages, denoting how well the result matches the search parameters.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A matchrate in percentages, denoting how well the result matches the search parameters.</inlineHelpText>
+        <label>Matchrate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Municipality_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Code given by the CBS (Centraal Bureau Statistiek).  Range: ‘0’-’9999’</description>
+        <externalId>false</externalId>
+        <label>Municipality Code</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Municipality_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Webservices.nl identifier for the municipality.</description>
+        <externalId>false</externalId>
+        <label>Municipality Id</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Municipality__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Municipality name in capital letters.  The municipality name does not contain apostrophes, but may contain dashes.  Examples: “BAARLE-NASSAU”, “S GRAVENHAGE”.</description>
+        <externalId>false</externalId>
+        <label>Municipality</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Organization_Match_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Describes how the organization element matches the available reference data.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Describes how the organization element matches the available reference data.</inlineHelpText>
+        <label>Organization Match Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>appsolutely__International_Address_Match_Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Organization_Result_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Describes how the organization element has been modified</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Describes how the organization element has been modified</inlineHelpText>
+        <label>Organization Result Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>appsolutely__International_Address_Result_Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Organization__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of a company or organization, if available.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of a company or organization, if available.</inlineHelpText>
+        <label>Organization</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__POBox__c</fullName>
+        <deprecated>false</deprecated>
+        <description>PO box of the address, if available.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>PO box of the address, if available.</inlineHelpText>
+        <label>PO Box</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__PO_Box_Match_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Describes how the PO Box element matches the available reference data.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Describes how the PO Box element matches the available reference data.</inlineHelpText>
+        <label>PO Box Match Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>appsolutely__International_Address_Match_Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>appsolutely__PO_Box_Result_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Describes how the PO Box element has been modified</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Describes how the PO Box element has been modified</inlineHelpText>
+        <label>PO Box Result Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>appsolutely__International_Address_Result_Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Plot_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Webservices.nl identifier for this parcel.</description>
+        <externalId>false</externalId>
+        <label>Plot Id</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Plot_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Unique number for a perceel / delivery point, assigned by TPG.  In case of a Postbus address match perceelnummer will always be 0.</description>
+        <externalId>false</externalId>
+        <label>Plot Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Postcode_Match_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Describes how the postcode element matches the available reference data.</inlineHelpText>
+        <label>Postcode Match Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>appsolutely__International_Address_Match_Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Postcode_Result_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Describes how the postcode element has been modified</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Describes how the postcode element has been modified</inlineHelpText>
+        <label>Postcode Result Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>appsolutely__International_Address_Result_Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Postcode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Postal code of the address, if available.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Postal code of the address, if available.</inlineHelpText>
+        <label>Postcode</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Province_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Code of the province, a single letter</description>
+        <externalId>false</externalId>
+        <label>Province Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Province_Match_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Describes how the province element matches the available reference data.</inlineHelpText>
+        <label>Province Match Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>appsolutely__International_Address_Match_Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Province_Result_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Describes how the province element has been modified</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Describes how the province element has been modified</inlineHelpText>
+        <label>Province Result Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>appsolutely__International_Address_Result_Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Province__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Province or state of the address.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Province or state of the address.</inlineHelpText>
+        <label>Province</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Range_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Webservices.nl identifier for this house number range.</description>
+        <externalId>false</externalId>
+        <label>Range Id</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Range_Indication__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Postcode range type.  Range: {‘0’,’1’,’ ‘};
+’0’	range of odd house numbers,
+’1’	range of even house numbers,
+’ ‘	vacant</description>
+        <externalId>false</externalId>
+        <label>Range Indication</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Street_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Webservices.nl identifier for the street.</description>
+        <externalId>false</externalId>
+        <label>Street Id</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Street_Match_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Describes how the street element matches the available reference data.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Describes how the street element matches the available reference data.</inlineHelpText>
+        <label>Street Match Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>appsolutely__International_Address_Match_Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Street_Name_Extract__c</fullName>
+        <deprecated>false</deprecated>
+        <description>5 letter abbreviation of the street name as used by TPG Post; In capitals without punctuation marks.</description>
+        <externalId>false</externalId>
+        <label>Street Name Extract</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Street_Name_Nen__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Street name in accordance with NEN 5825 conventions; In capital and lowercase letters, including punctuation marks.  This field is at most 24 characters in length.  Longer street names are shortened using the NEN 5825 rules.  Filled with ‘Postbus’ in case it is a range of PO boxes.</description>
+        <externalId>false</externalId>
+        <label>Street Name Nen</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Street_Name_Ptt__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Street name in accordance with TPG Post conventions; In capitals without punctuation marks.  Filled with ‘POSTBUS’ in case it is a range of PO boxes.  Maximum length of 17 characters.</description>
+        <externalId>false</externalId>
+        <label>Street Name Ptt</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Street_Result_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Describes how the street element has been modified</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Describes how the street element has been modified</inlineHelpText>
+        <label>Street Result Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>appsolutely__International_Address_Result_Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Street__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Street name of the address</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Street name of the address</inlineHelpText>
+        <label>Street</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>International Address</label>
+    <nameField>
+        <displayFormat>IA-{0000000}</displayFormat>
+        <label>International Address Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>International Address</pluralLabel>
+    <recordTypes>
+        <fullName>appsolutely__Dutch_Address</fullName>
+        <active>true</active>
+        <label>Dutch Address</label>
+        <picklistValues>
+            <picklist>appsolutely__Building_Match_Status__c</picklist>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched with errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched without errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked %28no reference data or no chance of success%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not found</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Building_Number_Match_Status__c</picklist>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched with errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched without errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked %28no reference data or no chance of success%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not found</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Building_Number_Result_Status__c</picklist>
+            <values>
+                <fullName>Checked and corrected %28changed or inserted%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No value returned%2C due to multiple possible matches</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked but standardized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated and unchanged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but changed %28synonyms%2C old names%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but standardized</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Building_Result_Status__c</picklist>
+            <values>
+                <fullName>Checked and corrected %28changed or inserted%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No value returned%2C due to multiple possible matches</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked but standardized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated and unchanged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but changed %28synonyms%2C old names%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but standardized</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Locality_Match_Status__c</picklist>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched with errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched without errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked %28no reference data or no chance of success%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not found</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Locality_Result_Status__c</picklist>
+            <values>
+                <fullName>Checked and corrected %28changed or inserted%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No value returned%2C due to multiple possible matches</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked but standardized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated and unchanged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but changed %28synonyms%2C old names%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but standardized</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Organization_Match_Status__c</picklist>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched with errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched without errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked %28no reference data or no chance of success%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not found</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Organization_Result_Status__c</picklist>
+            <values>
+                <fullName>Checked and corrected %28changed or inserted%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No value returned%2C due to multiple possible matches</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked but standardized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated and unchanged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but changed %28synonyms%2C old names%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but standardized</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__PO_Box_Match_Status__c</picklist>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched with errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched without errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked %28no reference data or no chance of success%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not found</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__PO_Box_Result_Status__c</picklist>
+            <values>
+                <fullName>Checked and corrected %28changed or inserted%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No value returned%2C due to multiple possible matches</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked but standardized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated and unchanged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but changed %28synonyms%2C old names%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but standardized</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Postcode_Match_Status__c</picklist>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched with errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched without errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked %28no reference data or no chance of success%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not found</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Postcode_Result_Status__c</picklist>
+            <values>
+                <fullName>Checked and corrected %28changed or inserted%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No value returned%2C due to multiple possible matches</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked but standardized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated and unchanged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but changed %28synonyms%2C old names%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but standardized</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Province_Match_Status__c</picklist>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched with errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched without errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked %28no reference data or no chance of success%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not found</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Province_Result_Status__c</picklist>
+            <values>
+                <fullName>Checked and corrected %28changed or inserted%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No value returned%2C due to multiple possible matches</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked but standardized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated and unchanged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but changed %28synonyms%2C old names%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but standardized</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Street_Match_Status__c</picklist>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched with errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched without errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked %28no reference data or no chance of success%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not found</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Street_Result_Status__c</picklist>
+            <values>
+                <fullName>Checked and corrected %28changed or inserted%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No value returned%2C due to multiple possible matches</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked but standardized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated and unchanged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but changed %28synonyms%2C old names%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but standardized</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>appsolutely__International_Address</fullName>
+        <active>true</active>
+        <label>International Address</label>
+        <picklistValues>
+            <picklist>appsolutely__Building_Match_Status__c</picklist>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched with errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched without errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked %28no reference data or no chance of success%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not found</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Building_Number_Match_Status__c</picklist>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched with errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched without errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked %28no reference data or no chance of success%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not found</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Building_Number_Result_Status__c</picklist>
+            <values>
+                <fullName>Checked and corrected %28changed or inserted%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No value returned%2C due to multiple possible matches</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked but standardized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated and unchanged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but changed %28synonyms%2C old names%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but standardized</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Building_Result_Status__c</picklist>
+            <values>
+                <fullName>Checked and corrected %28changed or inserted%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No value returned%2C due to multiple possible matches</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked but standardized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated and unchanged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but changed %28synonyms%2C old names%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but standardized</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Locality_Match_Status__c</picklist>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched with errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched without errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked %28no reference data or no chance of success%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not found</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Locality_Result_Status__c</picklist>
+            <values>
+                <fullName>Checked and corrected %28changed or inserted%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No value returned%2C due to multiple possible matches</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked but standardized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated and unchanged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but changed %28synonyms%2C old names%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but standardized</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Organization_Match_Status__c</picklist>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched with errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched without errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked %28no reference data or no chance of success%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not found</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Organization_Result_Status__c</picklist>
+            <values>
+                <fullName>Checked and corrected %28changed or inserted%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No value returned%2C due to multiple possible matches</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked but standardized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated and unchanged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but changed %28synonyms%2C old names%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but standardized</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__PO_Box_Match_Status__c</picklist>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched with errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched without errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked %28no reference data or no chance of success%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not found</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__PO_Box_Result_Status__c</picklist>
+            <values>
+                <fullName>Checked and corrected %28changed or inserted%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No value returned%2C due to multiple possible matches</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked but standardized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated and unchanged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but changed %28synonyms%2C old names%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but standardized</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Postcode_Match_Status__c</picklist>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched with errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched without errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked %28no reference data or no chance of success%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not found</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Postcode_Result_Status__c</picklist>
+            <values>
+                <fullName>Checked and corrected %28changed or inserted%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No value returned%2C due to multiple possible matches</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked but standardized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated and unchanged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but changed %28synonyms%2C old names%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but standardized</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Province_Match_Status__c</picklist>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched with errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched without errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked %28no reference data or no chance of success%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not found</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Province_Result_Status__c</picklist>
+            <values>
+                <fullName>Checked and corrected %28changed or inserted%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No value returned%2C due to multiple possible matches</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked but standardized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated and unchanged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but changed %28synonyms%2C old names%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but standardized</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Street_Match_Status__c</picklist>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched with errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Matched without errors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked %28no reference data or no chance of success%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not found</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Street_Result_Status__c</picklist>
+            <values>
+                <fullName>Checked and corrected %28changed or inserted%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No value returned%2C due to multiple possible matches</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not checked but standardized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated and unchanged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but changed %28synonyms%2C old names%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated%2C but standardized</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

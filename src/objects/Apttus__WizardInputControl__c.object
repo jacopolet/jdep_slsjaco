@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>The individual question, instruction statements and associated field attributes</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Apttus__Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Signifies that the Input control within a step is Active. Setting Wizard Design as Active automatically activates the included input controls.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Signifies that the Input control within a step is Active. Setting Wizard Design as Active automatically activates the included input controls.</inlineHelpText>
+        <label>Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Category__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Controlling the subcategory field, whose list values shall allow users to search, find, and select Input controls</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Controlling the subcategory field, whose list values shall allow users to search, find, and select Input Controls</inlineHelpText>
+        <label>Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Default</fullName>
+                    <default>true</default>
+                    <label>Default</label>
+                </value>
+                <value>
+                    <fullName>Category 1</fullName>
+                    <default>false</default>
+                    <label>Category 1</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__ContextObject__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Business object context, used to filter and align inputs within steps and wizard designs.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Business object context, used to filter and align inputs within steps and wizard designs.</inlineHelpText>
+        <label>Context Object</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__ContextType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Type of context, whether its All or Object. 
+All means that this input can be used in any step design. 
+Object means that this input can be used only in aligned (same object) step design.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Type of context, whether its All or Object. 
+All means that this input can be used in any step design. 
+Object means that this input can be used only in aligned (same object) step design.</inlineHelpText>
+        <label>Context Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All</fullName>
+                    <default>true</default>
+                    <label>All</label>
+                </value>
+                <value>
+                    <fullName>Object</fullName>
+                    <default>false</default>
+                    <label>Object</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__DefaultResponse__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Place a desired default response value here or leave blank</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Place a desired default response value here or leave blank</inlineHelpText>
+        <label>Default Response</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>For the user to understand the intended use of the Input Control</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For the user to understand the intended use of the Input Control</inlineHelpText>
+        <label>Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__FieldClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Wizard Input Field - A field which exists only within the wizard to make determinations 
+Object Field - A field which exists only as a salesforce object to make determinations</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Wizard Input Field - A field which exists only within the wizard to make determinations 
+Object Field - A field which exists only as a salesforce object to make determinations</inlineHelpText>
+        <label>Field Class</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Wizard Input Field</fullName>
+                    <default>false</default>
+                    <label>Wizard Input Field</label>
+                </value>
+                <value>
+                    <fullName>Object Field</fullName>
+                    <default>false</default>
+                    <label>Object Field</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__FieldName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Name of the salesforce object field the question applies to</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Name of the salesforce object field the question applies to</inlineHelpText>
+        <label>Field Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__FieldType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Data type of the field</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Data type of the field</inlineHelpText>
+        <label>Field Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Checkbox</fullName>
+                    <default>false</default>
+                    <label>Checkbox</label>
+                </value>
+                <value>
+                    <fullName>Currency</fullName>
+                    <default>false</default>
+                    <label>Currency</label>
+                </value>
+                <value>
+                    <fullName>Date</fullName>
+                    <default>false</default>
+                    <label>Date</label>
+                </value>
+                <value>
+                    <fullName>Date/Time</fullName>
+                    <default>false</default>
+                    <label>Date/Time</label>
+                </value>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>false</default>
+                    <label>Email</label>
+                </value>
+                <value>
+                    <fullName>Number</fullName>
+                    <default>false</default>
+                    <label>Number</label>
+                </value>
+                <value>
+                    <fullName>Percent</fullName>
+                    <default>false</default>
+                    <label>Percent</label>
+                </value>
+                <value>
+                    <fullName>Phone</fullName>
+                    <default>false</default>
+                    <label>Phone</label>
+                </value>
+                <value>
+                    <fullName>Picklist</fullName>
+                    <default>false</default>
+                    <label>Picklist</label>
+                </value>
+                <value>
+                    <fullName>Text</fullName>
+                    <default>true</default>
+                    <label>Text</label>
+                </value>
+                <value>
+                    <fullName>Text Area</fullName>
+                    <default>false</default>
+                    <label>Text Area</label>
+                </value>
+                <value>
+                    <fullName>URL</fullName>
+                    <default>false</default>
+                    <label>URL</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__GhostResponse__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Place a desired runtime information statement here or leave blank.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Place a desired runtime information statement here or leave blank.</inlineHelpText>
+        <label>Ghost Response</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__HorizontalSequence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Sequence of inputs in a tabular input group from left to right</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Sequence of inputs in a tabular input group from left to right</inlineHelpText>
+        <label>Horizontal Sequence</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__InterfaceDefinition__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The definition of the data type entered in by the designer.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The definition of the data type entered in by the designer.</inlineHelpText>
+        <label>Interface Definition</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Apttus__ResponseDataType__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Text Entry</fullName>
+                    <default>false</default>
+                    <label>Text Entry</label>
+                </value>
+                <value>
+                    <fullName>Picklist Dropdown</fullName>
+                    <default>false</default>
+                    <label>Picklist Dropdown</label>
+                </value>
+                <value>
+                    <fullName>Picklist Radio Button</fullName>
+                    <default>false</default>
+                    <label>Picklist Radio Button</label>
+                </value>
+                <value>
+                    <fullName>Checkbox</fullName>
+                    <default>false</default>
+                    <label>Checkbox</label>
+                </value>
+                <value>
+                    <fullName>Currency &lt;Type, Chars, Dec&gt;</fullName>
+                    <default>false</default>
+                    <label>Currency &lt;Type, Chars, Dec&gt;</label>
+                </value>
+                <value>
+                    <fullName>Number &lt;Chars, Dec&gt;</fullName>
+                    <default>false</default>
+                    <label>Number &lt;Chars, Dec&gt;</label>
+                </value>
+                <value>
+                    <fullName>Date &lt;Format&gt;</fullName>
+                    <default>false</default>
+                    <label>Date &lt;Format&gt;</label>
+                </value>
+                <value>
+                    <fullName>Percent &lt;Dec&gt;</fullName>
+                    <default>false</default>
+                    <label>Percent &lt;Dec&gt;</label>
+                </value>
+                <value>
+                    <fullName>Expression Formula</fullName>
+                    <default>false</default>
+                    <label>Expression Formula</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Text</controllingFieldValue>
+                <valueName>Text Entry</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Text</controllingFieldValue>
+                <controllingFieldValue>List</controllingFieldValue>
+                <controllingFieldValue>Currency</controllingFieldValue>
+                <controllingFieldValue>Number</controllingFieldValue>
+                <controllingFieldValue>Date</controllingFieldValue>
+                <controllingFieldValue>Percent</controllingFieldValue>
+                <controllingFieldValue>Concatenation</controllingFieldValue>
+                <valueName>Expression Formula</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>Picklist Dropdown</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>Picklist Radio Button</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Currency</controllingFieldValue>
+                <valueName>Currency &lt;Type, Chars, Dec&gt;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Number</controllingFieldValue>
+                <valueName>Number &lt;Chars, Dec&gt;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Date</controllingFieldValue>
+                <valueName>Date &lt;Format&gt;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Percent</controllingFieldValue>
+                <valueName>Percent &lt;Dec&gt;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Checkbox</controllingFieldValue>
+                <valueName>Checkbox</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__Keywords__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Additional field for use in search and selection</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Additional field for use in search and selection</inlineHelpText>
+        <label>Keywords</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The label for the input control.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The label for the input control.</inlineHelpText>
+        <label>Label</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__ObjectName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the object that qualifies the field the question resolves</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the object that qualifies the field the question resolves</inlineHelpText>
+        <label>Object Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__Precedence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Denotes what sequence should proceed this input in order to appear. In the form (1) (1 OR 2) (1 AND 2) etc.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Denotes what sequence should proceed this input in order to appear. In the form (1) (1 OR 2) (1 AND 2) etc.</inlineHelpText>
+        <label>Precedence</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__Question__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The question or instruction statement that is used to direct the end user when completing the wizard after setup.  Defaults to Input Label</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The question or instruction statement that is used to direct the end user when completing the wizard after setup.  Defaults to Input Label</inlineHelpText>
+        <label>Question/Instruction</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__ReadOnly__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Specifies if an input control value can be edited by the runtime user</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specifies if an input control value can be edited by the runtime user</inlineHelpText>
+        <label>Read Only</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Repeatable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates this is a repeatable question.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates this is a repeatable question.</inlineHelpText>
+        <label>Repeatable</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates that an input value is required for the end user to continue the wizard</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates that an input value is required for the end user to continue the wizard</inlineHelpText>
+        <label>Required</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__ResponseDataType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The data type of the response by the end user.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The data type of the response by the end user.</inlineHelpText>
+        <label>Response Data Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Text</fullName>
+                    <default>false</default>
+                    <label>Text</label>
+                </value>
+                <value>
+                    <fullName>List</fullName>
+                    <default>false</default>
+                    <label>List</label>
+                </value>
+                <value>
+                    <fullName>Currency</fullName>
+                    <default>false</default>
+                    <label>Currency</label>
+                </value>
+                <value>
+                    <fullName>Number</fullName>
+                    <default>false</default>
+                    <label>Number</label>
+                </value>
+                <value>
+                    <fullName>Date</fullName>
+                    <default>false</default>
+                    <label>Date</label>
+                </value>
+                <value>
+                    <fullName>Percent</fullName>
+                    <default>false</default>
+                    <label>Percent</label>
+                </value>
+                <value>
+                    <fullName>Concatenation</fullName>
+                    <default>false</default>
+                    <label>Concatenation</label>
+                </value>
+                <value>
+                    <fullName>Checkbox</fullName>
+                    <default>false</default>
+                    <label>Checkbox</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__Response__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Comma separated list of values for making determinations on.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Comma separated list of values for making determinations on.</inlineHelpText>
+        <label>Response</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__RuntimeDescription__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Describe what the runtime user can see as a help or instruction description of this input control</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Describes what the runtime user can see as a help or instruction description of this input control.</inlineHelpText>
+        <label>Runtime Help Text</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__Sequence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The sequence in which this input entry should be displayed during runtime</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The sequence in which this input entry should be displayed during runtime</inlineHelpText>
+        <label>Sequence</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__Subcategory__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Dependent on the category field, whose list values shall allow users to search, find, and select Input Controls</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Dependent on the category field, whose list values shall allow users to search, find, and select Input Controls</inlineHelpText>
+        <label>Subcategory</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Apttus__Category__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Default</fullName>
+                    <default>true</default>
+                    <label>Default</label>
+                </value>
+                <value>
+                    <fullName>Sub-Category 1</fullName>
+                    <default>false</default>
+                    <label>Sub-Category 1</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Default</controllingFieldValue>
+                <valueName>Default</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__Transient__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Input added to a Step is in Transient state until the Step is saved.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Input added to a Step is in Transient state until the Step is saved.</inlineHelpText>
+        <label>Transient</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Validation2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>List of values to be displayed during runtime.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>List of values to be displayed during runtime.</inlineHelpText>
+        <label>Validation Input</label>
+        <length>2000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus__Validation__c</fullName>
+        <deprecated>false</deprecated>
+        <description>List of values to be displayed during runtime.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>List of values to be displayed during runtime.</inlineHelpText>
+        <label>Validation Input (Deprecated)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Version__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Version number (counter) of input control design. This identifies the input control uniquely in the chronology of creation.</description>
+        <displayFormat>{0000000}.{000}</displayFormat>
+        <externalId>false</externalId>
+        <inlineHelpText>Version number (counter) of input control design. This identifies the input control uniquely in the chronology of creation.</inlineHelpText>
+        <label>Version</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__VerticalSequence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Sequence of input in an input group rendered from top to bottom</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Sequence of input in an input group rendered from top to bottom</inlineHelpText>
+        <label>Vertical Sequence</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__WizardInputGroupId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to the input group that this input control belongs to</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Lookup to the input group that this input control belongs to</inlineHelpText>
+        <label>Wizard Input Group</label>
+        <referenceTo>Apttus__WizardInputGroup__c</referenceTo>
+        <relationshipName>Wizard_Input_Controls</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__WizardRulesetId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to ruleset for input expression</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Lookup to ruleset for input expression</inlineHelpText>
+        <label>Wizard Ruleset</label>
+        <referenceTo>Apttus__WizardRuleset__c</referenceTo>
+        <relationshipName>Wizard_Input_Controls1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__WizardStepId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to the step this input control belongs to</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Lookup to the step this input control belongs to</inlineHelpText>
+        <label>Wizard Step</label>
+        <referenceTo>Apttus__WizardStep__c</referenceTo>
+        <relationshipName>Wizard_Input_Controls</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__WizardStep__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Wizard Step this Input belongs to</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Wizard Step this Input belongs to</inlineHelpText>
+        <label>Wizard Step</label>
+        <referenceTo>Apttus__WizardStep__c</referenceTo>
+        <relationshipName>Input_Controls</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Wizard Input Control (Deprecated)</label>
+    <listViews>
+        <fullName>Apttus__All</fullName>
+        <columns>NAME</columns>
+        <columns>Apttus__ObjectName__c</columns>
+        <columns>Apttus__FieldName__c</columns>
+        <columns>Apttus__Active__c</columns>
+        <columns>Apttus__Required__c</columns>
+        <columns>Apttus__Sequence__c</columns>
+        <columns>Apttus__ContextObject__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Apttus__All1</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Input Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Wizard Input Controls</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Apttus__Question__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__Category__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__Subcategory__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__Keywords__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__Active__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__WizardStepId__c</customTabListAdditionalFields>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Apttus__Question__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__Category__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__Subcategory__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__Keywords__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__Active__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__WizardStepId__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Apttus__Question__c</searchFilterFields>
+        <searchFilterFields>Apttus__Category__c</searchFilterFields>
+        <searchFilterFields>Apttus__Subcategory__c</searchFilterFields>
+        <searchFilterFields>Apttus__Keywords__c</searchFilterFields>
+        <searchFilterFields>Apttus__Description__c</searchFilterFields>
+        <searchFilterFields>Apttus__Active__c</searchFilterFields>
+        <searchFilterFields>Apttus__WizardStepId__c</searchFilterFields>
+        <searchResultsAdditionalFields>Apttus__Category__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__Subcategory__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__Keywords__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__Active__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__Question__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__WizardStepId__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

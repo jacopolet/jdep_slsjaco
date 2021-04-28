@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>A reusable, unique combination of Field Sets and Filter Sets.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Apttus__AccountId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The Account Id associated with this query.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Account Id associated with this query.</inlineHelpText>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Agreement Explorers</relationshipLabel>
+        <relationshipName>AgreementExplorers</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__AgreementId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The agreement Id associated with this query.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The agreement Id associated with this query.</inlineHelpText>
+        <label>Agreement</label>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipLabel>Agreement Explorers</relationshipLabel>
+        <relationshipName>AgreementExplorers</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Category__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Category allows users to search, find, and select explorer records</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Category allows users to search, find, and select explorer records</inlineHelpText>
+        <label>Category</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Default</fullName>
+                    <default>true</default>
+                    <label>Default</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__Context__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The context of the given query.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The context of the given query.</inlineHelpText>
+        <label>Context</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Agreement</fullName>
+                    <default>true</default>
+                    <label>Agreement</label>
+                </value>
+                <value>
+                    <fullName>Agreement By Account(s)</fullName>
+                    <default>false</default>
+                    <label>Agreement By Account(s)</label>
+                </value>
+                <value>
+                    <fullName>Agreement Search</fullName>
+                    <default>false</default>
+                    <label>Agreement Search</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__Criteria__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The query criteria specification</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The query criteria specification</inlineHelpText>
+        <label>Criteria</label>
+        <length>4000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus__Default__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field determines if the query in question is the default query for the given context.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field determines if the query in question is the default query for the given context.</inlineHelpText>
+        <label>Default</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The description of the query.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The description of the query.</inlineHelpText>
+        <label>Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__FieldSet__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A comma separated list of API names of fields to display in the result set for the query</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A comma separated list of API names of fields to display in the result set for the query</inlineHelpText>
+        <label>Result Field Set</label>
+        <length>4000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus__Keywords__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Keywords allow users to search, find, and select explorer records</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Keywords allow users to search, find, and select explorer records</inlineHelpText>
+        <label>Keywords</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Label allows users to search, find, and select explorer records</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Label allows users to search, find, and select explorer records</inlineHelpText>
+        <label>Label</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__Public__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Determines if the query is public or private.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Determines if the query is public or private.</inlineHelpText>
+        <label>Public</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Title__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A forumla field that shows up as a link on the Agreement Explorer tab, which will direct user to the result page once clicked.</description>
+        <externalId>false</externalId>
+        <formula>CASE(Apttus__Context__c,
+  &quot;Agreement&quot;,HYPERLINK(&quot;/apex/Apttus__AgreementExplorerResults?queryId=&quot; &amp; Id &amp; &quot;&amp;context=Agreement&quot;, Name ),
+  &quot;Agreement By Account(s)&quot;, HYPERLINK(&quot;/apex/Apttus__AgreementExplorerResults?queryId=&quot; &amp; Id &amp; &quot;&amp;context= Agreement By Account(s)&quot;, Name ),
+  &quot;Agreement Search&quot;,  HYPERLINK(&quot;/apex/Apttus__AgreementExplorerResults?queryId=&quot; &amp; Id &amp; &quot;&amp;context=Agreement Search&quot;, Name), &quot;&quot;
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>A forumla field that shows up as a link on the Agreement Explorer tab, which will direct user to the result page once clicked.</inlineHelpText>
+        <label>Title</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Agreement Explorer</label>
+    <listViews>
+        <fullName>Apttus__All</fullName>
+        <columns>Apttus__Title__c</columns>
+        <columns>Apttus__Context__c</columns>
+        <columns>Apttus__Category__c</columns>
+        <columns>Apttus__Label__c</columns>
+        <columns>Apttus__Keywords__c</columns>
+        <columns>Apttus__Description__c</columns>
+        <columns>Apttus__Public__c</columns>
+        <columns>Apttus__Default__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Agreement Explorer</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Apttus__Title__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__Context__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__Public__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__Default__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OWNER.ALIAS</customTabListAdditionalFields>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Apttus__Title__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__Context__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__Public__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__Default__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OWNER.ALIAS</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__Title__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__Description__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__Context__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__Public__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__Default__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OWNER.ALIAS</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Apttus__Title__c</searchFilterFields>
+        <searchFilterFields>Apttus__Description__c</searchFilterFields>
+        <searchFilterFields>Apttus__Context__c</searchFilterFields>
+        <searchFilterFields>Apttus__Public__c</searchFilterFields>
+        <searchFilterFields>Apttus__Default__c</searchFilterFields>
+        <searchFilterFields>OWNER.ALIAS</searchFilterFields>
+        <searchResultsAdditionalFields>Apttus__Title__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__Context__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__Public__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__Default__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OWNER.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Apttus__SearchAgreements</fullName>
+        <availability>online</availability>
+        <description>Links to Agreement Explorer Results page using default query using Agreement Search context</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Search Agreements</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/apex/Apttus__AgreementExplorerResults?context=Agreement%20Search</url>
+    </webLinks>
+</CustomObject>

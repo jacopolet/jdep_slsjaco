@@ -1,0 +1,1036 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Used to received Meter Readings that were invalidated by SAP HANA and needs corrective action in Salesforce.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>APTS_BI_Synch_ID__c</fullName>
+        <externalId>true</externalId>
+        <label>BI Synch ID</label>
+        <length>32</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Case_ID__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Case ID</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Meter Reading Data</relationshipLabel>
+        <relationshipName>Meter_Reading_Data</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Corrected_Reading_F__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The corrected reading value for the current or previous counter reading.</inlineHelpText>
+        <label>Corrected Reading(F)</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Corrected_Reading_P__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The corrected reading value for the current or previous counter reading.</inlineHelpText>
+        <label>Corrected Reading(P)</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Corrective_Action__c</fullName>
+        <externalId>false</externalId>
+        <label>Corrective Action</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>Accept as-is</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>Work Order Created</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>Update Previous Value</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>Update Current Value</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Counter_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>APTS_Counter_ID__r.APTS_Counter_Description__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Counter Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Counter_ID__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Counter</label>
+        <referenceTo>APTS_CounterReadingData__c</referenceTo>
+        <relationshipLabel>Meter Reading Data</relationshipLabel>
+        <relationshipName>Meter_Reading_Data</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Counter_Reading_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Counter ID</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Delta_usage_F__c</fullName>
+        <externalId>false</externalId>
+        <label>Delta usage(F)</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Delta_usage_P__c</fullName>
+        <externalId>false</externalId>
+        <label>Delta usage(P)</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Is_Changed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Changed</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Meter_Data_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Meter Data ID</label>
+        <length>28</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_No_Counters_Received__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field is used to indicate that SAP HANA did not receive any counter readings.</description>
+        <externalId>false</externalId>
+        <label>No Counters Received</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Previous_Values_P__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;prev Value 1= (&quot; +TEXT(APTS_Previous_reading_value_1_P__c)+&quot;)&quot;+BR()+ 
+&quot;prev Value 2= (&quot; +TEXT(APTS_Previous_reading_value_2_P__c)+&quot;)&quot;+BR()+ 
+&quot;prev Value 3= (&quot; +TEXT(APTS_Previous_reading_value_3_P__c)+&quot;)&quot;+BR()+ 
+&quot;prev Value 4= (&quot; +TEXT(APTS_Previous_reading_value_4_P__c)+&quot;)&quot;+BR()+ 
+&quot;prev Value 5= (&quot; +TEXT(APTS_Previous_reading_value_5_P__c)+&quot;)&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Previous Values P</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Previous_reading_value_1_F__c</fullName>
+        <externalId>false</externalId>
+        <label>Previous reading value 1(F)</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Previous_reading_value_1_P__c</fullName>
+        <externalId>false</externalId>
+        <label>Previous reading value 1(P)</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Previous_reading_value_2_F__c</fullName>
+        <externalId>false</externalId>
+        <label>Previous reading value 2(F)</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Previous_reading_value_2_P__c</fullName>
+        <externalId>false</externalId>
+        <label>Previous reading value 2(P)</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Previous_reading_value_3_F__c</fullName>
+        <externalId>false</externalId>
+        <label>Previous reading value 3(F)</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Previous_reading_value_3_P__c</fullName>
+        <externalId>false</externalId>
+        <label>Previous reading value 3(P)</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Previous_reading_value_4_F__c</fullName>
+        <externalId>false</externalId>
+        <label>Previous reading value 4(F)</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Previous_reading_value_4_P__c</fullName>
+        <externalId>false</externalId>
+        <label>Previous reading value 4(P)</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Previous_reading_value_5_F__c</fullName>
+        <externalId>false</externalId>
+        <label>Previous reading value 5(F)</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Previous_reading_value_5_P__c</fullName>
+        <externalId>false</externalId>
+        <label>Previous reading value 5(P)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Reading_date__c</fullName>
+        <externalId>false</externalId>
+        <label>Reading date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Reading_value_F__c</fullName>
+        <externalId>false</externalId>
+        <label>Current Reading value(F)</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Reading_value_P__c</fullName>
+        <externalId>false</externalId>
+        <label>Current Reading value(P)</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Reason_code_HANA__c</fullName>
+        <externalId>false</externalId>
+        <label>Reason code (HANA)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>No previous reading</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>OK</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>Reading lower than previous reading</label>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                    <label>Rejected from Physical Asset</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>Value higher than upper limit</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>Value lower than lower limit</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Reason_code_SFDC__c</fullName>
+        <externalId>false</externalId>
+        <label>Reason code (SFDC)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>Contract issue</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>Customer location closed</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>Holiday period</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>Invoice correction</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>Machine in storage</label>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                    <label>Machine movement</label>
+                </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>8</fullName>
+                    <default>false</default>
+                    <label>Technical Issue</label>
+                </value>
+                <value>
+                    <fullName>9</fullName>
+                    <default>false</default>
+                    <label>Typing error by operator</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>In progress</fullName>
+                    <default>false</default>
+                    <label>In progress</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>Requested</fullName>
+                    <default>false</default>
+                    <label>Requested</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Workorder_ID__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Work Order</label>
+        <referenceTo>WorkOrder</referenceTo>
+        <relationshipLabel>Meter Reading Data</relationshipLabel>
+        <relationshipName>Meter_Reading_Data</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APT_Account_ID__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account ID</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Meter Reading Data</relationshipLabel>
+        <relationshipName>Meter_Reading_Data</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DueDateTimeforOperator__c</fullName>
+        <externalId>false</externalId>
+        <label>Due Date/Time for Operator</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Invalidatedbyintervention__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Used by SAP HANA/ Load to indicate to Salesforce to uncheck the Physical Assets&apos; Invalidate Counters&quot;  Checkbox again , to close the loop of &quot;invalidating  counters when they originally were already passed validation in HANA.</description>
+        <externalId>false</externalId>
+        <label>Invalidated by intervention</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PhysicalAsset__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Physical Asset</label>
+        <referenceTo>PhysicalAsset__c</referenceTo>
+        <relationshipLabel>Meter Reading Data</relationshipLabel>
+        <relationshipName>Meter_Reading_Data</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PreviousValuesF__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;prev Value 1= (&quot; +TEXT(APTS_Previous_reading_value_1_F__c)+&quot;)&quot;+BR()+
+&quot;prev Value 2= (&quot; +TEXT(APTS_Previous_reading_value_2_F__c)+&quot;)&quot;+BR()+
+&quot;prev Value 3= (&quot; +TEXT(APTS_Previous_reading_value_3_F__c)+&quot;)&quot;+BR()+
+&quot;prev Value 4= (&quot; +TEXT(APTS_Previous_reading_value_4_F__c)+&quot;)&quot;+BR()+
+&quot;prev Value 5= (&quot; +TEXT(APTS_Previous_reading_value_5_F__c)+&quot;)&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Previous Values F</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Meter Reading Data</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>RECORDTYPE</columns>
+        <columns>PhysicalAsset__c</columns>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>All_meter_readings</fullName>
+        <columns>NAME</columns>
+        <columns>APT_Account_ID__c</columns>
+        <columns>PhysicalAsset__c</columns>
+        <columns>APTS_Counter_ID__c</columns>
+        <columns>APTS_Counter_Description__c</columns>
+        <columns>APTS_Reading_date__c</columns>
+        <columns>APTS_Status__c</columns>
+        <columns>APTS_Reading_value_F__c</columns>
+        <columns>APTS_Reading_value_P__c</columns>
+        <columns>PreviousValuesF__c</columns>
+        <columns>APTS_Previous_Values_P__c</columns>
+        <columns>APTS_Reason_code_HANA__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>APTS_Meter_Reading_Data__c.Meter_Reading_Data</value>
+        </filters>
+        <filters>
+            <field>APTS_Status__c</field>
+            <operation>equals</operation>
+            <value>Completed,In progress,Rejected</value>
+        </filters>
+        <label>All processed meter readings</label>
+    </listViews>
+    <listViews>
+        <fullName>No_Counter_Readings_Received</fullName>
+        <columns>NAME</columns>
+        <columns>APT_Account_ID__c</columns>
+        <columns>PhysicalAsset__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>APTS_Meter_Reading_Data__c.Meter_Reading_Data</value>
+        </filters>
+        <filters>
+            <field>APTS_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed</value>
+        </filters>
+        <filters>
+            <field>APTS_No_Counters_Received__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>No counter readings received</label>
+    </listViews>
+    <listViews>
+        <fullName>To_be_corrected_Meters</fullName>
+        <columns>NAME</columns>
+        <columns>APT_Account_ID__c</columns>
+        <columns>PhysicalAsset__c</columns>
+        <columns>APTS_Counter_ID__c</columns>
+        <columns>APTS_Counter_Description__c</columns>
+        <columns>APTS_Reading_date__c</columns>
+        <columns>APTS_Reading_value_F__c</columns>
+        <columns>APTS_Reading_value_P__c</columns>
+        <columns>PreviousValuesF__c</columns>
+        <columns>APTS_Previous_Values_P__c</columns>
+        <columns>APTS_Reason_code_HANA__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>APTS_Meter_Reading_Data__c.Meter_Reading_Data</value>
+        </filters>
+        <filters>
+            <field>APTS_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed</value>
+        </filters>
+        <filters>
+            <field>APTS_No_Counters_Received__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>To be corrected meters</label>
+    </listViews>
+    <nameField>
+        <displayFormat>CRD-{00000000}</displayFormat>
+        <label>Corrective Meter Number</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Meter Reading Data</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Meter_Reading_Data</fullName>
+        <active>true</active>
+        <label>Meter Reading Data</label>
+        <picklistValues>
+            <picklist>APTS_Corrective_Action__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>APTS_Reason_code_HANA__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>APTS_Reason_code_SFDC__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>APTS_Status__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <massQuickActions>Update_Current_Value</massQuickActions>
+        <massQuickActions>Update_Previous_Value</massQuickActions>
+        <massQuickActions>Accept_As_IS</massQuickActions>
+        <massQuickActions>Create_Corrective_Counter_Reading</massQuickActions>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>TS_AllowedCorrectiveCounterReading</fullName>
+        <active>false</active>
+        <description>You are not allowed to create a correct counter reading job.</description>
+        <errorConditionFormula>$Setup.ValidationRulesSettings__c.MeterReadingValidationRule__c &amp;&amp;
+ISPICKVAL( APTS_Status__c , &quot;Completed&quot;) &amp;&amp;
+ISCHANGED( APTS_Status__c ) &amp;&amp;
+ISCHANGED( APTS_Reason_code_SFDC__c ) &amp;&amp;
+ISPICKVAL(APTS_Reason_code_SFDC__c, &quot;Work Order Created&quot;) &amp;&amp;
+NOT( $Permission.TS_S22 )</errorConditionFormula>
+        <errorMessage>You are not allowed to create a correct counter reading job.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TS_CantCreateCRFUPInactive</fullName>
+        <active>true</active>
+        <description>You cannot create Counter Reading FUP if machine is inactive.</description>
+        <errorConditionFormula>$Setup.ValidationRulesSettings__c.MeterReadingValidationRule__c &amp;&amp; 
+ISPICKVAL( APTS_Status__c , &quot;Completed&quot;) &amp;&amp; 
+ISCHANGED( APTS_Status__c ) &amp;&amp; 
+ISPICKVAL(APTS_Corrective_Action__c, &quot;2&quot;) &amp;&amp; 
+NOT(ISPICKVAL( PhysicalAsset__r.AssetStatus__c, &apos;Activated&apos;))</errorConditionFormula>
+        <errorMessage>You cannot create Counter Reading FUP if machine is inactive.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TS_CantCreateCRFUPNotRequired</fullName>
+        <active>true</active>
+        <description>You cannot create Counter Reading FUP if counter is not required in the machine.</description>
+        <errorConditionFormula>$Setup.ValidationRulesSettings__c.MeterReadingValidationRule__c &amp;&amp; 
+ISPICKVAL( APTS_Status__c , &quot;Completed&quot;) &amp;&amp; 
+ISCHANGED( APTS_Status__c ) &amp;&amp; 
+ISPICKVAL(APTS_Corrective_Action__c, &quot;2&quot;) &amp;&amp; 
+ISPICKVAL(PhysicalAsset__r.CounterReading__c, &apos;No&apos;)</errorConditionFormula>
+        <errorMessage>You cannot create Counter Reading FUP if counter is not required in the machine.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TS_CorrectiveCounterReadingPreConditions</fullName>
+        <active>false</active>
+        <description>You can only create corrective jobs if the machine is related to this record and requires counters and is also not connected.</description>
+        <errorConditionFormula>$Setup.ValidationRulesSettings__c.MeterReadingValidationRule__c &amp;&amp;
+ISPICKVAL( APTS_Status__c , &quot;Completed&quot;) &amp;&amp;
+ISCHANGED( APTS_Status__c ) &amp;&amp;
+ISCHANGED( APTS_Reason_code_SFDC__c ) &amp;&amp;
+ISPICKVAL(APTS_Reason_code_SFDC__c, &quot;Work Order Created&quot;) &amp;&amp;
+OR( 
+ISBLANK( PhysicalAsset__c ),
+ISPICKVAL( PhysicalAsset__r.Connected__c , &quot;Yes&quot;), 
+ISPICKVAL( PhysicalAsset__r.CounterReading__c, &quot;No&quot;))</errorConditionFormula>
+        <errorMessage>You can only create corrective jobs if the machine is related to this record and requires counters and is also not connected.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TS_UnabletoModifiyCompletedMeterReadings</fullName>
+        <active>true</active>
+        <description>You are not allowed to adjust completed meter reading data records.</description>
+        <errorConditionFormula>$Setup.ValidationRulesSettings__c.MeterReadingValidationRule__c = TRUE &amp;&amp;
+ISPICKVAL( APTS_Status__c, &quot;Completed&quot;) &amp;&amp; 
+NOT(ISCHANGED(APTS_Status__c))</errorConditionFormula>
+        <errorMessage>You are not allowed to adjust completed meter reading data records.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Import</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Import</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>alert();</url>
+    </webLinks>
+</CustomObject>

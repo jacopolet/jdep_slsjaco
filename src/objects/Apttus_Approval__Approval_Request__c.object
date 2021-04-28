@@ -1,0 +1,2590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Lightning_Approval_Request</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Designates an approval request created from an approval process</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fieldSets>
+        <fullName>Apttus_Approval__ReviewFieldSet</fullName>
+        <availableFields>
+            <field>Apttus_Approval__Approver_Comments__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Approval__Request_Comments__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>Additional columns for previewing approval requests</description>
+        <displayedFields>
+            <field>Apttus_Approval__Approval_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>ReviewFieldSet</label>
+    </fieldSets>
+    <fields>
+        <fullName>APTS_Agreement_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Apttus_Approval__Related_Agreement__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Agreement Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Related_Credit_Memo__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related Credit Memo</label>
+        <referenceTo>Apttus_Billing__CreditMemo__c</referenceTo>
+        <relationshipLabel>Approval Requests</relationshipLabel>
+        <relationshipName>Approval_Requests</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Related_IncentivePayoutSchedule__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related Incentive Payout Schedule</label>
+        <referenceTo>Apttus_Rebate__IncentivePayoutSchedule__c</referenceTo>
+        <relationshipLabel>Approval Requests</relationshipLabel>
+        <relationshipName>Approval_Requests</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Related_Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related Order</label>
+        <referenceTo>Apttus_Config2__Order__c</referenceTo>
+        <relationshipLabel>Approval Requests</relationshipLabel>
+        <relationshipName>Approval_Requests</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Action_Approve_Id__c</fullName>
+        <defaultValue>&quot;00b70000000xoxK&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Action Approve Id</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Action_Prefix__c</fullName>
+        <deprecated>false</deprecated>
+        <description>DEPRECATED</description>
+        <externalId>false</externalId>
+        <formula>NULL</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>DEPRECATED</inlineHelpText>
+        <label>Approval Action Prefix</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Action_Reassign_Id__c</fullName>
+        <defaultValue>&quot;00b70000000xoxJ&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Action Reassign Id</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Action__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(AND(OR(ISPICKVAL(Apttus_Approval__Approval_Status__c,&quot;Assigned&quot;),ISPICKVAL(Apttus_Approval__Approval_Status__c,&quot;Reassigned&quot;)),OR(OwnerId=$User.Id,Apttus_Approval__PrevAssignedToId__c=$User.Id,CONTAINS(Apttus_Approval__DelegateApproverIds__c, $User.Id),$Profile.Name=&quot;System Administrator&quot;,$Profile.Name=&quot;Apttus Standard User&quot;)),HYPERLINK(&quot;/apex/Apttus_Approval__ApprovalSummaryLaunch?id=&quot;&amp;Id&amp;&quot;&amp;pageMode=reassign&quot;,&quot;Reassign&quot;&amp;BR(),&quot;_top&quot;),NULL)
+&amp;
+IF(AND(OR(ISPICKVAL(Apttus_Approval__Approval_Status__c,&quot;Assigned&quot;),ISPICKVAL(Apttus_Approval__Approval_Status__c,&quot;Reassigned&quot;)),OR(OwnerId=$User.Id,Apttus_Approval__PrevAssignedToId__c=$User.Id,CONTAINS(Apttus_Approval__DelegateApproverIds__c, $User.Id),$Profile.Name=&quot;System Administrator&quot;,$Profile.Name=&quot;Apttus Standard User&quot;)),HYPERLINK(&quot;/apex/Apttus_Approval__ApprovalSummaryLaunch?id=&quot;&amp;Id&amp;&quot;&amp;pageMode=approveReject&quot;,&quot;Approve / Reject&quot;&amp;BR(),&quot;_top&quot;),NULL)
+&amp;
+IF(OR(ISPICKVAL(Apttus_Approval__Approval_Status__c,&quot;Assigned&quot;),ISPICKVAL(Apttus_Approval__Approval_Status__c,&quot;Reassigned&quot;)),HYPERLINK(&quot;/apex/Apttus_Approval__ApprovalSummaryLaunch?id=&quot;&amp;Id&amp;&quot;&amp;pageMode=addComment&quot;,&quot;Add Comment&quot;&amp;BR(),&quot;_top&quot;),NULL)
+&amp;
+IF(AND(Apttus_Approval__CanEscalate__c,OR(ISPICKVAL(Apttus_Approval__Approval_Status__c,&quot;Assigned&quot;),ISPICKVAL(Apttus_Approval__Approval_Status__c ,&quot;Reassigned&quot;)),OR(Apttus_Approval__Initial_Submitter__c=$User.Id,$Profile.Name=&quot;System Administrator&quot;)),HYPERLINK(&quot;/apex/Apttus_Approval__ApprovalRequestEscalate?id=&quot;&amp;Id,&quot;Escalate&quot;,&quot;_top&quot;),NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Approval Action</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ActualApproverName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Actual Approver Name</description>
+        <externalId>false</externalId>
+        <formula>Apttus_Approval__Actual_Approver__r.FirstName &amp; &apos; &apos; &amp; Apttus_Approval__Actual_Approver__r.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Actual Approver Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Actual_Approver__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Actual Approver</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>R00N70000001lyC7EAI</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__AgreementLineItemId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated agreement line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated agreement line item</inlineHelpText>
+        <label>Related Agreement Line Item</label>
+        <referenceTo>Apttus__AgreementLineItem__c</referenceTo>
+        <relationshipLabel>Approval Requests</relationshipLabel>
+        <relationshipName>ApprovalRequests</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ApprovalCount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of approvals required by the approval policy. Only applicable to quorum approval policy.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of approvals required by the approval policy. Only applicable to quorum approval policy.</inlineHelpText>
+        <label>Approval Count</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ApprovalFromEmail__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>True if the request was actioned (approved or rejected) through an email response as opposed to the user interface.</description>
+        <externalId>false</externalId>
+        <label>Approval From Email</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ApprovalPercent__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The percent of approvals required by the approval policy. Only applicable to percent approval policy.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The percent of approvals required by the approval policy. Only applicable to percent approval policy.</inlineHelpText>
+        <label>Approval Percent</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ApprovalPolicy__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The approval policy associated with the rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The approval policy associated with the rule</inlineHelpText>
+        <label>Approval Policy</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Unanimous</fullName>
+                    <default>false</default>
+                    <label>Unanimous</label>
+                </value>
+                <value>
+                    <fullName>Majority</fullName>
+                    <default>false</default>
+                    <label>Majority</label>
+                </value>
+                <value>
+                    <fullName>Percent</fullName>
+                    <default>false</default>
+                    <label>Percent</label>
+                </value>
+                <value>
+                    <fullName>Quorum</fullName>
+                    <default>false</default>
+                    <label>Quorum</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Approval_Process__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Approval Process</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Approval_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Approval Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Submitted</fullName>
+                    <default>false</default>
+                    <label>Not Submitted</label>
+                </value>
+                <value>
+                    <fullName>Notified</fullName>
+                    <default>false</default>
+                    <label>Notified</label>
+                </value>
+                <value>
+                    <fullName>Submitted</fullName>
+                    <default>false</default>
+                    <label>Submitted</label>
+                </value>
+                <value>
+                    <fullName>Assigned</fullName>
+                    <default>false</default>
+                    <label>Assigned</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>Reassigned</fullName>
+                    <default>false</default>
+                    <label>Reassigned</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>On Hold</fullName>
+                    <default>false</default>
+                    <label>On Hold</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Approver_Comments__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Approver Comments</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Assigned_To_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Assigned To Id</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Assigned_To_Link__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF (AND(ISPICKVAL(Apttus_Approval__Assigned_To_Type__c,&quot;Queue&quot;),$User.UITheme == &apos;Theme4d&apos;), HYPERLINK(&quot;/lightning/setup/Queues/page?address=%2Fp%2Fown%2FQueue%2Fd%3Fid%3D&quot;&amp;Apttus_Approval__Assigned_To_Id__c,Apttus_Approval__Assigned_To_Name__c,&quot;_top&quot;), IF (ISPICKVAL(Apttus_Approval__Assigned_To_Type__c,&quot;Queue&quot;), HYPERLINK(&quot;/p/own/Queue/d?id=&quot;&amp;Apttus_Approval__Assigned_To_Id__c&amp;&quot;&amp;setupid=Queues&quot;,Apttus_Approval__Assigned_To_Name__c,&quot;_top&quot;), HYPERLINK(Apttus_Approval__Assigned_To_Id__c,Apttus_Approval__Assigned_To_Name__c,&quot;_top&quot;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Assigned To</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Assigned_To_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Assigned To</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Assigned_To_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Assigned To Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Approval Matrix</fullName>
+                    <default>false</default>
+                    <label>Approval Matrix</label>
+                </value>
+                <value>
+                    <fullName>Rule</fullName>
+                    <default>false</default>
+                    <label>Rule</label>
+                </value>
+                <value>
+                    <fullName>Subprocess</fullName>
+                    <default>false</default>
+                    <label>Subprocess</label>
+                </value>
+                <value>
+                    <fullName>Queue</fullName>
+                    <default>false</default>
+                    <label>Queue</label>
+                </value>
+                <value>
+                    <fullName>Custom Queue</fullName>
+                    <default>false</default>
+                    <label>Custom Queue</label>
+                </value>
+                <value>
+                    <fullName>Role</fullName>
+                    <default>false</default>
+                    <label>Role</label>
+                </value>
+                <value>
+                    <fullName>Custom Role</fullName>
+                    <default>false</default>
+                    <label>Custom Role</label>
+                </value>
+                <value>
+                    <fullName>User</fullName>
+                    <default>false</default>
+                    <label>User</label>
+                </value>
+                <value>
+                    <fullName>Related User</fullName>
+                    <default>false</default>
+                    <label>Related User</label>
+                </value>
+                <value>
+                    <fullName>Custom User</fullName>
+                    <default>false</default>
+                    <label>Custom User</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Assigned_To__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Reassigned To</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>R00N70000001m4PKEAY</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__AutoEscalate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field is set to true if this request should be auto-escalated by the system if it not approved, rejected, or reassigned by the expected completion date.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is set to true if this request should be auto-escalated by the system if it not approved, rejected, or reassigned by the expected completion date.</inlineHelpText>
+        <label>Auto Escalate</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__AutoReapprove__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field is set to true if this request should be auto re-approved by the system.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is set to true if this request should be auto re-approved by the system.</inlineHelpText>
+        <label>Auto Reapprove</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Auto_Complete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the step was auto completed</description>
+        <externalId>false</externalId>
+        <label>Auto Complete</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Backup_From_User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Backup From User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>R00N700000028npvEAA</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__CanEscalate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field is set to true if the request can be escalated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is set to true if the request can be escalated.</inlineHelpText>
+        <label>Can Escalate</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__CarbonCopyAssigneeIds__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Contains a list of user ids that should receive carbon copy notifications along with assigned approvers for a given request.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Contains a list of user ids that should receive carbon copy notifications along with assigned approvers for a given request.</inlineHelpText>
+        <label>Carbon Copy Assignee Ids</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ChildObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the child object</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the child object</inlineHelpText>
+        <label>Child Object Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ChildObjectLink__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The link to the child object</description>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(Apttus_Approval__ChildObjectId__c , &quot;View &quot; &amp; Apttus_Approval__ChildObjectType__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>The link to the child object</inlineHelpText>
+        <label>Child Object Link</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ChildObjectName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The child object name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The child object name</inlineHelpText>
+        <label>Child Object Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ChildObjectRefId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the child object associated with the request</description>
+        <externalId>true</externalId>
+        <inlineHelpText>ID of the child object associated with the request</inlineHelpText>
+        <label>Child Object Reference Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ChildObjectType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The child object type. Only applicable to a child process step.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The child object type. Only applicable to a child process step.</inlineHelpText>
+        <label>Child Object Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ContinuePolicyApprovalOnAReject__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Continue with policy approval even when a step is rejected.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Continue with policy approval even when a step is rejected.</inlineHelpText>
+        <label>Continue Policy Approval on a Reject?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__CriteriaFieldNames__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The list of field names used in the criteria</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The list of field names used in the criteria</inlineHelpText>
+        <label>Criteria Field Names</label>
+        <length>1024</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__DateApproved__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date when the approval request was approved</description>
+        <externalId>false</externalId>
+        <label>Date Approved</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__DateAssigned__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date when the approval request was assigned</description>
+        <externalId>false</externalId>
+        <label>Date Assigned</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__DateCancelled__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date when the approval request was cancelled</description>
+        <externalId>false</externalId>
+        <label>Date Cancelled</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__DateEscalated__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date that the approval request is escalated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date that the approval request is escalated.</inlineHelpText>
+        <label>Date Escalated</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__DateReassigned__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date when the approval request was last reassigned</description>
+        <externalId>false</externalId>
+        <label>Date Reassigned</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__DateRejected__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date when the approval request was rejected</description>
+        <externalId>false</externalId>
+        <label>Date Rejected</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__DelegateApproverIds__c</fullName>
+        <deprecated>false</deprecated>
+        <description>IDs of approvers who were designated as Delegate for the Request Assignee</description>
+        <externalId>false</externalId>
+        <inlineHelpText>IDs of approvers who were designated as Delegate for the Request Assignee</inlineHelpText>
+        <label>Delegate Approvers</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__DelegateApproverNames__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Names of Delegate Approvers</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Names of Delegate Approvers</inlineHelpText>
+        <label>Delegate Approvers (Names)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__DelegateApprover__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Approver who is designated as Delegate for the Request Assignee</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Approver who is designated as Delegate for the Request Assignee</inlineHelpText>
+        <label>Delegate Approver</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Delegate</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__DependsOn__c</fullName>
+        <deprecated>false</deprecated>
+        <description>List of steps which must be completed before this step</description>
+        <externalId>false</externalId>
+        <label>Depends On</label>
+        <length>2048</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__EscalateToChain__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The chain of user ids that this request will get escalated to in the event that it is escalated. This chain is determined when the request is initially submitted and is only applicable to dynamic escalation types.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The chain of user ids that this request will get escalated to in the event that it is escalated. This chain is determined when the request is initially submitted and is only applicable to dynamic escalation types.</inlineHelpText>
+        <label>Escalate To Chain</label>
+        <length>4096</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__EscalateToId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The id of the assignee the request will be escalated to if it is escalated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The id of the assignee the request will be escalated to if it is escalated.</inlineHelpText>
+        <label>Escalate To Id</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__EscalateToName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the assignee the request will be escalated to if it is escalated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the assignee the request will be escalated to if it is escalated.</inlineHelpText>
+        <label>Escalate To Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__EscalateToType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The type of assignee the request will be escalated to if it is escalated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The type of assignee the request will be escalated to if it is escalated.</inlineHelpText>
+        <label>Escalate To Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Backup Admin User</fullName>
+                    <default>false</default>
+                    <label>Backup Admin User</label>
+                </value>
+                <value>
+                    <fullName>Queue</fullName>
+                    <default>false</default>
+                    <label>Queue</label>
+                </value>
+                <value>
+                    <fullName>Related User</fullName>
+                    <default>false</default>
+                    <label>Related User</label>
+                </value>
+                <value>
+                    <fullName>Role</fullName>
+                    <default>false</default>
+                    <label>Role</label>
+                </value>
+                <value>
+                    <fullName>Rule</fullName>
+                    <default>false</default>
+                    <label>Rule</label>
+                </value>
+                <value>
+                    <fullName>User</fullName>
+                    <default>false</default>
+                    <label>User</label>
+                </value>
+                <value>
+                    <fullName>User Approval Matrix Next Approver</fullName>
+                    <default>false</default>
+                    <label>User Approval Matrix Next Approver</label>
+                </value>
+                <value>
+                    <fullName>User Delegated Approver</fullName>
+                    <default>false</default>
+                    <label>User Delegated Approver</label>
+                </value>
+                <value>
+                    <fullName>User Manager</fullName>
+                    <default>false</default>
+                    <label>User Manager</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__EscalatedToHighestLevel__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field is set to true if the request has been escalated to the highest level which is typically the backup admin approver defined in the approvals configuration settings.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is set to true if the request has been escalated to the highest level which is typically the backup admin approver defined in the approvals configuration settings.</inlineHelpText>
+        <label>Escalated To Highest Level</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ExpectedCompletionDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date this approval request is expected to be completed (approved or rejected).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date this approval request is expected to be completed (approved or rejected).</inlineHelpText>
+        <label>Expected Completion Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ExpectedDaysToComplete__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of expected days that this approval request needs to be completed in (approved or rejected).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of expected days that this approval request needs to be completed in (approved or rejected).</inlineHelpText>
+        <label>Expected Days To Complete</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ExpectedHoursToComplete__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of expected hours that this approval request needs to be completed in (approved or rejected).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of expected hours that this approval request needs to be completed in (approved or rejected).</inlineHelpText>
+        <label>Expected Hours To Complete</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ExpectedMinutesToComplete__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of expected minutes that this approval request needs to be completed in (approved or rejected).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of expected minutes that this approval request needs to be completed in (approved or rejected).</inlineHelpText>
+        <label>Expected Minutes To Complete</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Group_Unique_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Group Unique Id</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Group__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Group</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__HasAttachments__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the approval request has one or more attachment(s).</description>
+        <externalId>false</externalId>
+        <label>Has Attachments</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__HasDelegateApprover__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates that the assignee has a delegate approver setup in the system. Delegate Approver will be notified, and, will be permitted to take action on the request.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates that the assignee has a delegate approver setup in the system. Delegate Approver will be notified, and, will be permitted to take action on the request.</inlineHelpText>
+        <label>Has Delegate Approver</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__InEscalation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field is set to true when the request is currently in escalation.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is set to true when the request is currently in escalation.</inlineHelpText>
+        <label>In Escalation</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Initial_Submitter__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Initial Submitter</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>R00N70000001my9pEAA</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Internal_Comments__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Internal Comments</label>
+        <length>10000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__IsAdhocProcess__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether this request is associated with an Adhoc Process</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether this request is associated with an Adhoc Process</inlineHelpText>
+        <label>Is Adhoc Process</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__IsAdhoc__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether this request was created through adhoc process initiated by User.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether this request was created through adhoc process initiated by User.</inlineHelpText>
+        <label>Is Adhoc</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__IsAutoReapprovalEnabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether auto re-approval is enabled for the step.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether auto re-approval is enabled for the step.</inlineHelpText>
+        <label>Is Auto Reapproval Enabled</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__IsSubprocess__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the step represents a subprocess</description>
+        <externalId>false</externalId>
+        <label>Is Subprocess</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Notify_Only__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Designates whether the term exception approver receives a notification only for the approval request (when set to true) or gets the request assigned to them and receives notification as well (false, which is the default).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Designates whether the term exception approver receives a notification only for the approval request (when set to true) or gets the request assigned to them and receives notification as well (false, which is the default).</inlineHelpText>
+        <label>Notify Only</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ObjectRefId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the business object associated with the request</description>
+        <externalId>true</externalId>
+        <inlineHelpText>ID of the business object associated with the request</inlineHelpText>
+        <label>Object Ref Id</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Object_Id_Link__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF( Apttus_Approval__Object_Type__c = &apos;Apttus__Agreement_Term_Exception__c&apos;, HYPERLINK(Apttus_Approval__Object_Id__c , &quot;View Agreement Term Exception&quot;), HYPERLINK(Apttus_Approval__Object_Id__c , &quot;View &quot; &amp; Apttus_Approval__Object_Type__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Object Link</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Object_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Object Id</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Object_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Object Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Object_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Object Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ParentRequestId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the parent approval request. Only applicable for child process steps.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the parent approval request. Only applicable for child process steps.</inlineHelpText>
+        <label>Parent Request</label>
+        <referenceTo>Apttus_Approval__Approval_Request__c</referenceTo>
+        <relationshipLabel>Child Approval Requests</relationshipLabel>
+        <relationshipName>ChildApprovalRequests</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Parent_Agreement__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the parent agreement associated with the approval request. Only valid for agreement term exception related approval requests.</description>
+        <externalId>false</externalId>
+        <label>Parent Agreement</label>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipLabel>Child Approval Requests</relationshipLabel>
+        <relationshipName>Child_Approval_Requests</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__PrevAssignedToId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The id of the assignee the request was previously assigned to</description>
+        <externalId>false</externalId>
+        <label>Prev Assigned To Id</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__PrevAssignedToName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the assignee the request was previously assigned to</description>
+        <externalId>false</externalId>
+        <label>Prev Assigned To</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__PrevAssignedToType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The type of assignee the request was previously assigned to</description>
+        <externalId>false</externalId>
+        <label>Prev Assigned To Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Queue</fullName>
+                    <default>false</default>
+                    <label>Queue</label>
+                </value>
+                <value>
+                    <fullName>Role</fullName>
+                    <default>false</default>
+                    <label>Role</label>
+                </value>
+                <value>
+                    <fullName>User</fullName>
+                    <default>false</default>
+                    <label>User</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ProcessInstanceId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the approval process instance associated with the approval request</description>
+        <externalId>false</externalId>
+        <label>Approval Process Instance</label>
+        <referenceTo>Apttus_Approval__ApprovalProcessInstance__c</referenceTo>
+        <relationshipLabel>Approval Requests</relationshipLabel>
+        <relationshipName>ApprovalRequests</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Rejection_Action__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Rejection Action</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Group Rejection</fullName>
+                    <default>false</default>
+                    <label>Group Rejection</label>
+                </value>
+                <value>
+                    <fullName>Final Rejection</fullName>
+                    <default>false</default>
+                    <label>Final Rejection</label>
+                </value>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+                <value>
+                    <fullName>Group &amp; Final Rejection</fullName>
+                    <default>false</default>
+                    <label>Group &amp; Final Rejection</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Related_Agreement_Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>This field is used to indicate a user who is the agreement owner when the request is for an agreement or agreement term exception.  This value is populated at runtime by the approvals engine when the request is assigned and is used the Approval Request Comments Modified email alert to send additional notifications to the Agreement Owner, Requestor, and Opportunity owner.</description>
+        <externalId>false</externalId>
+        <label>Related Agreement Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Approval_Requests</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Related_Agreement_Requestor__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>This field is used to indicate a user who is the agreement owner when the request is for an agreement or agreement term exception.  This value is populated at runtime by the approvals engine when the request is assigned and is used the Approval Request Comments Modified email alert to send additional notifications to the Agreement Owner, Requestor, and Opportunity owner.</description>
+        <externalId>false</externalId>
+        <label>Related Agreement Requestor</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Approval_Requests2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Related_Agreement_Term_Exception__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Related Agreement Term Exception</label>
+        <referenceTo>Apttus__Agreement_Term_Exception__c</referenceTo>
+        <relationshipLabel>Approvals</relationshipLabel>
+        <relationshipName>R00N70000002CXCIEA4</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Related_Agreement__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Related Agreement</label>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipLabel>Approvals</relationshipLabel>
+        <relationshipName>R00N70000001lyBVEAY</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Related_Opportunity_Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>This field is used to indicate a user who is the agreement owner when the request is for an agreement or agreement term exception.  This value is populated at runtime by the approvals engine when the request is assigned and is used the Approval Request Comments Modified email alert to send additional notifications to the Agreement Owner, Requestor, and Opportunity owner.</description>
+        <externalId>false</externalId>
+        <label>Related Opportunity Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Approval_Requests3</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Related_Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Related Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Approvals</relationshipLabel>
+        <relationshipName>R00N70000001lyBlEAI</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__RequestType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The approval request type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The approval request type</inlineHelpText>
+        <label>Request Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Standard</fullName>
+                    <default>false</default>
+                    <label>Standard</label>
+                </value>
+                <value>
+                    <fullName>Subprocess</fullName>
+                    <default>false</default>
+                    <label>Subprocess</label>
+                </value>
+                <value>
+                    <fullName>Child Process</fullName>
+                    <default>false</default>
+                    <label>Child Process</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Request_Comments__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Approval Details</label>
+        <length>5000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__SendReminders__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Send Reminders</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Send_Email__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Send Email</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__SequenceString__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>LPAD(Apttus_Approval__Sequence__c, 5, &apos;0&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Sub-Sequence String</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Sequence__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Sub-Sequence</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Status_Link__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(Id,
+CASE(Apttus_Approval__Approval_Status__c,
+&quot;Not Submitted&quot;,&quot;Not Submitted&quot;,
+&quot;Notified&quot;,&quot;Notified&quot;,
+&quot;Submitted&quot;,&quot;Submitted&quot;,
+&quot;Assigned&quot;,&quot;Assigned&quot;,
+&quot;Reassigned&quot;,&quot;Reassigned&quot;,
+&quot;Approved&quot;,&quot;Approved&quot;,
+&quot;Rejected&quot;,&quot;Rejected&quot;,
+&quot;Cancelled&quot;,&quot;Cancelled&quot;,
+&quot;On Hold&quot;,&quot;On Hold&quot;, 
+&quot;None&quot;),
+&quot;_top&quot;
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__StepLabel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The step label</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The step label</inlineHelpText>
+        <label>Step Label</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__StepNameLink__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF (OR(ISPICKVAL(Apttus_Approval__Approval_Status__c ,&quot;Assigned&quot;),ISPICKVAL(Apttus_Approval__Approval_Status__c ,&quot;Reassigned&quot;)), HYPERLINK(&quot;/apex/Apttus_Approval__ApprovalSummaryLaunch?Id=&quot;&amp;Id&amp;&quot;&amp;pageMode=approveReject&quot;, Apttus_Approval__Step_Name__c, &quot;_top&quot;), Apttus_Approval__Step_Name__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Step</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__StepSequenceString__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Sequence with trailing zeros suppressed</description>
+        <externalId>false</externalId>
+        <formula>IF(FIND(&apos;.&apos;, TEXT(Apttus_Approval__StepSequence__c)) = 2, LEFT(TEXT(Apttus_Approval__StepSequence__c), FIND(&apos;.&apos;, TEXT(Apttus_Approval__StepSequence__c))) + TEXT(VALUE(RIGHT(RPAD(TEXT(Apttus_Approval__StepSequence__c), 5, &apos;0&apos;), 3))), LEFT(TEXT(Apttus_Approval__StepSequence__c), FIND(&apos;.&apos;, TEXT(Apttus_Approval__StepSequence__c))) + TEXT(VALUE(RIGHT(RPAD(TEXT(Apttus_Approval__StepSequence__c), 6, &apos;0&apos;), 3))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Sequence with trailing zeros suppressed</inlineHelpText>
+        <label>Sequence</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__StepSequence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The step execution sequence</description>
+        <externalId>false</externalId>
+        <label>Sequence</label>
+        <precision>11</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Step_Group_Seq_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Step Group Seq Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Step_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The step name</description>
+        <externalId>false</externalId>
+        <label>Step Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Step__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Step Definition Reference</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__SubmissionComment1__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A comment entered by the submitter when the request was submitted that can be either a process or step level comment.  The comment label is specified by the &quot;Submission Comment 1 Label&quot; field in the related approval process definition.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A comment entered by the submitter when the request was submitted that can be either a process or step level comment.  The comment label is specified by the &quot;Submission Comment 1 Label&quot; field in the related approval process definition.</inlineHelpText>
+        <label>Submission Comment 1</label>
+        <length>4096</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__SubmissionComment2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A second comment entered by the submitter when the request was submitted.  The comment label is specified by the &quot;Submission Comment 2 Label&quot; field in the related approval process definition.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A second comment entered by the submitter when the request was submitted.  The comment label is specified by the &quot;Submission Comment 2 Label&quot; field in the related approval process definition.</inlineHelpText>
+        <label>Submission Comment 2</label>
+        <length>4096</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__SubmissionComment3__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A third comment entered by the submitter when the request was submitted.  The comment label is specified by the &quot;Submission Comment 3 Label&quot; field in the related approval process definition.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A third comment entered by the submitter when the request was submitted.  The comment label is specified by the &quot;Submission Comment 3 Label&quot; field in the related approval process definition.</inlineHelpText>
+        <label>Submission Comment 3</label>
+        <length>4096</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__SubprocessDependsOn__c</fullName>
+        <deprecated>false</deprecated>
+        <description>List of sub processes (belonging to the same step) which must be completed before this sub process. The list contains a comma separated subprocess sequence numbers</description>
+        <externalId>false</externalId>
+        <label>Subprocess Depends On</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__SubprocessName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the subprocess the step is associated with</description>
+        <externalId>false</externalId>
+        <label>Subprocess Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__SubprocessSequence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The subprocess execution sequence</description>
+        <externalId>false</externalId>
+        <label>Subprocess Sequence</label>
+        <precision>11</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__SubstepDependsOn__c</fullName>
+        <deprecated>false</deprecated>
+        <description>List of sub steps (belonging to the same subprocess) which must be completed before this substep. The list contains a comma separated substep sequence numbers</description>
+        <externalId>false</externalId>
+        <label>Substep Depends On</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__SubstepName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the substep associated with the subprocess.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the substep associated with the subprocess.</inlineHelpText>
+        <label>Substep Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__SubstepSequence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The substep execution sequence within a subprocess</description>
+        <externalId>false</externalId>
+        <label>Substep Sequence</label>
+        <precision>11</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__Workflow_Trigger_Added_Comments__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Flag that gets set by the ApprovalAction visualforce page when comments are added to an approval request without actually approving or rejecting the request. This flag then becomes the trigger for workflow rules that get fired to send a notification to parties that comments have been entered for the request.</description>
+        <externalId>false</externalId>
+        <label>Workflow Trigger Added Comments</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CQApprov__CartId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated cart</description>
+        <externalId>false</externalId>
+        <label>Related Cart</label>
+        <referenceTo>Apttus_Config2__ProductConfiguration__c</referenceTo>
+        <relationshipLabel>Approval Requests</relationshipLabel>
+        <relationshipName>Approval_Requests</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CQApprov__CartLineItemId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated cart line item</description>
+        <externalId>false</externalId>
+        <label>Related Cart Line Item</label>
+        <referenceTo>Apttus_Config2__LineItem__c</referenceTo>
+        <relationshipLabel>Approval Requests</relationshipLabel>
+        <relationshipName>Approval_Requests</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CQApprov__CartOwnerId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated cart owner</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated cart owner</inlineHelpText>
+        <label>Related Cart Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Approval_Requests6</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPApprov__ProposalId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated quote/proposal</description>
+        <externalId>false</externalId>
+        <label>Related Quote/Proposal</label>
+        <referenceTo>Apttus_Proposal__Proposal__c</referenceTo>
+        <relationshipLabel>Approval Requests</relationshipLabel>
+        <relationshipName>ApprovalRequests</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPApprov__ProposalLineItemId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated quote/proposal line item</description>
+        <externalId>false</externalId>
+        <label>Related Quote/Proposal Line Item</label>
+        <referenceTo>Apttus_Proposal__Proposal_Line_Item__c</referenceTo>
+        <relationshipLabel>Approval Requests</relationshipLabel>
+        <relationshipName>ApprovalRequests</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPApprov__ProposalOwnerId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated quote/proposal owner</description>
+        <externalId>false</externalId>
+        <label>Related Quote/Proposal Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Approval_Requests4</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Approval Request</label>
+    <listViews>
+        <fullName>Apttus_Approval__AllApprovals</fullName>
+        <columns>NAME</columns>
+        <columns>Apttus_Approval__Action__c</columns>
+        <columns>Apttus_Approval__Approval_Status__c</columns>
+        <columns>Apttus_Approval__Date__c</columns>
+        <columns>Apttus_Approval__Assigned_To_Name__c</columns>
+        <columns>Apttus_Approval__Object_Type__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Approvals</label>
+    </listViews>
+    <listViews>
+        <fullName>Apttus_Approval__MyApprovals</fullName>
+        <columns>NAME</columns>
+        <columns>Apttus_Approval__Action__c</columns>
+        <columns>Apttus_Approval__Approval_Status__c</columns>
+        <columns>Apttus_Approval__Date__c</columns>
+        <columns>Apttus_Approval__Assigned_To_Name__c</columns>
+        <columns>Apttus_Approval__Object_Type__c</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Approvals</label>
+    </listViews>
+    <listViews>
+        <fullName>BE_Credit_Note_1000_to_5000_Approval_Request</fullName>
+        <filterScope>Queue</filterScope>
+        <label>BE - Credit Note - 1000 to 5000</label>
+        <queue>BE_Credit_Note_1000_to_5000</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>BE_Credit_Note_250_to_1000_Approval_Request</fullName>
+        <filterScope>Queue</filterScope>
+        <label>BE - Credit Note - 250 to 1000</label>
+        <queue>BE_Credit_Note_250_to_1000</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>BE_Credit_Note_5000_Approval_Request</fullName>
+        <filterScope>Queue</filterScope>
+        <label>BE - Credit Note &gt; 5000</label>
+        <queue>BE_Credit_Note_5000</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>DE_Credit_Note_1000_to_2000_Approval_Request</fullName>
+        <filterScope>Queue</filterScope>
+        <label>DE - Credit Note - 1000 to 2000</label>
+        <queue>DE_Credit_Note_1000_to_2000</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>DK_Credit_Note_5000_to_7500_Approval_Request</fullName>
+        <filterScope>Queue</filterScope>
+        <label>DK - Credit Note - 5000 to 7500</label>
+        <queue>DK_Credit_Note_5000_to_7500</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>DK_Credit_Note_7500_to_10000_Approval_Request</fullName>
+        <filterScope>Queue</filterScope>
+        <label>DK - Credit Note - 7500 to 10000</label>
+        <queue>DK_Credit_Note_7500_to_10000</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>ES_Credit_Not_2500_to_5000_Approval_Request</fullName>
+        <filterScope>Queue</filterScope>
+        <label>ES - Credit Not - 2500 To 5000</label>
+        <queue>ES_Credit_Not_2500_to_5000</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>NL_Credit_Note_5000_To_25000_Approval_Request</fullName>
+        <filterScope>Queue</filterScope>
+        <label>NL - Credit Note - 5000 to 25000</label>
+        <queue>NL_Credit_Note_5000_To_25000</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>SE_Credit_Note_5000_Approval_Request</fullName>
+        <filterScope>Queue</filterScope>
+        <label>SE - Credit Note - 5000</label>
+        <queue>SE_Credit_Note_5000</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <displayFormat>{0000000}</displayFormat>
+        <label>Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Approval Requests</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Apttus_Approval__Agreement</fullName>
+        <active>true</active>
+        <description>Agreement</description>
+        <label>Agreement</label>
+        <picklistValues>
+            <picklist>Apttus_Approval__ApprovalPolicy__c</picklist>
+            <values>
+                <fullName>Majority</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Percent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quorum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unanimous</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_Approval__Approval_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Assigned</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Notified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>On Hold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reassigned</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_Approval__Assigned_To_Type__c</picklist>
+            <values>
+                <fullName>Queue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Role</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_Approval__EscalateToType__c</picklist>
+            <values>
+                <fullName>Backup Admin User</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Queue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Related User</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Role</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User Approval Matrix Next Approver</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User Delegated Approver</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User Manager</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_Approval__PrevAssignedToType__c</picklist>
+            <values>
+                <fullName>Queue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Role</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_Approval__Rejection_Action__c</picklist>
+            <values>
+                <fullName>Final Rejection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Group %26 Final Rejection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Group Rejection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_Approval__RequestType__c</picklist>
+            <values>
+                <fullName>Child Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Standard</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Subprocess</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Apttus_Approval__Sequence__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Approval__Action__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Approval__Status_Link__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Approval__Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Approval__Assigned_To_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Approval__Request_Comments__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Approval__Actual_Approver__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Approval__Approver_Comments__c</customTabListAdditionalFields>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Apttus_Approval__Sequence__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Approval__Action__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Approval__Status_Link__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Approval__Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Approval__Assigned_To_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Approval__Request_Comments__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Approval__Actual_Approver__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Approval__Approver_Comments__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Approval__Sequence__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Approval__Action__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Approval__Status_Link__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Approval__Date__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Approval__Assigned_To_Name__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Approval__Request_Comments__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Approval__Actual_Approver__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Approval__Approver_Comments__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>Apttus_Approval__Sequence__c</searchFilterFields>
+        <searchFilterFields>Apttus_Approval__Action__c</searchFilterFields>
+        <searchFilterFields>Apttus_Approval__Status_Link__c</searchFilterFields>
+        <searchFilterFields>Apttus_Approval__Date__c</searchFilterFields>
+        <searchFilterFields>Apttus_Approval__Assigned_To_Name__c</searchFilterFields>
+        <searchFilterFields>Apttus_Approval__Actual_Approver__c</searchFilterFields>
+        <searchResultsAdditionalFields>Apttus_Approval__Sequence__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Approval__Action__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Approval__Status_Link__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Approval__Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Approval__Assigned_To_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Approval__Request_Comments__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Approval__Actual_Approver__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Approval__Approver_Comments__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Apttus_Approval__ApproveReject</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>sControl</linkType>
+        <masterLabel>Approve / Reject (Deprecated)</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <scontrol>Apttus_Approval__aptsApprovalRequestAction</scontrol>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Approval__ApproveRejectLink</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Approve / Reject (Deprecated)</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>apex/Apttus_Approval__ApprovalRequestAction?requestId={!Apttus_Approval__Approval_Request__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Approval__Cancel</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Cancel</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/apex/Apttus_Approval__ApprovalContextCancel?sObjectType=Opportunity&amp;sObjectId={!Opportunity.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Approval__CancelAgreementApprovals</fullName>
+        <availability>online</availability>
+        <description>Cancel agreement approvals</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Cancel Agreement Approvals</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/apex/Apttus_Approval__ApprovalContextCancel?sObjectType=Apttus__APTS_Agreement__c&amp;sObjectId={!Apttus__APTS_Agreement__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Approval__CancelAgreementLineItemApprovals</fullName>
+        <availability>online</availability>
+        <description>Cancel Agreement Line Item Approvals</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Cancel Agreement LineItem Approvals</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/apex/Apttus_Approval__ApprovalContextCancel?sObjectType=Apttus__AgreementLineItem__c&amp;sObjectId={!Apttus__AgreementLineItem__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Approval__Delete</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>sControl</linkType>
+        <masterLabel>Reset (Dev) (Deprecated)</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <scontrol>Apttus_Approval__aptsApprovalRequestDelete</scontrol>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Approval__DeleteAll</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>sControl</linkType>
+        <masterLabel>Reset All (Dev) (Deprecated)</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <scontrol>Apttus_Approval__aptsApprovalRequestDeleteAll</scontrol>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Approval__Preview</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Preview</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/apex/Apttus_Approval__ApprovalContextPreview?sObjectType=Opportunity&amp;sObjectId={!Opportunity.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Approval__PreviewAgreementApprovals</fullName>
+        <availability>online</availability>
+        <description>Preview agreement approvals</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Preview Agreement Approvals</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/apex/Apttus_Approval__ApprovalContextPreview?sObjectType=Apttus__APTS_Agreement__c&amp;sObjectId={!Apttus__APTS_Agreement__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Approval__PreviewAgreementLineItemApprovals</fullName>
+        <availability>online</availability>
+        <description>Preview Agreement Line Item Approvals</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Preview Agreement LineItem Approvals</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/apex/Apttus_Approval__ApprovalContextPreview?sObjectType=Apttus__AgreementLineItem__c&amp;sObjectId={!Apttus__AgreementLineItem__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Approval__Reassign</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <height>600</height>
+        <linkType>sControl</linkType>
+        <masterLabel>Reassign (Deprecated)</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <scontrol>Apttus_Approval__aptsApprovalRequestReassign</scontrol>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Approval__Submit</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Submit</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/apex/Apttus_Approval__ApprovalContextSubmit?sObjectType=Opportunity&amp;sObjectId={!Opportunity.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Approval__SubmitAgreementApprovals</fullName>
+        <availability>online</availability>
+        <description>Submit agreement approvals</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Submit Agreement Approvals</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/apex/Apttus_Approval__ApprovalContextSubmit?sObjectType=Apttus__APTS_Agreement__c&amp;sObjectId={!Apttus__APTS_Agreement__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Approval__SubmitAgreementApprovalsWithAttachments</fullName>
+        <availability>online</availability>
+        <description>Submit Agreement Approvals with attachments</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Submit Agreement Approvals (With Attachments)</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/apex/Apttus_Approval__ApprovalContextSubmit?sObjectType=Apttus__APTS_Agreement__c&amp;sObjectId={!Apttus__APTS_Agreement__c.Id}&amp;enableAttachments=true</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Approval__SubmitAgreementLineItemApprovals</fullName>
+        <availability>online</availability>
+        <description>Submit Agreement Line Item Approvals</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Submit Agreement LineItem Approvals</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/apex/Apttus_Approval__ApprovalContextSubmit?sObjectType=Apttus__AgreementLineItem__c&amp;sObjectId={!Apttus__AgreementLineItem__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Approval__sf1AddComment</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>page</linkType>
+        <masterLabel>Add Comment</masterLabel>
+        <openType>replace</openType>
+        <page>Apttus_Approval__ApprovalSummaryLaunchAddCommentSf1</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Approval__sf1ApproveReject</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>page</linkType>
+        <masterLabel>Approve / Reject</masterLabel>
+        <openType>replace</openType>
+        <page>Apttus_Approval__ApprovalSummaryLaunchApproveRejectSf1</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Approval__sf1Reassign</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>page</linkType>
+        <masterLabel>Reassign</masterLabel>
+        <openType>replace</openType>
+        <page>Apttus_Approval__ApprovalSummaryLaunchReassignSf1</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_QPApprov__CancelQuoteApprovals</fullName>
+        <availability>online</availability>
+        <description>Cancel Quote/Proposal Approvals</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Cancel Quote/Proposal Approvals</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/apex/Apttus_Approval__ApprovalContextCancel?sObjectType=Apttus_Proposal__Proposal__c&amp;sObjectId={!Apttus_Proposal__Proposal__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_QPApprov__CancelQuoteLineItemApprovals</fullName>
+        <availability>online</availability>
+        <description>Cancel Quote/Proposal Line Item Approvals</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Cancel Quote LineItem Approvals</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/apex/Apttus_Approval__ApprovalContextCancel?sObjectType=Apttus_Proposal__Proposal_Line_Item__c&amp;sObjectId={!Apttus_Proposal__Proposal_Line_Item__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_QPApprov__PreviewQuoteApprovals</fullName>
+        <availability>online</availability>
+        <description>Preview Quote/Proposal Approvals</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Preview Quote/Proposal Approvals</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/apex/Apttus_Approval__ApprovalContextPreview?sObjectType=Apttus_Proposal__Proposal__c&amp;sObjectId={!Apttus_Proposal__Proposal__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_QPApprov__PreviewQuoteLineItemApprovals</fullName>
+        <availability>online</availability>
+        <description>Preview Quote/Proposal Line Item Approvals</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Preview Quote LineItem Approvals</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/apex/Apttus_Approval__ApprovalContextPreview?sObjectType=Apttus_Proposal__Proposal_Line_Item__c&amp;sObjectId={!Apttus_Proposal__Proposal_Line_Item__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_QPApprov__SubmitQuoteApprovals</fullName>
+        <availability>online</availability>
+        <description>Submit Quote/Proposal Approvals</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Submit Quote/Proposal Approvals</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/apex/Apttus_Approval__ApprovalContextSubmit?sObjectType=Apttus_Proposal__Proposal__c&amp;sObjectId={!Apttus_Proposal__Proposal__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_QPApprov__SubmitQuoteApprovalsWithAttachments</fullName>
+        <availability>online</availability>
+        <description>Submit Quote/Proposal Approvals With Attachments</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Submit Quote/Proposal Approvals (With Attachments)</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/apex/Apttus_Approval__ApprovalContextSubmit?sObjectType=Apttus_Proposal__Proposal__c&amp;sObjectId={!Apttus_Proposal__Proposal__c.Id}&amp;enableAttachments=true</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_QPApprov__SubmitQuoteLineItemApprovals</fullName>
+        <availability>online</availability>
+        <description>Submit Quote/Proposal Line Item Approvals</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Submit Quote LineItem Approvals</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/apex/Apttus_Approval__ApprovalContextSubmit?sObjectType=Apttus_Proposal__Proposal_Line_Item__c&amp;sObjectId={!Apttus_Proposal__Proposal_Line_Item__c.Id}</url>
+    </webLinks>
+</CustomObject>

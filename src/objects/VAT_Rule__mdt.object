@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Indicate the VAT Registrations Number&apos;s check rule for each country ISO. Create new fields if new countries will be added.
+
+Check Rule Number and strictness
+1 - Maximum value length, without gaps
+3 - Length to be kept exact, without gaps</description>
+    <fields>
+        <fullName>Rule__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Rule</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>VAT Rule</label>
+    <pluralLabel>VAT Rules</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

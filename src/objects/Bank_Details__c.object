@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Bank_Detail_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Bank_Detail_Record_Page1</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fieldSets>
+        <fullName>SAP_Bank_Detail_Field_Set</fullName>
+        <description>Integration Log creation</description>
+        <displayedFields>
+            <field>Updated_Bank_Account__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Updated_Bank_Country__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Updated_Bank_Key__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Updated_Collection_Authorizations__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Updated_Control_Key__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Updated_IBAN__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>SAP Bank Detail Field Set</label>
+    </fieldSets>
+    <fields>
+        <fullName>Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Bank Details</relationshipLabel>
+        <relationshipName>Bank_Details</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Approval_Bank_Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Approval Bank Account</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Approval_Bank_Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Approval Bank Country</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>PKL_BankCountry</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Approval_Bank_Key__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Approval Bank Key</label>
+        <referenceTo>Bank_Key__c</referenceTo>
+        <relationshipLabel>Bank Details (Approval Bank Key)</relationshipLabel>
+        <relationshipName>Bank_Details2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Approval_Collection_Authorization__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Approval Collection Authorization</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Approval_Control_Key__c</fullName>
+        <externalId>false</externalId>
+        <label>Approval Control Key</label>
+        <length>2</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Approval_IBAN__c</fullName>
+        <externalId>false</externalId>
+        <label>Approval IBAN</label>
+        <length>34</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Approval_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Approval Required</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Approval_Submitter__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Approval Submitter</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Bank_Details1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Bank_Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Bank Account</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bank_Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Bank Country</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>PKL_BankCountry</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Bank_Key__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Bank Key</label>
+        <referenceTo>Bank_Key__c</referenceTo>
+        <relationshipLabel>Bank Details</relationshipLabel>
+        <relationshipName>Bank_Details</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Collection_Authorization_Formula__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Collection_authorization__c = true, &quot;Yes&quot;, &quot;No&quot;)</formula>
+        <label>Collection Authorization Formula</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Collection_authorization__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Collection authorization</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Control_Key__c</fullName>
+        <externalId>false</externalId>
+        <label>Control Key</label>
+        <length>2</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Conversion_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>Conversion ID</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Exclude_Weekends__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE( 
+MOD( Sent_for_Approval_Date__c - DATE( 1900, 1, 7 ), 7 ), 
+3, Sent_for_Approval_Date__c + 2 + 3, 
+4, Sent_for_Approval_Date__c + 2 + 3, 
+5, Sent_for_Approval_Date__c + 2 + 3, 
+6, Sent_for_Approval_Date__c + 1 + 3, 
+Sent_for_Approval_Date__c + 3 
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Exclude Weekends</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>External_ID_SAP__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Account__r.Id) &amp; 
+IF(ISBLANK(TEXT(Updated_Bank_Country__c)), TEXT(Bank_Country__c), TEXT(Updated_Bank_Country__c)) &amp; 
+IF(ISBLANK(Updated_Bank_Key__c),  Bank_Key__r.Bank_Number__c , Updated_Bank_Key__r.Bank_Number__c ) &amp; 
+IF(ISBLANK(Updated_Bank_Account__c), Bank_Account__c, Updated_Bank_Account__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>External ID SAP</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>External_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>External ID</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Finance_Controller_BD_Validation_2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Finance Controller BD Validation 2</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Bank_Details</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Finance_Controller_BD_Validation__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Finance Controller BD Validation</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Bank_Detail</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>IBAN__c</fullName>
+        <externalId>false</externalId>
+        <label>IBAN</label>
+        <length>34</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LinkToRecord__c</fullName>
+        <externalId>false</externalId>
+        <label>LinkToRecord</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Rebate_Payout__c</fullName>
+        <externalId>false</externalId>
+        <label>Rebate Payout</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>REB</fullName>
+                    <default>false</default>
+                    <label>REB</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Reject_to_Transfer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Reject to Transfer</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SAP_PO_Updated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>SAP PO Updated?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Organization__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Account__r.Sales_Organization__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Sales Organization</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sent_for_Approval_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Sent for Approval Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Updated_Bank_Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Updated Bank Account</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Updated_Bank_Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Updated Bank Country</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>PKL_BankCountry</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Updated_Bank_Key__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Updated Bank Key</label>
+        <referenceTo>Bank_Key__c</referenceTo>
+        <relationshipLabel>Bank Details (Updated Bank Key)</relationshipLabel>
+        <relationshipName>Bank_Details1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Updated_Collection_Authorization_Formula__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Updated_Collection_Authorization__c = true, &quot;Yes&quot;, &quot;No&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Updated Collection Authorization Formula</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Updated_Collection_Authorization__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Updated Collection Authorization</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Updated_Collection_Authorizations__c</fullName>
+        <externalId>false</externalId>
+        <label>Updated Collection Authorization</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Updated_Control_Key__c</fullName>
+        <externalId>false</externalId>
+        <label>Updated Control Key</label>
+        <length>2</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Updated_IBAN__c</fullName>
+        <externalId>false</externalId>
+        <label>Updated IBAN</label>
+        <length>34</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Updated_Request_Validation__c</fullName>
+        <externalId>false</externalId>
+        <label>Update Request Validation</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>PKL_RequestValidation</valueSetName>
+        </valueSet>
+    </fields>
+    <label>Bank Detail</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Bank_Account__c</columns>
+        <columns>Bank_Country__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>BD{0000000000}</displayFormat>
+        <label>Bank Details ID</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Bank Details</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>IBAN__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Bank_Account__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>IBAN__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Bank_Country__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Bank_Key__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Collection_authorization__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Rebate_Payout__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Bank_Account__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IBAN__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Bank_Country__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Bank_Key__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Collection_authorization__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Rebate_Payout__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Bank_account_and_Bank_Key</fullName>
+        <active>true</active>
+        <description>Bank Key and bank account are dependent to each other</description>
+        <errorConditionFormula>AND(
+		$Setup.ValidationRulesSettings__c.BankDetailValidationRule__c, ISNEW(), 
+		OR(
+			AND(ISBLANK(Approval_Bank_Account__c), 
+			   OR(NOT(ISBLANK( Approval_Bank_Key__c )) || NOT(ISBLANK( Bank_Key__c)))
+			), 
+			AND(ISBLANK(Approval_Bank_Key__c), 
+			   OR(NOT(ISBLANK(Bank_Account__c)), NOT(ISBLANK( Approval_Bank_Account__c)))
+			)
+		)
+	)</errorConditionFormula>
+        <errorMessage>Please fill in both Bank Account and Bank Key</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Creation_Not_Allowed_on_Prospect</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ $Setup.ValidationRulesSettings__c.BankDetailValidationRule__c, 
+ ISNEW(),
+  ISBLANK(Account__r.SAP_Customer_ID__c)
+)</errorConditionFormula>
+        <errorMessage>You can only create bank details on Accounts which have a valid SAP Customer ID. Please try again after promoting the Account to SAP.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>IBAN</fullName>
+        <active>true</active>
+        <description>IBAN is mandatory if bank key and bank account not filled in</description>
+        <errorConditionFormula>AND( 
+$Setup.ValidationRulesSettings__c.BankDetailValidationRule__c, ISNEW(), ISBLANK(Approval_IBAN__c), ISBLANK(Approval_Bank_Account__c), ISBLANK(Approval_Bank_Key__c)
+)</errorConditionFormula>
+        <errorMessage>Please fill in IBAN or Bank Key and Bank Account</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Pending_Approval</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND($Setup.ValidationRulesSettings__c.BankDetailValidationRule__c, 
+OR( AND(NOT(ISBLANK( PRIORVALUE(Approval_Bank_Account__c))), ISCHANGED(Approval_Bank_Account__c)), 
+    AND(NOT(ISBLANK( PRIORVALUE(Approval_Bank_Country__c))),ISCHANGED(Approval_Bank_Country__c)), 
+    AND(NOT(ISBLANK( PRIORVALUE(Approval_Bank_Key__c))),ISCHANGED(Approval_Bank_Key__c)), 
+    AND(PRIORVALUE(Approval_Collection_Authorization__c) == true, Approval_Collection_Authorization__c= false), 
+    AND(NOT(ISBLANK( PRIORVALUE(Approval_Control_Key__c))),ISCHANGED(Approval_Control_Key__c)),
+    AND(NOT(ISBLANK( PRIORVALUE(Approval_IBAN__c))),ISCHANGED(Approval_IBAN__c))
+), 
+ISPICKVAL(Updated_Request_Validation__c , &apos;Approval Pending&apos;))</errorConditionFormula>
+        <errorMessage>An Approval is already in progress. Please do not request for a change. If needed recall existing approval</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SapValidationInProgress</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ $Setup.ValidationRulesSettings__c.AccountValidationRules__c, $Profile.Name &lt;&gt; $Label.JDE_Integ_Sap, 
+ ISPICKVAL(Updated_Request_Validation__c, &quot;Approval Validated&quot;),
+OR(
+NOT(ISBLANK(Updated_Bank_Account__c)),
+NOT(ISPICKVAL(Updated_Bank_Country__c, &quot;&quot;)),
+NOT(ISBLANK(Updated_Control_Key__c)),
+NOT(ISBLANK(Updated_Bank_Key__c))
+)
+)</errorConditionFormula>
+        <errorMessage>There is currently a SAP validation in progress!</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

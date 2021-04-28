@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents a single rule in an deal guidance ruleset</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fieldSets>
+        <fullName>Apttus_DealMgr__RuleFieldSet</fullName>
+        <description>DealGuidanceRule</description>
+        <label>Rule Custom Fields</label>
+    </fieldSets>
+    <fields>
+        <fullName>APTS_Ext_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>APTS Ext ID</label>
+        <length>60</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_DealMgr__AccountScope__c</fullName>
+        <deprecated>false</deprecated>
+        <description>One or more accounts associated with the rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>One or more accounts associated with the rule</inlineHelpText>
+        <label>Account Scope</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All</fullName>
+                    <default>true</default>
+                    <label>All</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_DealMgr__Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the rule is active</description>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_DealMgr__BusinessObject__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The business object which provides the context for the rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The business object which provides the context for the rule</inlineHelpText>
+        <label>Business Object</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Apttus_DealMgr__GuidanceType__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Opportunity</fullName>
+                    <default>false</default>
+                    <label>Opportunity</label>
+                </value>
+                <value>
+                    <fullName>Apttus__APTS_Agreement__c</fullName>
+                    <default>false</default>
+                    <label>Apttus__APTS_Agreement__c</label>
+                </value>
+                <value>
+                    <fullName>Apttus__AgreementLineItem__c</fullName>
+                    <default>false</default>
+                    <label>Apttus__AgreementLineItem__c</label>
+                </value>
+                <value>
+                    <fullName>Apttus_DealMgr__Deal__c</fullName>
+                    <default>false</default>
+                    <label>Apttus_DealMgr__Deal__c</label>
+                </value>
+                <value>
+                    <fullName>Apttus_DealMgr__DealLineItem__c</fullName>
+                    <default>false</default>
+                    <label>Apttus_DealMgr__DealLineItem__c</label>
+                </value>
+                <value>
+                    <fullName>Apttus_Config2__LineItem__c</fullName>
+                    <default>false</default>
+                    <label>Apttus_Config2__LineItem__c</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Deal Level</controllingFieldValue>
+                <valueName>Opportunity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Deal Level</controllingFieldValue>
+                <valueName>Apttus__APTS_Agreement__c</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Deal Level</controllingFieldValue>
+                <valueName>Apttus_DealMgr__Deal__c</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Line Level</controllingFieldValue>
+                <valueName>Apttus__AgreementLineItem__c</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Line Level</controllingFieldValue>
+                <valueName>Apttus_DealMgr__DealLineItem__c</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Line Level</controllingFieldValue>
+                <valueName>Apttus_Config2__LineItem__c</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_DealMgr__CriteriaFieldNames__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The list of field names used in the rule criteria</description>
+        <externalId>false</externalId>
+        <label>Criteria Field Names</label>
+        <length>1024</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_DealMgr__Criteria__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rule criteria specification</description>
+        <externalId>false</externalId>
+        <label>Rule Criteria</label>
+        <length>4000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_DealMgr__CurrencyScope__c</fullName>
+        <deprecated>false</deprecated>
+        <description>One or more currencies associated with the rule. Only applicable in multi-currency organizations.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>One or more currencies associated with the rule. Only applicable in multi-currency organizations.</inlineHelpText>
+        <label>Currency Scope</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>USD</fullName>
+                    <default>false</default>
+                    <label>USD</label>
+                </value>
+                <value>
+                    <fullName>EUR</fullName>
+                    <default>false</default>
+                    <label>EUR</label>
+                </value>
+                <value>
+                    <fullName>CAD</fullName>
+                    <default>false</default>
+                    <label>CAD</label>
+                </value>
+                <value>
+                    <fullName>JPY</fullName>
+                    <default>false</default>
+                    <label>JPY</label>
+                </value>
+                <value>
+                    <fullName>RMB</fullName>
+                    <default>false</default>
+                    <label>RMB</label>
+                </value>
+                <value>
+                    <fullName>All</fullName>
+                    <default>true</default>
+                    <label>All</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_DealMgr__CustomMeasureBandDirection__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Defines the direction of the custom measure band entries.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines the direction of the custom measure band entries.</inlineHelpText>
+        <label>Custom Measure Band Direction</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>HighLow</fullName>
+                    <default>false</default>
+                    <label>HighLow</label>
+                </value>
+                <value>
+                    <fullName>LowHigh</fullName>
+                    <default>false</default>
+                    <label>LowHigh</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_DealMgr__CustomMeasureSource__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates the source field in the business object which holds the custom measure value</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the source field in the business object which holds the custom measure value</inlineHelpText>
+        <label>Custom Measure Source</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_DealMgr__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The description for the rule</description>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_DealMgr__DimensionSetId__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the dimension set associated with the rule.</description>
+        <externalId>false</externalId>
+        <label>Dimension Set</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Apttus_DealMgr__DealGuidanceDimensionSet__c.Apttus_DealMgr__GuidanceType__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.Apttus_DealMgr__GuidanceType__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Apttus_DealMgr__DealGuidanceDimensionSet__c</referenceTo>
+        <relationshipLabel>Deal Guidance Rules</relationshipLabel>
+        <relationshipName>DealGuidanceRules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_DealMgr__GuidanceType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The guidance type associated with the rule. This determines the types of dimension sets that may be associated with the rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The guidance type associated with the rule. This determines the types of dimension sets that may be associated with the rule</inlineHelpText>
+        <label>Guidance Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Deal Level</fullName>
+                    <default>false</default>
+                    <label>Deal Level</label>
+                </value>
+                <value>
+                    <fullName>Line Level</fullName>
+                    <default>false</default>
+                    <label>Line Level</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_DealMgr__InitialRows__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of initial entries in the rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of initial entries in the rule</inlineHelpText>
+        <label>Initial Rows</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_DealMgr__MatchRule__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates if the rule should match all or match any dimension</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates if the rule should match all or match any dimension</inlineHelpText>
+        <label>Match Rule</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Match All</fullName>
+                    <default>true</default>
+                    <label>Match All</label>
+                </value>
+                <value>
+                    <fullName>Match Any</fullName>
+                    <default>false</default>
+                    <label>Match Any</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_DealMgr__Measure__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The measure used to provide the guidance</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The measure used to provide the guidance</inlineHelpText>
+        <label>Measure</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Apttus_DealMgr__GuidanceType__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Unit Price</fullName>
+                    <default>false</default>
+                    <label>Unit Price</label>
+                </value>
+                <value>
+                    <fullName>Annual Price Per Unit</fullName>
+                    <default>false</default>
+                    <label>Annual Price Per Unit</label>
+                </value>
+                <value>
+                    <fullName>Net Price</fullName>
+                    <default>false</default>
+                    <label>Net Price</label>
+                </value>
+                <value>
+                    <fullName>% Discount</fullName>
+                    <default>false</default>
+                    <label>% Discount</label>
+                </value>
+                <value>
+                    <fullName>Discount Amount</fullName>
+                    <default>false</default>
+                    <label>Discount Amount</label>
+                </value>
+                <value>
+                    <fullName>% Margin</fullName>
+                    <default>false</default>
+                    <label>% Margin</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Deal Level</controllingFieldValue>
+                <valueName>Net Price</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Deal Level</controllingFieldValue>
+                <controllingFieldValue>Line Level</controllingFieldValue>
+                <valueName>% Discount</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Deal Level</controllingFieldValue>
+                <controllingFieldValue>Line Level</controllingFieldValue>
+                <valueName>Discount Amount</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Deal Level</controllingFieldValue>
+                <controllingFieldValue>Line Level</controllingFieldValue>
+                <valueName>% Margin</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Line Level</controllingFieldValue>
+                <valueName>Unit Price</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Line Level</controllingFieldValue>
+                <valueName>Annual Price Per Unit</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_DealMgr__ProductFamily__c</fullName>
+        <deprecated>false</deprecated>
+        <description>One or more product families associated with the rule. Only applicable to Line Guidance Types.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>One or more product families associated with the rule. Only applicable to Line Guidance Types.</inlineHelpText>
+        <label>Product Family Scope</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All</fullName>
+                    <default>false</default>
+                    <label>All</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_DealMgr__ProductGroupScope__c</fullName>
+        <deprecated>false</deprecated>
+        <description>One or more product groups associated with the rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>One or more product groups associated with the rule</inlineHelpText>
+        <label>Product Group Scope</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All</fullName>
+                    <default>true</default>
+                    <label>All</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_DealMgr__ProductId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the product associated with the rule. Only applicable to Line Guidance Types</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the product associated with the rule. Only applicable to Line Guidance Types</inlineHelpText>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Deal Guidance Rules</relationshipLabel>
+        <relationshipName>DealGuidanceRules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_DealMgr__ProductScope__c</fullName>
+        <deprecated>false</deprecated>
+        <description>One or more products associated with the rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>One or more products associated with the rule</inlineHelpText>
+        <label>Product Scope</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All</fullName>
+                    <default>true</default>
+                    <label>All</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_DealMgr__Sequence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rule evaluation sequence</description>
+        <externalId>false</externalId>
+        <label>Sequence</label>
+        <precision>5</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_DealMgr__ServiceLocationScope__c</fullName>
+        <deprecated>false</deprecated>
+        <description>One or more service locations associated with the rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>One or more service locations associated with the rule</inlineHelpText>
+        <label>Service Location Scope</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All</fullName>
+                    <default>true</default>
+                    <label>All</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <label>Deal Guidance Rule</label>
+    <listViews>
+        <fullName>Apttus_DealMgr__All</fullName>
+        <columns>NAME</columns>
+        <columns>Apttus_DealMgr__Active__c</columns>
+        <columns>Apttus_DealMgr__Sequence__c</columns>
+        <columns>Apttus_DealMgr__BusinessObject__c</columns>
+        <columns>Apttus_DealMgr__DimensionSetId__c</columns>
+        <columns>Apttus_DealMgr__GuidanceType__c</columns>
+        <columns>Apttus_DealMgr__InitialRows__c</columns>
+        <columns>Apttus_DealMgr__Measure__c</columns>
+        <columns>Apttus_DealMgr__ProductFamily__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Rule Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Deal Guidance Rules</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Apttus_DealMgr__Sequence__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_DealMgr__GuidanceType__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_DealMgr__BusinessObject__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_DealMgr__ProductFamily__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_DealMgr__Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_DealMgr__DimensionSetId__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_DealMgr__Measure__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_DealMgr__MatchRule__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_DealMgr__Active__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_DealMgr__Sequence__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_DealMgr__GuidanceType__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_DealMgr__BusinessObject__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_DealMgr__ProductFamily__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_DealMgr__Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_DealMgr__DimensionSetId__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_DealMgr__Measure__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_DealMgr__MatchRule__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_DealMgr__Active__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_DealMgr__Sequence__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_DealMgr__GuidanceType__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_DealMgr__BusinessObject__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_DealMgr__ProductFamily__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_DealMgr__Description__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_DealMgr__DimensionSetId__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_DealMgr__Measure__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_DealMgr__MatchRule__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_DealMgr__Active__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Apttus_DealMgr__Sequence__c</searchFilterFields>
+        <searchFilterFields>Apttus_DealMgr__GuidanceType__c</searchFilterFields>
+        <searchFilterFields>Apttus_DealMgr__BusinessObject__c</searchFilterFields>
+        <searchFilterFields>Apttus_DealMgr__ProductFamily__c</searchFilterFields>
+        <searchFilterFields>Apttus_DealMgr__Description__c</searchFilterFields>
+        <searchFilterFields>Apttus_DealMgr__DimensionSetId__c</searchFilterFields>
+        <searchFilterFields>Apttus_DealMgr__Measure__c</searchFilterFields>
+        <searchFilterFields>Apttus_DealMgr__MatchRule__c</searchFilterFields>
+        <searchFilterFields>Apttus_DealMgr__Active__c</searchFilterFields>
+        <searchResultsAdditionalFields>Apttus_DealMgr__Sequence__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_DealMgr__GuidanceType__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_DealMgr__BusinessObject__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_DealMgr__ProductFamily__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_DealMgr__Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_DealMgr__DimensionSetId__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_DealMgr__Measure__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_DealMgr__MatchRule__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_DealMgr__Active__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

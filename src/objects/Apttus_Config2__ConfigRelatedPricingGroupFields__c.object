@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Holds the list of field API names from the line item object used to identify custom related pricing group fields. The list of fields are automatically maintained by the application.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Apttus_Config2__GroupFieldNames2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the list of field API names from the line item object used to identify custom related pricing group fields. Each field may be separated by a comma or a new line.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the list of field API names from the line item object used to identify custom related pricing group fields. Each field may be separated by a comma or a new line.</inlineHelpText>
+        <label>Group Field Names</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__GroupFieldNames__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the list of field API names from the line item object used to identify custom related pricing group fields. Each field may be separated by a comma or a new line.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the list of field API names from the line item object used to identify custom related pricing group fields. Each field may be separated by a comma or a new line.</inlineHelpText>
+        <label>Group Field Names (Deprecated)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Config Related Pricing Group Fields</label>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,25 @@
+.lighteningTree{
+    font-size: medium;
+}
+.catalogCartBorder{
+    border:1px solid lightgray;
+    border-radius: 5px;
+}
+.miniCartBorder{
+    border:1px solid lightgray;
+    border-radius: 5px;
+    background-color:#ecebea;
+}
+.relativePosition{
+    position : relative !important;
+    background-color: #16325c;
+}
+.paddingRightProperty{
+    padding-right: 20px;
+}
+.paddingLeftProperty{
+    padding-left: 5px;
+}
+.paddingTextLeftProperty{
+    padding-left: 10px;
+}

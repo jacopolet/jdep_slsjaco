@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This is used as an intermediate translation layer for mapping any of the values in all the 5 fields.</description>
+    <fields>
+        <fullName>Apttus_Billing__FieldCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Field Code.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Field Code.</inlineHelpText>
+        <label>Field Code</label>
+        <length>10</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__FieldNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of the Field (1 - 5) this mapping pertains to. An empty field or null implies the mapping pertains to all of the fields.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>The number of the Field (1 - 5) this mapping pertains to. An empty field or null implies the mapping pertains to all of the fields.</inlineHelpText>
+        <label>Field Number</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__FieldValue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds the field value.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Holds the field value.</inlineHelpText>
+        <label>Field Value</label>
+        <length>50</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ObjectType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The type of the object (Invoice, Payment, etc.) this field mapping pertains to. An empty value or null implies the mapping pertains to all of the object types.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>The type of the object (Invoice, Payment, etc.) this field mapping pertains to. An empty value or null implies the mapping pertains to all of the object types.</inlineHelpText>
+        <label>Object Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Custom Numbering Field Mapping</label>
+    <pluralLabel>Custom Numbering Field Mappings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

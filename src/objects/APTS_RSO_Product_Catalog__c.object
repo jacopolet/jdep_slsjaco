@@ -1,0 +1,1281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>RSO Product Catalog</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>APTS_Block_for_Selling__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR((ISPICKVAL(APTS_Region__c,&apos;SAP_0111&apos;) &amp;&amp; INCLUDES(APTS_Product__r.APTS_Associated_Sales_Org__c, &apos;SAP_0111&apos;)),
+((ISPICKVAL(APTS_Region__c,&apos;SAP_0333&apos;) &amp;&amp; INCLUDES(APTS_Product__r.APTS_Associated_Sales_Org__c, &apos;SAP_0333&apos;))),
+((ISPICKVAL(APTS_Region__c,&apos;SAP_0975&apos;) &amp;&amp; INCLUDES(APTS_Product__r.APTS_Associated_Sales_Org__c, &apos;SAP_0975&apos;))),
+((ISPICKVAL(APTS_Region__c,&apos;SAP_0976&apos;) &amp;&amp; INCLUDES(APTS_Product__r.APTS_Associated_Sales_Org__c, &apos;SAP_0976&apos;))),
+((ISPICKVAL(APTS_Region__c,&apos;SAP_6864&apos;) &amp;&amp; INCLUDES(APTS_Product__r.APTS_Associated_Sales_Org__c, &apos;SAP_6864&apos;))),
+((ISPICKVAL(APTS_Region__c,&apos;SAP_6706&apos;) &amp;&amp; INCLUDES(APTS_Product__r.APTS_Associated_Sales_Org__c, &apos;SAP_6706&apos;))),
+((ISPICKVAL(APTS_Region__c,&apos;SAP_0080&apos;) &amp;&amp; INCLUDES(APTS_Product__r.APTS_Associated_Sales_Org__c, &apos;SAP_0080&apos;))),
+((ISPICKVAL(APTS_Region__c,&apos;SAP_6709&apos;) &amp;&amp; INCLUDES(APTS_Product__r.APTS_Associated_Sales_Org__c, &apos;SAP_6709&apos;))),
+((ISPICKVAL(APTS_Region__c,&apos;SAP_6712&apos;) &amp;&amp; INCLUDES(APTS_Product__r.APTS_Associated_Sales_Org__c, &apos;SAP_6712&apos;))),
+((ISPICKVAL(APTS_Region__c,&apos;SAP_6750&apos;) &amp;&amp; INCLUDES(APTS_Product__r.APTS_Associated_Sales_Org__c, &apos;SAP_6750&apos;)))),
+FALSE, TRUE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Block for Selling</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Category_Text__c</fullName>
+        <externalId>false</externalId>
+        <label>Category Text</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Category_Value__c</fullName>
+        <description>Category from Product</description>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SAP_01</fullName>
+                    <default>false</default>
+                    <label>Coffee</label>
+                </value>
+                <value>
+                    <fullName>SAP_02</fullName>
+                    <default>false</default>
+                    <label>Tea</label>
+                </value>
+                <value>
+                    <fullName>SAP_03</fullName>
+                    <default>false</default>
+                    <label>&amp; More</label>
+                </value>
+                <value>
+                    <fullName>SAP_04</fullName>
+                    <default>false</default>
+                    <label>Machines</label>
+                </value>
+                <value>
+                    <fullName>SAP_05</fullName>
+                    <default>false</default>
+                    <label>Services</label>
+                </value>
+                <value>
+                    <fullName>SAP_06</fullName>
+                    <default>false</default>
+                    <label>Spare Parts</label>
+                </value>
+                <value>
+                    <fullName>SAP_07</fullName>
+                    <default>false</default>
+                    <label>Concepts</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Cloned_Operating__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If checked the RSO record was created as a clone of an existing Operating record because no Routesales PL existed for the Region</description>
+        <externalId>false</externalId>
+        <label>Cloned from Operating</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Consignment__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Product2 – check if option group indicator equals “0502”</description>
+        <externalId>false</externalId>
+        <label>Consignment</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Price_List_Item__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Related PLI record</description>
+        <externalId>false</externalId>
+        <label>Price List Item</label>
+        <referenceTo>Apttus_Config2__PriceListItem__c</referenceTo>
+        <relationshipLabel>RSO Product Catalogs</relationshipLabel>
+        <relationshipName>APTS_RSO_Product_Catalogs</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Product_Code__c</fullName>
+        <description>Code of the product related with RSO record</description>
+        <externalId>false</externalId>
+        <label>Product Code</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Product_Icon__c</fullName>
+        <externalId>false</externalId>
+        <formula>APTS_Product__r.Apttus_Config2__Icon__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Icon</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Product related with the RSO record</description>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>RSO Product Catalogs</relationshipLabel>
+        <relationshipName>RSO_Product_Catalogs</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_RSO_External_Id__c</fullName>
+        <description>Field used for Upsert</description>
+        <externalId>true</externalId>
+        <label>RSO External Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Region__c</fullName>
+        <description>Region coming from the Price List</description>
+        <externalId>false</externalId>
+        <label>Region</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>PKL_SalesOrganization</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Sales_Org_Data__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Related SOD record</description>
+        <externalId>false</externalId>
+        <label>Sales Org Data</label>
+        <referenceTo>APTS_Sales_Org_Data__c</referenceTo>
+        <relationshipLabel>RSO Product Catalogs</relationshipLabel>
+        <relationshipName>APTS_RSO_Product_Catalogs</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Selling_UOM__c</fullName>
+        <description>Selling UOM from Price List</description>
+        <externalId>false</externalId>
+        <label>Selling UOM</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Sub_Category_Text__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub Category Text</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Sub_Category_Value__c</fullName>
+        <description>Sub Category from Product</description>
+        <externalId>false</externalId>
+        <label>Sub Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SAP_0101</fullName>
+                    <default>false</default>
+                    <label>Coffee|Beans</label>
+                </value>
+                <value>
+                    <fullName>SAP_0102</fullName>
+                    <default>false</default>
+                    <label>Coffee|Liquid</label>
+                </value>
+                <value>
+                    <fullName>SAP_0103</fullName>
+                    <default>false</default>
+                    <label>Coffee|Instant</label>
+                </value>
+                <value>
+                    <fullName>SAP_0104</fullName>
+                    <default>false</default>
+                    <label>Coffee|Fresh Brew</label>
+                </value>
+                <value>
+                    <fullName>SAP_0105</fullName>
+                    <default>false</default>
+                    <label>Coffee|Filter Coffee</label>
+                </value>
+                <value>
+                    <fullName>SAP_0106</fullName>
+                    <default>false</default>
+                    <label>Coffee|Coffee Capsules</label>
+                </value>
+                <value>
+                    <fullName>SAP_0107</fullName>
+                    <default>false</default>
+                    <label>Coffee|Coffee Pads</label>
+                </value>
+                <value>
+                    <fullName>SAP_0108</fullName>
+                    <default>false</default>
+                    <label>Coffee|Ice Coffee</label>
+                </value>
+                <value>
+                    <fullName>SAP_0201</fullName>
+                    <default>false</default>
+                    <label>Tea|Pickwick Professional</label>
+                </value>
+                <value>
+                    <fullName>SAP_0202</fullName>
+                    <default>false</default>
+                    <label>Tea|Pickwick Volume Pack</label>
+                </value>
+                <value>
+                    <fullName>SAP_0203</fullName>
+                    <default>false</default>
+                    <label>Tea|Pickwick Tea Master Selection</label>
+                </value>
+                <value>
+                    <fullName>SAP_0204</fullName>
+                    <default>false</default>
+                    <label>Tea|Pickwick Slow Tea</label>
+                </value>
+                <value>
+                    <fullName>SAP_0205</fullName>
+                    <default>false</default>
+                    <label>Tea|Pickwick Machine Tea</label>
+                </value>
+                <value>
+                    <fullName>SAP_0206</fullName>
+                    <default>false</default>
+                    <label>Tea|Pickwick Other</label>
+                </value>
+                <value>
+                    <fullName>SAP_0207</fullName>
+                    <default>false</default>
+                    <label>Tea|Other Tea Brands</label>
+                </value>
+                <value>
+                    <fullName>SAP_0301</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Sugar</label>
+                </value>
+                <value>
+                    <fullName>SAP_0302</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Milk</label>
+                </value>
+                <value>
+                    <fullName>SAP_0303</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Cups</label>
+                </value>
+                <value>
+                    <fullName>SAP_0304</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Chocolate</label>
+                </value>
+                <value>
+                    <fullName>SAP_0305</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Soup</label>
+                </value>
+                <value>
+                    <fullName>SAP_0306</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Coffee Syrup</label>
+                </value>
+                <value>
+                    <fullName>SAP_0307</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Biscuits &amp; Chocolates</label>
+                </value>
+                <value>
+                    <fullName>SAP_0308</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Sweeteners</label>
+                </value>
+                <value>
+                    <fullName>SAP_0309</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Sticks</label>
+                </value>
+                <value>
+                    <fullName>SAP_0310</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Glasses &amp; Porcelain</label>
+                </value>
+                <value>
+                    <fullName>SAP_0311</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Tea display</label>
+                </value>
+                <value>
+                    <fullName>SAP_0312</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Accessoires</label>
+                </value>
+                <value>
+                    <fullName>SAP_0313</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Cleaners</label>
+                </value>
+                <value>
+                    <fullName>SAP_0314</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Merchandise</label>
+                </value>
+                <value>
+                    <fullName>SAP_0315</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Beverages</label>
+                </value>
+                <value>
+                    <fullName>SAP_0401</fullName>
+                    <default>false</default>
+                    <label>Machines|Espresso</label>
+                </value>
+                <value>
+                    <fullName>SAP_0402</fullName>
+                    <default>false</default>
+                    <label>Machines|Liquid</label>
+                </value>
+                <value>
+                    <fullName>SAP_0403</fullName>
+                    <default>false</default>
+                    <label>Machines|Instant</label>
+                </value>
+                <value>
+                    <fullName>SAP_0404</fullName>
+                    <default>false</default>
+                    <label>Machines|Fresh Brew</label>
+                </value>
+                <value>
+                    <fullName>SAP_0405</fullName>
+                    <default>false</default>
+                    <label>Machines|Filter</label>
+                </value>
+                <value>
+                    <fullName>SAP_0406</fullName>
+                    <default>false</default>
+                    <label>Machines|Single Serve</label>
+                </value>
+                <value>
+                    <fullName>SAP_0407</fullName>
+                    <default>false</default>
+                    <label>Machines|Coffee Grinders</label>
+                </value>
+                <value>
+                    <fullName>SAP_0408</fullName>
+                    <default>false</default>
+                    <label>Machines|Cabinets</label>
+                </value>
+                <value>
+                    <fullName>SAP_0409</fullName>
+                    <default>false</default>
+                    <label>Machines|Non-coffee machines</label>
+                </value>
+                <value>
+                    <fullName>SAP_0501</fullName>
+                    <default>false</default>
+                    <label>Services|Value added services on demand</label>
+                </value>
+                <value>
+                    <fullName>SAP_0502</fullName>
+                    <default>false</default>
+                    <label>Services|Yearly value added services</label>
+                </value>
+                <value>
+                    <fullName>SAP_0503</fullName>
+                    <default>false</default>
+                    <label>Services|Additional Services</label>
+                </value>
+                <value>
+                    <fullName>SAP_0701</fullName>
+                    <default>false</default>
+                    <label>Concepts|Coffee Kitchen</label>
+                </value>
+                <value>
+                    <fullName>SAP_0702</fullName>
+                    <default>false</default>
+                    <label>Concepts|Subscription</label>
+                </value>
+                <value>
+                    <fullName>SAP_0703</fullName>
+                    <default>false</default>
+                    <label>Concepts|Fixed Term</label>
+                </value>
+                <value>
+                    <fullName>SAP_0704</fullName>
+                    <default>false</default>
+                    <label>Concepts|Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Sub_Sub_Category_Text__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub Sub Category Text</label>
+        <length>150</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Sub_Sub_Category_Value__c</fullName>
+        <description>Sub Sub Category from Product</description>
+        <externalId>false</externalId>
+        <label>Sub Sub Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SAP_010101</fullName>
+                    <default>false</default>
+                    <label>Coffee|Beans |Cafe Noir</label>
+                </value>
+                <value>
+                    <fullName>SAP_010102</fullName>
+                    <default>false</default>
+                    <label>Coffee|Beans |Piazza d&apos;Oro</label>
+                </value>
+                <value>
+                    <fullName>SAP_010103</fullName>
+                    <default>false</default>
+                    <label>Coffee|Beans |Douwe Egberts</label>
+                </value>
+                <value>
+                    <fullName>SAP_010104</fullName>
+                    <default>false</default>
+                    <label>Coffee|Beans |Gevalia</label>
+                </value>
+                <value>
+                    <fullName>SAP_010105</fullName>
+                    <default>false</default>
+                    <label>Coffee|Beans |Nordic Roast</label>
+                </value>
+                <value>
+                    <fullName>SAP_010106</fullName>
+                    <default>false</default>
+                    <label>Coffee|Beans |Cafax</label>
+                </value>
+                <value>
+                    <fullName>SAP_010107</fullName>
+                    <default>false</default>
+                    <label>Coffee|Beans |Laurentis</label>
+                </value>
+                <value>
+                    <fullName>SAP_010108</fullName>
+                    <default>false</default>
+                    <label>Coffee|Beans |Kenco</label>
+                </value>
+                <value>
+                    <fullName>SAP_010109</fullName>
+                    <default>false</default>
+                    <label>Coffee|Beans |L&apos;Or</label>
+                </value>
+                <value>
+                    <fullName>SAP_010110</fullName>
+                    <default>false</default>
+                    <label>Coffee|Beans |Friele</label>
+                </value>
+                <value>
+                    <fullName>SAP_010111</fullName>
+                    <default>false</default>
+                    <label>Coffee|Beans |Krone</label>
+                </value>
+                <value>
+                    <fullName>SAP_010112</fullName>
+                    <default>false</default>
+                    <label>Coffee|Beans |Norwegian Roast</label>
+                </value>
+                <value>
+                    <fullName>SAP_010113</fullName>
+                    <default>false</default>
+                    <label>Coffee|Beans |House of Coffee</label>
+                </value>
+                <value>
+                    <fullName>SAP_010114</fullName>
+                    <default>false</default>
+                    <label>Coffee|Beans |Illy</label>
+                </value>
+                <value>
+                    <fullName>SAP_010115</fullName>
+                    <default>false</default>
+                    <label>Coffee|Beans |Marcilla</label>
+                </value>
+                <value>
+                    <fullName>SAP_010116</fullName>
+                    <default>false</default>
+                    <label>Coffee|Beans |Marcilla - Professional</label>
+                </value>
+                <value>
+                    <fullName>SAP_010117</fullName>
+                    <default>false</default>
+                    <label>Coffee|Beans |Saimaza</label>
+                </value>
+                <value>
+                    <fullName>SAP_010118</fullName>
+                    <default>false</default>
+                    <label>Coffee|Beans |Saimaza - Professional</label>
+                </value>
+                <value>
+                    <fullName>SAP_010119</fullName>
+                    <default>false</default>
+                    <label>Coffee|Beans |Soley</label>
+                </value>
+                <value>
+                    <fullName>SAP_010120</fullName>
+                    <default>false</default>
+                    <label>Coffee|Beans |Jacobs</label>
+                </value>
+                <value>
+                    <fullName>SAP_010121</fullName>
+                    <default>false</default>
+                    <label>Coffee|Beans |HAG</label>
+                </value>
+                <value>
+                    <fullName>SAP_010122</fullName>
+                    <default>false</default>
+                    <label>Coffee|Beans |Splendid</label>
+                </value>
+                <value>
+                    <fullName>SAP_010201</fullName>
+                    <default>false</default>
+                    <label>Coffee|Liquid|Cafe Noir</label>
+                </value>
+                <value>
+                    <fullName>SAP_010202</fullName>
+                    <default>false</default>
+                    <label>Coffee|Liquid|Douwe Egberts</label>
+                </value>
+                <value>
+                    <fullName>SAP_010203</fullName>
+                    <default>false</default>
+                    <label>Coffee|Liquid|Friele</label>
+                </value>
+                <value>
+                    <fullName>SAP_010204</fullName>
+                    <default>false</default>
+                    <label>Coffee|Liquid|Kenco</label>
+                </value>
+                <value>
+                    <fullName>SAP_010205</fullName>
+                    <default>false</default>
+                    <label>Coffee|Liquid|Promesso</label>
+                </value>
+                <value>
+                    <fullName>SAP_010206</fullName>
+                    <default>false</default>
+                    <label>Coffee|Liquid|L&apos;Or</label>
+                </value>
+                <value>
+                    <fullName>SAP_010207</fullName>
+                    <default>false</default>
+                    <label>Coffee|Liquid|Gevalia</label>
+                </value>
+                <value>
+                    <fullName>SAP_010208</fullName>
+                    <default>false</default>
+                    <label>Coffee|Liquid|Marcilla</label>
+                </value>
+                <value>
+                    <fullName>SAP_010209</fullName>
+                    <default>false</default>
+                    <label>Coffee|Liquid|Jacobs</label>
+                </value>
+                <value>
+                    <fullName>SAP_010301</fullName>
+                    <default>false</default>
+                    <label>Coffee|Instant |Cafe Noir</label>
+                </value>
+                <value>
+                    <fullName>SAP_010302</fullName>
+                    <default>false</default>
+                    <label>Coffee|Instant |Douwe Egberts</label>
+                </value>
+                <value>
+                    <fullName>SAP_010303</fullName>
+                    <default>false</default>
+                    <label>Coffee|Instant |Gevalia</label>
+                </value>
+                <value>
+                    <fullName>SAP_010304</fullName>
+                    <default>false</default>
+                    <label>Coffee|Instant |Karat</label>
+                </value>
+                <value>
+                    <fullName>SAP_010305</fullName>
+                    <default>false</default>
+                    <label>Coffee|Instant |Cafax</label>
+                </value>
+                <value>
+                    <fullName>SAP_010306</fullName>
+                    <default>false</default>
+                    <label>Coffee|Instant |Kenco</label>
+                </value>
+                <value>
+                    <fullName>SAP_010307</fullName>
+                    <default>false</default>
+                    <label>Coffee|Instant |Maxwell House</label>
+                </value>
+                <value>
+                    <fullName>SAP_010308</fullName>
+                    <default>false</default>
+                    <label>Coffee|Instant |Friele</label>
+                </value>
+                <value>
+                    <fullName>SAP_010309</fullName>
+                    <default>false</default>
+                    <label>Coffee|Instant |L&apos;Or</label>
+                </value>
+                <value>
+                    <fullName>SAP_010310</fullName>
+                    <default>false</default>
+                    <label>Coffee|Instant |Marcilla</label>
+                </value>
+                <value>
+                    <fullName>SAP_010311</fullName>
+                    <default>false</default>
+                    <label>Coffee|Instant |Saimaza</label>
+                </value>
+                <value>
+                    <fullName>SAP_010312</fullName>
+                    <default>false</default>
+                    <label>Coffee|Instant |Jacobs</label>
+                </value>
+                <value>
+                    <fullName>SAP_010313</fullName>
+                    <default>false</default>
+                    <label>Coffee|Instant |HAG</label>
+                </value>
+                <value>
+                    <fullName>SAP_010401</fullName>
+                    <default>false</default>
+                    <label>Coffee|Fresh Brew |Cafe Noir</label>
+                </value>
+                <value>
+                    <fullName>SAP_010402</fullName>
+                    <default>false</default>
+                    <label>Coffee|Fresh Brew |Douwe Egberts</label>
+                </value>
+                <value>
+                    <fullName>SAP_010403</fullName>
+                    <default>false</default>
+                    <label>Coffee|Fresh Brew |Karat</label>
+                </value>
+                <value>
+                    <fullName>SAP_010404</fullName>
+                    <default>false</default>
+                    <label>Coffee|Fresh Brew |Van Nelle</label>
+                </value>
+                <value>
+                    <fullName>SAP_010405</fullName>
+                    <default>false</default>
+                    <label>Coffee|Fresh Brew |Gevalia</label>
+                </value>
+                <value>
+                    <fullName>SAP_010406</fullName>
+                    <default>false</default>
+                    <label>Coffee|Fresh Brew |Friele</label>
+                </value>
+                <value>
+                    <fullName>SAP_010407</fullName>
+                    <default>false</default>
+                    <label>Coffee|Fresh Brew |Krone</label>
+                </value>
+                <value>
+                    <fullName>SAP_010408</fullName>
+                    <default>false</default>
+                    <label>Coffee|Fresh Brew |House of Coffee</label>
+                </value>
+                <value>
+                    <fullName>SAP_010409</fullName>
+                    <default>false</default>
+                    <label>Coffee|Fresh Brew |Økonomikaffe</label>
+                </value>
+                <value>
+                    <fullName>SAP_010410</fullName>
+                    <default>false</default>
+                    <label>Coffee|Fresh Brew |L&apos;Or</label>
+                </value>
+                <value>
+                    <fullName>SAP_010411</fullName>
+                    <default>false</default>
+                    <label>Coffee|Fresh Brew |Kenco</label>
+                </value>
+                <value>
+                    <fullName>SAP_010412</fullName>
+                    <default>false</default>
+                    <label>Coffee|Fresh Brew |Marcilla</label>
+                </value>
+                <value>
+                    <fullName>SAP_010413</fullName>
+                    <default>false</default>
+                    <label>Coffee|Fresh Brew |Jacobs</label>
+                </value>
+                <value>
+                    <fullName>SAP_010414</fullName>
+                    <default>false</default>
+                    <label>Coffee|Fresh Brew |Saimaza</label>
+                </value>
+                <value>
+                    <fullName>SAP_010501</fullName>
+                    <default>false</default>
+                    <label>Coffee|Filter Coffee |Cafe Noir</label>
+                </value>
+                <value>
+                    <fullName>SAP_010502</fullName>
+                    <default>false</default>
+                    <label>Coffee|Filter Coffee |Douwe Egberts</label>
+                </value>
+                <value>
+                    <fullName>SAP_010503</fullName>
+                    <default>false</default>
+                    <label>Coffee|Filter Coffee |Gevalia</label>
+                </value>
+                <value>
+                    <fullName>SAP_010504</fullName>
+                    <default>false</default>
+                    <label>Coffee|Filter Coffee |Karat</label>
+                </value>
+                <value>
+                    <fullName>SAP_010505</fullName>
+                    <default>false</default>
+                    <label>Coffee|Filter Coffee |Cafax</label>
+                </value>
+                <value>
+                    <fullName>SAP_010506</fullName>
+                    <default>false</default>
+                    <label>Coffee|Filter Coffee |Van Nelle</label>
+                </value>
+                <value>
+                    <fullName>SAP_010507</fullName>
+                    <default>false</default>
+                    <label>Coffee|Filter Coffee |Kanis &amp; Gunnik</label>
+                </value>
+                <value>
+                    <fullName>SAP_010508</fullName>
+                    <default>false</default>
+                    <label>Coffee|Filter Coffee |Friele</label>
+                </value>
+                <value>
+                    <fullName>SAP_010509</fullName>
+                    <default>false</default>
+                    <label>Coffee|Filter Coffee |Krone</label>
+                </value>
+                <value>
+                    <fullName>SAP_010510</fullName>
+                    <default>false</default>
+                    <label>Coffee|Filter Coffee |House of Coffee</label>
+                </value>
+                <value>
+                    <fullName>SAP_010511</fullName>
+                    <default>false</default>
+                    <label>Coffee|Filter Coffee |Økonomikaffe</label>
+                </value>
+                <value>
+                    <fullName>SAP_010512</fullName>
+                    <default>false</default>
+                    <label>Coffee|Filter Coffee |Kenco</label>
+                </value>
+                <value>
+                    <fullName>SAP_010513</fullName>
+                    <default>false</default>
+                    <label>Coffee|Filter Coffee |Clé d&apos;or</label>
+                </value>
+                <value>
+                    <fullName>SAP_010514</fullName>
+                    <default>false</default>
+                    <label>Coffee|Filter Coffee |Jacobs</label>
+                </value>
+                <value>
+                    <fullName>SAP_010515</fullName>
+                    <default>false</default>
+                    <label>Coffee|Filter Coffee |HAG</label>
+                </value>
+                <value>
+                    <fullName>SAP_010601</fullName>
+                    <default>false</default>
+                    <label>Coffee|Coffee Capsules|Douwe Egberts</label>
+                </value>
+                <value>
+                    <fullName>SAP_010602</fullName>
+                    <default>false</default>
+                    <label>Coffee|Coffee Capsules|L&apos;Or</label>
+                </value>
+                <value>
+                    <fullName>SAP_010603</fullName>
+                    <default>false</default>
+                    <label>Coffee|Coffee Capsules|Tassimo</label>
+                </value>
+                <value>
+                    <fullName>SAP_010604</fullName>
+                    <default>false</default>
+                    <label>Coffee|Coffee Capsules|Illy</label>
+                </value>
+                <value>
+                    <fullName>SAP_010605</fullName>
+                    <default>false</default>
+                    <label>Coffee|Coffee Capsules|Kenco</label>
+                </value>
+                <value>
+                    <fullName>SAP_010606</fullName>
+                    <default>false</default>
+                    <label>Coffee|Coffee Capsules|Gevalia</label>
+                </value>
+                <value>
+                    <fullName>SAP_010607</fullName>
+                    <default>false</default>
+                    <label>Coffee|Coffee Capsules|Jacobs</label>
+                </value>
+                <value>
+                    <fullName>SAP_010701</fullName>
+                    <default>false</default>
+                    <label>Coffee|Coffee Pads |Senseo</label>
+                </value>
+                <value>
+                    <fullName>SAP_010702</fullName>
+                    <default>false</default>
+                    <label>Coffee|Coffee Pads |Kanis &amp; Gunnik</label>
+                </value>
+                <value>
+                    <fullName>SAP_010703</fullName>
+                    <default>false</default>
+                    <label>Coffee|Coffee Pads |Douwe Egberts</label>
+                </value>
+                <value>
+                    <fullName>SAP_010704</fullName>
+                    <default>false</default>
+                    <label>Coffee|Coffee Pads |Illy</label>
+                </value>
+                <value>
+                    <fullName>SAP_010705</fullName>
+                    <default>false</default>
+                    <label>Coffee|Coffee Pads |Friele</label>
+                </value>
+                <value>
+                    <fullName>SAP_010706</fullName>
+                    <default>false</default>
+                    <label>Coffee|Coffee Pads |Marcilla</label>
+                </value>
+                <value>
+                    <fullName>SAP_020601</fullName>
+                    <default>false</default>
+                    <label>Tea|Pickwick Other|Pickwick Retail</label>
+                </value>
+                <value>
+                    <fullName>SAP_020602</fullName>
+                    <default>false</default>
+                    <label>Tea|Pickwick Other|Pickwick Adventure Loose Leaf</label>
+                </value>
+                <value>
+                    <fullName>SAP_020701</fullName>
+                    <default>false</default>
+                    <label>Tea|Other Tea Brands|Hornimans</label>
+                </value>
+                <value>
+                    <fullName>SAP_020702</fullName>
+                    <default>false</default>
+                    <label>Tea|Other Tea Brands|Hampstead Te</label>
+                </value>
+                <value>
+                    <fullName>SAP_020703</fullName>
+                    <default>false</default>
+                    <label>Tea|Other Tea Brands|Tea2You</label>
+                </value>
+                <value>
+                    <fullName>SAP_020704</fullName>
+                    <default>false</default>
+                    <label>Tea|Other Tea Brands|Meßmer pyramid</label>
+                </value>
+                <value>
+                    <fullName>SAP_020705</fullName>
+                    <default>false</default>
+                    <label>Tea|Other Tea Brands|Meßmer teabags</label>
+                </value>
+                <value>
+                    <fullName>SAP_030101</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Sugar |Portion Packs</label>
+                </value>
+                <value>
+                    <fullName>SAP_030201</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Milk |Café Milc</label>
+                </value>
+                <value>
+                    <fullName>SAP_030202</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Milk |Promesso Milc</label>
+                </value>
+                <value>
+                    <fullName>SAP_030203</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Milk |Fresh Milk</label>
+                </value>
+                <value>
+                    <fullName>SAP_030204</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Milk |Portion Packs</label>
+                </value>
+                <value>
+                    <fullName>SAP_030301</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Cups |Paper cups</label>
+                </value>
+                <value>
+                    <fullName>SAP_030302</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Cups |Plastic cups</label>
+                </value>
+                <value>
+                    <fullName>SAP_030303</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Cups |Bio cups</label>
+                </value>
+                <value>
+                    <fullName>SAP_030304</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Cups |Lids</label>
+                </value>
+                <value>
+                    <fullName>SAP_030401</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Chocolate|Chocolate Cafitesse</label>
+                </value>
+                <value>
+                    <fullName>SAP_030402</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Chocolate|Chocolate Powder</label>
+                </value>
+                <value>
+                    <fullName>SAP_030403</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Chocolate|Portion Packs</label>
+                </value>
+                <value>
+                    <fullName>SAP_030501</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Soup |Portion Packs</label>
+                </value>
+                <value>
+                    <fullName>SAP_031101</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Tea display|Boxes</label>
+                </value>
+                <value>
+                    <fullName>SAP_031102</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Tea display|Accessoiries</label>
+                </value>
+                <value>
+                    <fullName>SAP_031301</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Cleaners |Cleaning</label>
+                </value>
+                <value>
+                    <fullName>SAP_031302</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Cleaners |Whiping</label>
+                </value>
+                <value>
+                    <fullName>SAP_031303</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Cleaners |Dispensers</label>
+                </value>
+                <value>
+                    <fullName>SAP_031501</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Beverages|Water</label>
+                </value>
+                <value>
+                    <fullName>SAP_031502</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Beverages|Soda</label>
+                </value>
+                <value>
+                    <fullName>SAP_031503</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Beverages|Lemonade</label>
+                </value>
+                <value>
+                    <fullName>SAP_040101</fullName>
+                    <default>false</default>
+                    <label>Machines|Espresso|Piston</label>
+                </value>
+                <value>
+                    <fullName>SAP_040102</fullName>
+                    <default>false</default>
+                    <label>Machines|Espresso|Full Automatic</label>
+                </value>
+                <value>
+                    <fullName>SAP_040201</fullName>
+                    <default>false</default>
+                    <label>Machines|Liquid|Cafitesse</label>
+                </value>
+                <value>
+                    <fullName>SAP_040202</fullName>
+                    <default>false</default>
+                    <label>Machines|Liquid|L&apos;Or</label>
+                </value>
+                <value>
+                    <fullName>SAP_040203</fullName>
+                    <default>false</default>
+                    <label>Machines|Liquid|Promesso</label>
+                </value>
+                <value>
+                    <fullName>SAP_Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Type__c</fullName>
+        <description>Define the type of RSO record</description>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Operating</fullName>
+                    <default>false</default>
+                    <label>Operating</label>
+                </value>
+                <value>
+                    <fullName>Routesales</fullName>
+                    <default>false</default>
+                    <label>Routesales</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>RSO Product Catalog</label>
+    <nameField>
+        <displayFormat>RSO-{0000000000}</displayFormat>
+        <label>RSO Product Catalog Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>RSO Product Catalogs</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

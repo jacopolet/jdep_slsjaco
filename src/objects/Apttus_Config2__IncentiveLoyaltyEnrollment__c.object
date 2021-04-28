@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents a single customer enrollment into an incentive loyalty program</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Apttus_Config2__AccountId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated account enrolled in the incentive loyalty program</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated account enrolled in the incentive loyalty program</inlineHelpText>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Loyalty Enrollments</relationshipLabel>
+        <relationshipName>LoyaltyEnrollments</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the enrollment is active. Loyalty points are not accumulated for inactive enrollments.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the enrollment is active. Loyalty points are not accumulated for inactive enrollments.</inlineHelpText>
+        <label>Active</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AdditionalPointsForNextLevel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The additional loyalty points required to reach the next loyalty level</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The additional loyalty points required to reach the next loyalty level</inlineHelpText>
+        <label>Additional Points For Next Level</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AdditionalPointsToKeepLevel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The additional loyalty points required to maintain the current loyalty level</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The additional loyalty points required to maintain the current loyalty level</inlineHelpText>
+        <label>Additional Points To Keep Level</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ContactId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the contact enrolled in the incentive loyalty program</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the contact enrolled in the incentive loyalty program</inlineHelpText>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Loyalty Enrollments</relationshipLabel>
+        <relationshipName>LoyaltyEnrollments</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CustomerType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The customer type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The customer type</inlineHelpText>
+        <label>Customer Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>true</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Existing</fullName>
+                    <default>false</default>
+                    <label>Existing</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EligibilityStartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date when the member becomes eligible</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date when the member becomes eligible</inlineHelpText>
+        <label>Eligibility Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The enrollment end date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The enrollment end date</inlineHelpText>
+        <label>End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnrollmentType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The enrollment type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The enrollment type</inlineHelpText>
+        <label>Point Accrual Level</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Account</fullName>
+                    <default>true</default>
+                    <label>Account</label>
+                </value>
+                <value>
+                    <fullName>Contact</fullName>
+                    <default>false</default>
+                    <label>Contact</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IncentiveId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the associated incentive loyalty program</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated incentive loyalty program</inlineHelpText>
+        <label>Incentive</label>
+        <referenceTo>Apttus_Config2__Incentive__c</referenceTo>
+        <relationshipLabel>Loyalty Enrollments</relationshipLabel>
+        <relationshipName>LoyaltyEnrollments</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LastProcessedOrderDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The last order date processed for loyalty point accrual</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The last order date processed for loyalty point accrual</inlineHelpText>
+        <label>Last Processed Order Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LastProcessedOrderNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The last order number processed for loyalty point accrual</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The last order number processed for loyalty point accrual</inlineHelpText>
+        <label>Last Processed Order Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LifetimePoints__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The lifetime loyalty points accrued for the account or contact since enrollment</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The lifetime loyalty points accrued for the account or contact since enrollment</inlineHelpText>
+        <label>Lifetime Points</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LoyaltyLevelEarned__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The loyalty level earned by the account/contact or custom point accrual level based on points accrued for the incentive</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The loyalty level earned by the account/contact or custom point accrual level based on points accrued for the incentive</inlineHelpText>
+        <label>Loyalty Level (Earned)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LoyaltyLevelInitial__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The loyalty level granted to the account/contact or custom point accrual level from the previous cycle. This level becomes the starting level for the new cycle unless an override is in effect.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The loyalty level granted to the account/contact or custom point accrual level from the previous cycle. This level becomes the starting level for the new cycle unless an override is in effect.</inlineHelpText>
+        <label>Loyalty Level (Initial)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LoyaltyLevelOverride__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The loyalty level override granted to the account/contact or custom point accrual level</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The loyalty level override granted to the account/contact or custom point accrual level</inlineHelpText>
+        <label>Loyalty Level (Override)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LoyaltyLevel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The loyalty level granted to the account/contact based on points accrued for the incentive</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The loyalty level granted to the account/contact based on points accrued for the incentive</inlineHelpText>
+        <label>Loyalty Level</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__OverrideDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date the loyalty level was overridden</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date the loyalty level was overridden</inlineHelpText>
+        <label>Override Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__OverrideReason__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The reason for the loyalty level override</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The reason for the loyalty level override</inlineHelpText>
+        <label>Override Reason</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Points__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The loyalty points accrued for the account or contact</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The loyalty points accrued for the account or contact</inlineHelpText>
+        <label>Points</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__StartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The enrollment start date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The enrollment start date</inlineHelpText>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__TermsAndConditionsAccepted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether loyalty program terms and conditions are accepted by the customer</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether loyalty program terms and conditions are accepted by the customer</inlineHelpText>
+        <label>Terms And Conditions Accepted</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Incentive Loyalty Enrollment</label>
+    <nameField>
+        <displayFormat>LE-{00000000}</displayFormat>
+        <label>Enrollment Id</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Incentive Loyalty Enrollments</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,85 @@
+<!--
+**********************************************************************
+Name: aptsBillingSettings
+Date: 07 July 2020
+Author: Venky Muppalaneni
+Change Verison History:
+Modified: v0.1 DQ-3011 - Sai 
+**********************************************************************
+-->
+<template>
+
+    <div class="slds-m-around_large">
+         <div if:false={isLoaded} class="slds-is-relative">
+            <lightning-spinner alternative-text="Loading..." variant="brand"> </lightning-spinner>       
+        </div>    
+    </div>
+
+
+    <div if:true={isLoaded} class="slds-align_absolute-center">
+        <div if:true={notification.show}  style="position: absolute; top:20%; width:70%">
+            <div class="slds-notify_container slds-is-relative">
+                <div class={notification.style} role="status">                                
+                    <lightning-icon icon-name="utility:warning" alternative-text="Warning!" size="small" title="default style"></lightning-icon>
+                    <div class="slds-notify__content">
+                        <h2 class="slds-text-heading_small">{notification.title}</h2>
+                        <p>{notification.message}</p>
+                    </div>
+                    <div class="slds-notify__close">
+                        <lightning-button-icon icon-name="utility:close"  alternative-text="close" title="close" onclick={hideNotification}></lightning-button-icon>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <div if:false={showTable} >
+            <hr>
+            <div class="slds-align_absolute-center" >No Records to display</div>                        
+        </div>
+        <!-- Show Table only if there is any records -->
+        <div if:true={showTable}>
+             <!-- New Row in Layout-->        
+            <lightning-layout>
+                <lightning-layout-item padding="around-small">
+                    <lightning-input type="date" name="input2" label="Start date" onchange={handleDateChange}></lightning-input>
+                </lightning-layout-item>
+                <lightning-layout-item padding="around-small" style="width: 25%;" >                
+                    <c-apts-lwc-custom-lookup object-name="Apttus_Config2__BillingPreference__c"  extra-fields="Apttus_Config2__BillingCycleStart__c , Apttus_Config2__BillingDayOfMonth2__c" lookup-label ="Billing Preference" icon-name="standard:event" extra-filters={billingPreFilter} oncustomrecordselected={handleSelected} onremoveselected={handleSelected}></c-apts-lwc-custom-lookup>              
+                </lightning-layout-item>
+                               
+                <lightning-layout-item padding="around-small" >
+                    <lightning-combobox name="progress"
+                                        label="Billing Frequency"
+                                        value={selectedBillingFrequency}
+                                        placeholder="Select Billing Frequency"
+                                        options={options}
+                                        onchange={handleBillFrequencyChange}></lightning-combobox>
+                </lightning-layout-item> 
+                <lightning-layout-item padding="around-small" >
+                    <lightning-combobox name="chargeType"
+                                        label="Charge Type"
+                                        value={selectedChargeType}
+                                        placeholder="Select Charge Type"
+                                        options={chargeType}
+                                        onchange={handleChargeTypeChange}></lightning-combobox>
+                </lightning-layout-item>
+                <lightning-layout-item class="slds-p-around_x-large">
+                    <template if:true={cascadeButtonLabel}>
+                        <lightning-button variant="brand" label={cascadeButtonLabel}  onclick={handleCascade} class="slds-m-left_x-small"></lightning-button>
+                    </template>                
+                </lightning-layout-item>                                                                        
+            </lightning-layout>
+
+
+            <c-apts-lwc-datatable records={allRecords}
+                total-records={allRecords.length}
+                columns={columns}
+                key-field="assetLine.Id"
+                hide-check-box= "true"
+                show-search-box="true"
+                onpaginatorchange={handlePaginatorChange}
+                onsetselectedrecords={handleAllSelectedRows}>
+            </c-apts-lwc-datatable>
+        </div>       
+    </div>      
+    
+</template>

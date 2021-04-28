@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>APTS_IsActive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Denotes whether the defined price slab entry is currently active</description>
+        <externalId>false</externalId>
+        <label>IsActive</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_ListPriceOverride__c</fullName>
+        <description>Denotes the Custom list price against the Price range specific to the freight product</description>
+        <externalId>false</externalId>
+        <label>List Price Override</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Range_From__c</fullName>
+        <description>Denotes the lower bound value of the price range to be compared with the Threshold amount</description>
+        <externalId>false</externalId>
+        <label>Price Range From</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Range_To__c</fullName>
+        <description>Denotes the upper bound value of the price slab to be compared with the threshold amount</description>
+        <externalId>false</externalId>
+        <label>Price Range To</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Region__c</fullName>
+        <externalId>false</externalId>
+        <label>Region</label>
+        <length>50</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Freight Charge Details</label>
+    <visibility>Public</visibility>
+</CustomObject>

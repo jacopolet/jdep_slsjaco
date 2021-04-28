@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents a G/L account map rule to determine G/L account numbers for a product or service</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Apttus_Config2__BaseGLAccountId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The base G/L account Id</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The base G/L account Id</inlineHelpText>
+        <label>Base G/L Account Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BaseGLAccountName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The base G/L account name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The base G/L account name</inlineHelpText>
+        <label>Base G/L Account Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BaseGLAccountNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The base G/L account number</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The base G/L account number</inlineHelpText>
+        <label>Base G/L Account Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The description for the rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The description for the rule</inlineHelpText>
+        <label>Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension1Id__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the first dimension.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the first dimension.</inlineHelpText>
+        <label>Dimension 1</label>
+        <referenceTo>Apttus_Config2__PriceDimension__c</referenceTo>
+        <relationshipName>GLAccountMappingRulesDim1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension1ValueType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value type of the first dimension</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value type of the first dimension</inlineHelpText>
+        <label>Dimension 1 Value Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Discrete</fullName>
+                    <default>false</default>
+                    <label>Discrete</label>
+                </value>
+                <value>
+                    <fullName>Range</fullName>
+                    <default>false</default>
+                    <label>Range</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension2Id__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the second dimension</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the second dimension</inlineHelpText>
+        <label>Dimension 2</label>
+        <referenceTo>Apttus_Config2__PriceDimension__c</referenceTo>
+        <relationshipName>GLAccountMappingRulesDim2</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension2ValueType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value type of the second dimension</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value type of the second dimension</inlineHelpText>
+        <label>Dimension 2 Value Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Discrete</fullName>
+                    <default>false</default>
+                    <label>Discrete</label>
+                </value>
+                <value>
+                    <fullName>Range</fullName>
+                    <default>false</default>
+                    <label>Range</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension3Id__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the third dimension</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the third dimension</inlineHelpText>
+        <label>Dimension 3</label>
+        <referenceTo>Apttus_Config2__PriceDimension__c</referenceTo>
+        <relationshipName>GLAccountMappingRulesDim3</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension3ValueType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value type of the third dimension</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value type of the third dimension</inlineHelpText>
+        <label>Dimension 3 Value Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Discrete</fullName>
+                    <default>false</default>
+                    <label>Discrete</label>
+                </value>
+                <value>
+                    <fullName>Range</fullName>
+                    <default>false</default>
+                    <label>Range</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__GLAccountType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The G/L account type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The G/L account type</inlineHelpText>
+        <label>G/L Account Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accounts Receivable Account</fullName>
+                    <default>false</default>
+                    <label>Accounts Receivable Account</label>
+                </value>
+                <value>
+                    <fullName>Deferred Revenue Account</fullName>
+                    <default>false</default>
+                    <label>Deferred Revenue Account</label>
+                </value>
+                <value>
+                    <fullName>Recognized Revenue Account</fullName>
+                    <default>false</default>
+                    <label>Recognized Revenue Account</label>
+                </value>
+                <value>
+                    <fullName>Unbilled A/R Account</fullName>
+                    <default>false</default>
+                    <label>Unbilled A/R Account</label>
+                </value>
+                <value>
+                    <fullName>Unbilled Deferred Account</fullName>
+                    <default>false</default>
+                    <label>Unbilled Deferred Account</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__NumberOfEntries__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates the number of entries associated with the mapping rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the number of entries associated with the mapping rule</inlineHelpText>
+        <label>Number Of Entries</label>
+        <summaryForeignKey>Apttus_Config2__GLAccountMapEntry__c.Apttus_Config2__MapRuleId__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <label>G/L Account Map Rule</label>
+    <listViews>
+        <fullName>Apttus_Config2__All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Rule Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>G/L Account Map Rules</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Apttus_Config2__GLAccountType__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__BaseGLAccountName__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__BaseGLAccountNumber__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__BaseGLAccountId__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__NumberOfEntries__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__GLAccountType__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__BaseGLAccountName__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__BaseGLAccountNumber__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__BaseGLAccountId__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__NumberOfEntries__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__GLAccountType__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__Description__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__BaseGLAccountName__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__BaseGLAccountNumber__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__BaseGLAccountId__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__NumberOfEntries__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__GLAccountType__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__Description__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__BaseGLAccountName__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__BaseGLAccountNumber__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__BaseGLAccountId__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__NumberOfEntries__c</searchFilterFields>
+        <searchResultsAdditionalFields>Apttus_Config2__GLAccountType__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Config2__Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Config2__BaseGLAccountName__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Config2__BaseGLAccountNumber__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Config2__BaseGLAccountId__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Config2__NumberOfEntries__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

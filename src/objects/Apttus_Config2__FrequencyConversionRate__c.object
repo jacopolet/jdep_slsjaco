@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents the conversion rates used to convert pricing from one frequency or unit of measure to another frequency or unit of measure</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>APTS_Added_by_UOM_batch__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Added by UOM batch</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Denominator__c</fullName>
+        <externalId>false</externalId>
+        <label>Denominator</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_EAN_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>EAN Category</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SAP_HE</fullName>
+                    <default>false</default>
+                    <label>Manufacturer EAN</label>
+                </value>
+                <value>
+                    <fullName>SAP_NUMTP</fullName>
+                    <default>false</default>
+                    <label>NTBEZ</label>
+                </value>
+                <value>
+                    <fullName>SAP_AI</fullName>
+                    <default>false</default>
+                    <label>EAN128</label>
+                </value>
+                <value>
+                    <fullName>SAP_E5</fullName>
+                    <default>false</default>
+                    <label>PerishEAN, var. wt, indl art. no. 5-fig.</label>
+                </value>
+                <value>
+                    <fullName>SAP_EA</fullName>
+                    <default>false</default>
+                    <label>PerishEAN, var. pr, indl art. no. 4-fig.</label>
+                </value>
+                <value>
+                    <fullName>SAP_HK</fullName>
+                    <default>false</default>
+                    <label>Manufacturer short EAN</label>
+                </value>
+                <value>
+                    <fullName>SAP_I6</fullName>
+                    <default>false</default>
+                    <label>ITF code, 16-character</label>
+                </value>
+                <value>
+                    <fullName>SAP_IC</fullName>
+                    <default>false</default>
+                    <label>ITF code</label>
+                </value>
+                <value>
+                    <fullName>SAP_IE</fullName>
+                    <default>false</default>
+                    <label>Instore EAN (int. assignment possible)</label>
+                </value>
+                <value>
+                    <fullName>SAP_IK</fullName>
+                    <default>false</default>
+                    <label>Instore short EAN (int.assignment poss.)</label>
+                </value>
+                <value>
+                    <fullName>SAP_SA</fullName>
+                    <default>false</default>
+                    <label>Perishables EAN, variable price, SAN</label>
+                </value>
+                <value>
+                    <fullName>SAP_SG</fullName>
+                    <default>false</default>
+                    <label>PerishEAN, var. pr., SAN, trad. unit dgt</label>
+                </value>
+                <value>
+                    <fullName>SAP_UC</fullName>
+                    <default>false</default>
+                    <label>UPC</label>
+                </value>
+                <value>
+                    <fullName>SAP_VC</fullName>
+                    <default>false</default>
+                    <label>Velocity code (int. assignment possible)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_EAN__c</fullName>
+        <externalId>false</externalId>
+        <label>EAN</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Numerator__c</fullName>
+        <externalId>false</externalId>
+        <label>Numerator</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_ProductCode__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Product_Family2__c</fullName>
+        <externalId>false</externalId>
+        <label>Category|Sub-Category</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>&amp; More|Accessoires</fullName>
+                    <default>false</default>
+                    <label>&amp; More|Accessoires</label>
+                </value>
+                <value>
+                    <fullName>Additional Services</fullName>
+                    <default>false</default>
+                    <label>Additional Services</label>
+                </value>
+                <value>
+                    <fullName>Bareca</fullName>
+                    <default>false</default>
+                    <label>Bareca</label>
+                </value>
+                <value>
+                    <fullName>Beans</fullName>
+                    <default>false</default>
+                    <label>Beans</label>
+                </value>
+                <value>
+                    <fullName>Cabinets</fullName>
+                    <default>false</default>
+                    <label>Cabinets</label>
+                </value>
+                <value>
+                    <fullName>Cafitesse</fullName>
+                    <default>false</default>
+                    <label>Cafitesse</label>
+                </value>
+                <value>
+                    <fullName>Chocolate Milk</fullName>
+                    <default>false</default>
+                    <label>Chocolate Milk</label>
+                </value>
+                <value>
+                    <fullName>Cleaners</fullName>
+                    <default>false</default>
+                    <label>Cleaners</label>
+                </value>
+                <value>
+                    <fullName>Coffee</fullName>
+                    <default>false</default>
+                    <label>Coffee</label>
+                </value>
+                <value>
+                    <fullName>Coffee Grinders</fullName>
+                    <default>false</default>
+                    <label>Coffee Grinders</label>
+                </value>
+                <value>
+                    <fullName>Coffee Kitchen</fullName>
+                    <default>false</default>
+                    <label>Coffee Kitchen</label>
+                </value>
+                <value>
+                    <fullName>Coffee Pads</fullName>
+                    <default>false</default>
+                    <label>Coffee Pads</label>
+                </value>
+                <value>
+                    <fullName>Coffee Syrup</fullName>
+                    <default>false</default>
+                    <label>Coffee Syrup</label>
+                </value>
+                <value>
+                    <fullName>Convenience and Retail</fullName>
+                    <default>false</default>
+                    <label>Convenience and Retail</label>
+                </value>
+                <value>
+                    <fullName>Cookies</fullName>
+                    <default>false</default>
+                    <label>Cookies</label>
+                </value>
+                <value>
+                    <fullName>Cups</fullName>
+                    <default>false</default>
+                    <label>Cups</label>
+                </value>
+                <value>
+                    <fullName>Education</fullName>
+                    <default>false</default>
+                    <label>Education</label>
+                </value>
+                <value>
+                    <fullName>Espresso</fullName>
+                    <default>false</default>
+                    <label>Espresso</label>
+                </value>
+                <value>
+                    <fullName>Espresso Machines</fullName>
+                    <default>false</default>
+                    <label>Espresso Machines</label>
+                </value>
+                <value>
+                    <fullName>Filter Coffee</fullName>
+                    <default>false</default>
+                    <label>Filter Coffee</label>
+                </value>
+                <value>
+                    <fullName>Fresh Brew</fullName>
+                    <default>false</default>
+                    <label>Fresh Brew</label>
+                </value>
+                <value>
+                    <fullName>Fresh Brew and Filter</fullName>
+                    <default>false</default>
+                    <label>Fresh Brew and Filter</label>
+                </value>
+                <value>
+                    <fullName>Glasses &amp; Porcelain</fullName>
+                    <default>false</default>
+                    <label>Glasses &amp; Porcelain</label>
+                </value>
+                <value>
+                    <fullName>HC Care</fullName>
+                    <default>false</default>
+                    <label>HC Care</label>
+                </value>
+                <value>
+                    <fullName>HC Cure</fullName>
+                    <default>false</default>
+                    <label>HC Cure</label>
+                </value>
+                <value>
+                    <fullName>Hotels</fullName>
+                    <default>false</default>
+                    <label>Hotels</label>
+                </value>
+                <value>
+                    <fullName>Ice Coffee</fullName>
+                    <default>false</default>
+                    <label>Ice Coffee</label>
+                </value>
+                <value>
+                    <fullName>Instant</fullName>
+                    <default>false</default>
+                    <label>Instant</label>
+                </value>
+                <value>
+                    <fullName>Large Business</fullName>
+                    <default>false</default>
+                    <label>Large Business</label>
+                </value>
+                <value>
+                    <fullName>Leisure</fullName>
+                    <default>false</default>
+                    <label>Leisure</label>
+                </value>
+                <value>
+                    <fullName>Machine Care</fullName>
+                    <default>false</default>
+                    <label>Machine Care</label>
+                </value>
+                <value>
+                    <fullName>Machine Tea</fullName>
+                    <default>false</default>
+                    <label>Machine Tea</label>
+                </value>
+                <value>
+                    <fullName>Medium Business</fullName>
+                    <default>false</default>
+                    <label>Medium Business</label>
+                </value>
+                <value>
+                    <fullName>Milk</fullName>
+                    <default>false</default>
+                    <label>Milk</label>
+                </value>
+                <value>
+                    <fullName>Other Tea Brands</fullName>
+                    <default>false</default>
+                    <label>Other Tea Brands</label>
+                </value>
+                <value>
+                    <fullName>Pickwick Professional</fullName>
+                    <default>false</default>
+                    <label>Pickwick Professional</label>
+                </value>
+                <value>
+                    <fullName>Pickwick Slow Tea</fullName>
+                    <default>false</default>
+                    <label>Pickwick Slow Tea</label>
+                </value>
+                <value>
+                    <fullName>Pickwick Tea Master Selection</fullName>
+                    <default>false</default>
+                    <label>Pickwick Tea Master Selection</label>
+                </value>
+                <value>
+                    <fullName>Pickwick Volume pack</fullName>
+                    <default>false</default>
+                    <label>Pickwick Volume pack</label>
+                </value>
+                <value>
+                    <fullName>Promesso</fullName>
+                    <default>false</default>
+                    <label>Promesso</label>
+                </value>
+                <value>
+                    <fullName>Quick Service Restaurant</fullName>
+                    <default>false</default>
+                    <label>Quick Service Restaurant</label>
+                </value>
+                <value>
+                    <fullName>Small Business</fullName>
+                    <default>false</default>
+                    <label>Small Business</label>
+                </value>
+                <value>
+                    <fullName>Soup</fullName>
+                    <default>false</default>
+                    <label>Soup</label>
+                </value>
+                <value>
+                    <fullName>Sticks</fullName>
+                    <default>false</default>
+                    <label>Sticks</label>
+                </value>
+                <value>
+                    <fullName>Sugar</fullName>
+                    <default>false</default>
+                    <label>Sugar</label>
+                </value>
+                <value>
+                    <fullName>Sweeteners</fullName>
+                    <default>false</default>
+                    <label>Sweeteners</label>
+                </value>
+                <value>
+                    <fullName>Technical Services</fullName>
+                    <default>false</default>
+                    <label>Technical Services</label>
+                </value>
+                <value>
+                    <fullName>Value Added Services</fullName>
+                    <default>false</default>
+                    <label>Value Added Services</label>
+                </value>
+                <value>
+                    <fullName>Vending</fullName>
+                    <default>false</default>
+                    <label>Vending</label>
+                </value>
+                <value>
+                    <fullName>Liquid</fullName>
+                    <default>false</default>
+                    <label>Liquid</label>
+                </value>
+                <value>
+                    <fullName>Coffee Capsules</fullName>
+                    <default>false</default>
+                    <label>Coffee Capsules</label>
+                </value>
+                <value>
+                    <fullName>Pickwick Machine Tea</fullName>
+                    <default>false</default>
+                    <label>Pickwick Machine Tea</label>
+                </value>
+                <value>
+                    <fullName>Pickwick Other</fullName>
+                    <default>false</default>
+                    <label>Pickwick Other</label>
+                </value>
+                <value>
+                    <fullName>Chocolate</fullName>
+                    <default>false</default>
+                    <label>Chocolate</label>
+                </value>
+                <value>
+                    <fullName>Biscuits &amp; Chocolates</fullName>
+                    <default>false</default>
+                    <label>Biscuits &amp; Chocolates</label>
+                </value>
+                <value>
+                    <fullName>Tea display</fullName>
+                    <default>false</default>
+                    <label>Tea display</label>
+                </value>
+                <value>
+                    <fullName>Merchandise</fullName>
+                    <default>false</default>
+                    <label>Merchandise</label>
+                </value>
+                <value>
+                    <fullName>Beverages</fullName>
+                    <default>false</default>
+                    <label>Beverages</label>
+                </value>
+                <value>
+                    <fullName>Single Serve</fullName>
+                    <default>false</default>
+                    <label>Single Serve</label>
+                </value>
+                <value>
+                    <fullName>Non-coffee machines</fullName>
+                    <default>false</default>
+                    <label>Non-coffee machines</label>
+                </value>
+                <value>
+                    <fullName>Yearly value added services</fullName>
+                    <default>false</default>
+                    <label>Yearly value added services</label>
+                </value>
+                <value>
+                    <fullName>Subscription</fullName>
+                    <default>false</default>
+                    <label>Subscription</label>
+                </value>
+                <value>
+                    <fullName>Fixed Term</fullName>
+                    <default>false</default>
+                    <label>Fixed Term</label>
+                </value>
+                <value>
+                    <fullName>Filter</fullName>
+                    <default>false</default>
+                    <label>Filter</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Tea</fullName>
+                    <default>false</default>
+                    <label>Tea</label>
+                </value>
+                <value>
+                    <fullName>Illy</fullName>
+                    <default>false</default>
+                    <label>Illy</label>
+                </value>
+                <value>
+                    <fullName>Pickwick Green Tea Lemon</fullName>
+                    <default>false</default>
+                    <label>Pickwick Green Tea Lemon</label>
+                </value>
+                <value>
+                    <fullName>Beans|Douwe Egberts</fullName>
+                    <default>false</default>
+                    <label>Beans|Douwe Egberts</label>
+                </value>
+                <value>
+                    <fullName>Pickwick Retail</fullName>
+                    <default>false</default>
+                    <label>Pickwick Retail</label>
+                </value>
+                <value>
+                    <fullName>Pickwick Adventure Loose Leaf</fullName>
+                    <default>false</default>
+                    <label>Pickwick Adventure Loose Leaf</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Product_Family3__c</fullName>
+        <externalId>false</externalId>
+        <label>Category | Subcategory | SubsubCategory</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>APTS_Subsubcategory</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Frequency/UOM Conversion Rates</relationshipLabel>
+        <relationshipName>Frequency_UOM_Conversion_Rates</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_UOM_External_ID__c</fullName>
+        <externalId>true</externalId>
+        <label>UoM External ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ConversionFactor__c</fullName>
+        <defaultValue>1</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The conversion factor to apply to convert one frequency to another</description>
+        <externalId>false</externalId>
+        <label>Conversion Factor</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>13</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__FromFrequency__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The frequency to convert from</description>
+        <externalId>false</externalId>
+        <label>From Frequency</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hourly</fullName>
+                    <default>false</default>
+                    <label>Hourly</label>
+                </value>
+                <value>
+                    <fullName>Daily</fullName>
+                    <default>false</default>
+                    <label>Daily</label>
+                </value>
+                <value>
+                    <fullName>Weekly</fullName>
+                    <default>false</default>
+                    <label>Weekly</label>
+                </value>
+                <value>
+                    <fullName>Monthly</fullName>
+                    <default>false</default>
+                    <label>Monthly</label>
+                </value>
+                <value>
+                    <fullName>Quarterly</fullName>
+                    <default>false</default>
+                    <label>Quarterly</label>
+                </value>
+                <value>
+                    <fullName>Half Yearly</fullName>
+                    <default>false</default>
+                    <label>Half Yearly</label>
+                </value>
+                <value>
+                    <fullName>Yearly</fullName>
+                    <default>false</default>
+                    <label>Yearly</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__FromUom__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The unit of measure to convert from</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The unit of measure to convert from</inlineHelpText>
+        <label>From Uom</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SAP_EA</fullName>
+                    <default>false</default>
+                    <label>Each</label>
+                </value>
+                <value>
+                    <fullName>SAP_BX</fullName>
+                    <default>false</default>
+                    <label>Box</label>
+                </value>
+                <value>
+                    <fullName>SAP_CC</fullName>
+                    <default>false</default>
+                    <label>Cubic Centimeter</label>
+                </value>
+                <value>
+                    <fullName>SAP_CS</fullName>
+                    <default>false</default>
+                    <label>Case</label>
+                </value>
+                <value>
+                    <fullName>SAP_DRKS</fullName>
+                    <default>false</default>
+                    <label>Drinks</label>
+                </value>
+                <value>
+                    <fullName>SAP_PX2</fullName>
+                    <default>false</default>
+                    <label>FUP120*80</label>
+                </value>
+                <value>
+                    <fullName>SAP_PY2</fullName>
+                    <default>false</default>
+                    <label>FUP120*100</label>
+                </value>
+                <value>
+                    <fullName>SAP_GRM</fullName>
+                    <default>false</default>
+                    <label>Gram</label>
+                </value>
+                <value>
+                    <fullName>SAP_PX1</fullName>
+                    <default>false</default>
+                    <label>HAP120*80</label>
+                </value>
+                <value>
+                    <fullName>SAP_PY1</fullName>
+                    <default>false</default>
+                    <label>HAP120*100</label>
+                </value>
+                <value>
+                    <fullName>SAP_KGM</fullName>
+                    <default>false</default>
+                    <label>Kilogram</label>
+                </value>
+                <value>
+                    <fullName>SAP_LY</fullName>
+                    <default>false</default>
+                    <label>LAY120*100</label>
+                </value>
+                <value>
+                    <fullName>SAP_LZ</fullName>
+                    <default>false</default>
+                    <label>LAY120*80</label>
+                </value>
+                <value>
+                    <fullName>SAP_LR</fullName>
+                    <default>false</default>
+                    <label>Layer</label>
+                </value>
+                <value>
+                    <fullName>SAP_LTR</fullName>
+                    <default>false</default>
+                    <label>Liter</label>
+                </value>
+                <value>
+                    <fullName>SAP_MTR</fullName>
+                    <default>false</default>
+                    <label>Meter</label>
+                </value>
+                <value>
+                    <fullName>SAP_PF</fullName>
+                    <default>false</default>
+                    <label>Pallet</label>
+                </value>
+                <value>
+                    <fullName>SAP_PCE</fullName>
+                    <default>false</default>
+                    <label>Piece</label>
+                </value>
+                <value>
+                    <fullName>SAP_ZQH</fullName>
+                    <default>false</default>
+                    <label>Quarter of Hour</label>
+                </value>
+                <value>
+                    <fullName>SAP_ZRE</fullName>
+                    <default>false</default>
+                    <label>Reporting</label>
+                </value>
+                <value>
+                    <fullName>SAP_SMU</fullName>
+                    <default>false</default>
+                    <label>Smallest Unit</label>
+                </value>
+                <value>
+                    <fullName>SAP_ZZZ</fullName>
+                    <default>false</default>
+                    <label>St. UoM IB</label>
+                </value>
+                <value>
+                    <fullName>SAP_ZTU</fullName>
+                    <default>false</default>
+                    <label>Trade unit</label>
+                </value>
+                <value>
+                    <fullName>SAP_ZVW</fullName>
+                    <default>false</default>
+                    <label>Vol.weight</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductFamilyInternal__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The product family for internal use</description>
+        <externalId>true</externalId>
+        <inlineHelpText>The product family for internal use</inlineHelpText>
+        <label>Product Key (Internal)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductFamily__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The product family</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The product family</inlineHelpText>
+        <label>Product Family</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SAP_01</fullName>
+                    <default>false</default>
+                    <label>Coffee</label>
+                </value>
+                <value>
+                    <fullName>SAP_02</fullName>
+                    <default>false</default>
+                    <label>Tea</label>
+                </value>
+                <value>
+                    <fullName>SAP_03</fullName>
+                    <default>false</default>
+                    <label>&amp; More</label>
+                </value>
+                <value>
+                    <fullName>SAP_04</fullName>
+                    <default>false</default>
+                    <label>Machines</label>
+                </value>
+                <value>
+                    <fullName>SAP_05</fullName>
+                    <default>false</default>
+                    <label>Services</label>
+                </value>
+                <value>
+                    <fullName>SAP_06</fullName>
+                    <default>false</default>
+                    <label>Spare Parts</label>
+                </value>
+                <value>
+                    <fullName>SAP_07</fullName>
+                    <default>false</default>
+                    <label>Concepts</label>
+                </value>
+                <value>
+                    <fullName>Default</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Default</label>
+                </value>
+                <value>
+                    <fullName>drink&gt;kg</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>drink&gt;kg</label>
+                </value>
+                <value>
+                    <fullName>drink&gt;ltr</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>drink&gt;ltr</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated product</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated product</inlineHelpText>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Frequency/UOM Conversion Rates</relationshipLabel>
+        <relationshipName>FrequencyUOMConversionRates</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ToFrequency__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The frequency to convert to</description>
+        <externalId>false</externalId>
+        <label>To Frequency</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hourly</fullName>
+                    <default>false</default>
+                    <label>Hourly</label>
+                </value>
+                <value>
+                    <fullName>Daily</fullName>
+                    <default>false</default>
+                    <label>Daily</label>
+                </value>
+                <value>
+                    <fullName>Weekly</fullName>
+                    <default>false</default>
+                    <label>Weekly</label>
+                </value>
+                <value>
+                    <fullName>Monthly</fullName>
+                    <default>false</default>
+                    <label>Monthly</label>
+                </value>
+                <value>
+                    <fullName>Quarterly</fullName>
+                    <default>false</default>
+                    <label>Quarterly</label>
+                </value>
+                <value>
+                    <fullName>Half Yearly</fullName>
+                    <default>false</default>
+                    <label>Half Yearly</label>
+                </value>
+                <value>
+                    <fullName>Yearly</fullName>
+                    <default>false</default>
+                    <label>Yearly</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ToUom__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The unit of measure to convert to</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The unit of measure to convert to</inlineHelpText>
+        <label>To Uom</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SAP_EA</fullName>
+                    <default>false</default>
+                    <label>Each</label>
+                </value>
+                <value>
+                    <fullName>SAP_PCE</fullName>
+                    <default>false</default>
+                    <label>Piece</label>
+                </value>
+                <value>
+                    <fullName>SAP_BX</fullName>
+                    <default>false</default>
+                    <label>Box</label>
+                </value>
+                <value>
+                    <fullName>SAP_PF</fullName>
+                    <default>false</default>
+                    <label>Pallet</label>
+                </value>
+                <value>
+                    <fullName>SAP_KGM</fullName>
+                    <default>false</default>
+                    <label>Kilogram</label>
+                </value>
+                <value>
+                    <fullName>SAP_GRM</fullName>
+                    <default>false</default>
+                    <label>Gram</label>
+                </value>
+                <value>
+                    <fullName>SAP_LTR</fullName>
+                    <default>false</default>
+                    <label>Liter</label>
+                </value>
+                <value>
+                    <fullName>SAP_LZ</fullName>
+                    <default>false</default>
+                    <label>LAY120*80</label>
+                </value>
+                <value>
+                    <fullName>SAP_LY</fullName>
+                    <default>false</default>
+                    <label>LAY120*100</label>
+                </value>
+                <value>
+                    <fullName>SAP_PY1</fullName>
+                    <default>false</default>
+                    <label>HAP120*100</label>
+                </value>
+                <value>
+                    <fullName>SAP_PY2</fullName>
+                    <default>false</default>
+                    <label>FUP120*100</label>
+                </value>
+                <value>
+                    <fullName>SAP_CS</fullName>
+                    <default>false</default>
+                    <label>Case</label>
+                </value>
+                <value>
+                    <fullName>SAP_LR</fullName>
+                    <default>false</default>
+                    <label>Layer</label>
+                </value>
+                <value>
+                    <fullName>SAP_ZRE</fullName>
+                    <default>false</default>
+                    <label>Reporting</label>
+                </value>
+                <value>
+                    <fullName>SAP_ZTU</fullName>
+                    <default>false</default>
+                    <label>Trade unit</label>
+                </value>
+                <value>
+                    <fullName>SAP_ZVW</fullName>
+                    <default>false</default>
+                    <label>Vol.weight</label>
+                </value>
+                <value>
+                    <fullName>SAP_ZZZ</fullName>
+                    <default>false</default>
+                    <label>St. UoM IB</label>
+                </value>
+                <value>
+                    <fullName>SAP_PX1</fullName>
+                    <default>false</default>
+                    <label>HAP120*80</label>
+                </value>
+                <value>
+                    <fullName>SAP_PX2</fullName>
+                    <default>false</default>
+                    <label>FUP120*80</label>
+                </value>
+                <value>
+                    <fullName>SAP_SMU</fullName>
+                    <default>false</default>
+                    <label>Smallest Unit</label>
+                </value>
+                <value>
+                    <fullName>SAP_MTR</fullName>
+                    <default>false</default>
+                    <label>Meter</label>
+                </value>
+                <value>
+                    <fullName>SAP_ZQH</fullName>
+                    <default>false</default>
+                    <label>Quarter of Hour</label>
+                </value>
+                <value>
+                    <fullName>SAP_CC</fullName>
+                    <default>false</default>
+                    <label>Cubic Centimeter</label>
+                </value>
+                <value>
+                    <fullName>SAP_DRKS</fullName>
+                    <default>false</default>
+                    <label>Drinks</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The conversion metric type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The conversion metric type</inlineHelpText>
+        <label>Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Frequency</fullName>
+                    <default>false</default>
+                    <label>Frequency</label>
+                </value>
+                <value>
+                    <fullName>Unit Of Measure</fullName>
+                    <default>true</default>
+                    <label>Unit Of Measure</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FromUOM_Temp_Placeholder__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>this field will be deleted post COT0</inlineHelpText>
+        <label>FromUOM (Temp Placeholder)</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ToUOM_Temp_Placeholder__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This field will be removed after COT0.</inlineHelpText>
+        <label>ToUOM (Temp Placeholder)</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Frequency/UOM Conversion Rate</label>
+    <listViews>
+        <fullName>Apttus_Config2__All</fullName>
+        <columns>NAME</columns>
+        <columns>Apttus_Config2__ConversionFactor__c</columns>
+        <columns>Apttus_Config2__ToUom__c</columns>
+        <columns>Apttus_Config2__FromUom__c</columns>
+        <columns>APTS_Product__c</columns>
+        <columns>APTS_ProductCode__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Category_sub_category_uoms</fullName>
+        <booleanFilter>1 or 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Apttus_Config2__FromUom__c</columns>
+        <columns>Apttus_Config2__ToUom__c</columns>
+        <columns>APTS_Product_Family2__c</columns>
+        <columns>APTS_Product_Family3__c</columns>
+        <columns>Apttus_Config2__ConversionFactor__c</columns>
+        <columns>APTS_Numerator__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>APTS_Product_Family2__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>APTS_Product_Family3__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>Category / sub category uoms</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>z_VAT_Piece_to_Kilogram</fullName>
+        <columns>NAME</columns>
+        <columns>Apttus_Config2__FromUom__c</columns>
+        <columns>Apttus_Config2__ToUom__c</columns>
+        <columns>Apttus_Config2__ConversionFactor__c</columns>
+        <columns>APTS_Numerator__c</columns>
+        <columns>APTS_Denominator__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Apttus_Config2__FromUom__c</field>
+            <operation>equals</operation>
+            <value>SAP_PCE</value>
+        </filters>
+        <filters>
+            <field>Apttus_Config2__ToUom__c</field>
+            <operation>equals</operation>
+            <value>SAP_KGM</value>
+        </filters>
+        <label>z VAT Piece to Kilogram</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>CR-{0000000000}</displayFormat>
+        <label>Conversion Rate Id</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Frequency/UOM Conversion Rates</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Apttus_Config2__FromFrequency__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__ToFrequency__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__ConversionFactor__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__FromFrequency__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__ToFrequency__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__ConversionFactor__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>Apttus_Config2__FromFrequency__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__ToFrequency__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

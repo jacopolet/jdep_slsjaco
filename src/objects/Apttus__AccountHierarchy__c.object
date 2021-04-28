@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>This defines a single instance of an account hierarchy relationship. It contains the leaf Id, the parent Id, the root Id, and the level.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Apttus__AccountLeafId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The account Id of the leaf.
+Root &gt; Parent &gt; Leaf</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The account Id of the leaf.
+Root &gt; Parent &gt; Leaf</inlineHelpText>
+        <label>Account Leaf</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Account Hierarchies</relationshipLabel>
+        <relationshipName>AccountHierarchiesLeaf</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Apttus__AccountLevel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The hierarchical level of the account of the accounts hierarchy.
+It&apos;s used in the listing tree view in the account hierarchy to identify the indentation.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The hierarchical level of the account of the accounts hierarchy.
+It&apos;s used in the listing tree view in the account hierarchy to identify the indentation.</inlineHelpText>
+        <label>Account Level</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__AccountParentId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The account Id of the parent.
+Root &gt; Parent &gt; Leaf</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The account Id of the parent.
+Root &gt; Parent &gt; Leaf</inlineHelpText>
+        <label>Account Parent</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Account Hierarchies (Account)</relationshipLabel>
+        <relationshipName>AccountHierarchiesParent</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__AccountRootId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The account Id of the root. A root account is the primordial account which has all of the children, grandchildren, etc. in the hierarchy. There can be only one root account for a hierarchy.
+Root &gt; Parent &gt; Leaf</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The account Id of the root. A root account is the primordial account which has all of the children, grandchildren, etc. in the hierarchy. There can be only one root account for a hierarchy.
+Root &gt; Parent &gt; Leaf</inlineHelpText>
+        <label>Account Root</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Account Hierarchies (Account)</relationshipLabel>
+        <relationshipName>AccountHierarchiesRoot</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Account Hierarchy</label>
+    <nameField>
+        <label>Account Hierarchy Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Account Hierarchies</pluralLabel>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>Apttus__AccountRootId__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__AccountParentId__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__AccountLeafId__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__AccountLevel__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__AccountRootId__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__AccountParentId__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__AccountLeafId__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__AccountLevel__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Apttus__AccountRootId__c</searchFilterFields>
+        <searchFilterFields>Apttus__AccountParentId__c</searchFilterFields>
+        <searchFilterFields>Apttus__AccountLeafId__c</searchFilterFields>
+        <searchFilterFields>Apttus__AccountLevel__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

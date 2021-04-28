@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Used to store the data from a specific payment/refund transaction (ex: authorization request or capture request and result)</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Apttus_Billing__AccountId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The account corresponding to the gateway Transaction.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The account corresponding to the gateway Transaction.</inlineHelpText>
+        <label>Account Id</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Gateway Transactions</relationshipLabel>
+        <relationshipName>GatewayTransactions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__AuthAVSCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The auth avs code.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The auth avs code.</inlineHelpText>
+        <label>Auth AVS Code</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__AuthAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Authorized amount.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Authorized amount.</inlineHelpText>
+        <label>Auth Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__AuthResponse__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Auth response.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Auth response.</inlineHelpText>
+        <label>Auth Response</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__CardExpirationMonth__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Expiration month of the card used.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Expiration month of the card used.</inlineHelpText>
+        <label>Card Expiration Month</label>
+        <length>2</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__CardExpirationYear__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Expiration year of the card used.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Expiration year of the card used.</inlineHelpText>
+        <label>Card Expiration Year</label>
+        <length>4</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__CardNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Masked card number used.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Masked card number used.</inlineHelpText>
+        <label>Card Number</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__CardType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Card type used in transaction.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Card type used in transaction.</inlineHelpText>
+        <label>Card Type</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ECheckAccountNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Masked eCheck account number.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Masked eCheck account number.</inlineHelpText>
+        <label>ECheck Account Number</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ECheckAccountType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>eCheck account type.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>eCheck account type.</inlineHelpText>
+        <label>ECheck Account Type</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ECheckRoutingNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Masked eCheck routing number.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Masked eCheck routing number.</inlineHelpText>
+        <label>ECheck Routing Number</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__GatewayDecision__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The response decision from the gateway.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The response decision from the gateway.</inlineHelpText>
+        <label>Gateway Decision</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__GatewayMessage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The response message from the gateway.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The response message from the gateway.</inlineHelpText>
+        <label>Gateway Message</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__OrderId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The associated Order Id.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The associated Order Id.</inlineHelpText>
+        <label>Order Id</label>
+        <referenceTo>Apttus_Config2__Order__c</referenceTo>
+        <relationshipLabel>Gateway Transactions</relationshipLabel>
+        <relationshipName>GatewayTransactions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__PaymentId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The associated payment id.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The associated payment id.</inlineHelpText>
+        <label>Payment Id</label>
+        <referenceTo>Apttus_Billing__Payment__c</referenceTo>
+        <relationshipLabel>Gateway Transactions</relationshipLabel>
+        <relationshipName>GatewayTransactions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__PaymentMethodId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The payment method used to process this request.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The payment method used to process this request.</inlineHelpText>
+        <label>Payment Method Id</label>
+        <referenceTo>Apttus_Billing__PaymentMethod__c</referenceTo>
+        <relationshipLabel>Gateway Transactions</relationshipLabel>
+        <relationshipName>GatewayTransactions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__PaymentMethodType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Payment method type of the request.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Payment method type of the request.</inlineHelpText>
+        <label>Payment Method Type</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ProfileId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Assigned by gateway. Used to identify customer profile.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Assigned by gateway. Used to identify customer profile.</inlineHelpText>
+        <label>Profile Id</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ReasonCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The reason code.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The reason code.</inlineHelpText>
+        <label>Reason Code</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ReferenceId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Reference ID returned from Gateway.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference ID returned from Gateway.</inlineHelpText>
+        <label>Reference Id</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__RefundId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The associated refund id.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The associated refund id.</inlineHelpText>
+        <label>Refund Id</label>
+        <referenceTo>Apttus_Billing__Refund__c</referenceTo>
+        <relationshipLabel>Gateway Transactions</relationshipLabel>
+        <relationshipName>GatewayTransactions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__RelatedAuthRequestId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Link to the corresponding Auth Request.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Link to the corresponding Auth Request.</inlineHelpText>
+        <label>Related Auth Request Id</label>
+        <referenceTo>Apttus_Billing__GatewayTransaction__c</referenceTo>
+        <relationshipName>RelatedAuthRequests</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__RequestAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The request amount.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The request amount.</inlineHelpText>
+        <label>Request Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__RequestCurrency__c</fullName>
+        <deprecated>false</deprecated>
+        <description>3 letter ISO currency code of the request.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>3 letter ISO currency code of the request.</inlineHelpText>
+        <label>Request Currency</label>
+        <length>3</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__RequestDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Date/Time when the request was sent to the gateway.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Date/Time when the request was sent to the gateway.</inlineHelpText>
+        <label>Request Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__RequestTaxAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The tax for the request amount</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The tax for the request amount</inlineHelpText>
+        <label>Request Tax Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__RequestTokenId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Request token id given by the Gateway.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Request token id given by the Gateway.</inlineHelpText>
+        <label>Request Token Id</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ResponseCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The response code from the gateway.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The response code from the gateway.</inlineHelpText>
+        <label>Response Code</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ResponseDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Date/Time when a valid response was received from the gateway.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Date/Time when a valid response was received from the gateway.</inlineHelpText>
+        <label>Response Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ResponseString__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The response string from the gateway.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The response string from the gateway.</inlineHelpText>
+        <label>Response String</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Status of the transaction.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Status of the transaction.</inlineHelpText>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>false</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Success</fullName>
+                    <default>false</default>
+                    <label>Success</label>
+                </value>
+                <value>
+                    <fullName>Failure</fullName>
+                    <default>false</default>
+                    <label>Failure</label>
+                </value>
+                <value>
+                    <fullName>Error</fullName>
+                    <default>false</default>
+                    <label>Error</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__TransactionId__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <description>Unique transaction ID provided by the gateway</description>
+        <externalId>true</externalId>
+        <inlineHelpText>Unique transaction ID provided by the gateway</inlineHelpText>
+        <label>Transaction Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__TransactionType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The type of transaction.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The type of transaction.</inlineHelpText>
+        <label>Transaction Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Authorization</fullName>
+                    <default>false</default>
+                    <label>Authorization</label>
+                </value>
+                <value>
+                    <fullName>Capture</fullName>
+                    <default>false</default>
+                    <label>Capture</label>
+                </value>
+                <value>
+                    <fullName>Sale</fullName>
+                    <default>false</default>
+                    <label>Sale</label>
+                </value>
+                <value>
+                    <fullName>Payment Method Create</fullName>
+                    <default>false</default>
+                    <label>Payment Method Create</label>
+                </value>
+                <value>
+                    <fullName>Payment Method Update</fullName>
+                    <default>false</default>
+                    <label>Payment Method Update</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__UpdatedTokenId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Updated Token Id by the gateway.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Updated Token Id by the gateway.</inlineHelpText>
+        <label>Updated Token Id</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Gateway Transaction</label>
+    <nameField>
+        <displayFormat>GT-{0000000000}</displayFormat>
+        <label>Gateway Transaction Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Gateway Transactions</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

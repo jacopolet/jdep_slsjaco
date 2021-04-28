@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents an obligation associated with an agreement</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Apttus_Revenue2__Actual_Deferred_Balance__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Total actual deferred balance amount from all related agreement fees</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Total actual deferred balance amount from all related agreement fees</inlineHelpText>
+        <label>Actual Deferred Balance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Actual_Revenue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Total actual revenue of all related agreement fees</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Total actual revenue of all related agreement fees</inlineHelpText>
+        <label>Actual Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Forecast_Deferred_Balance__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Total forecast deferred balance amount from all related agreement fees</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Total forecast deferred balance amount from all related agreement fees</inlineHelpText>
+        <label>Forecast Deferred Balance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Forecast_Revenue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Total forecast revenue of all related agreement fees</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Total forecast revenue of all related agreement fees</inlineHelpText>
+        <label>Forecast Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__AllocationAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The allocation amount</description>
+        <externalId>false</externalId>
+        <inlineHelpText>1.       Lone Allocation Amount for single Agreement Line Item
+2.       Aggregate Allocation Amount for multiple Agreement Line Items
+3.       Partial Allocation Amount for when a Split Policy is applied to a single Agreement Line Item</inlineHelpText>
+        <label>Allocation Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The obligation description</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The obligation description. Usually generated by the back-end.</inlineHelpText>
+        <label>Description</label>
+        <length>2048</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus__EndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The obligation end date.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The obligation end date. Maximum of all related Agreement Line Item contract end date</inlineHelpText>
+        <label>End Date</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__ObligationName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A user friendly name for the obligation</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A user friendly name for the obligation</inlineHelpText>
+        <label>Obligation Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__RevRec_Rule__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The revenue recognition rule associated with the obligation</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The revenue recognition rule associated with the obligation</inlineHelpText>
+        <label>Revenue Recognition Rule</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Immediate</fullName>
+                    <default>false</default>
+                    <label>Immediate</label>
+                </value>
+                <value>
+                    <fullName>Ratable</fullName>
+                    <default>true</default>
+                    <label>Ratable</label>
+                </value>
+                <value>
+                    <fullName>Subscription</fullName>
+                    <default>false</default>
+                    <label>Subscription</label>
+                </value>
+                <value>
+                    <fullName>Manual</fullName>
+                    <default>false</default>
+                    <label>Manual</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__StartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The obligation start date.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The obligation start date. Minimum of all related Agreement Line Item contract original start date</inlineHelpText>
+        <label>Start Date</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The obligation status</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The obligation status</inlineHelpText>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>true</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>false</default>
+                    <label>Active</label>
+                </value>
+                <value>
+                    <fullName>Complete</fullName>
+                    <default>false</default>
+                    <label>Complete</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__TransactionPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The transaction price.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>1.       Lone Transaction Price for single Agreement Line Item
+2.       Aggregate Transaction Price for multiple Agreement Line Items
+3.       Partial Transaction Price for when a Split Policy is applied to a single Agreement Line Item</inlineHelpText>
+        <label>Transaction Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The obligation type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The obligation type</inlineHelpText>
+        <label>Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Performance</fullName>
+                    <default>false</default>
+                    <label>Performance</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Obligation</label>
+    <listViews>
+        <fullName>Apttus__All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>OBL-{0000000}</displayFormat>
+        <label>Obligation Id</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Obligations</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Apttus__Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__ObligationName__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__StartDate__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__EndDate__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__TransactionPrice__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__AllocationAmount__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__RevRec_Rule__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__Status__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__ObligationName__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__StartDate__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__EndDate__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__TransactionPrice__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__AllocationAmount__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__RevRec_Rule__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__Status__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__Type__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__ObligationName__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__StartDate__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__EndDate__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__Description__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__TransactionPrice__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__AllocationAmount__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__RevRec_Rule__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__Status__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>Apttus__Type__c</searchFilterFields>
+        <searchFilterFields>Apttus__ObligationName__c</searchFilterFields>
+        <searchFilterFields>Apttus__StartDate__c</searchFilterFields>
+        <searchFilterFields>Apttus__EndDate__c</searchFilterFields>
+        <searchFilterFields>Apttus__TransactionPrice__c</searchFilterFields>
+        <searchFilterFields>Apttus__AllocationAmount__c</searchFilterFields>
+        <searchFilterFields>Apttus__RevRec_Rule__c</searchFilterFields>
+        <searchFilterFields>Apttus__Status__c</searchFilterFields>
+        <searchResultsAdditionalFields>Apttus__Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__ObligationName__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__StartDate__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__EndDate__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__TransactionPrice__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__AllocationAmount__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__RevRec_Rule__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__Status__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

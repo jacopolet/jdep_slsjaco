@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Custom setting used to map tax condition types with fields</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>APTS_Tax_field_on_price_list_item__c</fullName>
+        <description>Tax field mapped to condition type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Tax field mapped to condition type</inlineHelpText>
+        <label>Tax field on price list item</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_UOM_Supported__c</fullName>
+        <description>UOM supported by the condition type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>UOM supported by the condition type</inlineHelpText>
+        <label>UOM Supported</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>APTS_Tax_Pricing_Mapping</label>
+    <listViews>
+        <fullName>all</fullName>
+        <columns>NAME</columns>
+        <columns>OBJECT_ID</columns>
+        <columns>SETUP_TYPE</columns>
+        <columns>SETUP_OWNER_NAME</columns>
+        <columns>APTS_Tax_field_on_price_list_item__c</columns>
+        <columns>APTS_UOM_Supported__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>all</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

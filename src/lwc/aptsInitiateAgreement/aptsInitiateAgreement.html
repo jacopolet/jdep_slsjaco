@@ -1,0 +1,145 @@
+<!--
+  @description       : LWC used for showing first page of Agreement New UX
+  @author            : Renuka Ganesan
+  @group             : 
+  @last modified on  : 19-04-2021
+  @last modified by  : Karan Khatri
+  Modifications Log 
+  Ver   Date         Author         Modification
+  1.0   12-04-2021   Renuka Ganesan  Initial Version
+  1.1   13-04-2021   Karan Khatri    Added changes for category level(DQ-4112)
+-->
+<template>
+    <br/>
+    <div class="slds-path">
+        <div class="slds-grid slds-path__track">
+          <div class="slds-grid slds-path__scroller-container">
+            <div class="slds-path__scroller">
+              <div class="slds-path__scroller_inner">
+                <ul class="slds-path__nav" role="listbox" aria-orientation="horizontal">
+                <template for:each={agreementStages} for:item="agreementStage">
+                      <li class={agreementStage.class} role="presentation" key={agreementStage.name}>
+                            <a aria-selected="true" class="slds-path__link"  id={agreementStage.name} role="option" tabindex="0">
+                            <span class="slds-path__stage">
+                                    <lightning-icon
+                                    variant="bare"
+                                    class="slds-button__icon"
+                                    icon-name="utility:check"
+                                    size="x-small"
+                                    alternative-text={agreementStage}></lightning-icon>
+                                <span class="slds-assistive-text">Current Stage:</span>
+                            </span>
+                            <span class="slds-path__title">{agreementStage.name}</span>
+                            </a>
+                        </li>
+                </template>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div if:true={showNewAgreePage} class="slds-align_absolute-center">
+        <lightning-card title="New Agreement" icon-name="standard:contract" class="slds-align_absolute-center">
+            <div if:false={isLoaded} class="slds-card__header slds-is-relative">
+                <lightning-spinner alternative-text="Loading..." variant="brand"> </lightning-spinner>       
+            </div> 
+            <lightning-layout style="height: 650px;">
+                <lightning-record-edit-form object-api-name="Apttus__APTS_Agreement__c" onload={handleLoad}>
+                    <lightning-messages></lightning-messages>
+                    <div if:true={isLoaded} class="slds-box slds-grid slds-gutters slds-wrap slds-align_absolute-center">
+                        <div class="slds-col  slds-size_1-of-2" >
+                            <lightning-combobox name="progress"
+                                                label="Deal Type"
+                                                value={selectedDealType}
+                                                placeholder="Select Deal Type"
+                                                options={dealType}
+                                                onchange={handleDealType}></lightning-combobox>
+                        </div> 
+                        <div class="slds-col slds-size_1-of-2"  >
+                            <lightning-combobox name="Sub Type"
+                                                label="Sub Type"
+                                                value={selectedSubType}
+                                                placeholder="Select Sub Type"
+                                                options={subType}
+                                                onchange={handleSubType}></lightning-combobox>
+                        </div>  
+                        <div class="slds-col slds-size_1-of-2"  >
+                            <lightning-input-field field-name="Apttus__Contract_Start_Date__c" value={startDate} onchange={handleStartDateChange} required="true"></lightning-input-field>
+                        </div> 
+                        <div class="slds-col slds-size_1-of-2" >
+                            <lightning-input-field field-name="Apttus__Contract_End_Date__c" value={endDate} onchange={handleEndDateChange} disabled={disableEndDate} required="true"></lightning-input-field>
+                        </div> 
+                        <div class="slds-col slds-size_1-of-2" >
+                            <lightning-input type="number"
+                                            label="Contract Period"
+                                            step="0.01" value={period} onfocusout={handleContractPeriod} disabled={disableDuration} required="true">
+                            </lightning-input>
+                        </div> 
+                        <div class="slds-col slds-size_1-of-2" >
+                            <lightning-input-field field-name="Apttus__Primary_Contact__c" value={contact} onchange={handleContact} required = "true"></lightning-input-field>
+                        </div> 
+                        <div class="slds-col slds-size_1-of-2" >
+                            <lightning-input-field field-name="Apttus__Auto_Renewal__c" value={autorenew} disabled={disableautorenew} onchange={handleAutoRenew}></lightning-input-field>
+                        </div> 
+                        <div class="slds-col slds-size_1-of-2" >
+                            <lightning-input-field field-name="APTS_Routesales__c" value={routesales} onchange={handleRouteSales}></lightning-input-field>
+                        </div> 
+                        <div class="slds-col slds-size_1-of-2" >
+                            <lightning-input-field field-name="Apttus_CMConfig__PriceListId__c" value={priceList} onchange={handlePriceList} required="true"></lightning-input-field>
+                        </div> 
+                        <div class="slds-col slds-size_1-of-2" >
+                            <lightning-input-field field-name="Apttus__Related_Opportunity__c" value={recordId} disabled="true"></lightning-input-field>
+                        </div> 
+                        <div class="slds-col  slds-size_1-of-2" >
+                            <lightning-combobox name="Delivery"
+                                                label="Preferred way of ingredient delivery"
+                                                value={delivery}
+                                                placeholder="Select Preferred way of delivery"
+                                                options={deliveryOptions}
+                                                onchange={handleDeliver}
+                                                disabled={disableDelivery} required=true></lightning-combobox>
+                        </div> 
+                        <div class="slds-col slds-size_1-of-2"  >
+                            <lightning-combobox name="Ordering"
+                                                label="Preferred way of ingredient ordering"
+                                                value={ordering}
+                                                placeholder="Select Preferred way of ordering"
+                                                options={orderingOptions}
+                                                onchange={handleOrder}
+                                                disabled={disableOrdering} required=true></lightning-combobox>
+                        </div>
+                        <br/>
+                    </div>
+                    
+                    <div if:true={isLoaded} class="slds-clearfix">
+                        <div class="slds-float_right slds-m-top_x-small">
+                            <lightning-button variant="brand" type="next" name=" Next " label=" Next " onclick={handleNext} class="slds-m-right_large"></lightning-button>
+                        </div>
+                    </div>
+                </lightning-record-edit-form>
+            </lightning-layout>
+        </lightning-card>
+    </div> 
+    <div if:true={notification.show}  style="position: absolute; top:20%; width:70%">
+        <div class="slds-notify_container slds-is-relative">
+            <div class={notification.style} role="status">                                
+                <lightning-icon icon-name="utility:warning" alternative-text="Warning!" size="small" title="default style"></lightning-icon>
+                <div class="slds-notify__content">
+                    <h2 class="slds-text-heading_small">{notification.title}</h2>
+                    <p>{notification.message}</p>
+                </div>
+                <div class="slds-notify__close">
+                    <lightning-button-icon icon-name="utility:close"  alternative-text="close" title="close" onclick={hideNotification}></lightning-button-icon>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Added Changes related to category level-->
+    <template if:true={showCategoryPage}>
+        <c-apts-agreement-catalog-page agreementwrapper={allRecordsJSONString} minicartwrapper={miniCartItemsJSON} ongotopreviouspage={handleGoToNewAgreementPage} ongotonextpage={handleGoToProductConfigPage} onminicartitems={handleMiniCartItems}></c-apts-agreement-catalog-page>
+    </template>   
+    <!--<template if:true={showConfigurationPage}>
+        <c-apts-product-configuration-page minicartwrapper={miniCartItemsJSON} ongotopreviouspage={handleGoToCatalogPage} ongotonextpage={handle} onconfigureditems={handleConfiguredItems}></c-apts-product-configuration-page>
+    </template> -->            
+</template>

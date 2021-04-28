@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Controls lookup field behavior in Apttus CPQ.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Apttus_Config2__DefaultFlagField__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Field API from the Junction object to determine the default value of a lookup field, this field must be a checkbox.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Field API from the Junction object to determine the default value of a lookup field, this field must be a checkbox.</inlineHelpText>
+        <label>Junction Default Flag</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DisplayColumns__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Configure the columns of the Lookup popup Fields from the Lookup Object which you&apos;d like to display by populating with the fields APIs from the Lookup Object such as Name__c, additional can be added comma-separated without spaces.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Configure the columns of the Lookup popup Fields from the Lookup Object which you&apos;d like to display by populating with the fields APIs from the Lookup Object such as Name__c, additional can be added comma-separated without spaces.</inlineHelpText>
+        <label>Lookup Display Columns</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__FilterCriteria2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Field to be used as an extension to Filter Criteria. Contents of this field will be concatenated to the content of &quot;Filter Criteria&quot; without any validation while evaluating.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Field to be used as an extension to Filter Criteria. Contents of this field will be concatenated to the content of &quot;Filter Criteria&quot; without any validation while evaluating.</inlineHelpText>
+        <label>Filter Criteria 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__FilterCriteria__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Formula to filter lookup values; Formulas are built with with left as a lookup or junction and right as the object. For example Account__c.City__c = Apttus_Config2__Lineitem__c.City__c, show accounts with cities with the same Line item City.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Formula to filter lookup values; Formulas are built with with left as a lookup or junction and right as the object. For example Account__c.City__c = Apttus_Config2__Lineitem__c.City__c, show accounts with cities with the same Line item City.</inlineHelpText>
+        <label>Filter Criteria</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LookupFieldName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>API name of the Lookup field on the Line Item or Product Attribute Value Object defined under Object Name.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>API name of the Lookup field on the Line Item or Product Attribute Value Object defined under Object Name.</inlineHelpText>
+        <label>Lookup Field Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LookupRecordLimit__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The maximum number of records to query for the lookup field dropdown. Default value is 200 up to maximum of 1000.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The maximum number of records to query for the lookup field dropdown. Default value is 200 up to maximum of 1000.</inlineHelpText>
+        <label>Lookup Record Limit</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ObjectName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The API name of the object where the lookup field exists. Valid entries are Apttus_Config2__LineItem__c or Apttus_Config2__ProductAttributeValue__c.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The API name of the object where the lookup field exists. Valid entries are Apttus_Config2__LineItem__c or Apttus_Config2__ProductAttributeValue__c.</inlineHelpText>
+        <label>Object Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SourceField__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Field on the junction object which you would like to filter the lookup field by.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Field on the junction object which you would like to filter the lookup field by.</inlineHelpText>
+        <label>Junction Field Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SourceObject__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The junction object which you would like to filter the lookup values. This is a custom object that you can define to filter the values which do not exist on the Lookup Object itself.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The junction object which you would like to filter the lookup values. This is a custom object that you can define to filter the values which do not exist on the Lookup Object itself.</inlineHelpText>
+        <label>Junction Object Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Lookup Field Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

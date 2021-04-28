@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Account_Location__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account Location</label>
+        <referenceTo>Apttus_Config2__AccountLocation__c</referenceTo>
+        <relationshipLabel>Perfect Experience Surveys</relationshipLabel>
+        <relationshipName>Perfect_Experience_Surveys</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Perfect Experience Surveys</relationshipLabel>
+        <relationshipName>Perfect_Experience_Surveys</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Agreement_Based_Survey__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Agreement Based Survey</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Barista_Station__c</fullName>
+        <externalId>false</externalId>
+        <label>Barista Station</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>true</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Cacao_Score_Color__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND( Cacao_Score__c &lt; 7, Cacao_Score__c  &gt;= 0 ),IMAGE(&apos;/resource/Red_Score&apos;, &apos;Red_Score&apos;, 35, 40), 
+IF(Cacao_Score__c  &gt;= 7,IMAGE(&apos;/resource/Green_Score&apos;, &apos;Green_Score&apos;, 35, 40),&apos; &apos;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Cacao Score Color</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cacao_Score__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Cacao Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cacao__c</fullName>
+        <externalId>false</externalId>
+        <label>Cacao</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cacao Yes</fullName>
+                    <default>false</default>
+                    <label>Cacao Yes</label>
+                </value>
+                <value>
+                    <fullName>Cacao No</fullName>
+                    <default>false</default>
+                    <label>Cacao No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Coffee_Score_Color__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(Coffee_Score__c &lt; 10, Coffee_Score__c &gt;= 0 ),IMAGE(&apos;/resource/Red_Score&apos;, &apos;Red_Score&apos;, 35, 40), 
+IF(AND(Coffee_Score__c &lt;= 15, Coffee_Score__c &gt;= 10 ),IMAGE(&apos;/resource/Orange_Score&apos;, &apos;Orange_Score&apos;, 35, 40),
+IF(Coffee_Score__c &gt; 15,IMAGE(&apos;/resource/Green_Score&apos;, &apos;Green_Score&apos;, 35, 40),&apos; &apos;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Coffee Score Color</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Coffee_Score__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Coffee Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Coffee__c</fullName>
+        <externalId>false</externalId>
+        <label>Coffee</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Blend mainstream</fullName>
+                    <default>false</default>
+                    <label>Blend mainstream</label>
+                </value>
+                <value>
+                    <fullName>Blend premium</fullName>
+                    <default>false</default>
+                    <label>Blend premium</label>
+                </value>
+                <value>
+                    <fullName>Cafitesse</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Cafitesse</label>
+                </value>
+                <value>
+                    <fullName>Coffee Capsules</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Coffee Capsules</label>
+                </value>
+                <value>
+                    <fullName>Coffee No</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Coffee No</label>
+                </value>
+                <value>
+                    <fullName>Espresso - Mainstream+</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Espresso - Mainstream+</label>
+                </value>
+                <value>
+                    <fullName>Espresso - Premium</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Espresso - Premium</label>
+                </value>
+                <value>
+                    <fullName>Filter coffee</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Filter coffee</label>
+                </value>
+                <value>
+                    <fullName>Fresh Brew</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Fresh Brew</label>
+                </value>
+                <value>
+                    <fullName>Ice Coffee</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Ice Coffee</label>
+                </value>
+                <value>
+                    <fullName>Instant</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Instant</label>
+                </value>
+                <value>
+                    <fullName>Promesso</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Promesso</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Comm_Non_Comm__c</fullName>
+        <externalId>false</externalId>
+        <label>Comm / Non Comm</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>PKL_Category</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Cups_Glasses_Porcelain_Score_Color__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND( Cups_Glasses_Porcelain_Score__c  &lt; 15, Cups_Glasses_Porcelain_Score__c &gt;= 0 ),IMAGE(&apos;/resource/Red_Score&apos;, &apos;Red_Score&apos;, 35, 40), 
+IF(Cups_Glasses_Porcelain_Score__c &gt;= 15,IMAGE(&apos;/resource/Green_Score&apos;, &apos;Green_Score&apos;, 35, 40), &apos; &apos;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Cups/Glasses &amp; Porcelain Score Color</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cups_Glasses_Porcelain_Score__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Cups/Glasses &amp; Porcelain Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cups_Glasses_Porcelain__c</fullName>
+        <externalId>false</externalId>
+        <label>Cups/Glasses &amp; Porcelain</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cups / Glasses &amp; Porcelain Yes</fullName>
+                    <default>false</default>
+                    <label>Cups / Glasses &amp; Porcelain Yes</label>
+                </value>
+                <value>
+                    <fullName>Cups / Glasses &amp; Porcelain No</fullName>
+                    <default>false</default>
+                    <label>Cups / Glasses &amp; Porcelain No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Display_Accessoires_Score_Color__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND( Display_Accessoires_Score__c  &lt; 2.5, Display_Accessoires_Score__c &gt;= 0 ),IMAGE(&apos;/resource/Red_Score&apos;, &apos;Red_Score&apos;, 35, 40), 
+IF(AND(Display_Accessoires_Score__c &lt; 5, Display_Accessoires_Score__c &gt;= 2.5 ),IMAGE(&apos;/resource/Orange_Score&apos;, &apos;Orange_Score&apos;, 35, 40), 
+IF(Display_Accessoires_Score__c &gt;= 5,IMAGE(&apos;/resource/Green_Score&apos;, &apos;Green_Score&apos;, 35, 40),&apos; &apos;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Display &amp; Accessoires Score Color</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Display_Accessoires_Score__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Display &amp; Accessoires Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Display_Accessoires__c</fullName>
+        <externalId>false</externalId>
+        <label>Display &amp; Accessoires</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Tea display</fullName>
+                    <default>false</default>
+                    <label>Tea display</label>
+                </value>
+                <value>
+                    <fullName>Cross sell display</fullName>
+                    <default>false</default>
+                    <label>Cross sell display</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Grand_Total_Survey_Score_Percent__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(ROUND(Grand_Total_Survey_Score__c,2)) + &apos;%&apos;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Grand Total Survey Score</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Grand_Total_Survey_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>Total_Survey_Score__c * Occasions__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Total Survey Score * Number of occasions</inlineHelpText>
+        <label>Grand Total Survey Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Iced_Coffee__c</fullName>
+        <externalId>false</externalId>
+        <label>Iced Coffee</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Iced Coffee Yes</fullName>
+                    <default>false</default>
+                    <label>Iced Coffee Yes</label>
+                </value>
+                <value>
+                    <fullName>Iced Coffee No</fullName>
+                    <default>false</default>
+                    <label>Iced Coffee No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IsActive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>IsActive</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Machine_Score_Color__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND( Machine_Score__c  &lt; 8, Machine_Score__c &gt;= 0 ),IMAGE(&apos;/resource/Red_Score&apos;, &apos;Red_Score&apos;, 35, 40), 
+IF(Machine_Score__c &gt;= 8,IMAGE(&apos;/resource/Green_Score&apos;, &apos;Green_Score&apos;, 35, 40), &apos; &apos;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Machine Score Color</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Machine_Score__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Machine Score</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Machine__c</fullName>
+        <externalId>false</externalId>
+        <label>Machine</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Machine Yes</fullName>
+                    <default>false</default>
+                    <label>Machine Yes</label>
+                </value>
+                <value>
+                    <fullName>Machine No</fullName>
+                    <default>false</default>
+                    <label>Machine No</label>
+                </value>
+                <value>
+                    <fullName>Capsules</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Capsules</label>
+                </value>
+                <value>
+                    <fullName>Filter</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Filter</label>
+                </value>
+                <value>
+                    <fullName>Fresh brew</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Fresh brew</label>
+                </value>
+                <value>
+                    <fullName>Instant</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Instant</label>
+                </value>
+                <value>
+                    <fullName>Liquid</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Liquid</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Milk_Score_Color__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND( Milk_Score__c  &lt; 10, Milk_Score__c &gt;= 0 ),IMAGE(&apos;/resource/Red_Score&apos;, &apos;Red_Score&apos;, 35, 40), 
+IF(Milk_Score__c &gt;= 10,IMAGE(&apos;/resource/Green_Score&apos;, &apos;Green_Score&apos;, 35, 40), &apos; &apos;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Milk Score Color</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Milk_Score__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Milk Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Milk__c</fullName>
+        <externalId>false</externalId>
+        <label>Milk</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Milk Yes</fullName>
+                    <default>false</default>
+                    <label>Milk Yes</label>
+                </value>
+                <value>
+                    <fullName>Milk No</fullName>
+                    <default>false</default>
+                    <label>Milk No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Occasion__c</fullName>
+        <externalId>false</externalId>
+        <label>Occasion</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>PKL_Occassion</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Occasions__c</fullName>
+        <externalId>false</externalId>
+        <label># Occasions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Power_of_One__c</fullName>
+        <externalId>false</externalId>
+        <formula>1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>PERFECT EXPERIENCE SURVEY</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Segment_API__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Account__r.Segment__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Segment API</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Segment__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(TEXT(Account__r.Segment__c), &apos;SAP_A&apos;,&apos;Small Business&apos;,&apos;SAP_B&apos;, &apos;Medium Business&apos;, &apos;	SAP_C&apos;, &apos;Large Business&apos;, &apos;SAP_D&apos;, &apos;Health &amp; Care&apos;, &apos;SAP_E&apos;, &apos;Education&apos;, &apos;SAP_F&apos;, &apos;Rest. Cafes &amp; Bars&apos;, &apos;SAP_G&apos;, &apos;Hotels and Gaming&apos;, &apos;SAP_H&apos;, &apos;Quick Ser &amp; Coffee&apos;, &apos;SAP_I&apos;, &apos;Convenience &amp; Retail&apos;, &apos;SAP_J&apos;, &apos;Leisure&apos;, &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Segment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Service_Training_Score_Color__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND( Service_Training_Score__c &lt; 5, Service_Training_Score__c &gt;= 0 ),IMAGE(&apos;/resource/Red_Score&apos;, &apos;Red_Score&apos;, 35, 40), 
+IF(Service_Training_Score__c  &gt;= 5,IMAGE(&apos;/resource/Green_Score&apos;, &apos;Green_Score&apos;, 35, 40),&apos; &apos;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Service &amp; Training Score Color</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Service_Training_Score__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Service &amp; Training Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Service_Training__c</fullName>
+        <externalId>false</externalId>
+        <label>Service</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Service Yes</fullName>
+                    <default>false</default>
+                    <label>Service Yes</label>
+                </value>
+                <value>
+                    <fullName>Service No</fullName>
+                    <default>false</default>
+                    <label>Service No</label>
+                </value>
+                <value>
+                    <fullName>All in</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>All in</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Medium</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sub_Segment__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Account__r.Subsegment__c )</formula>
+        <label>Sub Segment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sugar_Score_Color__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND( Sugar_Score__c  &lt; 10, Sugar_Score__c &gt;= 0 ),IMAGE(&apos;/resource/Red_Score&apos;, &apos;Red_Score&apos;, 35, 40), 
+IF(Sugar_Score__c &gt;= 10,IMAGE(&apos;/resource/Green_Score&apos;, &apos;Green_Score&apos;, 35, 40),&apos; &apos;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Sugar Score Color</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sugar_Score__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Sugar Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sugar__c</fullName>
+        <externalId>false</externalId>
+        <label>Sugar</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sugar Yes</fullName>
+                    <default>false</default>
+                    <label>Sugar Yes</label>
+                </value>
+                <value>
+                    <fullName>Sugar No</fullName>
+                    <default>false</default>
+                    <label>Sugar No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tea_Score_Color__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(Tea_Score__c &lt; 5, Tea_Score__c &gt;= 0 ),IMAGE(&apos;/resource/Red_Score&apos;, &apos;Red_Score&apos;, 35, 40), 
+IF(AND(Tea_Score__c &lt; 15, Tea_Score__c &gt;= 5 ),IMAGE(&apos;/resource/Orange_Score&apos;, &apos;Orange_Score&apos;, 35, 40), 
+IF(Tea_Score__c &gt;= 15,IMAGE(&apos;/resource/Green_Score&apos;, &apos;Green_Score&apos;, 35, 40),&apos; &apos;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tea Score Color</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tea_Score__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Tea Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tea__c</fullName>
+        <externalId>false</externalId>
+        <label>Tea</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Tea - Mainstream</fullName>
+                    <default>false</default>
+                    <label>Tea - Mainstream</label>
+                </value>
+                <value>
+                    <fullName>Tea - Mainstream Plus</fullName>
+                    <default>false</default>
+                    <label>Tea - Mainstream Plus</label>
+                </value>
+                <value>
+                    <fullName>Tea - Premium</fullName>
+                    <default>false</default>
+                    <label>Tea premium</label>
+                </value>
+                <value>
+                    <fullName>Tea No</fullName>
+                    <default>false</default>
+                    <label>Tea No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Total_Survey_Score_Percent__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(ROUND(Total_Survey_Score__c,2)) + &apos;%&apos;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Survey Score</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Survey_Score_Placeholder__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Survey Score Placeholder</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Survey_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>Cacao_Score__c +  Coffee_Score__c + Cups_Glasses_Porcelain_Score__c +  Display_Accessoires_Score__c +  Machine_Score__c +  Milk_Score__c +  Service_Training_Score__c +  Sugar_Score__c +  Tea_Score__c</formula>
+        <inlineHelpText>Sum of all category scores</inlineHelpText>
+        <label>Total Survey Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Visit_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Visit Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <label>Perfect Experience Survey</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>Account_Location__c</columns>
+        <columns>Barista_Station__c</columns>
+        <columns>Comm_Non_Comm__c</columns>
+        <columns>Occasions__c</columns>
+        <columns>Visit_Date__c</columns>
+        <columns>IsActive__c</columns>
+        <columns>Total_Survey_Score__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>My_Perfect_Experience_Surveys</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>Segment__c</columns>
+        <columns>Occasion__c</columns>
+        <columns>Occasions__c</columns>
+        <columns>Account_Location__c</columns>
+        <columns>IsActive__c</columns>
+        <columns>Visit_Date__c</columns>
+        <columns>Total_Survey_Score__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>My Perfect Experience Surveys</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>PE-{0000000}</displayFormat>
+        <label>PE Survey Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Perfect Experience Surveys</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Visit_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Total_Survey_Score_Percent__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Account_Location__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Comm_Non_Comm__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Occasion__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Occasions__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Barista_Station__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IsActive__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Segment__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Account__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Total_Survey_Score_Percent__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Account_Location__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Comm_Non_Comm__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Occasion__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Occasions__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Barista_Station__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Visit_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>IsActive__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Account__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Total_Survey_Score_Percent__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Account_Location__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Comm_Non_Comm__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Occasion__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Occasions__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Barista_Station__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Visit_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IsActive__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Barista_value_is_No</fullName>
+        <active>false</active>
+        <description>If Barista is No then make the coffee, tea, machine, milk, sugar, cacao, service, cups/glasses &amp; porcelain, and display &amp; accesories</description>
+        <errorConditionFormula>AND( $Setup.ValidationRulesSettings__c.PerfectExperienceSurveyValidationRule__c, ISPICKVAL( Barista_Station__c , &apos;No&apos;),OR(ISBLANK(TEXT( Cacao__c )),  ISBLANK(TEXT( Coffee__c )),  ISBLANK(TEXT( Cups_Glasses_Porcelain__c )), ISBLANK(TEXT( Machine__c )),  ISBLANK(TEXT( Milk__c )),  ISBLANK(TEXT( Service_Training__c )),  ISBLANK(TEXT( Sugar__c )),  ISBLANK(TEXT( Tea__c )), ISBLANK( Display_Accessoires__c )))</errorConditionFormula>
+        <errorMessage>Make sure that Coffee, Cacao, Cups/Glasses &amp; Porcelain, Display &amp; Accessoires, Machine, Milk, Service &amp; Training, Sugar and Tea has value</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

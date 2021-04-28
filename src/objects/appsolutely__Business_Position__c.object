@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>A Business Position connects a Business with a Person based on a function</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>appsolutely__Authorization_Constraints__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Authorization constraint(s) of the Position.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The constraints that apply to the authority of the Business Position.</inlineHelpText>
+        <label>Authorization Constraints</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Authorization_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Authorization description of the Position.</description>
+        <externalId>false</externalId>
+        <label>Authorization Description</label>
+        <length>10000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Authorization_End_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Authorization End Date of the Position.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date on which the mandate has ended or will end.</inlineHelpText>
+        <label>Authorization End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Authorization_Establishment_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Authorization establishment number of the Position.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The establishment number of the establishment for which this business person or organization has been authorized.</inlineHelpText>
+        <label>Authorization Establishment Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Authorization_Signing_Power__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Function authorization signing power of the Position.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The signing authority that comes with the mandate.</inlineHelpText>
+        <label>Authorization Signing Power</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Authorization_Start_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Authorization Start Date of thePosition.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date on which the authorization was assigned.</inlineHelpText>
+        <label>Authorization Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Business_Dossier__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The business dossier this function applies to.</description>
+        <externalId>false</externalId>
+        <label>Business Dossier</label>
+        <referenceTo>appsolutely__Business_Dossier__c</referenceTo>
+        <relationshipLabel>Business Positions</relationshipLabel>
+        <relationshipName>Business_Positions</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Business_Person__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The business person this function applies to.</description>
+        <externalId>false</externalId>
+        <label>Business Person</label>
+        <referenceTo>appsolutely__Business_Person__c</referenceTo>
+        <relationshipLabel>Business Positions</relationshipLabel>
+        <relationshipName>Business_Positions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Filled_By_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Returns the id of either the person or the organisation, depending on which is filled in.</description>
+        <externalId>false</externalId>
+        <formula>IF( NOT(ISBLANK( appsolutely__Business_Person__c )) , appsolutely__Business_Person__c, appsolutely__Organisation__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Filled By Id</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Filled_By__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Returns the name of either the person or the organisation, depending on which is filled in.</description>
+        <externalId>false</externalId>
+        <formula>IF( NOT(ISBLANK( appsolutely__Business_Person__c )) ,  appsolutely__Business_Person__r.Name,   appsolutely__Organisation__r.Name )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Filled By</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Function_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The code of the function.</description>
+        <externalId>false</externalId>
+        <label>Function Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Function_End_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date at which this person ended the function.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date at which this person ended the function.</inlineHelpText>
+        <label>Function End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Function_Registration_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date this function was first registered.</description>
+        <externalId>false</externalId>
+        <label>Function Registration Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Function_Start_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date this person started as this function.</description>
+        <externalId>false</externalId>
+        <label>Function Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Function_Title__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name / title of the function.</description>
+        <externalId>false</externalId>
+        <label>Function Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Function_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The type of the function.</description>
+        <externalId>false</externalId>
+        <label>Function Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Organisation__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The organisation which hold a specific business position.</description>
+        <externalId>false</externalId>
+        <label>Organisation</label>
+        <referenceTo>appsolutely__Business_Dossier__c</referenceTo>
+        <relationshipLabel>Business Positions (Organisation)</relationshipLabel>
+        <relationshipName>Business_Positions1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Business Position</label>
+    <nameField>
+        <label>Business Position Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Business Positions</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

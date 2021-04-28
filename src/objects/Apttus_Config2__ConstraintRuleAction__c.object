@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Captures information about rule actions. Rule actions are applied only when the rule conditions are satisfied.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>APTS_Ext_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>APTS Ext ID</label>
+        <length>60</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ActionCriteria__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Represents the criteria to search for product or match a product depending on the type of the rule.</description>
+        <externalId>false</externalId>
+        <label>Action Criteria</label>
+        <length>8192</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ActionDisposition__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Whether the action can be ignored.</description>
+        <externalId>false</externalId>
+        <label>Action Disposition</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Error</fullName>
+                    <default>false</default>
+                    <label>Error</label>
+                </value>
+                <value>
+                    <fullName>Warning</fullName>
+                    <default>false</default>
+                    <label>Warning</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ActionIntent__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Describes the intent of the action</description>
+        <externalId>false</externalId>
+        <label>Action Intent</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Apttus_Config2__ActionType__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Auto Include</fullName>
+                    <default>false</default>
+                    <label>Auto Include</label>
+                </value>
+                <value>
+                    <fullName>Prompt</fullName>
+                    <default>false</default>
+                    <label>Prompt</label>
+                </value>
+                <value>
+                    <fullName>Show Message</fullName>
+                    <default>false</default>
+                    <label>Show Message</label>
+                </value>
+                <value>
+                    <fullName>Check on Finalization</fullName>
+                    <default>false</default>
+                    <label>Check on Finalization</label>
+                </value>
+                <value>
+                    <fullName>Disable Selection</fullName>
+                    <default>false</default>
+                    <label>Disable Selection</label>
+                </value>
+                <value>
+                    <fullName>Hide</fullName>
+                    <default>false</default>
+                    <label>Hide</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Inclusion</controllingFieldValue>
+                <controllingFieldValue>Replacement</controllingFieldValue>
+                <valueName>Auto Include</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Inclusion</controllingFieldValue>
+                <controllingFieldValue>Exclusion</controllingFieldValue>
+                <controllingFieldValue>Recommendation</controllingFieldValue>
+                <controllingFieldValue>Replacement</controllingFieldValue>
+                <valueName>Prompt</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Inclusion</controllingFieldValue>
+                <controllingFieldValue>Exclusion</controllingFieldValue>
+                <controllingFieldValue>Validation</controllingFieldValue>
+                <controllingFieldValue>Recommendation</controllingFieldValue>
+                <controllingFieldValue>Replacement</controllingFieldValue>
+                <valueName>Show Message</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Inclusion</controllingFieldValue>
+                <controllingFieldValue>Exclusion</controllingFieldValue>
+                <controllingFieldValue>Validation</controllingFieldValue>
+                <controllingFieldValue>Recommendation</controllingFieldValue>
+                <controllingFieldValue>Replacement</controllingFieldValue>
+                <valueName>Check on Finalization</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Exclusion</controllingFieldValue>
+                <valueName>Disable Selection</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Exclusion</controllingFieldValue>
+                <valueName>Hide</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ActionType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Action Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Inclusion</fullName>
+                    <default>true</default>
+                    <label>Inclusion</label>
+                </value>
+                <value>
+                    <fullName>Exclusion</fullName>
+                    <default>false</default>
+                    <label>Exclusion</label>
+                </value>
+                <value>
+                    <fullName>Validation</fullName>
+                    <default>false</default>
+                    <label>Validation</label>
+                </value>
+                <value>
+                    <fullName>Recommendation</fullName>
+                    <default>false</default>
+                    <label>Recommendation</label>
+                </value>
+                <value>
+                    <fullName>Replacement</fullName>
+                    <default>false</default>
+                    <label>Replacement</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AutoExclude__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Match only in asset, ignore cart.</description>
+        <externalId>false</externalId>
+        <label>Ignore Cart</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AutoInclude__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Whether to automatically include the product matched by the include type rule action criteria.</description>
+        <externalId>false</externalId>
+        <label>Auto Include (Deprecated)</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ConstraintRuleId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>References the master Constraint Rule record</description>
+        <externalId>false</externalId>
+        <label>Constraint Rule</label>
+        <referenceTo>Apttus_Config2__ConstraintRule__c</referenceTo>
+        <relationshipLabel>Constraint Rule Actions</relationshipLabel>
+        <relationshipName>ConstraintRuleActions</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EditCriteria__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Edit &quot;Action Criteria&quot; button</description>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;/apex/Apttus_Config2__ConstraintRuleActionCriteriaEdit?id=&quot; &amp;Id, IMAGE(&quot;/resource/Apttus_Config2__Button_EditCriteria&quot;, &quot;Edit Criteria&quot;),&quot;_self&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Edit Criteria</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IncludeMatchRule__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Applicable only to include type rule action. For include min/max include min product should be specified.</description>
+        <externalId>false</externalId>
+        <label>Min/Max Match Rule</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Apttus_Config2__ActionType__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Include Any</fullName>
+                    <default>false</default>
+                    <label>Include Any</label>
+                </value>
+                <value>
+                    <fullName>Include All</fullName>
+                    <default>false</default>
+                    <label>Include All</label>
+                </value>
+                <value>
+                    <fullName>Include Min/Max</fullName>
+                    <default>false</default>
+                    <label>Include Min/Max</label>
+                </value>
+                <value>
+                    <fullName>Exclude All</fullName>
+                    <default>false</default>
+                    <label>Exclude All</label>
+                </value>
+                <value>
+                    <fullName>Exclude After One</fullName>
+                    <default>false</default>
+                    <label>Exclude After One</label>
+                </value>
+                <value>
+                    <fullName>Exclude After Max</fullName>
+                    <default>false</default>
+                    <label>Exclude After Max</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Inclusion</controllingFieldValue>
+                <valueName>Include Any</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Inclusion</controllingFieldValue>
+                <valueName>Include All</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Inclusion</controllingFieldValue>
+                <valueName>Include Min/Max</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Exclusion</controllingFieldValue>
+                <valueName>Exclude All</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Exclusion</controllingFieldValue>
+                <valueName>Exclude After One</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Exclusion</controllingFieldValue>
+                <valueName>Exclude After Max</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IncludeMaxProducts__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Maximum number of products that can be included. It is not applicable to include type rule action. Future recommend type rule action will require this field</description>
+        <externalId>false</externalId>
+        <label>Max Products</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IncludeMinProducts__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Minimum number of products that should be selected until the rule action message is displayed to select a product.</description>
+        <externalId>false</externalId>
+        <label>Min Products</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MatchInAsset__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Whether to match the product in asset record</description>
+        <externalId>false</externalId>
+        <label>Match In Asset</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MatchInCartOptions__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Whether to check for options in the whole cart</description>
+        <externalId>false</externalId>
+        <label>Match In Cart Options</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MatchInOptions__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Whether to match the product in options</description>
+        <externalId>false</externalId>
+        <label>Match In Options</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MatchInPrimaryLines__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Whether to match the product among the products added as primary lines in the shopping cart.</description>
+        <externalId>false</externalId>
+        <label>Match In Primary Lines</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Message__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Message entered in this field is displayed when the rule action requires user attention.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Example: Please select one of the following product {0}.</inlineHelpText>
+        <label>Message</label>
+        <length>2048</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductCategory__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Product category should be specified when product scope is set as Product Category</description>
+        <externalId>false</externalId>
+        <label>Product Category (Deprecated)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductFamily__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Product family should be specified when the product scope is set as Product Family.</description>
+        <externalId>false</externalId>
+        <label>Product Family</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductGroupId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Product Group should be specified only when product scope is set as product group</description>
+        <externalId>false</externalId>
+        <label>Product Group</label>
+        <referenceTo>Apttus_Config2__ProductGroup__c</referenceTo>
+        <relationshipLabel>Constraint Rule Actions</relationshipLabel>
+        <relationshipName>ConstraintRuleActions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Product should be specified when product scope is set as Product.</description>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Constraint Rule Actions</relationshipLabel>
+        <relationshipName>ConstraintRuleActions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductScope__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Represents how to match a product for the rule action.</description>
+        <externalId>false</externalId>
+        <label>Product Scope</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Product</fullName>
+                    <default>false</default>
+                    <label>Product</label>
+                </value>
+                <value>
+                    <fullName>Product Family</fullName>
+                    <default>false</default>
+                    <label>Product Family</label>
+                </value>
+                <value>
+                    <fullName>Product Group</fullName>
+                    <default>false</default>
+                    <label>Product Group</label>
+                </value>
+                <value>
+                    <fullName>Action Criteria</fullName>
+                    <default>false</default>
+                    <label>Action Criteria</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RepeatInclusion__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>For every line item with triggering products there should be a line item with action product.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this to repeat inclusion.</inlineHelpText>
+        <label>Repeat Inclusion</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Sequence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Represents the sequence number of the rule.</description>
+        <externalId>false</externalId>
+        <label>Sequence</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Constraint Rule Action</label>
+    <nameField>
+        <label>Constraint Rule Action Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Constraint Rule Actions</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

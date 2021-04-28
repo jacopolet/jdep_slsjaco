@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents a legal entity</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Apttus_Billing__FromEmailAddress__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The optional Email address that will override the &quot;Billing Org-Wide Email Address&quot; when emailing Invoice and Credit Memo attachments.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The optional Email address that will override the &quot;Billing Org-Wide Email Address&quot; when emailing Invoice and Credit Memo attachments.</inlineHelpText>
+        <label>From Email Address</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AddressLine1__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Legal Entity Address Line 1</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Legal Entity Address Line 1</inlineHelpText>
+        <label>Legal Entity Address Line 1</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AddressLine2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Legal Entity Address Line 2</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Legal Entity Address Line 2</inlineHelpText>
+        <label>Legal Entity Address Line 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AddressLine3__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Legal Entity Address Line 3</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Legal Entity Address Line 3</inlineHelpText>
+        <label>Legal Entity Address Line 3</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AddressLine4__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Legal Entity Address Line 4</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Legal Entity Address Line 4</inlineHelpText>
+        <label>Legal Entity Address Line 4</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__City__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Legal Entity City</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Legal Entity City</inlineHelpText>
+        <label>Legal Entity City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CompanyCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The company code</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The company code</inlineHelpText>
+        <label>Company Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CountryCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Legal Entity Country Code</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Legal Entity Country Code</inlineHelpText>
+        <label>Legal Entity Country Code</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Apttus_Config2__Countries</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IsDefault__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether this is a default legal entity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This flag should e checked in order to use a default legal entity for any exception scenarios where the legal entity is missing.</inlineHelpText>
+        <label>Is Default</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LegalEntityName__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <description>The descriptive name of the legal entity</description>
+        <externalId>true</externalId>
+        <inlineHelpText>The descriptive name of the legal entity</inlineHelpText>
+        <label>Entity Name</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PostalCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Legal Entity Postal Code</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Legal Entity Postal Code</inlineHelpText>
+        <label>Legal Entity Postal Code</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__State__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Legal Entity State</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Legal Entity State</inlineHelpText>
+        <label>Legal Entity State</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__TaxId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Tax ID for the Legal Entity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Tax ID for the Legal Entity</inlineHelpText>
+        <label>Tax ID</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Telephone__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Legal Entity Phone Number</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Legal Entity Phone Number</inlineHelpText>
+        <label>Phone Number</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__VATEnabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether VAT is enabled for the legal entity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether VAT is enabled for the legal entity</inlineHelpText>
+        <label>VAT Enabled ?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__VATId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The VAT ID for the Legal Entity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The VAT ID for the Legal Entity</inlineHelpText>
+        <label>VAT ID</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Website__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Legal Entity Website Address</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Legal Entity Website Address</inlineHelpText>
+        <label>Website</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <label>Legal Entity</label>
+    <nameField>
+        <displayFormat>LE-{00000000}</displayFormat>
+        <label>Legal Entity Id</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Legal Entities</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Mapping between Incentive Benefit UOM Picklist field value to TAS UOM field value.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>IncentiveBenefitUOM__c</fullName>
+        <externalId>false</externalId>
+        <label>Incentive Benefit UOM</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TASUOM__c</fullName>
+        <externalId>false</externalId>
+        <label>TAS UOM</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>APTS IncentiveToTAS UOM Mapping</label>
+    <visibility>Public</visibility>
+</CustomObject>

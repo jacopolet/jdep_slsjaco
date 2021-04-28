@@ -1,0 +1,3920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <articleTypeChannelDisplay>
+        <articleTypeTemplates>
+            <channel>App</channel>
+            <template>Tab</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Prm</channel>
+            <template>Tab</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Csp</channel>
+            <template>Tab</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Pkb</channel>
+            <template>Toc</template>
+        </articleTypeTemplates>
+    </articleTypeChannelDisplay>
+    <compactLayoutAssignment>Knowledge_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Knowledge_Compact_Layout</fullName>
+        <fields>RecordTypeId</fields>
+        <fields>ArticleNumber</fields>
+        <fields>PublishStatus</fields>
+        <fields>LastModifiedDate</fields>
+        <fields>VersionNumber</fields>
+        <fields>Fix_by_phone__c</fields>
+        <fields>Language</fields>
+        <label>Knowledge Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <fields>
+        <fullName>Answer__c</fullName>
+        <externalId>false</externalId>
+        <label>Answer</label>
+        <length>32768</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Defect_Code__c</fullName>
+        <description>Indicates the Standardized codes for categorising a Defect on the Physical Asset</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the Standardized codes for categorising a Defect on the Physical Asset</inlineHelpText>
+        <label>Defect Code</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Defect_Code</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <description>Description of the inquiry</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Description of the inquiry</inlineHelpText>
+        <label>Description</label>
+        <length>32768</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Error_Code__c</fullName>
+        <description>The physical asset error code</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The physical asset error code</inlineHelpText>
+        <label>Error Code</label>
+        <length>30</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Error_Display_Message__c</fullName>
+        <description>The error or display message on the physical asset</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The error or display message on the physical asset</inlineHelpText>
+        <label>Error / Display Message</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Fault_Code__c</fullName>
+        <description>Indicates what has been worked on for this Case</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates what has been worked on for this Case</inlineHelpText>
+        <label>Fault Code</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Fault_Location_Category__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>Fault_Code</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>Door / Housing</controllingFieldValue>
+                <valueName>D01 - Housing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Door / Housing</controllingFieldValue>
+                <valueName>D02 - Door</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Door / Housing</controllingFieldValue>
+                <valueName>D03 - Door Hinge</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Door / Housing</controllingFieldValue>
+                <valueName>D04 - Door Lock</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Door / Housing</controllingFieldValue>
+                <valueName>D05 - Door Switch / Sensor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Door / Housing</controllingFieldValue>
+                <valueName>D06 - Cooling Compartment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Door / Housing</controllingFieldValue>
+                <valueName>D07 - Drip Tray / Drip Plate</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Door / Housing</controllingFieldValue>
+                <valueName>D08 - Wastebucket</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Door / Housing</controllingFieldValue>
+                <valueName>D09 - Selection Buttons</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Door / Housing</controllingFieldValue>
+                <valueName>D10 - Cup Sensor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Door / Housing</controllingFieldValue>
+                <valueName>D11 - Cup Dispensing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Door / Housing</controllingFieldValue>
+                <valueName>D12 - Cup Magazine</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Door / Housing</controllingFieldValue>
+                <valueName>D13 - Branch Pipe</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Door / Housing</controllingFieldValue>
+                <valueName>D14 - Drum</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Door / Housing</controllingFieldValue>
+                <valueName>D15 - Motor (Drum)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Door / Housing</controllingFieldValue>
+                <valueName>D16 - Helix</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Door / Housing</controllingFieldValue>
+                <valueName>D17 - Motor (Helix)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Door / Housing</controllingFieldValue>
+                <valueName>D18 - Shafts</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Door / Housing</controllingFieldValue>
+                <valueName>D19 - Stirrer Dispenser</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Door / Housing</controllingFieldValue>
+                <valueName>D20 - Cup Heater</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Door / Housing</controllingFieldValue>
+                <valueName>D21 - Basestand / Cabinet</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Door / Housing</controllingFieldValue>
+                <valueName>D22 - Cup Dispenser Basestand</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Door / Housing</controllingFieldValue>
+                <valueName>D23 - Cooling Filter</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Door / Housing</controllingFieldValue>
+                <valueName>D24 - Condensor / Evaporator</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E01 - Fuse / Fuseholder</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E02 - Mains / Transformer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E03 - Main Switch</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E04 - Power Supply PCB</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E05 - Fan Electronics</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E06 - Fan Cooling</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E07 - Wiring / Connector Low Voltage</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E08 - Wiring / Connector High Voltage</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E09 - Wiring / Connectivity Payment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E10 - CPU / Main PCB</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E11 - Relais PCB / VMC</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E12 - Selection PCB Door</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E13 - Payment PCB</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E14 - Display</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E15 - Touchscreen</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E16 - Cup PCB</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E17 - Cooling PCB</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E18 - Heating PCB / Relais</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E19 - Software</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E20 - Lighting</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E21 - Adjustment (Taste)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E22 - Adjustment (Volume)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E23 - Adjustment (Other Setting)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E24 - Cooling Compressor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E25 - Cooling NTC / Thermostat / Clixon</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Electronics</controllingFieldValue>
+                <valueName>E26 - Cooling Peltier</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W01 - External Waterpump / Water Tap</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W02 - Pre - heater</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W03 - Water Inlet Hose(s) To Machine</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W04 - Water Filter / Softener</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W05 - Inletvalve</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W06 - Air Break Tank</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W07 - Water Level Sensor / Floater</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W08 - Flow Meter</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W09 - Reduction Valve</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W10 - Non - return Valve</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W11 - Circulation Valve</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W12 - Boiler</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W13 - Boiler (Steam)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W14 - Overpressure Valve</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W15 - Safety Valve</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W16 - Aeration Valve</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W17 - Overflow (Tube/Hose/Pipe)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W18 - Heating Element</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W19 - Dry Boil Protection</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W20 - Overboil Protection</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W21 - NTC / Thermostat / Pressostat</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W22 - Outlet Valve</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W23 - Outlet Valve Steam</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W24 - Hose Boiler</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W25 - Water Pump</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Water</controllingFieldValue>
+                <valueName>W26 - Water Selector</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Brewing</controllingFieldValue>
+                <valueName>B01 - Motor brewer / driver</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Brewing</controllingFieldValue>
+                <valueName>B02 - Brewer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Brewing</controllingFieldValue>
+                <valueName>B03 - Brewer Sensor / Switch</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Brewing</controllingFieldValue>
+                <valueName>B04 - Brew Chamber</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Brewing</controllingFieldValue>
+                <valueName>B05 - Piston</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Brewing</controllingFieldValue>
+                <valueName>B06 - O - ring</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Brewing</controllingFieldValue>
+                <valueName>B07 - Filter Plate</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Brewing</controllingFieldValue>
+                <valueName>B08 - Filter</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Brewing</controllingFieldValue>
+                <valueName>B09 - Membrane</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Brewing</controllingFieldValue>
+                <valueName>B10 - Scraper</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Brewing</controllingFieldValue>
+                <valueName>B11 - Splash Plate</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Brewing</controllingFieldValue>
+                <valueName>B12 - Brewer Outlet</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Brewing</controllingFieldValue>
+                <valueName>B13 - Brewer Valve</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I01 - Ingredient BIB</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I02 - Dosing Coil / Motor BIB</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I03 - Sensor / Switch Mixer, Trough, Tray</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I04 - Liquid Mixer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I05 - Empty Detection</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I06 - Trough, Tray, Bowl</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I07 - Air Pump</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I08 - Air Filter Ingredients</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I09 - Hose Ingredient</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I10 - Ingredient R&amp;G</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I11 - Ingredient Instant</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I12 - Fan ingredients</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I13 - Canister R&amp;G</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I14 - Canister Instant</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I15 - Stirring Wire / Agitator</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I16 - Lock Canister</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I17 - Slide Canister</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I18 - Motor Canister</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I19 - Grinder Motor / Gear / Belt</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I20 - Grinder Bblades</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I21 - Grinder Sensor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I22 - Grinder Outlet</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I23 - Mixer R&amp;G / Instant</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I24 - Ingredient Fresh Milk</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I25 - Milk Foamer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I26 - Milk Pump</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I27 - Milk Valve</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I28 - Ingredient Syrup</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ingredient / Dosing</controllingFieldValue>
+                <valueName>I29 - Syrup Pump</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Payment / Telemetry</controllingFieldValue>
+                <valueName>P01 - Coin Insert</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Payment / Telemetry</controllingFieldValue>
+                <valueName>P02 - Coin - return</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Payment / Telemetry</controllingFieldValue>
+                <valueName>P03 - Coin Mechanism</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Payment / Telemetry</controllingFieldValue>
+                <valueName>P04 - Cash Box / Lock</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Payment / Telemetry</controllingFieldValue>
+                <valueName>P05 - Card Reader</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Payment / Telemetry</controllingFieldValue>
+                <valueName>P06 - Waiter System / Interface</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Payment / Telemetry</controllingFieldValue>
+                <valueName>P07 - Connectivity Box</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Payment / Telemetry</controllingFieldValue>
+                <valueName>P08 - Antenna / Coverage</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Payment / Telemetry</controllingFieldValue>
+                <valueName>P09 - Power Unit Connecivity Payment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Payment / Telemetry</controllingFieldValue>
+                <valueName>P10 - Software Connectivity Payment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Payment / Telemetry</controllingFieldValue>
+                <valueName>P11 - Wifi Module</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Payment / Telemetry</controllingFieldValue>
+                <valueName>P12 - Bluetooth Module</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Payment / Telemetry</controllingFieldValue>
+                <valueName>P13 - GSM Module</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Payment / Telemetry</controllingFieldValue>
+                <valueName>P14 - IR Module</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Payment / Telemetry</controllingFieldValue>
+                <valueName>P15 - Ethernet Module</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Payment / Telemetry</controllingFieldValue>
+                <valueName>P16 - NFC Module</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non Machine</controllingFieldValue>
+                <valueName>N01 - No Water Supply / No Suitable Connection</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non Machine</controllingFieldValue>
+                <valueName>N02 - No Water Discharge / No Suitable Connection</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non Machine</controllingFieldValue>
+                <valueName>N03 - No Power Supply / No Suitable Connection</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non Machine</controllingFieldValue>
+                <valueName>N04 - No Suitable Space</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non Machine</controllingFieldValue>
+                <valueName>N05 - No Crockery / Cups</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non Machine</controllingFieldValue>
+                <valueName>N06 - No Ingredients / Wrong Ingredients</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non Machine</controllingFieldValue>
+                <valueName>N07 - Wrong Machine</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non Machine</controllingFieldValue>
+                <valueName>N08 - No Machine Present</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non Machine</controllingFieldValue>
+                <valueName>N09 - No Accessories / Wrong Accessories</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non Machine</controllingFieldValue>
+                <valueName>N10 - Nobody Available For Instructions</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non Machine</controllingFieldValue>
+                <valueName>N11 - Telephone Line / Network / GSM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non Machine</controllingFieldValue>
+                <valueName>N12 - Third Party</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non Machine</controllingFieldValue>
+                <valueName>N13 - Logistics: Delivery Too Late</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non Machine</controllingFieldValue>
+                <valueName>N14 - Logistics: Delivery Wrong Location</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non Machine</controllingFieldValue>
+                <valueName>N15 - Logistics: Transportation Damage</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non Machine</controllingFieldValue>
+                <valueName>N16 - Workshop Error</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Non Machine</controllingFieldValue>
+                <valueName>N17 - Not Applicable</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Fault_Location_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Fault Location Category</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Fault_Location_Category</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Fix_by_phone__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Checkbox to determine if the issue can be fixed by phone</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Can this issue be Fixed by Phone?</inlineHelpText>
+        <label>Fix by phone</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Instructions__c</fullName>
+        <description>Instructions on how to fix the issue</description>
+        <externalId>false</externalId>
+        <inlineHelpText>How can the issue be resolved?</inlineHelpText>
+        <label>Instructions</label>
+        <length>32768</length>
+        <type>Html</type>
+        <visibleLines>50</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Product_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>Product__r.ProductCode</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Code</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>Product__r.Description</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Description</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>The product the article is regarding</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The product the article is regarding</inlineHelpText>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Knowledge</relationshipLabel>
+        <relationshipName>Knowledge</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Question__c</fullName>
+        <description>Question for FAQ</description>
+        <externalId>false</externalId>
+        <label>Question</label>
+        <length>32768</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Remarks__c</fullName>
+        <description>Additional remarks</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Additional remarks</inlineHelpText>
+        <label>Remarks</label>
+        <length>1000</length>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Required_resource_type__c</fullName>
+        <description>The required resource type if the issue can not be fixed by phone</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The required resource type if the issue can not be fixed by phone</inlineHelpText>
+        <label>Required resource type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Fix_by_phone__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Engineer</fullName>
+                    <default>false</default>
+                    <label>Engineer</label>
+                </value>
+                <value>
+                    <fullName>Operator</fullName>
+                    <default>false</default>
+                    <label>Operator</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>unchecked</controllingFieldValue>
+                <valueName>Engineer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>unchecked</controllingFieldValue>
+                <valueName>Operator</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Solution__c</fullName>
+        <description>The solution required to solve the issue</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The solution required to solve the issue</inlineHelpText>
+        <label>Solution</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <label>Knowledge</label>
+    <listViews>
+        <fullName>DE_Knowledge_Translations</fullName>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>TITLE</columns>
+        <columns>PUBLISH_STATUS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>LANGUAGE</columns>
+        <columns>LAST_PUBLISHED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ASSIGNEDTO_USER</field>
+            <operation>equals</operation>
+            <value>DE Knowledge Translations</value>
+        </filters>
+        <label>DE Knowledge Translations</label>
+    </listViews>
+    <listViews>
+        <fullName>DK_Knowledge_Translations</fullName>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>TITLE</columns>
+        <columns>PUBLISH_STATUS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>LANGUAGE</columns>
+        <columns>LAST_PUBLISHED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ASSIGNEDTO_USER</field>
+            <operation>equals</operation>
+            <value>DK Knowledge Translations</value>
+        </filters>
+        <label>DK Knowledge Translations</label>
+    </listViews>
+    <listViews>
+        <fullName>ES_Knowledge_Translations</fullName>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>TITLE</columns>
+        <columns>PUBLISH_STATUS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>LANGUAGE</columns>
+        <columns>LAST_PUBLISHED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ASSIGNEDTO_USER</field>
+            <operation>equals</operation>
+            <value>ES Knowledge Translations</value>
+        </filters>
+        <label>ES Knowledge Translations</label>
+    </listViews>
+    <listViews>
+        <fullName>FR_Knowledge_Translations</fullName>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>TITLE</columns>
+        <columns>PUBLISH_STATUS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>LANGUAGE</columns>
+        <columns>LAST_PUBLISHED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ASSIGNEDTO_USER</field>
+            <operation>equals</operation>
+            <value>FR Knowledge Translations</value>
+        </filters>
+        <label>FR Knowledge Translations</label>
+    </listViews>
+    <listViews>
+        <fullName>NL_Knowledge_Translations</fullName>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>TITLE</columns>
+        <columns>PUBLISH_STATUS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>LANGUAGE</columns>
+        <columns>LAST_PUBLISHED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ASSIGNEDTO_USER</field>
+            <operation>equals</operation>
+            <value>NL Knowledge Translations</value>
+        </filters>
+        <label>NL Knowledge Translations</label>
+    </listViews>
+    <listViews>
+        <fullName>NO_Knowledge_Translations</fullName>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>TITLE</columns>
+        <columns>PUBLISH_STATUS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>LANGUAGE</columns>
+        <columns>LAST_PUBLISHED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ASSIGNEDTO_USER</field>
+            <operation>equals</operation>
+            <value>NO Knowledge Translations</value>
+        </filters>
+        <label>NO Knowledge Translations</label>
+    </listViews>
+    <listViews>
+        <fullName>SE_Knowledge_Translations</fullName>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>TITLE</columns>
+        <columns>PUBLISH_STATUS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>LANGUAGE</columns>
+        <columns>LAST_PUBLISHED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ASSIGNEDTO_USER</field>
+            <operation>equals</operation>
+            <value>SE Knowledge Translations</value>
+        </filters>
+        <label>SE Knowledge Translations</label>
+    </listViews>
+    <listViews>
+        <fullName>archived_articles</fullName>
+        <columns>TITLE</columns>
+        <columns>ABSTRACT</columns>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>LANGUAGE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PUBLISH_STATUS</field>
+            <operation>equals</operation>
+            <value>3</value>
+        </filters>
+        <filters>
+            <field>LANGUAGE</field>
+            <operation>equals</operation>
+            <value>en_US</value>
+        </filters>
+        <label>Archived Articles</label>
+    </listViews>
+    <listViews>
+        <fullName>draft_articles</fullName>
+        <columns>TITLE</columns>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>LANGUAGE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PUBLISH_STATUS</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Draft Articles</label>
+    </listViews>
+    <listViews>
+        <fullName>published_articles</fullName>
+        <columns>TITLE</columns>
+        <columns>ABSTRACT</columns>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>LANGUAGE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PUBLISH_STATUS</field>
+            <operation>equals</operation>
+            <value>2</value>
+        </filters>
+        <filters>
+            <field>LANGUAGE</field>
+            <operation>equals</operation>
+            <value>en_US</value>
+        </filters>
+        <label>Published Articles</label>
+    </listViews>
+    <pluralLabel>Knowledge</pluralLabel>
+    <recordTypes>
+        <fullName>FAQ</fullName>
+        <active>false</active>
+        <compactLayoutAssignment>Knowledge_Compact_Layout</compactLayoutAssignment>
+        <description>This can be used for simple question and answer articles</description>
+        <label>FAQ</label>
+        <picklistValues>
+            <picklist>Defect_Code__c</picklist>
+            <values>
+                <fullName>T01 - Worn Out</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T02 - Lime Scale</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T03 - Blocked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T04 - Cut %2F Broken</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T05 - Kinked %2F Bent %2F Squeezed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T06 - Corroded</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T07 - Seating</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T08 - Wrong Mounting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T09 - Wrong Treatment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T10 - Vandalism %2F Theft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T11 - Wrong Adjustment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T12 - Electrical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T13 - Bug %2F Old version sw</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T14 - Water %2F Mains Supply</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T15 - Connection %2F Network</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T16 - Quality Ingredients</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T17 - Customer Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T18 - Not Applicable</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Fault_Code__c</picklist>
+            <values>
+                <fullName>B01 - Motor brewer %2F driver</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B02 - Brewer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B03 - Brewer Sensor %2F Switch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B04 - Brew Chamber</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B05 - Piston</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B06 - O - ring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B07 - Filter Plate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B08 - Filter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B09 - Membrane</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B10 - Scraper</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B11 - Splash Plate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B12 - Brewer Outlet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B13 - Brewer Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D01 - Housing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D02 - Door</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D03 - Door Hinge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D04 - Door Lock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D05 - Door Switch %2F Sensor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D06 - Cooling Compartment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D07 - Drip Tray %2F Drip Plate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D08 - Wastebucket</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D09 - Selection Buttons</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D10 - Cup Sensor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D11 - Cup Dispensing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D12 - Cup Magazine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D13 - Branch Pipe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D14 - Drum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D15 - Motor %28Drum%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D16 - Helix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D17 - Motor %28Helix%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D18 - Shafts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D19 - Stirrer Dispenser</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D20 - Cup Heater</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D21 - Basestand %2F Cabinet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D22 - Cup Dispenser Basestand</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D23 - Cooling Filter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D24 - Condensor %2F Evaporator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E01 - Fuse %2F Fuseholder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E02 - Mains %2F Transformer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E03 - Main Switch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E04 - Power Supply PCB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E05 - Fan Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E06 - Fan Cooling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E07 - Wiring %2F Connector Low Voltage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E08 - Wiring %2F Connector High Voltage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E09 - Wiring %2F Connectivity Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E10 - CPU %2F Main PCB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E11 - Relais PCB %2F VMC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E12 - Selection PCB Door</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E13 - Payment PCB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E14 - Display</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E15 - Touchscreen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E16 - Cup PCB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E17 - Cooling PCB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E18 - Heating PCB %2F Relais</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E19 - Software</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E20 - Lighting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E21 - Adjustment %28Taste%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E22 - Adjustment %28Volume%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E23 - Adjustment %28Other Setting%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E24 - Cooling Compressor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E25 - Cooling NTC %2F Thermostat %2F Clixon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E26 - Cooling Peltier</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I01 - Ingredient BIB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I02 - Dosing Coil %2F Motor BIB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I03 - Sensor %2F Switch Mixer%2C Trough%2C Tray</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I04 - Liquid Mixer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I05 - Empty Detection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I06 - Trough%2C Tray%2C Bowl</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I07 - Air Pump</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I08 - Air Filter Ingredients</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I09 - Hose Ingredient</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I10 - Ingredient R%26G</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I11 - Ingredient Instant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I12 - Fan ingredients</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I13 - Canister R%26G</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I14 - Canister Instant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I15 - Stirring Wire %2F Agitator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I16 - Lock Canister</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I17 - Slide Canister</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I18 - Motor Canister</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I19 - Grinder Motor %2F Gear %2F Belt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I20 - Grinder Bblades</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I21 - Grinder Sensor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I22 - Grinder Outlet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I23 - Mixer R%26G %2F Instant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I24 - Ingredient Fresh Milk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I25 - Milk Foamer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I26 - Milk Pump</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I27 - Milk Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I28 - Ingredient Syrup</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I29 - Syrup Pump</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N01 - No Water Supply %2F No Suitable Connection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N02 - No Water Discharge %2F No Suitable Connection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N03 - No Power Supply %2F No Suitable Connection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N04 - No Suitable Space</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N05 - No Crockery %2F Cups</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N06 - No Ingredients %2F Wrong Ingredients</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N07 - Wrong Machine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N08 - No Machine Present</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N09 - No Accessories %2F Wrong Accessories</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N10 - Nobody Available For Instructions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N11 - Telephone Line %2F Network %2F GSM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N12 - Third Party</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N13 - Logistics%3A Delivery Too Late</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N14 - Logistics%3A Delivery Wrong Location</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N15 - Logistics%3A Transportation Damage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N16 - Workshop Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N17 - Not Applicable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P01 - Coin Insert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P02 - Coin - return</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P03 - Coin Mechanism</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P04 - Cash Box %2F Lock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P05 - Card Reader</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P06 - Waiter System %2F Interface</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P07 - Connectivity Box</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P08 - Antenna %2F Coverage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P09 - Power Unit Connecivity Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P10 - Software Connectivity Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P11 - Wifi Module</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P12 - Bluetooth Module</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P13 - GSM Module</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P14 - IR Module</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P15 - Ethernet Module</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P16 - NFC Module</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W01 - External Waterpump %2F Water Tap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W02 - Pre - heater</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W03 - Water Inlet Hose%28s%29 To Machine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W04 - Water Filter %2F Softener</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W05 - Inletvalve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W06 - Air Break Tank</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W07 - Water Level Sensor %2F Floater</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W08 - Flow Meter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W09 - Reduction Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W10 - Non - return Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W11 - Circulation Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W12 - Boiler</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W13 - Boiler %28Steam%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W14 - Overpressure Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W15 - Safety Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W16 - Aeration Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W17 - Overflow %28Tube%2FHose%2FPipe%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W18 - Heating Element</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W19 - Dry Boil Protection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W20 - Overboil Protection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W21 - NTC %2F Thermostat %2F Pressostat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W22 - Outlet Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W23 - Outlet Valve Steam</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W24 - Hose Boiler</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W25 - Water Pump</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W26 - Water Selector</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Fault_Location_Category__c</picklist>
+            <values>
+                <fullName>Brewing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Door %2F Housing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ingredient %2F Dosing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Machine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment %2F Telemetry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Water</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Required_resource_type__c</picklist>
+            <values>
+                <fullName>Engineer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operator</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Generic_Requests</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Knowledge_Compact_Layout</compactLayoutAssignment>
+        <description>For all general questions and requests.</description>
+        <label>Generic Requests</label>
+        <picklistValues>
+            <picklist>Defect_Code__c</picklist>
+            <values>
+                <fullName>T01 - Worn Out</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T02 - Lime Scale</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T03 - Blocked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T04 - Cut %2F Broken</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T05 - Kinked %2F Bent %2F Squeezed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T06 - Corroded</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T07 - Seating</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T08 - Wrong Mounting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T09 - Wrong Treatment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T10 - Vandalism %2F Theft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T11 - Wrong Adjustment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T12 - Electrical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T13 - Bug %2F Old version sw</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T14 - Water %2F Mains Supply</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T15 - Connection %2F Network</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T16 - Quality Ingredients</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T17 - Customer Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T18 - Not Applicable</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Fault_Code__c</picklist>
+            <values>
+                <fullName>B01 - Motor brewer %2F driver</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B02 - Brewer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B03 - Brewer Sensor %2F Switch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B04 - Brew Chamber</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B05 - Piston</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B06 - O - ring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B07 - Filter Plate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B08 - Filter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B09 - Membrane</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B10 - Scraper</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B11 - Splash Plate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B12 - Brewer Outlet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B13 - Brewer Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D01 - Housing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D02 - Door</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D03 - Door Hinge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D04 - Door Lock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D05 - Door Switch %2F Sensor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D06 - Cooling Compartment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D07 - Drip Tray %2F Drip Plate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D08 - Wastebucket</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D09 - Selection Buttons</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D10 - Cup Sensor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D11 - Cup Dispensing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D12 - Cup Magazine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D13 - Branch Pipe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D14 - Drum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D15 - Motor %28Drum%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D16 - Helix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D17 - Motor %28Helix%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D18 - Shafts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D19 - Stirrer Dispenser</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D20 - Cup Heater</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D21 - Basestand %2F Cabinet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D22 - Cup Dispenser Basestand</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D23 - Cooling Filter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D24 - Condensor %2F Evaporator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E01 - Fuse %2F Fuseholder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E02 - Mains %2F Transformer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E03 - Main Switch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E04 - Power Supply PCB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E05 - Fan Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E06 - Fan Cooling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E07 - Wiring %2F Connector Low Voltage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E08 - Wiring %2F Connector High Voltage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E09 - Wiring %2F Connectivity Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E10 - CPU %2F Main PCB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E11 - Relais PCB %2F VMC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E12 - Selection PCB Door</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E13 - Payment PCB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E14 - Display</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E15 - Touchscreen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E16 - Cup PCB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E17 - Cooling PCB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E18 - Heating PCB %2F Relais</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E19 - Software</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E20 - Lighting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E21 - Adjustment %28Taste%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E22 - Adjustment %28Volume%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E23 - Adjustment %28Other Setting%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E24 - Cooling Compressor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E25 - Cooling NTC %2F Thermostat %2F Clixon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E26 - Cooling Peltier</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I01 - Ingredient BIB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I02 - Dosing Coil %2F Motor BIB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I03 - Sensor %2F Switch Mixer%2C Trough%2C Tray</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I04 - Liquid Mixer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I05 - Empty Detection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I06 - Trough%2C Tray%2C Bowl</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I07 - Air Pump</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I08 - Air Filter Ingredients</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I09 - Hose Ingredient</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I10 - Ingredient R%26G</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I11 - Ingredient Instant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I12 - Fan ingredients</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I13 - Canister R%26G</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I14 - Canister Instant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I15 - Stirring Wire %2F Agitator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I16 - Lock Canister</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I17 - Slide Canister</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I18 - Motor Canister</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I19 - Grinder Motor %2F Gear %2F Belt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I20 - Grinder Bblades</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I21 - Grinder Sensor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I22 - Grinder Outlet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I23 - Mixer R%26G %2F Instant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I24 - Ingredient Fresh Milk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I25 - Milk Foamer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I26 - Milk Pump</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I27 - Milk Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I28 - Ingredient Syrup</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I29 - Syrup Pump</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N01 - No Water Supply %2F No Suitable Connection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N02 - No Water Discharge %2F No Suitable Connection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N03 - No Power Supply %2F No Suitable Connection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N04 - No Suitable Space</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N05 - No Crockery %2F Cups</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N06 - No Ingredients %2F Wrong Ingredients</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N07 - Wrong Machine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N08 - No Machine Present</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N09 - No Accessories %2F Wrong Accessories</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N10 - Nobody Available For Instructions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N11 - Telephone Line %2F Network %2F GSM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N12 - Third Party</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N13 - Logistics%3A Delivery Too Late</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N14 - Logistics%3A Delivery Wrong Location</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N15 - Logistics%3A Transportation Damage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N16 - Workshop Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N17 - Not Applicable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P01 - Coin Insert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P02 - Coin - return</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P03 - Coin Mechanism</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P04 - Cash Box %2F Lock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P05 - Card Reader</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P06 - Waiter System %2F Interface</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P07 - Connectivity Box</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P08 - Antenna %2F Coverage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P09 - Power Unit Connecivity Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P10 - Software Connectivity Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P11 - Wifi Module</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P12 - Bluetooth Module</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P13 - GSM Module</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P14 - IR Module</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P15 - Ethernet Module</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P16 - NFC Module</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W01 - External Waterpump %2F Water Tap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W02 - Pre - heater</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W03 - Water Inlet Hose%28s%29 To Machine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W04 - Water Filter %2F Softener</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W05 - Inletvalve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W06 - Air Break Tank</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W07 - Water Level Sensor %2F Floater</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W08 - Flow Meter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W09 - Reduction Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W10 - Non - return Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W11 - Circulation Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W12 - Boiler</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W13 - Boiler %28Steam%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W14 - Overpressure Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W15 - Safety Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W16 - Aeration Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W17 - Overflow %28Tube%2FHose%2FPipe%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W18 - Heating Element</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W19 - Dry Boil Protection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W20 - Overboil Protection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W21 - NTC %2F Thermostat %2F Pressostat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W22 - Outlet Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W23 - Outlet Valve Steam</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W24 - Hose Boiler</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W25 - Water Pump</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W26 - Water Selector</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Fault_Location_Category__c</picklist>
+            <values>
+                <fullName>Brewing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Door %2F Housing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ingredient %2F Dosing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Machine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment %2F Telemetry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Water</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Required_resource_type__c</picklist>
+            <values>
+                <fullName>Engineer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operator</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Technical</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Knowledge_Compact_Layout</compactLayoutAssignment>
+        <description>For all articles on technical information.</description>
+        <label>Technical</label>
+        <picklistValues>
+            <picklist>Defect_Code__c</picklist>
+            <values>
+                <fullName>T01 - Worn Out</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T02 - Lime Scale</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T03 - Blocked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T04 - Cut %2F Broken</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T05 - Kinked %2F Bent %2F Squeezed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T06 - Corroded</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T07 - Seating</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T08 - Wrong Mounting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T09 - Wrong Treatment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T10 - Vandalism %2F Theft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T11 - Wrong Adjustment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T12 - Electrical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T13 - Bug %2F Old version sw</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T14 - Water %2F Mains Supply</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T15 - Connection %2F Network</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T16 - Quality Ingredients</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T17 - Customer Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T18 - Not Applicable</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Fault_Code__c</picklist>
+            <values>
+                <fullName>B01 - Motor brewer %2F driver</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B02 - Brewer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B03 - Brewer Sensor %2F Switch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B04 - Brew Chamber</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B05 - Piston</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B06 - O - ring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B07 - Filter Plate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B08 - Filter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B09 - Membrane</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B10 - Scraper</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B11 - Splash Plate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B12 - Brewer Outlet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B13 - Brewer Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D01 - Housing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D02 - Door</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D03 - Door Hinge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D04 - Door Lock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D05 - Door Switch %2F Sensor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D06 - Cooling Compartment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D07 - Drip Tray %2F Drip Plate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D08 - Wastebucket</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D09 - Selection Buttons</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D10 - Cup Sensor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D11 - Cup Dispensing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D12 - Cup Magazine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D13 - Branch Pipe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D14 - Drum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D15 - Motor %28Drum%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D16 - Helix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D17 - Motor %28Helix%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D18 - Shafts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D19 - Stirrer Dispenser</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D20 - Cup Heater</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D21 - Basestand %2F Cabinet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D22 - Cup Dispenser Basestand</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D23 - Cooling Filter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D24 - Condensor %2F Evaporator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E01 - Fuse %2F Fuseholder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E02 - Mains %2F Transformer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E03 - Main Switch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E04 - Power Supply PCB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E05 - Fan Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E06 - Fan Cooling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E07 - Wiring %2F Connector Low Voltage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E08 - Wiring %2F Connector High Voltage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E09 - Wiring %2F Connectivity Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E10 - CPU %2F Main PCB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E11 - Relais PCB %2F VMC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E12 - Selection PCB Door</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E13 - Payment PCB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E14 - Display</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E15 - Touchscreen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E16 - Cup PCB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E17 - Cooling PCB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E18 - Heating PCB %2F Relais</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E19 - Software</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E20 - Lighting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E21 - Adjustment %28Taste%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E22 - Adjustment %28Volume%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E23 - Adjustment %28Other Setting%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E24 - Cooling Compressor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E25 - Cooling NTC %2F Thermostat %2F Clixon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E26 - Cooling Peltier</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I01 - Ingredient BIB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I02 - Dosing Coil %2F Motor BIB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I03 - Sensor %2F Switch Mixer%2C Trough%2C Tray</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I04 - Liquid Mixer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I05 - Empty Detection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I06 - Trough%2C Tray%2C Bowl</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I07 - Air Pump</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I08 - Air Filter Ingredients</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I09 - Hose Ingredient</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I10 - Ingredient R%26G</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I11 - Ingredient Instant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I12 - Fan ingredients</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I13 - Canister R%26G</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I14 - Canister Instant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I15 - Stirring Wire %2F Agitator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I16 - Lock Canister</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I17 - Slide Canister</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I18 - Motor Canister</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I19 - Grinder Motor %2F Gear %2F Belt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I20 - Grinder Bblades</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I21 - Grinder Sensor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I22 - Grinder Outlet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I23 - Mixer R%26G %2F Instant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I24 - Ingredient Fresh Milk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I25 - Milk Foamer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I26 - Milk Pump</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I27 - Milk Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I28 - Ingredient Syrup</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I29 - Syrup Pump</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N01 - No Water Supply %2F No Suitable Connection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N02 - No Water Discharge %2F No Suitable Connection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N03 - No Power Supply %2F No Suitable Connection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N04 - No Suitable Space</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N05 - No Crockery %2F Cups</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N06 - No Ingredients %2F Wrong Ingredients</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N07 - Wrong Machine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N08 - No Machine Present</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N09 - No Accessories %2F Wrong Accessories</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N10 - Nobody Available For Instructions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N11 - Telephone Line %2F Network %2F GSM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N12 - Third Party</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N13 - Logistics%3A Delivery Too Late</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N14 - Logistics%3A Delivery Wrong Location</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N15 - Logistics%3A Transportation Damage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N16 - Workshop Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N17 - Not Applicable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P01 - Coin Insert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P02 - Coin - return</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P03 - Coin Mechanism</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P04 - Cash Box %2F Lock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P05 - Card Reader</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P06 - Waiter System %2F Interface</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P07 - Connectivity Box</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P08 - Antenna %2F Coverage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P09 - Power Unit Connecivity Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P10 - Software Connectivity Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P11 - Wifi Module</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P12 - Bluetooth Module</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P13 - GSM Module</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P14 - IR Module</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P15 - Ethernet Module</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P16 - NFC Module</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W01 - External Waterpump %2F Water Tap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W02 - Pre - heater</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W03 - Water Inlet Hose%28s%29 To Machine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W04 - Water Filter %2F Softener</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W05 - Inletvalve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W06 - Air Break Tank</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W07 - Water Level Sensor %2F Floater</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W08 - Flow Meter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W09 - Reduction Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W10 - Non - return Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W11 - Circulation Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W12 - Boiler</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W13 - Boiler %28Steam%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W14 - Overpressure Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W15 - Safety Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W16 - Aeration Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W17 - Overflow %28Tube%2FHose%2FPipe%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W18 - Heating Element</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W19 - Dry Boil Protection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W20 - Overboil Protection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W21 - NTC %2F Thermostat %2F Pressostat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W22 - Outlet Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W23 - Outlet Valve Steam</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W24 - Hose Boiler</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W25 - Water Pump</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W26 - Water Selector</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Fault_Location_Category__c</picklist>
+            <values>
+                <fullName>Brewing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Door %2F Housing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ingredient %2F Dosing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Machine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment %2F Telemetry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Water</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Required_resource_type__c</picklist>
+            <values>
+                <fullName>Engineer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operator</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Troubleshooting</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Knowledge_Compact_Layout</compactLayoutAssignment>
+        <description>For all articles regarding troubleshooting.</description>
+        <label>Troubleshooting</label>
+        <picklistValues>
+            <picklist>Defect_Code__c</picklist>
+            <values>
+                <fullName>T01 - Worn Out</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T02 - Lime Scale</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T03 - Blocked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T04 - Cut %2F Broken</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T05 - Kinked %2F Bent %2F Squeezed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T06 - Corroded</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T07 - Seating</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T08 - Wrong Mounting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T09 - Wrong Treatment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T10 - Vandalism %2F Theft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T11 - Wrong Adjustment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T12 - Electrical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T13 - Bug %2F Old version sw</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T14 - Water %2F Mains Supply</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T15 - Connection %2F Network</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T16 - Quality Ingredients</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T17 - Customer Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T18 - Not Applicable</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Fault_Code__c</picklist>
+            <values>
+                <fullName>B01 - Motor brewer %2F driver</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B02 - Brewer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B03 - Brewer Sensor %2F Switch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B04 - Brew Chamber</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B05 - Piston</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B06 - O - ring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B07 - Filter Plate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B08 - Filter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B09 - Membrane</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B10 - Scraper</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B11 - Splash Plate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B12 - Brewer Outlet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B13 - Brewer Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D01 - Housing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D02 - Door</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D03 - Door Hinge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D04 - Door Lock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D05 - Door Switch %2F Sensor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D06 - Cooling Compartment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D07 - Drip Tray %2F Drip Plate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D08 - Wastebucket</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D09 - Selection Buttons</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D10 - Cup Sensor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D11 - Cup Dispensing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D12 - Cup Magazine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D13 - Branch Pipe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D14 - Drum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D15 - Motor %28Drum%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D16 - Helix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D17 - Motor %28Helix%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D18 - Shafts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D19 - Stirrer Dispenser</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D20 - Cup Heater</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D21 - Basestand %2F Cabinet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D22 - Cup Dispenser Basestand</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D23 - Cooling Filter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D24 - Condensor %2F Evaporator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E01 - Fuse %2F Fuseholder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E02 - Mains %2F Transformer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E03 - Main Switch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E04 - Power Supply PCB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E05 - Fan Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E06 - Fan Cooling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E07 - Wiring %2F Connector Low Voltage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E08 - Wiring %2F Connector High Voltage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E09 - Wiring %2F Connectivity Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E10 - CPU %2F Main PCB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E11 - Relais PCB %2F VMC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E12 - Selection PCB Door</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E13 - Payment PCB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E14 - Display</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E15 - Touchscreen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E16 - Cup PCB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E17 - Cooling PCB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E18 - Heating PCB %2F Relais</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E19 - Software</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E20 - Lighting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E21 - Adjustment %28Taste%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E22 - Adjustment %28Volume%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E23 - Adjustment %28Other Setting%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E24 - Cooling Compressor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E25 - Cooling NTC %2F Thermostat %2F Clixon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E26 - Cooling Peltier</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I01 - Ingredient BIB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I02 - Dosing Coil %2F Motor BIB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I03 - Sensor %2F Switch Mixer%2C Trough%2C Tray</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I04 - Liquid Mixer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I05 - Empty Detection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I06 - Trough%2C Tray%2C Bowl</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I07 - Air Pump</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I08 - Air Filter Ingredients</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I09 - Hose Ingredient</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I10 - Ingredient R%26G</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I11 - Ingredient Instant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I12 - Fan ingredients</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I13 - Canister R%26G</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I14 - Canister Instant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I15 - Stirring Wire %2F Agitator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I16 - Lock Canister</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I17 - Slide Canister</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I18 - Motor Canister</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I19 - Grinder Motor %2F Gear %2F Belt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I20 - Grinder Bblades</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I21 - Grinder Sensor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I22 - Grinder Outlet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I23 - Mixer R%26G %2F Instant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I24 - Ingredient Fresh Milk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I25 - Milk Foamer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I26 - Milk Pump</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I27 - Milk Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I28 - Ingredient Syrup</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I29 - Syrup Pump</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N01 - No Water Supply %2F No Suitable Connection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N02 - No Water Discharge %2F No Suitable Connection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N03 - No Power Supply %2F No Suitable Connection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N04 - No Suitable Space</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N05 - No Crockery %2F Cups</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N06 - No Ingredients %2F Wrong Ingredients</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N07 - Wrong Machine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N08 - No Machine Present</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N09 - No Accessories %2F Wrong Accessories</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N10 - Nobody Available For Instructions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N11 - Telephone Line %2F Network %2F GSM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N12 - Third Party</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N13 - Logistics%3A Delivery Too Late</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N14 - Logistics%3A Delivery Wrong Location</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N15 - Logistics%3A Transportation Damage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N16 - Workshop Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N17 - Not Applicable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P01 - Coin Insert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P02 - Coin - return</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P03 - Coin Mechanism</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P04 - Cash Box %2F Lock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P05 - Card Reader</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P06 - Waiter System %2F Interface</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P07 - Connectivity Box</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P08 - Antenna %2F Coverage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P09 - Power Unit Connecivity Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P10 - Software Connectivity Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P11 - Wifi Module</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P12 - Bluetooth Module</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P13 - GSM Module</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P14 - IR Module</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P15 - Ethernet Module</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P16 - NFC Module</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W01 - External Waterpump %2F Water Tap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W02 - Pre - heater</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W03 - Water Inlet Hose%28s%29 To Machine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W04 - Water Filter %2F Softener</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W05 - Inletvalve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W06 - Air Break Tank</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W07 - Water Level Sensor %2F Floater</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W08 - Flow Meter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W09 - Reduction Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W10 - Non - return Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W11 - Circulation Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W12 - Boiler</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W13 - Boiler %28Steam%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W14 - Overpressure Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W15 - Safety Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W16 - Aeration Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W17 - Overflow %28Tube%2FHose%2FPipe%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W18 - Heating Element</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W19 - Dry Boil Protection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W20 - Overboil Protection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W21 - NTC %2F Thermostat %2F Pressostat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W22 - Outlet Valve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W23 - Outlet Valve Steam</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W24 - Hose Boiler</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W25 - Water Pump</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W26 - Water Selector</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Fault_Location_Category__c</picklist>
+            <values>
+                <fullName>Brewing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Door %2F Housing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ingredient %2F Dosing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Machine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment %2F Telemetry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Water</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Required_resource_type__c</picklist>
+            <values>
+                <fullName>Engineer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operator</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+</CustomObject>

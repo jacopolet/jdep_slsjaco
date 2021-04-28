@@ -1,0 +1,42 @@
+<template>
+   <div class="slds-form-element">
+       <label class="slds-form-element__label">{lookupLabel}</label>
+       <div class="slds-form-element__control">
+           <div class="slds-combobox_container">
+               <!-- toggle slds-is-open class to show results -->
+               <div class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click slds-is-close" aria-expanded="true" aria-haspopup="listbox" role="combobox" style="display: inline-block;">
+                   <template if:true={isRecordSelected}>
+                     <div class="slds-pill_container">
+                        <lightning-pill label={selectedRecord.label} name={selectedRecord.label} onremove={removeSelectedRecord} style="width:100%">
+                              <lightning-icon icon-name={iconName} alternative-text="icon"></lightning-icon>
+                        </lightning-pill>
+                     </div>
+                   </template>
+                   <template if:false={isRecordSelected}>
+                     <div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right" role="none">
+                        <input class="slds-input slds-combobox__input" type="text" placeholder={placeholderString} onfocus={toggleResultsDiv} onblur={toggleResultsDiv} onkeyup={getResults}/>                     
+                        <span class="slds-icon_container slds-icon-utility-search slds-input__icon slds-input__icon_right">
+                              <lightning-icon class="slds-icon slds-icon slds-icon_small slds-icon-text-default" icon-name="utility:search" size="x-small" alternative-text="icon"></lightning-icon>
+                        </span>
+                     </div>
+                   </template>
+                   <div class="slds-dropdown slds-dropdown_length-with-icon-7 slds-dropdown_fluid" role="listbox" style={getStyle}>
+                       <ul class="slds-listbox slds-listbox_vertical" role="presentation" style="max-height:200px;min-height:40px;">
+                           <template if:true={showSpinner}>
+                               <lightning-spinner variant="brand" alternative-text="Loading" size="small"></lightning-spinner>
+                           </template>
+                           <template for:each={recordsList} for:item="record">
+                               <c-apts-custom-lookup-result key={record.Id} record={record} icon-name={iconName} oncustomrecordselected={selectRecord}></c-apts-custom-lookup-result>
+                           </template>
+                           <template if:true={recordsNotFound}>
+                               <div class="slds-align_absolute-center slds-p-around_small">
+                                   No results found.
+                               </div>
+                           </template>
+                       </ul>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+</template>

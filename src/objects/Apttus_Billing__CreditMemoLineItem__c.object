@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>APTS_BPO__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Field created to override based price and set condition as ZP01</description>
+        <externalId>false</externalId>
+        <label>BPO</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Credit_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Credit Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>APTS_EAN__c</fullName>
+        <externalId>false</externalId>
+        <formula>APTS_Product__r.APTS_International_article_number_EAN_UP__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>EAN</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_External_Invoice_Line_Number__c</fullName>
+        <description>External Invoice Line Number From SAP</description>
+        <externalId>false</externalId>
+        <formula>Apttus_Billing__InvoiceLineItemId__r.APTS_External_Invoice_Line_Number__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>External Invoice Line Number</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_List_Price__c</fullName>
+        <externalId>false</externalId>
+        <formula>APTS_Product__r.APTS_Standard_Price__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>List Price</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Relationship field to relate Product with Credit Memo Line Item record</description>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Product2.ProductCode</field>
+                <operation>notEqual</operation>
+                <value>DUMMY_SKU</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Credit Memo Line Items</relationshipLabel>
+        <relationshipName>Credit_Memo_Line_Items</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Quantity__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(NOT(ISBLANK(Apttus_Billing__CreditMemoId__r.Case__r.Id)),ISBLANK( Apttus_Billing__InvoiceLineItemId__c )),1,Apttus_Billing__Quantity__c)</formula>
+        <label>Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Amount of each of the Credit Memo Line Item derived from the Credit Memo.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Amount of the Credit Memo Line Item.</inlineHelpText>
+        <label>Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__AppliedInvoiceLineItemId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>This field will be set when a Wallet is applied to an Invoice Line Item during the Invoice Run.</description>
+        <externalId>false</externalId>
+        <label>Applied Invoice Line Item</label>
+        <referenceTo>Apttus_Billing__InvoiceLineItem__c</referenceTo>
+        <relationshipLabel>Credit Memo Line Items (Applied Invoice Line Item)</relationshipLabel>
+        <relationshipName>WalletCreditMemoLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__AssetLineItemId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Corresponding Asset line object.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Corresponding Asset line object.</inlineHelpText>
+        <label>Asset Line Item</label>
+        <referenceTo>Apttus_Config2__AssetLineItem__c</referenceTo>
+        <relationshipLabel>Credit Memo Line Items</relationshipLabel>
+        <relationshipName>CreditMemoLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__BillToAccountId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The Bill To address on the associated Account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Bill To address on the associated Account.</inlineHelpText>
+        <label>Bill To</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Credit Memo Line Items</relationshipLabel>
+        <relationshipName>CreditMemoLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__BillingCity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>City mentioned in the Billing Address.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>City mentioned in the Billing Address.</inlineHelpText>
+        <label>Billing City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__BillingCountry__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Country mentioned in the Billing Address.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Country mentioned in the Billing Address.</inlineHelpText>
+        <label>Billing Country</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__BillingPostalCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Zip or Postal code in the Billing Address.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Zip or Postal code in the Billing Address.</inlineHelpText>
+        <label>Billing Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__BillingScheduleId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Corresponding Billing Schedule.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Corresponding Billing Schedule.</inlineHelpText>
+        <label>Billing Schedule</label>
+        <referenceTo>Apttus_Billing__BillingSchedule__c</referenceTo>
+        <relationshipLabel>Credit Memo Line Items</relationshipLabel>
+        <relationshipName>CreditMemoLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__BillingState__c</fullName>
+        <deprecated>false</deprecated>
+        <description>State mentioned in the Billing Address.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>State mentioned in the Billing Address.</inlineHelpText>
+        <label>Billing State</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__BillingStreet__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Street mentioned in the Billing Address.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Street mentioned in the Billing Address.</inlineHelpText>
+        <label>Billing Street</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__CreditMemoId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Parent Credit Memo ID.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Parent Credit Memo ID.</inlineHelpText>
+        <label>Credit Memo</label>
+        <referenceTo>Apttus_Billing__CreditMemo__c</referenceTo>
+        <relationshipLabel>Credit Memo Line Items</relationshipLabel>
+        <relationshipName>CreditMemoLineItems</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Description of the Credit Memo Line Item.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Description of the Credit Memo Line Item.</inlineHelpText>
+        <label>Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__EndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The last day the Credit Memo Line Item is in effect.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The last day the Credit Memo Line Item is in effect.</inlineHelpText>
+        <label>End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__InvoiceLineItemId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Corresponding Invoice Line object</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Corresponding Invoice Line object</inlineHelpText>
+        <label>Invoice Line Item</label>
+        <referenceTo>Apttus_Billing__InvoiceLineItem__c</referenceTo>
+        <relationshipLabel>Credit Memo Line Items</relationshipLabel>
+        <relationshipName>CreditMemoLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__LocationId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated account location</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated account location</inlineHelpText>
+        <label>Location</label>
+        <referenceTo>Apttus_Config2__AccountLocation__c</referenceTo>
+        <relationshipLabel>Credit Memo Line Items</relationshipLabel>
+        <relationshipName>CreditMemoLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ProductId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the corresponding product or service.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the corresponding product or service.</inlineHelpText>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Credit Memo Line Items</relationshipLabel>
+        <relationshipName>CreditMemoLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__Quantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Number of units of the product listed in the Credit Memo.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of units of the product.</inlineHelpText>
+        <label>Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ShipToAccountId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the ship to account</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the ship to account</inlineHelpText>
+        <label>Ship To</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Credit Memo Line Items (Ship To)</relationshipLabel>
+        <relationshipName>CreditMemoLineItemsShipTo</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__SoldToAccountId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the sold to account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the sold to account.</inlineHelpText>
+        <label>Sold To</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Credit Memo Line Items (Sold To)</relationshipLabel>
+        <relationshipName>CreditMemoLineItemsSoldTo</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__StartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The day from which the Credit Memo Line Item is in effect.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The day from which the Credit Memo Line Item is in effect.</inlineHelpText>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Status field for respective line item (Draft/Approved/Cancelled/Draft Obsolete) inherited from Credit Memo Status.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Lifecycle status of each credit memo Line item.</inlineHelpText>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>true</default>
+                    <label>Draft</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>Pending Approved</fullName>
+                    <default>false</default>
+                    <label>Pending Approved</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__TaxAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The aggregate amount of tax of the underlying Tax Break-ups.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The aggregate amount of tax of the underlying Tax Break-ups.</inlineHelpText>
+        <label>Tax Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__TaxCodeId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the Tax Code associated with the product or service. Only applicable for taxable items.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the Tax Code associated with the product or service. Only applicable for taxable items.</inlineHelpText>
+        <label>Tax Code</label>
+        <referenceTo>Apttus_Config2__TaxCode__c</referenceTo>
+        <relationshipLabel>Credit Memo Line Items</relationshipLabel>
+        <relationshipName>CreditMemoLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__TaxInclusive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the Amount is Tax Inclusive.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the Amount is Tax Inclusive.</inlineHelpText>
+        <label>Tax Inclusive ?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__Taxable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the product is taxable.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the product is taxable.</inlineHelpText>
+        <label>Taxable ?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Type of the Billing Schedules this Credit Memo Line Item corresponds to, either Informational or Contracted.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Type of Billing Schedules this Credit Memo Line Item corresponds to.</inlineHelpText>
+        <label>Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Contracted</fullName>
+                    <default>false</default>
+                    <label>Contracted</label>
+                </value>
+                <value>
+                    <fullName>Informational</fullName>
+                    <default>false</default>
+                    <label>Informational</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__WalletId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>This field will be set when a Wallet is applied to an Invoice Line Item during the Invoice Run.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field will be set when a Wallet is applied to an Invoice Line Item during the Invoice Run.</inlineHelpText>
+        <label>Wallet Id</label>
+        <referenceTo>Apttus_Config2__AssetLineItem__c</referenceTo>
+        <relationshipLabel>Credit Memo Line Items (Wallet)</relationshipLabel>
+        <relationshipName>WalletCreditMemoLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Bill_To_Account_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Apttus_Billing__CreditMemoId__r.Apttus_Billing__BillToAccountId__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Bill-To</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>External_Invoice_Line_Number__c</fullName>
+        <description>External Invoice Line Number From SAP</description>
+        <externalId>false</externalId>
+        <formula>Apttus_Billing__InvoiceLineItemId__r.External_Invoice_Line_Number__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>External Invoice Line Number</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Credit Memo Line Item</label>
+    <nameField>
+        <displayFormat>CMI-{00000000}</displayFormat>
+        <label>Line Item Id</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Credit Memo Line Items</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

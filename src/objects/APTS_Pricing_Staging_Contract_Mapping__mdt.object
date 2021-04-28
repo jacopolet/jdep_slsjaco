@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Custom Metadata Type to store the Contract Period mapping of APTS_Pricing_Staging__c Object. Created as part of Kauri Nov&apos;18 Release.</description>
+    <fields>
+        <fullName>APTS_Dimension__c</fullName>
+        <description>Field to store the Dimension value of Pricing Staging Object.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Dimension</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Sequence__c</fullName>
+        <description>Field to store the Sequence value of Pricing Staging Object.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Sequence</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>APTS Pricing Staging Contract Mapping</label>
+    <pluralLabel>APTS Pricing Staging Contract Mappings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

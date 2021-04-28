@@ -1,0 +1,3631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Information on a business establishment including information related to finance and structure.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fieldSets>
+        <fullName>appsolutely__Creditsafe_search_result_fields</fullName>
+        <availableFields>
+            <field>appsolutely__City__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Creditsafe_Id__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Date_of_Last_Account__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Date_of_Last_Change__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__House_Number__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Office_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Postal_Code__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Street__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Telephone_Number__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__VAT_Number__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>Defines which fields in which order are shown for the CreditSafe search results.</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>appsolutely__Trade_Names__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>appsolutely__Dossier_Number__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>appsolutely__Full_Address__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Creditsafe search result fields</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>appsolutely__Dutch_Business_search_result_fields</fullName>
+        <availableFields>
+            <field>appsolutely__Correspondence_City__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Correspondence_Street__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Dossier_Number__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>appsolutely__Establishment_Number__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>Defines which fields in which order are shown for the Dutch Business (Dutch Chamber of Commerce) search results.</description>
+        <displayedFields>
+            <field>appsolutely__Trade_Name_Full__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>appsolutely__Indication_Main_Establishment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>appsolutely__Establishment_Street__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>appsolutely__Establishment_City__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Dutch Business search result fields</label>
+    </fieldSets>
+    <fields>
+        <fullName>appsolutely__Assets__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The amount of assets for the financial year DutchBusinessMoneyV2</description>
+        <externalId>false</externalId>
+        <label>Assets</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Authorized_Share_Capital_Currency__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Currency For Authorized Share Capital</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Authorized_Share_Capital__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Number indicating the amount of authorized share capital.  The amount of money for which the company is allowed to give out shares.  Dutch: `maatschappelijk kapitaal`.</description>
+        <externalId>false</externalId>
+        <label>Authorized Share Capital</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Business_Positions_Updated_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date that the business positions were updated in Salesforce.</description>
+        <externalId>false</externalId>
+        <label>Business Positions Updated Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Chamber_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Chamber of Commerce office</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>appsolutely__chamber_number</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Chamber_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The chamber number is the number of the Chamber of Commerce office which manages this dossier.
+00  Onbekend
+01	Noord Nederland
+08	Oost Nederland
+09	Centraal Gelderland
+14	Limburg
+17	Brabant
+20	Zuid West Nederland
+24	Rotterdam
+27	Den Haag
+30	Midden Nederland
+32	Gooi-, Eem- en Flevoland
+34	Amsterdam
+37	Noordwest-Holland</description>
+        <externalId>false</externalId>
+        <label>Chamber Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Chamber_of_Commerce_Extract_Fetched_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Store the date at which latest Chamber of Commerce Extract was fetched from Company.Info</description>
+        <externalId>false</externalId>
+        <label>Chamber of Commerce Extract Fetched Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__City__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The city the organisation resides in according to CreditSafe</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The city the organisation resides in according to CreditSafe</inlineHelpText>
+        <label>City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Class_Personnel_CI__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Number of Employees (by CI)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>appsolutely__Class_Personnel</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Class_Personnel_Fulltime__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Number of Fulltime Employees (Range)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>appsolutely__Class_Personnel</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Class_Personnel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A classification of the total number of employees (full-time and part-time).  Possible values:
+1	no employees
+2	1 employee
+3	2 to 4 employees
+4	5 to 9 employees
+5	10 to 19 employees
+6	20 to 49 employees
+7	50 to 99 employees
+8	100 to 199 employees
+9	199 to 499 employees
+10	500 to 749 employees
+11	750 to 999 employees
+12	1000 or more employees</description>
+        <externalId>false</externalId>
+        <label>Number Of Employees (Range)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>appsolutely__Class_Personnel</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Company_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Creditsafe company identifier used to retrieve a report.</description>
+        <externalId>false</externalId>
+        <label>Company Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Company_Type_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The code of this company type</description>
+        <externalId>false</externalId>
+        <label>Company Type Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Company_Type_End_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The end date of this company type</description>
+        <externalId>false</externalId>
+        <label>Company Type End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Company_Type_Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name / title of this company type.</description>
+        <externalId>false</externalId>
+        <label>Company Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Company_Type_Start_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The start date of this company type</description>
+        <externalId>false</externalId>
+        <label>Company Type Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Contact_Gender__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Contact Gender</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>m</fullName>
+                    <default>false</default>
+                    <label>Male</label>
+                </value>
+                <value>
+                    <fullName>f</fullName>
+                    <default>false</default>
+                    <label>Female</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Contact_Initials__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Initials of the contact</description>
+        <externalId>false</externalId>
+        <label>Contact Initials</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Contact_Prefix__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name prefix of the contact.</description>
+        <externalId>false</externalId>
+        <label>Contact Prefix</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Contact_Surname__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Surname of the contact.</description>
+        <externalId>false</externalId>
+        <label>Contact Surname</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Contact_Title1__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Title of the contact person of this business.</description>
+        <externalId>false</externalId>
+        <label>Contact First Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Contact_Title2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Second title of the contact person of this business.</description>
+        <externalId>false</externalId>
+        <label>Contact Second Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Continuation_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The continuation date of the company, if applicable. This is usually the date that the company changed legal form.</description>
+        <externalId>false</externalId>
+        <label>Continuation Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Correspondence_City__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Correspondence City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Correspondence_Country__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Correspondence Country</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Correspondence_House_Number_Addition__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Correspondence House Number Addition</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Correspondence_House_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Correspondence House Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Correspondence_Postal_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Correspondence Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Correspondence_Street__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Correspondence Street</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Correspondence_Street_and_House_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Combines street, house number and addition into one for on the page layout.</description>
+        <externalId>false</externalId>
+        <formula>appsolutely__Correspondence_Street__c + &apos; &apos; +  appsolutely__Correspondence_House_Number__c + &apos; &apos; +  appsolutely__Correspondence_House_Number_Addition__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Correspondence Street and House Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Country__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The country this company is situated in according to CreditSafe</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The country this company is situated in according to CreditSafe</inlineHelpText>
+        <label>Country</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Creditsafe_Company_Report__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Creditsafe Company Report</label>
+        <referenceTo>appsolutely__Creditsafe_Company_Report_Full__c</referenceTo>
+        <relationshipLabel>Business Dossiers</relationshipLabel>
+        <relationshipName>Business_Dossiers</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Creditsafe_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The unique credit safe Id. Only filled for records retrieved through Credit Safe.</description>
+        <externalId>true</externalId>
+        <label>Creditsafe Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Date_of_Last_Account__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Date of Last Account</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Date_of_Last_Change__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Date of Last Change</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Deeplink_URL__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(  ISPICKVAL( appsolutely__Registration_Country__c , &apos;NL&apos;), 
+     $CustomMetadata.01I1l0000001Biv.m0l1l0000004CQ5.00N1l000001aLxw  + &apos;id/&apos; +
+     appsolutely__Dossier_Number__c + &apos;/&apos;, 
+     &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Deeplink URL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Discontinuation_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date when the business was discontinued (Dutch: datum wanneer de activiteiten gestaakt zijn)</description>
+        <externalId>false</externalId>
+        <label>Discontinuation Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Domain_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The internet domain name registered by the business</description>
+        <externalId>false</externalId>
+        <label>Domain Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Dossier_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Chamber of Commerce number, consisting of 8 numbers (e.g., 00123456).  This number is unique and will not change as long as the organisation exists.  Subsidiaries (‘Nevenvestigingen’) of the organisation are registered using the same dossier number.</description>
+        <externalId>true</externalId>
+        <inlineHelpText>The registration number under which the organisation is registered in the company&apos;s country. For the Netherlands the Chamber of Commerce Number.</inlineHelpText>
+        <label>Registration Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Enrich__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>True if the business dossier has been enriched. False otherwise (default). (not to display on layout because it has no value to users)</description>
+        <externalId>false</externalId>
+        <label>Enrich</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Establishment_City__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Establishment City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Establishment_Country__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Establishment Country</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Establishment_Date_Day__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Day of the establishment date</description>
+        <externalId>false</externalId>
+        <label>Establishment Date Day</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Establishment_Date_Month__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Month of Establishment Date</description>
+        <externalId>false</externalId>
+        <label>Establishment Date Month</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Establishment_Date_Year__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Year of Establishment Date</description>
+        <externalId>false</externalId>
+        <label>Establishment Date Year</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Establishment_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date the establishment started its activities.  This date does not change when the establishment moves to another location.</description>
+        <externalId>false</externalId>
+        <label>Establishment Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Establishment_House_Number_Addition__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Establishment House Number Addition</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Establishment_House_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Establishment House Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Establishment_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The unique identifier for this business establishment, consisting of 12 numbers (e.g.  012345678912).  Optional.  Some businesses, mainly foundations (`Stichting`), do not have establishments.  In these instances the establishment_number is not returned.</description>
+        <externalId>true</externalId>
+        <label>Establishment Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Establishment_Postal_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Establishment Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Establishment_Street__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Establishment Street</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Establishment_Street_and_House_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Combines street, house number and addition into one string for on the page layout.</description>
+        <externalId>false</externalId>
+        <formula>appsolutely__Establishment_Street__c + &apos; &apos; + appsolutely__Establishment_House_Number__c  +  &apos; &apos; + appsolutely__Establishment_House_Number_Addition__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Establishment Street and House Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Founding_Date_Day__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Day of Founding Date</description>
+        <externalId>false</externalId>
+        <label>Founding Date Day</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Founding_Date_Month__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Month of Founding Date</description>
+        <externalId>false</externalId>
+        <label>Founding Date Month</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Founding_Date_Year__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Year of Founding Date</description>
+        <externalId>false</externalId>
+        <label>Founding Date Year</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Founding_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates the founding date of the company</description>
+        <externalId>false</externalId>
+        <label>Founding Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Full_Address__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The full address the organisation currently resides according to CreditSafe</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The full address the organisation currently resides according to CreditSafe</inlineHelpText>
+        <label>Full Address</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>appsolutely__House_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The house number of the address the organisation resides according to CreditSafe</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The house number of the address the organisation resides according to CreditSafe</inlineHelpText>
+        <label>House Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Indication_Bankruptcy__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Boolean indicating if the business is currently registered as bankrupt (Dutch: ‘Faillissement’).</description>
+        <externalId>false</externalId>
+        <label>Bankrupt</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Indication_Dip__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Boolean indicating if the business is currently registered as Debtor-in-Possession (Dutch: ‘in Surseance’).</description>
+        <externalId>false</externalId>
+        <label>Debtor in possession</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Indication_Economically_Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Boolean indicating if the business is economically active. This indication is determined by a formula developed by the ‘Vereninging Kamers van Koophandel’. This should not be interpreted as an indication of whether the business is currently still registered at the Chamber of Commerce: only currently registered businesses are available through our services.</description>
+        <externalId>false</externalId>
+        <label>Economically Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Indication_Export__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indication of whether the company does export.  Optional.</description>
+        <externalId>false</externalId>
+        <label>Exports</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Indication_Import__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indication of whether the company does import.  Optional.</description>
+        <externalId>false</externalId>
+        <label>Imports</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Indication_Main_Establishment__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Boolean indicating if this is the main establishment of the business.</description>
+        <externalId>false</externalId>
+        <label>Main Establishment</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Indication_Non_Mailing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Boolean indicating if the business has specified that the ‘Vereniging Kamers van Koophandel’ and the ‘de kamers van koophandel’ may not supply the business’ information to third parties for direct marketing purposes.</description>
+        <externalId>false</externalId>
+        <label>Non Mailing</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Indication_Organisation_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Possible values:
+O	Business (Dutch: ‘Onderneming)
+V	Association (Dutch: ‘Vereniging’)
+S	Non-profit organisation (Dutch: ‘Stichting’)
+K	Church community (Dutch: ‘Kerkgenootschap’)
+&lt;empty&gt;	Unknown</description>
+        <externalId>false</externalId>
+        <label>Organisation Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>V</fullName>
+                    <default>false</default>
+                    <label>Association</label>
+                </value>
+                <value>
+                    <fullName>S</fullName>
+                    <default>false</default>
+                    <label>Non-profit organisation</label>
+                </value>
+                <value>
+                    <fullName>K</fullName>
+                    <default>false</default>
+                    <label>Church community</label>
+                </value>
+                <value>
+                    <fullName>O</fullName>
+                    <default>false</default>
+                    <label>Business</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Insolvencies__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Array of DutchBusinessInsolvency entries containing data about the insolvencies.  [optional]</description>
+        <externalId>false</externalId>
+        <label>Insolvencies</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Is_Removed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>True, if removed from Company.info server</description>
+        <externalId>false</externalId>
+        <label>Is Removed</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Issued_Share_Capital_Currency__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Currency For Issued Share Capital</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Issued_Share_Capital__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Issued Share Capital</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Juridical_Form_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The code of the Belgian Juridical Form of this company. Every juridical form code has its own label (see field Juridical Form)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The code of the Belgian Juridical Form of this company. Every juridical form code has its own label (see field Juridical Form)</inlineHelpText>
+        <label>Juridical Form Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Juridical_Form_End_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The end date of the juridical form of the company.</description>
+        <externalId>false</externalId>
+        <label>Juridical Form End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Juridical_Form_Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Belgian Juridical Forms, based on the Form Codes (see field Juridical Form Code).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Belgian Juridical Forms, based on the Form Codes (see field Juridical Form Code).</inlineHelpText>
+        <label>Juridical Form</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Juridical_Form_Start_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The start date of the juridical form of the company.</description>
+        <externalId>false</externalId>
+        <label>Juridical Form Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Juridical_Situation_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The official code of the  juridical situation of the company.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The official code of the  juridical situation of the company.</inlineHelpText>
+        <label>Juridical Situation Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Juridical_Situation_End_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The official end date of the juridical situation of the company.</description>
+        <externalId>false</externalId>
+        <label>Juridical Situation End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Juridical_Situation_Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The official name / title of the  juridical situation of the company.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The official name / title of the  juridical situation of the company.</inlineHelpText>
+        <label>Juridical Situation</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Juridical_Situation_Start_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The official start date of the juridical situation of the company.</description>
+        <externalId>false</externalId>
+        <label>Juridical Situation Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Legal_Form_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Registered legal form used by the organisation.
+See Legal_Form_Text for text description.</description>
+        <externalId>false</externalId>
+        <label>Legal Form Code</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Legal_Form_Text__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Description of the legal form (in Dutch).</description>
+        <externalId>false</externalId>
+        <label>Legal Form</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Eenmanszaak</fullName>
+                    <default>false</default>
+                    <label>Eenmanszaak</label>
+                </value>
+                <value>
+                    <fullName>Eenmanszaak met meer dan één eigenaar</fullName>
+                    <default>false</default>
+                    <label>Eenmanszaak met meer dan één eigenaar</label>
+                </value>
+                <value>
+                    <fullName>NV / BV in oprichting op A-formulier</fullName>
+                    <default>false</default>
+                    <label>NV / BV in oprichting op A-formulier</label>
+                </value>
+                <value>
+                    <fullName>Rederij</fullName>
+                    <default>false</default>
+                    <label>Rederij</label>
+                </value>
+                <value>
+                    <fullName>Maatschap</fullName>
+                    <default>false</default>
+                    <label>Maatschap</label>
+                </value>
+                <value>
+                    <fullName>Vennootschap onder firma</fullName>
+                    <default>false</default>
+                    <label>Vennootschap onder firma</label>
+                </value>
+                <value>
+                    <fullName>NV / BV in oprichting op B-formulier</fullName>
+                    <default>false</default>
+                    <label>NV / BV in oprichting op B-formulier</label>
+                </value>
+                <value>
+                    <fullName>Commanditaire Vennootschap met één beherende vennoot</fullName>
+                    <default>false</default>
+                    <label>Commanditaire Vennootschap met één beherende vennoot</label>
+                </value>
+                <value>
+                    <fullName>Commanditaire Vennootschap met meer dan één beherende vennoot</fullName>
+                    <default>false</default>
+                    <label>Commanditaire Vennootschap met meer dan één beherende vennoot</label>
+                </value>
+                <value>
+                    <fullName>NV / BV in oprichting op D-formulier</fullName>
+                    <default>false</default>
+                    <label>NV / BV in oprichting op D-formulier</label>
+                </value>
+                <value>
+                    <fullName>Rechtspersoon in oprichting</fullName>
+                    <default>false</default>
+                    <label>Rechtspersoon in oprichting</label>
+                </value>
+                <value>
+                    <fullName>Besloten Vennootschap met gewone structuur</fullName>
+                    <default>false</default>
+                    <label>Besloten Vennootschap met gewone structuur</label>
+                </value>
+                <value>
+                    <fullName>Besloten Vennootschap blijkens statuten structuurvennootschap</fullName>
+                    <default>false</default>
+                    <label>Besloten Vennootschap blijkens statuten structuurvennootschap</label>
+                </value>
+                <value>
+                    <fullName>Naamloze Vennootschap met gewone structuur</fullName>
+                    <default>false</default>
+                    <label>Naamloze Vennootschap met gewone structuur</label>
+                </value>
+                <value>
+                    <fullName>Naamloze Vennootschap blijkens statuten structuurvennootschap</fullName>
+                    <default>false</default>
+                    <label>Naamloze Vennootschap blijkens statuten structuurvennootschap</label>
+                </value>
+                <value>
+                    <fullName>Naamloze Vennootschap beleggingsmaatschappij met veranderlijk kapitaal</fullName>
+                    <default>false</default>
+                    <label>Naamloze Vennootschap beleggingsmaatschappij met veranderlijk kapitaal</label>
+                </value>
+                <value>
+                    <fullName>NV beleggingsmaatschappij met veranderlijk kapitaal blijkens statuten structuurvennootschap</fullName>
+                    <default>false</default>
+                    <label>NV beleggingsmaatschappij met veranderlijk kapitaal blijkens statuten structuurvennootschap</label>
+                </value>
+                <value>
+                    <fullName>Europese naamloze vennootschap (SE)</fullName>
+                    <default>false</default>
+                    <label>Europese naamloze vennootschap (SE)</label>
+                </value>
+                <value>
+                    <fullName>Europese naamloze vennootschap (SE) blijkens statuten structuurvennootschap</fullName>
+                    <default>false</default>
+                    <label>Europese naamloze vennootschap (SE) blijkens statuten structuurvennootschap</label>
+                </value>
+                <value>
+                    <fullName>Coöperatie U.A. met gewone structuur</fullName>
+                    <default>false</default>
+                    <label>Coöperatie U.A. met gewone structuur</label>
+                </value>
+                <value>
+                    <fullName>Coöperatie U.A. blijkens statuten structuurcoöperatie</fullName>
+                    <default>false</default>
+                    <label>Coöperatie U.A. blijkens statuten structuurcoöperatie</label>
+                </value>
+                <value>
+                    <fullName>Coöperatie W.A. met gewone structuur</fullName>
+                    <default>false</default>
+                    <label>Coöperatie W.A. met gewone structuur</label>
+                </value>
+                <value>
+                    <fullName>Coöperatie W.A. blijkens statuten structuurcoöperatie</fullName>
+                    <default>false</default>
+                    <label>Coöperatie W.A. blijkens statuten structuurcoöperatie</label>
+                </value>
+                <value>
+                    <fullName>Coöperatie B.A. met gewone structuur</fullName>
+                    <default>false</default>
+                    <label>Coöperatie B.A. met gewone structuur</label>
+                </value>
+                <value>
+                    <fullName>Coöperatie B.A. blijkens statuten structuurcoöperatie</fullName>
+                    <default>false</default>
+                    <label>Coöperatie B.A. blijkens statuten structuurcoöperatie</label>
+                </value>
+                <value>
+                    <fullName>Vereniging van Eigenaars</fullName>
+                    <default>false</default>
+                    <label>Vereniging van Eigenaars</label>
+                </value>
+                <value>
+                    <fullName>Vereniging met volledige rechtsbevoegdheid</fullName>
+                    <default>false</default>
+                    <label>Vereniging met volledige rechtsbevoegdheid</label>
+                </value>
+                <value>
+                    <fullName>Vereniging met beperkte rechtsbevoegdheid</fullName>
+                    <default>false</default>
+                    <label>Vereniging met beperkte rechtsbevoegdheid</label>
+                </value>
+                <value>
+                    <fullName>Kerkgenootschap</fullName>
+                    <default>false</default>
+                    <label>Kerkgenootschap</label>
+                </value>
+                <value>
+                    <fullName>Stichting</fullName>
+                    <default>false</default>
+                    <label>Stichting</label>
+                </value>
+                <value>
+                    <fullName>Onderlinge waarborgmaatschappij U.A. met gewone structuur</fullName>
+                    <default>false</default>
+                    <label>Onderlinge waarborgmaatschappij U.A. met gewone structuur</label>
+                </value>
+                <value>
+                    <fullName>Onderlinge waarborgmaatschappij U.A. blijkens statuten structuuronderlinge</fullName>
+                    <default>false</default>
+                    <label>Onderlinge waarborgmaatschappij U.A. blijkens statuten structuuronderlinge</label>
+                </value>
+                <value>
+                    <fullName>Onderlinge waarborgmaatschappij W.A. met gewone structuur</fullName>
+                    <default>false</default>
+                    <label>Onderlinge waarborgmaatschappij W.A. met gewone structuur</label>
+                </value>
+                <value>
+                    <fullName>Onderlinge waarborgmaatschappij W.A. blijkens statuten structuuronderlinge</fullName>
+                    <default>false</default>
+                    <label>Onderlinge waarborgmaatschappij W.A. blijkens statuten structuuronderlinge</label>
+                </value>
+                <value>
+                    <fullName>Onderlinge waarborgmaatschappij B.A. met gewone structuur</fullName>
+                    <default>false</default>
+                    <label>Onderlinge waarborgmaatschappij B.A. met gewone structuur</label>
+                </value>
+                <value>
+                    <fullName>Onderlinge waarborgmaatschappij B.A. blijkens statuten structuuronderlinge</fullName>
+                    <default>false</default>
+                    <label>Onderlinge waarborgmaatschappij B.A. blijkens statuten structuuronderlinge</label>
+                </value>
+                <value>
+                    <fullName>Publiekrechtelijke rechtspersoon</fullName>
+                    <default>false</default>
+                    <label>Publiekrechtelijke rechtspersoon</label>
+                </value>
+                <value>
+                    <fullName>Privaatrechtelijke rechtspersoon</fullName>
+                    <default>false</default>
+                    <label>Privaatrechtelijke rechtspersoon</label>
+                </value>
+                <value>
+                    <fullName>Buitenlandse rechtsvorm met hoofdvestiging in Nederland</fullName>
+                    <default>false</default>
+                    <label>Buitenlandse rechtsvorm met hoofdvestiging in Nederland</label>
+                </value>
+                <value>
+                    <fullName>Nevenvestiging met hoofdvestiging in buitenland</fullName>
+                    <default>false</default>
+                    <label>Nevenvestiging met hoofdvestiging in buitenland</label>
+                </value>
+                <value>
+                    <fullName>Europees Economisch Samenwerkingsverband</fullName>
+                    <default>false</default>
+                    <label>Europees Economisch Samenwerkingsverband</label>
+                </value>
+                <value>
+                    <fullName>Buitenlandse EG-vennootschap met onderneming in Nederland</fullName>
+                    <default>false</default>
+                    <label>Buitenlandse EG-vennootschap met onderneming in Nederland</label>
+                </value>
+                <value>
+                    <fullName>Buitenlandse EG-vennootschap met hoofdnederzetting in Nederland</fullName>
+                    <default>false</default>
+                    <label>Buitenlandse EG-vennootschap met hoofdnederzetting in Nederland</label>
+                </value>
+                <value>
+                    <fullName>Buitenlandse op EG-vennootschap lijkende vennootschap met onderneming in Nederland</fullName>
+                    <default>false</default>
+                    <label>Buitenlandse op EG-vennootschap lijkende vennootschap met onderneming in Nederland</label>
+                </value>
+                <value>
+                    <fullName>Buitenlandse op EG-vennootschap lijkende vennootschap met hoofdnederzetting in Nederland</fullName>
+                    <default>false</default>
+                    <label>Buitenlandse op EG-vennootschap lijkende vennootschap met hoofdnederzetting in Nederland</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Main_Establishment_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The establishment number for the main establishment of the business.  Optional.</description>
+        <externalId>false</externalId>
+        <label>Main Establishment Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Mobile_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Mobile Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__No_VAT_Number__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Internal field which returns true if there is no VAT number found in the CI backend for Dutch dossiers. For non-Dutch dossiers, Dutch dossiers for which the VAT number has not been checked yet and Dutch dossiers with a VAT number this should return false.</description>
+        <externalId>false</externalId>
+        <label>No VAT Number Known</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Number_Of_Subsidiaries__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of subsidiaries this organization controls.</description>
+        <externalId>false</externalId>
+        <label>Number Of Subsidiaries</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Number_of_Establishments__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of establishments the company has.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of establishments the company has.</inlineHelpText>
+        <label>Number of Establishments</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Number_of_Representatives_Organizations__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of organizations acting as a legal representative for the company.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of organizations acting as a legal representative for the company.</inlineHelpText>
+        <label>Number of Representatives (Organization)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Number_of_Representatives_Persons__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of persons acting as a legal representative for the company.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of persons acting as a legal representative for the company.</inlineHelpText>
+        <label>Number of Representatives (Person)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Office_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Office Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Paid_Up_Share_Capital_Currency__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Currency For Paid Up Share Capital</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Paid_Up_Share_Capital__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Paid Up Share Capital</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Parent_Chamber_Of_Commerce_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Chamber of Commerce number of the immediate parent organization.</description>
+        <externalId>false</externalId>
+        <label>Parent Chamber Of Commerce Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Personnel_CI_Reference_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A DutchBusinessDateV3.  The reference date (peildatum) of the number of employees recorded by company.info</description>
+        <externalId>false</externalId>
+        <label>Date Number Of Employees (by CI)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Personnel_CI__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total number of employees as recorded by the company.info software</description>
+        <externalId>false</externalId>
+        <label>Number Of Employees (by CI)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Personnel_Fulltime__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Number of Fulltime Employees</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Personnel_Reference_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The reference date (peildatum) of the number of employees.</description>
+        <externalId>false</externalId>
+        <label>Date Number Of Employees</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Personnel__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Number Of Employees</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Postal_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The postal code this organisation resides according to CreditSafe</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The postal code this organisation resides according to CreditSafe</inlineHelpText>
+        <label>Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Primary_Sbi_Code_Text__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Primary SBI Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Primary_Sbi_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Primary SBI Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Profit__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The profit realised in the financial year DutchBusinessMoneyV2</description>
+        <externalId>false</externalId>
+        <label>Profit</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Registration_Country__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The country in which this organisation has been registered</inlineHelpText>
+        <label>Registration Country</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>appsolutely__Registration_Countries</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Rsin_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The 9 number RSIN (`Rechtspersonen Samenwerkingsverbanden Informatie Nummer`) identifying the business’ legal entity.  Optional, businesses with a sole proprietor (`eenmanszaken`) do not have an rsin_number.</description>
+        <externalId>false</externalId>
+        <label>RSIN Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Sbi_Collection__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Collection of SBI’s DutchBusinessSBICollection</description>
+        <externalId>false</externalId>
+        <label>Sbi_Collection</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Search_Criteria_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Contains the name of the search criteria</description>
+        <externalId>false</externalId>
+        <label>Search Criteria Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Secondary_Sbi_Code_1_Text__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Secondary SBI Code Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Secondary_Sbi_Code_1__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Secondary SBI Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Secondary_Sbi_Code_2_Text__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Tertiary SBI Code Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Secondary_Sbi_Code_2__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Tertiary SBI Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates the Status of a company (Import, Export, Economically Active, Non mailing, Bankruptcy, Debtor in Possession (DIP))</description>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Import</fullName>
+                    <default>false</default>
+                    <label>Import</label>
+                </value>
+                <value>
+                    <fullName>Export</fullName>
+                    <default>false</default>
+                    <label>Export</label>
+                </value>
+                <value>
+                    <fullName>Economically Active</fullName>
+                    <default>false</default>
+                    <label>Economically Active</label>
+                </value>
+                <value>
+                    <fullName>Non Mailing</fullName>
+                    <default>false</default>
+                    <label>Non Mailing</label>
+                </value>
+                <value>
+                    <fullName>Bankruptcy</fullName>
+                    <default>false</default>
+                    <label>Bankruptcy</label>
+                </value>
+                <value>
+                    <fullName>DIP</fullName>
+                    <default>false</default>
+                    <label>DIP</label>
+                </value>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>false</default>
+                    <label>Active</label>
+                </value>
+                <value>
+                    <fullName>Active, NonActive</fullName>
+                    <default>false</default>
+                    <label>Active, NonActive</label>
+                </value>
+                <value>
+                    <fullName>NonActive</fullName>
+                    <default>false</default>
+                    <label>NonActive</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Street__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The street this organisation resides in according to CreditSafe</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The street this organisation resides in according to CreditSafe</inlineHelpText>
+        <label>Street</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Structure__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Information regarding the structure of the organization DutchBusinessStructure.</description>
+        <externalId>false</externalId>
+        <label>Structure</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Telephone_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Telephone number of the establishment.</description>
+        <externalId>false</externalId>
+        <label>Telephone Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Trade_Name_45__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Primary name under which the business engages in commercial activity.  Shortened to a maximum of 45 characters.</description>
+        <externalId>false</externalId>
+        <label>Trade Name</label>
+        <length>45</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Trade_Name_Full__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Primary name under which the business engages in commercial activity.  This is the full name, up to 132 characters long.</description>
+        <externalId>false</externalId>
+        <label>Trade Name Full</label>
+        <length>132</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Trade_Names__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Alternative trade names used by the establishment.</description>
+        <externalId>false</externalId>
+        <label>Trade Names</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Turnover__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The turnover realised in the financial year DutchBusinessMoneyV2</description>
+        <externalId>false</externalId>
+        <label>Turnover</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The type of the organisation (Ltd, NonLtd etc.)</inlineHelpText>
+        <label>Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Ultimate_Parent_Chamber_Of_Commerce_Nr__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Chamber of Commerce number of the ultimate parent organization.  This number consists of 8 numbers (e.g., 00123456).  This number can be used to retrieve the ultimate parent organization using: dutchBusinessGetDossierV2 or dutchBusinessGetDossier</description>
+        <externalId>false</externalId>
+        <label>Ultimate Parent Chamber Of Commerce Nr</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__VAT_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The VAT Number for a specified dossier number</description>
+        <externalId>false</externalId>
+        <label>VAT Number</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Year__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The year covered in the financial statement</description>
+        <externalId>false</externalId>
+        <label>Year</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Business Dossier</label>
+    <nameField>
+        <label>Legal Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Business Dossiers</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>appsolutely__Belgian_Business</fullName>
+        <active>true</active>
+        <description>Record type for dossiers coming from Company Info Belgian Business web services</description>
+        <label>Belgian Business</label>
+        <picklistValues>
+            <picklist>appsolutely__Chamber_Code__c</picklist>
+            <values>
+                <fullName>00</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>01</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>08</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>09</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>14</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>17</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>27</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>30</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>32</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>34</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>37</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Class_Personnel_CI__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Class_Personnel_Fulltime__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Class_Personnel__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Contact_Gender__c</picklist>
+            <values>
+                <fullName>f</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>m</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Indication_Organisation_Code__c</picklist>
+            <values>
+                <fullName>K</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>O</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>V</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Legal_Form_Text__c</picklist>
+            <values>
+                <fullName>Besloten Vennootschap blijkens statuten structuurvennootschap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Besloten Vennootschap met gewone structuur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Buitenlandse EG-vennootschap met hoofdnederzetting in Nederland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Buitenlandse EG-vennootschap met onderneming in Nederland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Buitenlandse op EG-vennootschap lijkende vennootschap met hoofdnederzetting in Nederland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Buitenlandse op EG-vennootschap lijkende vennootschap met onderneming in Nederland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Buitenlandse rechtsvorm met hoofdvestiging in Nederland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commanditaire Vennootschap met meer dan één beherende vennoot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commanditaire Vennootschap met één beherende vennoot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coöperatie B%2EA%2E blijkens statuten structuurcoöperatie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coöperatie B%2EA%2E met gewone structuur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coöperatie U%2EA%2E blijkens statuten structuurcoöperatie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coöperatie U%2EA%2E met gewone structuur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coöperatie W%2EA%2E blijkens statuten structuurcoöperatie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coöperatie W%2EA%2E met gewone structuur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eenmanszaak</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eenmanszaak met meer dan één eigenaar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Europees Economisch Samenwerkingsverband</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Europese naamloze vennootschap %28SE%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Europese naamloze vennootschap %28SE%29 blijkens statuten structuurvennootschap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kerkgenootschap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maatschap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NV %2F BV in oprichting op A-formulier</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NV %2F BV in oprichting op B-formulier</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NV %2F BV in oprichting op D-formulier</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NV beleggingsmaatschappij met veranderlijk kapitaal blijkens statuten structuurvennootschap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Naamloze Vennootschap beleggingsmaatschappij met veranderlijk kapitaal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Naamloze Vennootschap blijkens statuten structuurvennootschap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Naamloze Vennootschap met gewone structuur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nevenvestiging met hoofdvestiging in buitenland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onderlinge waarborgmaatschappij B%2EA%2E blijkens statuten structuuronderlinge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onderlinge waarborgmaatschappij B%2EA%2E met gewone structuur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onderlinge waarborgmaatschappij U%2EA%2E blijkens statuten structuuronderlinge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onderlinge waarborgmaatschappij U%2EA%2E met gewone structuur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onderlinge waarborgmaatschappij W%2EA%2E blijkens statuten structuuronderlinge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onderlinge waarborgmaatschappij W%2EA%2E met gewone structuur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Privaatrechtelijke rechtspersoon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Publiekrechtelijke rechtspersoon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rechtspersoon in oprichting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rederij</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stichting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vennootschap onder firma</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vereniging met beperkte rechtsbevoegdheid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vereniging met volledige rechtsbevoegdheid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vereniging van Eigenaars</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Registration_Country__c</picklist>
+            <values>
+                <fullName>BE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NL</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>SE</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Active%2C NonActive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bankruptcy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DIP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Economically Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Export</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Import</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Mailing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NonActive</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>appsolutely__Creditsafe</fullName>
+        <active>true</active>
+        <description>Record type for dossiers coming from CreditSafe itself.</description>
+        <label>Creditsafe</label>
+        <picklistValues>
+            <picklist>appsolutely__Chamber_Code__c</picklist>
+            <values>
+                <fullName>00</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>01</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>08</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>09</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>14</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>17</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>27</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>30</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>32</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>34</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>37</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Class_Personnel_CI__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Class_Personnel_Fulltime__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Class_Personnel__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Contact_Gender__c</picklist>
+            <values>
+                <fullName>f</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>m</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Indication_Organisation_Code__c</picklist>
+            <values>
+                <fullName>K</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>O</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>V</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Legal_Form_Text__c</picklist>
+            <values>
+                <fullName>Besloten Vennootschap blijkens statuten structuurvennootschap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Besloten Vennootschap met gewone structuur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Buitenlandse EG-vennootschap met hoofdnederzetting in Nederland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Buitenlandse EG-vennootschap met onderneming in Nederland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Buitenlandse op EG-vennootschap lijkende vennootschap met hoofdnederzetting in Nederland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Buitenlandse op EG-vennootschap lijkende vennootschap met onderneming in Nederland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Buitenlandse rechtsvorm met hoofdvestiging in Nederland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commanditaire Vennootschap met meer dan één beherende vennoot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commanditaire Vennootschap met één beherende vennoot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coöperatie B%2EA%2E blijkens statuten structuurcoöperatie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coöperatie B%2EA%2E met gewone structuur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coöperatie U%2EA%2E blijkens statuten structuurcoöperatie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coöperatie U%2EA%2E met gewone structuur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coöperatie W%2EA%2E blijkens statuten structuurcoöperatie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coöperatie W%2EA%2E met gewone structuur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eenmanszaak</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eenmanszaak met meer dan één eigenaar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Europees Economisch Samenwerkingsverband</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Europese naamloze vennootschap %28SE%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Europese naamloze vennootschap %28SE%29 blijkens statuten structuurvennootschap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kerkgenootschap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maatschap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NV %2F BV in oprichting op A-formulier</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NV %2F BV in oprichting op B-formulier</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NV %2F BV in oprichting op D-formulier</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NV beleggingsmaatschappij met veranderlijk kapitaal blijkens statuten structuurvennootschap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Naamloze Vennootschap beleggingsmaatschappij met veranderlijk kapitaal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Naamloze Vennootschap blijkens statuten structuurvennootschap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Naamloze Vennootschap met gewone structuur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nevenvestiging met hoofdvestiging in buitenland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onderlinge waarborgmaatschappij B%2EA%2E blijkens statuten structuuronderlinge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onderlinge waarborgmaatschappij B%2EA%2E met gewone structuur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onderlinge waarborgmaatschappij U%2EA%2E blijkens statuten structuuronderlinge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onderlinge waarborgmaatschappij U%2EA%2E met gewone structuur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onderlinge waarborgmaatschappij W%2EA%2E blijkens statuten structuuronderlinge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onderlinge waarborgmaatschappij W%2EA%2E met gewone structuur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Privaatrechtelijke rechtspersoon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Publiekrechtelijke rechtspersoon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rechtspersoon in oprichting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rederij</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stichting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vennootschap onder firma</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vereniging met beperkte rechtsbevoegdheid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vereniging met volledige rechtsbevoegdheid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vereniging van Eigenaars</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Registration_Country__c</picklist>
+            <values>
+                <fullName>BE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NL</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>SE</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Active%2C NonActive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NonActive</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>appsolutely__Dutch_Business</fullName>
+        <active>true</active>
+        <description>Record type for dossiers coming from Company Info itself.</description>
+        <label>Dutch Business</label>
+        <picklistValues>
+            <picklist>appsolutely__Chamber_Code__c</picklist>
+            <values>
+                <fullName>00</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>01</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>08</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>09</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>14</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>17</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>27</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>30</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>32</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>34</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>37</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Class_Personnel_CI__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Class_Personnel_Fulltime__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Class_Personnel__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Contact_Gender__c</picklist>
+            <values>
+                <fullName>f</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>m</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Indication_Organisation_Code__c</picklist>
+            <values>
+                <fullName>K</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>O</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>V</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Legal_Form_Text__c</picklist>
+            <values>
+                <fullName>Besloten Vennootschap blijkens statuten structuurvennootschap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Besloten Vennootschap met gewone structuur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Buitenlandse EG-vennootschap met hoofdnederzetting in Nederland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Buitenlandse EG-vennootschap met onderneming in Nederland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Buitenlandse op EG-vennootschap lijkende vennootschap met hoofdnederzetting in Nederland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Buitenlandse op EG-vennootschap lijkende vennootschap met onderneming in Nederland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Buitenlandse rechtsvorm met hoofdvestiging in Nederland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commanditaire Vennootschap met meer dan één beherende vennoot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commanditaire Vennootschap met één beherende vennoot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coöperatie B%2EA%2E blijkens statuten structuurcoöperatie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coöperatie B%2EA%2E met gewone structuur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coöperatie U%2EA%2E blijkens statuten structuurcoöperatie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coöperatie U%2EA%2E met gewone structuur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coöperatie W%2EA%2E blijkens statuten structuurcoöperatie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coöperatie W%2EA%2E met gewone structuur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eenmanszaak</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eenmanszaak met meer dan één eigenaar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Europees Economisch Samenwerkingsverband</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Europese naamloze vennootschap %28SE%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Europese naamloze vennootschap %28SE%29 blijkens statuten structuurvennootschap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kerkgenootschap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maatschap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NV %2F BV in oprichting op A-formulier</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NV %2F BV in oprichting op B-formulier</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NV %2F BV in oprichting op D-formulier</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NV beleggingsmaatschappij met veranderlijk kapitaal blijkens statuten structuurvennootschap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Naamloze Vennootschap beleggingsmaatschappij met veranderlijk kapitaal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Naamloze Vennootschap blijkens statuten structuurvennootschap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Naamloze Vennootschap met gewone structuur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nevenvestiging met hoofdvestiging in buitenland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onderlinge waarborgmaatschappij B%2EA%2E blijkens statuten structuuronderlinge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onderlinge waarborgmaatschappij B%2EA%2E met gewone structuur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onderlinge waarborgmaatschappij U%2EA%2E blijkens statuten structuuronderlinge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onderlinge waarborgmaatschappij U%2EA%2E met gewone structuur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onderlinge waarborgmaatschappij W%2EA%2E blijkens statuten structuuronderlinge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onderlinge waarborgmaatschappij W%2EA%2E met gewone structuur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Privaatrechtelijke rechtspersoon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Publiekrechtelijke rechtspersoon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rechtspersoon in oprichting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rederij</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stichting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vennootschap onder firma</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vereniging met beperkte rechtsbevoegdheid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vereniging met volledige rechtsbevoegdheid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vereniging van Eigenaars</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Registration_Country__c</picklist>
+            <values>
+                <fullName>ES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NL</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>appsolutely__Status__c</picklist>
+            <values>
+                <fullName>Bankruptcy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DIP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Economically Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Export</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Import</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Mailing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

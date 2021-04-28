@@ -1,0 +1,20 @@
+<template>
+    <div class="slds-box slds-theme_default">
+        <div class="slds-grid slds-m-bottom--none">
+            <lightning-icon icon-name="custom:custom18" alternative-text="Agreements" size="small" class="slds-media__figure"></lightning-icon>
+            <div class="slds-media__body slds-text-heading--medium"><h2 class="slds-card__header-title slds-truncate"><b>Agreements related to Account</b></h2></div>
+        </div>
+        <br/>
+        <template if:true={showDataTable}>
+            <lightning-datatable
+                    key-field="rowNumber"
+                    data={agreeList}
+                    columns={columns}
+                    hide-checkbox-column>
+            </lightning-datatable>
+        </template>
+	    <template if:true={showMessage}>
+            <div class="slds-align_absolute-center" style="height:5rem">No related agreements available on the account</div>
+        </template>
+    </div>
+</template>

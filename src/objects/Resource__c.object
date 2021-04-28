@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>Resource</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Resource</fullName>
+        <fields>Name</fields>
+        <fields>EmployeeLastName__c</fields>
+        <fields>SAPStorageLocation__c</fields>
+        <fields>Team__c</fields>
+        <label>Resource</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This object collects the information  that is needed for linking Engineer information to Work Orders for reporting purposes.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>ActiveUser__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field indicates that a user is active or not.</description>
+        <externalId>false</externalId>
+        <label>Active User</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CATSProfile4digCode__c</fullName>
+        <externalId>false</externalId>
+        <label>CATS Profile</label>
+        <length>4</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Click__c</fullName>
+        <description>This field indicates if the resource is applicable as a Click country.</description>
+        <externalId>false</externalId>
+        <formula>IF(OR(CompanyCode__c = &quot;0202&quot;, CompanyCode__c = &quot;0067&quot;, CompanyCode__c = &quot;6864&quot;, CompanyCode__c = &quot;6712&quot;, CompanyCode__c = &quot;0079&quot;), TRUE, FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Click</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CompanyCode__c</fullName>
+        <externalId>false</externalId>
+        <label>Company Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CostCenter__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost Center</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CountryCode__c</fullName>
+        <description>This formula field get the Country Code on basis of Company Code.</description>
+        <externalId>false</externalId>
+        <formula>IF(CompanyCode__c = &quot;0202&quot; , &quot;BE&quot;, 
+  IF(CompanyCode__c = &quot;0067&quot; , &quot;DK&quot;,  
+     IF(CompanyCode__c = &quot;6706&quot; , &quot;FR&quot;,  
+        IF(CompanyCode__c = &quot;6864&quot; , &quot;NO&quot;,  
+           IF(CompanyCode__c = &quot;0160&quot; , &quot;SE&quot;,  
+              IF(CompanyCode__c = &quot;0154&quot; , &quot;ES&quot;, 
+                 IF(CompanyCode__c = &quot;6709&quot; , &quot;IE&quot;,  
+                    IF(CompanyCode__c = &quot;6712&quot; , &quot;DE&quot;, 
+                       IF(CompanyCode__c = &quot;6750&quot; , &quot;UK&quot;,  
+                          IF(CompanyCode__c = &quot;0079&quot; , &quot;NL&quot;, &quot;None&quot; 
+)  )  )  )  )  )  )  )  )  )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Country Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Country</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Netherlands</fullName>
+                    <default>false</default>
+                    <label>Netherlands</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Create_Edit_OPG_Schedule__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>to indicate that Resource has JDE - 3rd Party Enable Operating Schedule permission set</description>
+        <externalId>false</externalId>
+        <label>Create/Edit OPG Schedule</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Distribution_Channel__c</fullName>
+        <description>Work Order Billing</description>
+        <externalId>false</externalId>
+        <formula>&quot;SAP_10&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Distribution Channel</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Division__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;SAP_20&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Division</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EmailAddress__c</fullName>
+        <externalId>false</externalId>
+        <label>Email Address</label>
+        <length>241</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EmployeeFirstName__c</fullName>
+        <externalId>false</externalId>
+        <label>Employee First Name</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EmployeeLastName__c</fullName>
+        <externalId>false</externalId>
+        <label>Employee Last Name</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EmployeeMiddleName__c</fullName>
+        <externalId>false</externalId>
+        <label>Employee Middle Name</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EmployeeStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>Employee Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Enable_SSO__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Enable SSO</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>LastCarStockCheck__c</fullName>
+        <description>This indicates the last car stock check executes for this resource.</description>
+        <externalId>false</externalId>
+        <label>Last Car Stock Check</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>LastCentralWarehouseCheck__c</fullName>
+        <description>This indicates the last central warehouse check executes for the resource.</description>
+        <externalId>false</externalId>
+        <label>Last Central Warehouse Check</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>LastMethodologyCheck__c</fullName>
+        <description>This indicates the last time a methodology check was conducted for this resource.</description>
+        <externalId>false</externalId>
+        <label>Last Methodology Check</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>LastTechnicalServiceCheck__c</fullName>
+        <description>This indicates the last time the resource received a technical service check.</description>
+        <externalId>false</externalId>
+        <label>Last Technical Service Check</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>LastWalkAlongReport__c</fullName>
+        <description>This field indicates the last walk along report conducted for this resource.</description>
+        <externalId>false</externalId>
+        <label>Last Walk Along Report</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>NamePrefix__c</fullName>
+        <externalId>false</externalId>
+        <label>Name Prefix</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NickName__c</fullName>
+        <description>This field is used to specify the nickname of the user.</description>
+        <externalId>false</externalId>
+        <label>Nickname</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PersonnelArea__c</fullName>
+        <externalId>false</externalId>
+        <label>Personnel Area</label>
+        <length>4</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Phone</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Position_Code__c</fullName>
+        <description>CR 1748</description>
+        <externalId>false</externalId>
+        <label>Position Code</label>
+        <length>8</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Position_Description__c</fullName>
+        <description>CR 1748</description>
+        <externalId>false</externalId>
+        <label>Position Description</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RLS_Portal_User__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>RLS Portal User</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>RelatedContact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This is a relationship to the contact required for a third party user (customer community user) being created in the system.</description>
+        <externalId>false</externalId>
+        <label>Related Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Resources</relationshipLabel>
+        <relationshipName>Resources</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RelatedUser__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Resources</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RequiresClickUser__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field indicates whether the user needs to have a click user.</description>
+        <externalId>false</externalId>
+        <label>Requires Click User</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SAPPlant__c</fullName>
+        <description>FD 1374 - Manually entered in SF</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Manually maintained in SF</inlineHelpText>
+        <label>SAP Plant</label>
+        <length>4</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SAPStorageLocation__c</fullName>
+        <externalId>false</externalId>
+        <label>SAP Storage Location</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SalesOrg__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(CompanyCode__c, 
+&quot;0202&quot;, &quot;SAP_0333&quot;, 
+&quot;0067&quot;, &quot;SAP_0975&quot;, 
+&quot;6706&quot;, &quot;SAP_6706&quot;, 
+&quot;6864&quot;, &quot;SAP_6864&quot;, 
+&quot;0160&quot;, &quot;SAP_0976&quot;, 
+&quot;0154&quot;, &quot;SAP_0080&quot;, 
+&quot;6709&quot;, &quot;SAP_6709&quot;, 
+&quot;6712&quot;, &quot;SAP_6712&quot;, 
+&quot;6750&quot;, &quot;SAP_6750&quot;, 
+&quot;0079&quot;, &quot;SAP_0111&quot;, &quot;None&quot; 
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SalesOrg</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Organization__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Organization</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>PKL_SalesOrganization</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Skills__c</fullName>
+        <externalId>false</externalId>
+        <label>Skill(s)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TeamNumber__c</fullName>
+        <description>CR- 1609 Adding Team and Team Number to Interface 1374-1609-447</description>
+        <externalId>false</externalId>
+        <label>Team Number</label>
+        <length>8</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Team__c</fullName>
+        <description>CR- 1609 Adding Team and Team Code to Interface 1374-1609-447</description>
+        <externalId>false</externalId>
+        <label>Team</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Third_Party__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This indicates that the resource is a third party planner resource which also requires a click license in case of a click country.</description>
+        <externalId>false</externalId>
+        <label>Third Party Planner</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>UserProfile__c</fullName>
+        <description>This field indicates the user profile required.</description>
+        <externalId>false</externalId>
+        <label>User Profile</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Third Party Capacity</fullName>
+                    <default>false</default>
+                    <label>Third Party Capacity</label>
+                </value>
+                <value>
+                    <fullName>Planner</fullName>
+                    <default>false</default>
+                    <label>Planner</label>
+                </value>
+                <value>
+                    <fullName>Supervisor</fullName>
+                    <default>false</default>
+                    <label>Supervisor</label>
+                </value>
+                <value>
+                    <fullName>BI Analyst</fullName>
+                    <default>false</default>
+                    <label>BI Analyst</label>
+                </value>
+                <value>
+                    <fullName>Admin</fullName>
+                    <default>false</default>
+                    <label>Admin</label>
+                </value>
+                <value>
+                    <fullName>TS Resource</fullName>
+                    <default>false</default>
+                    <label>TS Resource</label>
+                </value>
+                <value>
+                    <fullName>Operator</fullName>
+                    <default>false</default>
+                    <label>Operator</label>
+                </value>
+                <value>
+                    <fullName>Routesales Resource</fullName>
+                    <default>false</default>
+                    <label>Routesales Resource</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Username__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>false</externalId>
+        <label>Username</label>
+        <length>60</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <label>Resource</label>
+    <listViews>
+        <fullName>All_Resources</fullName>
+        <columns>NAME</columns>
+        <columns>EmployeeFirstName__c</columns>
+        <columns>EmployeeLastName__c</columns>
+        <columns>EmailAddress__c</columns>
+        <columns>SAPStorageLocation__c</columns>
+        <columns>SAPPlant__c</columns>
+        <columns>CostCenter__c</columns>
+        <columns>CompanyCode__c</columns>
+        <columns>CATSProfile4digCode__c</columns>
+        <columns>Team__c</columns>
+        <columns>TeamNumber__c</columns>
+        <columns>RelatedUser__c</columns>
+        <columns>UserProfile__c</columns>
+        <columns>Sales_Organization__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Resources</label>
+    </listViews>
+    <nameField>
+        <label>SAP Employee Number</label>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Resources</pluralLabel>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>EmployeeFirstName__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>EmployeeMiddleName__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>EmployeeLastName__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>EmployeeStatus__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CATSProfile4digCode__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CompanyCode__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CostCenter__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SAPStorageLocation__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>EmployeeFirstName__c</searchFilterFields>
+        <searchFilterFields>EmployeeMiddleName__c</searchFilterFields>
+        <searchFilterFields>EmployeeLastName__c</searchFilterFields>
+        <searchFilterFields>EmployeeStatus__c</searchFilterFields>
+        <searchFilterFields>CATSProfile4digCode__c</searchFilterFields>
+        <searchFilterFields>CompanyCode__c</searchFilterFields>
+        <searchFilterFields>CostCenter__c</searchFilterFields>
+        <searchFilterFields>SAPStorageLocation__c</searchFilterFields>
+        <searchResultsAdditionalFields>EmployeeFirstName__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EmployeeMiddleName__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EmployeeLastName__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EmployeeStatus__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Sales_Organization__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CATSProfile4digCode__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CompanyCode__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CostCenter__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SAPStorageLocation__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>TS_ContactWithoutAccount</fullName>
+        <active>true</active>
+        <description>You cannot create a portal user with a contact not related to an account.</description>
+        <errorConditionFormula>$Setup.ValidationRulesSettings__c.ResourceValidationRules__c &amp;&amp;
+ISCHANGED(ActiveUser__c) &amp;&amp; 
+ActiveUser__c = TRUE &amp;&amp;
+OR(ISPICKVAL(UserProfile__c, &quot;Third Party Capacity&quot;), ISPICKVAL(UserProfile__c, &quot;TS Resource&quot;)) &amp;&amp;
+NOT(ISBLANK(RelatedContact__c)) &amp;&amp;
+ISBLANK( RelatedContact__r.AccountId )</errorConditionFormula>
+        <errorMessage>You cannot create a portal user with a contact not related to an account.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TS_ExistingPortalUser</fullName>
+        <active>false</active>
+        <description>You cannot create another user for this resource.</description>
+        <errorConditionFormula>$Setup.ValidationRulesSettings__c.ResourceValidationRules__c &amp;&amp;
+ISCHANGED(ActiveUser__c) &amp;&amp; 
+ActiveUser__c = TRUE &amp;&amp;
+NOT(ISBLANK( RelatedUser__c ))</errorConditionFormula>
+        <errorMessage>You cannot create another user for this resource.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TS_MissingEmailAddress</fullName>
+        <active>true</active>
+        <description>You cannot create a user without an email address.</description>
+        <errorConditionFormula>$Setup.ValidationRulesSettings__c.ResourceValidationRules__c &amp;&amp;
+ISCHANGED(ActiveUser__c) &amp;&amp; 
+ActiveUser__c = TRUE &amp;&amp;
+ISBLANK(EmailAddress__c )</errorConditionFormula>
+        <errorMessage>You cannot create a user without an email address.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TS_OwnerOfAccountWithoutRole</fullName>
+        <active>true</active>
+        <description>The owner of account related to the related contact has an owner without a role.</description>
+        <errorConditionFormula>$Setup.ValidationRulesSettings__c.ResourceValidationRules__c &amp;&amp;
+ISCHANGED(ActiveUser__c) &amp;&amp; 
+ActiveUser__c = TRUE &amp;&amp;
+OR(ISPICKVAL(UserProfile__c, &quot;Third Party Capacity&quot;), ISPICKVAL(UserProfile__c, &quot;TS Resource&quot;)) &amp;&amp;
+NOT(ISBLANK(RelatedContact__c)) &amp;&amp;
+NOT(ISBLANK( RelatedContact__r.AccountId)) &amp;&amp;
+ISBLANK( RelatedContact__r.Account.Owner.UserRoleId )</errorConditionFormula>
+        <errorMessage>The owner of account related to the related contact has an owner without a role.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TS_PreventClickRolesForTemplate2</fullName>
+        <active>true</active>
+        <description>You cannot create a user with Click roles for a non Click resource.</description>
+        <errorConditionFormula>$Setup.ValidationRulesSettings__c.ResourceValidationRules__c &amp;&amp;
+ISCHANGED(ActiveUser__c) &amp;&amp; 
+ActiveUser__c = TRUE &amp;&amp;
+Click__c = FALSE &amp;&amp;
+OR(
+ISPICKVAL( UserProfile__c, &quot;Planner&quot;),
+ISPICKVAL( UserProfile__c, &quot;Supervisor&quot;),
+ISPICKVAL( UserProfile__c, &quot;BI Analyst&quot;),
+ISPICKVAL( UserProfile__c, &quot;Admin&quot;),
+ISPICKVAL( UserProfile__c, &quot;Operator&quot;),
+ISPICKVAL( UserProfile__c, &quot;Routesales Resource&quot;))</errorConditionFormula>
+        <errorMessage>You cannot create a user with Click roles for a non Click resource.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TS_RequestClickUserForTemplate2</fullName>
+        <active>true</active>
+        <description>You cannot request a Click user for a template 2 resource.</description>
+        <errorConditionFormula>$Setup.ValidationRulesSettings__c.ResourceValidationRules__c &amp;&amp;
+ISCHANGED(ActiveUser__c) &amp;&amp; 
+ActiveUser__c = TRUE &amp;&amp;
+Click__c = FALSE &amp;&amp;
+RequiresClickUser__c = TRUE</errorConditionFormula>
+        <errorMessage>You cannot request a Click user for a template 2 resource.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TS_RequestClickUserForTemplate3</fullName>
+        <active>true</active>
+        <description>You cannot assign a Click profile without requesting a Click user.</description>
+        <errorConditionFormula>$Setup.ValidationRulesSettings__c.ResourceValidationRules__c &amp;&amp;
+ISCHANGED(ActiveUser__c) &amp;&amp; 
+ActiveUser__c = TRUE &amp;&amp;
+RequiresClickUser__c = FALSE &amp;&amp;
+OR( 
+ISPICKVAL( UserProfile__c, &quot;Planner&quot;), 
+ISPICKVAL( UserProfile__c, &quot;Supervisor&quot;), 
+ISPICKVAL( UserProfile__c, &quot;BI Analyst&quot;), 
+ISPICKVAL( UserProfile__c, &quot;Admin&quot;), 
+ISPICKVAL( UserProfile__c, &quot;Operator&quot;), 
+ISPICKVAL( UserProfile__c, &quot;Routesales Resource	&quot;))</errorConditionFormula>
+        <errorMessage>You cannot assign a Click profile without requesting a Click user.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TS_RequiresUsernameAndNickname</fullName>
+        <active>true</active>
+        <description>You need to enter a username and nickname if you want to create a portal user while username is required if you want to create a click user.</description>
+        <errorConditionFormula>$Setup.ValidationRulesSettings__c.ResourceValidationRules__c &amp;&amp; 
+ISCHANGED(ActiveUser__c) &amp;&amp; 
+ActiveUser__c = TRUE &amp;&amp; 
+OR(
+(ISBLANK( NickName__c ) &amp;&amp; ISPICKVAL(UserProfile__c, &quot;TS Resource&quot;) &amp;&amp; RequiresClickUser__c = false ),
+(ISBLANK( NickName__c ) &amp;&amp; ISPICKVAL(UserProfile__c, &quot;Third Party Capacity&quot;)),
+ISBLANK( Username__c ))</errorConditionFormula>
+        <errorMessage>You need to enter a username and nickname if you want to create a portal user, while username is required if you want to create a click user.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TS_UserNameFormat</fullName>
+        <active>true</active>
+        <errorConditionFormula>!ISBLANK(Username__c) &amp;&amp; !REGEX ( UPPER (  Username__c  ) ,&quot;^[A-Z0-9._%+-/!#$%&amp;&apos;*=?^_`{|}~]+@[A-Z0-9.-]+\\.[A-Z]{2,4}$&quot;)</errorConditionFormula>
+        <errorMessage>The username must be in the form of an email address (i.e. xxxx@xxx.com), but does not have to be a valid email address.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TS_UserWithoutContact</fullName>
+        <active>true</active>
+        <description>You cannot create a portal user without a related contact.</description>
+        <errorConditionFormula>$Setup.ValidationRulesSettings__c.ResourceValidationRules__c &amp;&amp;
+ISCHANGED(ActiveUser__c) &amp;&amp; 
+ActiveUser__c = TRUE &amp;&amp;
+OR(ISPICKVAL(UserProfile__c, &quot;Third Party Capacity&quot;), (ISPICKVAL(UserProfile__c, &quot;TS Resource&quot;) &amp;&amp;  RequiresClickUser__c =false)) &amp;&amp;
+ISBLANK(RelatedContact__c)</errorConditionFormula>
+        <errorMessage>You cannot create a portal user without a related contact.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>KTS-1675: Send Non-3rd party User to Click</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>CustomUserProfile__c</fullName>
+        <externalId>false</externalId>
+        <label>User Profile</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>TS_Position to User Profile Mapping</label>
+    <visibility>Public</visibility>
+</CustomObject>

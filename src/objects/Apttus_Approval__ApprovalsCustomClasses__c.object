@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Used to register custom classes that Implement Global interfaces exposed by Apttus for customization</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Apttus_Approval__InboundAttachmentCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Inbound attachment callback class name. The class should implement the CustomClass.IInboundAttachmentCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Inbound attachment callback class name. The class should implement the CustomClass.IInboundAttachmentCallback interface.</inlineHelpText>
+        <label>Inbound Attachment Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__QueryCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Query callback class name. The class should implement the CustomClass.IQueryCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Query callback class name. The class should implement the CustomClass.IQueryCallback interface.</inlineHelpText>
+        <label>Query Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Approvals Custom Classes</label>
+    <visibility>Public</visibility>
+</CustomObject>

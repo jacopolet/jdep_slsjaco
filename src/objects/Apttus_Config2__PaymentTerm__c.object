@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Payment_Term_Lightning</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>v2_Default</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>v2_Default</fullName>
+        <fields>Name</fields>
+        <fields>APTS_Ext_ID__c</fields>
+        <label>v2 Default</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents a payment term associated with a quote, order or an agreement</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>APTS_Ext_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>SAP ID</label>
+        <length>60</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Legacy__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This describes if this is a current or legacy Payment Term</description>
+        <externalId>false</externalId>
+        <label>Legacy</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Sales_Org_Text__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Org Text</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Sales_Org__c</fullName>
+        <description>This is a Global Picklist: PKL_SalesOrganization</description>
+        <externalId>false</externalId>
+        <label>Sales Org</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>PKL_SalesOrganization</valueSetName>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The payment term description</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The payment term description</inlineHelpText>
+        <label>Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IsDefault__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether this is the default payment for the organization</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether this is the default payment for the organization</inlineHelpText>
+        <label>Is Default</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The payment term label</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The payment term label</inlineHelpText>
+        <label>Label</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Net 30 Days</fullName>
+                    <default>false</default>
+                    <label>Net 30 Days</label>
+                </value>
+                <value>
+                    <fullName>Net 45 Days</fullName>
+                    <default>false</default>
+                    <label>Net 45 Days</label>
+                </value>
+                <value>
+                    <fullName>Net 60 Days</fullName>
+                    <default>false</default>
+                    <label>Net 60 Days</label>
+                </value>
+                <value>
+                    <fullName>Net 90 days</fullName>
+                    <default>false</default>
+                    <label>Net 90 days</label>
+                </value>
+                <value>
+                    <fullName>Due Upon Receipt</fullName>
+                    <default>true</default>
+                    <label>Due Upon Receipt</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__OffsetOccurrence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates how many times a specific offset will occur when calculating the payment term</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates how many times a specific offset will occur when calculating the payment term</inlineHelpText>
+        <label>Offset Occurrence</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__OffsetType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates the date the payment term is calculated from</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the date the payment term is calculated from</inlineHelpText>
+        <label>Offset Type</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Specific Day</fullName>
+                    <default>false</default>
+                    <label>Specific Day</label>
+                </value>
+                <value>
+                    <fullName>End of Month</fullName>
+                    <default>false</default>
+                    <label>End of Month</label>
+                </value>
+                <value>
+                    <fullName>Start of Month</fullName>
+                    <default>false</default>
+                    <label>Start of Month</label>
+                </value>
+                <value>
+                    <fullName>Month</fullName>
+                    <default>false</default>
+                    <label>Month</label>
+                </value>
+                <value>
+                    <fullName>Day</fullName>
+                    <default>true</default>
+                    <label>Day</label>
+                </value>
+                <value>
+                    <fullName>On Receipt</fullName>
+                    <default>false</default>
+                    <label>On Receipt</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Sequence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The payment term display sequence</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The payment term display sequence</inlineHelpText>
+        <label>Sequence</label>
+        <precision>3</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__StartType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates which type of start type will be used to calculate the payment term.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates which type of start type will be used to calculate the payment term.</inlineHelpText>
+        <label>Start Type</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Specific Day</fullName>
+                    <default>false</default>
+                    <label>Specific Day</label>
+                </value>
+                <value>
+                    <fullName>End of Quarter</fullName>
+                    <default>false</default>
+                    <label>End of Quarter</label>
+                </value>
+                <value>
+                    <fullName>Start of Quarter</fullName>
+                    <default>false</default>
+                    <label>Start of Quarter</label>
+                </value>
+                <value>
+                    <fullName>End of Month</fullName>
+                    <default>false</default>
+                    <label>End of Month</label>
+                </value>
+                <value>
+                    <fullName>Start of Month</fullName>
+                    <default>false</default>
+                    <label>Start of Month</label>
+                </value>
+                <value>
+                    <fullName>Month</fullName>
+                    <default>false</default>
+                    <label>Month</label>
+                </value>
+                <value>
+                    <fullName>Day</fullName>
+                    <default>false</default>
+                    <label>Day</label>
+                </value>
+                <value>
+                    <fullName>Invoice Date</fullName>
+                    <default>true</default>
+                    <label>Invoice Date</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__StartValue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates the value for the start type which will be used to calculate the payment term.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the value for the start type which will be used to calculate the payment term.</inlineHelpText>
+        <label>Start Value</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The payment term value</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The payment term value</inlineHelpText>
+        <label>Value</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Inactive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Inactive</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Payment Term</label>
+    <listViews>
+        <fullName>All_DE_Payment_terms</fullName>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>DE</value>
+        </filters>
+        <label>All DE Payment terms</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_NL_Payment_terms</fullName>
+        <columns>NAME</columns>
+        <columns>Inactive__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>NL</value>
+        </filters>
+        <label>All NL Payment terms</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Apttus_Config2__All</fullName>
+        <columns>NAME</columns>
+        <columns>APTS_Sales_Org_Text__c</columns>
+        <columns>APTS_Sales_Org__c</columns>
+        <columns>Inactive__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>PaymTerms_Germany</fullName>
+        <columns>NAME</columns>
+        <columns>APTS_Ext_ID__c</columns>
+        <columns>Apttus_Config2__StartType__c</columns>
+        <columns>APTS_Sales_Org__c</columns>
+        <columns>Inactive__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>2%</value>
+        </filters>
+        <label>PaymTerms Germany</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Name</label>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Payment Terms</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Apttus_Config2__Sequence__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__Label__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__Value__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__IsDefault__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LAST_UPDATE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Sequence__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Label__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Value__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__IsDefault__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LAST_UPDATE</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__Sequence__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__Label__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__Value__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__Description__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__IsDefault__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LAST_UPDATE</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__Sequence__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__Label__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__Value__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__Description__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__IsDefault__c</searchFilterFields>
+        <searchFilterFields>LAST_UPDATE</searchFilterFields>
+        <searchResultsAdditionalFields>Apttus_Config2__Sequence__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Config2__Label__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Config2__Value__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Config2__Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Config2__IsDefault__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LAST_UPDATE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

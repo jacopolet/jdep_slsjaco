@@ -1,0 +1,1914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Configuration &amp; Pricing System properties. The record should be named as &quot;System Properties&quot;.</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Apttus_Config2__ActionsColumnPosition__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The position of the actions column in the cart page. Actions column are displayed on the left, but may be overridden using this setting.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The position of the actions column in the cart page. 
+
+Valid values are: 
+============= 
+Left 
+Right</inlineHelpText>
+        <label>Actions Column Position</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AdminUser__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The admin user name (format = first name, last name)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The admin user is the default owner of activities created by a user who is not allowed to be the owner (for e.g. customer portal user).</inlineHelpText>
+        <label>Admin User</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AlertInclude__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Whether to display radio buttons for Renew, Increment, Amend, Cancel asset actions.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check it to display radio buttons for  Renew, Increment, Amend, Cancel asset actions.</inlineHelpText>
+        <label>Show Radio Buttons for Asset</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AlertSelectedExclude__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Defer constraint check on option selection. Constraint check is done on GoToPricing or other page button click events.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check to defer constraint check on option selection. Constraint check is done on GoToPricing or other page button click events.</inlineHelpText>
+        <label>Defer Constraint on Option Selection</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AutoExecutePostPricingStep__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether post-pricing step should be executed automatically after pricing. Only applicable when after pricing is enabled by the pricing extension callback.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether post-pricing step should be executed automatically after pricing. Only applicable when after pricing is enabled by the pricing extension callback.</inlineHelpText>
+        <label>Auto Execute Post-Pricing Step</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AutoExecutePrePricingStep__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether pre-pricing step should be executed automatically before pricing. Only applicable when before pricing is enabled by the pricing extension callback.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether pre-pricing step should be executed automatically before pricing. Only applicable when before pricing is enabled by the pricing extension callback.</inlineHelpText>
+        <label>Auto Execute Pre-Pricing Step</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AutoFinalizeOnCartApproval__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the cart is auto finalized when the cart is approved and ready for finalization.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the cart is auto finalized when the cart is approved and ready for finalization.</inlineHelpText>
+        <label>Auto Finalize On Cart Approval</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AutoRefreshUsageTier__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether modifiable usage tiers are refreshed upon PLI change</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether modifiable usage tiers are refreshed upon PLI change</inlineHelpText>
+        <label>Auto Refresh Usage Tier</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AutoSyncOnCartApproval__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the cart is auto synchronized when the cart is approved and ready for finalization.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the cart is auto synchronized when the cart is approved and ready for finalization.</inlineHelpText>
+        <label>Auto Sync On Cart Approval</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AutoUpdateCategoryView__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether auto incremental updates to category view are enabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether auto incremental updates to category view are enabled</inlineHelpText>
+        <label>Auto Update Category View</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BaseProductRelationField__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The API name of the product field that associates a child product with base product.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The API name of the product field that associates a child product with base product.</inlineHelpText>
+        <label>Base Product Relation Field</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BypassSharing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether apex code can bypass record sharing</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether apex code can bypass record sharing</inlineHelpText>
+        <label>Bypass Sharing</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BypassShoppingCart__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked the Shopping Cart page will be bypassed.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A global setting to bypass the shopping cart.</inlineHelpText>
+        <label>Bypass Shopping Cart</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CMSPublisherUrl__c</fullName>
+        <deprecated>false</deprecated>
+        <description>CMS Publisher Endpoint URL</description>
+        <externalId>false</externalId>
+        <inlineHelpText>CMS Publisher Endpoint URL.</inlineHelpText>
+        <label>CMS Publisher Endpoint URL</label>
+        <length>128</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CMSUrl__c</fullName>
+        <deprecated>false</deprecated>
+        <description>CMS Endpoint URL</description>
+        <externalId>false</externalId>
+        <inlineHelpText>CMS Endpoint URL.</inlineHelpText>
+        <label>CMS Endpoint URL</label>
+        <length>128</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CSSOverride__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of the static resource to override CSS in catalog, cart, attribute and options pages</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the static resource to override CSS in catalog, cart, attribute and options pages</inlineHelpText>
+        <label>CSS Override</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CalcNetAdjPercentBeforeRounding__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether net adjustment percent should be calculated before rounding the net price</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether net adjustment percent should be calculated before rounding the net price</inlineHelpText>
+        <label>Calc Net Adj Percent Before Rounding</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CartEditAccessIdleTimeout__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Field to specify number of minutes of idle time a configuration can be kept open in edit mode.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Field to specify number of minutes of idle time a configuration can be kept open in edit mode.</inlineHelpText>
+        <label>Cart Edit Access Idle Timeout in Minutes</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CartTheme__c</fullName>
+        <defaultValue>&quot;Classic&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates the theme used in the cart pages</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the theme used in the cart pages 
+
+Valid values(default = &quot;Classic&quot;): 
+======================== 
+Classic 
+Nova</inlineHelpText>
+        <label>Cart Theme</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CascadeSharedAttributeUpdates__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether updates to shared bundle attributes are cascaded to options in the bundle</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether updates to shared bundle attributes are cascaded to options in the bundle</inlineHelpText>
+        <label>Cascade Shared Attribute Updates</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CleanupInvalidRulePrompt__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable removal of line items promted by currently invalid rules.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable removal of line items prompted by currently invalid rules.</inlineHelpText>
+        <label>Cleanup Invalid Rule Prompt</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ComputeTotalsInSeparateStep__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether totaling should be performed in a separate step or combined with the base pricing step</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether totaling should be performed in a separate step or combined with the base pricing step</inlineHelpText>
+        <label>Compute Totals In Separate Step</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ConstraintRuleExecutionMode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Mode which Constraint Rules will execute.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Mode for constraint rules execution. Please evaluate client mode for known limitations.
+Valid Values: 
+* Server
+* Client</inlineHelpText>
+        <label>Constraint Rule Execution Mode</label>
+        <length>128</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CurrencyFieldPrecision__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds the number of decimal places for the currency fields.
+(used by the formatfields function)</description>
+        <externalId>false</externalId>
+        <label>Currency Field Precision</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CustomAssetActionLabelName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the custom label for the asset action.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the custom label for the asset action.</inlineHelpText>
+        <label>Custom Asset Action Label Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CustomAssetActionPage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the custom asset action page</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the custom asset action page</inlineHelpText>
+        <label>Custom Asset Action Page</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CustomDealGuidancePage__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Custom Deal Guidance Page</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CustomOptionAttributePage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the custom attributes page associated with ConfigureBundle and SelectConfigOptionsDetailView pages</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the custom attributes page associated with ConfigureBundle and SelectConfigOptionsDetailView pages</inlineHelpText>
+        <label>Custom Option Attribute Page</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CustomPrePricingFields__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the list of custom fields from the line item object that determine the pre-pricing indicator</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the list of custom fields from the line item object that determine the pre-pricing indicator</inlineHelpText>
+        <label>Custom Pre-Pricing Fields</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CustomPricingFields__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the list of custom fields from the line item object used in pricing</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the list of custom fields from the line item object used in pricing</inlineHelpText>
+        <label>Custom Pricing Fields</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DefaultAssetPricingIndicator__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether asset pricing is enabled by default for asset related line items</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether asset pricing is enabled by default for asset related line items</inlineHelpText>
+        <label>Default Asset Pricing Indicator ?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DefaultProductsPage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The product selection page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specify the product selection page to be displayed. 
+Valid values are:
+-----------------------
+SelectConfigProducts
+SelectConfigProductsFilterView</inlineHelpText>
+        <label>Default Catalog Page</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DeferPricingUntilCart__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicator to defer pricing until the user clicks on a pricing action. .</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicator to defer pricing until the user clicks on a pricing action.</inlineHelpText>
+        <label>Defer Pricing</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DeferValidationCheckInBundles__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicator to defer validation check in the bundle configuration step</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicator to defer validation check in the bundle configuration step</inlineHelpText>
+        <label>Defer Validation Check In Bundles</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DirectConfigureAssetActions__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Comma separated list of asset actions which will configure products directly.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Comma separated values of Increment, Amend, Renew, Cancel actions. Listed actions will configure products directly.</inlineHelpText>
+        <label>Direct Configure Asset Actions</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DisableChargeTypeTotaling__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether charge type totaling is disabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether charge type totaling is disabled</inlineHelpText>
+        <label>Disable Charge Type Totaling</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DisableConstraintRules__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether constraint rules are disabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A global setting to turn off constraint rules.</inlineHelpText>
+        <label>Disable Constraint Rules</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DisableExistingAssetPricing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether existing asset pricing is disabled.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether existing asset pricing is disabled. If disabled,,prices of existing assets are not rolled up.</inlineHelpText>
+        <label>Disable Existing Asset Pricing</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DisablePricingQueryOptimization__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicator to disable pricing query optimization for carts under the large cart threshold. By default fewer fields are retrieved for line items in the cart to optimize the heap. This indicator is used to disable the optimization to support customization.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicator to disable pricing query optimization for carts under the large cart threshold. By default fewer fields are retrieved for line items in the cart to optimize the heap. This indicator is used to disable the optimization to support customization.</inlineHelpText>
+        <label>Disable Pricing Query Optimization</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DisableSOSLTextSearch__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicator to disable SOSL catalog search. When disabled, system uses SOQL catalog search.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicator to disable SOSL catalog search. When disabled, system uses SOQL catalog search.</inlineHelpText>
+        <label>Disable SOSL Text Search</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DisplayCartActionsAsDropdown__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Display action buttons inside a drop down menu</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Display action buttons inside a drop down menu</inlineHelpText>
+        <label>Display Cart Actions As Dropdown</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableAdjustmentBuckets__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether adjustments may be grouped into buckets for use as targets for applying further adjustments. Only applicable when multiple adjustments are enabled via Max Adjustment Lines setting.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether adjustments may be grouped into buckets for use as targets for applying further adjustments. Only applicable when multiple adjustments are enabled via Max Adjustment Lines setting.</inlineHelpText>
+        <label>Enable Adjustment Buckets</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableAdjustmentSpread__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether adjustments provided for summary groups and bundles may be spread to child line items that roll into them. Only applicable when multiple adjustments are disabled.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether adjustments provided for summary groups and bundles may be spread to child line items that roll into them. Only applicable when multiple adjustments are disabled.</inlineHelpText>
+        <label>Enable Adjustment Spread</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableAggregatePricing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether aggregate pricing is enabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A global setting to enable aggregate price rules.</inlineHelpText>
+        <label>Enable Aggregate Pricing</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableAutoReprice__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether auto reprice is enabled.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A global setting to automatically reprice the cart when a price component is modified.</inlineHelpText>
+        <label>Enable Auto Reprice</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableAutoSequencingForOptions__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether auto sequencing is enabled for options</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A global setting to enable auto sequencing for options</inlineHelpText>
+        <label>Enable Auto Sequencing For Options</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableBasePriceAdjustment__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether base price adjustment is allowed. When enabled Base Price Override is considered when calculating the net price adjustment  %.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether base price adjustment is allowed. When enabled Base Price Override is considered when calculating the net price adjustment  %.</inlineHelpText>
+        <label>Enable Base Price Adjustment</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableCartLockingForConcurrentAccess__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Boolean flag to specify whether cart locking for concurrent access to cart is enabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Boolean flag to specify whether cart locking for concurrent access to cart is enabled</inlineHelpText>
+        <label>Enable CartLocking for Concurrent Access</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableContextualTotals__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Show totals below line items</description>
+        <externalId>false</externalId>
+        <label>Enable Contextual Totals</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableCustomRounding__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether list price, base price and selling term fields in the line item should be rounded using the custom field precision setting</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether list price, base price and selling term fields in the line item should be rounded using the custom field precision setting</inlineHelpText>
+        <label>Enable Custom Rounding</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableDefaultQuantityForABOItem__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether default quantity rules should be applied to ABO items</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether default quantity rules should be applied to ABO items</inlineHelpText>
+        <label>Enable Default Quantity For ABO Item</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableDefaultingForOptions__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether defaulting is enabled for options</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A global setting to enable option defaulting rules.</inlineHelpText>
+        <label>Enable Defaulting For Options(D)</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableDefaultingForProducts__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether defaulting is enabled for products</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A global setting to enable product defaulting rules.</inlineHelpText>
+        <label>Enable Defaulting For Products</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableExternalPricing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether pricing will be done externally</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A global setting to enable external price calls. The external pricing call must be coded and associated with the reprice all button in the view cart page.</inlineHelpText>
+        <label>Enable External Pricing</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableFastCloning__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether fast cloning is enabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether fast cloning is enabled.</inlineHelpText>
+        <label>Enable Fast Cloning</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableFieldExpression__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether field expressions are enabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A global setting to turn on field expressions.</inlineHelpText>
+        <label>Enable Field Expressions</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableFile__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable use of Files. It is mandatory to Run the Migration after making it true.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable use of Files. It is mandatory to Run the Migration after making it true.</inlineHelpText>
+        <label>Enable File</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableLocation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the location feature is enabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the location feature is enabled</inlineHelpText>
+        <label>Enable Location</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableMatrixPricingForOptions__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether matrix pricing is enabled for options</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A global setting to enable matrix pricing for options.</inlineHelpText>
+        <label>Enable Matrix Pricing For Options</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableNotificationFeed__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enables notification feeds for notifications. Currently, this feature is enabled for quote collaboration notifications.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enables notification feeds for notifications. Currently, this feature is enabled for quote collaboration notifications.</inlineHelpText>
+        <label>Enable Notification Feed</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableOptionalItems__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether items in the cart can be toggled as optional</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A global setting to enable optional items in the cart.</inlineHelpText>
+        <label>Enable Optional Items</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnablePaginatedGrid__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Boolean flag to specify whether pagination for cart grid is enabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Boolean flag to specify whether pagination for cart grid is enabled</inlineHelpText>
+        <label>Enable Paginated Grid</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnablePriceMatrixAuditTrail__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether audit trail entries would be written to the Adjustment Line Item object for Price Matrices applied to the Line Item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether audit trail entries would be written to the Adjustment Line Item object for Price Matrices applied to the Line Item</inlineHelpText>
+        <label>Enable Price Matrix Audit Trail</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnablePriceRuleAuditTrail__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether audit trail entries would be written to the Adjustment Line Item object for Price Rules applied to the Line Item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether audit trail entries would be written to the Adjustment Line Item object for Price Rules applied to the Line Item</inlineHelpText>
+        <label>Enable Price Rule Audit Trail</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnablePriceRuleForABOItem__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether price rule adjustments should be applied to ABO items</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether price rule adjustments should be applied to ABO items</inlineHelpText>
+        <label>Enable Price Rule For ABO Item</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableTotalLevelIncentive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether total level incentives are enabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether total level incentives are enabled</inlineHelpText>
+        <label>Enable Total Level Incentive</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnhancedSearchURL__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Search URL end point for enhanced search. When it is blank native search is used.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Search URL end point for enhanced product search</inlineHelpText>
+        <label>Enhanced Search URL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ExpandBundleLinesByDefault__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Show all bundles exapanded with all option lines when cart loads.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Whether the cart page should load with the option lines displayed for all bundles.</inlineHelpText>
+        <label>Expand Bundles In Cart</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__FavoriteFilters__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Populate comma separated values with API names of fields from the favorite configuration object. These fields will be used as filters in the catalog page</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Populate comma separated values with API names of fields from the favorite configuration object. These fields will be used as filters in the catalog page</inlineHelpText>
+        <label>FavoriteFilters</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__FieldExpressionsExecutionMode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Mode which Field Expressions will execute in.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Valid Values: 
+* Client
+* Server</inlineHelpText>
+        <label>Field Expressions Execution Mode</label>
+        <length>8</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__FixedButtonBar__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates that the button bar will be fixed on catalog, configuration and cart pages.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates that the button bar will be fixed on catalog, configuration and cart pages.</inlineHelpText>
+        <label>Fixed Button Bar</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__GridRenderThreshold__c</fullName>
+        <defaultValue>20</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Setting helps to improve the grid scroll performance, with a default value of 20. Must be adjusted to a higher value based on number of lines displayed in a cart.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Setting helps to improve the grid scroll performance, with a default value of 20. Must be adjusted to a higher value based on number of lines displayed in a cart.</inlineHelpText>
+        <label>Grid Render Threshold</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__GroupByFields__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>GroupBy Fields</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__GuidePageDefault__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The default guide page for product selection</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The default guide page for product selection</inlineHelpText>
+        <label>Guide Page Default</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideAssetActions__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Comma separated list  of asset actions which should be hidden.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Comma separated values of Increment, Amend, Renew, Cancel actions. Listed actions will be hidden from the users.</inlineHelpText>
+        <label>Hide Asset Actions</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideCartViewsCreation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether &quot;Create New View&quot; option on Cart View drop down is hidden.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether &quot;Create New View&quot; option on Cart View drop down is hidden.</inlineHelpText>
+        <label>Hide Cart Views Creation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideCartViews__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Hide Cart Views</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether cart views will be hidden</inlineHelpText>
+        <label>Hide Cart Views</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideCopyAction__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether copy action will be hidden in the cart view</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether copy action will be hidden in the cart view</inlineHelpText>
+        <label>Hide Copy Action</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideDatesForOneTime__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Hide Dates For One Time Charge</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Hide Dates For One Time Charge</inlineHelpText>
+        <label>Hide Dates For One Time Charge</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideEvergreenEndDate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the end date will be hidden in the cart view for evergreen line items</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the end date will be hidden in the cart view for evergreen line items</inlineHelpText>
+        <label>Hide Evergreen End Date</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideGrandTotal__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked grand total price will be hidden</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked grand total line will be hidden</inlineHelpText>
+        <label>Hide Grand Total</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideResolveConfigLink__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Whether to hide resolve configuration error page link.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked the link to the resolve configuration error page is hidden. It is displayed along with the constraint rule messages.</inlineHelpText>
+        <label>Hide Resolve Config Link</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideSubtotalsInCart__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether subtotals should be hidden in the cart view</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether subtotals should be hidden in the cart view</inlineHelpText>
+        <label>Hide Subtotals In Cart</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IndicateErrorTypeExclude__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicate products excluded by error type exclude action (DEPRECATED)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This custom setting is deprecated</inlineHelpText>
+        <label>Indicate Error Type Exclude (D)</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IndicateWarningTypeExclude__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicate products excluded by warning type exclude rule actions (DEPRECATED)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This custom setting is deprecated</inlineHelpText>
+        <label>Indicate Warning Type Exclude (D)</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__InstanceUrl__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Salesforce instance url</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The url of your Salesforce instance. The instance url will be used to create an absolute url for your custom pages.</inlineHelpText>
+        <label>Instance Url</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__KeepAbandonedCarts__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether abandoned carts should be kept</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether abandoned carts should be kept</inlineHelpText>
+        <label>Keep Abandoned Carts</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LargeCartSplitCriteriaFields__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The criteria fields used to split a large cart</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The list of Line item fields to break summarized view of items added during a large cart process. Each field API name separated by a comma or a new line.</inlineHelpText>
+        <label>Large Cart Split Criteria Fields</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LargeCartThreshold__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The threshold of the number of line items in the cart when exceeded indicates a large cart. A value of -1 inactivates the threshold. A large cart influences how items are processed in the application to stay under various platform governor limits..</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The threshold of the number of line items in the cart when exceeded indicates a large cart. A value of -1 inactivates the threshold. A large cart influences how items are processed in the application to stay under various platform governor limits..</inlineHelpText>
+        <label>Large Cart Threshold</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MaxAdjustmentLines__c</fullName>
+        <defaultValue>1</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates the maximum number of discount lines allowed for a line item.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the maximum number of discount lines allowed for a line item.</inlineHelpText>
+        <label>Max Adjustment Lines</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MaxAllowedLinesForMassActions__c</fullName>
+        <defaultValue>10</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Maximum number of lines allowed for performing mass actions on cart page</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Maximum number of lines allowed for performing mass actions on cart page</inlineHelpText>
+        <label>Max Allowed Lines For Mass Actions</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MaxConstraintRulesRoundTrip__c</fullName>
+        <defaultValue>3</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This is the maximum number of round trips after which the constraint rule processing should stop.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is the maximum number of round trips after which the constraint rule processing should stop. Round trip happens only when auto included products trigger more rules.</inlineHelpText>
+        <label>Max Constraint Rules Round Trip</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MaxProductDetailsPerRequest__c</fullName>
+        <defaultValue>100</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Defines the maximum number of product details in a single request</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The maximum number of product details allowed per request will be restricted to this number</inlineHelpText>
+        <label>Maximum Product Details Per Request</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MiscChargeTypes__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the list of miscellaneous charge types. Each charge type should be separated by a new line.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the list of miscellaneous charge types. Each charge type should be separated by a new line.</inlineHelpText>
+        <label>Misc Charge Types</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MultiCurrencyManagement__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicate the multi-currency management system.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicate which currency management system CPQ will use in a multi-currency environment. 
+Valid values:
+Apttus
+Platform</inlineHelpText>
+        <label>Multi Currency Management</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__OptionLineItemColumns__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the list of fields from the line item object displayed in the Option Hierarchy page.  Each field API name may be separated either by a coma or by a new line.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the list of fields from the line item object displayed in the Option Hierarchy page.  Each field API name may be separated either by a coma or by a new line.</inlineHelpText>
+        <label>Option Line Item Columns</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__OptionPricingChunkSize__c</fullName>
+        <defaultValue>100</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The option pricing chunk size for bundles with large number of options. The default value is 100. The SFDC governor limit affects the chunk size.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The option pricing chunk size for bundles with large number of options. The default value is 100. The SFDC governor limit affects the chunk size.</inlineHelpText>
+        <label>Option Pricing Chunk Size</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__OptionProductColumns__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the list of fields from the product object displayed in the Option Hierarchy page. Each field API name may be separated either by a coma or by a new line.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the list of fields from the product object displayed in the Option Hierarchy page. Each field API name may be separated either by a coma or by a new line.</inlineHelpText>
+        <label>Option Product Columns</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__OptionsPageDefault__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The default page for configuring product options</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the default options page. On configure command  this page is displayed for selecting options. Valid values are :
+SelectConfigOptions 
+SelectConfigOptionsTabView
+SelectConfigOptionsListView
+SelectConfigOptionsTreeView
+SelectBundleOptions</inlineHelpText>
+        <label>Options Page</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PercentageFieldPrecision__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds the percentage field precision.
+(used by the formatfields function)</description>
+        <externalId>false</externalId>
+        <label>Percentage Field Precision</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PerformMassActionsInParallel__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Perform Mass Actions In Parallel</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Perform Mass Actions In Parallel</inlineHelpText>
+        <label>Perform Mass Actions In Parallel</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PopulateAttributeExtensions__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether attribute values are populated in the extension objects</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether attribute values are populated in the extension objects</inlineHelpText>
+        <label>Populate Attribute Extensions</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PreventErrorExcludeSelection__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Whether to prevent selection of products listed by error type exclude rule action</description>
+        <externalId>false</externalId>
+        <label>Prevent Error Exclude Selection(D)</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PreventErrorTypeExcludeSelection__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Prevent selection of products excluded by error type exclude rule action. Hides select button (DEPRECATED)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This custom setting is deprecated</inlineHelpText>
+        <label>Prevent Error Type Exclude Selection (D)</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PricingBatchSize__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The pricing batch size. The default value is 1. The SFDC governor limit affects the batch size.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The pricing batch size. The default value is 1. The SFDC governor limit affects the batch size.</inlineHelpText>
+        <label>Pricing Batch Size</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PricingExecutionMode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The pricing execution mode</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Mode for pricing execution.
+Valid Values:
+* Classic
+* Turbo</inlineHelpText>
+        <label>Pricing Execution Mode</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PricingProfile__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The default pricing profile. The default value is Advanced
+
+Valid values are:
+=============
+Basic
+Advanced
+External</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The default pricing profile. The default value is Advanced
+
+Valid values are:
+=============
+Basic
+Advanced
+External</inlineHelpText>
+        <label>Pricing Profile</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductAttributeDetailPage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The custom page to capture product attribute detail information</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The custom page to capture product attribute detail information</inlineHelpText>
+        <label>Product Attribute Detail Page</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductAttributeExtensionLookupFields__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Contains the names of the Product Attribute Extension tables Lookup Field Names and will be read if the Attribute Extension is enabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Comma separated List of values to specify the Product Attribute Extension Objects Lookup Field Names.</inlineHelpText>
+        <label>Product Attribute Extension Tables</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductDisplayMaxLength__c</fullName>
+        <defaultValue>21</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Captures the maximum length of the product name for display. If the product name exceeds the specified length – it will be ellipsis display, else it will wrap the product name. The default length is 21 characters.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Captures the maximum length of the product name for display. If the product name exceeds the specified length – it will be ellipsis display, else it will wrap the product name. The default length is 21 characters.</inlineHelpText>
+        <label>Product Display Max Length</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductOptionPriceOrder__c</fullName>
+        <defaultValue>&quot;Last&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates the evaluation order of the product option price in the pricing waterfall.
+
+Valid Values (default = &quot;Last&quot;)
+=======================
+First
+Last</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the evaluation order of the product option price in the pricing waterfall.
+
+Valid Values (default = &quot;Last&quot;)
+=======================
+First
+Last</inlineHelpText>
+        <label>Product Option Price Order</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductSortingFields__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the list of API names of fields from the Product object made available in the Sorting drop down on the Catalog page. User is allowed to select a field from this list to sort the Catalog page content.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the list of API names of fields from the Product object made available in the Sorting drop down on the Catalog page. User is allowed to select a field from this list to sort the Catalog page content.</inlineHelpText>
+        <label>Product Sorting Fields</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductTotalingHierarchy__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the list of product fields that represent the product totaling hierarchy. Each product field name should be separated by a new line. For Ad-hoc totaling enter the line item fields which represent a totaling group. If empty then Bundle Family will be used by default.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the list of product fields that represent the product totaling hierarchy. Each product field name should be separated by a new line. For Ad-hoc totaling enter the line item fields which represent a totaling group. Default is Bundle Family.</inlineHelpText>
+        <label>Adhoc/Product Totaling Hierarchy</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__QuantityFieldPrecision__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds the quantity field precision.
+(used by the formatfields function)</description>
+        <externalId>false</externalId>
+        <label>Quantity Field Precision</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RefineSearchCheckboxDisplayLimit__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Search facet displays as picklist if this limit is crossed, otherwise checkbox(s).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Search facet displays as picklist if this limit is crossed, otherwise checkbox(s).</inlineHelpText>
+        <label>Refine Search Checkbox Display Limit</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RemoveInvalidRuleProducts__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether line items auto included by invalid rules should be auto removed on cart launch. If not auto removed, the user will be prompted to take appropriate action.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether line items auto included by invalid rules should be auto removed on cart launch. If not auto removed, the user will be prompted to take appropriate action.</inlineHelpText>
+        <label>Remove Invalid Rule Products</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ResolveConfigurationPageDefault__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The default page for resolving configuration errors/warnings</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the default Resolve Configure page. On Resolve Configuration Errors\Warnings, this page will be used. Valid values are :
+ResolveConfig
+ResolveConfigProducts</inlineHelpText>
+        <label>Resolve Configuration Page</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RevalidationProductColumns__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the list of fields from the product object displayed on the revalidation product dialog. Each field API name may be separated either by a comma or by a new line.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the list of fields from the product object displayed on the revalidation product dialog. Each field API name may be separated either by a comma or by a new line.</inlineHelpText>
+        <label>Revalidation Product Columns</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RoundingMode__c</fullName>
+        <defaultValue>&quot;HALF_EVEN&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The custom rounding mode. 
+Valid values (default=&quot;HALF_EVEN&quot;)
+UP
+HALF_UP
+DOWN
+HALF_DOWN
+HALF_EVEN</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The custom rounding mode. 
+Valid values (default=&quot;HALF_EVEN&quot;)
+UP
+HALF_UP
+DOWN
+HALF_DOWN
+HALF_EVEN</inlineHelpText>
+        <label>Rounding Mode</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RunFinalizationTaskInAsyncMode__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the post finalization trigger should be run asynchronously</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the post finalization trigger should be run asynchronously</inlineHelpText>
+        <label>Run Post Finalize Trigger In Async Mode</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RunSecondaryFinalizationTaskInAsyncMode__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the secondary finalization task (attributes, usage tiers, etc) should be run asynchronously</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the secondary finalization task (attributes, usage tiers, etc) should be run asynchronously</inlineHelpText>
+        <label>Run Misc Finalization Task In Async Mode</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SameDayCancellation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checking out Same Day Cancellation option will provide with behavior where cancellation will be done on same day, unchecking it will mean Cancellation will be using cancel day + 1 behavior.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checking out Same Day Cancellation option will provide with behavior where cancellation will be done on same day, unchecking it will mean Cancellation will be using cancel day + 1 behavior.</inlineHelpText>
+        <label>Same Day Cancellation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SaveOnAllActions__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked save operation will be performed on all actions.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked save operation will be performed on all actions.</inlineHelpText>
+        <label>Save On All Actions</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SearchAttributeDefaultPage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Field on the line item when checked, skips Constraint check. Enables bypassing constraint and finalize quote even if there are constraint errors.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Field on the line item when checked, skips Constraint check. Enables bypassing constraint and finalize quote even if there are constraint errors.</inlineHelpText>
+        <label>Skip Constraint Decision Field</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SearchAttributeValuePage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The scope to look for related items in related pricing. The default value is Cart
+Valid Values are:
+============
+Cart
+Bundle</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The scope to look for related items in related pricing. The default value is Cart
+Valid Values are:
+============
+Cart
+Bundle</inlineHelpText>
+        <label>Related Price Scope</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SearchCategoryDefault__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The default search category.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The default category to search using the text entered in the search box during product selection.
+
+AllProducts
+AllCategories</inlineHelpText>
+        <label>Search Category Default</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SellingTermCalculationMethod__c</fullName>
+        <defaultValue>&quot;Calendar&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates the method to calculate the selling term for Line Items.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The method to calculate selling terms. With &quot;Billing Preference&quot;, selling term is calculated as indicated by the billing preference associated with the cart or order.
+
+Valid values (default=&quot;Calendar&quot;):
+Calendar
+Billing Preference</inlineHelpText>
+        <label>Selling Term Calculation Method</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ServiceLineSplitCriteria__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Comma separated list of related line item fields and asset line item fields to be considered for automatic splitting.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Comma separated values of asset line item which define the split criteria for asset related line items.</inlineHelpText>
+        <label>Service Line Split Criteria</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ServicePriceDistributionMethod__c</fullName>
+        <defaultValue>&quot;Allocate&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The service price distribution method.  Methods are Allocate and Rollup. 
+Allocate method distributes the net price of the service to the related lines.  Rollup method rolls up the price for individual related lines and arrives at the service base price. The default value is Allocate.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The service price distribution method. Methods are Allocate and Rollup. 
+Allocate method distributes the net price of the service to the related lines.  Rollup method rolls up the price for individual related lines and arrives at the service base price.</inlineHelpText>
+        <label>Service Price Distribution Method</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ShowAdminSidebar__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the sidebar should be displayed for admin pages.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the sidebar should be displayed for admin pages.</inlineHelpText>
+        <label>Show Admin Sidebar</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ShowAttributesInCart__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Shows the specified attributes applicable to the line items in the cart. Attributes appear in the product dialog.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Shows the specified attributes applicable to the line items in the cart. Attributes appear in the product dialog.</inlineHelpText>
+        <label>Show Attributes In Cart</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ShowErrorInHeader__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether relative url should be generated for links for a Communities user</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether relative url should be generated for links for a Communities user</inlineHelpText>
+        <label>Generate Relative Url For Sites</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ShowHeader__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the header tabs and sidebar should be displayed.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the header tabs and sidebar should be displayed.</inlineHelpText>
+        <label>Show Header</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ShowInfoInHeader__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Whether to show information message from auto include or auto exclude in the header</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Whether to show information message from auto include or auto exclude in the header</inlineHelpText>
+        <label>Show Info In Header</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ShowMessageInline__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Show error and warning messages along with the product name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Show error and warning messages along with the product name</inlineHelpText>
+        <label>Show Message Inline(D)</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ShowWarningInHeader__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Whether to show warning type rule action messages in header (DEPRECATED)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This custom setting is deprecated</inlineHelpText>
+        <label>Show Warning In Header (D)</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SkipPricingOnSelectPages__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Keyed matrix pricing performs keyed lookup to locate matrix entries in a large matrix</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Keyed matrix pricing performs keyed lookup to locate matrix entries in a large matrix</inlineHelpText>
+        <label>Enable Keyed Matrix Pricing</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SkipReview__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the review step should be skipped for items in the cart</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the review step should be skipped for items in the cart</inlineHelpText>
+        <label>Skip Review</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SplitCartCriteriaFields__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The criteria fields used to split a large cart</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The list of Line item fields to break summarized view of items added during a large cart process. Each field API name separated by a comma or a new line.</inlineHelpText>
+        <label>Split Cart Criteria Fields</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SplitCartThreshold__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Split Cart Threshold</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__StaticCriteriaFields__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Constraint Criteria Fields that have static values. Fields whose value do not change after the records are created for a cart.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter comma separated fields used in constraint rule criteria to optimize constraint rule.</inlineHelpText>
+        <label>Static Criteria Fields</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__TabViewInConfigureBundle__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Show the option groups in a tab view. Top level option groups are displayed as tabs.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check to show tab view. Top level option groups are displayed as tabs.</inlineHelpText>
+        <label>Show Tab View</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__TermFieldPrecision__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds the selling term field precision.
+(used by the formatfields function)</description>
+        <externalId>false</externalId>
+        <label>Term Field Precision</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__TotalingGroupType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The totaling group preference.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The default value for the summary group type picklist. For Product based totaling, also indicate the fields which form the hierarchy using the Product Hierarchy Fields custom setting.
+Valid values are:
+=============
+Category
+Product
+Ad Hoc</inlineHelpText>
+        <label>Totaling Group Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__UpdateViewCategoryBatchSize__c</fullName>
+        <defaultValue>1</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates the number of categories to update views for in a single batch transaction</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the number of categories to update views for in a single batch transaction</inlineHelpText>
+        <label>Update View Category Batch Size</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__UpdateViewProductBatchSize__c</fullName>
+        <defaultValue>2000</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates the number of products to update views for in a single batch transaction</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the number of products to update views for in a single batch transaction</inlineHelpText>
+        <label>Update View Product Batch Size</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__UpdateViewUseDmlLimit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether DML limit should be used to determine the batch work load for updating views</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether DML limit should be used to determine the batch work load for updating views</inlineHelpText>
+        <label>Update View Use Dml Limit</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__UseButtonToSaveSelection__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether to wait for button click before processing option selection and validation.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether to wait for button click before processing option selection and validation.</inlineHelpText>
+        <label>Use Button To Save Selection</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__UseEnhancedCSS__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether to include the enhanced css file on CPQ pages</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether to include the enhanced css file on CPQ pages</inlineHelpText>
+        <label>Use Enhanced CSS</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ValidateRampsForValidCart__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Validate Ramps when the custom validation check is successful.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Validate Ramps when the custom validation check is successful.</inlineHelpText>
+        <label>Validate Ramps For Valid Cart</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ViewCartCustomFields2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the list of additional custom fields from the line item object displayed in the custom view cart page</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the list of additional custom fields from the line item object displayed in the custom view cart page</inlineHelpText>
+        <label>View Cart Custom Fields 2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ViewCartCustomFields__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the list of custom fields from the line item object displayed in the custom view cart page</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the list of custom fields from the line item object displayed in the custom view cart page. Additional fields may be entered using the View Cart Custom Fields 2 custom setting.</inlineHelpText>
+        <label>View Cart Custom Fields</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ViewCartPage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The custom page to view cart information</description>
+        <externalId>false</externalId>
+        <label>View Cart Page</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ViewCartTotalCustomFields__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the list of custom fields from the summary group object displayed in the custom view cart page</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the list of custom fields from the summary group object displayed in the custom view cart page</inlineHelpText>
+        <label>View Cart Total Custom Fields</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <label>Config System Properties</label>
+    <visibility>Public</visibility>
+</CustomObject>

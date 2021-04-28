@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>RTR_LAE_Transaction_Data</fullName>
+        <fields>Name</fields>
+        <fields>APTS_Business_Transaction_Type__c</fields>
+        <fields>APTS_Contract_Effective_Date__c</fields>
+        <fields>APTS_Asset_Line_Item__c</fields>
+        <fields>APTS_Asset_Processed__c</fields>
+        <label>RTR-LAE Transaction Data</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Read</externalSharingModel>
+    <fields>
+        <fullName>APTS_Asset_Line_Item__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Asset Line Item</label>
+        <referenceTo>Apttus_Config2__AssetLineItem__c</referenceTo>
+        <relationshipName>Apttus_Transaction_Logs</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Asset_Processed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Asset Processed</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Business_Transaction_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Business Transaction Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0001</fullName>
+                    <default>true</default>
+                    <label>0001</label>
+                </value>
+                <value>
+                    <fullName>0002</fullName>
+                    <default>false</default>
+                    <label>0002</label>
+                </value>
+                <value>
+                    <fullName>0003</fullName>
+                    <default>false</default>
+                    <label>0003</label>
+                </value>
+                <value>
+                    <fullName>0004</fullName>
+                    <default>false</default>
+                    <label>0004</label>
+                </value>
+                <value>
+                    <fullName>0005</fullName>
+                    <default>false</default>
+                    <label>0005</label>
+                </value>
+                <value>
+                    <fullName>A005</fullName>
+                    <default>false</default>
+                    <label>A005</label>
+                </value>
+                <value>
+                    <fullName>B005</fullName>
+                    <default>false</default>
+                    <label>B005</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Contract_Effective_Date__c</fullName>
+        <description>This field will capture Asset Contract Effective Date.
+
+05/08/2019 &lt;Mahesh Chilaka&gt; This formula field now moved to static field.
+
+
+/*********************************************************
+As a reference to formula logic , please refer below.
+
+IF(OR(ISPICKVAL(APTS_Business_Transaction_Type__c , &apos;0001&apos;),ISPICKVAL(APTS_Business_Transaction_Type__c , &apos;B005&apos;)), APTS_Asset_Line_Item__r.Apttus_Config2__OriginalStartDate__c, 
+IF(OR(ISPICKVAL(APTS_Business_Transaction_Type__c , &apos;0002&apos;),ISPICKVAL(APTS_Business_Transaction_Type__c , &apos;A005&apos;)), APTS_Asset_Line_Item__r.Apttus_Config2__EndDate__c , 
+IF(ISPICKVAL(APTS_Business_Transaction_Type__c , &apos;0003&apos;), APTS_Asset_Line_Item__r.Apttus_Config2__StartDate__c, 
+IF(ISPICKVAL(APTS_Business_Transaction_Type__c , &apos;0004&apos;), APTS_Asset_Line_Item__r.APTS_Amendment_Effective_Date__c, NULL))))
+	
+**********************************************/</description>
+        <externalId>false</externalId>
+        <label>Contract Effective Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Contract_Effective_Date_old__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(ISPICKVAL(APTS_Business_Transaction_Type__c , &apos;0001&apos;),ISPICKVAL(APTS_Business_Transaction_Type__c , &apos;B005&apos;)), APTS_Asset_Line_Item__r.Apttus_Config2__OriginalStartDate__c, 
+IF(OR(ISPICKVAL(APTS_Business_Transaction_Type__c , &apos;0002&apos;),ISPICKVAL(APTS_Business_Transaction_Type__c , &apos;A005&apos;)), APTS_Asset_Line_Item__r.Apttus_Config2__EndDate__c , 
+IF(ISPICKVAL(APTS_Business_Transaction_Type__c , &apos;0003&apos;), APTS_Asset_Line_Item__r.Apttus_Config2__StartDate__c, 
+IF(ISPICKVAL(APTS_Business_Transaction_Type__c , &apos;0004&apos;), APTS_Asset_Line_Item__r.APTS_Amendment_Effective_Date__c, NULL))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contract Effective Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Contract_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>VALUE(APTS_Asset_Line_Item__r.Apttus_CMConfig__AgreementId__r.Apttus__Agreement_Number__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contract Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Contractual_Purchase__c</fullName>
+        <externalId>false</externalId>
+        <label>Contractual Purchase</label>
+        <length>32</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Controlled_Interface_Flag__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field is used by Finance to flag Transactions for Controlled interface runs. They will manually update the field to TRUE based on their queries. They will then proceed to use the RTR scheduler to interface the records to SAP-AIF</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is used by Finance for creating custom interface batches. Set this field to TRUE in order to query it with the RTR scheduler.</inlineHelpText>
+        <label>Controlled Interface Flag</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Stop_LAE_RTR_Interface__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND( APTS_Asset_Processed__c, Error_in_Processing__c), 
+HYPERLINK(&quot;/apex/APTS_StopLaeInterface?Id=&quot; &amp;Id, IMAGE(&quot;/resource/1566566998000/Stop_Interface&quot;, &quot;Stop_Interface&quot;),&quot;_self&quot;), 
+null)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Stop LAE/RTR Interface</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Used_Product__c</fullName>
+        <externalId>false</externalId>
+        <label>Used Product</label>
+        <length>32</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Error_Description__c</fullName>
+        <description>This field will hold short description on data validation error.</description>
+        <externalId>false</externalId>
+        <label>Error Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Asset Line Item Number is Null</fullName>
+                    <default>false</default>
+                    <label>Asset Line Item Number is Null</label>
+                </value>
+                <value>
+                    <fullName>Business Transaction Type is Null</fullName>
+                    <default>false</default>
+                    <label>Business Transaction Type is Null</label>
+                </value>
+                <value>
+                    <fullName>Company Code is Null</fullName>
+                    <default>false</default>
+                    <label>Company Code is Null</label>
+                </value>
+                <value>
+                    <fullName>Contract Description is Null</fullName>
+                    <default>false</default>
+                    <label>Contract Description is Null</label>
+                </value>
+                <value>
+                    <fullName>Contract Effective Date is Null</fullName>
+                    <default>false</default>
+                    <label>Contract Effective Date is Null</label>
+                </value>
+                <value>
+                    <fullName>Contract End Date is Null</fullName>
+                    <default>false</default>
+                    <label>Contract End Date is Null</label>
+                </value>
+                <value>
+                    <fullName>Contract Number is Null</fullName>
+                    <default>false</default>
+                    <label>Contract Number is Null</label>
+                </value>
+                <value>
+                    <fullName>Contract Start Date is Null</fullName>
+                    <default>false</default>
+                    <label>Contract Start Date is Null</label>
+                </value>
+                <value>
+                    <fullName>Currency Code is Null</fullName>
+                    <default>false</default>
+                    <label>Currency Code is Null</label>
+                </value>
+                <value>
+                    <fullName>Customer is Null</fullName>
+                    <default>false</default>
+                    <label>Customer is Null</label>
+                </value>
+                <value>
+                    <fullName>Distribution Channel is Null</fullName>
+                    <default>false</default>
+                    <label>Distribution Channel is Null</label>
+                </value>
+                <value>
+                    <fullName>Due Date is Null</fullName>
+                    <default>false</default>
+                    <label>Due Date is Null</label>
+                </value>
+                <value>
+                    <fullName>End Date is Null</fullName>
+                    <default>false</default>
+                    <label>End Date is Null</label>
+                </value>
+                <value>
+                    <fullName>Gross Price must be higher than Zero</fullName>
+                    <default>false</default>
+                    <label>Gross Price must be higher than Zero</label>
+                </value>
+                <value>
+                    <fullName>Net Price is lower than Zero</fullName>
+                    <default>false</default>
+                    <label>Net Price is lower than Zero</label>
+                </value>
+                <value>
+                    <fullName>Product Code is Null</fullName>
+                    <default>false</default>
+                    <label>Product Code is Null</label>
+                </value>
+                <value>
+                    <fullName>Product Family is Null</fullName>
+                    <default>false</default>
+                    <label>Product Family is Null</label>
+                </value>
+                <value>
+                    <fullName>Remaining Useful Life should be in between 0 and 84</fullName>
+                    <default>false</default>
+                    <label>Remaining Useful Life should be in between 0 and 84</label>
+                </value>
+                <value>
+                    <fullName>Sales Order Item is Null</fullName>
+                    <default>false</default>
+                    <label>Sales Order Item is Null</label>
+                </value>
+                <value>
+                    <fullName>Sales Org is Null</fullName>
+                    <default>false</default>
+                    <label>Sales Org is Null</label>
+                </value>
+                <value>
+                    <fullName>Serial Number is null</fullName>
+                    <default>false</default>
+                    <label>Serial Number is null</label>
+                </value>
+                <value>
+                    <fullName>Start Data is Null</fullName>
+                    <default>false</default>
+                    <label>Start Data is Null</label>
+                </value>
+                <value>
+                    <fullName>Twin Transaction has error</fullName>
+                    <default>false</default>
+                    <label>Twin Transaction has error</label>
+                </value>
+                <value>
+                    <fullName>No Valid Billing Schedules found</fullName>
+                    <default>false</default>
+                    <label>No Valid Billing Schedules found</label>
+                </value>
+                <value>
+                    <fullName>Superseded as unnecessary due to previous equivalent RTR Transactions</fullName>
+                    <default>false</default>
+                    <label>Superseded as unnecessary due to previous equivalent RTR Transactions</label>
+                </value>
+                <value>
+                    <fullName>Effective date of earlier termination is different from asset end date</fullName>
+                    <default>false</default>
+                    <label>Effective date of earlier termination is different from asset end date</label>
+                </value>
+                <value>
+                    <fullName>Asset end date less or equal than Financial start date</fullName>
+                    <default>false</default>
+                    <label>Asset end date less or equal than Financial start date</label>
+                </value>
+                <value>
+                    <fullName>Effective date of earlier termination is different from asset end date, but renewal found afterwards</fullName>
+                    <default>false</default>
+                    <label>Effective date of earlier termination is different from asset end date, but renewal found afterwards</label>
+                </value>
+                <value>
+                    <fullName>Zero Gross Price for No-Coverage Product</fullName>
+                    <default>false</default>
+                    <label>Zero Gross Price for No-Coverage Product</label>
+                </value>
+                <value>
+                    <fullName>Asset original start date less or equal end date</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Asset original start date less or equal end date</label>
+                </value>
+                <value>
+                    <fullName>Company Description is Null</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Company Description is Null</label>
+                </value>
+                <value>
+                    <fullName>Effective date of termination is not equal to end date</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Effective date of termination is not equal to end date</label>
+                </value>
+                <value>
+                    <fullName>Gross Price is Zero</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Gross Price is Zero</label>
+                </value>
+                <value>
+                    <fullName>Net Price is Zero</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Net Price is Zero</label>
+                </value>
+                <value>
+                    <fullName>Original start date equal or later than end date</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Original start date equal or later than end date</label>
+                </value>
+                <value>
+                    <fullName>Serial Number was null</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Serial Number was null</label>
+                </value>
+                <value>
+                    <fullName>Superseded by a more recent and equivalent RTR Transaction</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Superseded by a more recent and equivalent RTR Transaction</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>8</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Error_in_Processing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field will hold boolean value, It will be marked as true when validating the transaction data record has missed values.</description>
+        <externalId>false</externalId>
+        <label>Error in Processing</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Re_Interface__c</fullName>
+        <description>This formula field is used for re-initiate the transaction records after asset data was corrected.</description>
+        <externalId>false</externalId>
+        <formula>IF(AND( APTS_Asset_Processed__c, Error_in_Processing__c), 
+HYPERLINK(&quot;/apex/APTS_LAE_RAR_ReInterface?Id=&quot; &amp;Id, IMAGE(&quot;/resource/1566566998000/Re_Interface&quot;, &quot;Re-Interface&quot;),&quot;_self&quot;), 
+null)</formula>
+        <label>Re-Interface</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Service_Installation_Override__c</fullName>
+        <description>This field will hold date value and assign to start date of staging data creation.</description>
+        <externalId>false</externalId>
+        <label>Service Installation Override</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <label>RTR-LAE Transaction Data</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>APTS_Business_Transaction_Type__c</columns>
+        <columns>APTS_Contract_Number__c</columns>
+        <columns>APTS_Asset_Line_Item__c</columns>
+        <columns>APTS_Contractual_Purchase__c</columns>
+        <columns>APTS_Used_Product__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>ATL-{00000000}</displayFormat>
+        <label>RTR-LAE Transaction Data Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>RTR-LAE Transaction Data</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>APTS_Contract_Number__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>APTS_Asset_Line_Item__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>APTS_Business_Transaction_Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>APTS_Contract_Effective_Date_old__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>APTS_Asset_Processed__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Error_in_Processing__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Error_Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATED_DATE</customTabListAdditionalFields>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>APTS_Asset_Line_Item__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>APTS_Business_Transaction_Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>APTS_Contract_Effective_Date_old__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>APTS_Asset_Processed__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CREATED_DATE</lookupDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>APTS_Asset_Line_Item__c</searchFilterFields>
+        <searchFilterFields>APTS_Business_Transaction_Type__c</searchFilterFields>
+        <searchFilterFields>APTS_Contract_Effective_Date_old__c</searchFilterFields>
+        <searchFilterFields>APTS_Asset_Processed__c</searchFilterFields>
+        <searchFilterFields>Error_in_Processing__c</searchFilterFields>
+        <searchFilterFields>CREATED_DATE</searchFilterFields>
+        <searchResultsAdditionalFields>APTS_Contract_Number__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>APTS_Asset_Line_Item__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>APTS_Business_Transaction_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>APTS_Contract_Effective_Date_old__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>APTS_Asset_Processed__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Error_in_Processing__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Error_Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATED_DATE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

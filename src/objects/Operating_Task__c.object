@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>All configuration parameters for Operating Task</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Batch_Email__c</fullName>
+        <description>Email address where an email will be sent upon completion of batch for operating task and counter reading</description>
+        <externalId>false</externalId>
+        <label>Batch Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Send_Email_Upon_Batch_Completion__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>True then an email will be sent when the batch is completed</description>
+        <externalId>false</externalId>
+        <label>Send Email Upon Batch Completion</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Operating Task</label>
+    <visibility>Protected</visibility>
+</CustomObject>

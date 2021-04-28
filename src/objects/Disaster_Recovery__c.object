@@ -1,0 +1,3207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This object is used as a staging table to generate disaster recovery records.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>AccountLocationID__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK(Physical_Asset__c)), Physical_Asset__r.AccountLocation__c,  AccountLocation__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Location ID</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountLocation__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This indicates the Account Location for which the case was logged.</description>
+        <externalId>false</externalId>
+        <label>Account Location</label>
+        <referenceTo>Apttus_Config2__AccountLocation__c</referenceTo>
+        <relationshipLabel>Disaster Recovery</relationshipLabel>
+        <relationshipName>Disaster_Recovery</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ActualEndDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Actual End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ActualStartDate__c</fullName>
+        <description>This indicates the actual date the engineer start or should start the service job.</description>
+        <externalId>false</externalId>
+        <label>Actual Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Already_Processed__c</fullName>
+        <externalId>false</externalId>
+        <formula>(TS_Case_Reference__c != null &amp;&amp; TS_Work_Order_Reference__c != null &amp;&amp; TS_Work_Order_Line_Item_Reference__c != null)
+||
+(TS_Case_Reference__c != null &amp;&amp; TS_Work_Order_Reference__c == null &amp;&amp; TS_Work_Order_Line_Item_Reference__c == null &amp;&amp; !WorkOrderRequired__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Already Processed</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CaseStatus__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(WorkOrderRequired__c = TRUE, &quot;In Progress&quot;, &quot;Closed&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Case Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Click__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR( 
+ISPICKVAL( SalesOrganization__c, &apos;SAP_6864&apos;), 
+ISPICKVAL( SalesOrganization__c, &apos;SAP_0333&apos;), 
+ISPICKVAL( SalesOrganization__c, &apos;SAP_0975&apos;), 
+ISPICKVAL( SalesOrganization__c, &apos;SAP_0111&apos;), 
+ISPICKVAL( SalesOrganization__c, &apos;SAP_6712&apos;)), 
+TRUE, FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Click</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CoffeeIsRunning__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>This indicates whether the customer indicated whether the customer was running during call intake.</description>
+        <externalId>false</externalId>
+        <label>Coffee Is Running</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CompletionCode__c</fullName>
+        <description>Indicates how the Case was solved.</description>
+        <externalId>false</externalId>
+        <label>Completion Code</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>100</fullName>
+                    <default>false</default>
+                    <label>100 - Completed, At Location</label>
+                </value>
+                <value>
+                    <fullName>110</fullName>
+                    <default>false</default>
+                    <label>110 - Not Completed, No Parts</label>
+                </value>
+                <value>
+                    <fullName>120</fullName>
+                    <default>false</default>
+                    <label>120 - Completed, No Problem Found</label>
+                </value>
+                <value>
+                    <fullName>130</fullName>
+                    <default>false</default>
+                    <label>130 - Completed, Wrong Treatment Cust.</label>
+                </value>
+                <value>
+                    <fullName>140</fullName>
+                    <default>false</default>
+                    <label>140 – Completed, Fixed By Phone</label>
+                </value>
+                <value>
+                    <fullName>150</fullName>
+                    <default>false</default>
+                    <label>150 - Not Completed, Too Expensive</label>
+                </value>
+                <value>
+                    <fullName>160</fullName>
+                    <default>false</default>
+                    <label>160 - Completed, Customer Request</label>
+                </value>
+                <value>
+                    <fullName>170</fullName>
+                    <default>false</default>
+                    <label>170 - Not Completed, Int. Spec. Req.</label>
+                </value>
+                <value>
+                    <fullName>180</fullName>
+                    <default>false</default>
+                    <label>180 - Not Completed, Ext. Spec. Req.</label>
+                </value>
+                <value>
+                    <fullName>190</fullName>
+                    <default>false</default>
+                    <label>190 - Not Completed, Cust. Not Present</label>
+                </value>
+                <value>
+                    <fullName>200</fullName>
+                    <default>false</default>
+                    <label>200 - Install Not Completed, Fault JDEP</label>
+                </value>
+                <value>
+                    <fullName>210</fullName>
+                    <default>false</default>
+                    <label>210 - Install Not Completed, Due Cust.</label>
+                </value>
+                <value>
+                    <fullName>220</fullName>
+                    <default>false</default>
+                    <label>220 - Install completed with flaw</label>
+                </value>
+                <value>
+                    <fullName>230</fullName>
+                    <default>false</default>
+                    <label>230 - Completed, Wrong Treatment Operator</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This indicates the contact for who the case needs to be registered for.</description>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Disaster Recovery</relationshipLabel>
+        <relationshipName>Disaster_Recovery</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ContainsDescription__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This indicates that the record has a description.</description>
+        <externalId>false</externalId>
+        <label>Contains Description</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ContainsExternalSolution__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This checkbox indicates whether an external solution is provided.</description>
+        <externalId>false</externalId>
+        <label>Contains External Solution</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CostIndicationasDiscussed__c</fullName>
+        <description>This indicates the cost estimate which was discussed during the intake of the case.</description>
+        <externalId>false</externalId>
+        <label>Cost Indication as Discussed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Customer_Case_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Case ID</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DefectCode__c</fullName>
+        <description>Indicates the Standardized codes for categorising a Defect on the Physical Asset.</description>
+        <externalId>false</externalId>
+        <label>Defect Code</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>T01</fullName>
+                    <default>false</default>
+                    <label>T01 – Worn Out</label>
+                </value>
+                <value>
+                    <fullName>T02</fullName>
+                    <default>false</default>
+                    <label>T02 – Lime Scale</label>
+                </value>
+                <value>
+                    <fullName>T03</fullName>
+                    <default>false</default>
+                    <label>T03 – Blocked</label>
+                </value>
+                <value>
+                    <fullName>T04</fullName>
+                    <default>false</default>
+                    <label>T04 – Cut / Broken</label>
+                </value>
+                <value>
+                    <fullName>T05</fullName>
+                    <default>false</default>
+                    <label>T05 – Kinked / Bent / Squeezed</label>
+                </value>
+                <value>
+                    <fullName>T06</fullName>
+                    <default>false</default>
+                    <label>T06 – Corroded</label>
+                </value>
+                <value>
+                    <fullName>T07</fullName>
+                    <default>false</default>
+                    <label>T07 – Sealing</label>
+                </value>
+                <value>
+                    <fullName>T08</fullName>
+                    <default>false</default>
+                    <label>T08 – Wrong Mounting</label>
+                </value>
+                <value>
+                    <fullName>T09</fullName>
+                    <default>false</default>
+                    <label>T09 – Wrong Treatment</label>
+                </value>
+                <value>
+                    <fullName>T10</fullName>
+                    <default>false</default>
+                    <label>T10 – Vandalism / Theft</label>
+                </value>
+                <value>
+                    <fullName>T11</fullName>
+                    <default>false</default>
+                    <label>T11 – Wrong Adjustment</label>
+                </value>
+                <value>
+                    <fullName>T12</fullName>
+                    <default>false</default>
+                    <label>T12 – Electrical</label>
+                </value>
+                <value>
+                    <fullName>T13</fullName>
+                    <default>false</default>
+                    <label>T13 – Bug / Old version sw</label>
+                </value>
+                <value>
+                    <fullName>T14</fullName>
+                    <default>false</default>
+                    <label>T14 – Water / Mains Supply</label>
+                </value>
+                <value>
+                    <fullName>T15</fullName>
+                    <default>false</default>
+                    <label>T15 – Connection / Network</label>
+                </value>
+                <value>
+                    <fullName>T16</fullName>
+                    <default>false</default>
+                    <label>T16 – Quality Ingredients</label>
+                </value>
+                <value>
+                    <fullName>T17</fullName>
+                    <default>false</default>
+                    <label>T17 – Customer Request</label>
+                </value>
+                <value>
+                    <fullName>T18</fullName>
+                    <default>false</default>
+                    <label>T18 – Not Applicable</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <description>This indicates the description.</description>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>EarliestAppointmentTime__c</fullName>
+        <description>This indicates the time range specific to the customer needs.</description>
+        <externalId>false</externalId>
+        <label>Earliest Appointment Time</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ExecutingEngineer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This indicates the engineer who was planned to execute the service job.</description>
+        <externalId>false</externalId>
+        <label>Executing Engineer</label>
+        <referenceTo>Resource__c</referenceTo>
+        <relationshipLabel>Disaster Recovery</relationshipLabel>
+        <relationshipName>Disaster_Recovery</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ExternalSolution__c</fullName>
+        <description>Shows the solution as communicated to the customer.</description>
+        <externalId>false</externalId>
+        <label>External Solution</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>FaultCode__c</fullName>
+        <description>Indicates what has been worked on for this Case.</description>
+        <externalId>false</externalId>
+        <label>Fault Code</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>FaultLocationCategory__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>D01</fullName>
+                    <default>false</default>
+                    <label>D01 - Housing</label>
+                </value>
+                <value>
+                    <fullName>D02</fullName>
+                    <default>false</default>
+                    <label>D02 - Door</label>
+                </value>
+                <value>
+                    <fullName>D03</fullName>
+                    <default>false</default>
+                    <label>D03 - Door Hinge</label>
+                </value>
+                <value>
+                    <fullName>D04</fullName>
+                    <default>false</default>
+                    <label>D04 - Door Lock</label>
+                </value>
+                <value>
+                    <fullName>D05</fullName>
+                    <default>false</default>
+                    <label>D05 - Door Switch / Sensor</label>
+                </value>
+                <value>
+                    <fullName>D06</fullName>
+                    <default>false</default>
+                    <label>D06 - Cooling Compartment</label>
+                </value>
+                <value>
+                    <fullName>D07</fullName>
+                    <default>false</default>
+                    <label>D07 - Drip Tray / Drip Plate</label>
+                </value>
+                <value>
+                    <fullName>D08</fullName>
+                    <default>false</default>
+                    <label>D08 - Wastebucket</label>
+                </value>
+                <value>
+                    <fullName>D09</fullName>
+                    <default>false</default>
+                    <label>D09 - Selection Buttons</label>
+                </value>
+                <value>
+                    <fullName>D10</fullName>
+                    <default>false</default>
+                    <label>D10 - Cup Sensor</label>
+                </value>
+                <value>
+                    <fullName>D11</fullName>
+                    <default>false</default>
+                    <label>D11 - Cup Dispensing</label>
+                </value>
+                <value>
+                    <fullName>D12</fullName>
+                    <default>false</default>
+                    <label>D12 - Cup Magazine</label>
+                </value>
+                <value>
+                    <fullName>D13</fullName>
+                    <default>false</default>
+                    <label>D13 - Branch Pipe</label>
+                </value>
+                <value>
+                    <fullName>D14</fullName>
+                    <default>false</default>
+                    <label>D14 - Drum</label>
+                </value>
+                <value>
+                    <fullName>D15</fullName>
+                    <default>false</default>
+                    <label>D15 - Motor (Drum)</label>
+                </value>
+                <value>
+                    <fullName>D16</fullName>
+                    <default>false</default>
+                    <label>D16 - Helix</label>
+                </value>
+                <value>
+                    <fullName>D17</fullName>
+                    <default>false</default>
+                    <label>D17 - Motor (Helix)</label>
+                </value>
+                <value>
+                    <fullName>D18</fullName>
+                    <default>false</default>
+                    <label>D18 - Shafts</label>
+                </value>
+                <value>
+                    <fullName>D19</fullName>
+                    <default>false</default>
+                    <label>D19 - Stirrer Dispenser</label>
+                </value>
+                <value>
+                    <fullName>D20</fullName>
+                    <default>false</default>
+                    <label>D20 - Cup Heater</label>
+                </value>
+                <value>
+                    <fullName>D21</fullName>
+                    <default>false</default>
+                    <label>D21 - Basestand / Cabinet</label>
+                </value>
+                <value>
+                    <fullName>D22</fullName>
+                    <default>false</default>
+                    <label>D22 - Cup Dispenser Basestand</label>
+                </value>
+                <value>
+                    <fullName>D23</fullName>
+                    <default>false</default>
+                    <label>D23 - Cooling Filter</label>
+                </value>
+                <value>
+                    <fullName>D24</fullName>
+                    <default>false</default>
+                    <label>D24 - Condensor / Evaporator</label>
+                </value>
+                <value>
+                    <fullName>E01</fullName>
+                    <default>false</default>
+                    <label>E01 - Fuse / Fuseholder</label>
+                </value>
+                <value>
+                    <fullName>E02</fullName>
+                    <default>false</default>
+                    <label>E02 - Mains / Transformer</label>
+                </value>
+                <value>
+                    <fullName>E03</fullName>
+                    <default>false</default>
+                    <label>E03 - Main Switch</label>
+                </value>
+                <value>
+                    <fullName>E04</fullName>
+                    <default>false</default>
+                    <label>E04 - Power Supply PCB</label>
+                </value>
+                <value>
+                    <fullName>E05</fullName>
+                    <default>false</default>
+                    <label>E05 - Fan Electronics</label>
+                </value>
+                <value>
+                    <fullName>E06</fullName>
+                    <default>false</default>
+                    <label>E06 - Fan Cooling</label>
+                </value>
+                <value>
+                    <fullName>E07</fullName>
+                    <default>false</default>
+                    <label>E07 - Wiring / Connector  Low Voltage</label>
+                </value>
+                <value>
+                    <fullName>E08</fullName>
+                    <default>false</default>
+                    <label>E08 - Wiring / Connector  High Voltage</label>
+                </value>
+                <value>
+                    <fullName>E09</fullName>
+                    <default>false</default>
+                    <label>E09 - Wiring / Connectivity Payment</label>
+                </value>
+                <value>
+                    <fullName>E10</fullName>
+                    <default>false</default>
+                    <label>E10 - CPU / Main PCB</label>
+                </value>
+                <value>
+                    <fullName>E11</fullName>
+                    <default>false</default>
+                    <label>E11 - Relais PCB / VMC</label>
+                </value>
+                <value>
+                    <fullName>E12</fullName>
+                    <default>false</default>
+                    <label>E12 - Selection PCB Door</label>
+                </value>
+                <value>
+                    <fullName>E13</fullName>
+                    <default>false</default>
+                    <label>E13 - Payment PCB</label>
+                </value>
+                <value>
+                    <fullName>E14</fullName>
+                    <default>false</default>
+                    <label>E14 - Display</label>
+                </value>
+                <value>
+                    <fullName>E15</fullName>
+                    <default>false</default>
+                    <label>E15 - Touchscreen</label>
+                </value>
+                <value>
+                    <fullName>E16</fullName>
+                    <default>false</default>
+                    <label>E16 - Cup PCB</label>
+                </value>
+                <value>
+                    <fullName>E17</fullName>
+                    <default>false</default>
+                    <label>E17 - Cooling PCB</label>
+                </value>
+                <value>
+                    <fullName>E18</fullName>
+                    <default>false</default>
+                    <label>E18 - Heating PCB / Relais</label>
+                </value>
+                <value>
+                    <fullName>E19</fullName>
+                    <default>false</default>
+                    <label>E19 - Software</label>
+                </value>
+                <value>
+                    <fullName>E20</fullName>
+                    <default>false</default>
+                    <label>E20 - Lighting</label>
+                </value>
+                <value>
+                    <fullName>E21</fullName>
+                    <default>false</default>
+                    <label>E21 - Adjustment (Taste)</label>
+                </value>
+                <value>
+                    <fullName>E22</fullName>
+                    <default>false</default>
+                    <label>E22 - Adjustment (Volume)</label>
+                </value>
+                <value>
+                    <fullName>E23</fullName>
+                    <default>false</default>
+                    <label>E23 - Adjustment (Other Setting)</label>
+                </value>
+                <value>
+                    <fullName>E24</fullName>
+                    <default>false</default>
+                    <label>E24 - Cooling Compressor</label>
+                </value>
+                <value>
+                    <fullName>E25</fullName>
+                    <default>false</default>
+                    <label>E25 - Cooling NTC / Thermostat / Clixon</label>
+                </value>
+                <value>
+                    <fullName>E26</fullName>
+                    <default>false</default>
+                    <label>E26 - Cooling Peltier</label>
+                </value>
+                <value>
+                    <fullName>W01</fullName>
+                    <default>false</default>
+                    <label>W01 - External Waterpump / Water Tap</label>
+                </value>
+                <value>
+                    <fullName>W02</fullName>
+                    <default>false</default>
+                    <label>W02 - Pre - heater</label>
+                </value>
+                <value>
+                    <fullName>W03</fullName>
+                    <default>false</default>
+                    <label>W03 - Water Inlet Hose(s) To Machine</label>
+                </value>
+                <value>
+                    <fullName>W04</fullName>
+                    <default>false</default>
+                    <label>W04 - Water Filter / Softener</label>
+                </value>
+                <value>
+                    <fullName>W05</fullName>
+                    <default>false</default>
+                    <label>W05 - Inletvalve</label>
+                </value>
+                <value>
+                    <fullName>W06</fullName>
+                    <default>false</default>
+                    <label>W06 - Air Break Tank</label>
+                </value>
+                <value>
+                    <fullName>W07</fullName>
+                    <default>false</default>
+                    <label>W07 - Water Level Sensor / Floater</label>
+                </value>
+                <value>
+                    <fullName>W08</fullName>
+                    <default>false</default>
+                    <label>W08 - Flow Meter</label>
+                </value>
+                <value>
+                    <fullName>W09</fullName>
+                    <default>false</default>
+                    <label>W09 - Reduction Valve</label>
+                </value>
+                <value>
+                    <fullName>W10</fullName>
+                    <default>false</default>
+                    <label>W10 - Non - return Valve</label>
+                </value>
+                <value>
+                    <fullName>W11</fullName>
+                    <default>false</default>
+                    <label>W11 - Circulation Valve</label>
+                </value>
+                <value>
+                    <fullName>W12</fullName>
+                    <default>false</default>
+                    <label>W12 - Boiler</label>
+                </value>
+                <value>
+                    <fullName>W13</fullName>
+                    <default>false</default>
+                    <label>W13 - Boiler (Steam)</label>
+                </value>
+                <value>
+                    <fullName>W14</fullName>
+                    <default>false</default>
+                    <label>W14 - Overpressure Valve</label>
+                </value>
+                <value>
+                    <fullName>W15</fullName>
+                    <default>false</default>
+                    <label>W15 - Safety Valve</label>
+                </value>
+                <value>
+                    <fullName>W16</fullName>
+                    <default>false</default>
+                    <label>W16 - Aeration Valve</label>
+                </value>
+                <value>
+                    <fullName>W17</fullName>
+                    <default>false</default>
+                    <label>W17 - Overflow (Tube/Hose/Pipe)</label>
+                </value>
+                <value>
+                    <fullName>W18</fullName>
+                    <default>false</default>
+                    <label>W18 - Heating Element</label>
+                </value>
+                <value>
+                    <fullName>W19</fullName>
+                    <default>false</default>
+                    <label>W19 - Dry Boil Protection</label>
+                </value>
+                <value>
+                    <fullName>W20</fullName>
+                    <default>false</default>
+                    <label>W20 - Overboil Protection</label>
+                </value>
+                <value>
+                    <fullName>W21</fullName>
+                    <default>false</default>
+                    <label>W21 - NTC / Thermostat / Pressostat</label>
+                </value>
+                <value>
+                    <fullName>W22</fullName>
+                    <default>false</default>
+                    <label>W22 - Outlet Valve</label>
+                </value>
+                <value>
+                    <fullName>W23</fullName>
+                    <default>false</default>
+                    <label>W23 - Outlet Valve Steam</label>
+                </value>
+                <value>
+                    <fullName>W24</fullName>
+                    <default>false</default>
+                    <label>W24 - Hose Boiler</label>
+                </value>
+                <value>
+                    <fullName>W25</fullName>
+                    <default>false</default>
+                    <label>W25 - Water Pump</label>
+                </value>
+                <value>
+                    <fullName>W26</fullName>
+                    <default>false</default>
+                    <label>W26 - Water Selector</label>
+                </value>
+                <value>
+                    <fullName>B01</fullName>
+                    <default>false</default>
+                    <label>B01 - Motor brewer / driver</label>
+                </value>
+                <value>
+                    <fullName>B02</fullName>
+                    <default>false</default>
+                    <label>B02 - Brewer</label>
+                </value>
+                <value>
+                    <fullName>B03</fullName>
+                    <default>false</default>
+                    <label>B03 - Brewer Sensor / Switch</label>
+                </value>
+                <value>
+                    <fullName>B04</fullName>
+                    <default>false</default>
+                    <label>B04 - Brew Chamber</label>
+                </value>
+                <value>
+                    <fullName>B05</fullName>
+                    <default>false</default>
+                    <label>B05 - Piston</label>
+                </value>
+                <value>
+                    <fullName>B06</fullName>
+                    <default>false</default>
+                    <label>B06 - O - ring</label>
+                </value>
+                <value>
+                    <fullName>B07</fullName>
+                    <default>false</default>
+                    <label>B07 - Filter Plate</label>
+                </value>
+                <value>
+                    <fullName>B08</fullName>
+                    <default>false</default>
+                    <label>B08 - Filter</label>
+                </value>
+                <value>
+                    <fullName>B09</fullName>
+                    <default>false</default>
+                    <label>B09 - Membrane</label>
+                </value>
+                <value>
+                    <fullName>B10</fullName>
+                    <default>false</default>
+                    <label>B10 - Scraper</label>
+                </value>
+                <value>
+                    <fullName>B11</fullName>
+                    <default>false</default>
+                    <label>B11 - Splash Plate</label>
+                </value>
+                <value>
+                    <fullName>B12</fullName>
+                    <default>false</default>
+                    <label>B12 - Brewer Outlet</label>
+                </value>
+                <value>
+                    <fullName>B13</fullName>
+                    <default>false</default>
+                    <label>B13 - Brewer Valve</label>
+                </value>
+                <value>
+                    <fullName>I01</fullName>
+                    <default>false</default>
+                    <label>I01 - Ingredient BIB</label>
+                </value>
+                <value>
+                    <fullName>I02</fullName>
+                    <default>false</default>
+                    <label>I02 - Dosing Coil / Motor BIB</label>
+                </value>
+                <value>
+                    <fullName>I03</fullName>
+                    <default>false</default>
+                    <label>I03 - Sensor / Switch Mixer, Trough, Tray</label>
+                </value>
+                <value>
+                    <fullName>I04</fullName>
+                    <default>false</default>
+                    <label>I04 - Liquid Mixer</label>
+                </value>
+                <value>
+                    <fullName>I05</fullName>
+                    <default>false</default>
+                    <label>I05 - Empty Detection</label>
+                </value>
+                <value>
+                    <fullName>I06</fullName>
+                    <default>false</default>
+                    <label>I06 - Trough, Tray, Bowl</label>
+                </value>
+                <value>
+                    <fullName>I07</fullName>
+                    <default>false</default>
+                    <label>I07 - Air Pump</label>
+                </value>
+                <value>
+                    <fullName>I08</fullName>
+                    <default>false</default>
+                    <label>I08 - Air Filter Ingredients</label>
+                </value>
+                <value>
+                    <fullName>I09</fullName>
+                    <default>false</default>
+                    <label>I09 - Hose Ingredient</label>
+                </value>
+                <value>
+                    <fullName>I10</fullName>
+                    <default>false</default>
+                    <label>I10 - Ingredient R&amp;G</label>
+                </value>
+                <value>
+                    <fullName>I11</fullName>
+                    <default>false</default>
+                    <label>I11 - Ingredient Instant</label>
+                </value>
+                <value>
+                    <fullName>I12</fullName>
+                    <default>false</default>
+                    <label>I12 - Fan ingredients</label>
+                </value>
+                <value>
+                    <fullName>I13</fullName>
+                    <default>false</default>
+                    <label>I13 - Canister R&amp;G</label>
+                </value>
+                <value>
+                    <fullName>I14</fullName>
+                    <default>false</default>
+                    <label>I14 - Canister Instant</label>
+                </value>
+                <value>
+                    <fullName>I15</fullName>
+                    <default>false</default>
+                    <label>I15 - Stirring Wire / Agitator</label>
+                </value>
+                <value>
+                    <fullName>I16</fullName>
+                    <default>false</default>
+                    <label>I16 - Lock Canister</label>
+                </value>
+                <value>
+                    <fullName>I17</fullName>
+                    <default>false</default>
+                    <label>I17 - Slide Canister</label>
+                </value>
+                <value>
+                    <fullName>I18</fullName>
+                    <default>false</default>
+                    <label>I18 - Motor Canister</label>
+                </value>
+                <value>
+                    <fullName>I19</fullName>
+                    <default>false</default>
+                    <label>I19 - Grinder Motor / Gear / Belt</label>
+                </value>
+                <value>
+                    <fullName>I20</fullName>
+                    <default>false</default>
+                    <label>I20 - Grinder Bblades</label>
+                </value>
+                <value>
+                    <fullName>I21</fullName>
+                    <default>false</default>
+                    <label>I21 - Grinder Sensor</label>
+                </value>
+                <value>
+                    <fullName>I22</fullName>
+                    <default>false</default>
+                    <label>I22 - Grinder Outlet</label>
+                </value>
+                <value>
+                    <fullName>I23</fullName>
+                    <default>false</default>
+                    <label>I23 - Mixer R&amp;G / Instant</label>
+                </value>
+                <value>
+                    <fullName>I24</fullName>
+                    <default>false</default>
+                    <label>I24 - Ingredient Fresh Milk</label>
+                </value>
+                <value>
+                    <fullName>I25</fullName>
+                    <default>false</default>
+                    <label>I25 - Milk Foamer</label>
+                </value>
+                <value>
+                    <fullName>I26</fullName>
+                    <default>false</default>
+                    <label>I26 - Milk Pump</label>
+                </value>
+                <value>
+                    <fullName>I27</fullName>
+                    <default>false</default>
+                    <label>I27 - Milk Valve</label>
+                </value>
+                <value>
+                    <fullName>I28</fullName>
+                    <default>false</default>
+                    <label>I28 - Ingredient Syrup</label>
+                </value>
+                <value>
+                    <fullName>I29</fullName>
+                    <default>false</default>
+                    <label>I29 - Syrup Pump</label>
+                </value>
+                <value>
+                    <fullName>P01</fullName>
+                    <default>false</default>
+                    <label>P01 - Coin Insert</label>
+                </value>
+                <value>
+                    <fullName>P02</fullName>
+                    <default>false</default>
+                    <label>P02 - Coin - return</label>
+                </value>
+                <value>
+                    <fullName>P03</fullName>
+                    <default>false</default>
+                    <label>P03 - Coin Mechanism</label>
+                </value>
+                <value>
+                    <fullName>P04</fullName>
+                    <default>false</default>
+                    <label>P04 - Cash Box / Lock</label>
+                </value>
+                <value>
+                    <fullName>P05</fullName>
+                    <default>false</default>
+                    <label>P05 - Card Reader</label>
+                </value>
+                <value>
+                    <fullName>P06</fullName>
+                    <default>false</default>
+                    <label>P06 - Waiter System / Interface</label>
+                </value>
+                <value>
+                    <fullName>P07</fullName>
+                    <default>false</default>
+                    <label>P07 - Connectivity Box</label>
+                </value>
+                <value>
+                    <fullName>P08</fullName>
+                    <default>false</default>
+                    <label>P08 - Antenna / Coverage</label>
+                </value>
+                <value>
+                    <fullName>P09</fullName>
+                    <default>false</default>
+                    <label>P09 - Power Unit Connecivity Payment</label>
+                </value>
+                <value>
+                    <fullName>P10</fullName>
+                    <default>false</default>
+                    <label>P10 - Software Connectivity Payment</label>
+                </value>
+                <value>
+                    <fullName>P11</fullName>
+                    <default>false</default>
+                    <label>P11 - Wifi Module</label>
+                </value>
+                <value>
+                    <fullName>P12</fullName>
+                    <default>false</default>
+                    <label>P12 - Bluetooth Module</label>
+                </value>
+                <value>
+                    <fullName>P13</fullName>
+                    <default>false</default>
+                    <label>P13 - GSM Module</label>
+                </value>
+                <value>
+                    <fullName>P14</fullName>
+                    <default>false</default>
+                    <label>P14 - IR Module</label>
+                </value>
+                <value>
+                    <fullName>P15</fullName>
+                    <default>false</default>
+                    <label>P15 - Ethernet Module</label>
+                </value>
+                <value>
+                    <fullName>P16</fullName>
+                    <default>false</default>
+                    <label>P16 - NFC Module</label>
+                </value>
+                <value>
+                    <fullName>N01</fullName>
+                    <default>false</default>
+                    <label>N01 - No Water Supply / No Suitable Connection</label>
+                </value>
+                <value>
+                    <fullName>N02</fullName>
+                    <default>false</default>
+                    <label>N02 - No Water Discharge / No Suitable Connection</label>
+                </value>
+                <value>
+                    <fullName>N03</fullName>
+                    <default>false</default>
+                    <label>N03 - No Power Supply / No Suitable Connection</label>
+                </value>
+                <value>
+                    <fullName>N04</fullName>
+                    <default>false</default>
+                    <label>N04 - No Suitable Space</label>
+                </value>
+                <value>
+                    <fullName>N05</fullName>
+                    <default>false</default>
+                    <label>N05 - No Crockery / Cups</label>
+                </value>
+                <value>
+                    <fullName>N06</fullName>
+                    <default>false</default>
+                    <label>N06 - No Ingredients / Wrong Ingredients</label>
+                </value>
+                <value>
+                    <fullName>N07</fullName>
+                    <default>false</default>
+                    <label>N07 - Wrong Machine</label>
+                </value>
+                <value>
+                    <fullName>N08</fullName>
+                    <default>false</default>
+                    <label>N08 - No Machine Present</label>
+                </value>
+                <value>
+                    <fullName>N09</fullName>
+                    <default>false</default>
+                    <label>N09 - No Accessories / Wrong Accessories</label>
+                </value>
+                <value>
+                    <fullName>N10</fullName>
+                    <default>false</default>
+                    <label>N10 - Nobody Available For Instructions</label>
+                </value>
+                <value>
+                    <fullName>N11</fullName>
+                    <default>false</default>
+                    <label>N11 - Telephone Line / Network / GSM</label>
+                </value>
+                <value>
+                    <fullName>N12</fullName>
+                    <default>false</default>
+                    <label>N12 - Third Party</label>
+                </value>
+                <value>
+                    <fullName>N13</fullName>
+                    <default>false</default>
+                    <label>N13 - Logistics: Delivery Too Late</label>
+                </value>
+                <value>
+                    <fullName>N14</fullName>
+                    <default>false</default>
+                    <label>N14 - Logistics: Delivery Wrong Location</label>
+                </value>
+                <value>
+                    <fullName>N15</fullName>
+                    <default>false</default>
+                    <label>N15 - Logistics: Transportation Damage</label>
+                </value>
+                <value>
+                    <fullName>N16</fullName>
+                    <default>false</default>
+                    <label>N16 - Workshop Error</label>
+                </value>
+                <value>
+                    <fullName>N17</fullName>
+                    <default>false</default>
+                    <label>N17 - Not Applicable</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>D</controllingFieldValue>
+                <valueName>D01</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>D</controllingFieldValue>
+                <valueName>D02</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>D</controllingFieldValue>
+                <valueName>D03</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>D</controllingFieldValue>
+                <valueName>D04</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>D</controllingFieldValue>
+                <valueName>D05</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>D</controllingFieldValue>
+                <valueName>D06</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>D</controllingFieldValue>
+                <valueName>D07</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>D</controllingFieldValue>
+                <valueName>D08</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>D</controllingFieldValue>
+                <valueName>D09</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>D</controllingFieldValue>
+                <valueName>D10</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>D</controllingFieldValue>
+                <valueName>D11</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>D</controllingFieldValue>
+                <valueName>D12</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>D</controllingFieldValue>
+                <valueName>D13</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>D</controllingFieldValue>
+                <valueName>D14</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>D</controllingFieldValue>
+                <valueName>D15</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>D</controllingFieldValue>
+                <valueName>D16</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>D</controllingFieldValue>
+                <valueName>D17</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>D</controllingFieldValue>
+                <valueName>D18</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>D</controllingFieldValue>
+                <valueName>D19</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>D</controllingFieldValue>
+                <valueName>D20</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>D</controllingFieldValue>
+                <valueName>D21</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>D</controllingFieldValue>
+                <valueName>D22</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>D</controllingFieldValue>
+                <valueName>D23</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>D</controllingFieldValue>
+                <valueName>D24</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E01</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E02</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E03</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E04</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E05</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E06</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E07</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E08</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E09</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E10</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E11</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E12</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E13</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E14</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E15</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E16</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E17</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E18</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E19</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E20</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E21</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E22</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E23</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E24</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E25</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>E</controllingFieldValue>
+                <valueName>E26</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W01</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W02</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W03</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W04</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W05</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W06</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W07</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W08</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W09</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W10</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W11</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W12</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W13</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W14</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W15</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W16</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W17</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W18</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W19</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W20</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W21</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W22</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W23</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W24</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W25</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>W</controllingFieldValue>
+                <valueName>W26</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B</controllingFieldValue>
+                <valueName>B01</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B</controllingFieldValue>
+                <valueName>B02</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B</controllingFieldValue>
+                <valueName>B03</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B</controllingFieldValue>
+                <valueName>B04</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B</controllingFieldValue>
+                <valueName>B05</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B</controllingFieldValue>
+                <valueName>B06</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B</controllingFieldValue>
+                <valueName>B07</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B</controllingFieldValue>
+                <valueName>B08</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B</controllingFieldValue>
+                <valueName>B09</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B</controllingFieldValue>
+                <valueName>B10</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B</controllingFieldValue>
+                <valueName>B11</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B</controllingFieldValue>
+                <valueName>B12</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B</controllingFieldValue>
+                <valueName>B13</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I01</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I02</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I03</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I04</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I05</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I06</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I07</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I08</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I09</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I10</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I11</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I12</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I13</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I14</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I15</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I16</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I17</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I18</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I19</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I20</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I21</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I22</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I23</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I24</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I25</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I26</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I27</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I28</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>I</controllingFieldValue>
+                <valueName>I29</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>P</controllingFieldValue>
+                <valueName>P01</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>P</controllingFieldValue>
+                <valueName>P02</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>P</controllingFieldValue>
+                <valueName>P03</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>P</controllingFieldValue>
+                <valueName>P04</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>P</controllingFieldValue>
+                <valueName>P05</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>P</controllingFieldValue>
+                <valueName>P06</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>P</controllingFieldValue>
+                <valueName>P07</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>P</controllingFieldValue>
+                <valueName>P08</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>P</controllingFieldValue>
+                <valueName>P09</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>P</controllingFieldValue>
+                <valueName>P10</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>P</controllingFieldValue>
+                <valueName>P11</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>P</controllingFieldValue>
+                <valueName>P12</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>P</controllingFieldValue>
+                <valueName>P13</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>P</controllingFieldValue>
+                <valueName>P14</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>P</controllingFieldValue>
+                <valueName>P15</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>P</controllingFieldValue>
+                <valueName>P16</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>N</controllingFieldValue>
+                <valueName>N01</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>N</controllingFieldValue>
+                <valueName>N02</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>N</controllingFieldValue>
+                <valueName>N03</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>N</controllingFieldValue>
+                <valueName>N04</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>N</controllingFieldValue>
+                <valueName>N05</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>N</controllingFieldValue>
+                <valueName>N06</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>N</controllingFieldValue>
+                <valueName>N07</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>N</controllingFieldValue>
+                <valueName>N08</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>N</controllingFieldValue>
+                <valueName>N09</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>N</controllingFieldValue>
+                <valueName>N10</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>N</controllingFieldValue>
+                <valueName>N11</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>N</controllingFieldValue>
+                <valueName>N12</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>N</controllingFieldValue>
+                <valueName>N13</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>N</controllingFieldValue>
+                <valueName>N14</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>N</controllingFieldValue>
+                <valueName>N15</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>N</controllingFieldValue>
+                <valueName>N16</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>N</controllingFieldValue>
+                <valueName>N17</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FaultConfiguration__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This indicates the fault configuration for which the case was logged.</description>
+        <externalId>false</externalId>
+        <label>Fault Configuration</label>
+        <referenceTo>PhysicalAsset__c</referenceTo>
+        <relationshipLabel>Disaster Recovery (Fault Configuration)</relationshipLabel>
+        <relationshipName>Disaster_Recovery1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FaultLocationCategory__c</fullName>
+        <externalId>false</externalId>
+        <label>Fault Location Category</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>D</fullName>
+                    <default>false</default>
+                    <label>Door / Housing</label>
+                </value>
+                <value>
+                    <fullName>E</fullName>
+                    <default>false</default>
+                    <label>Electronics</label>
+                </value>
+                <value>
+                    <fullName>W</fullName>
+                    <default>false</default>
+                    <label>Water</label>
+                </value>
+                <value>
+                    <fullName>B</fullName>
+                    <default>false</default>
+                    <label>Brewing</label>
+                </value>
+                <value>
+                    <fullName>I</fullName>
+                    <default>false</default>
+                    <label>Ingredient / Dosing</label>
+                </value>
+                <value>
+                    <fullName>P</fullName>
+                    <default>false</default>
+                    <label>Payment / Telemetry</label>
+                </value>
+                <value>
+                    <fullName>N</fullName>
+                    <default>false</default>
+                    <label>Non Machine</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>InternalSolution__c</fullName>
+        <description>Solution as indicated but only for internal use.</description>
+        <externalId>false</externalId>
+        <label>Internal Solution</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>LatestAppointmentTime__c</fullName>
+        <externalId>false</externalId>
+        <label>Latest Appointment Time</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>MissingCaseCompletionDetails__c</fullName>
+        <externalId>false</externalId>
+        <formula>WorkOrderRequired__c = FALSE &amp;&amp;
+OR(
+ISBLANK(TEXT(CompletionCode__c)),
+ISBLANK(TEXT(DefectCode__c)),
+ContainsExternalSolution__c = FALSE,
+ISBLANK(TEXT(FaultCode__c)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Missing Case Completion Details</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>MissingContact__c</fullName>
+        <description>This formula</description>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(Contact__c), TRUE, FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Missing Contact</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>MissingPAorLocationandProduct__c</fullName>
+        <externalId>false</externalId>
+        <formula>ISBLANK(Physical_Asset__c ) &amp;&amp; OR(ISBLANK(AccountLocation__c ), ISBLANK(Product__c ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Missing PA or Location and Product</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>MissingPAwithFaultConifguration__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+NOT(ISBLANK(FaultConfiguration__c )) &amp;&amp; ISBLANK( Physical_Asset__c), TRUE, FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Missing PA with Fault Conifguration</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>MissingSchedulingDetails__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+OR(
+NOT(ISBLANK(ExecutingEngineer__c )) &amp;&amp; ISBLANK( ActualStartDate__c ),
+ISBLANK(ExecutingEngineer__c )) &amp;&amp; NOT(ISBLANK( ActualStartDate__c )), 
+TRUE,
+FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Missing Scheduling Details</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>MissingSubjectAndOrDescription__c</fullName>
+        <externalId>false</externalId>
+        <formula>OR(ContainsDescription__c = FALSE,ISBLANK(Subject__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Missing Subject and/or Description</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>MissingWorkOrderType__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(TEXT( WorkOrderType__c)), TRUE, FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Missing Work Order Type</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Missing_Sales_Organization__c</fullName>
+        <externalId>false</externalId>
+        <formula>ISPICKVAL(SalesOrganization__c, &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Missing Sales Organization</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Physical_Asset__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This indicates the machine for which you want to create a case for.</description>
+        <externalId>false</externalId>
+        <label>Physical Asset</label>
+        <referenceTo>PhysicalAsset__c</referenceTo>
+        <relationshipLabel>Disaster Recovery</relationshipLabel>
+        <relationshipName>Disaster_Recovery</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProcessRecord__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+OR(WorkOrderRequired__c = TRUE &amp;&amp;
+OR(
+MissingSubjectAndOrDescription__c = TRUE,
+MissingContact__c = TRUE,
+MissingPAorLocationandProduct__c = TRUE,
+MissingPAwithFaultConifguration__c = TRUE,
+MissingSchedulingDetails__c = TRUE, 
+MissingWorkOrderType__c = TRUE,
+Missing_Sales_Organization__c  = TRUE)
+, 
+WorkOrderRequired__c = FALSE &amp;&amp;
+OR(
+MissingSubjectAndOrDescription__c = TRUE,
+MissingCaseCompletionDetails__c = TRUE, 
+MissingContact__c = TRUE,
+MissingPAorLocationandProduct__c = TRUE,
+MissingPAwithFaultConifguration__c = TRUE,
+MissingWorkOrderType__c = TRUE,
+Missing_Sales_Organization__c  = TRUE)),
+FALSE, TRUE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Process Record</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ProductID__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK( Physical_Asset__c )), Physical_Asset__r.Product__c,  Product__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product ID</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ProductIDfromFaultConfiguration__c</fullName>
+        <externalId>false</externalId>
+        <formula>FaultConfiguration__r.Product__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product ID from Fault Configuration</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This indicates the product for which the case was logged.</description>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Disaster Recovery</relationshipLabel>
+        <relationshipName>Disaster_Recovery</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RegistrationDate__c</fullName>
+        <description>This indicates the date/time when the record was created.</description>
+        <externalId>false</externalId>
+        <label>Registration Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>RequestorEmail__c</fullName>
+        <description>This indicates the email of the person who requested the case in name of the contact assigned to the case.</description>
+        <externalId>false</externalId>
+        <label>Requestor Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RequestorName__c</fullName>
+        <description>This indicates the person who requested the case in name of the contact assigned to the case.</description>
+        <externalId>false</externalId>
+        <label>Requestor Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RequiresCostEstimate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This indicates whether the case required a cost estimate.</description>
+        <externalId>false</externalId>
+        <label>Requires Cost Estimate</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ResourceID__c</fullName>
+        <externalId>false</externalId>
+        <formula>ExecutingEngineer__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Resource ID</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SalesOrganization__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Organization</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>PKL_SalesOrganization</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Subject__c</fullName>
+        <description>This indicates the subject of the case.</description>
+        <externalId>false</externalId>
+        <label>Subject</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TS_Case_Reference__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Case Reference</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Disaster Recovery</relationshipLabel>
+        <relationshipName>Disaster_Recovery</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TS_Work_Order_Line_Item_Reference__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Work Order Line Item Reference</label>
+        <referenceTo>WorkOrderLineItem</referenceTo>
+        <relationshipLabel>Disaster Recovery</relationshipLabel>
+        <relationshipName>Disaster_Recovery</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TS_Work_Order_Reference__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Work Order Reference</label>
+        <referenceTo>WorkOrder</referenceTo>
+        <relationshipLabel>Disaster Recovery</relationshipLabel>
+        <relationshipName>Disaster_Recovery</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>WorkOrderRequired__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This indicates whether a work order is required.</description>
+        <externalId>false</externalId>
+        <label>Work Order Required</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>WorkOrderStatus__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Click__c, 
+	&quot;Open&quot;,
+	IF(ISBLANK(ExecutingEngineer__c), 
+		&quot;Open&quot;, 
+		&quot;Scheduled&quot;)
+	)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Work Order Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WorkOrderType__c</fullName>
+        <description>This indicates the type of order which needs to be created.</description>
+        <externalId>false</externalId>
+        <label>Work Order Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>S10</fullName>
+                    <default>false</default>
+                    <label>Corrective Maintenance</label>
+                </value>
+                <value>
+                    <fullName>S15</fullName>
+                    <default>false</default>
+                    <label>1st Line Corrective Maintenance</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Disaster Recovery</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>TS_Case_Reference__c</columns>
+        <columns>TS_Work_Order_Reference__c</columns>
+        <columns>TS_Work_Order_Line_Item_Reference__c</columns>
+        <columns>Subject__c</columns>
+        <columns>ProcessRecord__c</columns>
+        <columns>Already_Processed__c</columns>
+        <columns>WorkOrderStatus__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>Click__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Disaster_Recovery__c.Case</value>
+        </filters>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Unprocessed</fullName>
+        <columns>NAME</columns>
+        <columns>ProcessRecord__c</columns>
+        <columns>Customer_Case_ID__c</columns>
+        <columns>Description__c</columns>
+        <columns>TS_Case_Reference__c</columns>
+        <columns>TS_Work_Order_Line_Item_Reference__c</columns>
+        <columns>AccountLocationID__c</columns>
+        <columns>WorkOrderType__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Already_Processed__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Disaster_Recovery__c.Case</value>
+        </filters>
+        <label>Unprocessed</label>
+    </listViews>
+    <nameField>
+        <displayFormat>DR-{0}</displayFormat>
+        <label>Disaster Recovery Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Disaster Recovery</pluralLabel>
+    <recordTypes>
+        <fullName>Case</fullName>
+        <active>true</active>
+        <description>This record type is used to generate cases and work orders where required.</description>
+        <label>Case</label>
+        <picklistValues>
+            <picklist>CompletionCode__c</picklist>
+            <values>
+                <fullName>100</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>110</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>120</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>130</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>140</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>150</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>160</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>170</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>180</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>190</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>210</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>220</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>230</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>DefectCode__c</picklist>
+            <values>
+                <fullName>T01</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T02</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T03</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T04</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T05</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T06</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T07</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T08</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T09</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T13</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T14</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T15</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T16</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T17</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T18</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FaultCode__c</picklist>
+            <values>
+                <fullName>B01</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B02</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B03</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B04</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B05</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B06</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B07</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B08</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B09</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B13</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D01</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D02</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D03</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D04</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D05</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D06</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D07</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D08</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D09</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D13</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D14</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D15</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D16</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D17</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D18</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D19</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D20</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D21</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D23</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E01</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E02</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E03</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E04</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E05</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E06</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E07</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E08</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E09</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E13</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E14</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E15</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E16</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E17</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E18</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E19</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E20</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E21</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E23</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E26</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I01</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I02</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I03</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I04</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I05</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I06</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I07</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I08</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I09</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I13</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I14</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I15</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I16</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I17</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I18</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I19</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I20</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I21</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I23</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I26</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I27</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I28</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N01</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N02</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N03</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N04</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N05</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N06</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N07</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N08</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N09</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N13</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N14</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N15</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N16</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N17</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P01</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P02</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P03</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P04</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P05</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P06</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P07</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P08</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P09</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P13</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P14</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P15</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P16</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W01</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W02</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W03</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W04</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W05</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W06</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W07</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W08</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W09</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W13</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W14</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W15</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W16</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W17</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W18</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W19</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W20</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W21</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W23</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W26</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FaultLocationCategory__c</picklist>
+            <values>
+                <fullName>B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SalesOrganization__c</picklist>
+            <values>
+                <fullName>SAP_0080</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_0111</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_0333</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_0975</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_0976</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6706</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6709</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6712</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6750</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6864</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>WorkOrderType__c</picklist>
+            <values>
+                <fullName>S10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>S15</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
+        <listViewButtons>Process_all_records</listViewButtons>
+        <searchResultsCustomButtons>Process_all_records</searchResultsCustomButtons>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Process_all_records</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>page</linkType>
+        <masterLabel>Process all records</masterLabel>
+        <openType>replace</openType>
+        <page>TS_DisasterRecoveryButtonPage</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+</CustomObject>

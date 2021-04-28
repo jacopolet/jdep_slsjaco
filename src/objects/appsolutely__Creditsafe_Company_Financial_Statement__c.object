@@ -1,0 +1,1228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Information on a financial statement.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>appsolutely__Balance_Sheets_Consolidated_Accounts__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Are the accounts consolidated.</description>
+        <externalId>false</externalId>
+        <label>Balance Sheets Consolidated Accounts</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Bank_Liabilities_Due_After1year__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Amount due after one year owing to banks for overdrafts and loans.</description>
+        <externalId>false</externalId>
+        <label>Bank Liabilities Due After1year</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Bank_Liabilities__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Amount due within one year owing to banks for overdrafts and loans.</description>
+        <externalId>false</externalId>
+        <label>Bank Liabilities</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Called_Up_Share_Capital__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The issued and paid share capital from shareholders.</description>
+        <externalId>false</externalId>
+        <label>Called Up Share Capital</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Cash__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Cash at bank, cash in hand and cash equivalents.</description>
+        <externalId>false</externalId>
+        <label>Cash</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Consolidated_Accounts__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Are the accounts consolidated.</description>
+        <externalId>false</externalId>
+        <label>Consolidated Accounts</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Creditor_Days__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Trade Creditors / Turnover x 365 days.  This is a calculation that predicts the average time taken for the company to settle its invoices for goods and services provided by it suppliers.</description>
+        <externalId>false</externalId>
+        <label>Creditor Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Creditsafe_Company_Report_Full__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A detailed report about a company.</description>
+        <externalId>false</externalId>
+        <label>Creditsafe Company Report</label>
+        <referenceTo>appsolutely__Creditsafe_Company_Report_Full__c</referenceTo>
+        <relationshipLabel>Financial Statements</relationshipLabel>
+        <relationshipName>Financial_Statements</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Currency__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Currency the figures are displayed in.</description>
+        <externalId>false</externalId>
+        <label>Currency</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Current_Debt_Ratio__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Total Current Liabilities / Shareholders Funds.  This measures the amount of short term debt in relation to the value of shareholders funds.</description>
+        <externalId>false</externalId>
+        <label>Current Debt Ratio</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Current_Ratio__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Total Current Assets / Total Current Liabilities.  This is an indication of a company’s ability to meet short-term debt obligations; the higher the ratio, the more liquid the company is.</description>
+        <externalId>false</externalId>
+        <label>Current Ratio</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Debtor_Days__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Trade Debtors / Turnover x 365 days.  This is a calculation that predicts the average time taken for the company to collect its invoices for goods and services provided to its customers.</description>
+        <externalId>false</externalId>
+        <label>Debtor Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Depreciation__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The amount written off Tangible Fixed Assets during the year.</description>
+        <externalId>false</externalId>
+        <label>Depreciation</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Dividends__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total amount of profits distributed to shareholders.</description>
+        <externalId>false</externalId>
+        <label>Dividends</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Equity_In_Percentage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shareholder Funds / (Total Current Assets + Tangible Fixed Assets) x 100.  This ratio shows the worth of the company (shareholders funds) as a percentage of total current and tangible assets.</description>
+        <externalId>false</externalId>
+        <label>Equity In Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Financial_Expenses__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Interest expenses incurred during the year.</description>
+        <externalId>false</externalId>
+        <label>Financial Expenses</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Financial_Income__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Interest income earned during the year.</description>
+        <externalId>false</externalId>
+        <label>Financial Income</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Finished_Goods__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Goods held that are ready for sale or use.</description>
+        <externalId>false</externalId>
+        <label>Finished Goods</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Gearing__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Bank Overdraft &amp; Loans + Total Long Term Liabilities/Shareholders funds x 100.  This is the relationship between the size of the companies debt in proportion to Equity (Shareholders Funds).</description>
+        <externalId>false</externalId>
+        <label>Gearing</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Goodwill__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The premium paid or accumulated on the purchase of an asset.</description>
+        <externalId>false</externalId>
+        <label>Goodwill</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Group_Payables_Due_After1year__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Amounts due after one year to related businesses.</description>
+        <externalId>false</externalId>
+        <label>Group Payables Due After1year</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Group_Payables__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Amounts due within one year to related businesses.</description>
+        <externalId>false</externalId>
+        <label>Group Payables</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Group_Receivables__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Amounts due within one year from related businesses.</description>
+        <externalId>false</externalId>
+        <label>Group Receivables</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Investments__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Long term investments including shares and securities.</description>
+        <externalId>false</externalId>
+        <label>Investments</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Land_And_Buildings__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Land and buildings owned by the company for long term use.</description>
+        <externalId>false</externalId>
+        <label>Land And Buildings</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Liquidity_Ratio_Or_Acid_Test__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Current assets - Stocks/Current Liabilities.  This, like the current ratio, measures how quickly in the short term a company can meet its debts.  However, this ratio excludes stock as there is no guarantee the value of Stocks can be realised quickly.</description>
+        <externalId>false</externalId>
+        <label>Liquidity Ratio Or Acid Test</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Loans_To_Group__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Long term loans made by the company to related businesses.</description>
+        <externalId>false</externalId>
+        <label>Loans To Group</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Miscellaneous_Fixed_Assets__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Long term assets other than Tangible Assets, Intangible Assets, Investments or Loans.</description>
+        <externalId>false</externalId>
+        <label>Miscellaneous Fixed Assets</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Miscellaneous_Liabilities_Due_After1year__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Other amounts due after one year owing by the company.</description>
+        <externalId>false</externalId>
+        <label>Miscellaneous Liabilities Due_After1year</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Miscellaneous_Liabilities__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Other amounts due within one year owing by the company.</description>
+        <externalId>false</externalId>
+        <label>Miscellaneous Liabilities</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Miscellaneous_Receivables__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Amounts due within one year owing to the company other than trade and group receivables.</description>
+        <externalId>false</externalId>
+        <label>Miscellaneous Receivables</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Net_Worth__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Often referred to as the ‘book value’ of the business this equals Shareholders Funds less Intangible Assets.</description>
+        <externalId>false</externalId>
+        <label>Net Worth</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Number_Of_Weeks__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Number of weeks in the year.</description>
+        <externalId>false</externalId>
+        <label>Number Of Weeks</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Operating_Costs__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Costs incurred in the general running of the business.</description>
+        <externalId>false</externalId>
+        <label>Operating Costs</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Operating_Profit__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The results of the company after deducting Operating Costs from its Revenue.</description>
+        <externalId>false</externalId>
+        <label>Operating Profit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Other_Appropriations__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Other miscellaneous items that are deducted / added to affect the Retained Profit / Loss of a company.</description>
+        <externalId>false</externalId>
+        <label>Other Appropriations</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Other_Current_Assets__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Any short term assets that have not already been included as Inventory, Receivables or Cash.</description>
+        <externalId>false</externalId>
+        <label>Other Current Assets</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Other_Intangible_Assets__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Intangible fixed assets other than goodwill such as Trade Marks, Patents, Research &amp; Development etc.</description>
+        <externalId>false</externalId>
+        <label>Other Intangible Assets</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Other_Inventories__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Other amounts classed as Inventory but not included above.</description>
+        <externalId>false</externalId>
+        <label>Other Inventories</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Other_Loans_Or_Finance_Due_After1year__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Loans or finance due after one year owing to parties other than banks or related businesses.</description>
+        <externalId>false</externalId>
+        <label>Other Loans Or Finance Due After1year</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Other_Loans_Or_Finance__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Loans or finance due within one year owing to parties other than banks or related businesses.</description>
+        <externalId>false</externalId>
+        <label>Other Loans Or Finance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Other_Loans__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Other long term loans made by the company.</description>
+        <externalId>false</externalId>
+        <label>Other Loans</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Other_Reserves__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Other capital and reserves that form part of shareholders equity.</description>
+        <externalId>false</externalId>
+        <label>Other Reserves</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Other_Tangible_Assets__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Tangible fixed assets other than Land &amp; Buildings or Plant &amp; Machinery.</description>
+        <externalId>false</externalId>
+        <label>Other Tangible Assets</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Pension_Costs__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The cost of pension benefits for employees of the company.</description>
+        <externalId>false</externalId>
+        <label>Pension Costs</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Plant_And_Machinery__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Plant and machinery owned by the company for long term use.</description>
+        <externalId>false</externalId>
+        <label>Plant And Machinery</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Pre_Tax_Profit_Margin__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Pre-tax profits / Turnover x 100.  This shows the percentage of Profit on each pound of sales or the equivalent of retailers ‘mark-up’.</description>
+        <externalId>false</externalId>
+        <label>Pre Tax Profit Margin</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Profit_After_Tax__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The results of the company after deducting any charge for taxation.</description>
+        <externalId>false</externalId>
+        <label>Profit After Tax</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Profit_Before_Tax__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The results of the company before deducting any charge for taxation.</description>
+        <externalId>false</externalId>
+        <label>Profit Before Tax</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Raw_Materials__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Materials held by the company that have not yet been processed.</description>
+        <externalId>false</externalId>
+        <label>Raw Materials</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Receivables_Due_After1year__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Amounts due after one year owing to the company (including trade and group receivables due after one year).</description>
+        <externalId>false</externalId>
+        <label>Receivables Due After1year</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Retained_Profit__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The results of the company after all income and expenses have been credited /debited.</description>
+        <externalId>false</externalId>
+        <label>Retained Profit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Return_On_Capital_Employed__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Pre-Tax Profit / Capital Employed x 100.  This ratio measures the profits a business yields in return for the money (Capital) invested.</description>
+        <externalId>false</externalId>
+        <label>Return On Capital Employed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Return_On_Net_Assets_Employed__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Pre-Tax Profits / Net Assets x 100.  This shows the ‘return’ in percent on the net assets of the company.  The higher the percentage the more profitable the company.</description>
+        <externalId>false</externalId>
+        <label>Return On Net Assets Employed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Return_On_Total_Assets_Employed__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Pre-Tax Profits / Total Assets x 100.  This shows the ‘return’ or ‘profit’ on each pound of Assets used as a percentage.</description>
+        <externalId>false</externalId>
+        <label>Return On Total Assets Employed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Revenue_Reserves__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The accumulation of profits/losses from previous trading periods.</description>
+        <externalId>false</externalId>
+        <label>Revenue Reserves</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Revenue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Income earned from normal business activities, including the sale of goods and services.</description>
+        <externalId>false</externalId>
+        <label>Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Sales_Or_Net_Working_Capital__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Turnover / (Total Current Assets - Total Current Liabilities).  The higher the ratio the higher the volume of Sales made per the companies working capital.</description>
+        <externalId>false</externalId>
+        <label>Sales Or Net Working Capital</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Share_Premium__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The excess of the amount received on the issue of shares over their value.</description>
+        <externalId>false</externalId>
+        <label>Share Premium</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Stock_Turnover_Ratio__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Stocks / Turnover x 100.  This shows the number of times the trading stock of a company is ‘turned over’ in a trading period.  If the ratio is low this indicates that relatively little money is tied up in Stocks.</description>
+        <externalId>false</externalId>
+        <label>Stock Turnover Ratio</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Tax__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Taxation payable on the profits of the company.</description>
+        <externalId>false</externalId>
+        <label>Tax</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Total_Assets__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total of Current and Fixed Assets.</description>
+        <externalId>false</externalId>
+        <label>Total Assets</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Total_Current_Assets__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total of Stocks, Debtors, Cash and other assets due within one year.</description>
+        <externalId>false</externalId>
+        <label>Total Current Assets</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Total_Current_Liabilities__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Total short term liabilities of the company.</description>
+        <externalId>false</externalId>
+        <label>Total Current Liabilities</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Total_Debt_Ratio__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Total Short Term &amp; Long Term Debt / Shareholder Funds x 100.  This shows the relative indebtedness of a company in relation to the worth of the company.</description>
+        <externalId>false</externalId>
+        <label>Total Debt Ratio</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Total_Fixed_Assets__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total of Tangible and Intangible Assets.</description>
+        <externalId>false</externalId>
+        <label>Total Fixed Assets</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Total_Intangible_Assets__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Assets that have a value but no physical existence.</description>
+        <externalId>false</externalId>
+        <label>Total Intangible Assets</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Total_Inventories__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total of stocks held by the company and work in progress.</description>
+        <externalId>false</externalId>
+        <label>Total Inventories</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Total_Liabilities__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total of Total Long Term Liabilities and Total Current Liabilities.</description>
+        <externalId>false</externalId>
+        <label>Total Liabilities</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Total_Long_Term_Liabilities__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Total long term liabilities of the company.</description>
+        <externalId>false</externalId>
+        <label>Total Long Term Liabilities</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Total_Other_Fixed_Assets__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Total long term assets other than Tangible Assets or Intangible Assets.</description>
+        <externalId>false</externalId>
+        <label>Total Other Fixed Assets</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Total_Receivables__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Total amounts receivable by the company.</description>
+        <externalId>false</externalId>
+        <label>Total Receivables</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Total_Shareholders_Equity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total capital and reserves of the company.</description>
+        <externalId>false</externalId>
+        <label>Total Shareholders Equity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Total_Tangible_Assets__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Physical assets owned by the company for long term use.</description>
+        <externalId>false</externalId>
+        <label>Total Tangible Assets</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Trade_Payables_Due_After1year__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Amount due after one year owing to suppliers for goods and services provided on credit.</description>
+        <externalId>false</externalId>
+        <label>Trade Payables Due After1year</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Trade_Payables__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Amount due within one year owing to suppliers for goods and services provided on credit.</description>
+        <externalId>false</externalId>
+        <label>Trade Payables</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Trade_Receivables__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Amounts due within one year from customers for goods and services supplied on credit.</description>
+        <externalId>false</externalId>
+        <label>Trade Receivables</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The type of financial statement.</description>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Wages_And_Salaries__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Wages and salaries paid to employees of the company.</description>
+        <externalId>false</externalId>
+        <label>Wages And Salaries</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Work_In_Progress__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Goods or contracts that are in the process of manufacture or completion.</description>
+        <externalId>false</externalId>
+        <label>Work In Progress</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Working_Capital__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Total Current Assets less Total Current Liabilities.  This represents the surplus/deficit of funds from normal trading activities.</description>
+        <externalId>false</externalId>
+        <label>Working Capital</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Year_End_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Year to which the annual account relates to.</description>
+        <externalId>false</externalId>
+        <label>Year End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <label>Creditsafe Company Financial Statement</label>
+    <nameField>
+        <displayFormat>{00000000}</displayFormat>
+        <label>Creditsafe Company Financial Statement</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Creditsafe Company Financial Statements</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

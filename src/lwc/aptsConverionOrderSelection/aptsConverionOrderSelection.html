@@ -1,0 +1,32 @@
+<!--
+**********************************************************************
+Name: aptsConverionOrderSelection
+Date: 06 July 2020
+Author: Sai Sagar
+Change Verison History:
+**********************************************************************
+-->
+<!--<template>
+     <lightning-datatable key-field="Id"
+        data={recordsToDisplay}
+        columns={columns}
+        onrowselection={getSelectedRows}>
+    </lightning-datatable>
+</template>--> 
+<template>
+    <h2 class="slds-text-heading_medium slds-hyphenate">What type of Action do you want to perform ? </h2>
+    <br/>
+    <template  if:true={isLoaded}>
+        <lightning-radio-group name="radioGroup"
+                          label=""
+                          options={recordsToDisplay}
+                          value={value}
+                          onchange={handleChange}
+                          disabled={enabledSelections}
+                          type="radio">
+        </lightning-radio-group>
+    </template>
+    <!-- <template for:each={recordsToDisplay} for:item="item">
+        <lightning-input  class="slds-p-around_x-small" type="radio" key={item.APTS_Sequence__c} label={item.APTS_Description__c} name={item.MasterLabel} onchange={handleKeyChange}></lightning-input>
+    </template> -->
+</template>

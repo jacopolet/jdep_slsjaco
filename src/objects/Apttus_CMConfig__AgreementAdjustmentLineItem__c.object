@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>v2_Lightning_Agreement_Adjustment_Line_Item_page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents an adjustment to the price of a product/service</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>APTS_Adjustment_Source__c</fullName>
+        <description>Identify the discount coming from Account Hierarchy</description>
+        <externalId>false</externalId>
+        <label>Adjustment Source</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Child</fullName>
+                    <default>false</default>
+                    <label>Child</label>
+                </value>
+                <value>
+                    <fullName>Parent</fullName>
+                    <default>false</default>
+                    <label>Parent</label>
+                </value>
+                <value>
+                    <fullName>Grandparent</fullName>
+                    <default>false</default>
+                    <label>Grandparent</label>
+                </value>
+                <value>
+                    <fullName>Buying-group</fullName>
+                    <default>false</default>
+                    <label>Buying-group</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Adjustment_UOM_translated__c</fullName>
+        <externalId>false</externalId>
+        <label>Adjustment UOM translated</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Agreement__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Agreement</label>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipLabel>Agreement Adjustment Line Items</relationshipLabel>
+        <relationshipName>Agreement_Adjustment_Line_Items</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_CategoryHierarchy_ContractOP__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(   CONTAINS(Apttus_CMConfig__LineItemId__r.Apttus_CMConfig__DerivedFromId__r.APTS_Hierarchy_First_Level__c,Apttus_CMConfig__LineItemId__r.Apttus_CMConfig__DerivedFromId__r.APTS_Hierarchy_Last_Level__c),
+   Apttus_CMConfig__LineItemId__r.Apttus_CMConfig__DerivedFromId__r.APTS_Hierarchy_First_Level__c,
+   Apttus_CMConfig__LineItemId__r.Apttus_CMConfig__DerivedFromId__r.APTS_Hierarchy_First_Level__c&amp;&quot;|&quot;&amp;  TRIM(Apttus_CMConfig__LineItemId__r.Apttus_CMConfig__DerivedFromId__r.APTS_Hierarchy_Last_Level__c)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>APTS_CategoryHierarchy_ContractOP</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Category__c</fullName>
+        <externalId>false</externalId>
+        <formula>Apttus_CMConfig__LineItemId__r.APTS_Product_Category__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Category</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Discount_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Discount Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Manual</fullName>
+                    <default>true</default>
+                    <label>Manual</label>
+                </value>
+                <value>
+                    <fullName>Auto</fullName>
+                    <default>false</default>
+                    <label>Auto</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Discount__c</fullName>
+        <description>Created for Contract Output</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Apttus_CMConfig__AdjustmentType__c,&apos;% Discount&apos;),TEXT(Apttus_CMConfig__AdjustmentAmount__c),&apos;&apos;)</formula>
+        <label>Discount %</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Discount_amt_per_unit__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Apttus_CMConfig__AdjustmentType__c,&apos;Base Price Discount&apos;),TEXT(Apttus_CMConfig__AdjustmentAmount__c),&apos;&apos;)</formula>
+        <label>Discount_amt_per_unit</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Incentive_Amount_Per_Billing_Period__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( ISPICKVAL( Apttus_CMConfig__LineItemId__r.Apttus_CMConfig__SellingFrequency__c , &apos;Monthly&apos;) , (Apttus_CMConfig__IncentiveAdjustmentAmount__c/ Apttus_CMConfig__LineItemId__r.Apttus_CMConfig__Term__c)*1 , IF( ISPICKVAL( Apttus_CMConfig__LineItemId__r.Apttus_CMConfig__SellingFrequency__c , &apos;Quarterly&apos;) , (Apttus_CMConfig__IncentiveAdjustmentAmount__c/ Apttus_CMConfig__LineItemId__r.Apttus_CMConfig__Term__c)*3, IF( ISPICKVAL( Apttus_CMConfig__LineItemId__r.Apttus_CMConfig__SellingFrequency__c , &apos;Half Yearly&apos;) , (Apttus_CMConfig__IncentiveAdjustmentAmount__c/ Apttus_CMConfig__LineItemId__r.Apttus_CMConfig__Term__c)*6, IF( ISPICKVAL( Apttus_CMConfig__LineItemId__r.Apttus_CMConfig__SellingFrequency__c , &apos;Yearly&apos;) , (Apttus_CMConfig__IncentiveAdjustmentAmount__c/ Apttus_CMConfig__LineItemId__r.Apttus_CMConfig__Term__c)*12,0))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Incentive Amount Per Billing Period</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Product_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>Apttus_CMConfig__LineItemId__r.Apttus__ProductId__r.ProductCode</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Code</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Product_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Apttus_CMConfig__LineItemId__r.Apttus__ProductId__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__AdjustmentAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price adjustment amount.</description>
+        <externalId>false</externalId>
+        <label>Adjustment Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__AdjustmentAppliesTo__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates the price field the price adjustment should be applied to.</description>
+        <externalId>false</externalId>
+        <label>Adjustment Applies To</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Starting Price</fullName>
+                    <default>false</default>
+                    <label>On Starting Price</label>
+                </value>
+                <value>
+                    <fullName>Bucket 1</fullName>
+                    <default>false</default>
+                    <label>On Net List</label>
+                </value>
+                <value>
+                    <fullName>Bucket 2</fullName>
+                    <default>false</default>
+                    <label>On Inflation</label>
+                </value>
+                <value>
+                    <fullName>Bucket 3</fullName>
+                    <default>false</default>
+                    <label>On PPR</label>
+                </value>
+                <value>
+                    <fullName>Bucket 4</fullName>
+                    <default>false</default>
+                    <label>On TPR</label>
+                </value>
+                <value>
+                    <fullName>Bucket 5</fullName>
+                    <default>false</default>
+                    <label>On BMC/BDF/EFF</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__AdjustmentType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price adjustment type</description>
+        <externalId>false</externalId>
+        <label>Adjustment Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>% Discount</fullName>
+                    <default>true</default>
+                    <label>% Discount</label>
+                </value>
+                <value>
+                    <fullName>Base Price Discount</fullName>
+                    <default>false</default>
+                    <label>Discount Amount PerUnit</label>
+                </value>
+                <value>
+                    <fullName>% Markup</fullName>
+                    <default>false</default>
+                    <label>% Markup</label>
+                </value>
+                <value>
+                    <fullName>Markup Amount</fullName>
+                    <default>false</default>
+                    <label>Markup Amount</label>
+                </value>
+                <value>
+                    <fullName>Price Override</fullName>
+                    <default>false</default>
+                    <label>Price Override</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__AdjustmentUom__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The adjustment unit of measure</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The adjustment unit of measure</inlineHelpText>
+        <label>Adjustment Uom</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SAP_EA</fullName>
+                    <default>false</default>
+                    <label>Each</label>
+                </value>
+                <value>
+                    <fullName>SAP_BX</fullName>
+                    <default>false</default>
+                    <label>Box</label>
+                </value>
+                <value>
+                    <fullName>SAP_PF</fullName>
+                    <default>false</default>
+                    <label>Pallet</label>
+                </value>
+                <value>
+                    <fullName>SAP_GRM</fullName>
+                    <default>false</default>
+                    <label>Gram</label>
+                </value>
+                <value>
+                    <fullName>SAP_KGM</fullName>
+                    <default>false</default>
+                    <label>Kilogram</label>
+                </value>
+                <value>
+                    <fullName>SAP_LTR</fullName>
+                    <default>false</default>
+                    <label>Liter</label>
+                </value>
+                <value>
+                    <fullName>SAP_PCE</fullName>
+                    <default>false</default>
+                    <label>Piece</label>
+                </value>
+                <value>
+                    <fullName>SAP_LZ</fullName>
+                    <default>false</default>
+                    <label>LAY120*80</label>
+                </value>
+                <value>
+                    <fullName>SAP_LY</fullName>
+                    <default>false</default>
+                    <label>LAY120*100</label>
+                </value>
+                <value>
+                    <fullName>SAP_PY1</fullName>
+                    <default>false</default>
+                    <label>HAP120*100</label>
+                </value>
+                <value>
+                    <fullName>SAP_PY2</fullName>
+                    <default>false</default>
+                    <label>FUP120*100</label>
+                </value>
+                <value>
+                    <fullName>SAP_ZQH</fullName>
+                    <default>false</default>
+                    <label>Quarter of Hour</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__BenefitQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The incentive benefit quantity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The incentive benefit quantity</inlineHelpText>
+        <label>Benefit Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__Bucket__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The bucket for grouping adjustments</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The bucket for grouping adjustments</inlineHelpText>
+        <label>Bucket</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bucket 1</fullName>
+                    <default>false</default>
+                    <label>Discount GSV</label>
+                </value>
+                <value>
+                    <fullName>Bucket 2</fullName>
+                    <default>false</default>
+                    <label>Inflation</label>
+                </value>
+                <value>
+                    <fullName>Bucket 3</fullName>
+                    <default>false</default>
+                    <label>PPR</label>
+                </value>
+                <value>
+                    <fullName>Bucket 4</fullName>
+                    <default>false</default>
+                    <label>TPR</label>
+                </value>
+                <value>
+                    <fullName>Bucket 5</fullName>
+                    <default>false</default>
+                    <label>BMC/BDF/EFF</label>
+                </value>
+                <value>
+                    <fullName>Bucket 6</fullName>
+                    <default>false</default>
+                    <label>YOCI/YOFT</label>
+                </value>
+                <value>
+                    <fullName>Bucket 7</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Bucket 7</label>
+                </value>
+                <value>
+                    <fullName>Bucket 8</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Bucket 8</label>
+                </value>
+                <value>
+                    <fullName>Bucket 9</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Bucket 9</label>
+                </value>
+                <value>
+                    <fullName>Inflation</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Inflation</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__CouponCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The incentive coupon code</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The incentive coupon code</inlineHelpText>
+        <label>Coupon Code</label>
+        <length>6</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__IncentiveAdjustmentAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The incentive benefit amount</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The incentive benefit amount</inlineHelpText>
+        <label>Incentive Adjustment Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__IncentiveCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The incentive code available to customers to identify the incentive</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The incentive code available to customers to identify the incentive</inlineHelpText>
+        <label>Incentive Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__IncentiveId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated incentive</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated incentive</inlineHelpText>
+        <label>Incentive</label>
+        <referenceTo>Apttus_Config2__Incentive__c</referenceTo>
+        <relationshipLabel>Agreement Adjustment Line Items</relationshipLabel>
+        <relationshipName>AgreementAdjustmentLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__IsModifiable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the adjustment is modifiable</description>
+        <externalId>false</externalId>
+        <label>Is Modifiable</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__LineItemId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the associated agreement line item</description>
+        <externalId>false</externalId>
+        <label>Line Item</label>
+        <referenceTo>Apttus__AgreementLineItem__c</referenceTo>
+        <relationshipLabel>Adjustment Line Items</relationshipLabel>
+        <relationshipName>AdjustmentLineItems</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__LineNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The line number</description>
+        <externalId>false</externalId>
+        <label>Line Number</label>
+        <precision>5</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__LineType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The line type</description>
+        <externalId>false</externalId>
+        <label>Line Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Manual</fullName>
+                    <default>true</default>
+                    <label>Manual</label>
+                </value>
+                <value>
+                    <fullName>Auto</fullName>
+                    <default>false</default>
+                    <label>Auto</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__PriceRuleEntryId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the adjustment rule entry</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the adjustment rule Entry</inlineHelpText>
+        <label>Price Rule Entry</label>
+        <referenceTo>Apttus_Config2__PriceRuleEntry__c</referenceTo>
+        <relationshipLabel>Agreement Adjustment Line Items</relationshipLabel>
+        <relationshipName>AgreementAdjustmentLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__PriceRuleId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the adjustment rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the adjustment rule</inlineHelpText>
+        <label>Price Rule</label>
+        <referenceTo>Apttus_Config2__PriceRule__c</referenceTo>
+        <relationshipLabel>Agreement Adjustment Line Items</relationshipLabel>
+        <relationshipName>AgreementAdjustmentLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__RunningTotalAdjustedPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The adjusted price running total after applying the adjustment</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The adjusted price running total after applying the adjustment</inlineHelpText>
+        <label>Running Total (Adjusted Price)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__SubType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The user defined sub type</description>
+        <externalId>false</externalId>
+        <label>Sub Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ZP06</fullName>
+                    <default>false</default>
+                    <label>Permanent Discount</label>
+                </value>
+                <value>
+                    <fullName>ZP07</fullName>
+                    <default>false</default>
+                    <label>Additional Permanent Discount</label>
+                </value>
+                <value>
+                    <fullName>ZP04</fullName>
+                    <default>false</default>
+                    <label>Temporary Discount (Manual)</label>
+                </value>
+                <value>
+                    <fullName>ZP08</fullName>
+                    <default>false</default>
+                    <label>Promotional Discount</label>
+                </value>
+                <value>
+                    <fullName>ZP10</fullName>
+                    <default>false</default>
+                    <label>Promotional Discount (Coupons)</label>
+                </value>
+                <value>
+                    <fullName>ZX10</fullName>
+                    <default>false</default>
+                    <label>Free Of Charge (100% Discount)</label>
+                </value>
+                <value>
+                    <fullName>ZP15</fullName>
+                    <default>false</default>
+                    <label>Brand Marketing Campaign (Budget)</label>
+                </value>
+                <value>
+                    <fullName>ZP11</fullName>
+                    <default>false</default>
+                    <label>Business Development Funds (YER)</label>
+                </value>
+                <value>
+                    <fullName>ZP13</fullName>
+                    <default>false</default>
+                    <label>Business Development Funds (PPR)</label>
+                </value>
+                <value>
+                    <fullName>ZP12</fullName>
+                    <default>false</default>
+                    <label>Efficiency Discount</label>
+                </value>
+                <value>
+                    <fullName>YOCI</fullName>
+                    <default>false</default>
+                    <label>Consignment Ingredients</label>
+                </value>
+                <value>
+                    <fullName>YOFT</fullName>
+                    <default>false</default>
+                    <label>Fixed term</label>
+                </value>
+                <value>
+                    <fullName>ZP03</fullName>
+                    <default>false</default>
+                    <label>Discount Surcharge GSV</label>
+                </value>
+                <value>
+                    <fullName>ZP02</fullName>
+                    <default>false</default>
+                    <label>Inflation correction</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The user defined type</description>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>PPR</fullName>
+                    <default>true</default>
+                    <label>Permanent Discount</label>
+                </value>
+                <value>
+                    <fullName>TPR</fullName>
+                    <default>false</default>
+                    <label>Temporary Discount</label>
+                </value>
+                <value>
+                    <fullName>YOCI</fullName>
+                    <default>false</default>
+                    <label>Consignment</label>
+                </value>
+                <value>
+                    <fullName>YOFT</fullName>
+                    <default>false</default>
+                    <label>Fixed Term</label>
+                </value>
+                <value>
+                    <fullName>GSV</fullName>
+                    <default>false</default>
+                    <label>Discount Surcharge GSV</label>
+                </value>
+                <value>
+                    <fullName>BMC</fullName>
+                    <default>false</default>
+                    <label>Budget/Development/Efficiency</label>
+                </value>
+                <value>
+                    <fullName>Inflation</fullName>
+                    <default>false</default>
+                    <label>Inflation</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Agreement Adjustment Line Item</label>
+    <nameField>
+        <displayFormat>AD-{0000000000}</displayFormat>
+        <label>Adjustment Id</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Agreement Adjustment Line Items</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

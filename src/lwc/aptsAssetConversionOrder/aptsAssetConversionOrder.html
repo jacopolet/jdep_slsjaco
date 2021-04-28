@@ -1,0 +1,88 @@
+<!--
+**********************************************************************
+Name: aptsAssetConversionOrder
+Date: 06 July 2020
+Author: Sai Sagar
+Change Verison History:
+**********************************************************************
+--> 
+<template>
+    <div>
+        <lightning-layout>
+            <!-- <lightning-layout-item flexibility="auto" padding="around-small" >
+                <template if:true={hasDefaultValue}>
+                    <lightning-vertical-navigation selected-item={selectedItem} onselect={handleSelect} class="navigation">
+                        <lightning-vertical-navigation-section label="Actions">
+                            <template for:each={selectedActions} for:item="item">
+                                <lightning-vertical-navigation-item key={item} label={item} name={item}></lightning-vertical-navigation-item>
+                            </template>
+                        </lightning-vertical-navigation-section>
+                        <lightning-vertical-navigation-section label="Status">
+                            <lightning-vertical-navigation-item label="Status" name="Status"></lightning-vertical-navigation-item>
+                        </lightning-vertical-navigation-section>
+                    </lightning-vertical-navigation>
+                </template>
+            </lightning-layout-item> -->
+            <template if:true={hasDefaultValue}> 
+            <lightning-layout-item flexibility="auto" padding="around-small" >
+                <div class="slds-align_absolute-center"><h2  class="slds-text-heading_medium slds-hyphenate"><b>{currentContent}</b></h2>
+                </div>
+                <p style='padding-left : 10px'> Bundle Details:</p>
+                <div if:true={showCaseRemarks}>
+                    <lightning-layout vertical-align="center">
+                        <lightning-layout-item padding="horizontal-medium">
+                            <lightning-input type="text" label="Invoice Remark" onchange={handleInvRemark} ></lightning-input>
+                        </lightning-layout-item>
+                        <lightning-layout-item padding="around-small"  >                
+                            <c-apts-lwc-custom-lookup object-name="Case" lookup-label ="Case" icon-name="standard:event" extra-filters={casefilter} oncustomrecordselected={handleSelected} onremoveselected={handleSelected}></c-apts-lwc-custom-lookup>              
+                        </lightning-layout-item>
+                        <template if:true={showCreditCheck}>
+                            <lightning-layout-item padding="horizontal-medium" style="width: 25%;">
+                                <lightning-input type="checkbox" label="Credit Proposal (XC09 Block)" 
+                                onchange={handleCreditBlock} checked={credit}></lightning-input>
+                            </lightning-layout-item>
+                        </template>
+                    </lightning-layout>
+                </div>
+                <!--<template if:true={showCaseRemarks}>
+                    <lightning-layout vertical-align="center">
+                        <lightning-layout-item padding="horizontal-medium">
+                            <lightning-input type="text" label="Invoice Remark" ></lightning-input>
+                        </lightning-layout-item>
+                    </lightning-layout>
+                </template>
+                <template if:true={showCreditCheck}>
+                    <lightning-layout vertical-align="center">
+                        <lightning-layout-item padding="horizontal-medium">
+                            <lightning-input type="checkbox" label="Credit Proposal (XC09 Block)" 
+                            onchange={handleCreditBlock} checked={credit}></lightning-input>
+                        </lightning-layout-item>
+                    </lightning-layout>
+                </template>-->
+                <template if:true={discountsEnabled}>
+                    <c-apts-modify-discounts record-id={selectedAssetId} ></c-apts-modify-discounts>
+                </template>
+                <template if:true={billSettingsEnabled}>
+                    <c-apts-billing-settings asset-id={selectedAssetId}></c-apts-billing-settings>
+                </template>
+                <template if:true={Termination}>
+                    <c-apts-termination record-id={selectedAssetId}></c-apts-termination>
+                </template>
+                <template if:true={Renewal}>
+                    <c-apts-renewal record-id={selectedAssetId}></c-apts-renewal>
+                </template>
+                <template if:true={Status}>
+                    <c-apts-Status record-id={selectedAssetId}></c-apts-Status>
+                </template>
+                <template if:true={modifyOptions}>
+                    <c-apts-modify-options bundle-asset-id={selectedAssetId}></c-apts-modify-options>
+                </template> 
+                <template if:true={contractChange}>
+                    <c-apts-contract-change bundle-asset-id={selectedAssetId}></c-apts-contract-change> 
+                </template>
+                <!--<c-apts-installed-assets record-id={selectedAccountId}></c-apts-installed-assets>-->
+            </lightning-layout-item>
+        </template>
+        </lightning-layout>
+    </div>
+</template>

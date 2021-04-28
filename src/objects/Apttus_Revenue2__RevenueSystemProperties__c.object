@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Revenue System properties. The record should be named as &quot;System Properties&quot;.</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Apttus_Revenue2__AgreementFilterCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the custom class that implements the _ Agreement Filter Callback_ interface.</description>
+        <externalId>false</externalId>
+        <label>Agreement Filter Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__BatchChainingLimit__c</fullName>
+        <defaultValue>1</defaultValue>
+        <deprecated>false</deprecated>
+        <description>A System Setting to control the Number of chained  Batch Jobs. Default value is 1.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A System Setting to control the Number of chained  Batch Jobs. Default value is 1.</inlineHelpText>
+        <label>Batch Chaining Limit</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__BatchJobSize__c</fullName>
+        <defaultValue>1</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The number of Agreements to process in a given batch for the various Revenue Recognition batch jobs. Package will enforce maximum of size of 500</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of Agreements to process in a given batch.</inlineHelpText>
+        <label>Batch Job Size</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__DefaultScale__c</fullName>
+        <defaultValue>4</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The number of decimal places for computed revenue.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of decimal places for computed revenue.</inlineHelpText>
+        <label>Default Scale</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__DisableTriggers__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether managed triggers are disabled. The application would not work correctly when triggers are turned off.
+*** PLEASE USE THIS ONLY IN SPECIAL DATA LOAD SITUATIONS LIKE DATA MIGRATION ***</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether managed triggers are disabled. The application would not work correctly when triggers are turned off.
+*** PLEASE USE THIS ONLY IN SPECIAL DATA LOAD SITUATIONS LIKE DATA MIGRATION ***</inlineHelpText>
+        <label>Disable Triggers</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__EnableASC606__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Control which Revenue Recognition standard to apply (ASC-605 or ASC-606).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Control which Revenue Recognition standard to apply (ASC-605 or ASC-606)</inlineHelpText>
+        <label>Enable ASC-606</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__EnableEmailNotification__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This flag will determine whether or not an Email should be sent to the User upon completion of the various Revenue Management Batch Jobs.</description>
+        <externalId>false</externalId>
+        <label>Enable Email Notification</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__FeeAdjustmentCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The fee adjustment callback class name. The class should implement the CustomClass.IFeeAdjustmentCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The fee adjustment callback class name. The class should implement the CustomClass.IFeeAdjustmentCallback interface.</inlineHelpText>
+        <label>Fee Adjustment Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__ForecastBatchJobSize__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Describe the Maximum number of records that can be process in a single Batch.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Maximum number of records that can be process in a single Batch.</inlineHelpText>
+        <label>Forecast Batch Job Size</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__IgnoreLeapYearForRevenueRecognition__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether leap year should be ignored for revenue recognition</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether leap year should be ignored for revenue recognition</inlineHelpText>
+        <label>Ignore Leap Year For Revenue Recognition</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__InstanceUrl__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Salesforce instance url</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The url of your Salesforce instance. The instance url will be used to create an absolute url for your custom pages.</inlineHelpText>
+        <label>Instance Url</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__MaxBatchIteratorSize__c</fullName>
+        <defaultValue>10000</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The maximum batch records to process in a single iteration</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The maximum batch records to process in a single iteration</inlineHelpText>
+        <label>Max Batch Iterator Size</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__ProcessRevenueForClosedPeriods__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether revenue would be recognized for fees in closed periods. This is to support business transactions backdated under a variety of circumstances.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether revenue would be recognized for fees in closed periods. This is to support business transactions backdated under a variety of circumstances.</inlineHelpText>
+        <label>Process Revenue For Closed Periods</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__RevenueRecordTypes__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the list of revenue record types. Each record type should be separated by a new line.</description>
+        <externalId>false</externalId>
+        <label>Revenue Record Types</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__RevenueTermMatchWithCPQ__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This setting allows RevRec term calculation to match with CPQ</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This setting allows RevRec term calculation to match with CPQ</inlineHelpText>
+        <label>Revenue Term Match With CPQ</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__RevenueTermRoundingMode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rounding mode for computing the revenue term. valid values are UP, DOWN, HALF_UP, HALF_DOWN</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The rounding mode for computing the revenue term. valid values are UP, DOWN, HALF_UP, HALF_DOWN</inlineHelpText>
+        <label>Revenue Term Rounding Mode</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__RoundingMethod__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rounding method for computing the revenue term. valid values are SPREAD_DEFERRED_BALANCE, APPLY_FIRST, APPLY_LAST, APPLY_FIRST_MONTHS, APPLY_LAST_MONTHS</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The rounding method for computing the revenue term. valid values are SPREAD_DEFERRED_BALANCE, APPLY_FIRST, APPLY_LAST, APPLY_FIRST_MONTHS, APPLY_LAST_MONTHS</inlineHelpText>
+        <label>Revenue Term Rounding Method</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Revenue System Properties</label>
+    <visibility>Public</visibility>
+</CustomObject>

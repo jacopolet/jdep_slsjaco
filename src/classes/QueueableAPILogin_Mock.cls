@@ -1,0 +1,21 @@
+/**
+* @author        Rey Austral
+* @date          5.31.2017           
+* @description   Mock Callout for QueueableAPILogin
+* @revision(s)
+*/
+@isTest
+global class QueueableAPILogin_Mock implements HttpCalloutMock {
+    public String body = '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:enterprise.soap.sforce.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> <soapenv:Body> <loginResponse> <result> <metadataServerUrl>https://na15.salesforce.com/services/Soap/m/29.0/00Di0000000icUB</metadataServerUrl> <passwordExpired>false</passwordExpired> <sandbox>false</sandbox> <serverUrl>https://na15.salesforce.com/services/Soap/c/29.0/00Di0000000icUB/0DFi00000008UYO</serverUrl> <sessionId>00Di0000000icUB!ASAAQF0stgINehCxOnHPGuLI4TMVx.jP8rEkLY5axmf0XWLfj0WFsmXhfXoFFgJ2gw1b2DImwyzSFPgB2wuIwNtG94ytkpoh</sessionId> <userId>005i0000002MUqLAAW</userId> <userInfo> <accessibilityMode>false</accessibilityMode> <currencySymbol>$</currencySymbol> <orgAttachmentFileSizeLimit>5242880</orgAttachmentFileSizeLimit> <orgDefaultCurrencyIsoCode>USD</orgDefaultCurrencyIsoCode> <orgDisallowHtmlAttachments>false</orgDisallowHtmlAttachments> <orgHasPersonAccounts>false</orgHasPersonAccounts> <organizationId>00Di0000000icUBEAY</organizationId> <organizationMultiCurrency>false</organizationMultiCurrency> <organizationName>salesforce.com</organizationName> <profileId>00ei0000001CMKcAAO</profileId> <roleId xsi:nil="true" /> <sessionSecondsValid>7200</sessionSecondsValid> <userDefaultCurrencyIsoCode xsi:nil="true" /> <userEmail>you@yourdomain.com</userEmail> <userFullName>Wade Wegner</userFullName> <userId>005i0000002MUqLAAW</userId> <userLanguage>en_US</userLanguage> <userLocale>en_US</userLocale> <userName>you@yourdomain.com</userName> <userTimeZone>America/Los_Angeles</userTimeZone> <userType>Standard</userType> <userUiSkin>Theme3</userUiSkin> </userInfo> </result> </loginResponse> </soapenv:Body> </soapenv:Envelope>';        
+    public integer callstatus = 200;
+    // Implement this interface method
+    global HTTPResponse respond(HTTPRequest request) {
+        // Create a fake response
+        HttpResponse response = new HttpResponse();
+        response.setHeader('Content-Type', 'text/xml;charset=UTF-8');
+        //response.setBody('<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:enterprise.soap.sforce.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> <soapenv:Body> <loginResponse> <result> <metadataServerUrl>https://na15.salesforce.com/services/Soap/m/29.0/00Di0000000icUB</metadataServerUrl> <passwordExpired>false</passwordExpired> <sandbox>false</sandbox> <serverUrl>https://na15.salesforce.com/services/Soap/c/29.0/00Di0000000icUB/0DFi00000008UYO</serverUrl> <sessionId>00Di0000000icUB!ASAAQF0stgINehCxOnHPGuLI4TMVx.jP8rEkLY5axmf0XWLfj0WFsmXhfXoFFgJ2gw1b2DImwyzSFPgB2wuIwNtG94ytkpoh</sessionId> <userId>005i0000002MUqLAAW</userId> <userInfo> <accessibilityMode>false</accessibilityMode> <currencySymbol>$</currencySymbol> <orgAttachmentFileSizeLimit>5242880</orgAttachmentFileSizeLimit> <orgDefaultCurrencyIsoCode>USD</orgDefaultCurrencyIsoCode> <orgDisallowHtmlAttachments>false</orgDisallowHtmlAttachments> <orgHasPersonAccounts>false</orgHasPersonAccounts> <organizationId>00Di0000000icUBEAY</organizationId> <organizationMultiCurrency>false</organizationMultiCurrency> <organizationName>salesforce.com</organizationName> <profileId>00ei0000001CMKcAAO</profileId> <roleId xsi:nil="true" /> <sessionSecondsValid>7200</sessionSecondsValid> <userDefaultCurrencyIsoCode xsi:nil="true" /> <userEmail>you@yourdomain.com</userEmail> <userFullName>Wade Wegner</userFullName> <userId>005i0000002MUqLAAW</userId> <userLanguage>en_US</userLanguage> <userLocale>en_US</userLocale> <userName>you@yourdomain.com</userName> <userTimeZone>America/Los_Angeles</userTimeZone> <userType>Standard</userType> <userUiSkin>Theme3</userUiSkin> </userInfo> </result> </loginResponse> </soapenv:Body> </soapenv:Envelope>');
+        response.setBody(body);
+        response.setStatusCode(callstatus);
+        return response; 
+    }
+}

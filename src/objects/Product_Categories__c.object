@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Coffee_Beans__c</fullName>
+        <externalId>false</externalId>
+        <label>Coffee - Beans</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Coffee_Coffee_Capsules__c</fullName>
+        <externalId>false</externalId>
+        <label>Coffee - Coffee Capsules</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Coffee_Coffee_Pads__c</fullName>
+        <externalId>false</externalId>
+        <label>Coffee - Coffee Pads</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Coffee_Filter_Coffee__c</fullName>
+        <externalId>false</externalId>
+        <label>Coffee - Filter Coffee</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Coffee_Fresh_Brew__c</fullName>
+        <externalId>false</externalId>
+        <label>Coffee - Fresh Brew</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Coffee_Ice_Coffee__c</fullName>
+        <externalId>false</externalId>
+        <label>Coffee - Ice Coffee</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Coffee_Instant__c</fullName>
+        <externalId>false</externalId>
+        <label>Coffee - Instant</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Coffee_Liquid__c</fullName>
+        <externalId>false</externalId>
+        <label>Coffee - Liquid</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Concepts_Coffee_Kitchen__c</fullName>
+        <externalId>false</externalId>
+        <label>Concepts - Coffee Kitchen</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Machines_Cabinets__c</fullName>
+        <externalId>false</externalId>
+        <label>Machines - Cabinets</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Machines_Espresso__c</fullName>
+        <externalId>false</externalId>
+        <label>Machines - Espresso</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Machines_Filter__c</fullName>
+        <externalId>false</externalId>
+        <label>Machines - Filter</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Machines_Fresh_Brew__c</fullName>
+        <externalId>false</externalId>
+        <label>Machines - Fresh Brew</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Machines_Instant__c</fullName>
+        <externalId>false</externalId>
+        <label>Machines - Instant</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Machines_Liquid__c</fullName>
+        <externalId>false</externalId>
+        <label>Machines - Liquid</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Machines_Single_Serve__c</fullName>
+        <externalId>false</externalId>
+        <label>Machines - Single Serve</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>More_Accessoires__c</fullName>
+        <externalId>false</externalId>
+        <label>&amp;More - Accessoires</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>More_Chocolate__c</fullName>
+        <externalId>false</externalId>
+        <label>&amp;More - Chocolate</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>More_Cups__c</fullName>
+        <externalId>false</externalId>
+        <label>&amp;More - Cups</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>More_Glasses_Porcelain__c</fullName>
+        <externalId>false</externalId>
+        <label>&amp;More - Glasses &amp; Porcelain</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>More_Milk__c</fullName>
+        <externalId>false</externalId>
+        <label>&amp;More - Milk</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>More_Sugar__c</fullName>
+        <externalId>false</externalId>
+        <label>&amp;More - Sugar</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>More_Tea_display__c</fullName>
+        <externalId>false</externalId>
+        <label>&amp;More - Tea display</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Services_Additional_Services__c</fullName>
+        <externalId>false</externalId>
+        <label>Services - Additional Services</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Services_Value_added_service_on_demand__c</fullName>
+        <externalId>false</externalId>
+        <label>Services - Value added service on demand</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Services_Yearly_value_added_services__c</fullName>
+        <externalId>false</externalId>
+        <label>Services - Yearly value added services</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tea_Other_Tea_Brands__c</fullName>
+        <externalId>false</externalId>
+        <label>Tea - Other Tea Brands</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tea_Pickwick_Machine_Tea__c</fullName>
+        <externalId>false</externalId>
+        <label>Tea - Pickwick Machine Tea</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tea_Pickwick_Other__c</fullName>
+        <externalId>false</externalId>
+        <label>Tea - Pickwick Other</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tea_Pickwick_Professional__c</fullName>
+        <externalId>false</externalId>
+        <label>Tea - Pickwick Professional</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tea_Pickwick_Slow_Tea__c</fullName>
+        <externalId>false</externalId>
+        <label>Tea - Pickwick Slow Tea</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tea_Pickwick_Tea_Master_Selection__c</fullName>
+        <externalId>false</externalId>
+        <label>Tea - Pickwick Tea Master Selection</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tea_Pickwick_Volume_Pack__c</fullName>
+        <externalId>false</externalId>
+        <label>Tea - Pickwick Volume Pack</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Product Categories</label>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Configuration settings for option selection pages. The record should be named as &quot;Primary Settings&quot;.</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Apttus_Config2__BundleDescriptionField__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Field name from Product object is displayed as bundle description.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>API name of a field from product object to be displayed as bundle description.</inlineHelpText>
+        <label>Bundle Description Field</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableOptionPageSearch__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether to allow option search in bundle configuration page</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether to allow option search in bundle configuration page</inlineHelpText>
+        <label>Enable Option Page Search</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideDisabledOptions__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Whether to hide options that have been disabled by exclusion rules.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked, options which have been disabled by exclusion rules will not appear in the list of availbe options.</inlineHelpText>
+        <label>Hide Disabled Options</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HidePriceColumn__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Whether to hide the price information column from the options list.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please be careful in hiding this critical information.</inlineHelpText>
+        <label>Hide Price Column</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideValidateButton__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Hide validate button in select bundle options page</description>
+        <externalId>false</externalId>
+        <label>Hide Validate Button(D)</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ListedOptionsColumn2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>API name of the product field to be displayed in the listed options section.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>API name of the product field to be displayed in the listed options section. A valid value could be like ProductCode.</inlineHelpText>
+        <label>Listed Options Column 2</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ListedOptionsColumn3__c</fullName>
+        <deprecated>false</deprecated>
+        <description>API name of the product field to be displayed in the listed options section.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>API name of the product field to be displayed in the listed options section. A valid value could be like ProductCode.</inlineHelpText>
+        <label>Listed Options Column 3</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MainSectionRatio__c</fullName>
+        <defaultValue>&quot;0:70:30&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The ratio of main sections separated by colon. The default value is 0:70:30.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The ratio of main sections separated by colon. The default value is 0:70:30.</inlineHelpText>
+        <label>Main Section Ratio</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MaxInlineOptionAttributes__c</fullName>
+        <defaultValue>3</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Setting for the max number of inline option attributes displayed. The default is 3.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Setting for the max number of inline option attributes displayed. The default is 3.</inlineHelpText>
+        <label>Max Inline Option Attributes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__OptionFieldInSummary__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Option field to be displayed on right hand side of configuration page</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Field to be displayed from Option Line Item. Only text fields are supported.</inlineHelpText>
+        <label>Option Field In Summary</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ShowBundleDetail__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked bundle price and quantity fields are displayed in options pages</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check to show bundle price and quantity in options pages</inlineHelpText>
+        <label>Show Bundle Detail</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ShowOptionQuantity__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Show the option quantity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Show the option quantity</inlineHelpText>
+        <label>Show Option Quantity</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Config Select Options Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

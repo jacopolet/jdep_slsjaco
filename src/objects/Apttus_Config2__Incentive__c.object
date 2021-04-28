@@ -1,0 +1,2619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>Apttus_Config2__IncentiveNgApp</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>v2_Incentive_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>v2_Incentive_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Apttus_Config2__IncentiveCode__c</fields>
+        <label>v2 Incentive Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents an incentive associated with one or more products</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fieldSets>
+        <fullName>APTS_Custom_Promotions_Fields</fullName>
+        <description>This is used to customize visible fields under &quot;JDE Promotions&quot; page on cart</description>
+        <displayedFields>
+            <field>Apttus_Config2__IncentiveCode__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__ExpirationDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Custom Promotions Display Fields</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Apttus_Config2__AddRebatesToAgreementColumns</fullName>
+        <description>AddRebatesToAgreement page</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__IncentiveCode__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__UseType__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__EffectiveDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__ExpirationDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__Active__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__AutoApply__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__IncentiveGroupId__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Add Rebates To Agreement Columns</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Apttus_Config2__InformationSectionFields</fullName>
+        <availableFields>
+            <field>Apttus_Config2__AutoApply__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Config2__IncentiveGroupId__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Config2__IncentiveNumber__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Config2__IsBundle__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>OwnerId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Config2__Sequence__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Config2__Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Config2__StopProcessingMoreIncentives__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>SystemModstamp</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Config2__VersionNumber__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>Incentive Manager page information section</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__ApplicationMethod__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__IncentiveCode__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__EffectiveDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__ExpirationDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__ContextType__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__UseType__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__Active__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>APTS_ManualRebateCalculation__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_CMConfig__PayoutFrequency__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>APTS_Concept__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__IncludeOrdersForAccountHierarchy__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__ExcludeChildrenWithActivePrograms__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Information Section Fields</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Apttus_Config2__InformationSectionLoyaltyFields</fullName>
+        <description>Incentive Manager page information section for use type of loyalty</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__EffectiveDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__ExpirationDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__CycleStartDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__CycleEndDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__StopProcessingMoreIncentives__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__IncentiveCode__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__Downgrade__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__Upgrade__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__PointAccrualLevel__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__IncentiveGroupId__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__Sequence__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__RecurrenceFrequency__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__AutoApply__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__Active__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Information Section Loyalty Fields</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Apttus_Config2__InformationSectionPointAccrualFields</fullName>
+        <description>Information screen for Incentives of type loyalty with sub-type &quot;Point Accrual&quot;</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__ApplicationMethod__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__AutoApply__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__EffectiveDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__ExpirationDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__StopProcessingMoreIncentives__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__Active__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__LoyaltyId__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Information Section Point Accrual Fields</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Apttus_Config2__PromotionCustomFields</fullName>
+        <description>Used in the promotion header section for storing additional information defined by users.</description>
+        <displayedFields>
+            <field>APTS_Concept__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>APTS_Customer_Concept__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>APTS_ManualRebateCalculation__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>APTS_Volume_Per_Machine__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>APTS_Calculate_Rebate_On__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>APTS_SelloutDataProvidedBy__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>APTS_Payout_Method__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>APTS_FixedAmountAccrual__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>APTS_Fixed_Amount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Promotion Custom Fields</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Apttus_Config2__ScopeSectionFields</fullName>
+        <description>Fields presented on the scope section of incentive manager</description>
+        <displayedFields>
+            <field>Apttus_Config2__AccountTypeScope__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__PriceListScope__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__ProductFamilyScope__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__ProductScope__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__RegionScope__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__CountryScope__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__AccountScope__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Config2__ProductGroupScope__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Scope Section Fields</label>
+    </fieldSets>
+    <fields>
+        <fullName>APTS_Calculate_Rebate_On__c</fullName>
+        <externalId>false</externalId>
+        <label>Calculate Rebate On</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>JDE Invoice</fullName>
+                    <default>true</default>
+                    <label>JDE Invoice</label>
+                </value>
+                <value>
+                    <fullName>JDE Invoice and Sellout Data</fullName>
+                    <default>false</default>
+                    <label>JDE Invoice and Sellout Data</label>
+                </value>
+                <value>
+                    <fullName>Sellout Data</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Sellout Data</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Concept__c</fullName>
+        <description>Used for classification of the rebate program.</description>
+        <externalId>false</externalId>
+        <label>Concept</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SAP_1</fullName>
+                    <default>false</default>
+                    <label>TPR</label>
+                </value>
+                <value>
+                    <fullName>SAP_2</fullName>
+                    <default>false</default>
+                    <label>Price Restitution (PPR)</label>
+                </value>
+                <value>
+                    <fullName>SAP_3</fullName>
+                    <default>false</default>
+                    <label>Logistics (Efficiency)</label>
+                </value>
+                <value>
+                    <fullName>SAP_4</fullName>
+                    <default>false</default>
+                    <label>ECR (Efficiency)</label>
+                </value>
+                <value>
+                    <fullName>SAP_5</fullName>
+                    <default>false</default>
+                    <label>Terms of Payment (Efficiency)</label>
+                </value>
+                <value>
+                    <fullName>SAP_6</fullName>
+                    <default>false</default>
+                    <label>Cost to avoid return (Efficiency)</label>
+                </value>
+                <value>
+                    <fullName>SAP_7</fullName>
+                    <default>false</default>
+                    <label>Folders/Adds (BMC)</label>
+                </value>
+                <value>
+                    <fullName>SAP_8</fullName>
+                    <default>false</default>
+                    <label>Placement (BMC)</label>
+                </value>
+                <value>
+                    <fullName>SAP_9</fullName>
+                    <default>true</default>
+                    <label>Year-end Rebate (BDF I)</label>
+                </value>
+                <value>
+                    <fullName>SAP_10</fullName>
+                    <default>false</default>
+                    <label>Euro Bonus (BDF I)</label>
+                </value>
+                <value>
+                    <fullName>SAP_11</fullName>
+                    <default>false</default>
+                    <label>Headquarters (BDF I)</label>
+                </value>
+                <value>
+                    <fullName>SAP_12</fullName>
+                    <default>false</default>
+                    <label>Growth Bonus (BDF I)</label>
+                </value>
+                <value>
+                    <fullName>SAP_14</fullName>
+                    <default>false</default>
+                    <label>Stores (BDF II)</label>
+                </value>
+                <value>
+                    <fullName>SAP_15</fullName>
+                    <default>false</default>
+                    <label>Special Occasions (BDF II)</label>
+                </value>
+                <value>
+                    <fullName>SAP_16</fullName>
+                    <default>false</default>
+                    <label>Merchandising (BDF II)</label>
+                </value>
+                <value>
+                    <fullName>SAP_17</fullName>
+                    <default>false</default>
+                    <label>Assortment (BDF II)</label>
+                </value>
+                <value>
+                    <fullName>SAP_18</fullName>
+                    <default>false</default>
+                    <label>Redistribution (BDF II)</label>
+                </value>
+                <value>
+                    <fullName>SAP_19</fullName>
+                    <default>false</default>
+                    <label>Once off price equalization (Bonuses)</label>
+                </value>
+                <value>
+                    <fullName>SAP_20</fullName>
+                    <default>false</default>
+                    <label>Once off listing fees (Bonuses)</label>
+                </value>
+                <value>
+                    <fullName>SAP_21</fullName>
+                    <default>false</default>
+                    <label>Recurring Listing Fees</label>
+                </value>
+                <value>
+                    <fullName>SAP_22</fullName>
+                    <default>false</default>
+                    <label>Price off Coupons (TPR)</label>
+                </value>
+                <value>
+                    <fullName>SAP_23</fullName>
+                    <default>false</default>
+                    <label>Loyalty Cards (TPR)</label>
+                </value>
+                <value>
+                    <fullName>SAP_24</fullName>
+                    <default>false</default>
+                    <label>Penalties - Logistics (Efficiency)</label>
+                </value>
+                <value>
+                    <fullName>SAP_25</fullName>
+                    <default>false</default>
+                    <label>Penalties - ECR (Efficiency)</label>
+                </value>
+                <value>
+                    <fullName>SAP_26</fullName>
+                    <default>false</default>
+                    <label>Penalties - Terms of Payment (Efficiency)</label>
+                </value>
+                <value>
+                    <fullName>SAP_27</fullName>
+                    <default>false</default>
+                    <label>Penalties - Cost to avoid return (Efficiency)</label>
+                </value>
+                <value>
+                    <fullName>SAP_28</fullName>
+                    <default>false</default>
+                    <label>Others Trade Promotion (below NSV - Not in TAS)</label>
+                </value>
+                <value>
+                    <fullName>SAP_29</fullName>
+                    <default>false</default>
+                    <label>Consumer Advertising via Trade (BMC - Not in TAS)</label>
+                </value>
+                <value>
+                    <fullName>SAP_30</fullName>
+                    <default>false</default>
+                    <label>Commission Sales Force</label>
+                </value>
+                <value>
+                    <fullName>SAP_31</fullName>
+                    <default>false</default>
+                    <label>Commission Services</label>
+                </value>
+                <value>
+                    <fullName>SAP_32</fullName>
+                    <default>false</default>
+                    <label>Commissions</label>
+                </value>
+                <value>
+                    <fullName>SAP_33</fullName>
+                    <default>false</default>
+                    <label>Commission Services OOH</label>
+                </value>
+                <value>
+                    <fullName>SAP_34</fullName>
+                    <default>false</default>
+                    <label>Trade commissions (BDF I)</label>
+                </value>
+                <value>
+                    <fullName>SAP_35</fullName>
+                    <default>false</default>
+                    <label>Shelf (BDF II)</label>
+                </value>
+                <value>
+                    <fullName>SAP_36</fullName>
+                    <default>false</default>
+                    <label>TPR additional</label>
+                </value>
+                <value>
+                    <fullName>SAP_37</fullName>
+                    <default>false</default>
+                    <label>Brand Market. Coop. (BMC)</label>
+                </value>
+                <value>
+                    <fullName>SAP_38</fullName>
+                    <default>false</default>
+                    <label>Business development FUND (BDF)</label>
+                </value>
+                <value>
+                    <fullName>SAP_39</fullName>
+                    <default>false</default>
+                    <label>Permanent Price Reductions</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Customer_Concept__c</fullName>
+        <description>A free form text field on the incentive header record. It contains the customer understandable narrative of the concept.</description>
+        <externalId>false</externalId>
+        <label>Customer Concept</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_FixedAmountAccrual__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Indicates to TAS that the rebate is a fixed
+amount deal. Rebates using sellout data as input is always
+a fixed amount deal.</description>
+        <externalId>false</externalId>
+        <label>Fixed Amount Accrual</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Fixed_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Fixed Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>APTS_ManualRebateCalculation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Manual Rebate Calculation</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Payout_Method__c</fullName>
+        <description>How the calculated rebate amount should be paid out to customer.</description>
+        <externalId>false</externalId>
+        <label>Payout Method</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SAP_01</fullName>
+                    <default>true</default>
+                    <label>Credit Note</label>
+                </value>
+                <value>
+                    <fullName>SAP_02</fullName>
+                    <default>false</default>
+                    <label>Vendor Invoice</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_SelloutDataProvidedBy__c</fullName>
+        <externalId>false</externalId>
+        <label>Sellout Data Provided By</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Customer</fullName>
+                    <default>false</default>
+                    <label>Customer</label>
+                </value>
+                <value>
+                    <fullName>Trade Partner</fullName>
+                    <default>false</default>
+                    <label>Trade Partner</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Sent_To_TAS__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>To indicate whether the invoice details are sent to TAS.</description>
+        <externalId>false</externalId>
+        <label>Sent To TAS?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Volume_Per_Machine__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Indicate whether the volumes specified on
+the rebate definition is total volume for the
+customer or average volume per machine.</description>
+        <externalId>false</externalId>
+        <label>Volume Per Machine</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__AgreementId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated agreement</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated agreement</inlineHelpText>
+        <label>Agreement</label>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipLabel>Incentives</relationshipLabel>
+        <relationshipName>Incentives</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__PayoutFrequency__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The incentive payout frequency</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The incentive payout frequency</inlineHelpText>
+        <label>Payout Frequency</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Monthly</fullName>
+                    <default>false</default>
+                    <label>Monthly</label>
+                </value>
+                <value>
+                    <fullName>Quarterly</fullName>
+                    <default>false</default>
+                    <label>Quarterly</label>
+                </value>
+                <value>
+                    <fullName>Half Yearly</fullName>
+                    <default>false</default>
+                    <label>Half Yearly</label>
+                </value>
+                <value>
+                    <fullName>Yearly</fullName>
+                    <default>true</default>
+                    <label>Yearly</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AccountScopeOper__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The account scope operator</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The account scope operator</inlineHelpText>
+        <label>Account Scope Oper</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>in</fullName>
+                    <default>false</default>
+                    <label>in</label>
+                </value>
+                <value>
+                    <fullName>not in</fullName>
+                    <default>false</default>
+                    <label>not in</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AccountScope__c</fullName>
+        <deprecated>false</deprecated>
+        <description>One or more accounts associated with the incentive</description>
+        <externalId>false</externalId>
+        <inlineHelpText>One or more accounts associated with the incentive</inlineHelpText>
+        <label>Account Scope</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All</fullName>
+                    <default>true</default>
+                    <label>All</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AccountTypeScopeOper__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The account type scope operator</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The account type scope operator</inlineHelpText>
+        <label>Account Type Scope Oper</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>in</fullName>
+                    <default>false</default>
+                    <label>in</label>
+                </value>
+                <value>
+                    <fullName>not in</fullName>
+                    <default>false</default>
+                    <label>not in</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AccountTypeScope__c</fullName>
+        <deprecated>false</deprecated>
+        <description>One or more account types associated with the incentive</description>
+        <externalId>false</externalId>
+        <inlineHelpText>One or more account types associated with the incentive</inlineHelpText>
+        <label>Account Type Scope</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All</fullName>
+                    <default>true</default>
+                    <label>All</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the incentive is active</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the incentive is active</inlineHelpText>
+        <label>Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AmendmentEffectiveDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date when the amendment to the incentive takes effect</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date when the amendment to the incentive takes effect</inlineHelpText>
+        <label>Amendment Effective Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AncestorId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the ancestor incentive</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the ancestor incentive</inlineHelpText>
+        <label>Ancestor</label>
+        <referenceTo>Apttus_Config2__Incentive__c</referenceTo>
+        <relationshipLabel>Incentives (Derived)</relationshipLabel>
+        <relationshipName>DerivedIncentives</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ApplicationMethod__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The incentive application method, depends on the application type.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The incentive application method, depends on the application type.</inlineHelpText>
+        <label>Application Method</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Buy X Get X</fullName>
+                    <default>true</default>
+                    <label>Buy X Get X</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AutoApply__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the incentive would be automatically applied during pricing</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the incentive would be automatically applied during pricing</inlineHelpText>
+        <label>Auto Apply ?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BenefitUom__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The benefit unit of measure for the product</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The benefit unit of measure for the product</inlineHelpText>
+        <label>Benefit Uom</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SAP_KGM</fullName>
+                    <default>true</default>
+                    <label>Kilogram</label>
+                </value>
+                <value>
+                    <fullName>SAP_LTR</fullName>
+                    <default>false</default>
+                    <label>Liter</label>
+                </value>
+                <value>
+                    <fullName>SAP_DRKS</fullName>
+                    <default>false</default>
+                    <label>Drinks</label>
+                </value>
+                <value>
+                    <fullName>SAP_PCE</fullName>
+                    <default>false</default>
+                    <label>Piece</label>
+                </value>
+                <value>
+                    <fullName>SAP_BX</fullName>
+                    <default>false</default>
+                    <label>Box</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>SAP_CS</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Case</label>
+                </value>
+                <value>
+                    <fullName>Day</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Day</label>
+                </value>
+                <value>
+                    <fullName>SAP_EA</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Each</label>
+                </value>
+                <value>
+                    <fullName>Gallon</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Gallon</label>
+                </value>
+                <value>
+                    <fullName>SAP_GRM</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Gram</label>
+                </value>
+                <value>
+                    <fullName>Hour</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Hour</label>
+                </value>
+                <value>
+                    <fullName>Month</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Month</label>
+                </value>
+                <value>
+                    <fullName>SAP_PF</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Pallet</label>
+                </value>
+                <value>
+                    <fullName>Quarter</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Quarter</label>
+                </value>
+                <value>
+                    <fullName>SAP_LY</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>SAP_LY</label>
+                </value>
+                <value>
+                    <fullName>SAP_LZ</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>SAP_LZ</label>
+                </value>
+                <value>
+                    <fullName>SAP_PY1</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>SAP_PY1</label>
+                </value>
+                <value>
+                    <fullName>SAP_PY2</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>SAP_PY2</label>
+                </value>
+                <value>
+                    <fullName>SAP_ZQH</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>SAP_ZQH</label>
+                </value>
+                <value>
+                    <fullName>Year</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Year</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CombineWithOtherIncentives__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the incentive can be combined with others</description>
+        <externalId>false</externalId>
+        <formula>IF(Apttus_Config2__StopProcessingMoreIncentives__c, &quot;No&quot; , &quot;Yes&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Combine With Other Promotion</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ContextType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The type of context associated with the incentive</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The type of context associated with the incentive</inlineHelpText>
+        <label>Context Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Apttus_Config2__UseType__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>External Order Summary Item</fullName>
+                    <default>false</default>
+                    <label>External Order Summary Item</label>
+                </value>
+                <value>
+                    <fullName>Line Item</fullName>
+                    <default>false</default>
+                    <label>Line Item</label>
+                </value>
+                <value>
+                    <fullName>Milestone</fullName>
+                    <default>false</default>
+                    <label>Milestone</label>
+                </value>
+                <value>
+                    <fullName>Summary Group</fullName>
+                    <default>false</default>
+                    <label>Summary Group</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Promotion</controllingFieldValue>
+                <controllingFieldValue>Price Program</controllingFieldValue>
+                <valueName>Line Item</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Promotion</controllingFieldValue>
+                <valueName>Summary Group</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Rebate</controllingFieldValue>
+                <valueName>External Order Summary Item</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Milestone Incentive</controllingFieldValue>
+                <valueName>Milestone</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CountryScopeOper__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The country scope operator</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The country scope operator</inlineHelpText>
+        <label>Country Scope Oper</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>in</fullName>
+                    <default>false</default>
+                    <label>in</label>
+                </value>
+                <value>
+                    <fullName>not in</fullName>
+                    <default>false</default>
+                    <label>not in</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CountryScope__c</fullName>
+        <deprecated>false</deprecated>
+        <description>One or more countries associated with the incentive</description>
+        <externalId>false</externalId>
+        <inlineHelpText>One or more countries associated with the incentive</inlineHelpText>
+        <label>Country Scope</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All</fullName>
+                    <default>true</default>
+                    <label>All</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CustomDisplaySetting__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The the name of the custom display setting associated with the incentive. This will be used when an existing incentive record is “Edited”. 
+For a new record, the name will be passed as a URL parameter.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The the name of the custom display setting associated with the incentive. This will be used when an existing incentive record is “Edited”. 
+For a new record, the name will be passed as a URL parameter.</inlineHelpText>
+        <label>Custom Display Setting</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CycleEndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The cycle end date. Indicates the end of a loyalty program cycle</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The cycle end date. Indicates the end of a loyalty program cycle</inlineHelpText>
+        <label>Cycle End Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CycleStartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The cycle start date. Indicates the start of a loyalty program cycle.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The cycle start date. Indicates the start of a loyalty program cycle.</inlineHelpText>
+        <label>Cycle Start Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The incentive description</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The incentive description</inlineHelpText>
+        <label>Description</label>
+        <length>1000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Downgrade__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Downgrade</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>During Program</fullName>
+                    <default>false</default>
+                    <label>During Program</label>
+                </value>
+                <value>
+                    <fullName>Next Program</fullName>
+                    <default>false</default>
+                    <label>Next Program</label>
+                </value>
+                <value>
+                    <fullName>Never</fullName>
+                    <default>false</default>
+                    <label>Never</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EffectiveDate__c</fullName>
+        <defaultValue>DATE(2000,01,01)</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The incentive effective date. The incentive becomes effective on this date.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The incentive effective date. The incentive becomes effective on this date.</inlineHelpText>
+        <label>Effective Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableBenefitEffectivityDates__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether effective dates are enabled for benefits associated with the incentive</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether effective dates are enabled for benefits associated with the incentive</inlineHelpText>
+        <label>Enable Benefit Effectivity Dates</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ExcludeChildrenWithActivePrograms__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether orders from child accounts with activate rebate agreements should excluded from rebate processing. Only applicable when including orders from account hierarchy.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether orders from child accounts with activate rebate agreements should excluded from rebate processing. Only applicable when including orders from account hierarchy.</inlineHelpText>
+        <label>Exclude Children With Active Programs ?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ExpirationDate__c</fullName>
+        <defaultValue>DATE(2099,12,31)</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The incentive expiration date. The incentive becomes ineffective after this date.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The incentive expiration date. The incentive becomes ineffective after this date.</inlineHelpText>
+        <label>Expiration Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IncentiveCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The incentive code available to customers to identify the incentive</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The incentive code available to customers to identify the incentive</inlineHelpText>
+        <label>Incentive Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IncentiveGroupId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated incentive group</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated incentive group</inlineHelpText>
+        <label>Incentive Group</label>
+        <referenceTo>Apttus_Config2__IncentiveGroup__c</referenceTo>
+        <relationshipLabel>Incentives</relationshipLabel>
+        <relationshipName>Incentives</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IncentiveNumberAuto__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The system assigned unique incentive number. FOR INTERNAL USE ONLY. DO NOT SHOW IN SCREENS, REPORTS, ETC.</description>
+        <displayFormat>ICT-{000000}</displayFormat>
+        <externalId>false</externalId>
+        <inlineHelpText>The system assigned unique incentive number. FOR INTERNAL USE ONLY. DO NOT SHOW IN SCREENS, REPORTS, ETC.</inlineHelpText>
+        <label>Incentive Number Auto (INTERNAL)</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IncentiveNumberText__c</fullName>
+        <deprecated>false</deprecated>
+        <description>FOR INTERNAL USE ONLY. DO NOT USE IN SCREENS, REPORTS, ETC.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>FOR INTERNAL USE ONLY. DO NOT USE IN SCREENS, REPORTS, ETC.</inlineHelpText>
+        <label>Incentive Number Text  (INTERNAL)</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IncentiveNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Identifies the incentive number, including the version number. Use this field to display on screens, reports, dashboards, search filters and columns, etc. The other incentive number fields are for internal use only.</description>
+        <externalId>false</externalId>
+        <formula>Apttus_Config2__IncentiveNumberText__c &amp; &quot;.&quot; &amp; TEXT(CEILING(Apttus_Config2__VersionNumber__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Identifies the incentive number, including the version number.</inlineHelpText>
+        <label>Incentive Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IncludeOrdersForAccountHierarchy__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether orders for the account hierarchy should be included for rebate processing</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether orders for the account hierarchy should be included for rebate processing</inlineHelpText>
+        <label>Include Orders For Account Hierarchy ?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IsBundle__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether to use the ratio field on the price rule.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether to use the ratio field on the price rule.</inlineHelpText>
+        <label>Is Bundle</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IsTaskPending__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether there are any tasks pending for the incentive</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether there are any tasks pending for the incentive</inlineHelpText>
+        <label>Is Task Pending</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LoyaltyId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the loyalty incentive associated with the point accrual.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the loyalty incentive associated with the point accrual.</inlineHelpText>
+        <label>Loyalty</label>
+        <referenceTo>Apttus_Config2__Incentive__c</referenceTo>
+        <relationshipLabel>Point Accrual Incentives</relationshipLabel>
+        <relationshipName>PointAccrualIncentives</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__OriginalEffectiveDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The original effective date associated with the incentive</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The original effective date associated with the incentive</inlineHelpText>
+        <label>Original Effective Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PointAccrualLevel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The point accrual level</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The point accrual level</inlineHelpText>
+        <label>Point Accrual Level</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Account</fullName>
+                    <default>false</default>
+                    <label>Account</label>
+                </value>
+                <value>
+                    <fullName>Contact</fullName>
+                    <default>false</default>
+                    <label>Contact</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PriceListScopeOper__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price list scope operator</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The price list scope operator</inlineHelpText>
+        <label>Price List Scope Oper</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>in</fullName>
+                    <default>false</default>
+                    <label>in</label>
+                </value>
+                <value>
+                    <fullName>not in</fullName>
+                    <default>false</default>
+                    <label>not in</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PriceListScope__c</fullName>
+        <deprecated>false</deprecated>
+        <description>One or more price lists associated with the incentive</description>
+        <externalId>false</externalId>
+        <inlineHelpText>One or more price lists associated with the incentive</inlineHelpText>
+        <label>Price List Scope</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All</fullName>
+                    <default>true</default>
+                    <label>All</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductFamilyScopeOper__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The product family scope operator</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The product family scope operator</inlineHelpText>
+        <label>Product Family Scope Oper</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>in</fullName>
+                    <default>false</default>
+                    <label>in</label>
+                </value>
+                <value>
+                    <fullName>not in</fullName>
+                    <default>false</default>
+                    <label>not in</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductFamilyScope__c</fullName>
+        <deprecated>false</deprecated>
+        <description>One or more product families associated with the incentive</description>
+        <externalId>false</externalId>
+        <inlineHelpText>One or more product families associated with the incentive</inlineHelpText>
+        <label>Product Family Scope</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All</fullName>
+                    <default>true</default>
+                    <label>All</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductGroupScopeOper__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The product group scope operator</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The product group scope operator</inlineHelpText>
+        <label>Product Group Scope Oper</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>in</fullName>
+                    <default>false</default>
+                    <label>in</label>
+                </value>
+                <value>
+                    <fullName>not in</fullName>
+                    <default>false</default>
+                    <label>not in</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductGroupScope__c</fullName>
+        <deprecated>false</deprecated>
+        <description>One or more product groups associated with the incentive</description>
+        <externalId>false</externalId>
+        <inlineHelpText>One or more product groups associated with the incentive</inlineHelpText>
+        <label>Product Group Scope</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All</fullName>
+                    <default>true</default>
+                    <label>All</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductScopeOper__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The product scope operator</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The product scope operator</inlineHelpText>
+        <label>Product Scope Oper</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>in</fullName>
+                    <default>false</default>
+                    <label>in</label>
+                </value>
+                <value>
+                    <fullName>not in</fullName>
+                    <default>false</default>
+                    <label>not in</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductScope__c</fullName>
+        <deprecated>false</deprecated>
+        <description>One or more products associated with the incentive</description>
+        <externalId>false</externalId>
+        <inlineHelpText>One or more products associated with the incentive</inlineHelpText>
+        <label>Product Scope</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All</fullName>
+                    <default>true</default>
+                    <label>All</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RecurrenceFrequency__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The recurrence frequency.  e.g. Loyalty program cycle.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The recurrence frequency.  e.g. Loyalty program cycle.</inlineHelpText>
+        <label>Recurrence Frequency</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Monthly</fullName>
+                    <default>false</default>
+                    <label>Monthly</label>
+                </value>
+                <value>
+                    <fullName>Quarterly</fullName>
+                    <default>false</default>
+                    <label>Quarterly</label>
+                </value>
+                <value>
+                    <fullName>Half Yearly</fullName>
+                    <default>false</default>
+                    <label>Half Yearly</label>
+                </value>
+                <value>
+                    <fullName>Yearly</fullName>
+                    <default>false</default>
+                    <label>Yearly</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RegionScopeOper__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The region scope operator</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The region scope operator</inlineHelpText>
+        <label>Region Scope Oper</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>in</fullName>
+                    <default>false</default>
+                    <label>in</label>
+                </value>
+                <value>
+                    <fullName>not in</fullName>
+                    <default>false</default>
+                    <label>not in</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RegionScope__c</fullName>
+        <deprecated>false</deprecated>
+        <description>One or more regions associated with the incentive</description>
+        <externalId>false</externalId>
+        <inlineHelpText>One or more regions associated with the incentive</inlineHelpText>
+        <label>Region Scope</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All</fullName>
+                    <default>true</default>
+                    <label>All</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RenewalEffectiveDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date when the renewal for the incentive takes effect</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date when the renewal for the incentive takes effect</inlineHelpText>
+        <label>Renewal Effective Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SearchField__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The incentive search field. This field is used in the side bar search</description>
+        <externalId>true</externalId>
+        <inlineHelpText>The incentive search field</inlineHelpText>
+        <label>Search Field</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Sequence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The incentive priority sequence. Indicates the order of application of the incentive.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The incentive priority sequence. Indicates the order of application of the incentive.</inlineHelpText>
+        <label>Sequence</label>
+        <precision>5</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The incentive status</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The incentive status</inlineHelpText>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>true</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Being Amended</fullName>
+                    <default>false</default>
+                    <label>Being Amended</label>
+                </value>
+                <value>
+                    <fullName>In Amendment</fullName>
+                    <default>false</default>
+                    <label>In Amendment</label>
+                </value>
+                <value>
+                    <fullName>Being Renewed</fullName>
+                    <default>false</default>
+                    <label>Being Renewed</label>
+                </value>
+                <value>
+                    <fullName>In Renewal</fullName>
+                    <default>false</default>
+                    <label>In Renewal</label>
+                </value>
+                <value>
+                    <fullName>Superseded</fullName>
+                    <default>false</default>
+                    <label>Superseded</label>
+                </value>
+                <value>
+                    <fullName>Being Terminated</fullName>
+                    <default>false</default>
+                    <label>Being Terminated</label>
+                </value>
+                <value>
+                    <fullName>Terminated</fullName>
+                    <default>false</default>
+                    <label>Terminated</label>
+                </value>
+                <value>
+                    <fullName>Activated</fullName>
+                    <default>false</default>
+                    <label>Activated</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__StopProcessingMoreIncentives__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicator to prevent subsequent incentives from processing</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicator to prevent subsequent incentives from processing</inlineHelpText>
+        <label>Stop Processing More Incentives</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SubUseType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Application Sub-Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Apttus_Config2__UseType__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Point Accrual</fullName>
+                    <default>true</default>
+                    <label>Point Accrual</label>
+                </value>
+                <value>
+                    <fullName>Loyalty</fullName>
+                    <default>false</default>
+                    <label>Loyalty</label>
+                </value>
+                <value>
+                    <fullName>Promotion</fullName>
+                    <default>false</default>
+                    <label>Promotion</label>
+                </value>
+                <value>
+                    <fullName>Rebate</fullName>
+                    <default>false</default>
+                    <label>Rebate</label>
+                </value>
+                <value>
+                    <fullName>Milestone Incentive</fullName>
+                    <default>false</default>
+                    <label>Milestone Incentive</label>
+                </value>
+                <value>
+                    <fullName>Price Program</fullName>
+                    <default>false</default>
+                    <label>Price Program</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Promotion</controllingFieldValue>
+                <valueName>Promotion</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Rebate</controllingFieldValue>
+                <valueName>Rebate</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Milestone Incentive</controllingFieldValue>
+                <valueName>Milestone Incentive</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Price Program</controllingFieldValue>
+                <valueName>Price Program</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Loyalty</controllingFieldValue>
+                <valueName>Point Accrual</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Loyalty</controllingFieldValue>
+                <valueName>Loyalty</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Upgrade__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Upgrade</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>During Program</fullName>
+                    <default>false</default>
+                    <label>During Program</label>
+                </value>
+                <value>
+                    <fullName>Next Program</fullName>
+                    <default>false</default>
+                    <label>Next Program</label>
+                </value>
+                <value>
+                    <fullName>Never</fullName>
+                    <default>false</default>
+                    <label>Never</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__UseType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The incentive use type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The incentive use type</inlineHelpText>
+        <label>Application Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Promotion</fullName>
+                    <default>true</default>
+                    <label>Promotion</label>
+                </value>
+                <value>
+                    <fullName>Rebate</fullName>
+                    <default>false</default>
+                    <label>Rebate</label>
+                </value>
+                <value>
+                    <fullName>Milestone Incentive</fullName>
+                    <default>false</default>
+                    <label>Milestone Incentive</label>
+                </value>
+                <value>
+                    <fullName>Price Program</fullName>
+                    <default>false</default>
+                    <label>Price Program</label>
+                </value>
+                <value>
+                    <fullName>Loyalty</fullName>
+                    <default>false</default>
+                    <label>Loyalty</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__VersionNumber__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The incentive version number</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The incentive version number</inlineHelpText>
+        <label>Version Number</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ProposalId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated quote/proposal</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated quote/proposal</inlineHelpText>
+        <label>Quote/Proposal</label>
+        <referenceTo>Apttus_Proposal__Proposal__c</referenceTo>
+        <relationshipLabel>Incentives</relationshipLabel>
+        <relationshipName>Incentives</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Incentive</label>
+    <listViews>
+        <fullName>Apttus_Config2__All</fullName>
+        <columns>NAME</columns>
+        <columns>Apttus_Config2__Active__c</columns>
+        <columns>Apttus_Config2__ApplicationMethod__c</columns>
+        <columns>Apttus_Config2__UseType__c</columns>
+        <columns>Apttus_Config2__AutoApply__c</columns>
+        <columns>Apttus_CMConfig__AgreementId__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Apttus_Config2__All_Active_Promotions</fullName>
+        <columns>Apttus_Config2__Active__c</columns>
+        <columns>NAME</columns>
+        <columns>Apttus_Config2__IncentiveCode__c</columns>
+        <columns>Apttus_Config2__ApplicationMethod__c</columns>
+        <columns>Apttus_Config2__UseType__c</columns>
+        <columns>Apttus_Config2__AutoApply__c</columns>
+        <columns>Apttus_Config2__RegionScope__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Apttus_Config2__Active__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>All Active Promotions</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Apttus_Config2__Rebates</fullName>
+        <columns>NAME</columns>
+        <columns>Apttus_Config2__Active__c</columns>
+        <columns>Apttus_Config2__ApplicationMethod__c</columns>
+        <columns>Apttus_Config2__UseType__c</columns>
+        <columns>Apttus_Config2__EffectiveDate__c</columns>
+        <columns>Apttus_Config2__ExpirationDate__c</columns>
+        <columns>Apttus_Config2__ContextType__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Apttus_Config2__AutoApply__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Apttus_Config2__UseType__c</field>
+            <operation>equals</operation>
+            <value>Rebate</value>
+        </filters>
+        <filters>
+            <field>Apttus_Config2__Active__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Active Rebates</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Rebate_Templates</fullName>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Apttus_Config2__IncentiveNumber__c</columns>
+        <columns>Apttus_Config2__Sequence__c</columns>
+        <columns>Apttus_Config2__UseType__c</columns>
+        <columns>Apttus_Config2__ApplicationMethod__c</columns>
+        <columns>Apttus_Config2__Description__c</columns>
+        <columns>Apttus_Config2__EffectiveDate__c</columns>
+        <columns>Apttus_Config2__ExpirationDate__c</columns>
+        <columns>Apttus_Config2__Status__c</columns>
+        <columns>Apttus_Config2__Active__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>Template</value>
+        </filters>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>template</value>
+        </filters>
+        <label>Rebate Templates</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Incentive Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Incentives</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Apttus_Config2__IncentiveNumber__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__Sequence__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__UseType__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__ApplicationMethod__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__EffectiveDate__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__ExpirationDate__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__Active__c</customTabListAdditionalFields>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
+        <listViewButtons>Add_Rebate_5</listViewButtons>
+        <lookupDialogsAdditionalFields>Apttus_Config2__IncentiveNumber__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Sequence__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__UseType__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__ApplicationMethod__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__EffectiveDate__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__ExpirationDate__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Active__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__IncentiveNumber__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__Sequence__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__UseType__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__ApplicationMethod__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__Description__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__EffectiveDate__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__ExpirationDate__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__Status__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__Active__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__IncentiveNumber__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__Sequence__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__UseType__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__ApplicationMethod__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__EffectiveDate__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__ExpirationDate__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__Status__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__Active__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Apttus_Config2__DateValidation</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF( NOT(ISNULL(Apttus_Config2__EffectiveDate__c)) &amp;&amp; NOT(ISNULL(Apttus_Config2__ExpirationDate__c)) &amp;&amp; Apttus_Config2__EffectiveDate__c &gt; Apttus_Config2__ExpirationDate__c, true, false)</errorConditionFormula>
+        <errorMessage>Effective date cannot be greater then expiration date.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Add_Rebate_3</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Add Rebate</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/apex/Apttus_Config2__IncentiveManager?UseType=Rebate&amp;ApplicationMethod=Buy X Get X&amp;AutoApply=false&amp;Effective Date={!Apttus__APTS_Agreement__c.Apttus__Contract_Start_Date__c}&amp;Expiration Date={!Apttus__APTS_Agreement__c.Apttus__Contract_End_Date__c}&amp;Currency={!Apttus__APTS_Agreement__c.CurrencyIsoCode}&amp;RelatedAgreement={!Apttus__APTS_Agreement__c.Id}&amp;DisplaySetting=Rebates&amp;Status=New&amp;APTS_Concept__c=Year-end Rebate (BDF I)&amp;APTS_Calculate_Rebate_On__c=JDE Invoice&amp;APTS_Payout_Method__c=Credit Note&amp;APTS_Volume_Per_Machine__c=True&amp;retURL=%2F{!Apttus__APTS_Agreement__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Add_Rebate_5</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Add Rebate</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/apex/Apttus_Config2__IncentiveManager?UseType=Rebate&amp;DisplaySetting=Rebates&amp;Status=New&amp;DataSource=Apttus_Config2__ExternalOrderSummaryItem__c&amp;ApplicationMethod=Buy X Get X</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Config2__MassDelete</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Mass Delete</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/connection.js&quot;)} 
+
+var records = {!GETRECORDIDS( $ObjectType.Apttus_Config2__Incentive__c )}; 
+
+if (records[0] == null) { 
+alert(&quot;Please select at least one record.&quot;) } 
+else { 
+
+var errors = []; 
+var result = sforce.connection.deleteIds(records); 
+if (result &amp;&amp; result.length){ 
+var numFailed = 0; 
+var numSucceeded = 0; 
+for (var i = 0; i &lt; result.length; i++){ 
+var res = result[i]; 
+if (res &amp;&amp; res.success == &apos;true&apos;){ 
+numSucceeded++; 
+} else { 
+var es = res.getArray(&quot;errors&quot;); 
+if (es.length &gt; 0) { 
+errors.push(es[0].message); 
+} 
+numFailed++; 
+} 
+} 
+if (numFailed &gt; 0){ 
+alert(&quot;Failed: &quot; + numFailed + &quot;\nSucceeded: &quot; + numSucceeded + &quot; \n Due to: &quot; + errors.join(&quot;\n&quot;)); 
+} else { 
+alert(&quot;Number of records deleted: &quot; + numSucceeded); 
+} 
+} 
+window.location.reload(); 
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Config2__NewLoyaltyProgram</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Loyalty Program</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/apex/Apttus_Config2__IncentiveManager?UseType=Loyalty&amp;DataSource=Apttus_Config2__OrderLineItem__c&amp;ApplicationMethod=Buy X Get X</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Config2__NewPointAccrual</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Point Accrual</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/apex/Apttus_Config2__IncentiveManager?UseType=Loyalty&amp;SubUseType=Point Accrual&amp;DataSource=Apttus_Config2__OrderLineItem__c&amp;ApplicationMethod=Buy X Get X</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Config2__NewPriceProgram</fullName>
+        <availability>online</availability>
+        <description>button for starting new price program incentive</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Price Program</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/apex/Apttus_Config2__IncentiveManager?UseType=Price Program&amp;DataSource=Apttus_Config2__LineItem__c&amp;ApplicationMethod=Buy X Get X</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Config2__NewPromotion</fullName>
+        <availability>online</availability>
+        <description>button for starting a new promotion</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Promotion</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/apex/Apttus_Config2__IncentiveManager?UseType=Promotion&amp;DataSource=Apttus_Config2__LineItem__c&amp;ApplicationMethod=Buy X Get X</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Config2__NewRebate</fullName>
+        <availability>online</availability>
+        <description>button for starting new rebate</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Rebate</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/apex/Apttus_Config2__IncentiveManager?UseType=Rebate&amp;DataSource=Apttus_Config2__OrderLineItem__c&amp;ApplicationMethod=Buy X Get X</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Rebate__AddMilestoneIncentive</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Add Milestone Incentive</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/apex/Apttus_Config2__IncentiveManager?UseType=Milestone Incentive&amp;ApplicationMethod=Buy X Get X&amp;AutoApply=false&amp;EffectiveDate={!Apttus__APTS_Agreement__c.Apttus__Contract_Start_Date__c}&amp;ExpirationDate={!Apttus__APTS_Agreement__c.Apttus__Contract_End_Date__c}&amp;Currency=USD&amp;RelatedAgreement={!Apttus__APTS_Agreement__c.Id}&amp;Status=New&amp;retURL={!Apttus__APTS_Agreement__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Rebate__AddRebateIncentive</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Add Rebate</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/apex/Apttus_Config2__IncentiveManager?UseType=Rebate&amp;ApplicationMethod=Buy X Get X&amp;AutoApply=false&amp;EffectiveDate={!Apttus__APTS_Agreement__c.Apttus__Contract_Start_Date__c}&amp;ExpirationDate={!Apttus__APTS_Agreement__c.Apttus__Contract_End_Date__c}&amp;Currency=USD&amp;RelatedAgreement={!Apttus__APTS_Agreement__c.Id}&amp;Status=New</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Rebate__Add_Existing_Rebate</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Add Existing Rebate</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/apex/Apttus_Config2__AddRebatesToAgreement?RelatedAgreement={!Apttus__APTS_Agreement__c.Id}&amp;retURL=/{!Apttus__APTS_Agreement__c.Id}&amp;EffectiveDate={!YEAR(Apttus__APTS_Agreement__c.Apttus__Contract_Start_Date__c)}-{!MONTH(Apttus__APTS_Agreement__c.Apttus__Contract_Start_Date__c)}-{!DAY(Apttus__APTS_Agreement__c.Apttus__Contract_Start_Date__c)}&amp;ExpirationDate={!YEAR(Apttus__APTS_Agreement__c.Apttus__Contract_End_Date__c)}-{!MONTH(Apttus__APTS_Agreement__c.Apttus__Contract_End_Date__c)}-{!DAY(Apttus__APTS_Agreement__c.Apttus__Contract_End_Date__c)}</url>
+    </webLinks>
+</CustomObject>

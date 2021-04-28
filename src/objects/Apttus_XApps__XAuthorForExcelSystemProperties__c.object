@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>X-Author for Excel System properties. The record should be named as &quot;System Properties&quot;</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Apttus_XApps__InstanceUrl__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Salesforce instance url for redirecting to custom pages</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Salesforce instance url for redirecting to custom pages</inlineHelpText>
+        <label>Instance Url</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_XApps__LicenseWebserviceEndpoint__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Apttus license web service endpoint</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Apttus license web service endpoint</inlineHelpText>
+        <label>License Webservice Endpoint</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_XApps__MergeCallTimeoutMillis__c</fullName>
+        <defaultValue>50000</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The timeout in milliseconds for the merge request</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The timeout in milliseconds for the merge request</inlineHelpText>
+        <label>Merge Call Timeout Millis</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>X-Author For Excel System Properties</label>
+    <visibility>Public</visibility>
+</CustomObject>

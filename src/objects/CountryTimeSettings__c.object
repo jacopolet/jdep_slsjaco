@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>BE_SLA_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>BE SLA Time</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BE_Start_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>BE Start Time</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DE_SLA_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>DE SLA Time</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DE_Start_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>DE Start Time</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DK_SLA_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>DK SLA Time</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DK_Start_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>DK Start Time</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FR_SLA_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>FR SLA Time</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FR_Start_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>FR Start Time</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IR_SLA_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>IR SLA Time</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IR_Start_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>IR Start Time</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NL_SLA_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>NL SLA Time</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NL_Start_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>NL Start Time</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NO_SLA_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>NO SLA Time</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NO_Start_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>NO Start Time</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SE_SLA_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>SE SLA Time</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SE_Start_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>SE Start Time</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SP_SLA_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>SP SLA Time</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SP_Start_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>SP Start Time</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UK_SLA_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>UK SLA Time</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UK_Start_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>UK Start Time</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>CountryTimeSettings</label>
+    <visibility>Public</visibility>
+</CustomObject>

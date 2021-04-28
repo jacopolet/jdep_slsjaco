@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Custom Metadata Type to store the Charge Type Criteria mapping of Apttus_Config2__PriceListItem__c Object. Created as part of Kauri Nov&apos;18 Release.</description>
+    <fields>
+        <fullName>APTS_Charge_Type_Criteria__c</fullName>
+        <description>Field to store the Charge Type Criteria value of PLI Object.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Charge Type Criteria</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <label>APTS PLI Charge Type Criteria Mapping</label>
+    <listViews>
+        <fullName>All1</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>APTS_Charge_Type_Criteria__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <pluralLabel>APTS PLI Charge Type Criteria Mappings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Billling_Preferances_Lightning</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>v2_Compact_Layout_Billing_Preferances</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>v2_Compact_Layout_Billing_Preferances</fullName>
+        <fields>Apttus_Config2__BillingInterval__c</fields>
+        <fields>Apttus_Config2__BillingCycleStart__c</fields>
+        <fields>Apttus_Config2__BillingDayOfMonth2__c</fields>
+        <fields>Apttus_Config2__CalendarCycleStart__c</fields>
+        <fields>Apttus_Config2__ProrationPeriodTreatment__c</fields>
+        <fields>APTS_SalesOrg__c</fields>
+        <label>v2 Compact Layout Billing Preferances</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents a functional preference for billing purposes</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>APTS_Agreement_Language__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Apttus_CMConfig__AgreementId__r.APTS_Language__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Agreement Language</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Billing_Interval_Translated__c</fullName>
+        <externalId>false</externalId>
+        <label>Billing Interval Translated</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Billing_Rule_Contract__c</fullName>
+        <externalId>false</externalId>
+        <label>Billing Rule</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bill in Advance</fullName>
+                    <default>true</default>
+                    <label>Bill in Advance</label>
+                </value>
+                <value>
+                    <fullName>Bill in Arrears</fullName>
+                    <default>false</default>
+                    <label>Bill in Arrears</label>
+                </value>
+                <value>
+                    <fullName>Bill on Ready for Billing Date</fullName>
+                    <default>false</default>
+                    <label>Bill on Ready for Billing Date</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Invoice_Delivery_Preference__c</fullName>
+        <externalId>false</externalId>
+        <label>Invoice Delivery Preference</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>P001</fullName>
+                    <default>false</default>
+                    <label>Print</label>
+                </value>
+                <value>
+                    <fullName>P002</fullName>
+                    <default>false</default>
+                    <label>E-Mail</label>
+                </value>
+                <value>
+                    <fullName>P003</fullName>
+                    <default>false</default>
+                    <label>EDI</label>
+                </value>
+                <value>
+                    <fullName>P004</fullName>
+                    <default>false</default>
+                    <label>Customer Portal</label>
+                </value>
+                <value>
+                    <fullName>3rd Party</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>3rd Party</label>
+                </value>
+                <value>
+                    <fullName>P008</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Cust. Portal summary</label>
+                </value>
+                <value>
+                    <fullName>P006</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>E-mail with summary</label>
+                </value>
+                <value>
+                    <fullName>P007</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>EDI with summary</label>
+                </value>
+                <value>
+                    <fullName>MyServices (Digital)</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>MyServices (Digital)</label>
+                </value>
+                <value>
+                    <fullName>Paper</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Paper</label>
+                </value>
+                <value>
+                    <fullName>P005</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Print with summary</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Invoice_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Invoice Type</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Single Invoice</fullName>
+                    <default>true</default>
+                    <label>Single Invoice</label>
+                </value>
+                <value>
+                    <fullName>Invoice List – With Summary Page</fullName>
+                    <default>false</default>
+                    <label>Invoice List – With Summary Page</label>
+                </value>
+                <value>
+                    <fullName>Invoice List – Without Summary Page</fullName>
+                    <default>false</default>
+                    <label>Invoice List – Without Summary Page</label>
+                </value>
+                <value>
+                    <fullName>Collective Invoice</fullName>
+                    <default>false</default>
+                    <label>Collective Invoice</label>
+                </value>
+                <value>
+                    <fullName>Collective Invoice – With Summary Page</fullName>
+                    <default>false</default>
+                    <label>Collective Invoice – With Summary Page</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_SalesOrg__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Org</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>PKL_SalesOrganization</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__UsageRatingPriceFieldOverride__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field will be used for usage rating instead of the List Price. This setting will take precedence over the Global setting.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the API name of the price field based on which usage will be rated.</inlineHelpText>
+        <label>Usage Rating Price Field Override</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__AgreementId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated agreement</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated agreement</inlineHelpText>
+        <label>Agreement</label>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipLabel>Billing Preferences</relationshipLabel>
+        <relationshipName>BillingPreferences</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_CMConfig__AgreementLineItemId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated agreement line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated agreement line item</inlineHelpText>
+        <label>Agreement Line Item</label>
+        <referenceTo>Apttus__AgreementLineItem__c</referenceTo>
+        <relationshipLabel>Billing Preferences</relationshipLabel>
+        <relationshipName>BillingPreferences</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the billing preference is active. Inactive preferences are not available for new associations.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the billing preference is active. Inactive preferences are not available for new associations.</inlineHelpText>
+        <label>Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AllowPaymentTermOverride__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether payment term may be overridden at lower levels</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether payment term may be overridden at lower levels</inlineHelpText>
+        <label>Allow Payment Term Override ?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AllowPrefOverride__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether preference may be overridden at lower levels</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether preference may be overridden at lower levels</inlineHelpText>
+        <label>Allow Preference Override ?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BillingCycleStart__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates when the billing cycle should start</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates when the billing cycle should start</inlineHelpText>
+        <label>Billing Cycle Start</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Billing Day of Month</fullName>
+                    <default>false</default>
+                    <label>Billing Day of Month</label>
+                </value>
+                <value>
+                    <fullName>Ready for Billing Date</fullName>
+                    <default>true</default>
+                    <label>Ready for Billing Date</label>
+                </value>
+                <value>
+                    <fullName>Period Start Date</fullName>
+                    <default>false</default>
+                    <label>Period Start Date</label>
+                </value>
+                <value>
+                    <fullName>Order Date</fullName>
+                    <default>false</default>
+                    <label>Order Date</label>
+                </value>
+                <value>
+                    <fullName>Account Billing Day</fullName>
+                    <default>false</default>
+                    <label>Account Billing Day</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BillingDayOfMonth2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The billing day of month. Specific Day of Month, End of Month, etc</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The billing day of month. Specific Day of Month, End of Month, etc</inlineHelpText>
+        <label>Billing Day Of Month</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1st of the Month</fullName>
+                    <default>true</default>
+                    <label>1st of the Month</label>
+                </value>
+                <value>
+                    <fullName>2nd of the Month</fullName>
+                    <default>false</default>
+                    <label>2nd of the Month</label>
+                </value>
+                <value>
+                    <fullName>3rd of the Month</fullName>
+                    <default>false</default>
+                    <label>3rd of the Month</label>
+                </value>
+                <value>
+                    <fullName>4th of the Month</fullName>
+                    <default>false</default>
+                    <label>4th of the Month</label>
+                </value>
+                <value>
+                    <fullName>5th of the Month</fullName>
+                    <default>false</default>
+                    <label>5th of the Month</label>
+                </value>
+                <value>
+                    <fullName>6th of the Month</fullName>
+                    <default>false</default>
+                    <label>6th of the Month</label>
+                </value>
+                <value>
+                    <fullName>7th of the Month</fullName>
+                    <default>false</default>
+                    <label>7th of the Month</label>
+                </value>
+                <value>
+                    <fullName>8th of the Month</fullName>
+                    <default>false</default>
+                    <label>8th of the Month</label>
+                </value>
+                <value>
+                    <fullName>9th of the Month</fullName>
+                    <default>false</default>
+                    <label>9th of the Month</label>
+                </value>
+                <value>
+                    <fullName>10th of the Month</fullName>
+                    <default>false</default>
+                    <label>10th of the Month</label>
+                </value>
+                <value>
+                    <fullName>11th of the Month</fullName>
+                    <default>false</default>
+                    <label>11th of the Month</label>
+                </value>
+                <value>
+                    <fullName>12th of the Month</fullName>
+                    <default>false</default>
+                    <label>12th of the Month</label>
+                </value>
+                <value>
+                    <fullName>13th of the Month</fullName>
+                    <default>false</default>
+                    <label>13th of the Month</label>
+                </value>
+                <value>
+                    <fullName>14th of the Month</fullName>
+                    <default>false</default>
+                    <label>14th of the Month</label>
+                </value>
+                <value>
+                    <fullName>15th of the Month</fullName>
+                    <default>false</default>
+                    <label>15th of the Month</label>
+                </value>
+                <value>
+                    <fullName>16th of the Month</fullName>
+                    <default>false</default>
+                    <label>16th of the Month</label>
+                </value>
+                <value>
+                    <fullName>17th of the Month</fullName>
+                    <default>false</default>
+                    <label>17th of the Month</label>
+                </value>
+                <value>
+                    <fullName>18th of the Month</fullName>
+                    <default>false</default>
+                    <label>18th of the Month</label>
+                </value>
+                <value>
+                    <fullName>19th of the Month</fullName>
+                    <default>false</default>
+                    <label>19th of the Month</label>
+                </value>
+                <value>
+                    <fullName>20th of the Month</fullName>
+                    <default>false</default>
+                    <label>20th of the Month</label>
+                </value>
+                <value>
+                    <fullName>21st of the Month</fullName>
+                    <default>false</default>
+                    <label>21st of the Month</label>
+                </value>
+                <value>
+                    <fullName>22nd of the Month</fullName>
+                    <default>false</default>
+                    <label>22nd of the Month</label>
+                </value>
+                <value>
+                    <fullName>23rd of the Month</fullName>
+                    <default>false</default>
+                    <label>23rd of the Month</label>
+                </value>
+                <value>
+                    <fullName>24th of the Month</fullName>
+                    <default>false</default>
+                    <label>24th of the Month</label>
+                </value>
+                <value>
+                    <fullName>25th of the Month</fullName>
+                    <default>false</default>
+                    <label>25th of the Month</label>
+                </value>
+                <value>
+                    <fullName>26th of the Month</fullName>
+                    <default>false</default>
+                    <label>26th of the Month</label>
+                </value>
+                <value>
+                    <fullName>27th of the Month</fullName>
+                    <default>false</default>
+                    <label>27th of the Month</label>
+                </value>
+                <value>
+                    <fullName>28th of the Month</fullName>
+                    <default>false</default>
+                    <label>28th of the Month</label>
+                </value>
+                <value>
+                    <fullName>29th of the Month</fullName>
+                    <default>false</default>
+                    <label>29th of the Month</label>
+                </value>
+                <value>
+                    <fullName>30th of the Month</fullName>
+                    <default>false</default>
+                    <label>30th of the Month</label>
+                </value>
+                <value>
+                    <fullName>31st of the Month</fullName>
+                    <default>false</default>
+                    <label>31st of the Month</label>
+                </value>
+                <value>
+                    <fullName>End of Month</fullName>
+                    <default>false</default>
+                    <label>End of Month</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BillingInterval__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The billing interval</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The billing interval</inlineHelpText>
+        <label>Billing Interval</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hourly</fullName>
+                    <default>false</default>
+                    <label>Hourly</label>
+                </value>
+                <value>
+                    <fullName>Daily</fullName>
+                    <default>false</default>
+                    <label>Daily</label>
+                </value>
+                <value>
+                    <fullName>Monthly</fullName>
+                    <default>false</default>
+                    <label>Monthly</label>
+                </value>
+                <value>
+                    <fullName>Quarterly</fullName>
+                    <default>false</default>
+                    <label>Quarterly</label>
+                </value>
+                <value>
+                    <fullName>Half Yearly</fullName>
+                    <default>false</default>
+                    <label>Half Yearly</label>
+                </value>
+                <value>
+                    <fullName>Yearly</fullName>
+                    <default>false</default>
+                    <label>Yearly</label>
+                </value>
+                <value>
+                    <fullName>One Time</fullName>
+                    <default>false</default>
+                    <label>One Time</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CalendarCycleStart__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates which calendar month the billing cycle will align to</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates which calendar month the billing cycle will align to</inlineHelpText>
+        <label>Calendar Cycle Start</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Account Calendar Cycle Start</fullName>
+                    <default>false</default>
+                    <label>Account Calendar Cycle Start</label>
+                </value>
+                <value>
+                    <fullName>January</fullName>
+                    <default>false</default>
+                    <label>January</label>
+                </value>
+                <value>
+                    <fullName>February</fullName>
+                    <default>false</default>
+                    <label>February</label>
+                </value>
+                <value>
+                    <fullName>March</fullName>
+                    <default>false</default>
+                    <label>March</label>
+                </value>
+                <value>
+                    <fullName>April</fullName>
+                    <default>false</default>
+                    <label>April</label>
+                </value>
+                <value>
+                    <fullName>May</fullName>
+                    <default>false</default>
+                    <label>May</label>
+                </value>
+                <value>
+                    <fullName>June</fullName>
+                    <default>false</default>
+                    <label>June</label>
+                </value>
+                <value>
+                    <fullName>July</fullName>
+                    <default>false</default>
+                    <label>July</label>
+                </value>
+                <value>
+                    <fullName>August</fullName>
+                    <default>false</default>
+                    <label>August</label>
+                </value>
+                <value>
+                    <fullName>September</fullName>
+                    <default>false</default>
+                    <label>September</label>
+                </value>
+                <value>
+                    <fullName>October</fullName>
+                    <default>false</default>
+                    <label>October</label>
+                </value>
+                <value>
+                    <fullName>November</fullName>
+                    <default>false</default>
+                    <label>November</label>
+                </value>
+                <value>
+                    <fullName>December</fullName>
+                    <default>false</default>
+                    <label>December</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Default__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the preference is a default for the organization.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the preference is a default for the organization.</inlineHelpText>
+        <label>Is Default</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DoNotCreateInformational__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Suppresses the creation of all informational billing schedules</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Suppresses the creation of all informational billing schedules</inlineHelpText>
+        <label>Do Not Create Informational</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EarlyTerminationRule__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The early termination rule to apply when an asset is terminated</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select an option to enable early termination charges. This is applicable only when the asset is terminated.</inlineHelpText>
+        <label>Early Termination Rule</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No Credit On Termination</fullName>
+                    <default>false</default>
+                    <label>No Credit On Termination</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideInformational__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Suppresses the creation of all informational billing schedules</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Suppresses the creation of all informational billing schedules</inlineHelpText>
+        <label>Hide Informational</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__InvoiceDeliveryMethod__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The invoice delivery preference</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The invoice delivery preference</inlineHelpText>
+        <label>Invoice Delivery Method</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>true</default>
+                    <label>Email</label>
+                </value>
+                <value>
+                    <fullName>Print</fullName>
+                    <default>false</default>
+                    <label>Print</label>
+                </value>
+                <value>
+                    <fullName>3rd party</fullName>
+                    <default>false</default>
+                    <label>3rd party</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__InvoiceOutputFormat__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The invoice output format.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The invoice output format.</inlineHelpText>
+        <label>Invoice Output Format</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>PDF</fullName>
+                    <default>true</default>
+                    <label>PDF</label>
+                </value>
+                <value>
+                    <fullName>DOC</fullName>
+                    <default>false</default>
+                    <label>DOC</label>
+                </value>
+                <value>
+                    <fullName>DOCX</fullName>
+                    <default>false</default>
+                    <label>DOCX</label>
+                </value>
+                <value>
+                    <fullName>RTF</fullName>
+                    <default>false</default>
+                    <label>RTF</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PrefLevel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The level associated with the billing preference</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The level associated with the billing preference</inlineHelpText>
+        <label>Preference Level</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Organization</fullName>
+                    <default>false</default>
+                    <label>Organization</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProrationPeriodTreatment__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The proration period treatment method. This is to deal with the time between when the service period starts and the ready for billing day.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The proration period treatment method. This is to deal with the time between when the service period starts and the ready for billing day.</inlineHelpText>
+        <label>Proration Period Treatment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Ignore</fullName>
+                    <default>false</default>
+                    <label>Ignore</label>
+                </value>
+                <value>
+                    <fullName>Separate Period</fullName>
+                    <default>true</default>
+                    <label>Separate Period</label>
+                </value>
+                <value>
+                    <fullName>Combine with First Period</fullName>
+                    <default>false</default>
+                    <label>Combine with First Period</label>
+                </value>
+                <value>
+                    <fullName>Spread over Remaining Period</fullName>
+                    <default>false</default>
+                    <label>Spread over Remaining Period</label>
+                </value>
+                <value>
+                    <fullName>Extend Period</fullName>
+                    <default>false</default>
+                    <label>Extend Period</label>
+                </value>
+                <value>
+                    <fullName>Charge Full</fullName>
+                    <default>false</default>
+                    <label>Charge Full</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ReadyForInvoiceDateOffset__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used to offset the ready for invoice date by days</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter any numeric value here. It can be positive or negative</inlineHelpText>
+        <label>Ready For Invoice Date Offset</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__TaxLevel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The default tax level</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The default tax level</inlineHelpText>
+        <label>Tax Level</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Account</fullName>
+                    <default>true</default>
+                    <label>Account</label>
+                </value>
+                <value>
+                    <fullName>Product</fullName>
+                    <default>false</default>
+                    <label>Product</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ProposalId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated quote/proposal</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated quote/proposal</inlineHelpText>
+        <label>Quote/Proposal (DEPRECATED)</label>
+        <referenceTo>Apttus_Proposal__Proposal__c</referenceTo>
+        <relationshipLabel>Billing Preferences</relationshipLabel>
+        <relationshipName>BillingPreferences</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ProposalLineItemId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated quote/proposal line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated quote/proposal line item</inlineHelpText>
+        <label>Quote Line Item (DEPRECATED)</label>
+        <referenceTo>Apttus_Proposal__Proposal_Line_Item__c</referenceTo>
+        <relationshipLabel>Billing Preferences</relationshipLabel>
+        <relationshipName>BillingPreferences</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Billing Preference</label>
+    <listViews>
+        <fullName>Apttus_Config2__All</fullName>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Preference Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Billing Preferences</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Apttus_Config2__PrefLevel__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__BillingInterval__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__BillingCycleStart__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__BillingDayOfMonth2__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__TaxLevel__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__ProrationPeriodTreatment__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__Default__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus_Config2__Active__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__PrefLevel__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__BillingInterval__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__BillingCycleStart__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__BillingDayOfMonth2__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__TaxLevel__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__ProrationPeriodTreatment__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Default__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Active__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__PrefLevel__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__BillingInterval__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__BillingCycleStart__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__BillingDayOfMonth2__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__TaxLevel__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__ProrationPeriodTreatment__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__Default__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__Active__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__PrefLevel__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__BillingInterval__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__BillingCycleStart__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__BillingDayOfMonth2__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__TaxLevel__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__ProrationPeriodTreatment__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__Default__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__Active__c</searchFilterFields>
+        <searchResultsAdditionalFields>Apttus_Config2__PrefLevel__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Config2__BillingInterval__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Config2__BillingCycleStart__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Config2__BillingDayOfMonth2__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Config2__TaxLevel__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Config2__ProrationPeriodTreatment__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Config2__Default__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Config2__Active__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Avoid_Informational_Billing_Schedule</fullName>
+        <active>true</active>
+        <description>Informational Billing Schedule should not be created as part of data archival and to avoid billing errors.</description>
+        <errorConditionFormula>AND(Apttus_Config2__DoNotCreateInformational__c  =  False, Apttus_Config2__HideInformational__c = true)</errorConditionFormula>
+        <errorMessage>Please set the flag &quot;Do Not Create Informational&quot; field value to true and &quot;Hide Informational&quot; field to false</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

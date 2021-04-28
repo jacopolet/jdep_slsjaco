@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Used to register.custom classes that Implement Global interfaces exposed by Apttus for customization.</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Apttus_Config2__ActionCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Action callback class name. The class should implement the CustomClass.IActionCallback3 interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Action callback class name. The class should implement the CustomClass.IActionCallback3 interface.</inlineHelpText>
+        <label>Action Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ActionInvokerCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The action invoker callback class name. The class should implement the CustomClass.IActionInvokerCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The action invoker callback class name. The class should implement the CustomClass.IActionInvokerCallback interface.</inlineHelpText>
+        <label>Action Invoker Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ActionParamsCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The action parameters callback class name. The class should implement the CustomClass.IActionParamsCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The action parameters callback class name. The class should implement the CustomClass.IActionParamsCallback interface.</inlineHelpText>
+        <label>Action Params Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AdjustmentLineItemCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The adjustment line item callback class name. The class should implement the CustomClass.IAdjustmentLineItemCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The adjustment line item callback class name. The class should implement the CustomClass.IAdjustmentLineItemCallback interface.</inlineHelpText>
+        <label>Adjustment Line Item Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AdjustmentSpreadCallback__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The adjustment spread callback class name. The class should implement the CustomClass.IAdjustmentSpreadCallback interface</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The adjustment spread callback class name. The class should implement the CustomClass.IAdjustmentSpreadCallback interface</inlineHelpText>
+        <label>Adjustment Spread Callback</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AdvancedApprovalCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The advanced approval callback class name. The class should implement the CustomClass.IAdvancedApprovalCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The advanced approval callback class name. The class should implement the CustomClass.IAdvancedApprovalCallback interface.</inlineHelpText>
+        <label>Advanced Approval Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AssetLineItemCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The asset line item callback class name. The class should implement the CustomClass.IAssetLineItemCallback3 interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The asset line item callback class name. The class should implement the CustomClass.IAssetLineItemCallback2 interface.</inlineHelpText>
+        <label>Asset Line Item Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AssetRenewalCustomCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The asset renewal custom callback class name. The class should implement the CustomClass.IAssetRenewalCustomCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The asset renewal custom callback class name. The class should implement the CustomClass.IAssetRenewalCustomCallback interface.</inlineHelpText>
+        <label>Asset Renewal Custom Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BulkLoyaltyPointCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The bulk loyalty point callback class name. The class should implement the CustomClass.IBulkLoyaltyPointCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The bulk loyalty point callback class name. The class should implement the CustomClass.IBulkLoyaltyPointCallback interface.</inlineHelpText>
+        <label>Bulk Loyalty Point Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CartApprovalCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The cart approval callback class name. The class should implement the CustomClass.ICartApprovalCallback2 interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The cart approval callback class name. The class should implement the CustomClass.ICartApprovalCallback2 interface.</inlineHelpText>
+        <label>Cart Approval Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DealOptimizerCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The deal optimizer callback class name. The class should implement the CustomClass.IDealOptimizerCallback2 interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The deal optimizer callback class name. The class should implement the CustomClass.IDealOptimizerCallback2 interface.</inlineHelpText>
+        <label>Deal Optimizer Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DisplayActionCallbackCalss__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The display action callback class name. The class should implement the CustomClass.IDisplayActionCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The display action callback class name. The class should implement the CustomClass.IDisplayActionCallback interface.</inlineHelpText>
+        <label>Display Action Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__FormulaCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The formula callback class name. The class should implement the CustomClass.IFormulaCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The formula callback class name. The class should implement the CustomClass.IFormulaCallback interface.</inlineHelpText>
+        <label>Formula Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LoyaltyCycleCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The loyalty cycle callback class name. The class should implement the CustomClass.ILoyaltyCycleCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The loyalty cycle callback class name. The class should implement the CustomClass.ILoyaltyCycleCallback interface.</inlineHelpText>
+        <label>Loyalty Cycle Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LoyaltyPointCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The loyalty point callback class name. The class should implement the CustomClass.ILoyaltyPointCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The loyalty point callback class name. The class should implement the CustomClass.ILoyaltyPointCallback interface.</inlineHelpText>
+        <label>Loyalty Point Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MetadataCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The metadata callback class name. The class should implement the CustomClass.IMetadataCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The metadata callback class name. The class should implement the CustomClass.IMetadataCallback interface.</inlineHelpText>
+        <label>Metadata Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__OptionFilterCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Option filter callback class name. The class should implement the CustomClass.IOptionFilterCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Option filter callback class name. The class should implement the CustomClass.IOptionFilterCallback interface.</inlineHelpText>
+        <label>Option Filter Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PricingCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The pricing callback class name. The class should implement the CustomClass.IPricingCallback2 interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The pricing callback class name. The class should implement the CustomClass.IPricingCallback2 interface.</inlineHelpText>
+        <label>Pricing Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PricingExtensionCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The pricing extension callback class name. The class should implement the CustomClass.IPricingExtensionCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The pricing extension callback class name. The class should implement the CustomClass.IPricingExtensionCallback interface.</inlineHelpText>
+        <label>Pricing Extension Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductAttributeCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The product attribute callback class name. The class should implement the CustomClass.IProductAttributeCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The product attribute callback class name. The class should implement the CustomClass.IProductAttributeCallback interface.</inlineHelpText>
+        <label>Product Attribute Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductFilterCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The product filter callback class name. The class should implement the CustomClass.IProductFilterCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The product filter callback class name. The class should implement the CustomClass.IProductFilterCallback interface.</inlineHelpText>
+        <label>Product Filter Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RecommendationCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The recommendation callback class name. The class should implement the CustomClass.IRecommendationCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The recommendation callback class name. The class should implement the CustomClass.IRecommendationCallback interface.</inlineHelpText>
+        <label>Recommendation Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RelatedPricingCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The related pricing callback class name. The class should implement the CustomClass.IRelatedPricingCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The related pricing callback class name. The class should implement the CustomClass.IRelatedPricingCallback interface.</inlineHelpText>
+        <label>Related Pricing Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RevalidationCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Revalidation callback class name. The class should implement the CustomClass.IRevalidationCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Revalidation callback class name. The class should implement the CustomClass.IRevalidationCallback interface.</inlineHelpText>
+        <label>Revalidation Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ShippingCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The shipping callback class name. The class should implement the CustomClass.IShippingCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The shipping callback class name. The class should implement the CustomClass.IShippingCallback interface.</inlineHelpText>
+        <label>Shipping Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__TaxCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The tax callback class name. The class should implement the CustomClass.ITaxCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The tax callback class name. The class should implement the CustomClass.ITaxCallback interface.</inlineHelpText>
+        <label>Tax Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ValidationCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The validation callback class name. The class should implement the CustomClass.IValidationCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The validation callback class name. The class should implement the CustomClass.IValidationCallback interface.</inlineHelpText>
+        <label>Validation Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Config Custom Classes</label>
+    <visibility>Public</visibility>
+</CustomObject>

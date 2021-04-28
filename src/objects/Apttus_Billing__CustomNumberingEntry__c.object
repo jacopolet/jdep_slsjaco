@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Instances of the custom Numbering settings for all the Object Types supported.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Apttus_Billing__FieldFive__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The fifth field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The fifth field.</inlineHelpText>
+        <label>Field 5</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__FieldFour__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The fourth field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The fourth field.</inlineHelpText>
+        <label>Field 4</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__FieldOne__c</fullName>
+        <deprecated>false</deprecated>
+        <description>First Field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>First Field.</inlineHelpText>
+        <label>Field 1</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__FieldThree__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The third field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The third field.</inlineHelpText>
+        <label>Field 3</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__FieldTwo__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The second field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The second field.</inlineHelpText>
+        <label>Field 2</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__FormatSeparator__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Format Separator used in the custom number.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Format Separator used in the custom number.</inlineHelpText>
+        <label>Format Separator</label>
+        <length>4</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__NumberLength__c</fullName>
+        <defaultValue>9</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The Length of the Custom Number.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Length of the Custom Number.</inlineHelpText>
+        <label>Number Length</label>
+        <precision>2</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ObjectType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Invoice, Credit Memo, Refund, Payment</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Invoice, Credit Memo, Refund, Payment</inlineHelpText>
+        <label>Object Type</label>
+        <length>32</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__Prefix__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Prefix to be used in the custom number.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Prefix to be used in the custom number.</inlineHelpText>
+        <label>Prefix</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__StartingNumber__c</fullName>
+        <defaultValue>1</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Starting Number to be used in the Custom Numbering.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Starting Number to be used in the Custom Numbering.</inlineHelpText>
+        <label>Starting Number</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__Suffix__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Suffix to be used in the custom number.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Suffix to be used in the custom number.</inlineHelpText>
+        <label>Suffix</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Custom Numbering Entry</label>
+    <visibility>Public</visibility>
+</CustomObject>

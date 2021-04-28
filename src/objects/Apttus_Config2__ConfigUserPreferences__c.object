@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Configuration &amp; Pricing User preferences</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Apttus_Config2__CatalogProductsPerPage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of catalog products to show in the catalog page. Valid values are 10, 20, 50 &amp; 100.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of Catalog products to show in the configuration pages. Valid values are 10, 20, 50 &amp; 100.</inlineHelpText>
+        <label>Catalog Products Per Page</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CategoryPreference__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Category preferences for the user or profile. Enter a comma separated list of category names.</description>
+        <externalId>false</externalId>
+        <label>Category Preference</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CollapseErrorMessage__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>whether to collapse error message</description>
+        <externalId>false</externalId>
+        <label>Collapse Error Message</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CollapseInfoMessage__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Whether to collapse info message</description>
+        <externalId>false</externalId>
+        <label>Collapse Info Message</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CollapseQuickAddFilter__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the quick add filter will be collapsed by default.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the quick add filter will be collapsed by default.</inlineHelpText>
+        <label>Collapse Quick Add Filter</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CollapseWarningMessage__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Whether to collapse warning message</description>
+        <externalId>false</externalId>
+        <label>Collapse Warning Message</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Flow__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The default flow associated with the user</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The default flow associated with the user</inlineHelpText>
+        <label>Flow</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__GroupsPerPage__c</fullName>
+        <defaultValue>5</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Groups Per Page</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ItemsPerPage__c</fullName>
+        <defaultValue>10</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The number of browsed or searched products to show in the product selection page. valid values are 5, 10, 15, 20 &amp; 25.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of browsed or searched products to show in the product selection page. valid values are 5, 10, 15, 20 &amp; 25.</inlineHelpText>
+        <label>Items Per Page</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LoggingLevel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The logging level for JavaScript code.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The logging level for JavaScript code, valid values are Debug, Info, Error</inlineHelpText>
+        <label>Logging Level</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__OptionItemsPerPage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of displayed option products to show in the cart page. valid values are 5, 10, 15, 20 &amp; 25.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of displayed option products to show in the cart page. valid values are 5, 10, 15, 20 &amp; 25.</inlineHelpText>
+        <label>Option Items Per Page</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SelectedComparisonProducts__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Used to maintain selection of compared products, between the Catalog and the Compare Features page.</description>
+        <externalId>false</externalId>
+        <label>Selected Comparison Products</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SelectedProductsPerPage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of selected products to show in the configuration pages. Valid values are 5, 10, 15, 20 &amp; 25.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of selected products to show in the configuration pages. Valid values are 5, 10, 15, 20 &amp; 25.</inlineHelpText>
+        <label>Selected Products Per Page</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Config User Preferences</label>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Holds global defaults for context objects processed by the approval engine</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Apttus_Approval__ApprovalContextType__c</fullName>
+        <defaultValue>&quot;Single&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The approval context type associated with the process for the object
+
+Valid Values are:
+=============
+Single
+Multiple</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The approval context type associated with the process for the object
+
+Valid Values are:
+=============
+Single
+Multiple</inlineHelpText>
+        <label>Approval Context Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ApprovalGroupStatusField__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The API name of the approval group status field. Only applicable to custom context objects. If not specified, defaults to &quot;Approval_Group_Status__c&quot;.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The API name of the approval group status field. Only applicable to custom context objects. If not specified, defaults to &quot;Approval_Group_Status__c&quot;.</inlineHelpText>
+        <label>Approval Group Status Field</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ApprovalStatusField__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The API name of the approval status field. Only applicable to custom context objects. If not specified, defaults to &quot;Approval_Status__c&quot;.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The API name of the approval status field. Only applicable to custom context objects. If not specified, defaults to &quot;Approval_Status__c&quot;.</inlineHelpText>
+        <label>Approval Status Field</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ApprovalSummaryPage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the approval summary page. This will be the global default if not overridden for the approval process.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the approval summary page. This will be the global default if not overridden for the approval process.</inlineHelpText>
+        <label>Approval Summary Page</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__AssignmentEmailTemplate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the Email Template used to send notifications when an approval request is submitted. This will be the global default if not overridden for the approval process.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the Email Template used to send notifications when an approval request is submitted. This will be the global default if not overridden for the approval process.</inlineHelpText>
+        <label>Assignment Email Template</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__BackupAdminUser__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of backup administrator or leave blank to use the global default.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of backup administrator or leave blank to use the global default.</inlineHelpText>
+        <label>Backup Admin User</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__CancellationEmailTemplate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the Email Template used to send notifications when an approval request is cancelled. This will be the global default if not overridden for the approval process.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the Email Template used to send notifications when an approval request is cancelled. This will be the global default if not overridden for the approval process.</inlineHelpText>
+        <label>Cancellation Email Template</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ChildObjectTypes2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The list of child object types associated with the approval process for the parent object. This list is automatically maintained by the application.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The list of child object types associated with the approval process for the parent object. This list is automatically maintained by the application.</inlineHelpText>
+        <label>Child Object Types2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ChildObjectTypes__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The list of child object types associated with the approval process for the parent object. This list is automatically maintained by the application.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The list of child object types associated with the approval process for the parent object. This list is automatically maintained by the application.</inlineHelpText>
+        <label>Child Object Types</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__EnableAdhocApproval__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether Adhoc Approval is enabled for this object.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether Adhoc Approval is enabled for this object.</inlineHelpText>
+        <label>Enable Adhoc Approval</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__EscalationEmailTemplate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the Email Template used to send notifications when an approval request is escalated. This will be the global default if not overridden for the approval process.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the Email Template used to send notifications when an approval request is escalated. This will be the global default if not overridden for the approval process.</inlineHelpText>
+        <label>Escalation Email Template</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__IncludeChildObjAttachmentsForSubmit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether or not to include attachments associated with the current context object&apos;s children in the attachment selection screen when submitting for approval.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether or not to include attachments associated with the current context object&apos;s children in the attachment selection screen when submitting for approval.</inlineHelpText>
+        <label>Include Child Obj Attachments For Submit</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__MyApprovalsPage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of the My Approvals page used for showing consolidated approval requests</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the My Approvals page used for showing consolidated approval requests</inlineHelpText>
+        <label>My Approvals Page</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__NotifyOnlyEmailTemplate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the Email Template used to send notifications when a notify only process step is executed. This will be the global default if not overridden for the approval process.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the Email Template used to send notifications when a notify only process step is executed. This will be the global default if not overridden for the approval process.</inlineHelpText>
+        <label>NotifyOnly Email Template</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ParentReferenceField__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Parent object reference</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Parent object reference</inlineHelpText>
+        <label>Parent Reference Field</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__PreviewPage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of the Preview page used for showing consolidated approval requests preview</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the Preview page used for showing consolidated approval requests preview</inlineHelpText>
+        <label>Preview Page</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ReassignmentEmailTemplate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the Email Template used to send notifications when an approval request is reassigned. This will be the global default if not overridden for the approval process.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the Email Template used to send notifications when an approval request is reassigned. This will be the global default if not overridden for the approval process.</inlineHelpText>
+        <label>Reassignment Email Template</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ReminderEmailTemplate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the Email Template used to send notifications when an approval request needs a reminder.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the Email Template used to send notifications when an approval request needs a reminder.</inlineHelpText>
+        <label>Reminder Email Template</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ShowAllDocumentVersionDetails__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, this setting shows all agreement versions from the document version details related list.  When unchecked (default) it only shows the most recent version from the document versions related list.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, this setting shows all agreement versions from the document version details related list.  When unchecked (default) it only shows the most recent version from the document versions related list.</inlineHelpText>
+        <label>Show All Document Version Details</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__UseFilesInsteadOfNotesAndAttachments__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If checked the approvals engine will query all attachments from Files instead of Notes&amp;Attachment</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked the approvals engine will query all attachments from Files instead of Notes&amp;Attachment</inlineHelpText>
+        <label>Use Files Instead of Notes &amp; Attachments</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Approvals Custom Config</label>
+    <visibility>Public</visibility>
+</CustomObject>

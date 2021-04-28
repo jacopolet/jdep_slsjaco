@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>APTS_Execution_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Execution Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Indexation_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Indexation Category</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Products(Ingredients and &amp;More)</fullName>
+                    <default>false</default>
+                    <label>Products(Ingredients and &amp;More)</label>
+                </value>
+                <value>
+                    <fullName>Technical Services</fullName>
+                    <default>false</default>
+                    <label>Technical Services</label>
+                </value>
+                <value>
+                    <fullName>Machine Care Service</fullName>
+                    <default>false</default>
+                    <label>Machine Care Service</label>
+                </value>
+                <value>
+                    <fullName>Consumption Pricing</fullName>
+                    <default>false</default>
+                    <label>Consumption Pricing</label>
+                </value>
+                <value>
+                    <fullName>Maintenance Services</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Maintenance Services</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Indexation_Contract__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Indexation Contract</label>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipLabel>Index Executings</relationshipLabel>
+        <relationshipName>Index_Executings</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Indexation_Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Indexation Country</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>APTS_Country</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Indexation_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Indexation Number</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Is_Indexation_Executed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Indexation Executed</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Index Executing</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>APTS_Indexation_Country__c</columns>
+        <columns>APTS_Indexation_Contract__c</columns>
+        <columns>Is_Indexation_Executed__c</columns>
+        <columns>APTS_Execution_Date__c</columns>
+        <columns>APTS_Indexation_Category__c</columns>
+        <columns>APTS_Indexation_Number__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>IE-{00000}</displayFormat>
+        <label>Indexation Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Index Executings</pluralLabel>
+    <recordTypes>
+        <fullName>Execute_Contract</fullName>
+        <active>true</active>
+        <description>Only For Contract Specific</description>
+        <label>Execute Contract</label>
+        <picklistValues>
+            <picklist>APTS_Indexation_Category__c</picklist>
+            <values>
+                <fullName>Consumption Pricing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Care Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Products%28Ingredients and %26More%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Services</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>APTS_Indexation_Country__c</picklist>
+            <values>
+                <fullName>Belgium</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Denmark</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>France</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Germany</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Great Britain</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ireland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Netherlands</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Norway</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spain</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sweden</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Execute_Country</fullName>
+        <active>true</active>
+        <description>Only For Country Specific</description>
+        <label>Execute Country</label>
+        <picklistValues>
+            <picklist>APTS_Indexation_Category__c</picklist>
+            <values>
+                <fullName>Consumption Pricing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Care Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Products%28Ingredients and %26More%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Services</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>APTS_Indexation_Country__c</picklist>
+            <values>
+                <fullName>Belgium</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Denmark</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>France</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Germany</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Great Britain</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ireland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Netherlands</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Norway</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spain</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sweden</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>APTS_EmptyIndexationnumber</fullName>
+        <active>true</active>
+        <description>If Indexation number is empty</description>
+        <errorConditionFormula>ISBLANK(APTS_Indexation_Number__c)</errorConditionFormula>
+        <errorDisplayField>APTS_Indexation_Number__c</errorDisplayField>
+        <errorMessage>Please enter a defined indexation number</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>APTS_ExecutionDateValidation</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR( ISBLANK(APTS_Execution_Date__c), APTS_Execution_Date__c &lt;= TODAY())</errorConditionFormula>
+        <errorDisplayField>APTS_Execution_Date__c</errorDisplayField>
+        <errorMessage>Please enter a Execution Date which is tomorrow or later</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>ContractCountryValidation</fullName>
+        <active>true</active>
+        <description>Both Country and Contract cannot be defined for a record</description>
+        <errorConditionFormula>AND(
+      NOT(ISBLANK( APTS_Indexation_Contract__c )),
+      NOT(ISBLANK( TEXT(APTS_Indexation_Country__c )))
+ )</errorConditionFormula>
+        <errorMessage>Please define only Country for Standard indexation or Contract for Non-Standard indexation</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>New_Js</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>New Js</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/33.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/33.0/apex.js&quot;)} 
+
+
+window.open( &apos;/a7S/e?CF00N4E000001wT7B=Agreement+20%2F2%2F2018&amp;CF00N4E000001wT7B_lkid={!Apttus__APTS_Agreement__c.Id}&amp;RecordType=0124E0000009krY&amp;retURL={!Apttus__APTS_Agreement__c.Id}&apos;);</url>
+    </webLinks>
+</CustomObject>

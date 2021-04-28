@@ -1,0 +1,270 @@
+<template>
+
+    <template if:false={hasAccess}>
+        <div class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_error" role="alert" style="margin-top: 10px;">
+            <h2 class="slds-text-heading_x-medium">{portalErrorMessage}</h2>
+        </div>
+    </template>
+
+    <template if:true={hasAccess}>
+        <ol class="slds-setup-assistant" style="background: white;">
+            <li class="slds-setup-assistant__item">
+                <article class="slds-setup-assistant__step">
+                    <div class="slds-summary-detail">
+                        <button class="slds-button slds-button_icon slds-m-right_x-small slds-m-top_x-small"
+                            title="Toggle details for Add Users to Your Org" aria-controls="step-0-summary-action"
+                            aria-expanded="false">
+                            <svg class="slds-button__icon slds-summary-detail__action-icon" aria-hidden="true">
+                                <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#switch"></use>
+                            </svg>
+                            <span class="slds-assistive-text">Toggle details for Add Users to Your Org</span>
+                        </button>
+                        <div class="slds-container_fluid">
+                            <div class="slds-summary-detail__title">
+                                <div class="slds-setup-assistant__step-summary">
+                                    <div class="slds-media">
+                                        <div class="slds-media__figure">
+                                            <div class="slds-progress-ring slds-progress-ring_large">
+                                                <div class="slds-progress-ring__progress" role="progressbar" aria-valuemin="0"
+                                                    aria-valuemax="100" aria-valuenow="0">
+                                                    <svg viewBox="-1 -1 2 2">
+                                                        <path class="slds-progress-ring__path" id="slds-progress-ring-path-55"
+                                                            d="M 1 0 A 1 1 0 0 0 1.00 -0.00 L 0 0"></path>
+                                                    </svg>
+                                                </div>
+                                                <div class="slds-progress-ring__content">1</div>
+                                            </div>
+                                        </div>
+                                        <div class="slds-media__body slds-m-top_x-small">
+                                            <div class="slds-media">
+                                                <div class="slds-setup-assistant__step-summary-content slds-media__body">
+                                                    <h3
+                                                        class="slds-setup-assistant__step-summary-title slds-text-heading_small">
+                                                        Upload File
+                                                    </h3>
+                                                    <p>File must be in CSV format.</p>
+
+                                                    <!--br/>
+                                                    <lightning-radio-group name="radioGroup"
+                                                        label="Delimiter: "
+                                                        options={options}
+                                                        value={valueDelimiter}
+                                                        onchange={getSelection}
+                                                        type="radio">
+                                                    </lightning-radio-group!-->
+
+                                                     <!--Process Names picklist-->
+                                                     <br/>
+                                                     <lightning-combobox style="max-width:30%;"
+                                                                         label={picklistlabel} 
+                                                                         name={picklistlabel} 
+                                                                         onchange={handleValueChange} 
+                                                                         options={options}
+                                                                         placeholder="--Select a Process--"
+                                                                         value={selectedProcess}></lightning-combobox>
+                                                     
+                                                     <!--Table guide-->
+                                                    <template if:true={showTable}>
+                                                        <br/>
+                                                        <table class="slds-table slds-table_bordered slds-table_col-bordered" style="max-width:50%;">
+                                                            <thead>
+                                                                <tr class="slds-line-height_reset">
+                                                                    <th scope="col">
+                                                                        <span class="slds-truncate">Column Information </span>
+                                                                    </th>
+                                                                    <th scope="col">
+                                                                        <span class="slds-truncate">Details </span>
+                                                                    </th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="slds-hint-parent">
+                                                                        <span class="slds-truncate">Required Fields </span>        
+                                                                    </td>
+                                                                    <td class="slds-hint-parent">
+                                                                    <span class="slds-truncate">{requiredFields}</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="slds-hint-parent">
+                                                                        <span class="slds-truncate">Optional Fields </span>
+                                                                    </td>
+                                                                    <td class="slds-hint-parent">
+                                                                    <span class="slds-truncate">{optionalFields}</span>
+                                                                    </td>
+                                                                    
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="slds-hint-parent">
+                                                                        <span class="slds-truncate">Acceptable values of fields </span>
+                                                                    </td>
+                                                                    <td class="slds-hint-parent">
+                                                                    <span class="slds-truncate">
+                                                                        <template for:each={acceptableList} for:item="item">
+                                                                            <p key={item.id}>{item}</p>
+                                                                        </template>
+                                                                    </span>
+                                                                    </td>
+                                                                    
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="slds-hint-parent">
+                                                                        <span class="slds-truncate">Conditionally required fields </span>
+                                                                    </td>
+                                                                    <td class="slds-hint-parent"> 
+                                                                        <span class="slds-truncate">
+                                                                            <template for:each={conditionalList} for:item="conItem">
+                                                                                <p key={conItem.id}>If {conItem} is required. </p>
+                                                                            </template>
+                                                                        </span>
+                                                                    </td>
+                                                                </tr>
+                                                            
+                                                            </tbody> 
+                                                        </table>
+                                                    </template> 
+                                                </div>
+                                                <div class="slds-media__figure slds-media__figure_reverse">                      
+                                                    <div class="slds-form-element" style="background: white;">
+                                                        <span class="slds-form-element__label" id="file-selector-primary-label"></span>
+                                                        <div class="slds-form-element__control">
+                                                            <div class="slds-file-selector slds-file-selector_files">
+                                                                <div class="slds-file-selector__dropzone">
+                                                                    <input type="file" 
+                                                                        class="slds-file-selector__input slds-assistive-text" 
+                                                                        accept=".csv"
+                                                                        id="file-upload-input-01"
+                                                                        aura-id="testid"
+                                                                        onchange={handleFilesChange}/>
+                                                                    <label class="slds-file-selector__body" for="file-upload-input-01" id="file-selector-secondary-label">
+                                                                        <span class="slds-file-selector__button slds-button slds-button_neutral">
+                                                                            <lightning-icon icon-name="utility:upload" size="xx-small" alternative-text="Utility upload" title="Upload"></lightning-icon>
+                                                                            &nbsp; Upload File 
+                                                                        </span>
+                                                                    </label>
+                                                                </div>
+                                                                <template if:true={showLoadingSpinner}>
+                                                                    <lightning-spinner alternative-text="Uploading......" size="medium"></lightning-spinner>
+                                                                </template>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+            
+            <li class="slds-setup-assistant__item">
+                <article class="slds-setup-assistant__step">
+                    <div class="slds-summary-detail">
+                        <button class="slds-button slds-button_icon slds-m-right_x-small slds-m-top_x-small"
+                            title="Toggle details for Learn How to Use Profiles to control Visibility"
+                            aria-controls="step-2-summary-action" aria-expanded="false">
+                            <svg class="slds-button__icon slds-summary-detail__action-icon" aria-hidden="true">
+                                <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#switch"></use>
+                            </svg>
+                            <span class="slds-assistive-text">Toggle details for Learn How to Use Profiles to control
+                                Visibility</span>
+                        </button>
+                        <div class="slds-container_fluid">
+                            <div class="slds-summary-detail__title">
+                                <div class="slds-setup-assistant__step-summary">
+                                    <div class="slds-media">
+                                        <div class="slds-media__figure">
+                                            <div class="slds-progress-ring slds-progress-ring_large">
+                                                <div class="slds-progress-ring__progress" role="progressbar" aria-valuemin="0"
+                                                    aria-valuemax="100" aria-valuenow="0">
+                                                    <svg viewBox="-1 -1 2 2">
+                                                        <path class="slds-progress-ring__path" id="slds-progress-ring-path-51"
+                                                            d="M 1 0 A 1 1 0 0 0 1.00 -0.00 L 0 0"></path>
+                                                    </svg>
+                                                </div>
+                                                <div class="slds-progress-ring__content">2</div>
+                                            </div>
+                                        </div>
+                                        <div class="slds-media__body slds-m-top_x-small">
+                                            <div class="slds-media">
+                                                <div class="slds-setup-assistant__step-summary-content slds-media__body">
+                                                    <h3
+                                                        class="slds-setup-assistant__step-summary-title slds-text-heading_small">
+                                                        File Validation
+                                                    </h3>
+                                                    <p>The file will be validated if the headers are correct. If there is an error on the file, it will be shown below.</p>
+
+                                                    </br>
+                                                    
+                                                    <div style="color: red;font-weight: bold;"> {ErrorMessageFileValidation} </div>
+                                                    <div style="color: green;font-weight: bold;"> {SuccessMessageFileValidation} </div>
+
+                                                </div>
+                                                <div class="slds-media__figure slds-media__figure_reverse">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+
+            <li class="slds-setup-assistant__item">
+                <article class="slds-setup-assistant__step">
+                    <div class="slds-summary-detail">
+                        <button class="slds-button slds-button_icon slds-m-right_x-small slds-m-top_x-small"
+                            title="Toggle details for Turn on tracking for profiles" aria-controls="step-3-summary-action"
+                            aria-expanded="false">
+                            <svg class="slds-button__icon slds-summary-detail__action-icon" aria-hidden="true">
+                                <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#switch"></use>
+                            </svg>
+                            <span class="slds-assistive-text">Toggle details for Turn on tracking for profiles</span>
+                        </button>
+                        <div class="slds-container_fluid">
+                            <div class="slds-summary-detail__title">
+                                <div class="slds-setup-assistant__step-summary">
+                                    <div class="slds-media">
+                                        <div class="slds-media__figure">
+                                            <div class="slds-progress-ring slds-progress-ring_large">
+                                                <div class="slds-progress-ring__progress" role="progressbar" aria-valuemin="0"
+                                                    aria-valuemax="100" aria-valuenow="0">
+                                                    <svg viewBox="-1 -1 2 2">
+                                                        <path class="slds-progress-ring__path" id="slds-progress-ring-path-54"
+                                                            d="M 1 0 A 1 1 0 0 0 1.00 -0.00 L 0 0"></path>
+                                                    </svg>
+                                                </div>
+                                                <div class="slds-progress-ring__content">3</div>
+                                            </div>
+                                        </div>
+                                        <div class="slds-media__body slds-m-top_x-small">
+                                            <div class="slds-media">
+                                                <div class="slds-setup-assistant__step-summary-content slds-media__body">
+                                                    <h3
+                                                        class="slds-setup-assistant__step-summary-title slds-text-heading_small">
+                                                        Start Mass Upload
+                                                    </h3>
+                                                    <p>Once started, this service will run in the background. You will receive a notification once the upload is finished.</p>
+                                                </div>
+                                                <div class="slds-media__figure slds-media__figure_reverse">
+                                                    <button class="slds-button slds-button_brand" disabled={disableProceed} onclick={proceedUpload}>Proceed</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ol>
+    </template>
+</template>

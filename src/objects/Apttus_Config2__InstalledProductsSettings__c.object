@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Custom Settings for the Installed Products Page in Apttus CPQ</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Apttus_Config2__AccountHierarchyBatchSize__c</fullName>
+        <defaultValue>500</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates the number of Account Hierarchy records processed per batch execution. Recommended value is 500. Valid values range from 1 to 2000.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the number of Account Hierarchy records processed per batch execution. Recommended value is 500. Valid values range from 1 to 2000.</inlineHelpText>
+        <label>Account Hierarchy Batch Size</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AlertAssetRelatedToRenewalCart__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Display an alert when user tries to manually renew an asset associated with a system generated renewal cart</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Display an alert when user tries to manually renew an asset associated with a system generated renewal cart</inlineHelpText>
+        <label>Alert Asset Related To Renewal Cart</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AllowBackdatedTermination__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>No (By default) - By default user cannot specify a &quot;Cancellation Date&quot; earlier than today.
+Yes - User can specify cancellation date earlier than today. This may have additional impact on billing as invoice for the period may have already been generated.</description>
+        <externalId>false</externalId>
+        <label>Allow Backdated Termination</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AllowMassChange__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Allow Mass Change</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AmendChangeFields__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Comma separated line item field names whose values can turn an existing asset line into amended asset line.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Comma separated line item field names whose values can turn an existing asset line into amended asset line.</inlineHelpText>
+        <label>Amend Change Fields</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ApplyAdjustmentsToCurrentContractTerm__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether to keep the discounting limited to the current contract term</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Setting this indicator to true will result in the adjustments on ABO actions being applied to the current contract term only.</inlineHelpText>
+        <label>Apply Adj To Current Contract Term</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AssetCurrencyFieldPrecision__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds the number of decimal places for the asset currency fields.
+(used by the formatfields function)</description>
+        <externalId>false</externalId>
+        <label>Asset Currency Field Precision</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AssetSource__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates the account source which the asset line items will be retrieved from.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the account source which the asset line items will be retrieved from.</inlineHelpText>
+        <label>Asset Source</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AssetTerminationFields__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Comma separated field names to display during asset termination.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Comma separated field names to display during asset termination.</inlineHelpText>
+        <label>Asset Termination Fields</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BasePriceDefaultingMethodForRenewal__c</fullName>
+        <defaultValue>&quot;Net Unit Price&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates how the base price should be defaulted when the asset is renewed. Valid Values are:
+
+Net Unit Price (default if not specified)
+Higher Of Contract Unit Price / Net Unit Price
+Lower Of Contract Unit Price / Net Unit Price</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates how the base price should be defaulted when the asset is renewed. Valid Values are:
+
+Net Unit Price (default if not specified)
+Higher Of Contract Unit Price / Net Unit Price
+Lower Of Contract Unit Price / Net Unit Price</inlineHelpText>
+        <label>Base Price Defaulting Method For Renewal</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CoterminationPreferencesDuringRenewal__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Select one of more cotermination preference to be used during a renewal and define the default.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Cotermination Preferences During Renewal.</inlineHelpText>
+        <label>Cotermination Preferences During Renewal</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CreateRenewalOpportunity__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether a renewal opportunity should be created for system generated asset renewal quotes</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether a renewal opportunity should be created for system generated asset renewal quotes</inlineHelpText>
+        <label>Create Renewal Opportunity</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DefaultCoterminationOption__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Default end date preference for Cotermination.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Default end date preference for Cotermination.</inlineHelpText>
+        <label>Default Cotermination Option</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DefaultRenewalCoterminationOption__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Default cotermination preference during renewal.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Default cotermination preference during renewal.</inlineHelpText>
+        <label>Default Renewal Cotermination Option</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DefaultRenewalPriceList__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Default Renewal Price List</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__DefaultRenewalTerm__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When the value is provided use this value as the renewal term for Renewing products.  Number signifies months to renew as the end date.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When the value is provided use this value as the renewal term for Renewing products.  Number signifies months to renew as the end date.</inlineHelpText>
+        <label>Default Renewal Term</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EditableFieldsForCancelledLines__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Comma separated list of editable asset line item fields for cancelled lines.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Comma separated list of editable asset line item fields for cancelled lines.</inlineHelpText>
+        <label>Editable Fields For Cancelled Lines</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EnableOneTimeChange__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Allow users to make change to one time line item.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allow users to make change to one time line item.</inlineHelpText>
+        <label>Enable One Time Change</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EndDatePreferencesForCotermination__c</fullName>
+        <deprecated>false</deprecated>
+        <description>End Date preferences for Cotermination.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>End Date preferences for Cotermination.</inlineHelpText>
+        <label>End Date preferences for Cotermination</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__FilterFields__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Asset Line Fields to be displayed on filter.   Works with text fields and End Date.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Asset Line Fields to be displayed on filter.  Works with text fields and End Date.</inlineHelpText>
+        <label>Filter Fields</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__HideCoTerm__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Check to hide co-term end date on renew</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check to hide co-term end date on renew</inlineHelpText>
+        <label>Hide Co-Term</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MassEditActionCriteriaFields__c</fullName>
+        <deprecated>false</deprecated>
+        <description>List of comma separated asset line item field API names to enable the mass edit action</description>
+        <externalId>false</externalId>
+        <inlineHelpText>List of comma separated asset line item field API names to enable the mass edit action</inlineHelpText>
+        <label>Mass Edit Action Criteria Fields</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MaxRenewalGroupPerJob__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Max Renewal Group processed by one batch job. Used to limit the length of batch job to avoid too many running batch jobs.</description>
+        <externalId>false</externalId>
+        <label>Max Renewal Group Per Job</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MaxRenewalLineItemPerCart__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Max Renewal Line Item to be processed in one cart. Used to limit the size of product configuration to avoid exceeding CPU and SOQL limits.</description>
+        <externalId>false</externalId>
+        <label>Max Renewal Line Item Per Cart</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MaxRenewsPerTrip__c</fullName>
+        <defaultValue>20</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates the number of renewals that are processed before a server roundtrip is required.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>To prevent CPU timeout use a smaller number. Default is 20</inlineHelpText>
+        <label>Max Renews Per Trip</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MergeActionCriteriaFields__c</fullName>
+        <deprecated>false</deprecated>
+        <description>List of asset line item fields separated by comma to enable merge asset action</description>
+        <externalId>false</externalId>
+        <inlineHelpText>List of asset line item fields separated by comma to enable merge asset action</inlineHelpText>
+        <label>Merge Action Criteria Fields</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PurchaseIdentificationCriteria__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Identify the fields that determine the eligibility for cotermination and the cumulation of the quantity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>List of comma separated asset line item fields that determine the eligibility for cotermination and quantity cumulation.</inlineHelpText>
+        <label>Purchase Identification Criteria</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RelateActionCriteriaFields__c</fullName>
+        <deprecated>false</deprecated>
+        <description>List of asset line item fields separated by comma to enable relate asset action</description>
+        <externalId>false</externalId>
+        <inlineHelpText>List of asset line item fields separated by comma to enable relate asset action</inlineHelpText>
+        <label>Relate Action Criteria Fields</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RenewOneRamp__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Renew only one ramp line item based on the new term in order of renewal term in asset line item, default renewal term in installed product setting and selling term in asset line item.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Renew only one ramp line item based on the new term in order of renewal term in asset line item, default renewal term in installed product setting and selling term in asset line item.</inlineHelpText>
+        <label>Renew One Ramp</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RenewalBusinessObjectType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Quote or agreement used in renewal product configuration</description>
+        <externalId>false</externalId>
+        <label>Renewal Business Object Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RenewalDefaultPriceBook__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Default price book name used in renewal opportunity</description>
+        <externalId>false</externalId>
+        <label>Renewal Default Price Book</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RenewalExecutionMode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Renewal Execution Mode</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RenewalGroupFields__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Renewal Group Fields</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RenewalLeadTime__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Renewal Lead Time</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ShowAccountsFilter__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Display accounts filter in the installed products page</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Display accounts filter in the installed products page</inlineHelpText>
+        <label>Show Accounts Filter</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ShowAssets__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Determines whether current, parent, or child assets of the current asset&apos;s account will be shown. Accepted values are a comma separated string of Parents and/or Children. If empty, only context account assets are shown.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Comma separated values of Parents and/or Children or empty. If empty, only context account assets are shown. Examples: 1) parents 2) parents,children.</inlineHelpText>
+        <label>Show Assets</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ShowServiceCoverage__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Determines whether service coverage will be displayed for a primary service.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Determines whether service coverage will be displayed for a primary service.</inlineHelpText>
+        <label>Show Service Coverage</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SplitAssetActions__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Specify the actions that can be performed on a split asset</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specify the actions that can be performed on a split asset</inlineHelpText>
+        <label>Split Asset Actions</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SubmenuActions__c</fullName>
+        <deprecated>false</deprecated>
+        <description>List of actions to be displayed in the asset action submenu dropdowns separated by commas.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>List of actions to be displayed in the asset action submenu dropdowns separated by commas.</inlineHelpText>
+        <label>Submenu Actions</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <label>Installed Products Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

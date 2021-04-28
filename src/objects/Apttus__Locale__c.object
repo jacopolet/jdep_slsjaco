@@ -1,0 +1,2199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Provides locale support for templates</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Apttus__DefaultCurrencyPrecision__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Select Default Precision of Currency fields.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select Default Precision of Currency fields.</inlineHelpText>
+        <label>Default Currency Precision</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5</label>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                    <label>6</label>
+                </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                    <label>7</label>
+                </value>
+                <value>
+                    <fullName>8</fullName>
+                    <default>false</default>
+                    <label>8</label>
+                </value>
+                <value>
+                    <fullName>9</fullName>
+                    <default>false</default>
+                    <label>9</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__DefaultDateFormat__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Default Date Format</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Apttus__LocaleCode__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>dd MMM yyyy</fullName>
+                    <default>false</default>
+                    <label>dd MMM yyyy</label>
+                </value>
+                <value>
+                    <fullName>dd/MM/yyyy</fullName>
+                    <default>false</default>
+                    <label>dd/MM/yyyy</label>
+                </value>
+                <value>
+                    <fullName>dd/MM/yy</fullName>
+                    <default>false</default>
+                    <label>dd/MM/yy</label>
+                </value>
+                <value>
+                    <fullName>d/M/yy</fullName>
+                    <default>false</default>
+                    <label>d/M/yy</label>
+                </value>
+                <value>
+                    <fullName>d.M.yy</fullName>
+                    <default>false</default>
+                    <label>d.M.yy</label>
+                </value>
+                <value>
+                    <fullName>yyyy-MM-dd</fullName>
+                    <default>false</default>
+                    <label>yyyy-MM-dd</label>
+                </value>
+                <value>
+                    <fullName>dd MMMM yyyy</fullName>
+                    <default>false</default>
+                    <label>dd MMMM yyyy</label>
+                </value>
+                <value>
+                    <fullName>d MMMM yyyy</fullName>
+                    <default>false</default>
+                    <label>d MMMM yyyy</label>
+                </value>
+                <value>
+                    <fullName>dddd, d MMMM yyyy</fullName>
+                    <default>false</default>
+                    <label>dddd, d MMMM yyyy</label>
+                </value>
+                <value>
+                    <fullName>dddd, dd MMMM yyyy</fullName>
+                    <default>false</default>
+                    <label>dddd, dd MMMM yyyy</label>
+                </value>
+                <value>
+                    <fullName>d MMMM</fullName>
+                    <default>false</default>
+                    <label>d MMMM</label>
+                </value>
+                <value>
+                    <fullName>MMMM yyyy</fullName>
+                    <default>false</default>
+                    <label>MMMM yyyy</label>
+                </value>
+                <value>
+                    <fullName>yyyy/MM/dd</fullName>
+                    <default>false</default>
+                    <label>yyyy/MM/dd</label>
+                </value>
+                <value>
+                    <fullName>yy/MM/dd</fullName>
+                    <default>false</default>
+                    <label>yy/MM/dd</label>
+                </value>
+                <value>
+                    <fullName>yy/M/d</fullName>
+                    <default>false</default>
+                    <label>yy/M/d</label>
+                </value>
+                <value>
+                    <fullName>yyyy/M/d</fullName>
+                    <default>false</default>
+                    <label>yyyy/M/d</label>
+                </value>
+                <value>
+                    <fullName>yyyy&apos;年&apos;M&apos;月&apos;d&apos;日&apos;</fullName>
+                    <default>false</default>
+                    <label>yyyy&apos;年&apos;M&apos;月&apos;d&apos;日&apos;</label>
+                </value>
+                <value>
+                    <fullName>yyyy&apos;年&apos;MM&apos;月&apos;dd&apos;日&apos;</fullName>
+                    <default>false</default>
+                    <label>yyyy&apos;年&apos;MM&apos;月&apos;dd&apos;日&apos;</label>
+                </value>
+                <value>
+                    <fullName>yyyy&apos;年&apos;M&apos;月&apos;d&apos;日 &apos;dddd</fullName>
+                    <default>false</default>
+                    <label>yyyy&apos;年&apos;M&apos;月&apos;d&apos;日 &apos;dddd</label>
+                </value>
+                <value>
+                    <fullName>yyyy&apos;年&apos;MM&apos;月&apos;dd&apos;日 &apos;dddd</fullName>
+                    <default>false</default>
+                    <label>yyyy&apos;年&apos;MM&apos;月&apos;dd&apos;日 &apos;dddd</label>
+                </value>
+                <value>
+                    <fullName>yyyy&apos;年&apos;MMM&apos;月&apos;d&apos;日&apos;</fullName>
+                    <default>false</default>
+                    <label>yyyy&apos;年&apos;MMM&apos;月&apos;d&apos;日&apos;</label>
+                </value>
+                <value>
+                    <fullName>yyyy&apos;年&apos;MMM&apos;月&apos;d&apos;日 &apos;dddd</fullName>
+                    <default>false</default>
+                    <label>yyyy&apos;年&apos;MMM&apos;月&apos;d&apos;日 &apos;dddd</label>
+                </value>
+                <value>
+                    <fullName>yyyy&apos;年&apos;MMMMd&apos;日&apos;</fullName>
+                    <default>false</default>
+                    <label>yyyy&apos;年&apos;MMMMd&apos;日&apos;</label>
+                </value>
+                <value>
+                    <fullName>yyyy&apos;年&apos;MMMMd&apos;日 &apos;dddd</fullName>
+                    <default>false</default>
+                    <label>yyyy&apos;年&apos;MMMMd&apos;日 &apos;dddd</label>
+                </value>
+                <value>
+                    <fullName>M月d日</fullName>
+                    <default>false</default>
+                    <label>M月d日</label>
+                </value>
+                <value>
+                    <fullName>yyyy&apos;年&apos;M&apos;月&apos;</fullName>
+                    <default>false</default>
+                    <label>yyyy&apos;年&apos;M&apos;月&apos;</label>
+                </value>
+                <value>
+                    <fullName>yyyy&apos;年&apos;MMM&apos;月&apos;</fullName>
+                    <default>false</default>
+                    <label>yyyy&apos;年&apos;MMM&apos;月&apos;</label>
+                </value>
+                <value>
+                    <fullName>yyyy&apos;年&apos;MMMM</fullName>
+                    <default>false</default>
+                    <label>yyyy&apos;年&apos;MMMM</label>
+                </value>
+                <value>
+                    <fullName>yy-MM-dd</fullName>
+                    <default>false</default>
+                    <label>yy-MM-dd</label>
+                </value>
+                <value>
+                    <fullName>M/dd/yy</fullName>
+                    <default>false</default>
+                    <label>M/dd/yy</label>
+                </value>
+                <value>
+                    <fullName>dd-MMM-yy</fullName>
+                    <default>false</default>
+                    <label>dd-MMM-yy</label>
+                </value>
+                <value>
+                    <fullName>dd-MMM-yyyy</fullName>
+                    <default>false</default>
+                    <label>dd-MMM-yyyy</label>
+                </value>
+                <value>
+                    <fullName>MMMM d, yyyy</fullName>
+                    <default>false</default>
+                    <label>MMMM d, yyyy</label>
+                </value>
+                <value>
+                    <fullName>dddd, MMMM dd, yyyy</fullName>
+                    <default>false</default>
+                    <label>dddd, MMMM dd, yyyy</label>
+                </value>
+                <value>
+                    <fullName>MMMM-dd-yy</fullName>
+                    <default>false</default>
+                    <label>MMMM-dd-yy</label>
+                </value>
+                <value>
+                    <fullName>d-MMM-yy</fullName>
+                    <default>false</default>
+                    <label>d-MMM-yy</label>
+                </value>
+                <value>
+                    <fullName>MMMM, yyyy</fullName>
+                    <default>false</default>
+                    <label>MMMM, yyyy</label>
+                </value>
+                <value>
+                    <fullName>d MMM yyyy</fullName>
+                    <default>false</default>
+                    <label>d MMM yyyy</label>
+                </value>
+                <value>
+                    <fullName>dddd d MMMM yyyy</fullName>
+                    <default>false</default>
+                    <label>dddd d MMMM yyyy</label>
+                </value>
+                <value>
+                    <fullName>dd.M.yy</fullName>
+                    <default>false</default>
+                    <label>dd.M.yy</label>
+                </value>
+                <value>
+                    <fullName>dd/MMM/yyyy</fullName>
+                    <default>false</default>
+                    <label>dd/MMM/yyyy</label>
+                </value>
+                <value>
+                    <fullName>dd.MM.yyyy</fullName>
+                    <default>false</default>
+                    <label>dd.MM.yyyy</label>
+                </value>
+                <value>
+                    <fullName>dd.MM.yy</fullName>
+                    <default>false</default>
+                    <label>dd.MM.yy</label>
+                </value>
+                <value>
+                    <fullName>dd. MMM. yyyy</fullName>
+                    <default>false</default>
+                    <label>dd. MMM. yyyy</label>
+                </value>
+                <value>
+                    <fullName>dddd, d. MMMM yyyy</fullName>
+                    <default>false</default>
+                    <label>dddd, d. MMMM yyyy</label>
+                </value>
+                <value>
+                    <fullName>d. MMMM yyyy</fullName>
+                    <default>false</default>
+                    <label>d. MMMM yyyy</label>
+                </value>
+                <value>
+                    <fullName>d. MMM. yyyy</fullName>
+                    <default>false</default>
+                    <label>d. MMM. yyyy</label>
+                </value>
+                <value>
+                    <fullName>d. MMMM</fullName>
+                    <default>false</default>
+                    <label>d. MMMM</label>
+                </value>
+                <value>
+                    <fullName>yyyy&apos;年&apos;M&apos;月&apos;d&apos;日&apos;, dddd</fullName>
+                    <default>false</default>
+                    <label>yyyy&apos;年&apos;M&apos;月&apos;d&apos;日&apos;, dddd</label>
+                </value>
+                <value>
+                    <fullName>dddd, yyyy&apos;年&apos;M&apos;月&apos;d&apos;日&apos;</fullName>
+                    <default>false</default>
+                    <label>dddd, yyyy&apos;年&apos;M&apos;月&apos;d&apos;日&apos;</label>
+                </value>
+                <value>
+                    <fullName>yyyy年MMMd日</fullName>
+                    <default>false</default>
+                    <label>yyyy年MMMd日</label>
+                </value>
+                <value>
+                    <fullName>yyyy年MMMd日, dddd</fullName>
+                    <default>false</default>
+                    <label>yyyy年MMMd日, dddd</label>
+                </value>
+                <value>
+                    <fullName>yyyy&apos;年&apos;MMM</fullName>
+                    <default>false</default>
+                    <label>yyyy&apos;年&apos;MMM</label>
+                </value>
+                <value>
+                    <fullName>yyyy.M</fullName>
+                    <default>false</default>
+                    <label>yyyy.M</label>
+                </value>
+                <value>
+                    <fullName>yy.M.d</fullName>
+                    <default>false</default>
+                    <label>yy.M.d</label>
+                </value>
+                <value>
+                    <fullName>yy-M-d</fullName>
+                    <default>false</default>
+                    <label>yy-M-d</label>
+                </value>
+                <value>
+                    <fullName>yyyy.MM.dd</fullName>
+                    <default>false</default>
+                    <label>yyyy.MM.dd</label>
+                </value>
+                <value>
+                    <fullName>yyyy.M.d</fullName>
+                    <default>false</default>
+                    <label>yyyy.M.d</label>
+                </value>
+                <value>
+                    <fullName>yyyy-M-d</fullName>
+                    <default>false</default>
+                    <label>yyyy-M-d</label>
+                </value>
+                <value>
+                    <fullName>d/MM/yy</fullName>
+                    <default>false</default>
+                    <label>d/MM/yy</label>
+                </value>
+                <value>
+                    <fullName>d-M-yy</fullName>
+                    <default>false</default>
+                    <label>d-M-yy</label>
+                </value>
+                <value>
+                    <fullName>dd-MM-yy</fullName>
+                    <default>false</default>
+                    <label>dd-MM-yy</label>
+                </value>
+                <value>
+                    <fullName>dddd, d&apos; de &apos;MMMM&apos; de &apos;yyyy</fullName>
+                    <default>false</default>
+                    <label>dddd, d&apos; de &apos;MMMM&apos; de &apos;yyyy</label>
+                </value>
+                <value>
+                    <fullName>dddd d&apos; de &apos;MMMM&apos; de &apos;yyyy</fullName>
+                    <default>false</default>
+                    <label>dddd d&apos; de &apos;MMMM&apos; de &apos;yyyy</label>
+                </value>
+                <value>
+                    <fullName>d&apos; de &apos;MMMM&apos; de &apos;yyyy</fullName>
+                    <default>false</default>
+                    <label>d&apos; de &apos;MMMM&apos; de &apos;yyyy</label>
+                </value>
+                <value>
+                    <fullName>d &apos;de&apos; MMMM</fullName>
+                    <default>false</default>
+                    <label>d &apos;de&apos; MMMM</label>
+                </value>
+                <value>
+                    <fullName>MMMM&apos; de &apos;yyyy</fullName>
+                    <default>false</default>
+                    <label>MMMM&apos; de &apos;yyyy</label>
+                </value>
+                <value>
+                    <fullName>yyyy&apos;년&apos; M&apos;월&apos; d&apos;일&apos; dddd</fullName>
+                    <default>false</default>
+                    <label>yyyy&apos;년&apos; M&apos;월&apos; d&apos;일&apos; dddd</label>
+                </value>
+                <value>
+                    <fullName>yyyy&apos;년&apos; M&apos;월&apos; d&apos;일&apos;</fullName>
+                    <default>false</default>
+                    <label>yyyy&apos;년&apos; M&apos;월&apos; d&apos;일&apos;</label>
+                </value>
+                <value>
+                    <fullName>yy&apos;년&apos; M&apos;월&apos; d&apos;일&apos; dddd</fullName>
+                    <default>false</default>
+                    <label>yy&apos;년&apos; M&apos;월&apos; d&apos;일&apos; dddd</label>
+                </value>
+                <value>
+                    <fullName>yy&apos;년&apos; M&apos;월&apos; d&apos;일&apos;</fullName>
+                    <default>false</default>
+                    <label>yy&apos;년&apos; M&apos;월&apos; d&apos;일&apos;</label>
+                </value>
+                <value>
+                    <fullName>yyyy&apos;년&apos; MM&apos;월&apos; dd&apos;일&apos; dddd</fullName>
+                    <default>false</default>
+                    <label>yyyy&apos;년&apos; MM&apos;월&apos; dd&apos;일&apos; dddd</label>
+                </value>
+                <value>
+                    <fullName>yyyy&apos;년&apos; MM&apos;월&apos; dd&apos;일&apos;</fullName>
+                    <default>false</default>
+                    <label>yyyy&apos;년&apos; MM&apos;월&apos; dd&apos;일&apos;</label>
+                </value>
+                <value>
+                    <fullName>yyyy&apos;년 &apos;MMM&apos;월 &apos;d&apos;일 &apos;dddd</fullName>
+                    <default>false</default>
+                    <label>yyyy&apos;년 &apos;MMM&apos;월 &apos;d&apos;일 &apos;dddd</label>
+                </value>
+                <value>
+                    <fullName>yyyy&apos;년 &apos;MMM&apos;월 &apos;d&apos;일&apos;</fullName>
+                    <default>false</default>
+                    <label>yyyy&apos;년 &apos;MMM&apos;월 &apos;d&apos;일&apos;</label>
+                </value>
+                <value>
+                    <fullName>yyyy&apos;년 &apos;MMMM d&apos;일 &apos;dddd</fullName>
+                    <default>false</default>
+                    <label>yyyy&apos;년 &apos;MMMM d&apos;일 &apos;dddd</label>
+                </value>
+                <value>
+                    <fullName>yyyy&apos;년 &apos;MMMM d&apos;일&apos;</fullName>
+                    <default>false</default>
+                    <label>yyyy&apos;년 &apos;MMMM d&apos;일&apos;</label>
+                </value>
+                <value>
+                    <fullName>M월 d일</fullName>
+                    <default>false</default>
+                    <label>M월 d일</label>
+                </value>
+                <value>
+                    <fullName>yyyy&apos;년&apos; M&apos;월&apos;</fullName>
+                    <default>false</default>
+                    <label>yyyy&apos;년&apos; M&apos;월&apos;</label>
+                </value>
+                <value>
+                    <fullName>yyyy&apos;년&apos; MMM&apos;월&apos;</fullName>
+                    <default>false</default>
+                    <label>yyyy&apos;년&apos; MMM&apos;월&apos;</label>
+                </value>
+                <value>
+                    <fullName>yyyy&apos;년&apos; MMMM</fullName>
+                    <default>false</default>
+                    <label>yyyy&apos;년&apos; MMMM</label>
+                </value>
+                <value>
+                    <fullName>d/M/yyyy</fullName>
+                    <default>false</default>
+                    <label>d/M/yyyy</label>
+                </value>
+                <value>
+                    <fullName>ddd d MMMM yyyy</fullName>
+                    <default>false</default>
+                    <label>ddd d MMMM yyyy</label>
+                </value>
+                <value>
+                    <fullName>วัน&apos;dddd&apos;ที่&apos; d MMMM gg yyyy</fullName>
+                    <default>false</default>
+                    <label>วัน&apos;dddd&apos;ที่&apos; d MMMM gg yyyy</label>
+                </value>
+                <value>
+                    <fullName>&apos;den &apos;d MMMM yyyy</fullName>
+                    <default>false</default>
+                    <label>&apos;den &apos;d MMMM yyyy</label>
+                </value>
+                <value>
+                    <fullName>dddd&apos; den &apos;d MMMM yyyy</fullName>
+                    <default>false</default>
+                    <label>dddd&apos; den &apos;d MMMM yyyy</label>
+                </value>
+                <value>
+                    <fullName>&apos;den &apos;d MMMM</fullName>
+                    <default>false</default>
+                    <label>&apos;den &apos;d MMMM</label>
+                </value>
+                <value>
+                    <fullName>d. MMM yyyy</fullName>
+                    <default>false</default>
+                    <label>d. MMM yyyy</label>
+                </value>
+                <value>
+                    <fullName>dddd d. MMMM yyyy</fullName>
+                    <default>false</default>
+                    <label>dddd d. MMMM yyyy</label>
+                </value>
+                <value>
+                    <fullName>dd-MM-yyyy</fullName>
+                    <default>false</default>
+                    <label>dd-MM-yyyy</label>
+                </value>
+                <value>
+                    <fullName>d MMMM yyyy &apos;г.&apos;</fullName>
+                    <default>false</default>
+                    <label>d MMMM yyyy &apos;г.&apos;</label>
+                </value>
+                <value>
+                    <fullName>dd MMMM yyyy &apos;г.&apos;</fullName>
+                    <default>false</default>
+                    <label>dd MMMM yyyy &apos;г.&apos;</label>
+                </value>
+                <value>
+                    <fullName>dddd, d MMMM yyyy &apos;г.&apos;</fullName>
+                    <default>false</default>
+                    <label>dddd, d MMMM yyyy &apos;г.&apos;</label>
+                </value>
+                <value>
+                    <fullName>d-M-yyyy</fullName>
+                    <default>false</default>
+                    <label>d-M-yyyy</label>
+                </value>
+                <value>
+                    <fullName>dd.MMM.yyyy</fullName>
+                    <default>false</default>
+                    <label>dd.MMM.yyyy</label>
+                </value>
+                <value>
+                    <fullName>d.M.yyyy</fullName>
+                    <default>false</default>
+                    <label>d.M.yyyy</label>
+                </value>
+                <value>
+                    <fullName>M/d/yyyy</fullName>
+                    <default>false</default>
+                    <label>M/d/yyyy</label>
+                </value>
+                <value>
+                    <fullName>M/d/yy</fullName>
+                    <default>false</default>
+                    <label>M/d/yy</label>
+                </value>
+                <value>
+                    <fullName>MM/dd/yy</fullName>
+                    <default>false</default>
+                    <label>MM/dd/yy</label>
+                </value>
+                <value>
+                    <fullName>MM/dd/yyyy</fullName>
+                    <default>false</default>
+                    <label>MM/dd/yyyy</label>
+                </value>
+                <value>
+                    <fullName>dddd, MMMM d, yyyy</fullName>
+                    <default>false</default>
+                    <label>dddd, MMMM d, yyyy</label>
+                </value>
+                <value>
+                    <fullName>dddd, d MMMM, yyyy</fullName>
+                    <default>false</default>
+                    <label>dddd, d MMMM, yyyy</label>
+                </value>
+                <value>
+                    <fullName>d MMMM, yyyy</fullName>
+                    <default>false</default>
+                    <label>d MMMM, yyyy</label>
+                </value>
+                <value>
+                    <fullName>MMMM d</fullName>
+                    <default>false</default>
+                    <label>MMMM d</label>
+                </value>
+                <value>
+                    <fullName>dddd, d &apos;de&apos; MMMM &apos;de&apos; yyyy</fullName>
+                    <default>false</default>
+                    <label>dddd, d &apos;de&apos; MMMM &apos;de&apos; yyyy</label>
+                </value>
+                <value>
+                    <fullName>d &apos;de&apos; MMMM &apos;de&apos; yyyy</fullName>
+                    <default>false</default>
+                    <label>d &apos;de&apos; MMMM &apos;de&apos; yyyy</label>
+                </value>
+                <value>
+                    <fullName>MMMM &apos;de&apos; yyyy</fullName>
+                    <default>false</default>
+                    <label>MMMM &apos;de&apos; yyyy</label>
+                </value>
+                <value>
+                    <fullName>dddd, &apos;ils&apos; d &apos;da&apos; MMMM yyyy</fullName>
+                    <default>false</default>
+                    <label>dddd, &apos;ils&apos; d &apos;da&apos; MMMM yyyy</label>
+                </value>
+                <value>
+                    <fullName>d &apos;da&apos; MMMM yyyy</fullName>
+                    <default>false</default>
+                    <label>d &apos;da&apos; MMMM yyyy</label>
+                </value>
+                <value>
+                    <fullName>yyyy MMMM</fullName>
+                    <default>false</default>
+                    <label>yyyy MMMM</label>
+                </value>
+                <value>
+                    <fullName>MMM d, yyyy</fullName>
+                    <default>false</default>
+                    <label>MMM d, yyyy</label>
+                </value>
+                <value>
+                    <fullName>d.M.yyyy &apos;г.&apos;</fullName>
+                    <default>false</default>
+                    <label>d.M.yyyy &apos;г.&apos;</label>
+                </value>
+                <value>
+                    <fullName>dd.M.yyyy &apos;г.&apos;</fullName>
+                    <default>false</default>
+                    <label>dd.M.yyyy &apos;г.&apos;</label>
+                </value>
+                <value>
+                    <fullName>d.MM.yyyy &apos;г.&apos;</fullName>
+                    <default>false</default>
+                    <label>d.MM.yyyy &apos;г.&apos;</label>
+                </value>
+                <value>
+                    <fullName>dd.MM.yyyy &apos;г.&apos;</fullName>
+                    <default>false</default>
+                    <label>dd.MM.yyyy &apos;г.&apos;</label>
+                </value>
+                <value>
+                    <fullName>dddd, dd MMMM yyyy &apos;г.&apos;</fullName>
+                    <default>false</default>
+                    <label>dddd, dd MMMM yyyy &apos;г.&apos;</label>
+                </value>
+                <value>
+                    <fullName>MMMM yyyy &apos;г.&apos;</fullName>
+                    <default>false</default>
+                    <label>MMMM yyyy &apos;г.&apos;</label>
+                </value>
+                <value>
+                    <fullName>d.M.yyyy.</fullName>
+                    <default>false</default>
+                    <label>d.M.yyyy.</label>
+                </value>
+                <value>
+                    <fullName>d.M.yy.</fullName>
+                    <default>false</default>
+                    <label>d.M.yy.</label>
+                </value>
+                <value>
+                    <fullName>d. M. yyyy.</fullName>
+                    <default>false</default>
+                    <label>d. M. yyyy.</label>
+                </value>
+                <value>
+                    <fullName>dd.MM.yyyy.</fullName>
+                    <default>false</default>
+                    <label>dd.MM.yyyy.</label>
+                </value>
+                <value>
+                    <fullName>d. M. yy.</fullName>
+                    <default>false</default>
+                    <label>d. M. yy.</label>
+                </value>
+                <value>
+                    <fullName>dd.MM.yy.</fullName>
+                    <default>false</default>
+                    <label>dd.MM.yy.</label>
+                </value>
+                <value>
+                    <fullName>dd. MM. yy.</fullName>
+                    <default>false</default>
+                    <label>dd. MM. yy.</label>
+                </value>
+                <value>
+                    <fullName>d. MMMM yyyy.</fullName>
+                    <default>false</default>
+                    <label>d. MMMM yyyy.</label>
+                </value>
+                <value>
+                    <fullName>dd. MMMM yyyy.</fullName>
+                    <default>false</default>
+                    <label>dd. MMMM yyyy.</label>
+                </value>
+                <value>
+                    <fullName>dddd, d. MMMM yyyy.</fullName>
+                    <default>false</default>
+                    <label>dddd, d. MMMM yyyy.</label>
+                </value>
+                <value>
+                    <fullName>yyyy. MM. dd.</fullName>
+                    <default>false</default>
+                    <label>yyyy. MM. dd.</label>
+                </value>
+                <value>
+                    <fullName>yyyy. MMM d.</fullName>
+                    <default>false</default>
+                    <label>yyyy. MMM d.</label>
+                </value>
+                <value>
+                    <fullName>yyyy. MMMM d., dddd</fullName>
+                    <default>false</default>
+                    <label>yyyy. MMMM d., dddd</label>
+                </value>
+                <value>
+                    <fullName>yyyy. MMMM d.</fullName>
+                    <default>false</default>
+                    <label>yyyy. MMMM d.</label>
+                </value>
+                <value>
+                    <fullName>MMMM d.</fullName>
+                    <default>false</default>
+                    <label>MMMM d.</label>
+                </value>
+                <value>
+                    <fullName>yyyy. MMMM</fullName>
+                    <default>false</default>
+                    <label>yyyy. MMMM</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>nb-NO</controllingFieldValue>
+                <controllingFieldValue>pl-PL</controllingFieldValue>
+                <controllingFieldValue>ru-RU</controllingFieldValue>
+                <controllingFieldValue>sv-SE</controllingFieldValue>
+                <controllingFieldValue>th-TH</controllingFieldValue>
+                <controllingFieldValue>en-US</controllingFieldValue>
+                <controllingFieldValue>fil-PH</controllingFieldValue>
+                <controllingFieldValue>fr-CH</controllingFieldValue>
+                <controllingFieldValue>gsw-CH</controllingFieldValue>
+                <controllingFieldValue>it-CH</controllingFieldValue>
+                <controllingFieldValue>it-IT</controllingFieldValue>
+                <controllingFieldValue>de-CH</controllingFieldValue>
+                <controllingFieldValue>de-DE</controllingFieldValue>
+                <controllingFieldValue>el-GR</controllingFieldValue>
+                <controllingFieldValue>en-CA</controllingFieldValue>
+                <controllingFieldValue>en-CH</controllingFieldValue>
+                <controllingFieldValue>en-GB</controllingFieldValue>
+                <controllingFieldValue>en-IE</controllingFieldValue>
+                <controllingFieldValue>en-PH</controllingFieldValue>
+                <valueName>MMMM yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>nb-NO</controllingFieldValue>
+                <controllingFieldValue>gsw-CH</controllingFieldValue>
+                <controllingFieldValue>de-DE</controllingFieldValue>
+                <valueName>d. MMMM yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>nb-NO</controllingFieldValue>
+                <controllingFieldValue>rm-CH</controllingFieldValue>
+                <controllingFieldValue>gsw-CH</controllingFieldValue>
+                <controllingFieldValue>hr-HR</controllingFieldValue>
+                <controllingFieldValue>de-CH</controllingFieldValue>
+                <controllingFieldValue>de-DE</controllingFieldValue>
+                <valueName>d. MMMM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>nb-NO</controllingFieldValue>
+                <controllingFieldValue>wae-CH</controllingFieldValue>
+                <valueName>d. MMM yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>nb-NO</controllingFieldValue>
+                <valueName>dddd d. MMMM yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>nb-NO</controllingFieldValue>
+                <controllingFieldValue>fr-CH</controllingFieldValue>
+                <controllingFieldValue>hr-HR</controllingFieldValue>
+                <controllingFieldValue>de-CH</controllingFieldValue>
+                <valueName>dd.MM.yyyy.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>pl-PL</controllingFieldValue>
+                <controllingFieldValue>th-TH</controllingFieldValue>
+                <controllingFieldValue>fr-CH</controllingFieldValue>
+                <controllingFieldValue>it-CH</controllingFieldValue>
+                <controllingFieldValue>it-IT</controllingFieldValue>
+                <controllingFieldValue>el-GR</controllingFieldValue>
+                <controllingFieldValue>en-CH</controllingFieldValue>
+                <controllingFieldValue>en-GB</controllingFieldValue>
+                <controllingFieldValue>en-IE</controllingFieldValue>
+                <controllingFieldValue>en-PH</controllingFieldValue>
+                <valueName>d MMMM yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>pl-PL</controllingFieldValue>
+                <controllingFieldValue>fr-CH</controllingFieldValue>
+                <controllingFieldValue>it-CH</controllingFieldValue>
+                <controllingFieldValue>el-GR</controllingFieldValue>
+                <controllingFieldValue>en-CH</controllingFieldValue>
+                <controllingFieldValue>en-GB</controllingFieldValue>
+                <controllingFieldValue>en-PH</controllingFieldValue>
+                <valueName>dddd, d MMMM yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>pl-PL</controllingFieldValue>
+                <controllingFieldValue>ru-RU</controllingFieldValue>
+                <controllingFieldValue>th-TH</controllingFieldValue>
+                <controllingFieldValue>fr-CH</controllingFieldValue>
+                <controllingFieldValue>it-CH</controllingFieldValue>
+                <controllingFieldValue>it-IT</controllingFieldValue>
+                <controllingFieldValue>bg-BG</controllingFieldValue>
+                <controllingFieldValue>el-GR</controllingFieldValue>
+                <controllingFieldValue>en-CA</controllingFieldValue>
+                <controllingFieldValue>en-CH</controllingFieldValue>
+                <controllingFieldValue>en-GB</controllingFieldValue>
+                <controllingFieldValue>en-IE</controllingFieldValue>
+                <controllingFieldValue>en-PH</controllingFieldValue>
+                <valueName>d MMMM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>pl-PL</controllingFieldValue>
+                <controllingFieldValue>pt-BR</controllingFieldValue>
+                <controllingFieldValue>ru-RU</controllingFieldValue>
+                <controllingFieldValue>gsw-CH</controllingFieldValue>
+                <controllingFieldValue>it-CH</controllingFieldValue>
+                <controllingFieldValue>de-DE</controllingFieldValue>
+                <valueName>dd.MM.yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>pt-BR</controllingFieldValue>
+                <controllingFieldValue>pt-CH</controllingFieldValue>
+                <controllingFieldValue>th-TH</controllingFieldValue>
+                <controllingFieldValue>es-ES</controllingFieldValue>
+                <controllingFieldValue>it-IT</controllingFieldValue>
+                <controllingFieldValue>el-GR</controllingFieldValue>
+                <controllingFieldValue>en-CA</controllingFieldValue>
+                <controllingFieldValue>en-CH</controllingFieldValue>
+                <controllingFieldValue>en-GB</controllingFieldValue>
+                <controllingFieldValue>en-IE</controllingFieldValue>
+                <controllingFieldValue>en-PH</controllingFieldValue>
+                <valueName>dd/MM/yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>pt-BR</controllingFieldValue>
+                <controllingFieldValue>ru-RU</controllingFieldValue>
+                <controllingFieldValue>th-TH</controllingFieldValue>
+                <controllingFieldValue>es-ES</controllingFieldValue>
+                <controllingFieldValue>it-IT</controllingFieldValue>
+                <controllingFieldValue>el-GR</controllingFieldValue>
+                <controllingFieldValue>en-CA</controllingFieldValue>
+                <controllingFieldValue>en-GB</controllingFieldValue>
+                <valueName>dd/MM/yy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>pt-BR</controllingFieldValue>
+                <controllingFieldValue>th-TH</controllingFieldValue>
+                <controllingFieldValue>es-ES</controllingFieldValue>
+                <controllingFieldValue>it-IT</controllingFieldValue>
+                <controllingFieldValue>el-GR</controllingFieldValue>
+                <controllingFieldValue>en-CA</controllingFieldValue>
+                <controllingFieldValue>en-GB</controllingFieldValue>
+                <valueName>d/M/yy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>pt-BR</controllingFieldValue>
+                <controllingFieldValue>ru-RU</controllingFieldValue>
+                <controllingFieldValue>en-GB</controllingFieldValue>
+                <valueName>d.M.yy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>pt-BR</controllingFieldValue>
+                <controllingFieldValue>sv-SE</controllingFieldValue>
+                <controllingFieldValue>th-TH</controllingFieldValue>
+                <controllingFieldValue>wae-CH</controllingFieldValue>
+                <controllingFieldValue>zh-CN</controllingFieldValue>
+                <controllingFieldValue>en-US</controllingFieldValue>
+                <controllingFieldValue>es-ES</controllingFieldValue>
+                <controllingFieldValue>hr-HR</controllingFieldValue>
+                <controllingFieldValue>de-DE</controllingFieldValue>
+                <controllingFieldValue>el-GR</controllingFieldValue>
+                <controllingFieldValue>en-CA</controllingFieldValue>
+                <controllingFieldValue>en-GB</controllingFieldValue>
+                <controllingFieldValue>ja-JP</controllingFieldValue>
+                <controllingFieldValue>ko-KR</controllingFieldValue>
+                <valueName>yyyy-MM-dd</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>pt-BR</controllingFieldValue>
+                <controllingFieldValue>ru-RU</controllingFieldValue>
+                <controllingFieldValue>de-DE</controllingFieldValue>
+                <valueName>dd.MM.yy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>pt-BR</controllingFieldValue>
+                <controllingFieldValue>es-ES</controllingFieldValue>
+                <valueName>d-M-yy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>pt-BR</controllingFieldValue>
+                <controllingFieldValue>es-ES</controllingFieldValue>
+                <valueName>dd-MM-yy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>pt-BR</controllingFieldValue>
+                <controllingFieldValue>es-ES</controllingFieldValue>
+                <valueName>dddd, d&apos; de &apos;MMMM&apos; de &apos;yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>pt-BR</controllingFieldValue>
+                <controllingFieldValue>es-ES</controllingFieldValue>
+                <valueName>d&apos; de &apos;MMMM&apos; de &apos;yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>pt-BR</controllingFieldValue>
+                <controllingFieldValue>pt-CH</controllingFieldValue>
+                <controllingFieldValue>es-ES</controllingFieldValue>
+                <controllingFieldValue>es-PH</controllingFieldValue>
+                <valueName>d &apos;de&apos; MMMM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>pt-BR</controllingFieldValue>
+                <controllingFieldValue>pt-CH</controllingFieldValue>
+                <controllingFieldValue>es-ES</controllingFieldValue>
+                <controllingFieldValue>es-PH</controllingFieldValue>
+                <valueName>MMMM&apos; de &apos;yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>pt-BR</controllingFieldValue>
+                <controllingFieldValue>th-TH</controllingFieldValue>
+                <controllingFieldValue>es-PH</controllingFieldValue>
+                <controllingFieldValue>el-GR</controllingFieldValue>
+                <valueName>d/M/yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>pt-BR</controllingFieldValue>
+                <controllingFieldValue>rm-CH</controllingFieldValue>
+                <controllingFieldValue>ru-RU</controllingFieldValue>
+                <valueName>dd-MM-yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>pt-BR</controllingFieldValue>
+                <valueName>d-M-yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>pt-BR</controllingFieldValue>
+                <valueName>dd.MMM.yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>pt-BR</controllingFieldValue>
+                <valueName>d.M.yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>pt-CH</controllingFieldValue>
+                <controllingFieldValue>es-PH</controllingFieldValue>
+                <valueName>dddd, d &apos;de&apos; MMMM &apos;de&apos; yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>pt-CH</controllingFieldValue>
+                <controllingFieldValue>es-PH</controllingFieldValue>
+                <valueName>d &apos;de&apos; MMMM &apos;de&apos; yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>rm-CH</controllingFieldValue>
+                <controllingFieldValue>ru-RU</controllingFieldValue>
+                <valueName>dddd, &apos;ils&apos; d &apos;da&apos; MMMM yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>rm-CH</controllingFieldValue>
+                <controllingFieldValue>ru-RU</controllingFieldValue>
+                <valueName>d &apos;da&apos; MMMM yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>rm-CH</controllingFieldValue>
+                <controllingFieldValue>wae-CH</controllingFieldValue>
+                <valueName>yyyy MMMM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ru-RU</controllingFieldValue>
+                <controllingFieldValue>bg-BG</controllingFieldValue>
+                <valueName>d MMMM yyyy &apos;г.&apos;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ru-RU</controllingFieldValue>
+                <controllingFieldValue>bg-BG</controllingFieldValue>
+                <valueName>dd MMMM yyyy &apos;г.&apos;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ru-RU</controllingFieldValue>
+                <controllingFieldValue>bg-BG</controllingFieldValue>
+                <valueName>dddd, d MMMM yyyy &apos;г.&apos;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>sv-SE</controllingFieldValue>
+                <controllingFieldValue>en-CA</controllingFieldValue>
+                <controllingFieldValue>ko-KR</controllingFieldValue>
+                <valueName>yy-MM-dd</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>sv-SE</controllingFieldValue>
+                <valueName>&apos;den &apos;d MMMM yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>sv-SE</controllingFieldValue>
+                <valueName>dddd&apos; den &apos;d MMMM yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>sv-SE</controllingFieldValue>
+                <valueName>&apos;den &apos;d MMMM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>th-TH</controllingFieldValue>
+                <valueName>dd MMM yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>th-TH</controllingFieldValue>
+                <controllingFieldValue>es-PH</controllingFieldValue>
+                <controllingFieldValue>fr-CH</controllingFieldValue>
+                <controllingFieldValue>it-CH</controllingFieldValue>
+                <controllingFieldValue>en-CH</controllingFieldValue>
+                <controllingFieldValue>en-IE</controllingFieldValue>
+                <controllingFieldValue>en-PH</controllingFieldValue>
+                <valueName>d MMM yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>th-TH</controllingFieldValue>
+                <valueName>ddd d MMMM yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>th-TH</controllingFieldValue>
+                <valueName>วัน&apos;dddd&apos;ที่&apos; d MMMM gg yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>wae-CH</controllingFieldValue>
+                <controllingFieldValue>gsw-CH</controllingFieldValue>
+                <controllingFieldValue>de-DE</controllingFieldValue>
+                <valueName>dddd, d. MMMM yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>wae-CH</controllingFieldValue>
+                <controllingFieldValue>en-US</controllingFieldValue>
+                <controllingFieldValue>fil-PH</controllingFieldValue>
+                <valueName>MMMM d</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>zh-CN</controllingFieldValue>
+                <controllingFieldValue>ja-JP</controllingFieldValue>
+                <valueName>yyyy/MM/dd</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>zh-CN</controllingFieldValue>
+                <controllingFieldValue>en-US</controllingFieldValue>
+                <controllingFieldValue>ja-JP</controllingFieldValue>
+                <valueName>yy/MM/dd</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>zh-CN</controllingFieldValue>
+                <controllingFieldValue>ja-JP</controllingFieldValue>
+                <valueName>yy/M/d</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>zh-CN</controllingFieldValue>
+                <controllingFieldValue>ja-JP</controllingFieldValue>
+                <valueName>yyyy/M/d</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>zh-CN</controllingFieldValue>
+                <controllingFieldValue>ja-JP</controllingFieldValue>
+                <valueName>yyyy&apos;年&apos;M&apos;月&apos;d&apos;日&apos;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>zh-CN</controllingFieldValue>
+                <controllingFieldValue>ja-JP</controllingFieldValue>
+                <valueName>M月d日</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>zh-CN</controllingFieldValue>
+                <controllingFieldValue>ja-JP</controllingFieldValue>
+                <valueName>yyyy&apos;年&apos;M&apos;月&apos;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>zh-CN</controllingFieldValue>
+                <controllingFieldValue>ja-JP</controllingFieldValue>
+                <valueName>yyyy&apos;年&apos;MMMM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>zh-CN</controllingFieldValue>
+                <valueName>yyyy&apos;年&apos;M&apos;月&apos;d&apos;日&apos;, dddd</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>zh-CN</controllingFieldValue>
+                <valueName>dddd, yyyy&apos;年&apos;M&apos;月&apos;d&apos;日&apos;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>zh-CN</controllingFieldValue>
+                <valueName>yyyy年MMMd日</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>zh-CN</controllingFieldValue>
+                <valueName>yyyy年MMMd日, dddd</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>zh-CN</controllingFieldValue>
+                <valueName>yyyy&apos;年&apos;MMM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>zh-CN</controllingFieldValue>
+                <valueName>yyyy.M</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>zh-CN</controllingFieldValue>
+                <valueName>yy.M.d</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>zh-CN</controllingFieldValue>
+                <controllingFieldValue>ko-KR</controllingFieldValue>
+                <valueName>yy-M-d</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>zh-CN</controllingFieldValue>
+                <valueName>yyyy.MM.dd</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>zh-CN</controllingFieldValue>
+                <valueName>yyyy.M.d</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>zh-CN</controllingFieldValue>
+                <controllingFieldValue>ko-KR</controllingFieldValue>
+                <valueName>yyyy-M-d</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>en-US</controllingFieldValue>
+                <controllingFieldValue>en-CA</controllingFieldValue>
+                <valueName>dd-MMM-yy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>en-US</controllingFieldValue>
+                <controllingFieldValue>fil-PH</controllingFieldValue>
+                <controllingFieldValue>en-CA</controllingFieldValue>
+                <valueName>MMMM d, yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>en-US</controllingFieldValue>
+                <controllingFieldValue>fil-PH</controllingFieldValue>
+                <valueName>M/d/yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>en-US</controllingFieldValue>
+                <valueName>M/d/yy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>en-US</controllingFieldValue>
+                <valueName>MM/dd/yy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>en-US</controllingFieldValue>
+                <valueName>MM/dd/yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>en-US</controllingFieldValue>
+                <controllingFieldValue>fil-PH</controllingFieldValue>
+                <valueName>dddd, MMMM d, yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>en-US</controllingFieldValue>
+                <valueName>dddd, d MMMM, yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>en-US</controllingFieldValue>
+                <valueName>d MMMM, yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>es-ES</controllingFieldValue>
+                <valueName>d/MM/yy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>es-ES</controllingFieldValue>
+                <valueName>dddd d&apos; de &apos;MMMM&apos; de &apos;yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>es-ES</controllingFieldValue>
+                <controllingFieldValue>hr-HR</controllingFieldValue>
+                <valueName>dd.MM.yy.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>fil-PH</controllingFieldValue>
+                <valueName>MMM d, yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>hr-HR</controllingFieldValue>
+                <valueName>MMMM, yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>hr-HR</controllingFieldValue>
+                <valueName>d.M.yyyy.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>hr-HR</controllingFieldValue>
+                <valueName>d.M.yy.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>hr-HR</controllingFieldValue>
+                <valueName>d. M. yyyy.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>hr-HR</controllingFieldValue>
+                <valueName>d. M. yy.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>hr-HR</controllingFieldValue>
+                <valueName>dd. MM. yy.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>hr-HR</controllingFieldValue>
+                <controllingFieldValue>de-CH</controllingFieldValue>
+                <valueName>d. MMMM yyyy.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>hr-HR</controllingFieldValue>
+                <valueName>dd. MMMM yyyy.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>hr-HR</controllingFieldValue>
+                <controllingFieldValue>de-CH</controllingFieldValue>
+                <valueName>dddd, d. MMMM yyyy.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>hu-HU</controllingFieldValue>
+                <valueName>yyyy. MM. dd.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>hu-HU</controllingFieldValue>
+                <valueName>yyyy. MMM d.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>hu-HU</controllingFieldValue>
+                <valueName>yyyy. MMMM d., dddd</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>hu-HU</controllingFieldValue>
+                <valueName>yyyy. MMMM d.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>hu-HU</controllingFieldValue>
+                <valueName>MMMM d.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>hu-HU</controllingFieldValue>
+                <valueName>yyyy. MMMM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>it-IT</controllingFieldValue>
+                <controllingFieldValue>en-CA</controllingFieldValue>
+                <valueName>d-MMM-yy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>it-IT</controllingFieldValue>
+                <controllingFieldValue>en-IE</controllingFieldValue>
+                <valueName>dddd d MMMM yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>it-IT</controllingFieldValue>
+                <valueName>dd.M.yy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>it-IT</controllingFieldValue>
+                <controllingFieldValue>el-GR</controllingFieldValue>
+                <valueName>dd/MMM/yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>bg-BG</controllingFieldValue>
+                <valueName>d.M.yyyy &apos;г.&apos;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>bg-BG</controllingFieldValue>
+                <valueName>dd.M.yyyy &apos;г.&apos;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>bg-BG</controllingFieldValue>
+                <valueName>d.MM.yyyy &apos;г.&apos;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>bg-BG</controllingFieldValue>
+                <valueName>dd.MM.yyyy &apos;г.&apos;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>bg-BG</controllingFieldValue>
+                <valueName>dddd, dd MMMM yyyy &apos;г.&apos;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>bg-BG</controllingFieldValue>
+                <valueName>MMMM yyyy &apos;г.&apos;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>de-DE</controllingFieldValue>
+                <valueName>dd. MMM. yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>de-DE</controllingFieldValue>
+                <valueName>d. MMM. yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>en-CA</controllingFieldValue>
+                <valueName>M/dd/yy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>en-CA</controllingFieldValue>
+                <valueName>dd-MMM-yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>en-CA</controllingFieldValue>
+                <valueName>dddd, MMMM dd, yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>en-CA</controllingFieldValue>
+                <valueName>MMMM-dd-yy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>en-GB</controllingFieldValue>
+                <valueName>dd MMMM yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>en-GB</controllingFieldValue>
+                <valueName>dddd, dd MMMM yyyy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ja-JP</controllingFieldValue>
+                <valueName>yyyy&apos;年&apos;MM&apos;月&apos;dd&apos;日&apos;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ja-JP</controllingFieldValue>
+                <valueName>yyyy&apos;年&apos;M&apos;月&apos;d&apos;日 &apos;dddd</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ja-JP</controllingFieldValue>
+                <valueName>yyyy&apos;年&apos;MM&apos;月&apos;dd&apos;日 &apos;dddd</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ja-JP</controllingFieldValue>
+                <valueName>yyyy&apos;年&apos;MMM&apos;月&apos;d&apos;日&apos;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ja-JP</controllingFieldValue>
+                <valueName>yyyy&apos;年&apos;MMM&apos;月&apos;d&apos;日 &apos;dddd</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ja-JP</controllingFieldValue>
+                <valueName>yyyy&apos;年&apos;MMMMd&apos;日&apos;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ja-JP</controllingFieldValue>
+                <valueName>yyyy&apos;年&apos;MMMMd&apos;日 &apos;dddd</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ja-JP</controllingFieldValue>
+                <valueName>yyyy&apos;年&apos;MMM&apos;月&apos;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ko-KR</controllingFieldValue>
+                <valueName>yyyy&apos;년&apos; M&apos;월&apos; d&apos;일&apos; dddd</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ko-KR</controllingFieldValue>
+                <valueName>yyyy&apos;년&apos; M&apos;월&apos; d&apos;일&apos;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ko-KR</controllingFieldValue>
+                <valueName>yy&apos;년&apos; M&apos;월&apos; d&apos;일&apos; dddd</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ko-KR</controllingFieldValue>
+                <valueName>yy&apos;년&apos; M&apos;월&apos; d&apos;일&apos;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ko-KR</controllingFieldValue>
+                <valueName>yyyy&apos;년&apos; MM&apos;월&apos; dd&apos;일&apos; dddd</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ko-KR</controllingFieldValue>
+                <valueName>yyyy&apos;년&apos; MM&apos;월&apos; dd&apos;일&apos;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ko-KR</controllingFieldValue>
+                <valueName>yyyy&apos;년 &apos;MMM&apos;월 &apos;d&apos;일 &apos;dddd</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ko-KR</controllingFieldValue>
+                <valueName>yyyy&apos;년 &apos;MMM&apos;월 &apos;d&apos;일&apos;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ko-KR</controllingFieldValue>
+                <valueName>yyyy&apos;년 &apos;MMMM d&apos;일 &apos;dddd</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ko-KR</controllingFieldValue>
+                <valueName>yyyy&apos;년 &apos;MMMM d&apos;일&apos;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ko-KR</controllingFieldValue>
+                <valueName>M월 d일</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ko-KR</controllingFieldValue>
+                <valueName>yyyy&apos;년&apos; M&apos;월&apos;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ko-KR</controllingFieldValue>
+                <valueName>yyyy&apos;년&apos; MMM&apos;월&apos;</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ko-KR</controllingFieldValue>
+                <valueName>yyyy&apos;년&apos; MMMM</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__DefaultDateTimeFormat__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Default Date/Time Format</label>
+        <length>30</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__DefaultNumberPrecision__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Select Default Precision of Number fields.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select Default Precision of Number fields.</inlineHelpText>
+        <label>Default Number Precision</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5</label>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                    <label>6</label>
+                </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                    <label>7</label>
+                </value>
+                <value>
+                    <fullName>8</fullName>
+                    <default>false</default>
+                    <label>8</label>
+                </value>
+                <value>
+                    <fullName>9</fullName>
+                    <default>false</default>
+                    <label>9</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__DefaultTimeFormat__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Default Time Format</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__LocaleCode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Locale Code</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Apttus__LocaleName__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>bg-BG</fullName>
+                    <default>false</default>
+                    <label>bg-BG</label>
+                </value>
+                <value>
+                    <fullName>de-CH</fullName>
+                    <default>false</default>
+                    <label>de-CH</label>
+                </value>
+                <value>
+                    <fullName>de-DE</fullName>
+                    <default>false</default>
+                    <label>de-DE</label>
+                </value>
+                <value>
+                    <fullName>el-GR</fullName>
+                    <default>false</default>
+                    <label>el-GR</label>
+                </value>
+                <value>
+                    <fullName>en-CA</fullName>
+                    <default>false</default>
+                    <label>en-CA</label>
+                </value>
+                <value>
+                    <fullName>en-CH</fullName>
+                    <default>false</default>
+                    <label>en-CH</label>
+                </value>
+                <value>
+                    <fullName>en-GB</fullName>
+                    <default>false</default>
+                    <label>en-GB</label>
+                </value>
+                <value>
+                    <fullName>en-IE</fullName>
+                    <default>false</default>
+                    <label>en-IE</label>
+                </value>
+                <value>
+                    <fullName>en-PH</fullName>
+                    <default>false</default>
+                    <label>en-PH</label>
+                </value>
+                <value>
+                    <fullName>en-US</fullName>
+                    <default>false</default>
+                    <label>en-US</label>
+                </value>
+                <value>
+                    <fullName>es-ES</fullName>
+                    <default>false</default>
+                    <label>es-ES</label>
+                </value>
+                <value>
+                    <fullName>es-PH</fullName>
+                    <default>false</default>
+                    <label>es-PH</label>
+                </value>
+                <value>
+                    <fullName>fil-PH</fullName>
+                    <default>false</default>
+                    <label>fil-PH</label>
+                </value>
+                <value>
+                    <fullName>fr-CH</fullName>
+                    <default>false</default>
+                    <label>fr-CH</label>
+                </value>
+                <value>
+                    <fullName>gsw-CH</fullName>
+                    <default>false</default>
+                    <label>gsw-CH</label>
+                </value>
+                <value>
+                    <fullName>hr-HR</fullName>
+                    <default>false</default>
+                    <label>hr-HR</label>
+                </value>
+                <value>
+                    <fullName>hu-HU</fullName>
+                    <default>false</default>
+                    <label>hu-HU</label>
+                </value>
+                <value>
+                    <fullName>it-CH</fullName>
+                    <default>false</default>
+                    <label>it-CH</label>
+                </value>
+                <value>
+                    <fullName>it-IT</fullName>
+                    <default>false</default>
+                    <label>it-IT</label>
+                </value>
+                <value>
+                    <fullName>ja-JP</fullName>
+                    <default>false</default>
+                    <label>ja-JP</label>
+                </value>
+                <value>
+                    <fullName>ko-KR</fullName>
+                    <default>false</default>
+                    <label>ko-KR</label>
+                </value>
+                <value>
+                    <fullName>nb-NO</fullName>
+                    <default>false</default>
+                    <label>nb-NO</label>
+                </value>
+                <value>
+                    <fullName>pl-PL</fullName>
+                    <default>false</default>
+                    <label>pl-PL</label>
+                </value>
+                <value>
+                    <fullName>pt-BR</fullName>
+                    <default>false</default>
+                    <label>pt-BR</label>
+                </value>
+                <value>
+                    <fullName>pt-CH</fullName>
+                    <default>false</default>
+                    <label>pt-CH</label>
+                </value>
+                <value>
+                    <fullName>rm-CH</fullName>
+                    <default>false</default>
+                    <label>rm-CH</label>
+                </value>
+                <value>
+                    <fullName>ru-RU</fullName>
+                    <default>false</default>
+                    <label>ru-RU</label>
+                </value>
+                <value>
+                    <fullName>sv-SE</fullName>
+                    <default>false</default>
+                    <label>sv-SE</label>
+                </value>
+                <value>
+                    <fullName>th-TH</fullName>
+                    <default>false</default>
+                    <label>th-TH</label>
+                </value>
+                <value>
+                    <fullName>wae-CH</fullName>
+                    <default>false</default>
+                    <label>wae-CH</label>
+                </value>
+                <value>
+                    <fullName>zh-CN</fullName>
+                    <default>false</default>
+                    <label>zh-CN</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Italian (Switzerland)</controllingFieldValue>
+                <valueName>it-CH</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Portuguese (Switzerland)</controllingFieldValue>
+                <valueName>pt-CH</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Romansh (Switzerland)</controllingFieldValue>
+                <valueName>rm-CH</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Walser (Switzerland)</controllingFieldValue>
+                <valueName>wae-CH</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English (Republic of the Philippines)</controllingFieldValue>
+                <valueName>en-PH</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Spanish (Philippines)</controllingFieldValue>
+                <valueName>es-PH</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Filipino (Philippines)</controllingFieldValue>
+                <valueName>fil-PH</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Bulgarian (Bulgaria)</controllingFieldValue>
+                <valueName>bg-BG</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Croatian (Croatia)</controllingFieldValue>
+                <valueName>hr-HR</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Hungarian (Hungary)</controllingFieldValue>
+                <valueName>hu-HU</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Korean</controllingFieldValue>
+                <valueName>ko-KR</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Thai</controllingFieldValue>
+                <valueName>th-TH</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Norwegian</controllingFieldValue>
+                <valueName>nb-NO</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Swedish</controllingFieldValue>
+                <valueName>sv-SE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Russian</controllingFieldValue>
+                <valueName>ru-RU</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Portuguese</controllingFieldValue>
+                <valueName>pt-BR</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Polish</controllingFieldValue>
+                <valueName>pl-PL</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Greek (Greece)</controllingFieldValue>
+                <valueName>el-GR</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>German (Switzerland)</controllingFieldValue>
+                <valueName>de-CH</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English (Switzerland)</controllingFieldValue>
+                <valueName>en-CH</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English (United States)</controllingFieldValue>
+                <valueName>en-US</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English (United Kingdom)</controllingFieldValue>
+                <valueName>en-GB</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English (Canada)</controllingFieldValue>
+                <valueName>en-CA</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English (Ireland)</controllingFieldValue>
+                <valueName>en-IE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Italian</controllingFieldValue>
+                <valueName>it-IT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>German</controllingFieldValue>
+                <valueName>de-DE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Chinese</controllingFieldValue>
+                <valueName>zh-CN</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Spanish</controllingFieldValue>
+                <valueName>es-ES</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Japanese</controllingFieldValue>
+                <valueName>ja-JP</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>French (Switzerland)</controllingFieldValue>
+                <valueName>fr-CH</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Alsatian (Switzerland)</controllingFieldValue>
+                <valueName>gsw-CH</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__LocaleName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Locale Name</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>English (United States)</fullName>
+                    <default>false</default>
+                    <label>English (United States)</label>
+                </value>
+                <value>
+                    <fullName>English (United Kingdom)</fullName>
+                    <default>false</default>
+                    <label>English (United Kingdom)</label>
+                </value>
+                <value>
+                    <fullName>English (Canada)</fullName>
+                    <default>false</default>
+                    <label>English (Canada)</label>
+                </value>
+                <value>
+                    <fullName>English (Ireland)</fullName>
+                    <default>false</default>
+                    <label>English (Ireland)</label>
+                </value>
+                <value>
+                    <fullName>Italian</fullName>
+                    <default>false</default>
+                    <label>Italian</label>
+                </value>
+                <value>
+                    <fullName>German</fullName>
+                    <default>false</default>
+                    <label>German</label>
+                </value>
+                <value>
+                    <fullName>Chinese</fullName>
+                    <default>false</default>
+                    <label>Chinese</label>
+                </value>
+                <value>
+                    <fullName>Spanish</fullName>
+                    <default>false</default>
+                    <label>Spanish</label>
+                </value>
+                <value>
+                    <fullName>Japanese</fullName>
+                    <default>false</default>
+                    <label>Japanese</label>
+                </value>
+                <value>
+                    <fullName>Korean</fullName>
+                    <default>false</default>
+                    <label>Korean</label>
+                </value>
+                <value>
+                    <fullName>Thai</fullName>
+                    <default>false</default>
+                    <label>Thai</label>
+                </value>
+                <value>
+                    <fullName>Norwegian</fullName>
+                    <default>false</default>
+                    <label>Norwegian</label>
+                </value>
+                <value>
+                    <fullName>Swedish</fullName>
+                    <default>false</default>
+                    <label>Swedish</label>
+                </value>
+                <value>
+                    <fullName>Russian</fullName>
+                    <default>false</default>
+                    <label>Russian</label>
+                </value>
+                <value>
+                    <fullName>Portuguese</fullName>
+                    <default>false</default>
+                    <label>Portuguese</label>
+                </value>
+                <value>
+                    <fullName>Polish</fullName>
+                    <default>false</default>
+                    <label>Polish</label>
+                </value>
+                <value>
+                    <fullName>Greek (Greece)</fullName>
+                    <default>false</default>
+                    <label>Greek (Greece)</label>
+                </value>
+                <value>
+                    <fullName>German (Switzerland)</fullName>
+                    <default>false</default>
+                    <label>German (Switzerland)</label>
+                </value>
+                <value>
+                    <fullName>English (Switzerland)</fullName>
+                    <default>false</default>
+                    <label>English (Switzerland)</label>
+                </value>
+                <value>
+                    <fullName>French (Switzerland)</fullName>
+                    <default>false</default>
+                    <label>French (Switzerland)</label>
+                </value>
+                <value>
+                    <fullName>Alsatian (Switzerland)</fullName>
+                    <default>false</default>
+                    <label>Alsatian (Switzerland)</label>
+                </value>
+                <value>
+                    <fullName>Italian (Switzerland)</fullName>
+                    <default>false</default>
+                    <label>Italian (Switzerland)</label>
+                </value>
+                <value>
+                    <fullName>Portuguese (Switzerland)</fullName>
+                    <default>false</default>
+                    <label>Portuguese (Switzerland)</label>
+                </value>
+                <value>
+                    <fullName>Romansh (Switzerland)</fullName>
+                    <default>false</default>
+                    <label>Romansh (Switzerland)</label>
+                </value>
+                <value>
+                    <fullName>Walser (Switzerland)</fullName>
+                    <default>false</default>
+                    <label>Walser (Switzerland)</label>
+                </value>
+                <value>
+                    <fullName>English (Republic of the Philippines)</fullName>
+                    <default>false</default>
+                    <label>English (Republic of the Philippines)</label>
+                </value>
+                <value>
+                    <fullName>Spanish (Philippines)</fullName>
+                    <default>false</default>
+                    <label>Spanish (Philippines)</label>
+                </value>
+                <value>
+                    <fullName>Filipino (Philippines)</fullName>
+                    <default>false</default>
+                    <label>Filipino (Philippines)</label>
+                </value>
+                <value>
+                    <fullName>Bulgarian (Bulgaria)</fullName>
+                    <default>false</default>
+                    <label>Bulgarian (Bulgaria)</label>
+                </value>
+                <value>
+                    <fullName>Croatian (Croatia)</fullName>
+                    <default>false</default>
+                    <label>Croatian (Croatia)</label>
+                </value>
+                <value>
+                    <fullName>Hungarian (Hungary)</fullName>
+                    <default>false</default>
+                    <label>Hungarian (Hungary)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__UniqueLocaleName__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Locale Name (Unique)</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <label>Template Locale</label>
+    <listViews>
+        <fullName>Apttus__All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Locale</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Apttus__LocaleName__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__LocaleCode__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__DefaultCurrencyPrecision__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__DefaultNumberPrecision__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__DefaultDateFormat__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__DefaultTimeFormat__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__DefaultDateTimeFormat__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__LocaleName__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__LocaleCode__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__DefaultCurrencyPrecision__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__DefaultNumberPrecision__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__DefaultDateFormat__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__DefaultTimeFormat__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__DefaultDateTimeFormat__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__LocaleName__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__LocaleCode__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__DefaultCurrencyPrecision__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__DefaultNumberPrecision__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__DefaultDateFormat__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__DefaultTimeFormat__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__DefaultDateTimeFormat__c</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__LocaleName__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__LocaleCode__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__DefaultCurrencyPrecision__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__DefaultNumberPrecision__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__DefaultDateFormat__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__DefaultTimeFormat__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__DefaultDateTimeFormat__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

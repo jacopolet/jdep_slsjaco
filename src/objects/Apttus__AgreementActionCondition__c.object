@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents conditions to enable agreement actions</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Apttus__Activate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicator to activate the agreement</description>
+        <externalId>false</externalId>
+        <formula>OR(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;In Signatures&quot;), ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;In Filing&quot;), AND(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;In Authoring&quot;),ISPICKVAL(Apttus__AgreementId__r.Apttus__Source__c,&quot;Other Party Paper&quot;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicator to activate the agreement</inlineHelpText>
+        <label>Activate</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__AgreementId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the associated agreement</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated agreement</inlineHelpText>
+        <label>Agreement</label>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipLabel>Action Conditions</relationshipLabel>
+        <relationshipName>ActionConditions</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Apttus__Amend__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicator to amend the agreement</description>
+        <externalId>false</externalId>
+        <formula>OR(AND(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;In Effect&quot;),NOT(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status__c,&quot;Being Amended&quot;)), NOT(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status__c,&quot;Being Renewed&quot;))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicator to amend the agreement</inlineHelpText>
+        <label>Amend</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__CancelRequest__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicator to cancel the agreement request</description>
+        <externalId>false</externalId>
+        <formula>AND(OR(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;Request&quot;), ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;In Authoring&quot;), ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;In Signatures&quot;), ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;In Filing&quot;)),NOT(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status__c,&quot;Cancelled Request&quot;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicator to cancel the agreement request</inlineHelpText>
+        <label>Cancel Request</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Expire__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicator to expire the agreemen</description>
+        <externalId>false</externalId>
+        <formula>OR(AND(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;In Effect&quot;),NOT(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status__c,&quot;Being Amended&quot;)), NOT(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status__c,&quot;Being Renewed&quot;))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicator to expire the agreemen</inlineHelpText>
+        <label>Expire</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__GenerateSupportingDocument__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicator to generate supporting documents for the agreement</description>
+        <externalId>false</externalId>
+        <formula>True</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicator to generate supporting documents for the agreement</inlineHelpText>
+        <label>Generate Supporting Document</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Generate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicator to generate agreement documents</description>
+        <externalId>false</externalId>
+        <formula>ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c, &quot;Request&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicator to generate agreement documents</inlineHelpText>
+        <label>Generate</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__ImportOfflineDocument__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicator to import offline documents</description>
+        <externalId>false</externalId>
+        <formula>NOT(OR(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c, &quot;In Effect&quot;), ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c, &quot;Expired&quot;),ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c, &quot;Terminated&quot;),ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c, &quot;Amended&quot;),ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c, &quot;Cancelled&quot;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicator to import offline documents</inlineHelpText>
+        <label>Import Offline Document</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__InitiateTermination__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicator to initiate termination of the agreement</description>
+        <externalId>false</externalId>
+        <formula>OR(AND(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;In Effect&quot;),NOT(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status__c,&quot;Being Amended&quot;)), NOT(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status__c,&quot;Being Renewed&quot;)),NOT(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status__c,&quot;Being Terminated&quot;))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicator to initiate termination of the agreement</inlineHelpText>
+        <label>Initiate Termination</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Preview__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c, &quot;Request&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Preview</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Regenerate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicator to preview agreement documents</description>
+        <externalId>false</externalId>
+        <formula>OR(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;In Authoring&quot;), ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;In Signatures&quot;), ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;In Filing&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicator to preview agreement documents</inlineHelpText>
+        <label>Regenerate</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Renew__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicator to renew the agreement</description>
+        <externalId>false</externalId>
+        <formula>OR(AND((ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;In Effect&quot;)),NOT(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status__c,&quot;Being Renewed&quot;)),NOT(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status__c,&quot;Being Amended&quot;))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicator to renew the agreement</inlineHelpText>
+        <label>Renew</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__ReturnToRequestor__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicator to return the agreement back to requestor</description>
+        <externalId>false</externalId>
+        <formula>ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;In Authoring&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicator to return the agreement back to requestor</inlineHelpText>
+        <label>Return To Requestor</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__SendForReview__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicator to send agreement for review</description>
+        <externalId>false</externalId>
+        <formula>OR(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;In Signatures&quot;), ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;In Authoring&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicator to send agreement for review</inlineHelpText>
+        <label>Send For Review</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__SendForSignatures__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicator to send agreement for signatures</description>
+        <externalId>false</externalId>
+        <formula>OR(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;In Signatures&quot;), ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;In Authoring&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicator to send agreement for signatures</inlineHelpText>
+        <label>Send For Signatures</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__SubmitChanges__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicator to submit agreement changes</description>
+        <externalId>false</externalId>
+        <formula>OR(AND(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;In Authoring&quot;),ISPICKVAL(Apttus__AgreementId__r.Apttus__Source__c,&quot;Other Party Paper&quot;)),(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;In Signatures&quot;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicator to submit agreement changes</inlineHelpText>
+        <label>Submit Changes</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__SubmitRequest__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicator to submit agreement request</description>
+        <externalId>false</externalId>
+        <formula>AND(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;Request&quot;),OR(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status__c,&quot;Request&quot;),ISPICKVAL(Apttus__AgreementId__r.Apttus__Status__c,&quot;In Amendment&quot;),ISPICKVAL(Apttus__AgreementId__r.Apttus__Status__c,&quot;In Renewal&quot;),ISPICKVAL(Apttus__AgreementId__r.Apttus__Status__c,&quot;&quot;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicator to submit agreement request</inlineHelpText>
+        <label>Submit Request</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Terminate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicator to terminate the agreemen</description>
+        <externalId>false</externalId>
+        <formula>OR(AND(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status_Category__c,&quot;In Effect&quot;),NOT(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status__c,&quot;Being Amended&quot;)), NOT(ISPICKVAL(Apttus__AgreementId__r.Apttus__Status__c,&quot;Being Renewed&quot;))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicator to terminate the agreemen</inlineHelpText>
+        <label>Terminate</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Agreement Action Condition</label>
+    <nameField>
+        <displayFormat>AC-{0000000000}</displayFormat>
+        <label>Action Id</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Agreement Action Conditions</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

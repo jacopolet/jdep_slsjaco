@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Custom settings for the Call Center</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>CRMWebClient__Allowed_SSO_Providers__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Comma separated list of Identity Provider Display Names to allow with SSO.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Comma separated list of Identity Provider Display Names to allow with SSO.</inlineHelpText>
+        <label>Allowed SSO Providers</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMWebClient__CaaS_Enabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Check this box if you are a PureConnect Cloud customer. Leave unchecked if a Premise customer.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box if you are a PureConnect Cloud customer. Leave unchecked if a Premise customer.</inlineHelpText>
+        <label>PureConnect Cloud Enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CRMWebClient__CaaS_Url__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Specify the PureConnect Cloud URL provided by your PureConnect Cloud contact, including /crm/ at the end. For example, https://your_caas_url/crm/.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specify the PureConnect Cloud URL provided by your PureConnect Cloud contact, including /crm/ at the end. For example, https://your_caas_url/crm/.</inlineHelpText>
+        <label>PureConnect Cloud Url</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMWebClient__Connected_Interactions_Call_Logs__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Only saves call logs for interactions that have been connected from the agent&apos;s perspective at least once.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checking this box only saves call logs for interactions that have been connected from the agent&apos;s perspective at least once.</inlineHelpText>
+        <label>Only Save Connected Interactions</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CRMWebClient__Disable_IC_Auth__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Check this box to disable IC Authentication with SSO.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box to disable IC Authentication with SSO.</inlineHelpText>
+        <label>Disable IC Auth</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CRMWebClient__Disable_Windows_Auth__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Check this box to disable Windows Authentication with SSO.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box to disable Windows Authentication with SSO.</inlineHelpText>
+        <label>Disable Windows Auth</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CRMWebClient__Enable_Auto_Association__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Check this box to automatically associate the Contact and Related fields to the interaction&apos;s call log.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box to automatically associate the Contact and Related fields to the interaction&apos;s call log.</inlineHelpText>
+        <label>Enable Auto Association on Navigation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CRMWebClient__Enable_Call_Log_Functionality__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enables the PureConnect for Salesforce call logs to be written to the Salesforce Activity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checking this box enables the call log in PureConnect for Salesforce and saves the call log to a Salesforce activity.</inlineHelpText>
+        <label>Enable Call Logs</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CRMWebClient__Enable_Call_Logs__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If using Internet Explorer, do not check this box. Internet Explorer has problems saving the call log when multiple browser tabs or windows are open, so this setting prevents edits to the call log altogether.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If using Internet Explorer, do not check this box. Internet Explorer has problems saving the call log when multiple browser tabs or windows are open, so this setting prevents edits to the call log altogether.</inlineHelpText>
+        <label>Enable Call Log Editing</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CRMWebClient__Enable_Integration_Console_Events_API__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Check this box to enable special Salesforce console events to integrate with PureConnect for Salesforce. Reserved for Genesys Professional Services.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box to enable special Salesforce console events to integrate with PureConnect for Salesforce. Reserved for Genesys Professional Services.</inlineHelpText>
+        <label>Enable Integration Console Events API</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CRMWebClient__Enable_Omni_Sync__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable status synchronization between Omni-Channel and PureConnect.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable status synchronization between Omni-Channel and PureConnect.</inlineHelpText>
+        <label>Enable Omni-Channel Sync</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CRMWebClient__Enable_SSO__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Check this box to use Single Sign On. Internet Explorer does not currently support SSO without special configuration to the Web Proxy.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box to use Single Sign On. Internet Explorer does not currently support SSO without special configuration to the Web Proxy.</inlineHelpText>
+        <label>Enable Single Sign On</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CRMWebClient__Enable_Server_Sent_Events__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Check this box to enable Server-sent Events with PureConnect 2016 R3 or later. May require configuration changes to the Web Proxy.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box to enable Server-sent Events with PureConnect 2016 R3 or later. May require configuration changes to the Web Proxy.</inlineHelpText>
+        <label>Enable Server-sent Events</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CRMWebClient__Enable_Wrap_Ups__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Check this box if one or more of your PureConnect workgroups require wrap-up codes. Wrap-ups may not work as expected in Internet Explorer when multiple browser tabs or windows are open.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box if one or more of your PureConnect workgroups require wrap-up codes. Wrap-ups may not work as expected in Internet Explorer when multiple browser tabs or windows are open.</inlineHelpText>
+        <label>Enable Wrap-ups</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CRMWebClient__Primary_Server__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Specify the PureConnect Server 1 Name.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specify the PureConnect Server 1 Name.</inlineHelpText>
+        <label>PureConnect Server 1 Name</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMWebClient__Proxy_Server__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Web Proxy Address that forwards requests from PureConnect for Salesforce to the PureConnect server.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specify the Web Proxy Address that forwards requests from PureConnect for Salesforce to the PureConnect server. Use https://, the /api path and a final forward slash, e.g. https://web_proxy_address/api/. See the Administrator Guide for more details</inlineHelpText>
+        <label>Web Proxy Address</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMWebClient__Secondary_Server__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Specify the PureConnect Server 2 Name used for switchovers.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specify the PureConnect Server 2 Name used for switchovers.</inlineHelpText>
+        <label>PureConnect Server 2 Name</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRMWebClient__Station_Logins_Independent_of_Session__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Check this box to prevent PureConnect station logouts when navigating away from Salesforce.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box to prevent PureConnect station logouts when navigating away from Salesforce.</inlineHelpText>
+        <label>Prevent station logout on navigation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Custom Call Center Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

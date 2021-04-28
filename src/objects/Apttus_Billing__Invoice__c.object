@@ -1,0 +1,1504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents an invoice associated with an account</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fieldSets>
+        <fullName>Apttus_Billing__InvoiceFields</fullName>
+        <availableFields>
+            <field>Apttus_Billing__BillToAccountId__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__BillingCity__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__BillingCountry__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__BillingPostalCode__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__BillingState__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__BillingStreet__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__DaysOutstanding__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__DeliveryStatus__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__DueDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Id</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__InvoiceAttachmentTemplate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__InvoiceDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__InvoiceEmailTemplate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__InvoiceRunResultId__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__LegalEntityId__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__LocationId__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__PONumber__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__PaymentStatus__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__PaymentTermId__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__ShipToAccountId__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__ShipToCity__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__ShipToCountry__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__ShipToPostalCode__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__ShipToState__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__ShipToStreet__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__SoldToAccountId__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__SoldToCity__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__SoldToCountry__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__SoldToPostalCode__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__SoldToState__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__SoldToStreet__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__SourceInvoiceId__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__TotalDiscountAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__TotalDueAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__TotalFeeAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__TotalOneTimeFeeAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__TotalRecurringFeeAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__TotalTaxAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__TotalUsageFeeAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__TransferredToERP__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Billing__Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>The field set used to display Invoice fields on Direct Credit Memo UI.</description>
+        <displayedFields>
+            <field>Apttus_Billing__InvoiceNumber__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Billing__Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus_Billing__TotalInvoiceAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>InvoiceFields</label>
+    </fieldSets>
+    <fields>
+        <fullName>APTS_External_Invoice_Number__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>The invoice number in SAP.</description>
+        <externalId>true</externalId>
+        <label>External Invoice Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Invoice_Link__c</fullName>
+        <description>Link to pdf document stored in IXOS.</description>
+        <externalId>false</externalId>
+        <label>Invoice Link</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>APTS_SAPBilling_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>SAP Billing Type</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Total_Credit_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Credit Amount</label>
+        <summarizedField>Apttus_Billing__InvoiceLineItem__c.Apttus_Billing__Amount__c</summarizedField>
+        <summaryForeignKey>Apttus_Billing__InvoiceLineItem__c.Apttus_Billing__InvoiceId__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__BillToAccountId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the bill to account</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the bill to account</inlineHelpText>
+        <label>Bill To</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Invoices (Bill To)</relationshipLabel>
+        <relationshipName>InvoicesBillTo</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__BillingCity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The billing city</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The billing city</inlineHelpText>
+        <label>Billing City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__BillingCountry__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The billing country</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The billing country</inlineHelpText>
+        <label>Billing Country</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__BillingPostalCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The billing postal code</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The billing postal code</inlineHelpText>
+        <label>Billing Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__BillingPreferenceId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated billing preference</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated billing preference</inlineHelpText>
+        <label>Billing Preference (Deprecated)</label>
+        <referenceTo>Apttus_Config2__BillingPreference__c</referenceTo>
+        <relationshipLabel>Invoices</relationshipLabel>
+        <relationshipName>Invoices</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__BillingState__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The billing street</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The billing street</inlineHelpText>
+        <label>Billing State</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__BillingStreet__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The billing street</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The billing street</inlineHelpText>
+        <label>Billing Street</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__CollectionStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The invoice collection status</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The invoice collection status</inlineHelpText>
+        <label>Collection Status (Deprecated)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>true</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+                <value>
+                    <fullName>In Collections</fullName>
+                    <default>false</default>
+                    <label>In Collections</label>
+                </value>
+                <value>
+                    <fullName>Transferred to Collections Agency</fullName>
+                    <default>false</default>
+                    <label>Transferred to Collections Agency</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__DaysOutstanding__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Number of days from the Invoice Due Date.</description>
+        <externalId>false</externalId>
+        <formula>ROUND(NOW()- Apttus_Billing__DueDate__c, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Number of days from the Invoice Due Date.</inlineHelpText>
+        <label>Days Outstanding</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__DeliveryStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The invoice delivery status</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The invoice delivery status</inlineHelpText>
+        <label>Delivery Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>true</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Delivered</fullName>
+                    <default>false</default>
+                    <label>Delivered</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__DueDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The invoice due date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The invoice due date</inlineHelpText>
+        <label>Due Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ErrorMessage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Details about the error.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Details about the error.</inlineHelpText>
+        <label>Error Message</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ErrorStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Error Status for Custom Numbering or Tax Calculation.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Error Status for Custom Numbering or Tax Calculation.</inlineHelpText>
+        <label>Error Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Tax Calculation Error</fullName>
+                    <default>false</default>
+                    <label>Tax Calculation Error</label>
+                </value>
+                <value>
+                    <fullName>Custom Numbering Error</fullName>
+                    <default>false</default>
+                    <label>Custom Numbering Error</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__InvoiceAttachmentTemplate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The optional Name of the Template to use when creating an attachment file for the Invoice.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The optional Name of the Template to use when creating an attachment file for the Invoice.</inlineHelpText>
+        <label>Invoice Attachment Template</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__InvoiceDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The invoice date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The invoice date</inlineHelpText>
+        <label>Invoice Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__InvoiceEmailTemplate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The optional Name of the Email Template to use when creating the Email used to deliver the Invoice attachment file.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The optional Name of the Email Template to use when creating the Email used to deliver the Invoice attachment file.</inlineHelpText>
+        <label>Invoice Email Template</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__InvoiceNumber__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <description>The custom Invoice number.  Will only be set if Invoice Custom Numbering has been configured.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The custom Invoice number.  Will only be set if Invoice Custom Numbering has been configured.</inlineHelpText>
+        <label>Invoice Number</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__InvoiceRunResultId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the invoice run result that created the invoice.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the invoice run result that created the invoice.</inlineHelpText>
+        <label>Invoice Run Result Id</label>
+        <referenceTo>Apttus_Billing__InvoiceRunResult__c</referenceTo>
+        <relationshipLabel>Invoices</relationshipLabel>
+        <relationshipName>Invoices</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__Key__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Key used for grouping line items in an invoice run result.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Key used for grouping line items in an invoice run result.</inlineHelpText>
+        <label>Key</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__LegalEntityId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The Id of the optional Legal Entity. A value of null implies there is no corresponding Legal Entity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Id of the optional Legal Entity.</inlineHelpText>
+        <label>Legal Entity</label>
+        <referenceTo>Apttus_Config2__LegalEntity__c</referenceTo>
+        <relationshipLabel>Invoices</relationshipLabel>
+        <relationshipName>Invoices</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__LocationId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated account location</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated account location</inlineHelpText>
+        <label>Location</label>
+        <referenceTo>Apttus_Config2__AccountLocation__c</referenceTo>
+        <relationshipLabel>Invoices</relationshipLabel>
+        <relationshipName>Invoices</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__PONumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The purchase order number</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The purchase order number</inlineHelpText>
+        <label>PO Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__PaymentStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Payment status for the invoice</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Payment status for the invoice</inlineHelpText>
+        <label>Payment Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Unpaid</fullName>
+                    <default>false</default>
+                    <label>Unpaid</label>
+                </value>
+                <value>
+                    <fullName>Paid</fullName>
+                    <default>false</default>
+                    <label>Paid</label>
+                </value>
+                <value>
+                    <fullName>Partially paid</fullName>
+                    <default>false</default>
+                    <label>Partially paid</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__PaymentTermId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the payment term associated with the order</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the payment term associated with the order</inlineHelpText>
+        <label>Payment Term</label>
+        <referenceTo>Apttus_Config2__PaymentTerm__c</referenceTo>
+        <relationshipLabel>Invoices</relationshipLabel>
+        <relationshipName>Invoices</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ShipToAccountId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the ship to account</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the ship to account</inlineHelpText>
+        <label>Ship To</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Invoices (Ship To)</relationshipLabel>
+        <relationshipName>InvoicesShipTo</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ShipToCity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The ship to city</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The ship to city</inlineHelpText>
+        <label>Ship To City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ShipToCountry__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The ship to country</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The ship to country</inlineHelpText>
+        <label>Ship To Country</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ShipToPostalCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The ship to postal code</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The ship to postal code</inlineHelpText>
+        <label>Ship To Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ShipToState__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The ship to street</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The ship to street</inlineHelpText>
+        <label>Ship To State</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ShipToStreet__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The ship to street</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The ship to street</inlineHelpText>
+        <label>Ship To Street</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__SoldToAccountId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the sold to account</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the sold to account</inlineHelpText>
+        <label>Sold To</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Invoices (Sold To)</relationshipLabel>
+        <relationshipName>InvoicesSoldTo</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__SoldToCity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The billing city</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The sold to city</inlineHelpText>
+        <label>Sold To City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__SoldToCountry__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The sold to country</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The sold to country</inlineHelpText>
+        <label>Sold To Country</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__SoldToPostalCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The sold to postal code</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The sold to postal code</inlineHelpText>
+        <label>Sold To Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__SoldToState__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The sold to street</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The sold to street</inlineHelpText>
+        <label>Sold To State</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__SoldToStreet__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The sold to street</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The sold to street</inlineHelpText>
+        <label>Sold To Street</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__SourceInvoiceId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>This field is used to link split invoice to source invoice</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is managed by the billing package for split invoice functionality. This field should not be manually populated</inlineHelpText>
+        <label>Source Invoice</label>
+        <referenceTo>Apttus_Billing__Invoice__c</referenceTo>
+        <relationshipLabel>Split Invoices</relationshipLabel>
+        <relationshipName>SplitInvoices</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The invoice status</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The invoice status</inlineHelpText>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>true</default>
+                    <label>Draft</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>Pending Approved</fullName>
+                    <default>false</default>
+                    <label>Pending Approved</label>
+                </value>
+                <value>
+                    <fullName>Draft Obsolete</fullName>
+                    <default>false</default>
+                    <label>Draft Obsolete</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__TotalDiscountAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total discount amount</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total discount amount</inlineHelpText>
+        <label>Total Discount Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__TotalDueAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The invoice due amount</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The invoice due amount</inlineHelpText>
+        <label>Total Due Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__TotalFeeAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total fee amount</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total fee amount</inlineHelpText>
+        <label>Total Fee Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__TotalInvoiceAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total invoice amount</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total invoice amount</inlineHelpText>
+        <label>Total Invoice Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__TotalOneTimeFeeAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total one time fee amount</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total one time fee amount</inlineHelpText>
+        <label>Total One Time Fee Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__TotalRecurringFeeAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total recurring fee amount</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total recurring fee amount</inlineHelpText>
+        <label>Total Recurring Fee Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__TotalTaxAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total tax amount</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total tax amount</inlineHelpText>
+        <label>Total Tax Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__TotalUsageFeeAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total usage fee amount</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total usage fee amount</inlineHelpText>
+        <label>Total Usage Fee Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__TransferredToERP__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the invoice has been transferred to the ERP application</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the invoice has been transferred to the ERP application</inlineHelpText>
+        <label>Transferred To ERP ?</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>NA</fullName>
+                    <default>true</default>
+                    <label>NA</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Processing</fullName>
+                    <default>false</default>
+                    <label>Processing</label>
+                </value>
+                <value>
+                    <fullName>Error</fullName>
+                    <default>false</default>
+                    <label>Error</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The invoice type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The invoice type</inlineHelpText>
+        <label>Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Standard</fullName>
+                    <default>true</default>
+                    <label>Standard</label>
+                </value>
+                <value>
+                    <fullName>Credit</fullName>
+                    <default>false</default>
+                    <label>Credit</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Invoice</label>
+    <listViews>
+        <fullName>All_Invoices_JV</fullName>
+        <columns>NAME</columns>
+        <columns>Apttus_Billing__BillingCity__c</columns>
+        <columns>Apttus_Billing__DueDate__c</columns>
+        <columns>Apttus_Billing__ErrorStatus__c</columns>
+        <columns>APTS_Invoice_Link__c</columns>
+        <columns>Apttus_Billing__InvoiceNumber__c</columns>
+        <columns>Apttus_Billing__Status__c</columns>
+        <columns>Apttus_Billing__TotalInvoiceAmount__c</columns>
+        <columns>Apttus_Billing__TotalTaxAmount__c</columns>
+        <columns>Apttus_Billing__Type__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Invoices to Date</label>
+    </listViews>
+    <listViews>
+        <fullName>Apttus_Billing__All</fullName>
+        <columns>NAME</columns>
+        <columns>Apttus_Billing__BillToAccountId__c</columns>
+        <columns>Apttus_Billing__Status__c</columns>
+        <columns>Apttus_Billing__PaymentTermId__c</columns>
+        <columns>Apttus_Billing__InvoiceDate__c</columns>
+        <columns>Apttus_Billing__TotalInvoiceAmount__c</columns>
+        <columns>Apttus_Billing__TotalFeeAmount__c</columns>
+        <columns>Apttus_Billing__TotalTaxAmount__c</columns>
+        <columns>Apttus_Billing__BillingCountry__c</columns>
+        <columns>APTS_External_Invoice_Number__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>DK_Invoice_List_Overview</fullName>
+        <columns>NAME</columns>
+        <columns>Apttus_Billing__InvoiceDate__c</columns>
+        <columns>Apttus_Billing__BillToAccountId__c</columns>
+        <columns>Apttus_Billing__SoldToAccountId__c</columns>
+        <columns>Apttus_Billing__BillingPreferenceId__c</columns>
+        <columns>APTS_External_Invoice_Number__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>DK - Invoice List Overview</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>DK_Sales_Support_Sales_Support_Manager_3</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>My_Invoices_owner_me</fullName>
+        <columns>NAME</columns>
+        <columns>Apttus_Billing__BillToAccountId__c</columns>
+        <columns>Apttus_Billing__Status__c</columns>
+        <columns>Apttus_Billing__PaymentTermId__c</columns>
+        <columns>Apttus_Billing__InvoiceDate__c</columns>
+        <columns>Apttus_Billing__TotalInvoiceAmount__c</columns>
+        <columns>Apttus_Billing__TotalFeeAmount__c</columns>
+        <columns>Apttus_Billing__TotalTaxAmount__c</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Invoices</label>
+    </listViews>
+    <nameField>
+        <displayFormat>INV-{00000000}</displayFormat>
+        <label>Invoice Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Invoices</pluralLabel>
+    <searchLayouts>
+        <listViewButtons>Apttus_Billing__Approve</listViewButtons>
+        <listViewButtons>Apttus_Billing__Cancel</listViewButtons>
+        <listViewButtons>Apttus_Billing__Delete</listViewButtons>
+        <lookupDialogsAdditionalFields>Apttus_Billing__BillToAccountId__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Billing__Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Billing__Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Billing__PaymentTermId__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Billing__InvoiceDate__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Billing__DueDate__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Billing__TotalInvoiceAmount__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Billing__TotalFeeAmount__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Billing__TotalTaxAmount__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Billing__BillToAccountId__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Billing__Type__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Billing__Status__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Billing__PaymentTermId__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Billing__InvoiceDate__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Billing__DueDate__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Billing__TotalInvoiceAmount__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Billing__TotalDueAmount__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Billing__TotalFeeAmount__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Apttus_Billing__Type__c</searchFilterFields>
+        <searchFilterFields>Apttus_Billing__Status__c</searchFilterFields>
+        <searchFilterFields>Apttus_Billing__PaymentTermId__c</searchFilterFields>
+        <searchFilterFields>Apttus_Billing__InvoiceDate__c</searchFilterFields>
+        <searchFilterFields>Apttus_Billing__DueDate__c</searchFilterFields>
+        <searchFilterFields>Apttus_Billing__TotalInvoiceAmount__c</searchFilterFields>
+        <searchFilterFields>Apttus_Billing__TotalFeeAmount__c</searchFilterFields>
+        <searchFilterFields>Apttus_Billing__TotalTaxAmount__c</searchFilterFields>
+        <searchResultsAdditionalFields>APTS_External_Invoice_Number__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Billing__BillToAccountId__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Billing__SoldToAccountId__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Billing__InvoiceDate__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Billing__TotalInvoiceAmount__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus_Billing__Status__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>APTS_Create_Debit_Memo</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>page</linkType>
+        <masterLabel>Create Debit Memo</masterLabel>
+        <openType>replace</openType>
+        <page>APTS_CreateDebitMemo</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Billing__Apply_Late_Fee</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Apply Late Fee</masterLabel>
+        <openType>noSidebar</openType>
+        <page>Apttus_Billing__ApplyLateFee</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Billing__Approve</fullName>
+        <availability>online</availability>
+        <description>This is used to bulk approve invoices (along with line item approval)</description>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Approve</masterLabel>
+        <openType>sidebar</openType>
+        <page>Apttus_Billing__InvoiceBulkApprove</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Billing__Approve_Invoice</fullName>
+        <availability>online</availability>
+        <description>Allow user to change the state of the Invoice to Approved (can only do this from Draft)</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Approve Invoice</masterLabel>
+        <openType>sidebar</openType>
+        <page>Apttus_Billing__InvoiceApprove</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Billing__Cancel</fullName>
+        <availability>online</availability>
+        <description>This is used to bulk cancel invoices (also cancels associated line items)</description>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Cancel Invoice(s)</masterLabel>
+        <openType>sidebar</openType>
+        <page>Apttus_Billing__InvoiceBulkCancel</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Billing__Cancel_Invoice</fullName>
+        <availability>online</availability>
+        <description>Allow user to change the state of the Invoice to Cancelled (can only do this from Draft)</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Cancel Invoice</masterLabel>
+        <openType>sidebar</openType>
+        <page>Apttus_Billing__InvoiceCancel</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Billing__Cancel_Late_Fee</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Cancel Late Fee</masterLabel>
+        <openType>noSidebar</openType>
+        <page>Apttus_Billing__CancelLateFee</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Billing__CreateCreditMemo</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Create Credit Memo</masterLabel>
+        <openType>sidebar</openType>
+        <page>Apttus_Billing__CreateCreditMemo</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Billing__Credit_Rebill</fullName>
+        <availability>online</availability>
+        <description>This button is used to credit the entire invoice and rebill the invoice again.</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Credit &amp; Rebill</masterLabel>
+        <openType>sidebar</openType>
+        <page>Apttus_Billing__CreateCreditRebill</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Billing__Delete</fullName>
+        <availability>online</availability>
+        <description>This button supports custom delete functionality to allow deletion only if invoice status is Cancelled to be used on List View page.</description>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Delete</masterLabel>
+        <openType>sidebar</openType>
+        <page>Apttus_Billing__InvoiceBulkDelete</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Billing__Delete_Invoice</fullName>
+        <availability>online</availability>
+        <description>This button supports custom delete functionality to allow deletion only if invoice status is Cancelled.</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Delete Invoice</masterLabel>
+        <openType>sidebar</openType>
+        <page>Apttus_Billing__InvoiceDelete</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Billing__GenerateInvoiceStatement</fullName>
+        <availability>online</availability>
+        <description>Generates an Invoice statement PDF and attaches to the invoice</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Generate Invoice Statement</masterLabel>
+        <openType>sidebar</openType>
+        <page>Apttus_Billing__GenerateInvoiceStatement</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Billing__Move_to_Draft</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Move to Draft</masterLabel>
+        <openType>sidebar</openType>
+        <page>Apttus_Billing__InvoiceDraft</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Billing__RegenerateInvoiceAttachment</fullName>
+        <availability>online</availability>
+        <description>Regenerate Invoice document</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Regenerate Invoice Attachment</masterLabel>
+        <openType>sidebar</openType>
+        <page>Apttus_Billing__GenerateInvoiceAttachment</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Billing__SendInvoiceEmail</fullName>
+        <availability>online</availability>
+        <description>Button to send invoice email.</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Send Invoice Email</masterLabel>
+        <openType>sidebar</openType>
+        <page>Apttus_Billing__SendInvoiceEmail</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus_Billing__SplitInvoice</fullName>
+        <availability>online</availability>
+        <description>Split original invoice into multiple invoice(s)</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Split Invoice</masterLabel>
+        <openType>sidebar</openType>
+        <page>Apttus_Billing__SplitInvoice</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Get_More_Info</fullName>
+        <availability>online</availability>
+        <description>Created as a part of Kauri Nov Release -custom CMR button</description>
+        <displayType>button</displayType>
+        <linkType>page</linkType>
+        <masterLabel>Create Credit Memo</masterLabel>
+        <openType>replace</openType>
+        <page>APTS_RetrieveInvoiceLineItemFromSAP</page>
+        <protected>false</protected>
+    </webLinks>
+</CustomObject>

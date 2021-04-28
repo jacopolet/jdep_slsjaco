@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents a single AR transaction related to the Invoice, Credit Memo, Payment, Refund etc..</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Apttus_Billing__ARImpactAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The A/R impacting amount</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The A/R impacting amount</inlineHelpText>
+        <label>A/R Impact Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Allows integrations to write in a description.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allows integrations to write in a description.</inlineHelpText>
+        <label>Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__DestinationCreditMemoId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The destination credit memo where the A/R transaction is applied to.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The destination credit memo where the A/R transaction is applied to.</inlineHelpText>
+        <label>Destination Credit Memo Id</label>
+        <referenceTo>Apttus_Billing__CreditMemo__c</referenceTo>
+        <relationshipLabel>Destination Related A/R Transactions</relationshipLabel>
+        <relationshipName>DestinationRelatedARTransactions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__DestinationInvoiceId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The destination invoice where the A/R transaction is applied to.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The destination invoice where the A/R transaction is applied to.</inlineHelpText>
+        <label>Destination Invoice Id</label>
+        <referenceTo>Apttus_Billing__Invoice__c</referenceTo>
+        <relationshipLabel>Destination Related A/R Transactions (Destination Invoice Id)</relationshipLabel>
+        <relationshipName>DestinationRelatedARTransactions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__DestinationPaymentId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The destination Payment Id of the A/R transaction.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The destination Payment Id of the A/R transaction.</inlineHelpText>
+        <label>Destination Payment Id</label>
+        <referenceTo>Apttus_Billing__Payment__c</referenceTo>
+        <relationshipLabel>Related A/R Transactions (Destination Payment Id)</relationshipLabel>
+        <relationshipName>DestinationRelatedARTransactions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__EndingBalance__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The balance after applying the transaction</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The balance after applying the transaction</inlineHelpText>
+        <label>Ending Balance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ExternalSystemStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The external system status</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The external system status</inlineHelpText>
+        <label>External System Status</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__IntegrationDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The integration date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The integration date</inlineHelpText>
+        <label>Integration Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__ReasonCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Allows integrations to write in the reason code for the transaction.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allows integrations to write in the reason code for the transaction.</inlineHelpText>
+        <label>Reason Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__SourceCreditMemoId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The source credit memo from where the A/R transaction is originated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The source credit memo from where the A/R transaction is originated.</inlineHelpText>
+        <label>Source Credit Memo Id</label>
+        <referenceTo>Apttus_Billing__CreditMemo__c</referenceTo>
+        <relationshipLabel>Source Related A/R Transactions (Source Credit Memo Id)</relationshipLabel>
+        <relationshipName>SourceRelatedARTransactions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__SourceInvoiceId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The source invoice from where the A/R transaction is originated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The source invoice from where the A/R transaction is originated.</inlineHelpText>
+        <label>Source Invoice Id</label>
+        <referenceTo>Apttus_Billing__Invoice__c</referenceTo>
+        <relationshipLabel>Source Related A/R Transactions</relationshipLabel>
+        <relationshipName>SourceRelatedARTransactions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__SourceLateFeeId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Reference to the corresponding Late Fee.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For the transaction types that pertain to a Late Fee this is the reference to the (source) Late Fee that was applied to a (destination) Invoice.</inlineHelpText>
+        <label>Source Late Fee Id</label>
+        <referenceTo>Apttus_Billing__LateFee__c</referenceTo>
+        <relationshipLabel>Related A/R Transactions (Source Late Fee Id)</relationshipLabel>
+        <relationshipName>SourceRelatedARTransactions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__SourcePaymentId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The source payment Id of the A/R transaction.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The source payment Id of the A/R transaction.</inlineHelpText>
+        <label>Source Payment Id</label>
+        <referenceTo>Apttus_Billing__Payment__c</referenceTo>
+        <relationshipLabel>Related A/R Transactions</relationshipLabel>
+        <relationshipName>SourceRelatedARTransactions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__StartingBalance__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The balance before applying the transaction</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The balance before applying the transaction</inlineHelpText>
+        <label>Starting Balance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__TxnAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The transaction amount</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The transaction amount</inlineHelpText>
+        <label>Txn Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__TxnDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The transaction date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The transaction date</inlineHelpText>
+        <label>Txn Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__TxnNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The transaction number</description>
+        <externalId>true</externalId>
+        <inlineHelpText>The transaction number</inlineHelpText>
+        <label>Txn Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Billing__TxnType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The transaction type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The transaction type</inlineHelpText>
+        <label>Txn Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Invoice Creation</fullName>
+                    <default>false</default>
+                    <label>Invoice Creation</label>
+                </value>
+                <value>
+                    <fullName>Credit Memo Creation</fullName>
+                    <default>false</default>
+                    <label>Credit Memo Creation</label>
+                </value>
+                <value>
+                    <fullName>Payment Creation</fullName>
+                    <default>false</default>
+                    <label>Payment Creation</label>
+                </value>
+                <value>
+                    <fullName>Credit Memo</fullName>
+                    <default>false</default>
+                    <label>Credit Memo</label>
+                </value>
+                <value>
+                    <fullName>Payment</fullName>
+                    <default>false</default>
+                    <label>Payment</label>
+                </value>
+                <value>
+                    <fullName>Refund</fullName>
+                    <default>false</default>
+                    <label>Refund</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Related A/R Transaction</label>
+    <nameField>
+        <displayFormat>TX-{0000000000}</displayFormat>
+        <label>Related Txn Id</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Related A/R Transactions</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

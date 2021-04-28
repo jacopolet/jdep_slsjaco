@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Rebate System properties. The record should be named as &quot;System Properties&quot;.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Apttus_Rebate__IncentivePayoutCallbackClass__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The incentive payout callback class name. The class should implement the CustomClass.IIncentivePayoutCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The incentive payout callback class name. The class should implement the CustomClass.IIncentivePayoutCallback interface.</inlineHelpText>
+        <label>Incentive Payout Callback Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__InputBusinessObject__c</fullName>
+        <defaultValue>&quot;Apttus_Config2__OrderLineItem__c&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The Api name of the business object which provides the input orders for rebate calculation.
+
+Valid values are:
+=============
+Apttus_Config2__OrderLineItem__c
+Apttus_Config2__ExternalOrderSummaryItem__c</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Api name of the business object which provides the input orders for rebate calculation.
+
+Valid values are:
+=============
+Apttus_Config2__OrderLineItem__c
+Apttus_Config2__ExternalOrderSummaryItem__c</inlineHelpText>
+        <label>Input Business Object</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__RebateCalcBatchSize__c</fullName>
+        <defaultValue>100</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The batch size for the rebate calculation job</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The batch size for the rebate calculation job</inlineHelpText>
+        <label>Rebate Calc Batch Size</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Rebate__RebateRecordTypes__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the list of rebate record types. Each record type should be separated by a new line.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the list of rebate record types. Each record type should be separated by a new line.</inlineHelpText>
+        <label>Rebate Record Types</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <label>Rebate System Properties</label>
+    <visibility>Public</visibility>
+</CustomObject>

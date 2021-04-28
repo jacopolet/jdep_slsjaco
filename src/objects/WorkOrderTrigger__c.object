@@ -1,0 +1,1491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Header</fullName>
+        <fields>Type__c</fields>
+        <fields>OrderType__c</fields>
+        <fields>ParentOrder__c</fields>
+        <fields>ChildOrder__c</fields>
+        <fields>RequestedActivityDate__c</fields>
+        <fields>ServiceContact__c</fields>
+        <fields>AdditionalServiceContact__c</fields>
+        <label>Header</label>
+    </compactLayouts>
+    <compactLayouts>
+        <fullName>Line_Item</fullName>
+        <fields>CreatedById</fields>
+        <fields>OrderType__c</fields>
+        <fields>OrderSubType__c</fields>
+        <fields>RequestedActivityDate__c</fields>
+        <fields>Product__c</fields>
+        <fields>AccountLocation__c</fields>
+        <fields>Stopover__c</fields>
+        <fields>PlugPlay__c</fields>
+        <fields>Workshop__c</fields>
+        <label>Line Item</label>
+    </compactLayouts>
+    <compactLayouts>
+        <fullName>Option</fullName>
+        <fields>CreatedById</fields>
+        <fields>OrderType__c</fields>
+        <fields>Product__c</fields>
+        <fields>OwnedByCustomer__c</fields>
+        <label>Option</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Line Item that will be used for Installation Orders</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>AccountLocation__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This indicates the account location applicable for the order.</description>
+        <externalId>false</externalId>
+        <label>Account Location</label>
+        <referenceTo>Apttus_Config2__AccountLocation__c</referenceTo>
+        <relationshipLabel>Work Order Triggers</relationshipLabel>
+        <relationshipName>WorkOrderTriggers</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AdditionalServiceContact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This is the second service contact .</description>
+        <externalId>false</externalId>
+        <label>Additional Service Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Work Order Triggers (Additional Service Contact)</relationshipLabel>
+        <relationshipName>Work_Order_Triggers</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AlternativeMachineAvailable__c</fullName>
+        <description>This indicates that there is an alternative machine available when work is executed on the affected machine.</description>
+        <externalId>false</externalId>
+        <formula>false</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Alternative Machine Available</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Area__c</fullName>
+        <description>This indicates the area the machine needs to be placed.</description>
+        <externalId>false</externalId>
+        <label>Area</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Building__c</fullName>
+        <description>This indicates the building the machine needs to be placed.</description>
+        <externalId>false</externalId>
+        <label>Building</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CannotAccommodateLargeTruck__c</fullName>
+        <description>This indicates that the account location is not accessible with a large truck.</description>
+        <externalId>false</externalId>
+        <formula>false</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Cannot Accommodate Large Truck</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ChildOrder__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This indicates the reference to the original order (in this case most likely used for swap installation orders)</description>
+        <externalId>false</externalId>
+        <label>Child Order</label>
+        <referenceTo>Apttus_Config2__Order__c</referenceTo>
+        <relationshipLabel>Work Order Triggers (Child Order)</relationshipLabel>
+        <relationshipName>WorkOrderTriggersChildOrder</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CollectCounters__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This indicates whether counters need to be collected before de-installating the machine or removing a particular option.</description>
+        <externalId>false</externalId>
+        <label>Collect Counters</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CommercialMachine__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This indicates whether the machine will be used for commercial activities in order to make money.</description>
+        <externalId>false</externalId>
+        <label>Commercial Machine</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ConfigurationFileURL__c</fullName>
+        <description>This indicates the installation file for the button and recipe configuration.</description>
+        <externalId>false</externalId>
+        <label>Configuration File URL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>ConfigurationManualAgreementsURL__c</fullName>
+        <description>This indicates the installation agreements for the button and recipe configuration if there is no specific installation file.</description>
+        <externalId>false</externalId>
+        <label>Configuration Manual &amp; Agreements URL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>CustomerReference__c</fullName>
+        <description>This indicates the customer reference for the machine.</description>
+        <externalId>false</externalId>
+        <label>Customer Reference</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deinstall_NonJDEMachine__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This indicates whether a NonJDE machine needs to be de-installated prior to the installation of the machine.</description>
+        <externalId>false</externalId>
+        <label>De-install Non-JDE Machine</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DependentDeInstallation__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This indicates the de-installation which will need to be done first prior to execut the installation. Applicable for swap, movement and configuration change orders.</description>
+        <externalId>false</externalId>
+        <label>Dependent De-Installation</label>
+        <referenceTo>WorkOrderTrigger__c</referenceTo>
+        <relationshipLabel>Work Order Triggers (Dependent De-Installation)</relationshipLabel>
+        <relationshipName>WorkOrderTriggersDeInstallation</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <description>This is a short description of the content of the line item. And the same field is used to describe all agreed customer agreements not specifaclly related to the order configuration (e.g. do not install machines within the canteen during lunch)</description>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>ExternalMovement__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This indicates whether the movement is external (different account location or sold to).</description>
+        <externalId>false</externalId>
+        <label>External Movement</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FaultConfiguration__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>[KTS-1475]: This is a physical asset option</description>
+        <externalId>false</externalId>
+        <label>Fault Configuration</label>
+        <referenceTo>PhysicalAsset__c</referenceTo>
+        <relationshipLabel>Work Order Triggers (Fault Configuration)</relationshipLabel>
+        <relationshipName>PhyAssetWorkOrderTriggers</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Floor__c</fullName>
+        <description>This indicates the floor the machine needs to be placed.</description>
+        <externalId>false</externalId>
+        <label>Floor</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>GenerateServiceOrder__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>This indicates that the service order needs to be generated.</description>
+        <externalId>false</externalId>
+        <label>Generate Service Order</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IncludesWaterfilterCoverage__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This indicates whether the order line item of the machine contains waterfilter coverage in order to define whoc should be first after.</description>
+        <externalId>false</externalId>
+        <label>Includes Waterfilter Coverage</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsProject__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This indicates whether the order is applicable to a project. Basic setting is that an order contains a different account location or the delivery is on multiple dates.</description>
+        <externalId>false</externalId>
+        <label>Is Project</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>JDE_crockeryVolumeSize__c</fullName>
+        <description>This indicates the volume size of JDE crockery in case there is no consumption model contract.</description>
+        <externalId>false</externalId>
+        <label>JDE crockery volume size</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>L_Plant_Code__c</fullName>
+        <description>This indicates the Plant code associated with the Machine bundle</description>
+        <externalId>false</externalId>
+        <label>L Plant</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Load_ID__c</fullName>
+        <description>This field indicates the unique ID of the line item. This will need to be pre-fixed field with WOT-{ID of Order Line Item}</description>
+        <externalId>true</externalId>
+        <label>Load ID</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MachineAge__c</fullName>
+        <description>This indicates the age of the machine.</description>
+        <externalId>false</externalId>
+        <formula>$System.OriginDateTime</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Machine Age</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MachineType__c</fullName>
+        <description>This indicates the machine type of the product.</description>
+        <externalId>false</externalId>
+        <formula>TEXT(Product__r.APTS_Equipment_Type__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Machine Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Machine_Care__c</fullName>
+        <externalId>false</externalId>
+        <label>Machine Care</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Comfort Operating</fullName>
+                    <default>false</default>
+                    <label>Comfort Operating</label>
+                </value>
+                <value>
+                    <fullName>Full Co Operating</fullName>
+                    <default>false</default>
+                    <label>Full Co Operating</label>
+                </value>
+                <value>
+                    <fullName>Full Operating</fullName>
+                    <default>false</default>
+                    <label>Full Operating</label>
+                </value>
+                <value>
+                    <fullName>Semi Operating</fullName>
+                    <default>false</default>
+                    <label>Semi Operating</label>
+                </value>
+                <value>
+                    <fullName>Machine Clean Operating</fullName>
+                    <default>false</default>
+                    <label>Machine Clean Operating</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OrderLineItem__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This indicates the reference to the original order line item.</description>
+        <externalId>false</externalId>
+        <label>Order Line Item</label>
+        <referenceTo>Apttus_Config2__OrderLineItem__c</referenceTo>
+        <relationshipLabel>Work Order Triggers</relationshipLabel>
+        <relationshipName>WorkOrderTriggers</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OrderSubType__c</fullName>
+        <description>The indication of the sub-type of order which tells if a line item represents the installation or de-installation of an option or machine for swap and conversion orders.</description>
+        <externalId>false</externalId>
+        <label>Order Sub-Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>De-Installation</fullName>
+                    <default>false</default>
+                    <label>De-Installation</label>
+                </value>
+                <value>
+                    <fullName>Installation</fullName>
+                    <default>false</default>
+                    <label>Installation</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OrderType__c</fullName>
+        <description>The indication of the type of order. This can only be one line.</description>
+        <externalId>false</externalId>
+        <label>Order Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Conversion</fullName>
+                    <default>false</default>
+                    <label>Conversion</label>
+                </value>
+                <value>
+                    <fullName>De-Installation</fullName>
+                    <default>false</default>
+                    <label>De-Installation</label>
+                </value>
+                <value>
+                    <fullName>Installation</fullName>
+                    <default>false</default>
+                    <label>Installation</label>
+                </value>
+                <value>
+                    <fullName>Movement</fullName>
+                    <default>false</default>
+                    <label>Movement</label>
+                </value>
+                <value>
+                    <fullName>Swap</fullName>
+                    <default>false</default>
+                    <label>Swap</label>
+                </value>
+                <value>
+                    <fullName>Trial</fullName>
+                    <default>false</default>
+                    <label>Trial</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OwnedByCustomer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This indicates whether the machine or option is owned by the customer.</description>
+        <externalId>false</externalId>
+        <label>Owned By Customer</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PO_Number__c</fullName>
+        <description>This indicates the PO number applicable for the order.</description>
+        <externalId>false</externalId>
+        <label>PO Number</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ParentHeader__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This indicates the parent header record for all line items and options.</description>
+        <externalId>false</externalId>
+        <label>Parent Header</label>
+        <referenceTo>WorkOrderTrigger__c</referenceTo>
+        <relationshipLabel>Machines</relationshipLabel>
+        <relationshipName>Work_Order_Triggers</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ParentLineItem__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This indicates the reerence to the work order trigger in case an option is added. This field will only be entered if an option is added as a reference of installation/trial or swap. In other words when new machines need to be installed. Not when options are added as these will be line items in the conversion order.</description>
+        <externalId>false</externalId>
+        <label>Parent Line Item</label>
+        <referenceTo>WorkOrderTrigger__c</referenceTo>
+        <relationshipLabel>Options</relationshipLabel>
+        <relationshipName>WorkOrderTriggers</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ParentOrder__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This indicates the reference to the original order.</description>
+        <externalId>false</externalId>
+        <label>Parent Order</label>
+        <referenceTo>Apttus_Config2__Order__c</referenceTo>
+        <relationshipLabel>Work Order Triggers</relationshipLabel>
+        <relationshipName>WorkOrderTriggers</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PhysicalAsset__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This indicates the physical asset.</description>
+        <externalId>false</externalId>
+        <label>Physical Asset</label>
+        <referenceTo>PhysicalAsset__c</referenceTo>
+        <relationshipLabel>Work Order Triggers</relationshipLabel>
+        <relationshipName>WorkOrderTriggers</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PickingDate__c</fullName>
+        <description>This indicates the picking date retrieved from SAP which is being used to calculate the latest date an order can be scheduled for installation, swap and configuration change (adding parts) orders or the previous week for de-installation orders.</description>
+        <externalId>false</externalId>
+        <label>Picking Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PlugPlay__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This indicates whether the machine is applicable to plug &amp; play activities.</description>
+        <externalId>false</externalId>
+        <label>Plug &amp; Play</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PotentialRoundTrip__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Potential Round-Trip</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Processed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This indicates whther the line is processed.</description>
+        <externalId>false</externalId>
+        <label>Processed</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ProductName__c</fullName>
+        <description>This indicates the name of the product.</description>
+        <externalId>false</externalId>
+        <formula>Product__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This indicates the product applicable on the line item (the machine) or the option level.</description>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Work Order Triggers</relationshipLabel>
+        <relationshipName>WorkOrderTriggers</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProjectNumber__c</fullName>
+        <description>This indicates the project number.</description>
+        <externalId>false</externalId>
+        <label>Project Number</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RefurbishedMachine__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This indicates whether a refurbished machine is provided.</description>
+        <externalId>false</externalId>
+        <label>Refurbished Machine</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>RequestedActivityDate__c</fullName>
+        <description>This indicates the week (Monday of the week) the order needs to be executed.</description>
+        <externalId>false</externalId>
+        <label>Requested Activity Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>RequiresScreening__c</fullName>
+        <description>This indicates whether the engineer requires screening.</description>
+        <externalId>false</externalId>
+        <formula>false</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Requires Screening</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>RequiresVCACertificate__c</fullName>
+        <description>This indicates that an engineer requires a VCA certificate.</description>
+        <externalId>false</externalId>
+        <formula>false</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Requires VCA Certificate</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Requires_LSP__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This indicates that a LSP is required for the action.</description>
+        <externalId>false</externalId>
+        <label>Requires LSP</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ReturnProduct__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This indicates whether the machine or option needs to be returned. This is possible when the machine and/or options were rented or when the customer would like to have the machine to be picked-up.</description>
+        <externalId>false</externalId>
+        <label>Return Product</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SalesOrganization__c</fullName>
+        <description>This indicates the list of countries to be implemented</description>
+        <externalId>false</externalId>
+        <label>Sales Organization</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>SAP_0333</fullName>
+                    <default>false</default>
+                    <label>Belgium</label>
+                </value>
+                <value>
+                    <fullName>SAP_0975</fullName>
+                    <default>false</default>
+                    <label>Denmark</label>
+                </value>
+                <value>
+                    <fullName>SAP_6706</fullName>
+                    <default>false</default>
+                    <label>France</label>
+                </value>
+                <value>
+                    <fullName>SAP_6712</fullName>
+                    <default>false</default>
+                    <label>Germany</label>
+                </value>
+                <value>
+                    <fullName>SAP_6750</fullName>
+                    <default>false</default>
+                    <label>Great Britain</label>
+                </value>
+                <value>
+                    <fullName>SAP_6709</fullName>
+                    <default>false</default>
+                    <label>Ireland</label>
+                </value>
+                <value>
+                    <fullName>SAP_0111</fullName>
+                    <default>false</default>
+                    <label>Netherlands</label>
+                </value>
+                <value>
+                    <fullName>SAP_6864</fullName>
+                    <default>false</default>
+                    <label>Norway</label>
+                </value>
+                <value>
+                    <fullName>SAP_0080</fullName>
+                    <default>false</default>
+                    <label>Spain</label>
+                </value>
+                <value>
+                    <fullName>SAP_0976</fullName>
+                    <default>false</default>
+                    <label>Sweden</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ScheduleExceptions__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This indicates whether there are any exceptions on when the order cannot be executed as described in the order description.</description>
+        <externalId>false</externalId>
+        <label>Schedule Exceptions</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ServiceContact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This indicates the service contact.</description>
+        <externalId>false</externalId>
+        <label>Service Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Work Order Triggers</relationshipLabel>
+        <relationshipName>WorkOrderTriggers</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SmokingArea__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This indicates whether the machine will be placed in a smoking area.</description>
+        <externalId>false</externalId>
+        <label>Smoking Area</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>StairClimber__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This indicates whether a stair climber is required for service on the particular asset.</description>
+        <externalId>false</externalId>
+        <label>Stair Climber</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>StopoverCity__c</fullName>
+        <description>This indicates the city of the stopover location</description>
+        <externalId>false</externalId>
+        <label>Stopover City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>StopoverCountry__c</fullName>
+        <description>This indicates the country of the stopover location.</description>
+        <externalId>false</externalId>
+        <label>Stopover Country</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>StopoverPostalCode__c</fullName>
+        <description>This indicates the postal code of the stopover location</description>
+        <externalId>false</externalId>
+        <label>Stopover Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>StopoverStreetAndHouseNumber__c</fullName>
+        <description>This indicates the street and house number of the stopover location.</description>
+        <externalId>false</externalId>
+        <label>Stopover Street and House Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Stopover__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This indicates whether the machine is applicable to the stop-over concept.</description>
+        <externalId>false</externalId>
+        <label>Stopover</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Subject__c</fullName>
+        <description>This is a short description of the contents of the order.</description>
+        <externalId>false</externalId>
+        <label>Subject</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <description>This indicates the type of records inserted.</description>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Header</fullName>
+                    <default>false</default>
+                    <label>Header</label>
+                </value>
+                <value>
+                    <fullName>Line Item</fullName>
+                    <default>false</default>
+                    <label>Line Item</label>
+                </value>
+                <value>
+                    <fullName>Option</fullName>
+                    <default>false</default>
+                    <label>Option</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>UpfrontCall__c</fullName>
+        <description>This indicates whether an upfront call is required before executing the service job.</description>
+        <externalId>false</externalId>
+        <formula>false</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Upfront Call</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Workshop__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This indicates whether the machine is applicable to workshop activities</description>
+        <externalId>false</externalId>
+        <label>Workshop</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Work Order Trigger</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>OrderLineItem__c</columns>
+        <columns>Subject__c</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>Type__c</columns>
+        <columns>OrderType__c</columns>
+        <columns>OrderSubType__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>SalesOrganization__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>New_Trigger_Today</fullName>
+        <columns>NAME</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>OrderLineItem__c</columns>
+        <columns>Type__c</columns>
+        <columns>OrderSubType__c</columns>
+        <columns>SalesOrganization__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>New Trigger Today</label>
+    </listViews>
+    <nameField>
+        <displayFormat>WOT-{000000}</displayFormat>
+        <label>Work Order Trigger Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Work Order Triggers</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>TS_Header</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Header</compactLayoutAssignment>
+        <description>Record type for Header work order trigger type</description>
+        <label>Header</label>
+        <picklistValues>
+            <picklist>Machine_Care__c</picklist>
+            <values>
+                <fullName>Comfort Operating</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Full Co Operating</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Full Operating</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Clean Operating</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Semi Operating</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OrderSubType__c</picklist>
+            <values>
+                <fullName>De-Installation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OrderType__c</picklist>
+            <values>
+                <fullName>Conversion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>De-Installation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Movement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Swap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SalesOrganization__c</picklist>
+            <values>
+                <fullName>SAP_0080</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_0111</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_0333</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_0975</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_0976</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6706</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6709</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6712</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6750</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6864</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Header</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Line Item</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Option</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>TS_LineItem</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Line_Item</compactLayoutAssignment>
+        <description>Record type for Line Item work order trigger type</description>
+        <label>Line Item</label>
+        <picklistValues>
+            <picklist>Machine_Care__c</picklist>
+            <values>
+                <fullName>Comfort Operating</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Full Co Operating</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Full Operating</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Clean Operating</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Semi Operating</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OrderSubType__c</picklist>
+            <values>
+                <fullName>De-Installation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OrderType__c</picklist>
+            <values>
+                <fullName>Conversion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>De-Installation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Movement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Swap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SalesOrganization__c</picklist>
+            <values>
+                <fullName>SAP_0080</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_0111</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_0333</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_0975</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_0976</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6706</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6709</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6712</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6750</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6864</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Header</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Line Item</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Option</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>TS_Option</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Option</compactLayoutAssignment>
+        <description>Record type for Option work order trigger type</description>
+        <label>Option</label>
+        <picklistValues>
+            <picklist>Machine_Care__c</picklist>
+            <values>
+                <fullName>Comfort Operating</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Full Co Operating</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Full Operating</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Clean Operating</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Semi Operating</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OrderSubType__c</picklist>
+            <values>
+                <fullName>De-Installation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OrderType__c</picklist>
+            <values>
+                <fullName>Conversion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>De-Installation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Movement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Swap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SalesOrganization__c</picklist>
+            <values>
+                <fullName>SAP_0080</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_0111</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_0333</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_0975</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_0976</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6706</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6709</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6712</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6750</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP_6864</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Header</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Line Item</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Option</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <searchResultsAdditionalFields>RECORDTYPE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OrderType__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>GenerateServiceOrder__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

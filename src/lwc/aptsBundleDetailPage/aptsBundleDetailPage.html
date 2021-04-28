@@ -1,0 +1,80 @@
+<template>
+   
+    
+   
+   
+    <div class="slds-grid slds-gutters">
+   
+     <div class="slds-col slds-size_2-of-3">  
+                   
+                    <lightning-layout-item  padding="horizontal-medium">
+                        <!--<lightning-helptext content="Enter the Base price override. Please note : End Date is mandatory for the transaction for removing an option"></lightning-helptext>-->
+                        <lightning-input type="text" name="Subject" label="Subject"  style="width: 700px;font-weight:bold"></lightning-input>
+                    </lightning-layout-item>
+
+                    <lightning-checkbox-group name="Checkbox Group"
+                    label="Checkbox Group"
+                    options={options}
+                    value={value}
+                    onchange={handleChange}></lightning-checkbox-group>
+                    
+                </div>
+                <div class="slds-col slds-size_1-of-3">  
+                    <lightning-layout-item  padding="horizontal-medium">
+                        <!--<lightning-helptext content="Enter the Base price override. Please note : End Date is mandatory for the transaction for removing an option"></lightning-helptext>-->
+                        <lightning-input type="text" name="Description" label="Description"  style="width: 140px;font-weight:bold"></lightning-input>
+                    </lightning-layout-item>
+                    
+            
+                    
+                    <lightning-layout-item padding="horizontal-medium">
+                        <!--<lightning-helptext content="Enter the Base price override. Please note : End Date is mandatory for the transaction for removing an option"></lightning-helptext>-->
+                        <lightning-input type="text" name="Building" label="Building"  style="width: 140px;font-weight:bold"></lightning-input>
+                    </lightning-layout-item>
+                           
+                    
+                    <lightning-layout-item padding="horizontal-medium">
+                        <!--<lightning-helptext content="Enter the Base price override. Please note : End Date is mandatory for the transaction for removing an option"></lightning-helptext>-->
+                        <lightning-input type="text" name="Floor" label="Floor"  style="width: 140px;font-weight:bold"></lightning-input>
+                    </lightning-layout-item>
+               
+                     
+                   <lightning-layout-item padding="horizontal-medium">
+                        <!--<lightning-helptext content="Enter the Base price override. Please note : End Date is mandatory for the transaction for removing an option"></lightning-helptext>-->
+                        <lightning-input type="text" name="Area" label="Area"  style="width: 140px;font-weight:bold"></lightning-input>
+                    </lightning-layout-item>
+               
+               <lightning-layout-item padding="horizontal-medium">
+                        <!--<lightning-helptext content="Enter the Base price override. Please note : End Date is mandatory for the transaction for removing an option"></lightning-helptext>-->
+                        <lightning-input type="text" name="Customer Reference" label="Customer Reference"  style="width: 140px;font-weight:bold"></lightning-input>
+                    </lightning-layout-item>
+
+                    <lightning-layout-item padding="horizontal-medium">
+                     <!--<lightning-helptext content="Enter the Base price override. Please note : End Date is mandatory for the transaction for removing an option"></lightning-helptext>-->
+                     <lightning-input type="text" name="Configuration Manual Agreement URL" label="Configuration Manual Agreement URL"  style="width: 250px;font-weight:bold"></lightning-input>
+                 </lightning-layout-item>
+
+                    <lightning-layout-item padding="horizontal-medium">
+                     <!--<lightning-helptext content="Enter the Base price override. Please note : End Date is mandatory for the transaction for removing an option"></lightning-helptext>-->
+                     <lightning-input type="text" name="JDE crockery volume size" label="JDE crockery volume size"  style="width: 250px;font-weight:bold"></lightning-input>
+                 </lightning-layout-item>
+
+                 <lightning-layout-item padding="horizontal-medium">
+                    <lightning-helptext content="For Recurring Billing"></lightning-helptext>
+                    <lightning-input type="text" name="PO number for Machine" label="PO number for Machine"  style="width: 250px;font-weight:bold"></lightning-input>
+                </lightning-layout-item>
+
+                <lightning-layout-item padding="horizontal-medium">
+                    <lightning-helptext content="For Recurring Billing"></lightning-helptext>
+                    <lightning-input type="text" name="PO number for Service" label="PO number for Service"  style="width: 250px;font-weight:bold"></lightning-input>
+                </lightning-layout-item>
+                
+               
+            </div>
+                  
+           
+
+            </div>
+           
+
+</template>

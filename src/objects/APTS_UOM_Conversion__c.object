@@ -1,0 +1,4073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Read</externalSharingModel>
+    <fieldSets>
+        <fullName>APTS_UOMFieldsForDigitalProdIntegration</fullName>
+        <description>Field Set for Digital Products Integration</description>
+        <displayedFields>
+            <field>APTS_Base_UOM__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>APTS_Base_Quantity__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>APTS_Alternative_UOM__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>APTS_Alternative_Quantity__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>APTS_Conversion_Factor__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>APTS_UOM_External_ID__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>APTS_UOMFieldsForDigitalProdIntegration</label>
+    </fieldSets>
+    <fields>
+        <fullName>APTS_Alternative_Quantity__c</fullName>
+        <externalId>false</externalId>
+        <label>Alternative Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>8</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Alternative_UOM_Descripton__c</fullName>
+        <externalId>false</externalId>
+        <label>Alternative UoM Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Alternative_UOM__c</fullName>
+        <externalId>false</externalId>
+        <label>Alternative UOM</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>% On Dry Matter</fullName>
+                    <default>false</default>
+                    <label>% On Dry Matter</label>
+                </value>
+                <value>
+                    <fullName>% On Original Base</fullName>
+                    <default>false</default>
+                    <label>% On Original Base</label>
+                </value>
+                <value>
+                    <fullName>1/cubic centimeter</fullName>
+                    <default>false</default>
+                    <label>1/cubic centimeter</label>
+                </value>
+                <value>
+                    <fullName>1/cubic meter</fullName>
+                    <default>false</default>
+                    <label>1/cubic meter</label>
+                </value>
+                <value>
+                    <fullName>1/minute</fullName>
+                    <default>false</default>
+                    <label>1/minute</label>
+                </value>
+                <value>
+                    <fullName>1 / square meter</fullName>
+                    <default>false</default>
+                    <label>1 / square meter</label>
+                </value>
+                <value>
+                    <fullName>Absent/gram</fullName>
+                    <default>false</default>
+                    <label>Absent/gram</label>
+                </value>
+                <value>
+                    <fullName>Absorbance unit</fullName>
+                    <default>false</default>
+                    <label>Absorbance unit</label>
+                </value>
+                <value>
+                    <fullName>Acre</fullName>
+                    <default>false</default>
+                    <label>Acre</label>
+                </value>
+                <value>
+                    <fullName>Activity unit</fullName>
+                    <default>false</default>
+                    <label>Activity unit</label>
+                </value>
+                <value>
+                    <fullName>Agtron Colour Units</fullName>
+                    <default>false</default>
+                    <label>Agtron Colour Units</label>
+                </value>
+                <value>
+                    <fullName>Ampere</fullName>
+                    <default>false</default>
+                    <label>Ampere</label>
+                </value>
+                <value>
+                    <fullName>APHA</fullName>
+                    <default>false</default>
+                    <label>APHA</label>
+                </value>
+                <value>
+                    <fullName>Arc degrees</fullName>
+                    <default>false</default>
+                    <label>Arc degrees</label>
+                </value>
+                <value>
+                    <fullName>Bag</fullName>
+                    <default>false</default>
+                    <label>Bag</label>
+                </value>
+                <value>
+                    <fullName>bar</fullName>
+                    <default>false</default>
+                    <label>bar</label>
+                </value>
+                <value>
+                    <fullName>Barrel</fullName>
+                    <default>false</default>
+                    <label>Barrel</label>
+                </value>
+                <value>
+                    <fullName>Basket LOGIFRUIT Large - 6424</fullName>
+                    <default>false</default>
+                    <label>Basket LOGIFRUIT Large - 6424</label>
+                </value>
+                <value>
+                    <fullName>Beam</fullName>
+                    <default>false</default>
+                    <label>Beam</label>
+                </value>
+                <value>
+                    <fullName>Becquerel/kilogram</fullName>
+                    <default>false</default>
+                    <label>Becquerel/kilogram</label>
+                </value>
+                <value>
+                    <fullName>Bkry Bobbin</fullName>
+                    <default>false</default>
+                    <label>Bkry Bobbin</label>
+                </value>
+                <value>
+                    <fullName>Bread</fullName>
+                    <default>false</default>
+                    <label>Bread</label>
+                </value>
+                <value>
+                    <fullName>Bkry Bobbin Cakes</fullName>
+                    <default>false</default>
+                    <label>Bkry Bobbin Cakes</label>
+                </value>
+                <value>
+                    <fullName>Bkry Bundel</fullName>
+                    <default>false</default>
+                    <label>Bkry Bundel</label>
+                </value>
+                <value>
+                    <fullName>Bkry Cage</fullName>
+                    <default>false</default>
+                    <label>Bkry Cage</label>
+                </value>
+                <value>
+                    <fullName>Bkry Dolly Cart</fullName>
+                    <default>false</default>
+                    <label>Bkry Dolly Cart</label>
+                </value>
+                <value>
+                    <fullName>Bkry Metal Pal.</fullName>
+                    <default>false</default>
+                    <label>Bkry Metal Pal.</label>
+                </value>
+                <value>
+                    <fullName>Bkry Plastic Pal.</fullName>
+                    <default>false</default>
+                    <label>Bkry Plastic Pal.</label>
+                </value>
+                <value>
+                    <fullName>Bkry Plastic Pallet USA</fullName>
+                    <default>false</default>
+                    <label>Bkry Plastic Pallet USA</label>
+                </value>
+                <value>
+                    <fullName>Bkry Sack</fullName>
+                    <default>false</default>
+                    <label>Bkry Sack</label>
+                </value>
+                <value>
+                    <fullName>Blister</fullName>
+                    <default>false</default>
+                    <label>Blister</label>
+                </value>
+                <value>
+                    <fullName>Bottle</fullName>
+                    <default>false</default>
+                    <label>Bottle</label>
+                </value>
+                <value>
+                    <fullName>Box</fullName>
+                    <default>false</default>
+                    <label>Box</label>
+                </value>
+                <value>
+                    <fullName>Bsket LOGIFRUIT small-6412</fullName>
+                    <default>false</default>
+                    <label>Bsket LOGIFRUIT small-6412</label>
+                </value>
+                <value>
+                    <fullName>Bulk Dimension text</fullName>
+                    <default>false</default>
+                    <label>Bulk Dimension text</label>
+                </value>
+                <value>
+                    <fullName>Bulk Volume 20&apos;/21000 Kg</fullName>
+                    <default>false</default>
+                    <label>Bulk Volume 20&apos;/21000 Kg</label>
+                </value>
+                <value>
+                    <fullName>Bulk Volume 40&apos;/60.000 Kg</fullName>
+                    <default>false</default>
+                    <label>Bulk Volume 40&apos;/60.000 Kg</label>
+                </value>
+                <value>
+                    <fullName>Bulk Volume cm3/250g</fullName>
+                    <default>false</default>
+                    <label>Bulk Volume cm3/250g</label>
+                </value>
+                <value>
+                    <fullName>Candela</fullName>
+                    <default>false</default>
+                    <label>Candela</label>
+                </value>
+                <value>
+                    <fullName>Canister</fullName>
+                    <default>false</default>
+                    <label>Canister</label>
+                </value>
+                <value>
+                    <fullName>Carton</fullName>
+                    <default>false</default>
+                    <label>Carton</label>
+                </value>
+                <value>
+                    <fullName>Case</fullName>
+                    <default>false</default>
+                    <label>Case</label>
+                </value>
+                <value>
+                    <fullName>CAW BE</fullName>
+                    <default>false</default>
+                    <label>CAW BE</label>
+                </value>
+                <value>
+                    <fullName>CAW DK</fullName>
+                    <default>false</default>
+                    <label>CAW DK</label>
+                </value>
+                <value>
+                    <fullName>CAW FI</fullName>
+                    <default>false</default>
+                    <label>CAW FI</label>
+                </value>
+                <value>
+                    <fullName>CAW NO</fullName>
+                    <default>false</default>
+                    <label>CAW NO</label>
+                </value>
+                <value>
+                    <fullName>CAW PL</fullName>
+                    <default>false</default>
+                    <label>CAW PL</label>
+                </value>
+                <value>
+                    <fullName>CAW Ret FR</fullName>
+                    <default>false</default>
+                    <label>CAW Ret FR</label>
+                </value>
+                <value>
+                    <fullName>CAW SE</fullName>
+                    <default>false</default>
+                    <label>CAW SE</label>
+                </value>
+                <value>
+                    <fullName>centiliter</fullName>
+                    <default>false</default>
+                    <label>centiliter</label>
+                </value>
+                <value>
+                    <fullName>Centimeter</fullName>
+                    <default>false</default>
+                    <label>Centimeter</label>
+                </value>
+                <value>
+                    <fullName>Centimeter/hour</fullName>
+                    <default>false</default>
+                    <label>Centimeter/hour</label>
+                </value>
+                <value>
+                    <fullName>Centimeter/Second</fullName>
+                    <default>false</default>
+                    <label>Centimeter/Second</label>
+                </value>
+                <value>
+                    <fullName>centiNewton meter</fullName>
+                    <default>false</default>
+                    <label>centiNewton meter</label>
+                </value>
+                <value>
+                    <fullName>centipoise</fullName>
+                    <default>false</default>
+                    <label>centipoise</label>
+                </value>
+                <value>
+                    <fullName>Coffee Tax</fullName>
+                    <default>false</default>
+                    <label>Coffee Tax</label>
+                </value>
+                <value>
+                    <fullName>Colony Forming Unit</fullName>
+                    <default>false</default>
+                    <label>Colony Forming Unit</label>
+                </value>
+                <value>
+                    <fullName>Colony Forming Unit per 100ml</fullName>
+                    <default>false</default>
+                    <label>Colony Forming Unit per 100ml</label>
+                </value>
+                <value>
+                    <fullName>Colony Forming Unit per Gram</fullName>
+                    <default>false</default>
+                    <label>Colony Forming Unit per Gram</label>
+                </value>
+                <value>
+                    <fullName>Consumption application unit</fullName>
+                    <default>false</default>
+                    <label>Consumption application unit</label>
+                </value>
+                <value>
+                    <fullName>Crate</fullName>
+                    <default>false</default>
+                    <label>Crate</label>
+                </value>
+                <value>
+                    <fullName>Cubic centimeter</fullName>
+                    <default>false</default>
+                    <label>Cubic centimeter</label>
+                </value>
+                <value>
+                    <fullName>Cubic centimeter/second</fullName>
+                    <default>false</default>
+                    <label>Cubic centimeter/second</label>
+                </value>
+                <value>
+                    <fullName>Cubic Centimeter per Pulse</fullName>
+                    <default>false</default>
+                    <label>Cubic Centimeter per Pulse</label>
+                </value>
+                <value>
+                    <fullName>Cubic decimeter</fullName>
+                    <default>false</default>
+                    <label>Cubic decimeter</label>
+                </value>
+                <value>
+                    <fullName>Cubic foot</fullName>
+                    <default>false</default>
+                    <label>Cubic foot</label>
+                </value>
+                <value>
+                    <fullName>Cubic inch</fullName>
+                    <default>false</default>
+                    <label>Cubic inch</label>
+                </value>
+                <value>
+                    <fullName>Cubic meter</fullName>
+                    <default>false</default>
+                    <label>Cubic meter</label>
+                </value>
+                <value>
+                    <fullName>Cubic meter/Cubic meter</fullName>
+                    <default>false</default>
+                    <label>Cubic meter/Cubic meter</label>
+                </value>
+                <value>
+                    <fullName>Cubic meter/Hour</fullName>
+                    <default>false</default>
+                    <label>Cubic meter/Hour</label>
+                </value>
+                <value>
+                    <fullName>Cubic meter/second</fullName>
+                    <default>false</default>
+                    <label>Cubic meter/second</label>
+                </value>
+                <value>
+                    <fullName>Cubic millimeter</fullName>
+                    <default>false</default>
+                    <label>Cubic millimeter</label>
+                </value>
+                <value>
+                    <fullName>Cubic yard</fullName>
+                    <default>false</default>
+                    <label>Cubic yard</label>
+                </value>
+                <value>
+                    <fullName>Days</fullName>
+                    <default>false</default>
+                    <label>Days</label>
+                </value>
+                <value>
+                    <fullName>Decimeter</fullName>
+                    <default>false</default>
+                    <label>Decimeter</label>
+                </value>
+                <value>
+                    <fullName>Degree</fullName>
+                    <default>false</default>
+                    <label>Degree</label>
+                </value>
+                <value>
+                    <fullName>Degrees Celsius</fullName>
+                    <default>false</default>
+                    <label>Degrees Celsius</label>
+                </value>
+                <value>
+                    <fullName>Display</fullName>
+                    <default>false</default>
+                    <label>Display</label>
+                </value>
+                <value>
+                    <fullName>Dozen</fullName>
+                    <default>false</default>
+                    <label>Dozen</label>
+                </value>
+                <value>
+                    <fullName>Drum</fullName>
+                    <default>false</default>
+                    <label>Drum</label>
+                </value>
+                <value>
+                    <fullName>Each</fullName>
+                    <default>false</default>
+                    <label>Each</label>
+                </value>
+                <value>
+                    <fullName>Enzyme Units</fullName>
+                    <default>false</default>
+                    <label>Enzyme Units</label>
+                </value>
+                <value>
+                    <fullName>Enzyme Units / Milliliter</fullName>
+                    <default>false</default>
+                    <label>Enzyme Units / Milliliter</label>
+                </value>
+                <value>
+                    <fullName>equipment rotation</fullName>
+                    <default>false</default>
+                    <label>equipment rotation</label>
+                </value>
+                <value>
+                    <fullName>Fahrenheit</fullName>
+                    <default>false</default>
+                    <label>Fahrenheit</label>
+                </value>
+                <value>
+                    <fullName>Farad</fullName>
+                    <default>false</default>
+                    <label>Farad</label>
+                </value>
+                <value>
+                    <fullName>Feet</fullName>
+                    <default>false</default>
+                    <label>Feet</label>
+                </value>
+                <value>
+                    <fullName>Fluid Ounce US</fullName>
+                    <default>false</default>
+                    <label>Fluid Ounce US</label>
+                </value>
+                <value>
+                    <fullName>Four Pack</fullName>
+                    <default>false</default>
+                    <label>Four Pack</label>
+                </value>
+                <value>
+                    <fullName>Full Pallet</fullName>
+                    <default>false</default>
+                    <label>Full Pallet</label>
+                </value>
+                <value>
+                    <fullName>FUP100*80</fullName>
+                    <default>false</default>
+                    <label>FUP100*80</label>
+                </value>
+                <value>
+                    <fullName>FUP120*100</fullName>
+                    <default>false</default>
+                    <label>FUP120*100</label>
+                </value>
+                <value>
+                    <fullName>FUP120*80</fullName>
+                    <default>false</default>
+                    <label>FUP120*80</label>
+                </value>
+                <value>
+                    <fullName>g/250 ml</fullName>
+                    <default>false</default>
+                    <label>g/250 ml</label>
+                </value>
+                <value>
+                    <fullName>gallon (UK)</fullName>
+                    <default>false</default>
+                    <label>gallon (UK)</label>
+                </value>
+                <value>
+                    <fullName>Gallons per hour (US)</fullName>
+                    <default>false</default>
+                    <label>Gallons per hour (US)</label>
+                </value>
+                <value>
+                    <fullName>Gallons per mile (US)</fullName>
+                    <default>false</default>
+                    <label>Gallons per mile (US)</label>
+                </value>
+                <value>
+                    <fullName>GB LAY</fullName>
+                    <default>false</default>
+                    <label>GB LAY</label>
+                </value>
+                <value>
+                    <fullName>GB PAL</fullName>
+                    <default>false</default>
+                    <label>GB PAL</label>
+                </value>
+                <value>
+                    <fullName>German degrees of hardness</fullName>
+                    <default>false</default>
+                    <label>German degrees of hardness</label>
+                </value>
+                <value>
+                    <fullName>Gigajoule</fullName>
+                    <default>false</default>
+                    <label>Gigajoule</label>
+                </value>
+                <value>
+                    <fullName>Gigaohm</fullName>
+                    <default>false</default>
+                    <label>Gigaohm</label>
+                </value>
+                <value>
+                    <fullName>gl2/100g</fullName>
+                    <default>false</default>
+                    <label>gl2/100g</label>
+                </value>
+                <value>
+                    <fullName>Gram</fullName>
+                    <default>false</default>
+                    <label>Gram</label>
+                </value>
+                <value>
+                    <fullName>Gram/Cubic meter</fullName>
+                    <default>false</default>
+                    <label>Gram/Cubic meter</label>
+                </value>
+                <value>
+                    <fullName>Gram/gram</fullName>
+                    <default>false</default>
+                    <label>Gram/gram</label>
+                </value>
+                <value>
+                    <fullName>Gram/hectogram</fullName>
+                    <default>false</default>
+                    <label>Gram/hectogram</label>
+                </value>
+                <value>
+                    <fullName>Gram/kilogram</fullName>
+                    <default>false</default>
+                    <label>Gram/kilogram</label>
+                </value>
+                <value>
+                    <fullName>Gram/liter</fullName>
+                    <default>false</default>
+                    <label>Gram/liter</label>
+                </value>
+                <value>
+                    <fullName>Gram/Mol</fullName>
+                    <default>false</default>
+                    <label>Gram/Mol</label>
+                </value>
+                <value>
+                    <fullName>Gram/square meter</fullName>
+                    <default>false</default>
+                    <label>Gram/square meter</label>
+                </value>
+                <value>
+                    <fullName>gram act.ingrd / liter</fullName>
+                    <default>false</default>
+                    <label>gram act.ingrd / liter</label>
+                </value>
+                <value>
+                    <fullName>Gram act. ingrd.</fullName>
+                    <default>false</default>
+                    <label>Gram act. ingrd.</label>
+                </value>
+                <value>
+                    <fullName>Gram Gold</fullName>
+                    <default>false</default>
+                    <label>Gram Gold</label>
+                </value>
+                <value>
+                    <fullName>Gramm/Cubic centimeter</fullName>
+                    <default>false</default>
+                    <label>Gramm/Cubic centimeter</label>
+                </value>
+                <value>
+                    <fullName>gram per second</fullName>
+                    <default>false</default>
+                    <label>gram per second</label>
+                </value>
+                <value>
+                    <fullName>Grams per 100 grams</fullName>
+                    <default>false</default>
+                    <label>Grams per 100 grams</label>
+                </value>
+                <value>
+                    <fullName>Grams per 100ml</fullName>
+                    <default>false</default>
+                    <label>Grams per 100ml</label>
+                </value>
+                <value>
+                    <fullName>Grams per mililiter</fullName>
+                    <default>false</default>
+                    <label>Grams per mililiter</label>
+                </value>
+                <value>
+                    <fullName>Gross</fullName>
+                    <default>false</default>
+                    <label>Gross</label>
+                </value>
+                <value>
+                    <fullName>Half pallet</fullName>
+                    <default>false</default>
+                    <label>Half pallet</label>
+                </value>
+                <value>
+                    <fullName>HAP100*80</fullName>
+                    <default>false</default>
+                    <label>HAP100*80</label>
+                </value>
+                <value>
+                    <fullName>HAP120*100</fullName>
+                    <default>false</default>
+                    <label>HAP120*100</label>
+                </value>
+                <value>
+                    <fullName>HAP120*80</fullName>
+                    <default>false</default>
+                    <label>HAP120*80</label>
+                </value>
+                <value>
+                    <fullName>Hectare</fullName>
+                    <default>false</default>
+                    <label>Hectare</label>
+                </value>
+                <value>
+                    <fullName>Hectoliter</fullName>
+                    <default>false</default>
+                    <label>Hectoliter</label>
+                </value>
+                <value>
+                    <fullName>Hectopascal</fullName>
+                    <default>false</default>
+                    <label>Hectopascal</label>
+                </value>
+                <value>
+                    <fullName>Hertz (1/second)</fullName>
+                    <default>false</default>
+                    <label>Hertz (1/second)</label>
+                </value>
+                <value>
+                    <fullName>Hour</fullName>
+                    <default>false</default>
+                    <label>Hour</label>
+                </value>
+                <value>
+                    <fullName>Hours</fullName>
+                    <default>false</default>
+                    <label>Hours</label>
+                </value>
+                <value>
+                    <fullName>Hundred</fullName>
+                    <default>false</default>
+                    <label>Hundred</label>
+                </value>
+                <value>
+                    <fullName>Hundred Pounds (CWT)</fullName>
+                    <default>false</default>
+                    <label>Hundred Pounds (CWT)</label>
+                </value>
+                <value>
+                    <fullName>Inch</fullName>
+                    <default>false</default>
+                    <label>Inch</label>
+                </value>
+                <value>
+                    <fullName>Inner Box</fullName>
+                    <default>false</default>
+                    <label>Inner Box</label>
+                </value>
+                <value>
+                    <fullName>Jar</fullName>
+                    <default>false</default>
+                    <label>Jar</label>
+                </value>
+                <value>
+                    <fullName>Joule</fullName>
+                    <default>false</default>
+                    <label>Joule</label>
+                </value>
+                <value>
+                    <fullName>Joule/Kilogram</fullName>
+                    <default>false</default>
+                    <label>Joule/Kilogram</label>
+                </value>
+                <value>
+                    <fullName>Joule/Mol</fullName>
+                    <default>false</default>
+                    <label>Joule/Mol</label>
+                </value>
+                <value>
+                    <fullName>Kelvin</fullName>
+                    <default>false</default>
+                    <label>Kelvin</label>
+                </value>
+                <value>
+                    <fullName>Kelvin/Minute</fullName>
+                    <default>false</default>
+                    <label>Kelvin/Minute</label>
+                </value>
+                <value>
+                    <fullName>Kelvin/Second</fullName>
+                    <default>false</default>
+                    <label>Kelvin/Second</label>
+                </value>
+                <value>
+                    <fullName>kg act.ingrd. / kg</fullName>
+                    <default>false</default>
+                    <label>kg act.ingrd. / kg</label>
+                </value>
+                <value>
+                    <fullName>Kiloampere</fullName>
+                    <default>false</default>
+                    <label>Kiloampere</label>
+                </value>
+                <value>
+                    <fullName>Kilobecquerel/kilogram</fullName>
+                    <default>false</default>
+                    <label>Kilobecquerel/kilogram</label>
+                </value>
+                <value>
+                    <fullName>Kilogram</fullName>
+                    <default>false</default>
+                    <label>Kilogram</label>
+                </value>
+                <value>
+                    <fullName>Kilogram/cubic decimeter</fullName>
+                    <default>false</default>
+                    <label>Kilogram/cubic decimeter</label>
+                </value>
+                <value>
+                    <fullName>Kilogram/cubic meter</fullName>
+                    <default>false</default>
+                    <label>Kilogram/cubic meter</label>
+                </value>
+                <value>
+                    <fullName>Kilogram/Kilogram</fullName>
+                    <default>false</default>
+                    <label>Kilogram/Kilogram</label>
+                </value>
+                <value>
+                    <fullName>Kilogram/second</fullName>
+                    <default>false</default>
+                    <label>Kilogram/second</label>
+                </value>
+                <value>
+                    <fullName>Kilogram/Square meter</fullName>
+                    <default>false</default>
+                    <label>Kilogram/Square meter</label>
+                </value>
+                <value>
+                    <fullName>Kilogram act. ingrd.</fullName>
+                    <default>false</default>
+                    <label>Kilogram act. ingrd.</label>
+                </value>
+                <value>
+                    <fullName>kilogram dry matter</fullName>
+                    <default>false</default>
+                    <label>kilogram dry matter</label>
+                </value>
+                <value>
+                    <fullName>kilogram per hour</fullName>
+                    <default>false</default>
+                    <label>kilogram per hour</label>
+                </value>
+                <value>
+                    <fullName>Kilohertz</fullName>
+                    <default>false</default>
+                    <label>Kilohertz</label>
+                </value>
+                <value>
+                    <fullName>Kilojoule</fullName>
+                    <default>false</default>
+                    <label>Kilojoule</label>
+                </value>
+                <value>
+                    <fullName>Kilojoule/kilogram</fullName>
+                    <default>false</default>
+                    <label>Kilojoule/kilogram</label>
+                </value>
+                <value>
+                    <fullName>Kilojoule/Mol</fullName>
+                    <default>false</default>
+                    <label>Kilojoule/Mol</label>
+                </value>
+                <value>
+                    <fullName>Kiloliter</fullName>
+                    <default>false</default>
+                    <label>Kiloliter</label>
+                </value>
+                <value>
+                    <fullName>Kilometer</fullName>
+                    <default>false</default>
+                    <label>Kilometer</label>
+                </value>
+                <value>
+                    <fullName>Kilometer/hour</fullName>
+                    <default>false</default>
+                    <label>Kilometer/hour</label>
+                </value>
+                <value>
+                    <fullName>Kilomol</fullName>
+                    <default>false</default>
+                    <label>Kilomol</label>
+                </value>
+                <value>
+                    <fullName>Kilonewton</fullName>
+                    <default>false</default>
+                    <label>Kilonewton</label>
+                </value>
+                <value>
+                    <fullName>Kilonewton per square meter</fullName>
+                    <default>false</default>
+                    <label>Kilonewton per square meter</label>
+                </value>
+                <value>
+                    <fullName>Kiloohm</fullName>
+                    <default>false</default>
+                    <label>Kiloohm</label>
+                </value>
+                <value>
+                    <fullName>Kilopascal</fullName>
+                    <default>false</default>
+                    <label>Kilopascal</label>
+                </value>
+                <value>
+                    <fullName>Kilotonne</fullName>
+                    <default>false</default>
+                    <label>Kilotonne</label>
+                </value>
+                <value>
+                    <fullName>Kilovolt</fullName>
+                    <default>false</default>
+                    <label>Kilovolt</label>
+                </value>
+                <value>
+                    <fullName>Kilovoltampere</fullName>
+                    <default>false</default>
+                    <label>Kilovoltampere</label>
+                </value>
+                <value>
+                    <fullName>Kilowatt</fullName>
+                    <default>false</default>
+                    <label>Kilowatt</label>
+                </value>
+                <value>
+                    <fullName>Kilowatt hours</fullName>
+                    <default>false</default>
+                    <label>Kilowatt hours</label>
+                </value>
+                <value>
+                    <fullName>Lange</fullName>
+                    <default>false</default>
+                    <label>Lange</label>
+                </value>
+                <value>
+                    <fullName>LAY100*80</fullName>
+                    <default>false</default>
+                    <label>LAY100*80</label>
+                </value>
+                <value>
+                    <fullName>LAY120*100</fullName>
+                    <default>false</default>
+                    <label>LAY120*100</label>
+                </value>
+                <value>
+                    <fullName>LAY120*80</fullName>
+                    <default>false</default>
+                    <label>LAY120*80</label>
+                </value>
+                <value>
+                    <fullName>Layer</fullName>
+                    <default>false</default>
+                    <label>Layer</label>
+                </value>
+                <value>
+                    <fullName>Layer log.plant</fullName>
+                    <default>false</default>
+                    <label>Layer log.plant</label>
+                </value>
+                <value>
+                    <fullName>Length</fullName>
+                    <default>false</default>
+                    <label>Length</label>
+                </value>
+                <value>
+                    <fullName>Light Extinction Coefficient</fullName>
+                    <default>false</default>
+                    <label>Light Extinction Coefficient</label>
+                </value>
+                <value>
+                    <fullName>Liter</fullName>
+                    <default>false</default>
+                    <label>Liter</label>
+                </value>
+                <value>
+                    <fullName>Liter/Minute</fullName>
+                    <default>false</default>
+                    <label>Liter/Minute</label>
+                </value>
+                <value>
+                    <fullName>Liter/Molsecond</fullName>
+                    <default>false</default>
+                    <label>Liter/Molsecond</label>
+                </value>
+                <value>
+                    <fullName>Liter per 100 km</fullName>
+                    <default>false</default>
+                    <label>Liter per 100 km</label>
+                </value>
+                <value>
+                    <fullName>Liter per hour</fullName>
+                    <default>false</default>
+                    <label>Liter per hour</label>
+                </value>
+                <value>
+                    <fullName>Lot</fullName>
+                    <default>false</default>
+                    <label>Lot</label>
+                </value>
+                <value>
+                    <fullName>Mass parts per billion</fullName>
+                    <default>false</default>
+                    <label>Mass parts per billion</label>
+                </value>
+                <value>
+                    <fullName>Mass parts per million</fullName>
+                    <default>false</default>
+                    <label>Mass parts per million</label>
+                </value>
+                <value>
+                    <fullName>Mass parts per trillion</fullName>
+                    <default>false</default>
+                    <label>Mass parts per trillion</label>
+                </value>
+                <value>
+                    <fullName>Megahertz</fullName>
+                    <default>false</default>
+                    <label>Megahertz</label>
+                </value>
+                <value>
+                    <fullName>Megajoule</fullName>
+                    <default>false</default>
+                    <label>Megajoule</label>
+                </value>
+                <value>
+                    <fullName>Meganewton</fullName>
+                    <default>false</default>
+                    <label>Meganewton</label>
+                </value>
+                <value>
+                    <fullName>Megapascal</fullName>
+                    <default>false</default>
+                    <label>Megapascal</label>
+                </value>
+                <value>
+                    <fullName>Megavolt</fullName>
+                    <default>false</default>
+                    <label>Megavolt</label>
+                </value>
+                <value>
+                    <fullName>Megavoltampere</fullName>
+                    <default>false</default>
+                    <label>Megavoltampere</label>
+                </value>
+                <value>
+                    <fullName>Megawatt</fullName>
+                    <default>false</default>
+                    <label>Megawatt</label>
+                </value>
+                <value>
+                    <fullName>Megawatt hours</fullName>
+                    <default>false</default>
+                    <label>Megawatt hours</label>
+                </value>
+                <value>
+                    <fullName>Megohm</fullName>
+                    <default>false</default>
+                    <label>Megohm</label>
+                </value>
+                <value>
+                    <fullName>Meter/Hour</fullName>
+                    <default>false</default>
+                    <label>Meter/Hour</label>
+                </value>
+                <value>
+                    <fullName>Meter/Minute</fullName>
+                    <default>false</default>
+                    <label>Meter/Minute</label>
+                </value>
+                <value>
+                    <fullName>Meter/second</fullName>
+                    <default>false</default>
+                    <label>Meter/second</label>
+                </value>
+                <value>
+                    <fullName>Meter/second squared</fullName>
+                    <default>false</default>
+                    <label>Meter/second squared</label>
+                </value>
+                <value>
+                    <fullName>Meterbar/second</fullName>
+                    <default>false</default>
+                    <label>Meterbar/second</label>
+                </value>
+                <value>
+                    <fullName>Meterpascal/second</fullName>
+                    <default>false</default>
+                    <label>Meterpascal/second</label>
+                </value>
+                <value>
+                    <fullName>mgKOH/g</fullName>
+                    <default>false</default>
+                    <label>mgKOH/g</label>
+                </value>
+                <value>
+                    <fullName>Microampere</fullName>
+                    <default>false</default>
+                    <label>Microampere</label>
+                </value>
+                <value>
+                    <fullName>Microfarad</fullName>
+                    <default>false</default>
+                    <label>Microfarad</label>
+                </value>
+                <value>
+                    <fullName>Microgram/cubic meter</fullName>
+                    <default>false</default>
+                    <label>Microgram/cubic meter</label>
+                </value>
+                <value>
+                    <fullName>microgram/kilogram</fullName>
+                    <default>false</default>
+                    <label>microgram/kilogram</label>
+                </value>
+                <value>
+                    <fullName>Microgram/liter</fullName>
+                    <default>false</default>
+                    <label>Microgram/liter</label>
+                </value>
+                <value>
+                    <fullName>Microliter</fullName>
+                    <default>false</default>
+                    <label>Microliter</label>
+                </value>
+                <value>
+                    <fullName>Micrometer</fullName>
+                    <default>false</default>
+                    <label>Micrometer</label>
+                </value>
+                <value>
+                    <fullName>Micro organism per gram</fullName>
+                    <default>false</default>
+                    <label>Micro organism per gram</label>
+                </value>
+                <value>
+                    <fullName>Microsecond</fullName>
+                    <default>false</default>
+                    <label>Microsecond</label>
+                </value>
+                <value>
+                    <fullName>Microsiemens per centimeter</fullName>
+                    <default>false</default>
+                    <label>Microsiemens per centimeter</label>
+                </value>
+                <value>
+                    <fullName>Microsiemens per gram</fullName>
+                    <default>false</default>
+                    <label>Microsiemens per gram</label>
+                </value>
+                <value>
+                    <fullName>Mile</fullName>
+                    <default>false</default>
+                    <label>Mile</label>
+                </value>
+                <value>
+                    <fullName>Miles per gallon (US)</fullName>
+                    <default>false</default>
+                    <label>Miles per gallon (US)</label>
+                </value>
+                <value>
+                    <fullName>Miliequivalent / gramm</fullName>
+                    <default>false</default>
+                    <label>Miliequivalent / gramm</label>
+                </value>
+                <value>
+                    <fullName>miligram per 100 ml</fullName>
+                    <default>false</default>
+                    <label>miligram per 100 ml</label>
+                </value>
+                <value>
+                    <fullName>Milimeter per 5 seconds</fullName>
+                    <default>false</default>
+                    <label>Milimeter per 5 seconds</label>
+                </value>
+                <value>
+                    <fullName>mili siemens</fullName>
+                    <default>false</default>
+                    <label>mili siemens</label>
+                </value>
+                <value>
+                    <fullName>Milliampere</fullName>
+                    <default>false</default>
+                    <label>Milliampere</label>
+                </value>
+                <value>
+                    <fullName>Millibar</fullName>
+                    <default>false</default>
+                    <label>Millibar</label>
+                </value>
+                <value>
+                    <fullName>Millifarad</fullName>
+                    <default>false</default>
+                    <label>Millifarad</label>
+                </value>
+                <value>
+                    <fullName>Milligram</fullName>
+                    <default>false</default>
+                    <label>Milligram</label>
+                </value>
+                <value>
+                    <fullName>Milligram/cubic meter</fullName>
+                    <default>false</default>
+                    <label>Milligram/cubic meter</label>
+                </value>
+                <value>
+                    <fullName>Milligram/gram</fullName>
+                    <default>false</default>
+                    <label>Milligram/gram</label>
+                </value>
+                <value>
+                    <fullName>Milligram/kilogram</fullName>
+                    <default>false</default>
+                    <label>Milligram/kilogram</label>
+                </value>
+                <value>
+                    <fullName>Milligram/liter</fullName>
+                    <default>false</default>
+                    <label>Milligram/liter</label>
+                </value>
+                <value>
+                    <fullName>Milligram/Square centimeter</fullName>
+                    <default>false</default>
+                    <label>Milligram/Square centimeter</label>
+                </value>
+                <value>
+                    <fullName>Millijoule</fullName>
+                    <default>false</default>
+                    <label>Millijoule</label>
+                </value>
+                <value>
+                    <fullName>Milliliter</fullName>
+                    <default>false</default>
+                    <label>Milliliter</label>
+                </value>
+                <value>
+                    <fullName>Milliliter/cubic</fullName>
+                    <default>false</default>
+                    <label>Milliliter/cubic</label>
+                </value>
+                <value>
+                    <fullName>meter</fullName>
+                    <default>false</default>
+                    <label>meter</label>
+                </value>
+                <value>
+                    <fullName>Milliliter act. ingr.</fullName>
+                    <default>false</default>
+                    <label>Milliliter act. ingr.</label>
+                </value>
+                <value>
+                    <fullName>Millilitre per gram</fullName>
+                    <default>false</default>
+                    <label>Millilitre per gram</label>
+                </value>
+                <value>
+                    <fullName>Millimeter</fullName>
+                    <default>false</default>
+                    <label>Millimeter</label>
+                </value>
+                <value>
+                    <fullName>Millimeter/hour</fullName>
+                    <default>false</default>
+                    <label>Millimeter/hour</label>
+                </value>
+                <value>
+                    <fullName>Millimeter/second</fullName>
+                    <default>false</default>
+                    <label>Millimeter/second</label>
+                </value>
+                <value>
+                    <fullName>Millimeter/year</fullName>
+                    <default>false</default>
+                    <label>Millimeter/year</label>
+                </value>
+                <value>
+                    <fullName>Millimol</fullName>
+                    <default>false</default>
+                    <label>Millimol</label>
+                </value>
+                <value>
+                    <fullName>Millimol/gram</fullName>
+                    <default>false</default>
+                    <label>Millimol/gram</label>
+                </value>
+                <value>
+                    <fullName>Millimol/kilogram</fullName>
+                    <default>false</default>
+                    <label>Millimol/kilogram</label>
+                </value>
+                <value>
+                    <fullName>Millimol per liter</fullName>
+                    <default>false</default>
+                    <label>Millimol per liter</label>
+                </value>
+                <value>
+                    <fullName>Millinewton/meter</fullName>
+                    <default>false</default>
+                    <label>Millinewton/meter</label>
+                </value>
+                <value>
+                    <fullName>Million International Unit</fullName>
+                    <default>false</default>
+                    <label>Million International Unit</label>
+                </value>
+                <value>
+                    <fullName>Millipascal seconds</fullName>
+                    <default>false</default>
+                    <label>Millipascal seconds</label>
+                </value>
+                <value>
+                    <fullName>Millisecond</fullName>
+                    <default>false</default>
+                    <label>Millisecond</label>
+                </value>
+                <value>
+                    <fullName>Millitesla</fullName>
+                    <default>false</default>
+                    <label>Millitesla</label>
+                </value>
+                <value>
+                    <fullName>Millivolt</fullName>
+                    <default>false</default>
+                    <label>Millivolt</label>
+                </value>
+                <value>
+                    <fullName>Milliwatt</fullName>
+                    <default>false</default>
+                    <label>Milliwatt</label>
+                </value>
+                <value>
+                    <fullName>Minute</fullName>
+                    <default>false</default>
+                    <label>Minute</label>
+                </value>
+                <value>
+                    <fullName>Mixed Box</fullName>
+                    <default>false</default>
+                    <label>Mixed Box</label>
+                </value>
+                <value>
+                    <fullName>Mol</fullName>
+                    <default>false</default>
+                    <label>Mol</label>
+                </value>
+                <value>
+                    <fullName>Mol/kilogram</fullName>
+                    <default>false</default>
+                    <label>Mol/kilogram</label>
+                </value>
+                <value>
+                    <fullName>Mol per cubic meter</fullName>
+                    <default>false</default>
+                    <label>Mol per cubic meter</label>
+                </value>
+                <value>
+                    <fullName>Mol per liter</fullName>
+                    <default>false</default>
+                    <label>Mol per liter</label>
+                </value>
+                <value>
+                    <fullName>Months</fullName>
+                    <default>false</default>
+                    <label>Months</label>
+                </value>
+                <value>
+                    <fullName>Most probable number / 100g</fullName>
+                    <default>false</default>
+                    <label>Most probable number / 100g</label>
+                </value>
+                <value>
+                    <fullName>Most probable number / g</fullName>
+                    <default>false</default>
+                    <label>Most probable number / g</label>
+                </value>
+                <value>
+                    <fullName>Nanoampere</fullName>
+                    <default>false</default>
+                    <label>Nanoampere</label>
+                </value>
+                <value>
+                    <fullName>Nanofarad</fullName>
+                    <default>false</default>
+                    <label>Nanofarad</label>
+                </value>
+                <value>
+                    <fullName>Nanometer</fullName>
+                    <default>false</default>
+                    <label>Nanometer</label>
+                </value>
+                <value>
+                    <fullName>Nanosecond</fullName>
+                    <default>false</default>
+                    <label>Nanosecond</label>
+                </value>
+                <value>
+                    <fullName>net ton (2000 lb)</fullName>
+                    <default>false</default>
+                    <label>net ton (2000 lb)</label>
+                </value>
+                <value>
+                    <fullName>Newton</fullName>
+                    <default>false</default>
+                    <label>Newton</label>
+                </value>
+                <value>
+                    <fullName>Newton/meter</fullName>
+                    <default>false</default>
+                    <label>Newton/meter</label>
+                </value>
+                <value>
+                    <fullName>Newton/Square millimeter</fullName>
+                    <default>false</default>
+                    <label>Newton/Square millimeter</label>
+                </value>
+                <value>
+                    <fullName>Not known if unit is a SRP</fullName>
+                    <default>false</default>
+                    <label>Not known if unit is a SRP</label>
+                </value>
+                <value>
+                    <fullName>Number of persons</fullName>
+                    <default>false</default>
+                    <label>Number of persons</label>
+                </value>
+                <value>
+                    <fullName>Number of Wipes</fullName>
+                    <default>false</default>
+                    <label>Number of Wipes</label>
+                </value>
+                <value>
+                    <fullName>Ohm</fullName>
+                    <default>false</default>
+                    <label>Ohm</label>
+                </value>
+                <value>
+                    <fullName>One</fullName>
+                    <default>false</default>
+                    <label>One</label>
+                </value>
+                <value>
+                    <fullName>One tenth milimeter</fullName>
+                    <default>false</default>
+                    <label>One tenth milimeter</label>
+                </value>
+                <value>
+                    <fullName>Ounce</fullName>
+                    <default>false</default>
+                    <label>Ounce</label>
+                </value>
+                <value>
+                    <fullName>Outer Box</fullName>
+                    <default>false</default>
+                    <label>Outer Box</label>
+                </value>
+                <value>
+                    <fullName>Outer Box Conditions</fullName>
+                    <default>false</default>
+                    <label>Outer Box Conditions</label>
+                </value>
+                <value>
+                    <fullName>Pack</fullName>
+                    <default>false</default>
+                    <label>Pack</label>
+                </value>
+                <value>
+                    <fullName>Pad</fullName>
+                    <default>false</default>
+                    <label>Pad</label>
+                </value>
+                <value>
+                    <fullName>Pair</fullName>
+                    <default>false</default>
+                    <label>Pair</label>
+                </value>
+                <value>
+                    <fullName>Pallet</fullName>
+                    <default>false</default>
+                    <label>Pallet</label>
+                </value>
+                <value>
+                    <fullName>Pallet log.plant</fullName>
+                    <default>false</default>
+                    <label>Pallet log.plant</label>
+                </value>
+                <value>
+                    <fullName>PAL Spaces</fullName>
+                    <default>false</default>
+                    <label>PAL Spaces</label>
+                </value>
+                <value>
+                    <fullName>Parts per billion</fullName>
+                    <default>false</default>
+                    <label>Parts per billion</label>
+                </value>
+                <value>
+                    <fullName>Parts per million</fullName>
+                    <default>false</default>
+                    <label>Parts per million</label>
+                </value>
+                <value>
+                    <fullName>Parts per trillion</fullName>
+                    <default>false</default>
+                    <label>Parts per trillion</label>
+                </value>
+                <value>
+                    <fullName>Pascal</fullName>
+                    <default>false</default>
+                    <label>Pascal</label>
+                </value>
+                <value>
+                    <fullName>Pascal second</fullName>
+                    <default>false</default>
+                    <label>Pascal second</label>
+                </value>
+                <value>
+                    <fullName>Percentage</fullName>
+                    <default>false</default>
+                    <label>Percentage</label>
+                </value>
+                <value>
+                    <fullName>Percent mass</fullName>
+                    <default>false</default>
+                    <label>Percent mass</label>
+                </value>
+                <value>
+                    <fullName>Percent volume</fullName>
+                    <default>false</default>
+                    <label>Percent volume</label>
+                </value>
+                <value>
+                    <fullName>Per mille</fullName>
+                    <default>false</default>
+                    <label>Per mille</label>
+                </value>
+                <value>
+                    <fullName>Permille mass</fullName>
+                    <default>false</default>
+                    <label>Permille mass</label>
+                </value>
+                <value>
+                    <fullName>Permille volume</fullName>
+                    <default>false</default>
+                    <label>Permille volume</label>
+                </value>
+                <value>
+                    <fullName>pH</fullName>
+                    <default>false</default>
+                    <label>pH</label>
+                </value>
+                <value>
+                    <fullName>Picosecond</fullName>
+                    <default>false</default>
+                    <label>Picosecond</label>
+                </value>
+                <value>
+                    <fullName>Piece</fullName>
+                    <default>false</default>
+                    <label>Piece</label>
+                </value>
+                <value>
+                    <fullName>Pieces with decimales</fullName>
+                    <default>false</default>
+                    <label>Pieces with decimales</label>
+                </value>
+                <value>
+                    <fullName>Pikofarad</fullName>
+                    <default>false</default>
+                    <label>Pikofarad</label>
+                </value>
+                <value>
+                    <fullName>Pint</fullName>
+                    <default>false</default>
+                    <label>Pint</label>
+                </value>
+                <value>
+                    <fullName>Points</fullName>
+                    <default>false</default>
+                    <label>Points</label>
+                </value>
+                <value>
+                    <fullName>ppmH202</fullName>
+                    <default>false</default>
+                    <label>ppmH202</label>
+                </value>
+                <value>
+                    <fullName>Quart</fullName>
+                    <default>false</default>
+                    <label>Quart</label>
+                </value>
+                <value>
+                    <fullName>US liquid</fullName>
+                    <default>false</default>
+                    <label>US liquid</label>
+                </value>
+                <value>
+                    <fullName>Quarter hour</fullName>
+                    <default>false</default>
+                    <label>Quarter hour</label>
+                </value>
+                <value>
+                    <fullName>Ream</fullName>
+                    <default>false</default>
+                    <label>Ream</label>
+                </value>
+                <value>
+                    <fullName>Reel</fullName>
+                    <default>false</default>
+                    <label>Reel</label>
+                </value>
+                <value>
+                    <fullName>Reporting</fullName>
+                    <default>false</default>
+                    <label>Reporting</label>
+                </value>
+                <value>
+                    <fullName>Role</fullName>
+                    <default>false</default>
+                    <label>Role</label>
+                </value>
+                <value>
+                    <fullName>Round</fullName>
+                    <default>false</default>
+                    <label>Round</label>
+                </value>
+                <value>
+                    <fullName>Second</fullName>
+                    <default>false</default>
+                    <label>Second</label>
+                </value>
+                <value>
+                    <fullName>Set</fullName>
+                    <default>false</default>
+                    <label>Set</label>
+                </value>
+                <value>
+                    <fullName>Sheet</fullName>
+                    <default>false</default>
+                    <label>Sheet</label>
+                </value>
+                <value>
+                    <fullName>Shrink</fullName>
+                    <default>false</default>
+                    <label>Shrink</label>
+                </value>
+                <value>
+                    <fullName>Siemens per meter</fullName>
+                    <default>false</default>
+                    <label>Siemens per meter</label>
+                </value>
+                <value>
+                    <fullName>Slipsheet 1</fullName>
+                    <default>false</default>
+                    <label>Slipsheet 1</label>
+                </value>
+                <value>
+                    <fullName>Slipsheet 2</fullName>
+                    <default>false</default>
+                    <label>Slipsheet 2</label>
+                </value>
+                <value>
+                    <fullName>Slipsheet 3</fullName>
+                    <default>false</default>
+                    <label>Slipsheet 3</label>
+                </value>
+                <value>
+                    <fullName>Slipsheet 4</fullName>
+                    <default>false</default>
+                    <label>Slipsheet 4</label>
+                </value>
+                <value>
+                    <fullName>Slipsheet la</fullName>
+                    <default>false</default>
+                    <label>Slipsheet la</label>
+                </value>
+                <value>
+                    <fullName>Slipsheet Pal</fullName>
+                    <default>false</default>
+                    <label>Slipsheet Pal</label>
+                </value>
+                <value>
+                    <fullName>Smallest Unit</fullName>
+                    <default>false</default>
+                    <label>Smallest Unit</label>
+                </value>
+                <value>
+                    <fullName>Specific Rotation</fullName>
+                    <default>false</default>
+                    <label>Specific Rotation</label>
+                </value>
+                <value>
+                    <fullName>SPIT</fullName>
+                    <default>false</default>
+                    <label>SPIT</label>
+                </value>
+                <value>
+                    <fullName>Spool</fullName>
+                    <default>false</default>
+                    <label>Spool</label>
+                </value>
+                <value>
+                    <fullName>Square centimeter</fullName>
+                    <default>false</default>
+                    <label>Square centimeter</label>
+                </value>
+                <value>
+                    <fullName>square decimeter</fullName>
+                    <default>false</default>
+                    <label>square decimeter</label>
+                </value>
+                <value>
+                    <fullName>Square foot</fullName>
+                    <default>false</default>
+                    <label>Square foot</label>
+                </value>
+                <value>
+                    <fullName>Square inch</fullName>
+                    <default>false</default>
+                    <label>Square inch</label>
+                </value>
+                <value>
+                    <fullName>Square meter</fullName>
+                    <default>false</default>
+                    <label>Square meter</label>
+                </value>
+                <value>
+                    <fullName>Square meter/second</fullName>
+                    <default>false</default>
+                    <label>Square meter/second</label>
+                </value>
+                <value>
+                    <fullName>Square mile</fullName>
+                    <default>false</default>
+                    <label>Square mile</label>
+                </value>
+                <value>
+                    <fullName>Square millimeter</fullName>
+                    <default>false</default>
+                    <label>Square millimeter</label>
+                </value>
+                <value>
+                    <fullName>Square millimeter/second</fullName>
+                    <default>false</default>
+                    <label>Square millimeter/second</label>
+                </value>
+                <value>
+                    <fullName>Square Yard</fullName>
+                    <default>false</default>
+                    <label>Square Yard</label>
+                </value>
+                <value>
+                    <fullName>SRP facing = Length</fullName>
+                    <default>false</default>
+                    <label>SRP facing = Length</label>
+                </value>
+                <value>
+                    <fullName>SRP facing = Width</fullName>
+                    <default>false</default>
+                    <label>SRP facing = Width</label>
+                </value>
+                <value>
+                    <fullName>Statistical uom Iberia</fullName>
+                    <default>false</default>
+                    <label>Statistical uom Iberia</label>
+                </value>
+                <value>
+                    <fullName>Stick</fullName>
+                    <default>false</default>
+                    <label>Stick</label>
+                </value>
+                <value>
+                    <fullName>Tesla</fullName>
+                    <default>false</default>
+                    <label>Tesla</label>
+                </value>
+                <value>
+                    <fullName>Test</fullName>
+                    <default>false</default>
+                    <label>Test</label>
+                </value>
+                <value>
+                    <fullName>Thousand</fullName>
+                    <default>false</default>
+                    <label>Thousand</label>
+                </value>
+                <value>
+                    <fullName>Thousand Feet</fullName>
+                    <default>false</default>
+                    <label>Thousand Feet</label>
+                </value>
+                <value>
+                    <fullName>Three pack</fullName>
+                    <default>false</default>
+                    <label>Three pack</label>
+                </value>
+                <value>
+                    <fullName>Ton/Cubic meter</fullName>
+                    <default>false</default>
+                    <label>Ton/Cubic meter</label>
+                </value>
+                <value>
+                    <fullName>Tonnes</fullName>
+                    <default>false</default>
+                    <label>Tonnes</label>
+                </value>
+                <value>
+                    <fullName>Trade unit</fullName>
+                    <default>false</default>
+                    <label>Trade unit</label>
+                </value>
+                <value>
+                    <fullName>Tray</fullName>
+                    <default>false</default>
+                    <label>Tray</label>
+                </value>
+                <value>
+                    <fullName>Tube</fullName>
+                    <default>false</default>
+                    <label>Tube</label>
+                </value>
+                <value>
+                    <fullName>Two pack</fullName>
+                    <default>false</default>
+                    <label>Two pack</label>
+                </value>
+                <value>
+                    <fullName>Unit is not a SRP</fullName>
+                    <default>false</default>
+                    <label>Unit is not a SRP</label>
+                </value>
+                <value>
+                    <fullName>Units per gram</fullName>
+                    <default>false</default>
+                    <label>Units per gram</label>
+                </value>
+                <value>
+                    <fullName>Units per miligram</fullName>
+                    <default>false</default>
+                    <label>Units per miligram</label>
+                </value>
+                <value>
+                    <fullName>Units per mililiter</fullName>
+                    <default>false</default>
+                    <label>Units per mililiter</label>
+                </value>
+                <value>
+                    <fullName>US gallon</fullName>
+                    <default>false</default>
+                    <label>US gallon</label>
+                </value>
+                <value>
+                    <fullName>US pound</fullName>
+                    <default>false</default>
+                    <label>US pound</label>
+                </value>
+                <value>
+                    <fullName>US ton</fullName>
+                    <default>false</default>
+                    <label>US ton</label>
+                </value>
+                <value>
+                    <fullName>Voltampere</fullName>
+                    <default>false</default>
+                    <label>Voltampere</label>
+                </value>
+                <value>
+                    <fullName>Volts</fullName>
+                    <default>false</default>
+                    <label>Volts</label>
+                </value>
+                <value>
+                    <fullName>Volume parts per billion</fullName>
+                    <default>false</default>
+                    <label>Volume parts per billion</label>
+                </value>
+                <value>
+                    <fullName>Volume parts per million</fullName>
+                    <default>false</default>
+                    <label>Volume parts per million</label>
+                </value>
+                <value>
+                    <fullName>Volume parts per trillion</fullName>
+                    <default>false</default>
+                    <label>Volume parts per trillion</label>
+                </value>
+                <value>
+                    <fullName>Volume weight</fullName>
+                    <default>false</default>
+                    <label>Volume weight</label>
+                </value>
+                <value>
+                    <fullName>VO mat.</fullName>
+                    <default>false</default>
+                    <label>VO mat.</label>
+                </value>
+                <value>
+                    <fullName>Watt</fullName>
+                    <default>false</default>
+                    <label>Watt</label>
+                </value>
+                <value>
+                    <fullName>Weeks</fullName>
+                    <default>false</default>
+                    <label>Weeks</label>
+                </value>
+                <value>
+                    <fullName>weight of dm2</fullName>
+                    <default>false</default>
+                    <label>weight of dm2</label>
+                </value>
+                <value>
+                    <fullName>Yard</fullName>
+                    <default>false</default>
+                    <label>Yard</label>
+                </value>
+                <value>
+                    <fullName>Years</fullName>
+                    <default>false</default>
+                    <label>Years</label>
+                </value>
+                <value>
+                    <fullName>українська гривня</fullName>
+                    <default>false</default>
+                    <label>українська гривня</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Base_Quantity__c</fullName>
+        <externalId>false</externalId>
+        <label>Base Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>8</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Base_UOM_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Base UoM description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Base_UOM__c</fullName>
+        <externalId>false</externalId>
+        <label>Base UOM</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>% On Dry Matter</fullName>
+                    <default>false</default>
+                    <label>% On Dry Matter</label>
+                </value>
+                <value>
+                    <fullName>% On Original Base</fullName>
+                    <default>false</default>
+                    <label>% On Original Base</label>
+                </value>
+                <value>
+                    <fullName>1/cubic centimeter</fullName>
+                    <default>false</default>
+                    <label>1/cubic centimeter</label>
+                </value>
+                <value>
+                    <fullName>1/cubic meter</fullName>
+                    <default>false</default>
+                    <label>1/cubic meter</label>
+                </value>
+                <value>
+                    <fullName>1/minute</fullName>
+                    <default>false</default>
+                    <label>1/minute</label>
+                </value>
+                <value>
+                    <fullName>1 / square meter</fullName>
+                    <default>false</default>
+                    <label>1 / square meter</label>
+                </value>
+                <value>
+                    <fullName>Absent/gram</fullName>
+                    <default>false</default>
+                    <label>Absent/gram</label>
+                </value>
+                <value>
+                    <fullName>Absorbance unit</fullName>
+                    <default>false</default>
+                    <label>Absorbance unit</label>
+                </value>
+                <value>
+                    <fullName>Acre</fullName>
+                    <default>false</default>
+                    <label>Acre</label>
+                </value>
+                <value>
+                    <fullName>Activity unit</fullName>
+                    <default>false</default>
+                    <label>Activity unit</label>
+                </value>
+                <value>
+                    <fullName>Agtron Colour Units</fullName>
+                    <default>false</default>
+                    <label>Agtron Colour Units</label>
+                </value>
+                <value>
+                    <fullName>Ampere</fullName>
+                    <default>false</default>
+                    <label>Ampere</label>
+                </value>
+                <value>
+                    <fullName>APHA</fullName>
+                    <default>false</default>
+                    <label>APHA</label>
+                </value>
+                <value>
+                    <fullName>Arc degrees</fullName>
+                    <default>false</default>
+                    <label>Arc degrees</label>
+                </value>
+                <value>
+                    <fullName>Bag</fullName>
+                    <default>false</default>
+                    <label>Bag</label>
+                </value>
+                <value>
+                    <fullName>bar</fullName>
+                    <default>false</default>
+                    <label>bar</label>
+                </value>
+                <value>
+                    <fullName>Barrel</fullName>
+                    <default>false</default>
+                    <label>Barrel</label>
+                </value>
+                <value>
+                    <fullName>Basket LOGIFRUIT Large - 6424</fullName>
+                    <default>false</default>
+                    <label>Basket LOGIFRUIT Large - 6424</label>
+                </value>
+                <value>
+                    <fullName>Beam</fullName>
+                    <default>false</default>
+                    <label>Beam</label>
+                </value>
+                <value>
+                    <fullName>Becquerel/kilogram</fullName>
+                    <default>false</default>
+                    <label>Becquerel/kilogram</label>
+                </value>
+                <value>
+                    <fullName>Bkry Bobbin</fullName>
+                    <default>false</default>
+                    <label>Bkry Bobbin</label>
+                </value>
+                <value>
+                    <fullName>Bread</fullName>
+                    <default>false</default>
+                    <label>Bread</label>
+                </value>
+                <value>
+                    <fullName>Bkry Bobbin Cakes</fullName>
+                    <default>false</default>
+                    <label>Bkry Bobbin Cakes</label>
+                </value>
+                <value>
+                    <fullName>Bkry Bundel</fullName>
+                    <default>false</default>
+                    <label>Bkry Bundel</label>
+                </value>
+                <value>
+                    <fullName>Bkry Cage</fullName>
+                    <default>false</default>
+                    <label>Bkry Cage</label>
+                </value>
+                <value>
+                    <fullName>Bkry Dolly Cart</fullName>
+                    <default>false</default>
+                    <label>Bkry Dolly Cart</label>
+                </value>
+                <value>
+                    <fullName>Bkry Metal Pal.</fullName>
+                    <default>false</default>
+                    <label>Bkry Metal Pal.</label>
+                </value>
+                <value>
+                    <fullName>Bkry Plastic Pal.</fullName>
+                    <default>false</default>
+                    <label>Bkry Plastic Pal.</label>
+                </value>
+                <value>
+                    <fullName>Bkry Plastic Pallet USA</fullName>
+                    <default>false</default>
+                    <label>Bkry Plastic Pallet USA</label>
+                </value>
+                <value>
+                    <fullName>Bkry Sack</fullName>
+                    <default>false</default>
+                    <label>Bkry Sack</label>
+                </value>
+                <value>
+                    <fullName>Blister</fullName>
+                    <default>false</default>
+                    <label>Blister</label>
+                </value>
+                <value>
+                    <fullName>Bottle</fullName>
+                    <default>false</default>
+                    <label>Bottle</label>
+                </value>
+                <value>
+                    <fullName>Box</fullName>
+                    <default>false</default>
+                    <label>Box</label>
+                </value>
+                <value>
+                    <fullName>Bsket LOGIFRUIT small-6412</fullName>
+                    <default>false</default>
+                    <label>Bsket LOGIFRUIT small-6412</label>
+                </value>
+                <value>
+                    <fullName>Bulk Dimension text</fullName>
+                    <default>false</default>
+                    <label>Bulk Dimension text</label>
+                </value>
+                <value>
+                    <fullName>Bulk Volume 20&apos;/21000 Kg</fullName>
+                    <default>false</default>
+                    <label>Bulk Volume 20&apos;/21000 Kg</label>
+                </value>
+                <value>
+                    <fullName>Bulk Volume 40&apos;/60.000 Kg</fullName>
+                    <default>false</default>
+                    <label>Bulk Volume 40&apos;/60.000 Kg</label>
+                </value>
+                <value>
+                    <fullName>Bulk Volume cm3/250g</fullName>
+                    <default>false</default>
+                    <label>Bulk Volume cm3/250g</label>
+                </value>
+                <value>
+                    <fullName>Candela</fullName>
+                    <default>false</default>
+                    <label>Candela</label>
+                </value>
+                <value>
+                    <fullName>Canister</fullName>
+                    <default>false</default>
+                    <label>Canister</label>
+                </value>
+                <value>
+                    <fullName>Carton</fullName>
+                    <default>false</default>
+                    <label>Carton</label>
+                </value>
+                <value>
+                    <fullName>Case</fullName>
+                    <default>false</default>
+                    <label>Case</label>
+                </value>
+                <value>
+                    <fullName>CAW BE</fullName>
+                    <default>false</default>
+                    <label>CAW BE</label>
+                </value>
+                <value>
+                    <fullName>CAW DK</fullName>
+                    <default>false</default>
+                    <label>CAW DK</label>
+                </value>
+                <value>
+                    <fullName>CAW FI</fullName>
+                    <default>false</default>
+                    <label>CAW FI</label>
+                </value>
+                <value>
+                    <fullName>CAW NO</fullName>
+                    <default>false</default>
+                    <label>CAW NO</label>
+                </value>
+                <value>
+                    <fullName>CAW PL</fullName>
+                    <default>false</default>
+                    <label>CAW PL</label>
+                </value>
+                <value>
+                    <fullName>CAW Ret FR</fullName>
+                    <default>false</default>
+                    <label>CAW Ret FR</label>
+                </value>
+                <value>
+                    <fullName>CAW SE</fullName>
+                    <default>false</default>
+                    <label>CAW SE</label>
+                </value>
+                <value>
+                    <fullName>centiliter</fullName>
+                    <default>false</default>
+                    <label>centiliter</label>
+                </value>
+                <value>
+                    <fullName>Centimeter</fullName>
+                    <default>false</default>
+                    <label>Centimeter</label>
+                </value>
+                <value>
+                    <fullName>Centimeter/hour</fullName>
+                    <default>false</default>
+                    <label>Centimeter/hour</label>
+                </value>
+                <value>
+                    <fullName>Centimeter/Second</fullName>
+                    <default>false</default>
+                    <label>Centimeter/Second</label>
+                </value>
+                <value>
+                    <fullName>centiNewton meter</fullName>
+                    <default>false</default>
+                    <label>centiNewton meter</label>
+                </value>
+                <value>
+                    <fullName>centipoise</fullName>
+                    <default>false</default>
+                    <label>centipoise</label>
+                </value>
+                <value>
+                    <fullName>Coffee Tax</fullName>
+                    <default>false</default>
+                    <label>Coffee Tax</label>
+                </value>
+                <value>
+                    <fullName>Colony Forming Unit</fullName>
+                    <default>false</default>
+                    <label>Colony Forming Unit</label>
+                </value>
+                <value>
+                    <fullName>Colony Forming Unit per 100ml</fullName>
+                    <default>false</default>
+                    <label>Colony Forming Unit per 100ml</label>
+                </value>
+                <value>
+                    <fullName>Colony Forming Unit per Gram</fullName>
+                    <default>false</default>
+                    <label>Colony Forming Unit per Gram</label>
+                </value>
+                <value>
+                    <fullName>Consumption application unit</fullName>
+                    <default>false</default>
+                    <label>Consumption application unit</label>
+                </value>
+                <value>
+                    <fullName>Crate</fullName>
+                    <default>false</default>
+                    <label>Crate</label>
+                </value>
+                <value>
+                    <fullName>Cubic centimeter</fullName>
+                    <default>false</default>
+                    <label>Cubic centimeter</label>
+                </value>
+                <value>
+                    <fullName>Cubic centimeter/second</fullName>
+                    <default>false</default>
+                    <label>Cubic centimeter/second</label>
+                </value>
+                <value>
+                    <fullName>Cubic Centimeter per Pulse</fullName>
+                    <default>false</default>
+                    <label>Cubic Centimeter per Pulse</label>
+                </value>
+                <value>
+                    <fullName>Cubic decimeter</fullName>
+                    <default>false</default>
+                    <label>Cubic decimeter</label>
+                </value>
+                <value>
+                    <fullName>Cubic foot</fullName>
+                    <default>false</default>
+                    <label>Cubic foot</label>
+                </value>
+                <value>
+                    <fullName>Cubic inch</fullName>
+                    <default>false</default>
+                    <label>Cubic inch</label>
+                </value>
+                <value>
+                    <fullName>Cubic meter</fullName>
+                    <default>false</default>
+                    <label>Cubic meter</label>
+                </value>
+                <value>
+                    <fullName>Cubic meter/Cubic meter</fullName>
+                    <default>false</default>
+                    <label>Cubic meter/Cubic meter</label>
+                </value>
+                <value>
+                    <fullName>Cubic meter/Hour</fullName>
+                    <default>false</default>
+                    <label>Cubic meter/Hour</label>
+                </value>
+                <value>
+                    <fullName>Cubic meter/second</fullName>
+                    <default>false</default>
+                    <label>Cubic meter/second</label>
+                </value>
+                <value>
+                    <fullName>Cubic millimeter</fullName>
+                    <default>false</default>
+                    <label>Cubic millimeter</label>
+                </value>
+                <value>
+                    <fullName>Cubic yard</fullName>
+                    <default>false</default>
+                    <label>Cubic yard</label>
+                </value>
+                <value>
+                    <fullName>Days</fullName>
+                    <default>false</default>
+                    <label>Days</label>
+                </value>
+                <value>
+                    <fullName>Decimeter</fullName>
+                    <default>false</default>
+                    <label>Decimeter</label>
+                </value>
+                <value>
+                    <fullName>Degree</fullName>
+                    <default>false</default>
+                    <label>Degree</label>
+                </value>
+                <value>
+                    <fullName>Degrees Celsius</fullName>
+                    <default>false</default>
+                    <label>Degrees Celsius</label>
+                </value>
+                <value>
+                    <fullName>Display</fullName>
+                    <default>false</default>
+                    <label>Display</label>
+                </value>
+                <value>
+                    <fullName>Dozen</fullName>
+                    <default>false</default>
+                    <label>Dozen</label>
+                </value>
+                <value>
+                    <fullName>Drum</fullName>
+                    <default>false</default>
+                    <label>Drum</label>
+                </value>
+                <value>
+                    <fullName>Each</fullName>
+                    <default>false</default>
+                    <label>Each</label>
+                </value>
+                <value>
+                    <fullName>Enzyme Units</fullName>
+                    <default>false</default>
+                    <label>Enzyme Units</label>
+                </value>
+                <value>
+                    <fullName>Enzyme Units / Milliliter</fullName>
+                    <default>false</default>
+                    <label>Enzyme Units / Milliliter</label>
+                </value>
+                <value>
+                    <fullName>equipment rotation</fullName>
+                    <default>false</default>
+                    <label>equipment rotation</label>
+                </value>
+                <value>
+                    <fullName>Fahrenheit</fullName>
+                    <default>false</default>
+                    <label>Fahrenheit</label>
+                </value>
+                <value>
+                    <fullName>Farad</fullName>
+                    <default>false</default>
+                    <label>Farad</label>
+                </value>
+                <value>
+                    <fullName>Feet</fullName>
+                    <default>false</default>
+                    <label>Feet</label>
+                </value>
+                <value>
+                    <fullName>Fluid Ounce US</fullName>
+                    <default>false</default>
+                    <label>Fluid Ounce US</label>
+                </value>
+                <value>
+                    <fullName>Four Pack</fullName>
+                    <default>false</default>
+                    <label>Four Pack</label>
+                </value>
+                <value>
+                    <fullName>Full Pallet</fullName>
+                    <default>false</default>
+                    <label>Full Pallet</label>
+                </value>
+                <value>
+                    <fullName>FUP100*80</fullName>
+                    <default>false</default>
+                    <label>FUP100*80</label>
+                </value>
+                <value>
+                    <fullName>FUP120*100</fullName>
+                    <default>false</default>
+                    <label>FUP120*100</label>
+                </value>
+                <value>
+                    <fullName>FUP120*80</fullName>
+                    <default>false</default>
+                    <label>FUP120*80</label>
+                </value>
+                <value>
+                    <fullName>g/250 ml</fullName>
+                    <default>false</default>
+                    <label>g/250 ml</label>
+                </value>
+                <value>
+                    <fullName>gallon (UK)</fullName>
+                    <default>false</default>
+                    <label>gallon (UK)</label>
+                </value>
+                <value>
+                    <fullName>Gallons per hour (US)</fullName>
+                    <default>false</default>
+                    <label>Gallons per hour (US)</label>
+                </value>
+                <value>
+                    <fullName>Gallons per mile (US)</fullName>
+                    <default>false</default>
+                    <label>Gallons per mile (US)</label>
+                </value>
+                <value>
+                    <fullName>GB LAY</fullName>
+                    <default>false</default>
+                    <label>GB LAY</label>
+                </value>
+                <value>
+                    <fullName>GB PAL</fullName>
+                    <default>false</default>
+                    <label>GB PAL</label>
+                </value>
+                <value>
+                    <fullName>German degrees of hardness</fullName>
+                    <default>false</default>
+                    <label>German degrees of hardness</label>
+                </value>
+                <value>
+                    <fullName>Gigajoule</fullName>
+                    <default>false</default>
+                    <label>Gigajoule</label>
+                </value>
+                <value>
+                    <fullName>Gigaohm</fullName>
+                    <default>false</default>
+                    <label>Gigaohm</label>
+                </value>
+                <value>
+                    <fullName>gl2/100g</fullName>
+                    <default>false</default>
+                    <label>gl2/100g</label>
+                </value>
+                <value>
+                    <fullName>Gram</fullName>
+                    <default>false</default>
+                    <label>Gram</label>
+                </value>
+                <value>
+                    <fullName>Gram/Cubic meter</fullName>
+                    <default>false</default>
+                    <label>Gram/Cubic meter</label>
+                </value>
+                <value>
+                    <fullName>Gram/gram</fullName>
+                    <default>false</default>
+                    <label>Gram/gram</label>
+                </value>
+                <value>
+                    <fullName>Gram/hectogram</fullName>
+                    <default>false</default>
+                    <label>Gram/hectogram</label>
+                </value>
+                <value>
+                    <fullName>Gram/kilogram</fullName>
+                    <default>false</default>
+                    <label>Gram/kilogram</label>
+                </value>
+                <value>
+                    <fullName>Gram/liter</fullName>
+                    <default>false</default>
+                    <label>Gram/liter</label>
+                </value>
+                <value>
+                    <fullName>Gram/Mol</fullName>
+                    <default>false</default>
+                    <label>Gram/Mol</label>
+                </value>
+                <value>
+                    <fullName>Gram/square meter</fullName>
+                    <default>false</default>
+                    <label>Gram/square meter</label>
+                </value>
+                <value>
+                    <fullName>gram act.ingrd / liter</fullName>
+                    <default>false</default>
+                    <label>gram act.ingrd / liter</label>
+                </value>
+                <value>
+                    <fullName>Gram act. ingrd.</fullName>
+                    <default>false</default>
+                    <label>Gram act. ingrd.</label>
+                </value>
+                <value>
+                    <fullName>Gram Gold</fullName>
+                    <default>false</default>
+                    <label>Gram Gold</label>
+                </value>
+                <value>
+                    <fullName>Gramm/Cubic centimeter</fullName>
+                    <default>false</default>
+                    <label>Gramm/Cubic centimeter</label>
+                </value>
+                <value>
+                    <fullName>gram per second</fullName>
+                    <default>false</default>
+                    <label>gram per second</label>
+                </value>
+                <value>
+                    <fullName>Grams per 100 grams</fullName>
+                    <default>false</default>
+                    <label>Grams per 100 grams</label>
+                </value>
+                <value>
+                    <fullName>Grams per 100ml</fullName>
+                    <default>false</default>
+                    <label>Grams per 100ml</label>
+                </value>
+                <value>
+                    <fullName>Grams per mililiter</fullName>
+                    <default>false</default>
+                    <label>Grams per mililiter</label>
+                </value>
+                <value>
+                    <fullName>Gross</fullName>
+                    <default>false</default>
+                    <label>Gross</label>
+                </value>
+                <value>
+                    <fullName>Half pallet</fullName>
+                    <default>false</default>
+                    <label>Half pallet</label>
+                </value>
+                <value>
+                    <fullName>HAP100*80</fullName>
+                    <default>false</default>
+                    <label>HAP100*80</label>
+                </value>
+                <value>
+                    <fullName>HAP120*100</fullName>
+                    <default>false</default>
+                    <label>HAP120*100</label>
+                </value>
+                <value>
+                    <fullName>HAP120*80</fullName>
+                    <default>false</default>
+                    <label>HAP120*80</label>
+                </value>
+                <value>
+                    <fullName>Hectare</fullName>
+                    <default>false</default>
+                    <label>Hectare</label>
+                </value>
+                <value>
+                    <fullName>Hectoliter</fullName>
+                    <default>false</default>
+                    <label>Hectoliter</label>
+                </value>
+                <value>
+                    <fullName>Hectopascal</fullName>
+                    <default>false</default>
+                    <label>Hectopascal</label>
+                </value>
+                <value>
+                    <fullName>Hertz (1/second)</fullName>
+                    <default>false</default>
+                    <label>Hertz (1/second)</label>
+                </value>
+                <value>
+                    <fullName>Hour</fullName>
+                    <default>false</default>
+                    <label>Hour</label>
+                </value>
+                <value>
+                    <fullName>Hours</fullName>
+                    <default>false</default>
+                    <label>Hours</label>
+                </value>
+                <value>
+                    <fullName>Hundred</fullName>
+                    <default>false</default>
+                    <label>Hundred</label>
+                </value>
+                <value>
+                    <fullName>Hundred Pounds (CWT)</fullName>
+                    <default>false</default>
+                    <label>Hundred Pounds (CWT)</label>
+                </value>
+                <value>
+                    <fullName>Inch</fullName>
+                    <default>false</default>
+                    <label>Inch</label>
+                </value>
+                <value>
+                    <fullName>Inner Box</fullName>
+                    <default>false</default>
+                    <label>Inner Box</label>
+                </value>
+                <value>
+                    <fullName>Jar</fullName>
+                    <default>false</default>
+                    <label>Jar</label>
+                </value>
+                <value>
+                    <fullName>Joule</fullName>
+                    <default>false</default>
+                    <label>Joule</label>
+                </value>
+                <value>
+                    <fullName>Joule/Kilogram</fullName>
+                    <default>false</default>
+                    <label>Joule/Kilogram</label>
+                </value>
+                <value>
+                    <fullName>Joule/Mol</fullName>
+                    <default>false</default>
+                    <label>Joule/Mol</label>
+                </value>
+                <value>
+                    <fullName>Kelvin</fullName>
+                    <default>false</default>
+                    <label>Kelvin</label>
+                </value>
+                <value>
+                    <fullName>Kelvin/Minute</fullName>
+                    <default>false</default>
+                    <label>Kelvin/Minute</label>
+                </value>
+                <value>
+                    <fullName>Kelvin/Second</fullName>
+                    <default>false</default>
+                    <label>Kelvin/Second</label>
+                </value>
+                <value>
+                    <fullName>kg act.ingrd. / kg</fullName>
+                    <default>false</default>
+                    <label>kg act.ingrd. / kg</label>
+                </value>
+                <value>
+                    <fullName>Kiloampere</fullName>
+                    <default>false</default>
+                    <label>Kiloampere</label>
+                </value>
+                <value>
+                    <fullName>Kilobecquerel/kilogram</fullName>
+                    <default>false</default>
+                    <label>Kilobecquerel/kilogram</label>
+                </value>
+                <value>
+                    <fullName>Kilogram</fullName>
+                    <default>false</default>
+                    <label>Kilogram</label>
+                </value>
+                <value>
+                    <fullName>Kilogram/cubic decimeter</fullName>
+                    <default>false</default>
+                    <label>Kilogram/cubic decimeter</label>
+                </value>
+                <value>
+                    <fullName>Kilogram/cubic meter</fullName>
+                    <default>false</default>
+                    <label>Kilogram/cubic meter</label>
+                </value>
+                <value>
+                    <fullName>Kilogram/Kilogram</fullName>
+                    <default>false</default>
+                    <label>Kilogram/Kilogram</label>
+                </value>
+                <value>
+                    <fullName>Kilogram/second</fullName>
+                    <default>false</default>
+                    <label>Kilogram/second</label>
+                </value>
+                <value>
+                    <fullName>Kilogram/Square meter</fullName>
+                    <default>false</default>
+                    <label>Kilogram/Square meter</label>
+                </value>
+                <value>
+                    <fullName>Kilogram act. ingrd.</fullName>
+                    <default>false</default>
+                    <label>Kilogram act. ingrd.</label>
+                </value>
+                <value>
+                    <fullName>kilogram dry matter</fullName>
+                    <default>false</default>
+                    <label>kilogram dry matter</label>
+                </value>
+                <value>
+                    <fullName>kilogram per hour</fullName>
+                    <default>false</default>
+                    <label>kilogram per hour</label>
+                </value>
+                <value>
+                    <fullName>Kilohertz</fullName>
+                    <default>false</default>
+                    <label>Kilohertz</label>
+                </value>
+                <value>
+                    <fullName>Kilojoule</fullName>
+                    <default>false</default>
+                    <label>Kilojoule</label>
+                </value>
+                <value>
+                    <fullName>Kilojoule/kilogram</fullName>
+                    <default>false</default>
+                    <label>Kilojoule/kilogram</label>
+                </value>
+                <value>
+                    <fullName>Kilojoule/Mol</fullName>
+                    <default>false</default>
+                    <label>Kilojoule/Mol</label>
+                </value>
+                <value>
+                    <fullName>Kiloliter</fullName>
+                    <default>false</default>
+                    <label>Kiloliter</label>
+                </value>
+                <value>
+                    <fullName>Kilometer</fullName>
+                    <default>false</default>
+                    <label>Kilometer</label>
+                </value>
+                <value>
+                    <fullName>Kilometer/hour</fullName>
+                    <default>false</default>
+                    <label>Kilometer/hour</label>
+                </value>
+                <value>
+                    <fullName>Kilomol</fullName>
+                    <default>false</default>
+                    <label>Kilomol</label>
+                </value>
+                <value>
+                    <fullName>Kilonewton</fullName>
+                    <default>false</default>
+                    <label>Kilonewton</label>
+                </value>
+                <value>
+                    <fullName>Kilonewton per square meter</fullName>
+                    <default>false</default>
+                    <label>Kilonewton per square meter</label>
+                </value>
+                <value>
+                    <fullName>Kiloohm</fullName>
+                    <default>false</default>
+                    <label>Kiloohm</label>
+                </value>
+                <value>
+                    <fullName>Kilopascal</fullName>
+                    <default>false</default>
+                    <label>Kilopascal</label>
+                </value>
+                <value>
+                    <fullName>Kilotonne</fullName>
+                    <default>false</default>
+                    <label>Kilotonne</label>
+                </value>
+                <value>
+                    <fullName>Kilovolt</fullName>
+                    <default>false</default>
+                    <label>Kilovolt</label>
+                </value>
+                <value>
+                    <fullName>Kilovoltampere</fullName>
+                    <default>false</default>
+                    <label>Kilovoltampere</label>
+                </value>
+                <value>
+                    <fullName>Kilowatt</fullName>
+                    <default>false</default>
+                    <label>Kilowatt</label>
+                </value>
+                <value>
+                    <fullName>Kilowatt hours</fullName>
+                    <default>false</default>
+                    <label>Kilowatt hours</label>
+                </value>
+                <value>
+                    <fullName>Lange</fullName>
+                    <default>false</default>
+                    <label>Lange</label>
+                </value>
+                <value>
+                    <fullName>LAY100*80</fullName>
+                    <default>false</default>
+                    <label>LAY100*80</label>
+                </value>
+                <value>
+                    <fullName>LAY120*100</fullName>
+                    <default>false</default>
+                    <label>LAY120*100</label>
+                </value>
+                <value>
+                    <fullName>LAY120*80</fullName>
+                    <default>false</default>
+                    <label>LAY120*80</label>
+                </value>
+                <value>
+                    <fullName>Layer</fullName>
+                    <default>false</default>
+                    <label>Layer</label>
+                </value>
+                <value>
+                    <fullName>Layer log.plant</fullName>
+                    <default>false</default>
+                    <label>Layer log.plant</label>
+                </value>
+                <value>
+                    <fullName>Length</fullName>
+                    <default>false</default>
+                    <label>Length</label>
+                </value>
+                <value>
+                    <fullName>Light Extinction Coefficient</fullName>
+                    <default>false</default>
+                    <label>Light Extinction Coefficient</label>
+                </value>
+                <value>
+                    <fullName>Liter</fullName>
+                    <default>false</default>
+                    <label>Liter</label>
+                </value>
+                <value>
+                    <fullName>Liter/Minute</fullName>
+                    <default>false</default>
+                    <label>Liter/Minute</label>
+                </value>
+                <value>
+                    <fullName>Liter/Molsecond</fullName>
+                    <default>false</default>
+                    <label>Liter/Molsecond</label>
+                </value>
+                <value>
+                    <fullName>Liter per 100 km</fullName>
+                    <default>false</default>
+                    <label>Liter per 100 km</label>
+                </value>
+                <value>
+                    <fullName>Liter per hour</fullName>
+                    <default>false</default>
+                    <label>Liter per hour</label>
+                </value>
+                <value>
+                    <fullName>Lot</fullName>
+                    <default>false</default>
+                    <label>Lot</label>
+                </value>
+                <value>
+                    <fullName>Mass parts per billion</fullName>
+                    <default>false</default>
+                    <label>Mass parts per billion</label>
+                </value>
+                <value>
+                    <fullName>Mass parts per million</fullName>
+                    <default>false</default>
+                    <label>Mass parts per million</label>
+                </value>
+                <value>
+                    <fullName>Mass parts per trillion</fullName>
+                    <default>false</default>
+                    <label>Mass parts per trillion</label>
+                </value>
+                <value>
+                    <fullName>Megahertz</fullName>
+                    <default>false</default>
+                    <label>Megahertz</label>
+                </value>
+                <value>
+                    <fullName>Megajoule</fullName>
+                    <default>false</default>
+                    <label>Megajoule</label>
+                </value>
+                <value>
+                    <fullName>Meganewton</fullName>
+                    <default>false</default>
+                    <label>Meganewton</label>
+                </value>
+                <value>
+                    <fullName>Megapascal</fullName>
+                    <default>false</default>
+                    <label>Megapascal</label>
+                </value>
+                <value>
+                    <fullName>Megavolt</fullName>
+                    <default>false</default>
+                    <label>Megavolt</label>
+                </value>
+                <value>
+                    <fullName>Megavoltampere</fullName>
+                    <default>false</default>
+                    <label>Megavoltampere</label>
+                </value>
+                <value>
+                    <fullName>Megawatt</fullName>
+                    <default>false</default>
+                    <label>Megawatt</label>
+                </value>
+                <value>
+                    <fullName>Megawatt hours</fullName>
+                    <default>false</default>
+                    <label>Megawatt hours</label>
+                </value>
+                <value>
+                    <fullName>Megohm</fullName>
+                    <default>false</default>
+                    <label>Megohm</label>
+                </value>
+                <value>
+                    <fullName>Meter</fullName>
+                    <default>false</default>
+                    <label>Meter</label>
+                </value>
+                <value>
+                    <fullName>Meter/Hour</fullName>
+                    <default>false</default>
+                    <label>Meter/Hour</label>
+                </value>
+                <value>
+                    <fullName>Meter/Minute</fullName>
+                    <default>false</default>
+                    <label>Meter/Minute</label>
+                </value>
+                <value>
+                    <fullName>Meter/second</fullName>
+                    <default>false</default>
+                    <label>Meter/second</label>
+                </value>
+                <value>
+                    <fullName>Meter/second squared</fullName>
+                    <default>false</default>
+                    <label>Meter/second squared</label>
+                </value>
+                <value>
+                    <fullName>Meterbar/second</fullName>
+                    <default>false</default>
+                    <label>Meterbar/second</label>
+                </value>
+                <value>
+                    <fullName>Meterpascal/second</fullName>
+                    <default>false</default>
+                    <label>Meterpascal/second</label>
+                </value>
+                <value>
+                    <fullName>mgKOH/g</fullName>
+                    <default>false</default>
+                    <label>mgKOH/g</label>
+                </value>
+                <value>
+                    <fullName>Microampere</fullName>
+                    <default>false</default>
+                    <label>Microampere</label>
+                </value>
+                <value>
+                    <fullName>Microfarad</fullName>
+                    <default>false</default>
+                    <label>Microfarad</label>
+                </value>
+                <value>
+                    <fullName>Microgram/cubic meter</fullName>
+                    <default>false</default>
+                    <label>Microgram/cubic meter</label>
+                </value>
+                <value>
+                    <fullName>microgram/kilogram</fullName>
+                    <default>false</default>
+                    <label>microgram/kilogram</label>
+                </value>
+                <value>
+                    <fullName>Microgram/liter</fullName>
+                    <default>false</default>
+                    <label>Microgram/liter</label>
+                </value>
+                <value>
+                    <fullName>Microliter</fullName>
+                    <default>false</default>
+                    <label>Microliter</label>
+                </value>
+                <value>
+                    <fullName>Micrometer</fullName>
+                    <default>false</default>
+                    <label>Micrometer</label>
+                </value>
+                <value>
+                    <fullName>Micro organism per gram</fullName>
+                    <default>false</default>
+                    <label>Micro organism per gram</label>
+                </value>
+                <value>
+                    <fullName>Microsecond</fullName>
+                    <default>false</default>
+                    <label>Microsecond</label>
+                </value>
+                <value>
+                    <fullName>Microsiemens per centimeter</fullName>
+                    <default>false</default>
+                    <label>Microsiemens per centimeter</label>
+                </value>
+                <value>
+                    <fullName>Microsiemens per gram</fullName>
+                    <default>false</default>
+                    <label>Microsiemens per gram</label>
+                </value>
+                <value>
+                    <fullName>Mile</fullName>
+                    <default>false</default>
+                    <label>Mile</label>
+                </value>
+                <value>
+                    <fullName>Miles per gallon (US)</fullName>
+                    <default>false</default>
+                    <label>Miles per gallon (US)</label>
+                </value>
+                <value>
+                    <fullName>Miliequivalent / gramm</fullName>
+                    <default>false</default>
+                    <label>Miliequivalent / gramm</label>
+                </value>
+                <value>
+                    <fullName>miligram per 100 ml</fullName>
+                    <default>false</default>
+                    <label>miligram per 100 ml</label>
+                </value>
+                <value>
+                    <fullName>Milimeter per 5 seconds</fullName>
+                    <default>false</default>
+                    <label>Milimeter per 5 seconds</label>
+                </value>
+                <value>
+                    <fullName>mili siemens</fullName>
+                    <default>false</default>
+                    <label>mili siemens</label>
+                </value>
+                <value>
+                    <fullName>Milliampere</fullName>
+                    <default>false</default>
+                    <label>Milliampere</label>
+                </value>
+                <value>
+                    <fullName>Millibar</fullName>
+                    <default>false</default>
+                    <label>Millibar</label>
+                </value>
+                <value>
+                    <fullName>Millifarad</fullName>
+                    <default>false</default>
+                    <label>Millifarad</label>
+                </value>
+                <value>
+                    <fullName>Milligram</fullName>
+                    <default>false</default>
+                    <label>Milligram</label>
+                </value>
+                <value>
+                    <fullName>Milligram/cubic meter</fullName>
+                    <default>false</default>
+                    <label>Milligram/cubic meter</label>
+                </value>
+                <value>
+                    <fullName>Milligram/gram</fullName>
+                    <default>false</default>
+                    <label>Milligram/gram</label>
+                </value>
+                <value>
+                    <fullName>Milligram/kilogram</fullName>
+                    <default>false</default>
+                    <label>Milligram/kilogram</label>
+                </value>
+                <value>
+                    <fullName>Milligram/liter</fullName>
+                    <default>false</default>
+                    <label>Milligram/liter</label>
+                </value>
+                <value>
+                    <fullName>Milligram/Square centimeter</fullName>
+                    <default>false</default>
+                    <label>Milligram/Square centimeter</label>
+                </value>
+                <value>
+                    <fullName>Millijoule</fullName>
+                    <default>false</default>
+                    <label>Millijoule</label>
+                </value>
+                <value>
+                    <fullName>Milliliter</fullName>
+                    <default>false</default>
+                    <label>Milliliter</label>
+                </value>
+                <value>
+                    <fullName>Milliliter/cubic</fullName>
+                    <default>false</default>
+                    <label>Milliliter/cubic</label>
+                </value>
+                <value>
+                    <fullName>Milliliter act. ingr.</fullName>
+                    <default>false</default>
+                    <label>Milliliter act. ingr.</label>
+                </value>
+                <value>
+                    <fullName>Millilitre per gram</fullName>
+                    <default>false</default>
+                    <label>Millilitre per gram</label>
+                </value>
+                <value>
+                    <fullName>Millimeter</fullName>
+                    <default>false</default>
+                    <label>Millimeter</label>
+                </value>
+                <value>
+                    <fullName>Millimeter/hour</fullName>
+                    <default>false</default>
+                    <label>Millimeter/hour</label>
+                </value>
+                <value>
+                    <fullName>Millimeter/second</fullName>
+                    <default>false</default>
+                    <label>Millimeter/second</label>
+                </value>
+                <value>
+                    <fullName>Millimeter/year</fullName>
+                    <default>false</default>
+                    <label>Millimeter/year</label>
+                </value>
+                <value>
+                    <fullName>Millimol</fullName>
+                    <default>false</default>
+                    <label>Millimol</label>
+                </value>
+                <value>
+                    <fullName>Millimol/gram</fullName>
+                    <default>false</default>
+                    <label>Millimol/gram</label>
+                </value>
+                <value>
+                    <fullName>Millimol/kilogram</fullName>
+                    <default>false</default>
+                    <label>Millimol/kilogram</label>
+                </value>
+                <value>
+                    <fullName>Millimol per liter</fullName>
+                    <default>false</default>
+                    <label>Millimol per liter</label>
+                </value>
+                <value>
+                    <fullName>Millinewton/meter</fullName>
+                    <default>false</default>
+                    <label>Millinewton/meter</label>
+                </value>
+                <value>
+                    <fullName>Million International Unit</fullName>
+                    <default>false</default>
+                    <label>Million International Unit</label>
+                </value>
+                <value>
+                    <fullName>Millipascal seconds</fullName>
+                    <default>false</default>
+                    <label>Millipascal seconds</label>
+                </value>
+                <value>
+                    <fullName>Millisecond</fullName>
+                    <default>false</default>
+                    <label>Millisecond</label>
+                </value>
+                <value>
+                    <fullName>Millitesla</fullName>
+                    <default>false</default>
+                    <label>Millitesla</label>
+                </value>
+                <value>
+                    <fullName>Millivolt</fullName>
+                    <default>false</default>
+                    <label>Millivolt</label>
+                </value>
+                <value>
+                    <fullName>Milliwatt</fullName>
+                    <default>false</default>
+                    <label>Milliwatt</label>
+                </value>
+                <value>
+                    <fullName>Minute</fullName>
+                    <default>false</default>
+                    <label>Minute</label>
+                </value>
+                <value>
+                    <fullName>Mixed Box</fullName>
+                    <default>false</default>
+                    <label>Mixed Box</label>
+                </value>
+                <value>
+                    <fullName>Mol</fullName>
+                    <default>false</default>
+                    <label>Mol</label>
+                </value>
+                <value>
+                    <fullName>Mol/kilogram</fullName>
+                    <default>false</default>
+                    <label>Mol/kilogram</label>
+                </value>
+                <value>
+                    <fullName>Mol per cubic meter</fullName>
+                    <default>false</default>
+                    <label>Mol per cubic meter</label>
+                </value>
+                <value>
+                    <fullName>Mol per liter</fullName>
+                    <default>false</default>
+                    <label>Mol per liter</label>
+                </value>
+                <value>
+                    <fullName>Months</fullName>
+                    <default>false</default>
+                    <label>Months</label>
+                </value>
+                <value>
+                    <fullName>Most probable number / 100g</fullName>
+                    <default>false</default>
+                    <label>Most probable number / 100g</label>
+                </value>
+                <value>
+                    <fullName>Most probable number / g</fullName>
+                    <default>false</default>
+                    <label>Most probable number / g</label>
+                </value>
+                <value>
+                    <fullName>Nanoampere</fullName>
+                    <default>false</default>
+                    <label>Nanoampere</label>
+                </value>
+                <value>
+                    <fullName>Nanofarad</fullName>
+                    <default>false</default>
+                    <label>Nanofarad</label>
+                </value>
+                <value>
+                    <fullName>Nanometer</fullName>
+                    <default>false</default>
+                    <label>Nanometer</label>
+                </value>
+                <value>
+                    <fullName>Nanosecond</fullName>
+                    <default>false</default>
+                    <label>Nanosecond</label>
+                </value>
+                <value>
+                    <fullName>net ton (2000 lb)</fullName>
+                    <default>false</default>
+                    <label>net ton (2000 lb)</label>
+                </value>
+                <value>
+                    <fullName>Newton</fullName>
+                    <default>false</default>
+                    <label>Newton</label>
+                </value>
+                <value>
+                    <fullName>Newton/meter</fullName>
+                    <default>false</default>
+                    <label>Newton/meter</label>
+                </value>
+                <value>
+                    <fullName>Newton/Square millimeter</fullName>
+                    <default>false</default>
+                    <label>Newton/Square millimeter</label>
+                </value>
+                <value>
+                    <fullName>Not known if unit is a SRP</fullName>
+                    <default>false</default>
+                    <label>Not known if unit is a SRP</label>
+                </value>
+                <value>
+                    <fullName>Number of persons</fullName>
+                    <default>false</default>
+                    <label>Number of persons</label>
+                </value>
+                <value>
+                    <fullName>Number of Wipes</fullName>
+                    <default>false</default>
+                    <label>Number of Wipes</label>
+                </value>
+                <value>
+                    <fullName>Ohm</fullName>
+                    <default>false</default>
+                    <label>Ohm</label>
+                </value>
+                <value>
+                    <fullName>One</fullName>
+                    <default>false</default>
+                    <label>One</label>
+                </value>
+                <value>
+                    <fullName>One tenth milimeter</fullName>
+                    <default>false</default>
+                    <label>One tenth milimeter</label>
+                </value>
+                <value>
+                    <fullName>Ounce</fullName>
+                    <default>false</default>
+                    <label>Ounce</label>
+                </value>
+                <value>
+                    <fullName>Outer Box</fullName>
+                    <default>false</default>
+                    <label>Outer Box</label>
+                </value>
+                <value>
+                    <fullName>Outer Box Conditions</fullName>
+                    <default>false</default>
+                    <label>Outer Box Conditions</label>
+                </value>
+                <value>
+                    <fullName>Pack</fullName>
+                    <default>false</default>
+                    <label>Pack</label>
+                </value>
+                <value>
+                    <fullName>Pad</fullName>
+                    <default>false</default>
+                    <label>Pad</label>
+                </value>
+                <value>
+                    <fullName>Pair</fullName>
+                    <default>false</default>
+                    <label>Pair</label>
+                </value>
+                <value>
+                    <fullName>Pallet</fullName>
+                    <default>false</default>
+                    <label>Pallet</label>
+                </value>
+                <value>
+                    <fullName>Pallet log.plant</fullName>
+                    <default>false</default>
+                    <label>Pallet log.plant</label>
+                </value>
+                <value>
+                    <fullName>PAL Spaces</fullName>
+                    <default>false</default>
+                    <label>PAL Spaces</label>
+                </value>
+                <value>
+                    <fullName>Parts per billion</fullName>
+                    <default>false</default>
+                    <label>Parts per billion</label>
+                </value>
+                <value>
+                    <fullName>Parts per million</fullName>
+                    <default>false</default>
+                    <label>Parts per million</label>
+                </value>
+                <value>
+                    <fullName>Parts per trillion</fullName>
+                    <default>false</default>
+                    <label>Parts per trillion</label>
+                </value>
+                <value>
+                    <fullName>Pascal</fullName>
+                    <default>false</default>
+                    <label>Pascal</label>
+                </value>
+                <value>
+                    <fullName>Pascal second</fullName>
+                    <default>false</default>
+                    <label>Pascal second</label>
+                </value>
+                <value>
+                    <fullName>Percentage</fullName>
+                    <default>false</default>
+                    <label>Percentage</label>
+                </value>
+                <value>
+                    <fullName>Percent mass</fullName>
+                    <default>false</default>
+                    <label>Percent mass</label>
+                </value>
+                <value>
+                    <fullName>Percent volume</fullName>
+                    <default>false</default>
+                    <label>Percent volume</label>
+                </value>
+                <value>
+                    <fullName>Per mille</fullName>
+                    <default>false</default>
+                    <label>Per mille</label>
+                </value>
+                <value>
+                    <fullName>Permille mass</fullName>
+                    <default>false</default>
+                    <label>Permille mass</label>
+                </value>
+                <value>
+                    <fullName>Permille volume</fullName>
+                    <default>false</default>
+                    <label>Permille volume</label>
+                </value>
+                <value>
+                    <fullName>pH</fullName>
+                    <default>false</default>
+                    <label>pH</label>
+                </value>
+                <value>
+                    <fullName>Picosecond</fullName>
+                    <default>false</default>
+                    <label>Picosecond</label>
+                </value>
+                <value>
+                    <fullName>Piece</fullName>
+                    <default>false</default>
+                    <label>Piece</label>
+                </value>
+                <value>
+                    <fullName>Pieces with decimales</fullName>
+                    <default>false</default>
+                    <label>Pieces with decimales</label>
+                </value>
+                <value>
+                    <fullName>Pikofarad</fullName>
+                    <default>false</default>
+                    <label>Pikofarad</label>
+                </value>
+                <value>
+                    <fullName>Pint</fullName>
+                    <default>false</default>
+                    <label>Pint</label>
+                </value>
+                <value>
+                    <fullName>US liquid</fullName>
+                    <default>false</default>
+                    <label>US liquid</label>
+                </value>
+                <value>
+                    <fullName>Points</fullName>
+                    <default>false</default>
+                    <label>Points</label>
+                </value>
+                <value>
+                    <fullName>ppmH202</fullName>
+                    <default>false</default>
+                    <label>ppmH202</label>
+                </value>
+                <value>
+                    <fullName>Quart</fullName>
+                    <default>false</default>
+                    <label>Quart</label>
+                </value>
+                <value>
+                    <fullName>Quarter hour</fullName>
+                    <default>false</default>
+                    <label>Quarter hour</label>
+                </value>
+                <value>
+                    <fullName>Ream</fullName>
+                    <default>false</default>
+                    <label>Ream</label>
+                </value>
+                <value>
+                    <fullName>Reel</fullName>
+                    <default>false</default>
+                    <label>Reel</label>
+                </value>
+                <value>
+                    <fullName>Reporting</fullName>
+                    <default>false</default>
+                    <label>Reporting</label>
+                </value>
+                <value>
+                    <fullName>Role</fullName>
+                    <default>false</default>
+                    <label>Role</label>
+                </value>
+                <value>
+                    <fullName>Round</fullName>
+                    <default>false</default>
+                    <label>Round</label>
+                </value>
+                <value>
+                    <fullName>Second</fullName>
+                    <default>false</default>
+                    <label>Second</label>
+                </value>
+                <value>
+                    <fullName>Set</fullName>
+                    <default>false</default>
+                    <label>Set</label>
+                </value>
+                <value>
+                    <fullName>Sheet</fullName>
+                    <default>false</default>
+                    <label>Sheet</label>
+                </value>
+                <value>
+                    <fullName>Shrink</fullName>
+                    <default>false</default>
+                    <label>Shrink</label>
+                </value>
+                <value>
+                    <fullName>Siemens per meter</fullName>
+                    <default>false</default>
+                    <label>Siemens per meter</label>
+                </value>
+                <value>
+                    <fullName>Slipsheet 1</fullName>
+                    <default>false</default>
+                    <label>Slipsheet 1</label>
+                </value>
+                <value>
+                    <fullName>Slipsheet 2</fullName>
+                    <default>false</default>
+                    <label>Slipsheet 2</label>
+                </value>
+                <value>
+                    <fullName>Slipsheet 3</fullName>
+                    <default>false</default>
+                    <label>Slipsheet 3</label>
+                </value>
+                <value>
+                    <fullName>Slipsheet 4</fullName>
+                    <default>false</default>
+                    <label>Slipsheet 4</label>
+                </value>
+                <value>
+                    <fullName>Slipsheet la</fullName>
+                    <default>false</default>
+                    <label>Slipsheet la</label>
+                </value>
+                <value>
+                    <fullName>Slipsheet Pal</fullName>
+                    <default>false</default>
+                    <label>Slipsheet Pal</label>
+                </value>
+                <value>
+                    <fullName>Smallest Unit</fullName>
+                    <default>false</default>
+                    <label>Smallest Unit</label>
+                </value>
+                <value>
+                    <fullName>Specific Rotation</fullName>
+                    <default>false</default>
+                    <label>Specific Rotation</label>
+                </value>
+                <value>
+                    <fullName>SPIT</fullName>
+                    <default>false</default>
+                    <label>SPIT</label>
+                </value>
+                <value>
+                    <fullName>Spool</fullName>
+                    <default>false</default>
+                    <label>Spool</label>
+                </value>
+                <value>
+                    <fullName>Square centimeter</fullName>
+                    <default>false</default>
+                    <label>Square centimeter</label>
+                </value>
+                <value>
+                    <fullName>square decimeter</fullName>
+                    <default>false</default>
+                    <label>square decimeter</label>
+                </value>
+                <value>
+                    <fullName>Square foot</fullName>
+                    <default>false</default>
+                    <label>Square foot</label>
+                </value>
+                <value>
+                    <fullName>Square inch</fullName>
+                    <default>false</default>
+                    <label>Square inch</label>
+                </value>
+                <value>
+                    <fullName>Square meter</fullName>
+                    <default>false</default>
+                    <label>Square meter</label>
+                </value>
+                <value>
+                    <fullName>Square meter/second</fullName>
+                    <default>false</default>
+                    <label>Square meter/second</label>
+                </value>
+                <value>
+                    <fullName>Square mile</fullName>
+                    <default>false</default>
+                    <label>Square mile</label>
+                </value>
+                <value>
+                    <fullName>Square millimeter</fullName>
+                    <default>false</default>
+                    <label>Square millimeter</label>
+                </value>
+                <value>
+                    <fullName>Square millimeter/second</fullName>
+                    <default>false</default>
+                    <label>Square millimeter/second</label>
+                </value>
+                <value>
+                    <fullName>Square Yard</fullName>
+                    <default>false</default>
+                    <label>Square Yard</label>
+                </value>
+                <value>
+                    <fullName>SRP facing = Length</fullName>
+                    <default>false</default>
+                    <label>SRP facing = Length</label>
+                </value>
+                <value>
+                    <fullName>SRP facing = Width</fullName>
+                    <default>false</default>
+                    <label>SRP facing = Width</label>
+                </value>
+                <value>
+                    <fullName>Statistical uom Iberia</fullName>
+                    <default>false</default>
+                    <label>Statistical uom Iberia</label>
+                </value>
+                <value>
+                    <fullName>Stick</fullName>
+                    <default>false</default>
+                    <label>Stick</label>
+                </value>
+                <value>
+                    <fullName>Tesla</fullName>
+                    <default>false</default>
+                    <label>Tesla</label>
+                </value>
+                <value>
+                    <fullName>Test</fullName>
+                    <default>false</default>
+                    <label>Test</label>
+                </value>
+                <value>
+                    <fullName>Thousand</fullName>
+                    <default>false</default>
+                    <label>Thousand</label>
+                </value>
+                <value>
+                    <fullName>Thousand Feet</fullName>
+                    <default>false</default>
+                    <label>Thousand Feet</label>
+                </value>
+                <value>
+                    <fullName>Three pack</fullName>
+                    <default>false</default>
+                    <label>Three pack</label>
+                </value>
+                <value>
+                    <fullName>Ton/Cubic meter</fullName>
+                    <default>false</default>
+                    <label>Ton/Cubic meter</label>
+                </value>
+                <value>
+                    <fullName>Tonnes</fullName>
+                    <default>false</default>
+                    <label>Tonnes</label>
+                </value>
+                <value>
+                    <fullName>Trade unit</fullName>
+                    <default>false</default>
+                    <label>Trade unit</label>
+                </value>
+                <value>
+                    <fullName>Tray</fullName>
+                    <default>false</default>
+                    <label>Tray</label>
+                </value>
+                <value>
+                    <fullName>Tube</fullName>
+                    <default>false</default>
+                    <label>Tube</label>
+                </value>
+                <value>
+                    <fullName>Two pack</fullName>
+                    <default>false</default>
+                    <label>Two pack</label>
+                </value>
+                <value>
+                    <fullName>Unit is not a SRP</fullName>
+                    <default>false</default>
+                    <label>Unit is not a SRP</label>
+                </value>
+                <value>
+                    <fullName>Units per gram</fullName>
+                    <default>false</default>
+                    <label>Units per gram</label>
+                </value>
+                <value>
+                    <fullName>Units per miligram</fullName>
+                    <default>false</default>
+                    <label>Units per miligram</label>
+                </value>
+                <value>
+                    <fullName>Units per mililiter</fullName>
+                    <default>false</default>
+                    <label>Units per mililiter</label>
+                </value>
+                <value>
+                    <fullName>US gallon</fullName>
+                    <default>false</default>
+                    <label>US gallon</label>
+                </value>
+                <value>
+                    <fullName>US pound</fullName>
+                    <default>false</default>
+                    <label>US pound</label>
+                </value>
+                <value>
+                    <fullName>US ton</fullName>
+                    <default>false</default>
+                    <label>US ton</label>
+                </value>
+                <value>
+                    <fullName>Voltampere</fullName>
+                    <default>false</default>
+                    <label>Voltampere</label>
+                </value>
+                <value>
+                    <fullName>Volts</fullName>
+                    <default>false</default>
+                    <label>Volts</label>
+                </value>
+                <value>
+                    <fullName>Volume parts per billion</fullName>
+                    <default>false</default>
+                    <label>Volume parts per billion</label>
+                </value>
+                <value>
+                    <fullName>Volume parts per million</fullName>
+                    <default>false</default>
+                    <label>Volume parts per million</label>
+                </value>
+                <value>
+                    <fullName>Volume parts per trillion</fullName>
+                    <default>false</default>
+                    <label>Volume parts per trillion</label>
+                </value>
+                <value>
+                    <fullName>Volume weight</fullName>
+                    <default>false</default>
+                    <label>Volume weight</label>
+                </value>
+                <value>
+                    <fullName>VO mat.</fullName>
+                    <default>false</default>
+                    <label>VO mat.</label>
+                </value>
+                <value>
+                    <fullName>Watt</fullName>
+                    <default>false</default>
+                    <label>Watt</label>
+                </value>
+                <value>
+                    <fullName>Weeks</fullName>
+                    <default>false</default>
+                    <label>Weeks</label>
+                </value>
+                <value>
+                    <fullName>weight of dm2</fullName>
+                    <default>false</default>
+                    <label>weight of dm2</label>
+                </value>
+                <value>
+                    <fullName>Yard</fullName>
+                    <default>false</default>
+                    <label>Yard</label>
+                </value>
+                <value>
+                    <fullName>Years</fullName>
+                    <default>false</default>
+                    <label>Years</label>
+                </value>
+                <value>
+                    <fullName>українська гривня</fullName>
+                    <default>false</default>
+                    <label>українська гривня</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Conversion_Factor__c</fullName>
+        <externalId>false</externalId>
+        <formula>APTS_Numerator__c  /  APTS_Denominator__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Conversion factor</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Denominator__c</fullName>
+        <externalId>false</externalId>
+        <label>Denominator</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_EAN__c</fullName>
+        <externalId>false</externalId>
+        <label>EAN</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Numerator__c</fullName>
+        <externalId>false</externalId>
+        <label>Numerator</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_ProductCode__c</fullName>
+        <description>This is the text field which will be filled up with the Material Number.</description>
+        <externalId>false</externalId>
+        <label>Product Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Product_Active__c</fullName>
+        <externalId>false</externalId>
+        <formula>APTS_Product__r.IsActive</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Product_Enabled_for_web_shop_s__c</fullName>
+        <externalId>false</externalId>
+        <formula>APTS_Product__r.APTS_Product_Enabled_for_web_shop_s__c</formula>
+        <label>Product Enabled for web shop(s)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>UOM Conversions</relationshipLabel>
+        <relationshipName>UOM_Conversions</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_UOM_External_ID__c</fullName>
+        <externalId>true</externalId>
+        <label>UoM External ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>UOM Conversion</label>
+    <nameField>
+        <label>UOM Conversion Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>UOM Conversions</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>Read</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

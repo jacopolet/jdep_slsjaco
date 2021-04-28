@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Smart Search Settings</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Apttus_Config2__CurrentSyncStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Sync status will be one of the following: INITIAL SYNC, SYNC IN PROGRESS, LAST SYNC SUCCESS, LAST SYNC FAILURE</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Sync status will be one of the following: INITIAL SYNC, SYNC IN PROGRESS, LAST SYNC SUCCESS, LAST SYNC FAILURE</inlineHelpText>
+        <label>Current Sync Status</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__FieldName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Field Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Flow__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Flow</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LastAttemptedSync__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Last datetime of attempted sync job</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Last datetime of attempted sync job</inlineHelpText>
+        <label>Last Attempted Sync</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LastSuccessfulSync__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Datetime of last successful sync</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Datetime of last successful sync</inlineHelpText>
+        <label>Last Successful Sync</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SearchEnvironment__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Supported search environments:
+SOLR
+AZURE</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Supported search environments:
+SOLR
+AZURE</inlineHelpText>
+        <label>Search Environment</label>
+        <length>5</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Sequence__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Sequence</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SyncHasErrors__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Sync Has Errors</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SyncMessage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Success or failure message for the sync</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Success or failure message for the sync</inlineHelpText>
+        <label>Sync Message</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Typeahead__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checkbox used to determine which row will be used for typeahead</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checkbox used to determine which row will be used for typeahead</inlineHelpText>
+        <label>Typeahead</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Weightage__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Weightage</label>
+        <length>3</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Config Smart Search Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

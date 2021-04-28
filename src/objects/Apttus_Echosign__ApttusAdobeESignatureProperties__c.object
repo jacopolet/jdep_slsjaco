@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Apttus-Adobe eSignature Properties - Holds the org level settings for the Apttus-Adobe eSignature connector</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Apttus_Echosign__DoNotCopySignedDocuments__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If checked, the signed document will not be copied back to Apttus agreement record. This setting can be utilized to get all the relevant documents through File Mapping.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked, the signed document will not be copied back to Apttus agreement record. This setting can be utilized to get all the relevant documents through File Mapping.</inlineHelpText>
+        <label>Don&apos;t Copy Signed Documents</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Echosign__ForceTemplateSelection__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If checked, it will make the Adobe agreement template and attachment selection mandatory on the user interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked, it will make the Adobe agreement template and attachment selection mandatory on the user interface.</inlineHelpText>
+        <label>Force Selections</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Echosign__HideRelatedAgreementsSelection__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If checked, users will not see an option to select the related/parent/sibling/child agreements on the select attachment user interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked, users will not see an option to select the related/parent/sibling/child agreements on the select attachment user interface.</inlineHelpText>
+        <label>Hide Related Agreement Selection</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Echosign__UpdateRelatedAgreements__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If checked, the status of the related/parent/sibling/child agreements will be updated if they are selected while sending for eSignature. Also, the signed documents will be returned back to the related/parent/sibling/child agreement if the Adobe&apos;s custom setting for getting signed document as separate is checked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If checked, the status of the related/parent/sibling/child agreements will be updated if they are selected while sending for eSignature. Also, the signed documents will be returned back to the respective related/parent/sibling/child agreement.</inlineHelpText>
+        <label>Update Related Agreements</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Apttus-Adobe eSignature Properties</label>
+    <visibility>Public</visibility>
+</CustomObject>

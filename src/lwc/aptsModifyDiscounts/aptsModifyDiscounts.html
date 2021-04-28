@@ -1,0 +1,59 @@
+<!--
+**********************************************************************
+Name: aptsModifyDiscounts
+Date: 07 July 2020
+Author: Venky Muppalaneni
+Change Verison History:
+**********************************************************************
+--> 
+<template>
+    <div>
+        
+        <lightning-layout>
+            <lightning-layout-item padding="around-small">
+                <lightning-input type="number" name="input1" step=".001" label="Base Price Override"  onchange={handleBPOChange} value={bpoValue}></lightning-input>
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-small">
+                <lightning-combobox name="progress"
+                                    label="Sub Type"
+                                    value={subTypeValue}
+                                    placeholder="Select Progress"
+                                    options={options}
+                                    onchange={handleSubTypeChange}></lightning-combobox>
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-small">
+                <lightning-combobox name="progress"
+                label="Discount Type"
+                value={discountTypeValue}
+                placeholder="Select Progress"
+                options={discountType}
+                onchange={handleDiscountTypeChange}></lightning-combobox>
+              
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-small">
+                <lightning-input type="number" name="input1" step=".001"  onchange={handleTypeValueChange} label="Value" value={typeValue}></lightning-input>
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-small">
+                <lightning-input type="date" name="input1" label="Start date"  disabled={disableStartDate} onchange={handleStartDateChange} value={startDateValue}></lightning-input>
+            </lightning-layout-item>
+            <lightning-layout-item class="slds-p-around_x-large">
+                <template if:true={cascadeButtonLabel}>
+                <lightning-button variant="brand" label="Cascade" onclick={handleCascade} class="slds-m-left_x-small"></lightning-button>
+                </template> 
+            </lightning-layout-item>
+        </lightning-layout>
+    </div>
+    <div if:false={isLoaded} class="slds-is-relative">
+        <lightning-spinner alternative-text="Loading"  variant="brand"></lightning-spinner>
+    </div>
+    <template  if:true={allRecords}>
+    <c-apts-lwc-datatable records={allRecords} 
+            total-records={allRecords.length} 
+            columns = {columns}
+            key-field="id"
+            show-search-box="true"            
+            onpaginatorchange={handlePaginatorChange}
+            onsetselectedrecords={handleAllSelectedRows}>
+         </c-apts-lwc-datatable>   
+        </template>
+</template>

@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>v2_Contract_Entitlement_Repository_Lightning_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Contract Entitlement Repository</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>APTS_Adjustment_Applies_To__c</fullName>
+        <externalId>false</externalId>
+        <label>Adjustment Applies To</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Starting Price</fullName>
+                    <default>false</default>
+                    <label>On Starting Price</label>
+                </value>
+                <value>
+                    <fullName>Bucket 1</fullName>
+                    <default>false</default>
+                    <label>On Net List</label>
+                </value>
+                <value>
+                    <fullName>Bucket 2</fullName>
+                    <default>false</default>
+                    <label>On Inflation</label>
+                </value>
+                <value>
+                    <fullName>Bucket 3</fullName>
+                    <default>false</default>
+                    <label>On PPR</label>
+                </value>
+                <value>
+                    <fullName>Bucket 4</fullName>
+                    <default>false</default>
+                    <label>On TPR</label>
+                </value>
+                <value>
+                    <fullName>Bucket 5</fullName>
+                    <default>false</default>
+                    <label>On BMC/BDF/EFF</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Adjustment_Type__c</fullName>
+        <description>Adjustment Type</description>
+        <externalId>false</externalId>
+        <label>Adjustment Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>% Discount</fullName>
+                    <default>true</default>
+                    <label>% Discount</label>
+                </value>
+                <value>
+                    <fullName>Base Price Discount</fullName>
+                    <default>false</default>
+                    <label>Discount Amount PerUnit</label>
+                </value>
+                <value>
+                    <fullName>% Markup</fullName>
+                    <default>false</default>
+                    <label>% Markup</label>
+                </value>
+                <value>
+                    <fullName>Markup Amount</fullName>
+                    <default>false</default>
+                    <label>Markup Amount</label>
+                </value>
+                <value>
+                    <fullName>Price Override</fullName>
+                    <default>false</default>
+                    <label>Price Override</label>
+                </value>
+                <value>
+                    <fullName>Price Factor</fullName>
+                    <default>false</default>
+                    <label>Price Factor</label>
+                </value>
+                <value>
+                    <fullName>Discount Amount</fullName>
+                    <default>false</default>
+                    <label>Discount Amount Extended</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Adjustment_Value__c</fullName>
+        <description>Adjustment Value</description>
+        <externalId>false</externalId>
+        <label>Adjustment Value</label>
+        <precision>11</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Adjustment__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Category/Sub/Sub Category Level Adjustments</description>
+        <externalId>false</externalId>
+        <label>Adjustment</label>
+        <referenceTo>APTS_Adjustments__c</referenceTo>
+        <relationshipLabel>Contract Entitlement Repositories</relationshipLabel>
+        <relationshipName>Contract_Entitlement_Repositories</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Agreement_Adjustment_Line_Item__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Agreement Adjustment Line Item</label>
+        <referenceTo>Apttus_CMConfig__AgreementAdjustmentLineItem__c</referenceTo>
+        <relationshipLabel>Contract Entitlement Repositories</relationshipLabel>
+        <relationshipName>Contract_Entitlement_Repositories</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Agreement_Line_Item__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Agreement Line Item</description>
+        <externalId>false</externalId>
+        <label>Agreement Line Item</label>
+        <referenceTo>Apttus__AgreementLineItem__c</referenceTo>
+        <relationshipLabel>Contract Entitlement Repositories</relationshipLabel>
+        <relationshipName>Contract_Entitlement_Repositories1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Agreement_Type__c</fullName>
+        <description>Type of the Agreement</description>
+        <externalId>false</externalId>
+        <label>Agreement Type</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Standard Deal</fullName>
+                    <default>false</default>
+                    <label>Standard Deal</label>
+                </value>
+                <value>
+                    <fullName>Consumption Model</fullName>
+                    <default>false</default>
+                    <label>Consumption Model</label>
+                </value>
+                <value>
+                    <fullName>Consumptions Model</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Consumptions Model</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Amendment_In_Progress__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Amendment In Progress</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Bucket__c</fullName>
+        <externalId>false</externalId>
+        <label>Bucket</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bucket 1</fullName>
+                    <default>false</default>
+                    <label>Discount GSV</label>
+                </value>
+                <value>
+                    <fullName>Bucket 2</fullName>
+                    <default>false</default>
+                    <label>Inflation</label>
+                </value>
+                <value>
+                    <fullName>Bucket 3</fullName>
+                    <default>false</default>
+                    <label>PPR</label>
+                </value>
+                <value>
+                    <fullName>Bucket 4</fullName>
+                    <default>false</default>
+                    <label>TPR</label>
+                </value>
+                <value>
+                    <fullName>Bucket 5</fullName>
+                    <default>false</default>
+                    <label>BMC/BDF/EFF</label>
+                </value>
+                <value>
+                    <fullName>Bucket 6</fullName>
+                    <default>false</default>
+                    <label>YOCI/YOFT</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_CER_Changed_Amendment__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This flag determines if the CER record A was modified and became P in an amendment (new CER record created)</description>
+        <externalId>false</externalId>
+        <label>CER changed in amendment</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_CER_from_Parent__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This check indicates if the CER record was created as result of an existing CER (contributing level parent) updated and became part of child agreement</description>
+        <externalId>false</externalId>
+        <label>CER from Parent</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_CategoryCER__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Category value from Classification Hierarchy</description>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <referenceTo>Apttus_Config2__ClassificationHierarchy__c</referenceTo>
+        <relationshipLabel>Contract Entitlement Repositories</relationshipLabel>
+        <relationshipName>Category_CER</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Category_Discount_Amendment__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This check indicates if the CER record was created for a category discount in amendment</description>
+        <externalId>false</externalId>
+        <label>Category Discount Amendment</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Category_Label__c</fullName>
+        <externalId>false</externalId>
+        <label>Category Label</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Category_Level__c</fullName>
+        <description>Category Level</description>
+        <externalId>false</externalId>
+        <label>Category Level</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Category</fullName>
+                    <default>false</default>
+                    <label>Category</label>
+                </value>
+                <value>
+                    <fullName>Sub Category</fullName>
+                    <default>false</default>
+                    <label>Sub Category</label>
+                </value>
+                <value>
+                    <fullName>Sub Sub Category</fullName>
+                    <default>false</default>
+                    <label>Sub Sub Category</label>
+                </value>
+                <value>
+                    <fullName>Product</fullName>
+                    <default>true</default>
+                    <label>Product</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Category__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Category</description>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Contract Entitlement Repositories (Category)</relationshipLabel>
+        <relationshipName>Contract_Entitlement_Repositories2</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Charge_Type__c</fullName>
+        <description>The charge type associated with the product or service</description>
+        <externalId>false</externalId>
+        <label>Charge Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sales Price</fullName>
+                    <default>false</default>
+                    <label>Sales Price</label>
+                </value>
+                <value>
+                    <fullName>Rental Fee</fullName>
+                    <default>false</default>
+                    <label>Rental Fee</label>
+                </value>
+                <value>
+                    <fullName>Service Fee</fullName>
+                    <default>false</default>
+                    <label>Service Fee</label>
+                </value>
+                <value>
+                    <fullName>Usage Fee</fullName>
+                    <default>false</default>
+                    <label>Usage Fee</label>
+                </value>
+                <value>
+                    <fullName>Additional Service Fee</fullName>
+                    <default>false</default>
+                    <label>Additional Service Fee</label>
+                </value>
+                <value>
+                    <fullName>Adjustment</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Adjustment</label>
+                </value>
+                <value>
+                    <fullName>Implementation Fee</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Implementation Fee</label>
+                </value>
+                <value>
+                    <fullName>Installation Fee</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Installation Fee</label>
+                </value>
+                <value>
+                    <fullName>License Fee</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>License Fee</label>
+                </value>
+                <value>
+                    <fullName>Maintenance Fee</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Maintenance Fee</label>
+                </value>
+                <value>
+                    <fullName>Standard Price</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Standard Price</label>
+                </value>
+                <value>
+                    <fullName>Subscription Fee</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Subscription Fee</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Contributing_Agreement_Level_Num__c</fullName>
+        <externalId>false</externalId>
+        <formula>if( ISPICKVAL(APTS_Contributing_Agreement_Level__c ,&apos;Buying Group&apos;),4,if(ISPICKVAL(APTS_Contributing_Agreement_Level__c,&apos;Grandparent&apos;),3,if(ISPICKVAL(APTS_Contributing_Agreement_Level__c,&apos;Parent&apos;),2,1)))</formula>
+        <label>Contributing Agreement Level(NUM)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Contributing_Agreement_Level__c</fullName>
+        <description>Contributing Agreement Level</description>
+        <externalId>false</externalId>
+        <label>Contributing Agreement Level</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Buying Group</fullName>
+                    <default>false</default>
+                    <label>Buying Group</label>
+                </value>
+                <value>
+                    <fullName>Grandparent</fullName>
+                    <default>false</default>
+                    <label>Grandparent</label>
+                </value>
+                <value>
+                    <fullName>Parent</fullName>
+                    <default>false</default>
+                    <label>Parent</label>
+                </value>
+                <value>
+                    <fullName>Child</fullName>
+                    <default>false</default>
+                    <label>Child</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Contributing_Agreement__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Contributing Agreement</description>
+        <externalId>false</externalId>
+        <label>Contributing Agreement</label>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipLabel>Contract Entitlement Repositories</relationshipLabel>
+        <relationshipName>Contract_Entitlement_Repositories1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_End_Date__c</fullName>
+        <description>End date of adjustment line item</description>
+        <externalId>false</externalId>
+        <label>End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Exclusion_Exception_Available__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This would be only populated when agreement line item has exclusion exceptions defined</description>
+        <externalId>false</externalId>
+        <label>Exclusion Exception Available?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Is_Pending__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Whether the status of CER record is pending or not</description>
+        <externalId>false</externalId>
+        <label>Is Pending</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Max_Volume__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Max Volume</description>
+        <externalId>false</externalId>
+        <label>Max Volume</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Pending_Adjustment_Line_Item__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Pending Adjustment Line Item</label>
+        <referenceTo>Apttus_Config2__AdjustmentLineItem__c</referenceTo>
+        <relationshipLabel>Contract Entitlement Repositories</relationshipLabel>
+        <relationshipName>Pending_ADLI_CER</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Pending_Line_Item__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Pending Line Item</label>
+        <referenceTo>Apttus_Config2__LineItem__c</referenceTo>
+        <relationshipLabel>Contract Entitlement Repositories</relationshipLabel>
+        <relationshipName>Pending_LI_CER</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Pricing_Sub_Type__c</fullName>
+        <description>Pricing Sub Type</description>
+        <externalId>false</externalId>
+        <label>Pricing Sub Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>PPR ZPX1</fullName>
+                    <default>false</default>
+                    <label>PPR ZPX1</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Pricing_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Pricing Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Net List Price Override</fullName>
+                    <default>false</default>
+                    <label>Net List Price Override</label>
+                </value>
+                <value>
+                    <fullName>Matrix</fullName>
+                    <default>false</default>
+                    <label>Matrix</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Product_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>APTS_Product__r.ProductCode</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Code</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Product</description>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Contract Entitlement Repositories</relationshipLabel>
+        <relationshipName>Contract_Entitlement_Repositories1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Rebate__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Rebate</description>
+        <externalId>false</externalId>
+        <label>Rebate</label>
+        <referenceTo>APTS_RebateDefiniation__c</referenceTo>
+        <relationshipLabel>Contract Entitlement Repositories</relationshipLabel>
+        <relationshipName>Contract_Entitlement_Repositories</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Sold_to_Party__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Sold to Party</description>
+        <externalId>false</externalId>
+        <label>Sold to Party</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Contract Entitlement Repositories</relationshipLabel>
+        <relationshipName>Contract_Entitlement_Repositories1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Start_Date__c</fullName>
+        <description>Start date of adjustment line item</description>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Sub_Category__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Sub Category value from Classification Hierarchy</description>
+        <externalId>false</externalId>
+        <label>Sub Category</label>
+        <referenceTo>Apttus_Config2__ClassificationHierarchy__c</referenceTo>
+        <relationshipLabel>Contract Entitlement Repositories (Sub Category)</relationshipLabel>
+        <relationshipName>Sub_Category_CER</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Sub_Sub_Category__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Sub Sub Category value from Classification Hierarchy</description>
+        <externalId>false</externalId>
+        <label>Sub Sub Category</label>
+        <referenceTo>Apttus_Config2__ClassificationHierarchy__c</referenceTo>
+        <relationshipLabel>Contract Entitlement Repositories (Sub Sub Category)</relationshipLabel>
+        <relationshipName>Sub_Sub_Category_CER</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Sub_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ZP06</fullName>
+                    <default>false</default>
+                    <label>Permanent Discount</label>
+                </value>
+                <value>
+                    <fullName>ZP07</fullName>
+                    <default>false</default>
+                    <label>Additional Permanent Discount</label>
+                </value>
+                <value>
+                    <fullName>ZP04</fullName>
+                    <default>false</default>
+                    <label>Temporary Discount (Manual)</label>
+                </value>
+                <value>
+                    <fullName>ZP08</fullName>
+                    <default>false</default>
+                    <label>Promotional Discount</label>
+                </value>
+                <value>
+                    <fullName>ZP10</fullName>
+                    <default>false</default>
+                    <label>Promotional Discount (Coupons)</label>
+                </value>
+                <value>
+                    <fullName>ZX10</fullName>
+                    <default>false</default>
+                    <label>Free Of Charge (100% Discount)</label>
+                </value>
+                <value>
+                    <fullName>ZP12</fullName>
+                    <default>false</default>
+                    <label>Efficiency Discount</label>
+                </value>
+                <value>
+                    <fullName>ZP11</fullName>
+                    <default>false</default>
+                    <label>Business Development Funds (YER)</label>
+                </value>
+                <value>
+                    <fullName>ZP13</fullName>
+                    <default>false</default>
+                    <label>Business Development Funds (PPR)</label>
+                </value>
+                <value>
+                    <fullName>ZP15</fullName>
+                    <default>false</default>
+                    <label>Brand Marketing Campaign (Budget)</label>
+                </value>
+                <value>
+                    <fullName>ZP03</fullName>
+                    <default>false</default>
+                    <label>Discount Surcharge GSV</label>
+                </value>
+                <value>
+                    <fullName>YOCI</fullName>
+                    <default>false</default>
+                    <label>Consignment Ingredients</label>
+                </value>
+                <value>
+                    <fullName>YOFT</fullName>
+                    <default>false</default>
+                    <label>Fixed term</label>
+                </value>
+                <value>
+                    <fullName>ZP02</fullName>
+                    <default>false</default>
+                    <label>Inflation correction</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Type__c</fullName>
+        <description>Sames as Adjustment LIne Items</description>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>PPR</fullName>
+                    <default>false</default>
+                    <label>Permanent Discount</label>
+                </value>
+                <value>
+                    <fullName>TPR</fullName>
+                    <default>false</default>
+                    <label>Temporary Discount</label>
+                </value>
+                <value>
+                    <fullName>BMC</fullName>
+                    <default>false</default>
+                    <label>Budget/Development/Efficiency</label>
+                </value>
+                <value>
+                    <fullName>GSV</fullName>
+                    <default>false</default>
+                    <label>Discount Surcharge GSV</label>
+                </value>
+                <value>
+                    <fullName>YOCI</fullName>
+                    <default>false</default>
+                    <label>Consignment</label>
+                </value>
+                <value>
+                    <fullName>YOFT</fullName>
+                    <default>false</default>
+                    <label>Fixed Term</label>
+                </value>
+                <value>
+                    <fullName>Inflation</fullName>
+                    <default>false</default>
+                    <label>Inflation</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_UOM__c</fullName>
+        <description>UOM</description>
+        <externalId>false</externalId>
+        <label>UOM</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SAP_BX</fullName>
+                    <default>false</default>
+                    <label>Box</label>
+                </value>
+                <value>
+                    <fullName>SAP_PF</fullName>
+                    <default>false</default>
+                    <label>Pallet</label>
+                </value>
+                <value>
+                    <fullName>SAP_GRM</fullName>
+                    <default>false</default>
+                    <label>Gram</label>
+                </value>
+                <value>
+                    <fullName>SAP_KGM</fullName>
+                    <default>false</default>
+                    <label>Kilogram</label>
+                </value>
+                <value>
+                    <fullName>SAP_LTR</fullName>
+                    <default>false</default>
+                    <label>Liter</label>
+                </value>
+                <value>
+                    <fullName>SAP_PCE</fullName>
+                    <default>false</default>
+                    <label>Piece</label>
+                </value>
+                <value>
+                    <fullName>SAP_LZ</fullName>
+                    <default>false</default>
+                    <label>LAY120*80</label>
+                </value>
+                <value>
+                    <fullName>SAP_LY</fullName>
+                    <default>false</default>
+                    <label>LAY120*100</label>
+                </value>
+                <value>
+                    <fullName>SAP_PY1</fullName>
+                    <default>false</default>
+                    <label>HAP120*100</label>
+                </value>
+                <value>
+                    <fullName>SAP_PY2</fullName>
+                    <default>false</default>
+                    <label>FUP120*100</label>
+                </value>
+                <value>
+                    <fullName>SAP_ZQH</fullName>
+                    <default>false</default>
+                    <label>Quarter of Hour</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Volume_Assumption_Obligation__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Lookup to volume assumption obligation. Created for achieving Account Hierarchy for Volume  obligation.</description>
+        <externalId>false</externalId>
+        <label>Volume Assumption Obligation</label>
+        <referenceTo>APTS_AgreementTotalVolumeObligation__c</referenceTo>
+        <relationshipLabel>Contract Entitlement Repositories</relationshipLabel>
+        <relationshipName>Contract_Entitlement_Repositories</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CER_DK__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(ISPICKVAL(APTS_Agreement_Line_Item__r.Apttus_CMConfig__PriceListId__r.APTS_Region__c, &quot;SAP_0975&quot;), 
+ISPICKVAL(APTS_Agreement_Line_Item__r.Apttus__AgreementId__r.Apttus__Status_Category__c, &quot;In Effect&quot;), 
+ISPICKVAL(APTS_Agreement_Line_Item__r.Apttus__AgreementId__r.Apttus__Status__c, &quot;Activated&quot;), 
+IF(APTS_Sold_to_Party__r.APTS_BizIsland_Bonsai_Account__c,True,False), 
+ISPICKVAL(APTS_Agreement_Line_Item__r.Apttus_CMConfig__LineType__c, &quot;Product/Service&quot;), 
+APTS_Agreement_Line_Item__r.Apttus__ProductId__r.ProductCode != &quot;DUMMY_SKU&quot;, 
+OR(ISPICKVAL(APTS_Product__r.Family,&quot;SAP_01&quot;),ISPICKVAL(APTS_Product__r.Family,&quot;SAP_03&quot;),ISPICKVAL(APTS_Product__r.Family,&quot;SAP_02&quot;))
+) ,&quot;ValidCER&quot;, &quot;InvalidCER&quot; )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CER DK</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Cumulative_Consumption_Currency__c</fullName>
+        <description>Total Cumulative Consumption Currency</description>
+        <externalId>false</externalId>
+        <label>Total Cumulative Consumption Currency</label>
+        <precision>11</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Total_Cumulative_Consumption_Quantity__c</fullName>
+        <description>Total Cumulative Consumption Quantity</description>
+        <externalId>false</externalId>
+        <label>Total Cumulative Consumption Quantity</label>
+        <precision>9</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Contract Entitlement Repository</label>
+    <listViews>
+        <fullName>All_CER</fullName>
+        <columns>NAME</columns>
+        <columns>APTS_Product__c</columns>
+        <columns>APTS_CategoryCER__c</columns>
+        <columns>APTS_Sub_Category__c</columns>
+        <columns>APTS_Sub_Sub_Category__c</columns>
+        <columns>APTS_Adjustment_Type__c</columns>
+        <columns>APTS_Adjustment_Value__c</columns>
+        <columns>APTS_Start_Date__c</columns>
+        <columns>APTS_End_Date__c</columns>
+        <columns>APTS_Contributing_Agreement_Level__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All CER</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>CER-{00000}</displayFormat>
+        <label>CER-ID</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Contract Entitlement Repositories</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

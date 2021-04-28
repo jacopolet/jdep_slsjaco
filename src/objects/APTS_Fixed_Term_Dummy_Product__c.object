@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>This custom setting will hold the value of dummy product created, which needs to be associated while adding dummy order line item for ‘Fixed Term’ agreement. E.g. Name – High, Value ‘High Tax dummy product’.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Inactive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If checked, this product wouldn&apos;t be considered when fixed term agreement is activated.</description>
+        <externalId>false</externalId>
+        <label>Inactive?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Product_Name__c</fullName>
+        <description>Name of the product</description>
+        <externalId>false</externalId>
+        <label>Product Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>APTS Fixed Term Dummy Product</label>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>A CreditsafeCompanyAdditionalInformationNLLetterOfLiabilityInformation403V2</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>appsolutely__Company_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Displays the mother company’s name that has deposit the 403 Statement.</description>
+        <externalId>false</externalId>
+        <label>Company Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Company_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Displays the mother company’s chamber of commerce number that has deposit the 403 Statement.</description>
+        <externalId>false</externalId>
+        <label>Company Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Creditsafe_Company_Report_Full__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A detailed report about a company.</description>
+        <externalId>false</externalId>
+        <label>Creditsafe Company Report</label>
+        <referenceTo>appsolutely__Creditsafe_Company_Report_Full__c</referenceTo>
+        <relationshipLabel>Additional Info NL Letter Of Liabilities</relationshipLabel>
+        <relationshipName>Additional_Info_NL_Letter_Of_Liabilities</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Date_Submitted__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shows when the 403 statement has been deposit by the mother company.</description>
+        <externalId>false</externalId>
+        <label>Date Submitted</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Financial_Year__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Displays the year of the 403 Statement.</description>
+        <externalId>false</externalId>
+        <label>Financial Year</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Liability1_Removal_Date_Parent2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shows the removal date for this 403 statement of mother company 2.</description>
+        <externalId>false</externalId>
+        <label>Liability1 Removal Date Parent2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Liability1_Removal_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shows the removal date for this 403 statement.</description>
+        <externalId>false</externalId>
+        <label>Liability1 Removal Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Liability1_Removal_Submitted_Parent2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shows when the removal date for this 403 statement has been submitted of mother company 2.</description>
+        <externalId>false</externalId>
+        <label>Liability1 Removal Submitted Parent2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Liability1_Removal_Submitted__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shows when the removal date for this 403 statement has been submitted.</description>
+        <externalId>false</externalId>
+        <label>Liability1 Removal Submitted</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Liability1_Start_Date_Parent2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shows the start date for this 403 statements of mother company 2.</description>
+        <externalId>false</externalId>
+        <label>Liability1 Start Date Parent2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Liability1_Start_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shows the start date for this 403 statement.</description>
+        <externalId>false</externalId>
+        <label>Liability1 Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Liability1_Submitted_Date_Parent2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shows the submit date for this 403 statement of mother company 2.</description>
+        <externalId>false</externalId>
+        <label>Liability1 Submitted Date Parent2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Liability1_Submitted_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shows the submit date for this 403 statement.</description>
+        <externalId>false</externalId>
+        <label>Liability1 Submitted Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Liability2_Removal_Date_Parent2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shows the removal date for this 403 statement of mother company 2.</description>
+        <externalId>false</externalId>
+        <label>Liability2 Removal Date Parent2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Liability2_Removal_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shows the removal date for this 403 statement.</description>
+        <externalId>false</externalId>
+        <label>Liability2 Removal Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Liability2_Removal_Submitted_Parent2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shows when the removal date for this 403 statement has been submitted of mother company 2.</description>
+        <externalId>false</externalId>
+        <label>Liability2 Removal Submitted Parent2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Liability2_Removal_Submitted__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shows when the removal date for this 403 statement has been submitted.</description>
+        <externalId>false</externalId>
+        <label>Liability2 Removal Submitted</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Liability2_Start_Date_Parent2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shows the start date for this 403 statements of mother company 2.</description>
+        <externalId>false</externalId>
+        <label>Liability2 Start Date Parent2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Liability2_Start_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shows the start date for this 403 statement.</description>
+        <externalId>false</externalId>
+        <label>Liability2 Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Liability2_Submitted_Date_Parent2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shows the submit date for this 403 statement of mother company 2.</description>
+        <externalId>false</externalId>
+        <label>Liability2 Submitted Date Parent2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Liability2_Submitted_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shows the submit date for this 403 statement.</description>
+        <externalId>false</externalId>
+        <label>Liability2 Submitted Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <label>Additional Info NL Letter Of Liability</label>
+    <nameField>
+        <displayFormat>{00000000}</displayFormat>
+        <label>Additional Info NL Letter Of Liability</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Additional Info NL Letter Of Liabilities</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,123 @@
+<template >
+    <div class="slds-page-header">
+<b>Contracted Products </b>
+        <!-- LAYOUT GRID -->
+  <!-- ACTION BUTTONS -->
+  
+    <div class="slds-col slds-no-flex slds-grid slds-align-bottom">
+        <div class="slds-button-group" role="group">
+            <lightning-button variant="brand"
+            label="Bundle Details"
+            title="Bundle Details"
+            onclick={openModal}
+            class="slds-m-left_x-small"></lightning-button>  
+        </div>
+    </div>   
+
+
+    <template if:true={bShowActionModal}>
+        <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open slds-modal_large">
+           <div class="slds-modal__container">
+              <!-- modal header  -->
+              <header class="slds-modal__header">
+                 <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse slds-button__icon_large" title="Close" onclick={closeModal}>
+                    <lightning-icon icon-name="utility:close"
+                       alternative-text="close"
+                       variant="inverse"
+                       size="small" ></lightning-icon>
+                    <span class="slds-assistive-text">Close</span>
+                 </button>
+               
+                 <h3  class="slds-text-heading_medium slds-hyphenate"> <b>Bundle Details - SAP Customer No- {sapAccName} , Customer Name - {AccName} </b>  </h3>
+               
+              </header>
+              <!-- modal body  -->
+              <div class="slds-modal__content slds-p-around_medium" > 
+                  <c-apts-bundle-detail-page ></c-apts-bundle-detail-page>  
+              </div>
+              <!-- modal footer -->
+               <footer class="slds-modal__footer">
+                  
+                        <button class="slds-button slds-button_brand" onclick={openChangeAssetModal}> Save And Next</button>
+                 
+                   <button class="slds-button slds-button_neutral" onclick={closeModal}>Close</button>
+                </footer>
+           </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+       </template>  
+
+
+       <template if:true={bShowChangeAssetModal}>
+        <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open slds-modal_large">
+           <div class="slds-modal__container">
+              <!-- modal header  -->
+              <header class="slds-modal__header">
+                 <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse slds-button__icon_large" title="Close" onclick={closeChangeAssetModal}>
+                    <lightning-icon icon-name="utility:close"
+                       alternative-text="close"
+                       variant="inverse"
+                       size="small" ></lightning-icon>
+                    <span class="slds-assistive-text">Close</span>
+                 </button>
+               
+                 <h3  class="slds-text-heading_medium slds-hyphenate"> <b>Order Checkout - SAP Customer No- {sapAccName} , Customer Name - {AccName} </b>  </h3>
+               
+              </header>
+              <!-- modal body  -->
+              <div class="slds-modal__content slds-p-around_medium" > 
+                <c-apts-order-info-page ></c-apts-order-info-page>  
+              </div>
+              <!-- modal footer -->
+               <footer class="slds-modal__footer">
+                <button class="slds-button slds-button_brand" onclick={openModal}> Previous </button>
+                        <button class="slds-button slds-button_brand" > Save Order </button>
+                 
+                   <button class="slds-button slds-button_neutral" onclick={closeChangeAssetModal}>Submit to SAP</button>
+                </footer>
+           </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+       </template>  
+                  
+<!-- / ACTION BUTTONS -->
+
+        <div class="slds-grid">
+    <template if:true={showAddToCartButton}>
+        <div class="slds-col slds-no-flex slds-grid slds-align-top">
+            <div class="slds-button-group" role="group">
+                <lightning-button variant="brand"
+                label="Add selected to cart"
+                title="Add selected to cart"           
+                class="slds-m-left_x-small"></lightning-button>  
+            </div>
+        </div>   
+    </template>   
+    </div>
+    </div>
+
+
+    <div class="slds-page-header">
+
+        <!-- LAYOUT GRID -->
+  
+        <div class="slds-grid">
+    <template if:true={allRecords}>
+    <c-apts-lwc-datatable records={allRecords} 
+    total-records={allRecords.length} 
+    columns = {columns}
+    key-field="Id"
+    show-search-box="true" 
+    onpaginatorchange={handlePaginatorChange}
+    onsetselectedrecords={handleSelectedItem}>
+ </c-apts-lwc-datatable>         
+</template>
+
+
+   <!-- <template if:true={allRecords}>
+        <lightning-datatable data={allRecords} columns={columns} key-field="Id">
+        </lightning-datatable>
+    </template>   --> 
+    </div>
+    </div>  
+</template>

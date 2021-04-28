@@ -1,0 +1,36 @@
+<!--
+**********************************************************************
+Name: aptsTermination
+Date: 09 July 2020
+Author: Venky Muppalaneni
+Change Verison History:
+**********************************************************************
+-->
+<template> 
+    <div>
+        <lightning-layout>
+            <lightning-layout-item padding="around-small">
+                <lightning-input type="date" name="input1" label="End Date for Termination" onchange={handleTerminationDateChange}></lightning-input>
+            </lightning-layout-item>
+            <lightning-layout-item class="slds-p-around_x-large">
+                <button class="slds-button slds-button_brand" disabled={disabledTerminate} onclick={handleTerminate} >Terminate
+                    <span class="exampleHolder" if:true={orderStatus}><lightning-spinner alternative-text="Order Inprogress" variant="brand" size="small"></lightning-spinner></span>
+                </button>
+            </lightning-layout-item>
+        </lightning-layout>
+    </div>
+    <div if:false={isLoaded} class="slds-is-relative">
+        <lightning-spinner alternative-text="Loading"  variant="brand"></lightning-spinner>
+    </div>
+    <template  if:true={allRecords}>
+        <c-apts-lwc-datatable records={allRecords} 
+            total-records={allRecords.length} 
+            columns = {columns}
+            key-field="Id"
+            hide-check-box= "true"
+            show-search-box="true"            
+            onpaginatorchange={handlePaginatorChange}
+            onsetselectedrecords={handleAllSelectedRows}>
+         </c-apts-lwc-datatable>   
+    </template>
+</template>

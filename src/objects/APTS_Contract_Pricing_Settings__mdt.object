@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This custom setting is used for Contract Pricing.</description>
+    <fields>
+        <fullName>APTS_Bucket_10__c</fullName>
+        <description>Enter comma separated(w/o whitespace) types in the field. 
+Bucket 10 Adjustments will use Bucket 9&apos;s final Price to retrieve the Adjustment Amount.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Enter comma separated(w/o whitespace) types in the field. 
+Bucket 10 Adjustments will use Bucket 9&apos;s final Price to retrieve the Adjustment Amount.</inlineHelpText>
+        <label>Bucket 10</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Bucket_1__c</fullName>
+        <description>Enter comma separated(w/o whitespace) types in the field. 
+This is the first bucket and this bucket adjustments will be applied to the Line Item&apos;s Base Price</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Enter comma separated(w/o whitespace) types in the field. 
+This is the first bucket and this bucket adjustments will be applied to the Line Item&apos;s Base Price</inlineHelpText>
+        <label>Bucket 1</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Bucket_2__c</fullName>
+        <description>Enter comma separated(w/o whitespace) types in the field. 
+Bucket 2 Adjustments will use Bucket 1&apos;s final Price to retrieve the Adjustment Amount.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Enter comma separated(w/o whitespace) types in the field. 
+Bucket 2 Adjustments will use Bucket 1&apos;s final Price to retrieve the Adjustment Amount.</inlineHelpText>
+        <label>Bucket 2</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Bucket_3__c</fullName>
+        <description>Enter comma separated(w/o whitespace) types in the field. 
+Bucket 3 Adjustments will use Bucket 2&apos;s final Price to retrieve the Adjustment Amount.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Enter comma separated(w/o whitespace) types in the field. 
+Bucket 3 Adjustments will use Bucket 2&apos;s final Price to retrieve the Adjustment Amount.</inlineHelpText>
+        <label>Bucket 3</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Bucket_4__c</fullName>
+        <description>Enter comma separated(w/o whitespace) types in the field. 
+Bucket 4 Adjustments will use Bucket 3&apos;s final Price to retrieve the Adjustment Amount.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Enter comma separated(w/o whitespace) types in the field. 
+Bucket 4 Adjustments will use Bucket 3&apos;s final Price to retrieve the Adjustment Amount.</inlineHelpText>
+        <label>Bucket 4</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Bucket_5__c</fullName>
+        <description>Enter comma separated(w/o whitespace) types in the field. 
+Bucket 5 Adjustments will use Bucket 4&apos;s final Price to retrieve the Adjustment Amount.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Enter comma separated(w/o whitespace) types in the field. 
+Bucket 5 Adjustments will use Bucket 4&apos;s final Price to retrieve the Adjustment Amount.</inlineHelpText>
+        <label>Bucket 5</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Bucket_6__c</fullName>
+        <description>Enter comma separated(w/o whitespace) types in the field. 
+Bucket 6 Adjustments will use Bucket 5&apos;s final Price to retrieve the Adjustment Amount.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Enter comma separated(w/o whitespace) types in the field. 
+Bucket 6 Adjustments will use Bucket 5&apos;s final Price to retrieve the Adjustment Amount.</inlineHelpText>
+        <label>Bucket 6</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Bucket_7__c</fullName>
+        <description>Enter comma separated(w/o whitespace) types in the field. 
+Bucket 7 Adjustments will use Bucket 6&apos;s final Price to retrieve the Adjustment Amount.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Enter comma separated(w/o whitespace) types in the field. 
+Bucket 7 Adjustments will use Bucket 6&apos;s final Price to retrieve the Adjustment Amount.</inlineHelpText>
+        <label>Bucket 7</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Bucket_8__c</fullName>
+        <description>Enter comma separated(w/o whitespace) types in the field. 
+Bucket 8 Adjustments will use Bucket 7&apos;s final Price to retrieve the Adjustment Amount.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Enter comma separated(w/o whitespace) types in the field. 
+Bucket 8 Adjustments will use Bucket 7&apos;s final Price to retrieve the Adjustment Amount.</inlineHelpText>
+        <label>Bucket 8</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Bucket_9__c</fullName>
+        <description>Enter comma separated(w/o whitespace) types in the field. 
+Bucket 9 Adjustments will use Bucket 8&apos;s final Price to retrieve the Adjustment Amount.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Enter comma separated(w/o whitespace) types in the field. 
+Bucket 9 Adjustments will use Bucket 8&apos;s final Price to retrieve the Adjustment Amount.</inlineHelpText>
+        <label>Bucket 9</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Discount_Sequence__c</fullName>
+        <description>This field is used for the sequencing of the discount application. 
+Please give comma separated values in the field.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Please give comma separated values WITHOUT Space in the field. e.g., PPR,TPR,EFF
+This field is used for the sequencing of the discount application.</inlineHelpText>
+        <label>Discount Sequence</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Sub_Type__c</fullName>
+        <description>This field is used for the sequencing of the Sub Type.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Please give comma separated values WITHOUT Space in the field. e.g., PPR,Price Restitution,Standard TPR 
+This field is used for the sequencing of the Sub Type Application.</inlineHelpText>
+        <label>Sub Type</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <label>Contract Pricing Setting</label>
+    <pluralLabel>Contract Pricing Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

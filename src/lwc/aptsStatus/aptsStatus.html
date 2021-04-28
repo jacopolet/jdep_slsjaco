@@ -1,0 +1,25 @@
+<!--
+**********************************************************************
+Name: aptsStatus
+Date: 10 July 2020
+Author: Venky Muppalaneni
+Change Verison History:
+**********************************************************************
+-->
+<template>
+    <div if:false={isLoaded} class="slds-is-relative">
+        <lightning-spinner alternative-text="Loading"  variant="brand"></lightning-spinner>
+    </div>
+<template  if:true={allRecords}>
+    <c-apts-lwc-datatable records={allRecords} 
+            total-records={allRecords.length} 
+            columns = {columns}
+            key-field="Id"
+            show-search-box="true"     
+            hide-check-box= "true"      
+            onpaginatorchange={handlePaginatorChange}
+            onselected={callCancelAction}
+          >
+         </c-apts-lwc-datatable>  
+</template>
+</template>

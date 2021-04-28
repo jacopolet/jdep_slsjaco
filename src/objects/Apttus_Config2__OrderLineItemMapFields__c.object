@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Holds the map between field API names from the order line item object and the associated field API names from the cart line item object, used in calculating dynamic rollup data in incentives. Multiple data sets may be used.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Apttus_Config2__BusinessObjectType__c</fullName>
+        <defaultValue>&quot;Proposal&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The type of the business object associated with the configuration.
+
+Valid values are the following
+
+Proposal
+Agreement
+Order</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The type of the business object associated with the configuration.
+
+Valid values are the following
+
+Proposal
+Agreement
+Order</inlineHelpText>
+        <label>Business Object Type</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CartLineItemFieldName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The cart line item field name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The cart line item field name</inlineHelpText>
+        <label>Cart LineItem Field Name</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__OrderLineItemFieldName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The order line item field name.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The order line item field name.</inlineHelpText>
+        <label>Order LineItem Field Name</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Order LineItem Map Fields</label>
+    <visibility>Public</visibility>
+</CustomObject>

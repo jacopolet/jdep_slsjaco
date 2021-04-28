@@ -1,0 +1,52 @@
+<template>
+    <div class="slds-box slds-theme_default">
+        <div class="slds-grid">
+            <lightning-icon icon-name="standard:approval" alternative-text="Indicates approval" size="small" class="slds-media__figure"></lightning-icon>
+            <div class="slds-media__body"><h2 class="slds-card__header-title slds-truncate"><b>Approval</b></h2></div>
+        </div>
+        <lightning-tabset>
+            <lightning-tab label="Details">
+                <lightning-record-view-form record-id={recordId} object-api-name={objectApiName}>
+                    <div class="slds-grid slds-card__body">
+                        <div class="slds-col slds-size_1-of-2">
+                            <lightning-output-field field-name="Bank_Account__c">
+                            </lightning-output-field>
+                            <lightning-output-field field-name="Bank_Key__c">
+                            </lightning-output-field>
+                            <lightning-output-field field-name="Bank_Country__c">
+                            </lightning-output-field>
+                        </div>
+                        <div class="slds-col slds-size_1-of-2">
+                            <lightning-output-field field-name="IBAN__c">
+                            </lightning-output-field>
+                            <lightning-output-field field-name="Control_Key__c">
+                            </lightning-output-field>
+                            <lightning-output-field field-name="Collection_authorization__c">
+                            </lightning-output-field>
+                        </div>
+                    </div>
+                </lightning-record-view-form>
+            </lightning-tab>
+            <lightning-tab label="Request Approval">
+                <div if:true={isLoaded}>
+                    <div class="slds-spinner_container">
+                        <div role="status" class="slds-spinner slds-spinner_medium">
+                            <span class="slds-assistive-text">Loading</span>
+                            <div class="slds-spinner__dot-a"></div>
+                            <div class="slds-spinner__dot-b"></div>
+                        </div>
+                    </div>
+                </div>
+                <lightning-record-form
+                    record-id={recordId}
+                    object-api-name={objectApiName}
+                    columns="2"
+                    fields={fields}
+                    onsubmit={handleSubmit}
+                    onsuccess={handleSubmitApproval}
+                    onerror={handleError}>
+                </lightning-record-form>
+            </lightning-tab>
+        </lightning-tabset>
+    </div>
+</template>

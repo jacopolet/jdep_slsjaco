@@ -1,0 +1,66 @@
+<template>
+   
+    <div class="slds-grid slds-gutters">
+        <div class="slds-col" > <!--class="slds-col"-->
+          <lightning-input class="slds-p-left_xx-large" type="checkbox" data-id="checkbox" label="Delivery Only" ></lightning-input>
+            <lightning-layout-item padding="around-small" style="width: 100%;" > 
+                <lightning-helptext content="Enter Account Name"></lightning-helptext>
+                              <c-apts-lwc-custom-lookup object-name="Account"  ex    tra-fields="Name,SAP_Customer_ID__c" lookup-label ="Stop Over" icon-name="standard:event" extra-filters={billingPreFilter} oncustomrecordselected={handleSelected} onremoveselected={handleSelected}></c-apts-lwc-custom-lookup>              
+                         </lightning-layout-item> 
+      
+       <lightning-layout-item padding="around-small" style="width: 100%;" >     
+        <lightning-helptext content="Enter De Installation Order"></lightning-helptext>
+                              <c-apts-lwc-custom-lookup object-name="Apttus_Config2__Order__c"  ex    tra-fields="Name,APTS_Order_Sub_Type__c,APTS_Order_Type__c" lookup-label ="Swap" icon-name="standard:event" extra-filters={billingPreFilter} oncustomrecordselected={handleSelected} onremoveselected={handleSelected}></c-apts-lwc-custom-lookup>  
+       </lightning-layout-item>					 
+            
+            <lightning-layout-item padding="around-small" style="width: 100%;" >    
+                <lightning-helptext content="Enter Project"></lightning-helptext>
+                              <c-apts-lwc-custom-lookup object-name="Apttus_Config2__Order__c"  ex    tra-fields="Name,APTS_Order_Sub_Type__c,APTS_Order_Type__c" lookup-label ="Project" icon-name="standard:event" extra-filters={billingPreFilter} oncustomrecordselected={handleSelected} onremoveselected={handleSelected}></c-apts-lwc-custom-lookup>   
+             </lightning-layout-item>	
+             
+             <lightning-layout-item padding="around-small" style="width: 100%;" >    
+                <lightning-helptext content="Enter Contact Name"></lightning-helptext>
+                <c-apts-lwc-custom-lookup object-name="Contact"  ex    tra-fields="Name" lookup-label ="Search Contact" icon-name="standard:event" extra-filters={billingPreFilter} oncustomrecordselected={handleSelected} onremoveselected={handleSelected}></c-apts-lwc-custom-lookup>   
+</lightning-layout-item>	
+        </div>
+        <div class="slds-col" ></div>
+        <div class="slds-col" > <!--class="slds-col"-->
+          <lightning-layout-item  padding="horizontal-medium">
+                              <!--<lightning-helptext content="Enter the Base price override. Please note : End Date is mandatory for the transaction for removing an option"></lightning-helptext>-->
+                              <lightning-input type="date" name="Installation week" label="Installation Week(Monday)"  style="width: 240px;font-weight:bold"></lightning-input>
+                          </lightning-layout-item>
+                          
+                  
+                          
+                          <lightning-layout-item padding="horizontal-medium">
+                              <!--<lightning-helptext content="Enter the Base price override. Please note : End Date is mandatory for the transaction for removing an option"></lightning-helptext>-->
+                              <lightning-input type="date" name="Delivery Date" label="Delivery Date"  style="width: 240px;font-weight:bold"></lightning-input>
+                          </lightning-layout-item>
+                                 
+                          
+                          <lightning-layout-item padding="horizontal-medium">
+                              <!--<lightning-helptext content="Enter the Base price override. Please note : End Date is mandatory for the transaction for removing an option"></lightning-helptext>-->
+                              <lightning-input type="text" name="PO number" label="PO number"  style="width: 240px;font-weight:bold"></lightning-input>
+                          </lightning-layout-item>
+                     
+                           
+                         <lightning-layout-item padding="horizontal-medium">
+                              <!--<lightning-helptext content="Enter the Base price override. Please note : End Date is mandatory for the transaction for removing an option"></lightning-helptext>-->
+                              <lightning-input type="text" name="Order Reason" label="Order Reason"  style="width: 240px;font-weight:bold"></lightning-input>
+                          </lightning-layout-item>
+                     
+                     <lightning-layout-item padding="horizontal-medium">
+                              <!--<lightning-helptext content="Enter the Base price override. Please note : End Date is mandatory for the transaction for removing an option"></lightning-helptext>-->
+                              <lightning-input type="text" name="Delivery Remarks" label="Delivery Remarks"  style="width: 240px;font-weight:bold"></lightning-input>
+                          </lightning-layout-item>
+      
+                          <lightning-layout-item padding="horizontal-medium">
+                           <!--<lightning-helptext content="Enter the Base price override. Please note : End Date is mandatory for the transaction for removing an option"></lightning-helptext>-->
+                           <lightning-input type="text" name="Invoice Remarks" label="Invoice Remarks"  style="width: 240px;font-weight:bold"></lightning-input>
+                       </lightning-layout-item>
+        </div>
+        
+
+      </div>
+
+</template>

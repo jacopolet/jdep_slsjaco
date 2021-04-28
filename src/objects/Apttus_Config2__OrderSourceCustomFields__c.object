@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Holds the list of API names of custom fields to copy the data  from the source object when creating orders. The order object should have fields matching the API names listed here.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Apttus_Config2__CustomFieldNames2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the list of field API names from the source object to copy. Each field may be separated by a comma or a new line.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the list of field API names from the source object to copy. Each field may be separated by a comma or a new line.</inlineHelpText>
+        <label>Custom Field Names 2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CustomFieldNames3__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the list of field API names from the source object to copy. Each field may be separated by a comma or a new line.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the list of field API names from the source object to copy. Each field may be separated by a comma or a new line.</inlineHelpText>
+        <label>Custom Field Names 3</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__CustomFieldNames__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the list of field API names from the source object to copy. Each field may be separated by a comma or a new line.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the list of field API names from the source object to copy. Each field may be separated by a comma or a new line.</inlineHelpText>
+        <label>Custom Field Names</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__SourceObjectType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The type of the source object to copy data from.
+
+Valid values are the following
+
+Proposal
+Agreement
+Order</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The type of the source object to copy data from.
+
+Valid values are the following
+
+Proposal
+Agreement
+Order</inlineHelpText>
+        <label>Source Object Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Order Source Custom Fields</label>
+    <visibility>Public</visibility>
+</CustomObject>

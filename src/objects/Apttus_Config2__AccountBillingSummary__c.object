@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents the billing summary for an account</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Apttus_Config2__AccountId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the account associated with the billing summary</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the account associated with the billing summary</inlineHelpText>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipName>BillingSummary</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AnnualRecurringBillingsRamped__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total of  all recurring billings from the end of the contract and back for 12 months</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total of  all recurring billings from the end of the contract and back for 12 months</inlineHelpText>
+        <label>Annual Recurring Billings (Ramped)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AnnualRecurringBillingsToday__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The toal of all recurring billings from today and back for 12 months</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The toal of all recurring billings from today and back for 12 months</inlineHelpText>
+        <label>Annual Recurring Billings (Today)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BilledAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The amount billed for the account</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The amount billed for the account</inlineHelpText>
+        <label>Billed Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__InvoiceBalance__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The invoice balance for the account</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The invoice balance for the account</inlineHelpText>
+        <label>Invoice Balance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IsUpToDate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the summary object is up to date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the summary object is up to date</inlineHelpText>
+        <label>Is UpTo Date</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LastCalculated__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This is the point in time when the Account Billing Summary was fully calculated. This happens when one or more of the contributing Billing objects (Invoices, Schedules, etc.) have changed and the change is detected by the Account Billing Summary batch job.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is the point in time when the Account Billing Summary was fully calculated. This happens when one or more of the contributing Billing objects (Invoices, Schedules, etc.) have changed and the change is detected by the Account Billing Summary batch job</inlineHelpText>
+        <label>Last Calculated</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LastInvoiceDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The last invoice date for the account</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The last invoice date for the account</inlineHelpText>
+        <label>Last Invoice Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MiscInvoiceAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total of all miscellaneous charges that are invoiced</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total of all miscellaneous charges that are invoiced</inlineHelpText>
+        <label>Misc Invoice Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__NextInvoiceDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The next invoice date for the account</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The next invoice date for the account</inlineHelpText>
+        <label>Next Invoice Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__OneTimeInvoiceAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total of all one time charges that are invoiced</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total of all one time charges that are invoiced</inlineHelpText>
+        <label>One-Time Invoice Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PaidAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total amount of paid invoices</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total amount of paid invoices</inlineHelpText>
+        <label>Paid Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__RecurringInvoiceAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total of all recurring charges that are invoiced</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total of all recurring charges that are invoiced</inlineHelpText>
+        <label>Recurring Invoice Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__TotalContractValue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total contract value for the account</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total contract value for the account</inlineHelpText>
+        <label>Total Contract Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__TotalInvoiceAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total of all charges that are invoiced</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total of all charges that are invoiced</inlineHelpText>
+        <label>Total Invoice Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__UnbilledAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The amount unbilled for the account</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The amount unbilled for the account</inlineHelpText>
+        <label>Unbilled Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__UnpaidAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total amount of unpaid invoices</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total amount of unpaid invoices</inlineHelpText>
+        <label>Unpaid Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__UsageInvoiceAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total of all usage charges that are invoiced</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total of all usage charges that are invoiced</inlineHelpText>
+        <label>Usage Invoice Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <label>Account Billing Summary</label>
+    <nameField>
+        <displayFormat>BS-{000000}</displayFormat>
+        <label>Billing Id</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Account Billing Summary</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

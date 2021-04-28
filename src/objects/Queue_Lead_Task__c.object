@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Owned By Queue when Boomi inserts lead or task</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>MQL_Campaign_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>MQL Campaign ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MQL_Lead_Queue__c</fullName>
+        <externalId>false</externalId>
+        <label>MQL Lead Queue</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MQL_Task_Record_Queue__c</fullName>
+        <externalId>false</externalId>
+        <label>MQL Task Record Queue</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OMDCR_Gate_Keeper__c</fullName>
+        <externalId>false</externalId>
+        <label>OMDCR Gate Keeper</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OMDCR_Queue__c</fullName>
+        <externalId>false</externalId>
+        <label>OMDCR Queue</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Queue_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Queue Name</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Queue_for_Lead__c</fullName>
+        <externalId>false</externalId>
+        <label>Queue for Lead</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Queue_for_Task_Record__c</fullName>
+        <externalId>false</externalId>
+        <label>Queue for Task Record</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Organization__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Organization</label>
+        <length>30</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>User_Keeper__c</fullName>
+        <externalId>false</externalId>
+        <label>User Keeper</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Queue Lead Task</label>
+    <listViews>
+        <fullName>Queue_Owner</fullName>
+        <columns>NAME</columns>
+        <columns>Sales_Organization__c</columns>
+        <columns>Queue_for_Lead__c</columns>
+        <columns>MQL_Lead_Queue__c</columns>
+        <columns>Queue_for_Task_Record__c</columns>
+        <columns>MQL_Task_Record_Queue__c</columns>
+        <columns>MQL_Campaign_ID__c</columns>
+        <columns>Queue_Name__c</columns>
+        <columns>User_Keeper__c</columns>
+        <columns>OMDCR_Gate_Keeper__c</columns>
+        <columns>OMDCR_Queue__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Queue Owner</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

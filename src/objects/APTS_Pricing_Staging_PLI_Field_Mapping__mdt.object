@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Custom Metadata Type to store the field mapping of APTS_Pricing_Staging__c and Apttus_Config2__PriceListItem__c Objects. Created as part of Kauri Nov&apos;18 Release.</description>
+    <fields>
+        <fullName>APTS_Price_List_Item_Field_Name__c</fullName>
+        <description>Field to store Price List Item Object Field name</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Price List Item Field Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Pricing_Staging_Field_Name__c</fullName>
+        <description>Field to store Pricing Staging Object Field name</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Pricing Staging Field Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>APTS Pricing Staging &amp; PLI Field Mapping</label>
+    <pluralLabel>APTS Pricing Staging &amp; PLI Field Mapping</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents a single entry in a price rule</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fieldSets>
+        <fullName>Apttus_Config2__AdditionalPricingFields</fullName>
+        <availableFields>
+            <field>Apttus_Config2__AdjustmentReason__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Config2__AdjustmentType__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Config2__AdjustmentUom__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Config2__AdjustmentValueSource__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Config2__AdjustmentValueType__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>Used within the incentive benefits section.</description>
+        <displayedFields>
+            <field>Apttus_Config2__AdjustmentAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Additional Pricing Fields</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Apttus_Config2__RebateAdditionalPricingFields</fullName>
+        <availableFields>
+            <field>Apttus_Config2__AdjustmentReason__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Config2__AdjustmentType__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Config2__AdjustmentUom__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Config2__AdjustmentValueSource__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus_Config2__AdjustmentValueType__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>Used within the incentive benefits section when use type is of Rebate.</description>
+        <displayedFields>
+            <field>Apttus_Config2__AdjustmentAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Rebate Additional Pricing Fields</label>
+    </fieldSets>
+    <fields>
+        <fullName>APTS_Dimension_4_Value__c</fullName>
+        <description>The value for the fourth dimension.</description>
+        <externalId>false</externalId>
+        <formula>VALUE(Apttus_Config2__Dimension4Value__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Dimension 4 Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Ext_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>APTS Ext ID</label>
+        <length>60</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_TPR__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND( Apttus_Config2__AdjustmentAmount__c == 100,  ISPICKVAL(Apttus_Config2__AdjustmentType__c,&apos;% Discount&apos; )),TRUE,FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>APTS_TPR</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AdjustmentAmountSourceId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The source holding the adjustment amount. If the adjustment source does not hold a value, the value would default to the adjustment amount.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The source holding the adjustment amount. If the adjustment source does not hold a value, the value would default to the adjustment amount.</inlineHelpText>
+        <label>Adjustment Amount Source</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Apttus_Config2__FormulaField__c.Apttus_Config2__BusinessObject__c</field>
+                <operation>equals</operation>
+                <value>Apttus_Config2__LineItem__c</value>
+            </filterItems>
+            <infoMessage>Please select a field that holds the adjustment amount</infoMessage>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Apttus_Config2__FormulaField__c</referenceTo>
+        <relationshipLabel>Price Rule Entries</relationshipLabel>
+        <relationshipName>PriceRuleEntries</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AdjustmentAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price adjustment amount.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Used in conjunction with the Rate Value Type field, the amount for the selected rate value type.</inlineHelpText>
+        <label>Adjustment Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AdjustmentReason__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The adjustment reason.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The adjustment reason.</inlineHelpText>
+        <label>Adjustment Reason</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AdjustmentType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price adjustment type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the rate type to be used. It can be Per Unit Amount, %, or Total Amount. 
+For Rebates, it indicates benefit or deduction rate type. 
+For Promotions, it indicates discount rate type
+For Pricing, it indicates discount or markup</inlineHelpText>
+        <label>Adjustment Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>% Benefit</fullName>
+                    <default>false</default>
+                    <label>% Benefit</label>
+                </value>
+                <value>
+                    <fullName>Benefit Amount</fullName>
+                    <default>false</default>
+                    <label>Benefit Amount</label>
+                </value>
+                <value>
+                    <fullName>Benefit Per Unit</fullName>
+                    <default>true</default>
+                    <label>Benefit Per Unit</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AdjustmentUom__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The adjustment unit of measure</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The adjustment unit of measure</inlineHelpText>
+        <label>Adjustment Uom</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Each</fullName>
+                    <default>false</default>
+                    <label>Each</label>
+                </value>
+                <value>
+                    <fullName>Hour</fullName>
+                    <default>false</default>
+                    <label>Hour</label>
+                </value>
+                <value>
+                    <fullName>Day</fullName>
+                    <default>false</default>
+                    <label>Day</label>
+                </value>
+                <value>
+                    <fullName>Month</fullName>
+                    <default>false</default>
+                    <label>Month</label>
+                </value>
+                <value>
+                    <fullName>Year</fullName>
+                    <default>false</default>
+                    <label>Year</label>
+                </value>
+                <value>
+                    <fullName>Quarter</fullName>
+                    <default>false</default>
+                    <label>Quarter</label>
+                </value>
+                <value>
+                    <fullName>Case</fullName>
+                    <default>false</default>
+                    <label>Case</label>
+                </value>
+                <value>
+                    <fullName>Gallon</fullName>
+                    <default>false</default>
+                    <label>Gallon</label>
+                </value>
+                <value>
+                    <fullName>Box</fullName>
+                    <default>false</default>
+                    <label>Box</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AdjustmentValueSource__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The source for dynamic adjustment values</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The source for dynamic adjustment values</inlineHelpText>
+        <label>Adjustment Value Source</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__AdjustmentValueType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The adjustment value type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The adjustment value type</inlineHelpText>
+        <label>Adjustment Value Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Constant</fullName>
+                    <default>true</default>
+                    <label>Constant</label>
+                </value>
+                <value>
+                    <fullName>Reference</fullName>
+                    <default>false</default>
+                    <label>Reference</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__BandSize__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The band size for a weighted range</description>
+        <externalId>false</externalId>
+        <label>Band Size</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ChargeTypes__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The list of charge types associated with the entry</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The list of charge types associated with the entry</inlineHelpText>
+        <label>Charge Types</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All</fullName>
+                    <default>false</default>
+                    <label>All</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Condition__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The condition specification</description>
+        <externalId>false</externalId>
+        <label>Condition</label>
+        <length>4000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension1ListValue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The list of values for the first dimension. Only applicable to List dimensions</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The list of values for the first dimension. Only applicable to List dimensions</inlineHelpText>
+        <label>Dimension 1 List Value</label>
+        <length>5000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension1Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value for the first dimension. Only applicable to Matrix based rules.</description>
+        <externalId>false</externalId>
+        <label>Dimension 1 Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension2ListValue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The list of values for the second dimension. Only applicable to List dimensions</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The list of values for the second dimension. Only applicable to List dimensions</inlineHelpText>
+        <label>Dimension 2 List Value</label>
+        <length>5000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension2Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value for the second dimension. Only applicable to Matrix based rules.</description>
+        <externalId>false</externalId>
+        <label>Dimension 2 Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension3ListValue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The list of values for the third dimension. Only applicable to List dimensions</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The list of values for the third dimension. Only applicable to List dimensions</inlineHelpText>
+        <label>Dimension 3 List Value</label>
+        <length>5000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension3Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value for the third dimension</description>
+        <externalId>false</externalId>
+        <label>Dimension 3 Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension4ListValue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The list of values for the fourth dimension. Only applicable to List dimensions</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The list of values for the fourth dimension. Only applicable to List dimensions</inlineHelpText>
+        <label>Dimension 4 List Value</label>
+        <length>5000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension4Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value for the fourth dimension. Only applicable to Matrix based rules.</description>
+        <externalId>false</externalId>
+        <label>Dimension 4 Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension5ListValue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The list of values for the fifth dimension. Only applicable to List dimensions</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The list of values for the fifth dimension. Only applicable to List dimensions</inlineHelpText>
+        <label>Dimension 5 List Value</label>
+        <length>5000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension5Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value for the fifth dimension. Only applicable to Matrix based rules.</description>
+        <externalId>false</externalId>
+        <label>Dimension 5 Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension6ListValue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The list of values for the sixth dimension. Only applicable to List dimensions</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The list of values for the sixth dimension. Only applicable to List dimensions</inlineHelpText>
+        <label>Dimension 6 List Value</label>
+        <length>5000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Dimension6Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value for the sixth dimension. Only applicable to Matrix based rules.</description>
+        <externalId>false</externalId>
+        <label>Dimension 6 Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__EndFactor__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The end factor for a weighted range.</description>
+        <externalId>false</externalId>
+        <label>End Factor</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__InclusionMethod__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The inclusion rule method. Only applicable to Inclusion based rules.</description>
+        <externalId>false</externalId>
+        <label>Inclusion Method</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Any Product</fullName>
+                    <default>false</default>
+                    <label>Any Product</label>
+                </value>
+                <value>
+                    <fullName>All Products</fullName>
+                    <default>false</default>
+                    <label>All Products</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__LoyaltyLevel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Describes the loyalty level applied when conditions are met.</description>
+        <externalId>false</externalId>
+        <label>Loyalty Level</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MatchInAsset__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether to match products in Assets. Only applicable to Inclusion based rules.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether to match products in Assets. Only applicable to Inclusion based rules.</inlineHelpText>
+        <label>Match In Asset</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MatchProductGroupId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the product group to match. Only applicable to Inclusion based rules.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the product group to match. Only applicable to Inclusion based rules.</inlineHelpText>
+        <label>Match Product Group</label>
+        <referenceTo>Apttus_Config2__ProductGroup__c</referenceTo>
+        <relationshipLabel>Price Rule Entries (Match)</relationshipLabel>
+        <relationshipName>MatchPriceRuleEntries</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MaxProducts__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The maximum number of products that may be selected for the rule to apply. Only applicable to Volume based rules.</description>
+        <externalId>false</externalId>
+        <label>Max Products</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MaxQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The maximum quantity of products that may be selected for the rule to apply. Only applicable to Volume based rules.</description>
+        <externalId>false</externalId>
+        <label>Max Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MinProducts__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The minimum number of products that must be selected for the rule to apply. Only applicable to Volume based rules.</description>
+        <externalId>false</externalId>
+        <label>Min Products</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__MinQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The minimum quantity of products that must be selected for the rule to apply. Only applicable to Volume based rules.</description>
+        <externalId>false</externalId>
+        <label>Min Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PeriodEndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The period end date. The entry becomes ineffective after this date.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The period end date. The entry becomes ineffective after this date.</inlineHelpText>
+        <label>End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PeriodStartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The period start date. The entry becomes effective on this date.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The period start date. The entry becomes effective on this date.</inlineHelpText>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PriceOverride__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price override</description>
+        <externalId>false</externalId>
+        <label>Price Override</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PriceRuleId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the associated rule</description>
+        <externalId>false</externalId>
+        <label>Price Rule</label>
+        <referenceTo>Apttus_Config2__PriceRule__c</referenceTo>
+        <relationshipLabel>Entries</relationshipLabel>
+        <relationshipName>RuleEntries</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductCategory__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The product category associated with the rule. Only applicable to Volume based rules.</description>
+        <externalId>false</externalId>
+        <label>Product Category</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductFamilies__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The list of product families associated with the entry</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The list of product families associated with the entry</inlineHelpText>
+        <label>Product Families</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All</fullName>
+                    <default>false</default>
+                    <label>All</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductFamily__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The product family associated with the rule. Only applicable to Volume based rules.</description>
+        <externalId>false</externalId>
+        <label>Product Family</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductGroupId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the product group associated with the rule. Only applicable to Volume or Inclusion based rules.</description>
+        <externalId>false</externalId>
+        <label>Product Group</label>
+        <referenceTo>Apttus_Config2__ProductGroup__c</referenceTo>
+        <relationshipLabel>Price Rule Entries</relationshipLabel>
+        <relationshipName>PriceRuleEntries</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductGroups__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The list of product groups associated with the entry</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The list of product groups associated with the entry</inlineHelpText>
+        <label>Product Groups</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All</fullName>
+                    <default>false</default>
+                    <label>All</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ProductsOper__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The products criteria operator</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The products criteria operator</inlineHelpText>
+        <label>Products Oper</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>in</fullName>
+                    <default>false</default>
+                    <label>in</label>
+                </value>
+                <value>
+                    <fullName>all</fullName>
+                    <default>false</default>
+                    <label>all</label>
+                </value>
+                <value>
+                    <fullName>any</fullName>
+                    <default>false</default>
+                    <label>any</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Products__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The list of products associated with the entry</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The list of products associated with the entry</inlineHelpText>
+        <label>Products</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All</fullName>
+                    <default>false</default>
+                    <label>All</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Quantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The quantity associated with the rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The quantity associated with the rule</inlineHelpText>
+        <label>Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Sequence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rule entry sequence</description>
+        <externalId>false</externalId>
+        <label>Sequence</label>
+        <precision>5</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__StartFactor__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The start factor for a weighted range.</description>
+        <externalId>false</externalId>
+        <label>Start Factor</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__TermPeriodStart__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The term period start indicator</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The term period start indicator</inlineHelpText>
+        <label>Term Period Start</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>At Begin Of Term</fullName>
+                    <default>false</default>
+                    <label>At Begin Of Term</label>
+                </value>
+                <value>
+                    <fullName>At End Of Term</fullName>
+                    <default>false</default>
+                    <label>At End Of Term</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Term__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The term associated with the rule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The term associated with the rule</inlineHelpText>
+        <label>Term</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Price Rule Entry</label>
+    <nameField>
+        <displayFormat>RE-{0000000000}</displayFormat>
+        <label>Rule Entry Id</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Price Rule Entries</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Sequence__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__PriceRuleId__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Dimension1Value__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Dimension2Value__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Dimension3Value__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Dimension4Value__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__Condition__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__AdjustmentAmount__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus_Config2__AdjustmentType__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__Sequence__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__PriceRuleId__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__Dimension1Value__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__Dimension2Value__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__Dimension3Value__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__Dimension4Value__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__Condition__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__AdjustmentAmount__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus_Config2__AdjustmentType__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>Apttus_Config2__PriceRuleId__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__AdjustmentAmount__c</searchFilterFields>
+        <searchFilterFields>Apttus_Config2__AdjustmentType__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

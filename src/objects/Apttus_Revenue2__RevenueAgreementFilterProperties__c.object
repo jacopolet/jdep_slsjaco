@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Revenue Agreement Filter Properties. The record should be named as &quot;System Properties&quot;.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Apttus_Revenue2__ConsoleRevSummaryCount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Stores the Rev Summary count, which need to be populated in Revenue console</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Stores the Rev Summary count, which need to be populated in Revenue console</inlineHelpText>
+        <label>Console Rev Summary Count</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Field10Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the 10th field to present to the user</description>
+        <externalId>false</externalId>
+        <label>Field 10 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Field1Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the 1st field to present to the user</description>
+        <externalId>false</externalId>
+        <label>Field 1 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Field2Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the 2nd field to present to the user</description>
+        <externalId>false</externalId>
+        <label>Field 2 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Field3Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the 3rd field to present to the user</description>
+        <externalId>false</externalId>
+        <label>Field 3 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Field4Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the 4th field to present to the user</description>
+        <externalId>false</externalId>
+        <label>Field 4 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Field5Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the 5th field to present to the user</description>
+        <externalId>false</externalId>
+        <label>Field 5 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Field6Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the 6th field to present to the user</description>
+        <externalId>false</externalId>
+        <label>Field 6 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Field7Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the 7th field to present to the user.</description>
+        <externalId>false</externalId>
+        <label>Field 7 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Field8Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the 8th field to present to the user.</description>
+        <externalId>false</externalId>
+        <label>Field 8 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__Field9Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the 9th field to present to the user.</description>
+        <externalId>false</externalId>
+        <label>Field 9 Label</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__IsField10Enabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If true the 10th field is to be presented to the user otherwise the field will be hidden.</description>
+        <externalId>false</externalId>
+        <label>Field 10 Enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__IsField1Enabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If true the 1st field is to be presented to the user otherwise the field will be hidden.</description>
+        <externalId>false</externalId>
+        <label>Field 1 Enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__IsField2Enabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If true the 2nd field is to be presented to the user otherwise the field will be hidden.</description>
+        <externalId>false</externalId>
+        <label>Field 2 Enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__IsField3Enabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If true the 3rd field is to be presented to the user otherwise the field will be hidden.</description>
+        <externalId>false</externalId>
+        <label>Field 3 Enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__IsField4Enabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If true the 4th field is to be presented to the user otherwise the field will be hidden.</description>
+        <externalId>false</externalId>
+        <label>Field 4 Enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__IsField5Enabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If true the 5th field is to be presented to the user otherwise the field will be hidden.</description>
+        <externalId>false</externalId>
+        <label>Field 5 Enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__IsField6Enabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If true the 6th field is to be presented to the user otherwise the field will be hidden.</description>
+        <externalId>false</externalId>
+        <label>Field 6 Enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__IsField7Enabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If true the 7th field is to be presented to the user otherwise the field will be hidden.</description>
+        <externalId>false</externalId>
+        <label>Field 7 Enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__IsField8Enabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If true the 8th field is to be presented to the user otherwise the field will be hidden.</description>
+        <externalId>false</externalId>
+        <label>Field 8 Enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Revenue2__IsField9Enabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If true the 9th field is to be presented to the user otherwise the field will be hidden.</description>
+        <externalId>false</externalId>
+        <label>Field 9 Enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Revenue Agreement Filter Properties</label>
+    <visibility>Public</visibility>
+</CustomObject>

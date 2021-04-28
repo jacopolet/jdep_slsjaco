@@ -1,0 +1,1467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>A detailed report about a company.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>appsolutely__Beneficiary_Owners_City__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Owner city.</description>
+        <externalId>false</externalId>
+        <label>Beneficiary Owners City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Beneficiary_Owners_Country__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Owner country.</description>
+        <externalId>false</externalId>
+        <label>Beneficiary Owners Country</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Beneficiary_Owners_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Owner Name.</description>
+        <externalId>false</externalId>
+        <label>Beneficiary Owners Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Beneficiary_Owners_Postal_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Owner postal code.</description>
+        <externalId>false</externalId>
+        <label>Beneficiary Owners Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Beneficiary_Owners_Share_Percent__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The percentage of shares owned.</description>
+        <externalId>false</externalId>
+        <label>Beneficiary Owners Share Percent</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Branch_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The branch number.</description>
+        <externalId>false</externalId>
+        <label>Branch Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Business_Dossier__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>[DEPRECATED] Use the lookup from Business Dossier to Creditsafe Company Report instead.</description>
+        <externalId>false</externalId>
+        <label>Business Dossier</label>
+        <referenceTo>appsolutely__Business_Dossier__c</referenceTo>
+        <relationshipLabel>Creditsafe Company Reports</relationshipLabel>
+        <relationshipName>Creditsafe_Company_Reports</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Business_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The trading name of business.</description>
+        <externalId>false</externalId>
+        <label>Business Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Business_Purpose__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A text description of the companies business purpose in German language.</description>
+        <externalId>false</externalId>
+        <label>Business Purpose</label>
+        <length>30000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Commercial_Register_City__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The city in which the company is registered.</description>
+        <externalId>false</externalId>
+        <label>Commercial Register City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Commercial_Register_Zip__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The postal code in which the company is registered.</description>
+        <externalId>false</externalId>
+        <label>Commercial Register Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Company_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Company’s Id.</description>
+        <externalId>true</externalId>
+        <label>Company Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Company_Registration_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Official registration number.</description>
+        <externalId>true</externalId>
+        <label>Company Registration Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Company_Status_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The description of the status.</description>
+        <externalId>false</externalId>
+        <label>Company Status Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Company_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The status of the company.</description>
+        <externalId>false</externalId>
+        <label>Company Status</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Company_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This indicates if the company is a branch or headquarter.</description>
+        <externalId>false</externalId>
+        <label>Company Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Complementary_Company__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Details the complementary company.</description>
+        <externalId>false</externalId>
+        <label>Complementary Company</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Country__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Country where the company is registered.</description>
+        <externalId>false</externalId>
+        <label>Country</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Credit_Rating_Common_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Description of the credit score.</description>
+        <externalId>false</externalId>
+        <label>Credit Rating Description</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Credit_Rating_Common_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Value of the credit score.</description>
+        <externalId>false</externalId>
+        <label>Credit Rating Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Credit_Rating_Limit__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Amount of advisable credit.</description>
+        <externalId>false</externalId>
+        <label>Credit Rating Limit</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Credit_Rating_Provider_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Provider description.</description>
+        <externalId>false</externalId>
+        <label>Credit Rating Provider Description</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Credit_Rating_Provider_Value_Max__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Max value.</description>
+        <externalId>false</externalId>
+        <label>Maximum Value Credit Rating Provider</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Credit_Rating_Provider_Value_Min__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Min value.</description>
+        <externalId>false</externalId>
+        <label>Minimal Value Credit Rating Provider</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Credit_Rating_Provider_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Value.</description>
+        <externalId>false</externalId>
+        <label>Credit Rating Provider Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Current_CR_Common_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Description of the credit rating score.</description>
+        <externalId>false</externalId>
+        <label>Current Credit Rating Description</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Current_CR_Common_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Value of the credit score.</description>
+        <externalId>false</externalId>
+        <label>Current Credit Rating Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Current_CR_Limit__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Amount of advisable credit.</description>
+        <externalId>false</externalId>
+        <label>Current Credit Rating Limit</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Current_CR_Provider_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Provider description.</description>
+        <externalId>false</externalId>
+        <label>Current Provider Description</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Current_CR_Provider_Value_Max__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Max value.</description>
+        <externalId>false</externalId>
+        <label>Maximum Current Provider Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Current_CR_Provider_Value_Min__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Min value.</description>
+        <externalId>false</externalId>
+        <label>Minimal Current Provider Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Current_CR_Provider_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Value.</description>
+        <externalId>false</externalId>
+        <label>Current Provider Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Current_Rating_Max_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Max value.</description>
+        <externalId>false</externalId>
+        <label>Current Rating Maximum Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Current_Rating_Min_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Min value</description>
+        <externalId>false</externalId>
+        <label>Current Rating Minimal Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Current_Rating_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Value</description>
+        <externalId>false</externalId>
+        <label>Current Rating Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__DE_Negative_Rating__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The negative credit rating if it exists for a company.</description>
+        <externalId>false</externalId>
+        <label>DE Negative Rating</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Date_Of_Cessation_Trading__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Date when the company has stopped trading.</description>
+        <externalId>false</externalId>
+        <label>Date Of Cessation Trading</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Date_Of_Insolvency__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Date of insolvency application.</description>
+        <externalId>false</externalId>
+        <label>Date Of Insolvency</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Date_Of_Legal_Form__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date the company changed its legal form.</description>
+        <externalId>false</externalId>
+        <label>Date Of Legal Form</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Dateof_Company_Registration__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date the company was registered.</description>
+        <externalId>false</externalId>
+        <label>Date of Company Registration</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Dateof_Starting_Operations__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date the company began trading.</description>
+        <externalId>false</externalId>
+        <label>Date of Starting Operations</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Day_Sales_Outstanding_Lower__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The lower value for the company ranked 1/4 divided by industry code.</description>
+        <externalId>false</externalId>
+        <label>Day Sales Outstanding Lower</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Day_Sales_Outstanding_Median__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The middle value of the estimated number of days taken to pay the business.</description>
+        <externalId>false</externalId>
+        <label>Day Sales Outstanding Median</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Day_Sales_Outstanding_Upper__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The higher value for the company ranked 3/4 divided by industry code.</description>
+        <externalId>false</externalId>
+        <label>Day Sales Outstanding Upper</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Day_Sales_Outstanding__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The estimated number of days taken to pay the business.</description>
+        <externalId>false</externalId>
+        <label>Day Sales Outstanding</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Exporter__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates if a company exports into foreign countries.</description>
+        <externalId>false</externalId>
+        <label>Exporter</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Fax_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Fax number of the business.</description>
+        <externalId>false</externalId>
+        <label>Fax Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Financials_Quality__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The quality standard of the accounts data.</description>
+        <externalId>false</externalId>
+        <label>Financials Quality</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Has_Bankruptcy__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates if there is bankruptcy information for the company.</description>
+        <externalId>false</externalId>
+        <label>Has Bankruptcy</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Image_Account_Document_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The document type.</description>
+        <externalId>false</externalId>
+        <label>Image Account Document Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Image_Account_End_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Financial statement date end.</description>
+        <externalId>false</externalId>
+        <label>Image Account End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Image_Account_Financials_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The financials type.  Is one of: 0 = Individual, 1 = Consolidated.</description>
+        <externalId>false</externalId>
+        <label>Image Account Financials Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Image_Account_Published_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Financial statement date published at German „Bundesanzeiger”.</description>
+        <externalId>false</externalId>
+        <label>Image Account Published Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Image_Account_Serial_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The identification number of the image document.</description>
+        <externalId>true</externalId>
+        <label>Image Account Serial Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Image_Account_Start_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Financial statement date start.</description>
+        <externalId>false</externalId>
+        <label>Image Account Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Importer__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates if a company imports from foreign countries.</description>
+        <externalId>false</externalId>
+        <label>Importer</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Industry_Average_Credit_Limit__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The average credit limit for the company’s activity code.</description>
+        <externalId>false</externalId>
+        <label>Industry Average Credit Limit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Industry_Average_Credit_Rating__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The average credit rating for the company’s activity code.</description>
+        <externalId>false</externalId>
+        <label>Industry Average Credit Rating</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Industry_Average_Day_Sales_Outstanding__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of days it takes this company to collect their debts.</description>
+        <externalId>false</externalId>
+        <label>Industry Average Day Sales Outstanding</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Industry_Average_Payment_Expectation_Day__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This is the guideline expectations, based upon our analysis, as to this company’s payment behaviour.</description>
+        <externalId>false</externalId>
+        <label>Industry Average Payment Expectation Day</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Issued_Share_Capital__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This is the issued and paid share capital from shareholders.</description>
+        <externalId>false</externalId>
+        <label>Issued Share Capital</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Language__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ISO 639-1 notation language that the report is returned in.</description>
+        <externalId>false</externalId>
+        <label>Language</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Latest_Shareholders_Equity_Figure__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total of Called up Share Capital, Revenue Reserves, Share Premium and Other Reserves.</description>
+        <externalId>false</externalId>
+        <label>Latest Shareholders Equity Figure</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Latest_Turnover_Figure__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Latest value for the previous year’s Net Sales.</description>
+        <externalId>false</externalId>
+        <label>Latest Turnover Figure</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Legal_Form_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Description code.</description>
+        <externalId>false</externalId>
+        <label>Legal Form Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Legal_Form_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Legal Form Description</description>
+        <externalId>false</externalId>
+        <label>Legal Form Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Legal_Form_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Value.</description>
+        <externalId>false</externalId>
+        <label>Legal Form Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Main_Activity_Classification__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Activity classification.</description>
+        <externalId>false</externalId>
+        <label>Main Activity Classification</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Main_Activity_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Activity code of the company, and is used to identify the sector.</description>
+        <externalId>false</externalId>
+        <label>Main Activity Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Main_Activity_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Activity description relating to the activity code.</description>
+        <externalId>false</externalId>
+        <label>Main Activity Description</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Miscellaneous_Turnover_Range__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A banding that gives an estimation of the company’s turnover.</description>
+        <externalId>false</externalId>
+        <label>Miscellaneous Turnover Range</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__NL_Negative_Rating__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The negative credit rating if it exists for a NL company.</description>
+        <externalId>false</externalId>
+        <label>NL Negative Rating</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Nominal_Share_Capital__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The maximum amount of share capital the company is authorised by its constitutional documents to issue to shareholders.</description>
+        <externalId>false</externalId>
+        <label>Nominal Share Capital</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Number reserved for future use with the Creditsafe Global number.</description>
+        <externalId>false</externalId>
+        <label>Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Order_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Unique Creditsafe identifier for this specific order request.</description>
+        <externalId>false</externalId>
+        <label>Order Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Payment_Expectation_Days_Lower__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The lower value for the company ranked 1/4 divided by industry code.</description>
+        <externalId>false</externalId>
+        <label>Payment Expectation Days Lower</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Payment_Expectation_Days_Median__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The middle value of the estimated number of days taken to pay the business.</description>
+        <externalId>false</externalId>
+        <label>Payment Expectation Days Median</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Payment_Expectation_Days_Upper__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The higher value for the company ranked 3/4 divided by industry code.</description>
+        <externalId>false</externalId>
+        <label>Payment Expectation Days Upper</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Payment_Expectation_Days__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The estimated number of days until payment from the business.</description>
+        <externalId>false</externalId>
+        <label>Payment Expectation Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Premise_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The type of premises this business is run from for example house or office ect.</description>
+        <externalId>false</externalId>
+        <label>Premise Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Previous_CR_Common_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Description of the credit score.</description>
+        <externalId>false</externalId>
+        <label>Previous Credit Rating Description</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Previous_CR_Common_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Value of the credit score.</description>
+        <externalId>false</externalId>
+        <label>Previous Credit Rating Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Previous_CR_Limit__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Amount of advisable credit.</description>
+        <externalId>false</externalId>
+        <label>Previous Credit Rating Limit</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Previous_CR_Provider_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Provider description.</description>
+        <externalId>false</externalId>
+        <label>Previous Provider Description</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Previous_CR_Provider_Value_Max__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Max value.</description>
+        <externalId>false</externalId>
+        <label>Previous Provider Maximum Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Previous_CR_Provider_Value_Min__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Min value.</description>
+        <externalId>false</externalId>
+        <label>Previous Provider Minimal Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Previous_CR_Provider_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Value.</description>
+        <externalId>false</externalId>
+        <label>Previous Provider Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Previous_Rating_Max_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Max Value</description>
+        <externalId>false</externalId>
+        <label>Previous Rating Maximum Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Previous_Rating_Min_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Min value</description>
+        <externalId>false</externalId>
+        <label>Previous Rating Minimum Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Previous_Rating_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Value</description>
+        <externalId>false</externalId>
+        <label>Previous Rating Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Principal_Activity_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Code</description>
+        <externalId>false</externalId>
+        <label>Principal Activity Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Principal_Activity_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Description</description>
+        <externalId>false</externalId>
+        <label>Principal Activity Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Principal_Activity_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Value.</description>
+        <externalId>false</externalId>
+        <label>Principal Activity Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Registered_Company_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Registered company name.</description>
+        <externalId>false</externalId>
+        <label>Registered Company Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Rsin_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Legal Entities and Partnerships Information Number.</description>
+        <externalId>true</externalId>
+        <label>Rsin Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Small_Office__c</fullName>
+        <deprecated>false</deprecated>
+        <description>(Small office/Home Company) This signifies if a business is trading from a consumers address.  0 = No, 1 = Yes, NULL = no data available.</description>
+        <externalId>false</externalId>
+        <label>Small Office</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Suspension_Of_Payments_Mora__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates if the company has a suspensions of payments.</description>
+        <externalId>false</externalId>
+        <label>Suspension Of Payments Mora</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Trustee_City__c</fullName>
+        <deprecated>false</deprecated>
+        <description>City where trustee is located.</description>
+        <externalId>false</externalId>
+        <label>Trustee City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Trustee_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name and ZIP code of trustee.</description>
+        <externalId>false</externalId>
+        <label>Trustee Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Trustee_Email_Address__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Email address of the trustee.</description>
+        <externalId>false</externalId>
+        <label>Trustee Email Address</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Trustee_Fax_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Fax number trustee.</description>
+        <externalId>false</externalId>
+        <label>Trustee Fax Number</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Trustee_First_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>First name trustee.</description>
+        <externalId>false</externalId>
+        <label>Trustee First Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Trustee_Last_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Last name trustee.</description>
+        <externalId>false</externalId>
+        <label>Trustee Last Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Trustee_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of the trustee in charge of the insolvency.</description>
+        <externalId>false</externalId>
+        <label>Trustee Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Trustee_Telephone_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Phone number trustee.</description>
+        <externalId>false</externalId>
+        <label>Trustee Telephone Number</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Trustee_Title__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Title trustee.</description>
+        <externalId>false</externalId>
+        <label>Trustee Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Turnover_Range_Year__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Turnover year.</description>
+        <externalId>false</externalId>
+        <label>Turnover Range Year</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__Turnover_Ranges__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Turnover range.</description>
+        <externalId>false</externalId>
+        <label>Turnover Ranges</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>appsolutely__VAT_Registration_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Local VAT Number.</description>
+        <externalId>true</externalId>
+        <label>VAT Registration Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Creditsafe Company Report</label>
+    <nameField>
+        <displayFormat>{00000000}</displayFormat>
+        <label>Creditsafe Company Report Full Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Creditsafe Company Reports</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

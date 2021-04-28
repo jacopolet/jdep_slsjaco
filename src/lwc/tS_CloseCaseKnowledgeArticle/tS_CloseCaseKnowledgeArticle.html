@@ -1,0 +1,278 @@
+<template>
+        <lightning:card class = "caseCloseCard">
+
+                <div if:true={renderSpinner} class="slds-is-relative">
+                        <lightning-spinner alternative-text="Loading..." size = "medium"></lightning-spinner>
+                </div>
+                
+                <!-- START FIELD SERVICE RENDERING -->
+                <template if:true={renderFieldService}>
+                                        
+                <div class="slds-grid slds-wrap slds-gutters  slds-m-bottom_none slds-m-top_none">
+                        <div class="slds-col slds-size_1-of-2">  
+                                 <lightning-combobox label="Completion Code"
+                                                        name="completionCode"
+                                                        onchange={handleFieldChange} 
+                                                        options={completionCodeValues} 
+                                                        placeholder="--None--" 
+                                                        value={completionCode}
+                                                        disabled={completionCodeDisabled}
+                                                        >
+                                </lightning-combobox><br/>
+                                    
+                        </div>
+                        <div class="slds-col slds-size_1-of-2">
+                                <lightning-combobox disabled    label="Status" 
+                                                                name="status"
+                                                                options={statusValues} 
+                                                                placeholder="Closed" 
+                                                                value="Closed"
+                                                                >
+                                </lightning-combobox><br/>
+                        </div>
+                        <br/>
+                        <div class="slds-col slds-size_1-of-2">
+                                <abbr title="required" class="slds-required">*</abbr>
+                                <label>Fault Location Category</label>                                
+                                <lightning-combobox label="Fault Location Category" 
+                                                            name="faultLocationCategory" 
+                                                            onchange={handleFaultLocationCategoryChange} 
+                                                            options={controllingValuesFaultLoc} 
+                                                            placeholder="--None--" 
+                                                            variant="label-hidden"
+                                                            value={faultLocationCategory}>
+                                </lightning-combobox><br/>
+                                        
+                        </div>       
+                        <div class="slds-col slds-size_1-of-2">
+                                        <abbr title="required" class="slds-required">*</abbr>
+                                        <label>Defect Code</label>
+                                        <lightning-combobox label="Defect Code" 
+                                                                name="defectCode"
+                                                                onchange={handleFieldChange} 
+                                                                options={defectCodeValues} 
+                                                                placeholder="--None--" 
+                                                                variant="label-hidden"
+                                                                value={defectCode}
+                                                                >
+                                        </lightning-combobox><br/>
+                        </div>
+                        <br/>
+                        <div class="slds-col slds-size_1-of-2">
+                                <abbr title="required" class="slds-required">*</abbr>
+                                <label>Fault Code</label>                                
+                                <lightning-combobox label="Fault Code" 
+                                                            name="faultCode"
+                                                            onchange={handleFieldChange} 
+                                                            options={dependentValuesFaultCode} 
+                                                            placeholder="--None--" 
+                                                            value={faultCode}
+                                                            variant="label-hidden"
+                                                            disabled={dependentDisabledFaultCode}
+                                                            >
+                                </lightning-combobox><br/>
+                        </div>
+                        <div class="slds-col slds-size_1-of-2">
+                                <lightning-textarea label="Internal Solution"
+                                                        name="internalSolutionFS"
+                                                        value={internalSolution}
+                                                        onchange={handleFieldChange}
+                                                        max-length="300">
+                                </lightning-textarea>
+                        </div>
+                        <br/>
+                
+                        <div class="slds-col slds-size_1-of-2">
+                                <abbr title="required" class="slds-required">*</abbr>
+                                <label>External Solution</label>
+                                <lightning-textarea label="External Solution"
+                                                        name="externalSolutionFS"
+                                                        value={externalSolution}
+                                                        onchange={handleFieldChange}
+                                                        variant="label-hidden"
+                                                        max-length="300">
+                                </lightning-textarea>
+                        </div>
+                        <div class="slds-col slds-size_1-of-2">
+                                <lightning-textarea label="Internal Comments"
+                                                        name="internalCommentsFS"
+                                                        value={internalComments}
+                                                        onchange={handleFieldChange}
+                                                        max-length="300">
+                                </lightning-textarea>
+
+                        </div>
+                        <div class="slds-col slds-size_1-of-1  slds-p-top_medium slds-align_absolute-center">
+                                        <lightning-button variant="brand" label="Close Case" onclick={updateCase}></lightning-button>
+                        </div>
+                </div>
+                </template>
+
+                <!-- START CUSTOMER CARE RENDERING -->
+                <template if:true={renderCustomerCare}>
+                                <div class="slds-grid slds-wrap slds-gutters  slds-m-bottom_none slds-m-top_none">
+                                                
+                                                <div class="slds-col slds-size_1-of-2">
+                                                        <lightning-combobox disabled    label="Status" 
+                                                                                        name="status"
+                                                                                        options={statusValues} 
+                                                                                        placeholder="Closed" 
+                                                                                        value="Closed"
+                                                                                        >
+                                                        </lightning-combobox><br/>
+                                                </div>
+                                                <div class="slds-col slds-size_1-of-2">
+                                                        <lightning-textarea label="Internal Solution"
+                                                                                name="internalSolutionCare"
+                                                                                value={internalSolution}
+                                                                                onchange={handleFieldChange}
+                                                                                max-length="300">
+                                                        </lightning-textarea>
+                                                </div>
+                                                <br/>
+                                        
+                                                <div class="slds-col slds-size_1-of-2">
+                                                        <abbr title="required" class="slds-required">*</abbr>
+                                                        <label>External Solution</label>
+                                                        <lightning-textarea label="External Solution"
+                                                                                name="externalSolutionCare"
+                                                                                value={externalSolution}
+                                                                                onchange={handleFieldChange}
+                                                                                variant="label-hidden"
+                                                                                max-length="300">
+                                                        </lightning-textarea>
+                                                </div>
+                                                <div class="slds-col slds-size_1-of-2">
+                                                        <lightning-textarea label="Internal Comments"
+                                                                                name="internalCommentsCare"
+                                                                                value={internalComments}
+                                                                                onchange={handleFieldChange}
+                                                                                max-length="300">
+                                                        </lightning-textarea>
+                        
+                                                </div>
+                                                <br>
+                                                <br>
+                                                <div class="slds-col slds-size_1-of-1  slds-p-top_medium slds-align_absolute-center">
+                                                                <lightning-button variant="brand" label="Close Case" onclick={updateCase}></lightning-button>
+                                                 </div>
+                                        </div>
+
+                </template>
+                
+                <!-- START COMPLAINT RENDERING -->
+                <template if:true={renderComplaint}>
+                                <div class="slds-grid slds-wrap slds-gutters slds-m-bottom_none slds-m-top_none">
+                                                <div class="slds-col slds-size_1-of-2">
+                                                         <lightning-combobox disabled   label="Status" 
+                                                                                        name="status"
+                                                                                        options={statusValues} 
+                                                                                        placeholder="Closed" 
+                                                                                        value="Closed"
+                                                                                        >
+                                                        </lightning-combobox><br/>
+                                                </div>
+                                                <div class="slds-col slds-size_1-of-2">
+                                                        <lightning-combobox disabled    label="Type" 
+                                                                                        name="Type" 
+                                                                                        options={typeValues} 
+                                                                                        placeholder="Complaint" 
+                                                                                        value={complaintType}>
+                                                        </lightning-combobox><br/>
+                                                                
+                                                </div>    
+                                                <br>
+
+                                                <div class="slds-col slds-size_1-of-2">
+                                                        <abbr title="required" class="slds-required">*</abbr>
+                                                        <label>Reason (Level 1)</label>
+                                                        <lightning-combobox label="Reason (Level 1)" 
+                                                                                name="reason1"
+                                                                                onchange={handleReason1Change} 
+                                                                                options={controllingValuesReason1} 
+                                                                                placeholder="--None--" 
+                                                                                variant="label-hidden"
+                                                                                value={reason1}
+                                                                                        >
+                                                        </lightning-combobox><br/>
+                                                </div>
+                                                <div class="slds-col slds-size_1-of-2">
+                                                                <lightning-combobox label="Reason (Level 2)" 
+                                                                                        name="reason2"
+                                                                                        onchange={handleFieldChange} 
+                                                                                        options={dependentValuesReason2} 
+                                                                                        placeholder="--None--" 
+                                                                                        value={reason2}
+                                                                                        disabled={dependentDisabledReason2}
+                                                                                        >
+                                                                </lightning-combobox><br/>
+                                                </div>
+                                                <br/>
+
+                                                <div class="slds-col slds-size_1-of-2">
+                                                                <abbr title="required" class="slds-required">*</abbr>
+                                                                <label>Solution Type</label>                                                                
+                                                                <lightning-combobox label="Solution Type" 
+                                                                                        name="solutionType"
+                                                                                        onchange={handleFieldChange} 
+                                                                                        options={solutionTypeValues} 
+                                                                                        placeholder="--None--" 
+                                                                                        variant="label-hidden"
+                                                                                        value={solutionType}
+                                                                                        >
+                                                                </lightning-combobox><br/>
+                                                </div>
+                                                <div class="slds-col slds-size_1-of-2">
+                                                        
+                                                </div>
+                                                <br/>
+
+                                                <div class="slds-col slds-size_1-of-2">
+                                                                <lightning-textarea label="Internal Solution"
+                                                                                        name="internalSolutionComp"
+                                                                                        value={internalSolution}
+                                                                                        onchange={handleFieldChange}
+                                                                                        max-length="300">
+                                                                </lightning-textarea>
+                                                        </div>
+                                                        <div class="slds-col slds-size_1-of-2">
+                                                                <lightning-textarea label="Root Cause Solution"
+                                                                                        name="rootCauseSolution"
+                                                                                        value={rootCauseSolution}
+                                                                                        onchange={handleFieldChange}
+                                                                                        max-length="300">
+                                                                </lightning-textarea>
+                                
+                                                        </div>
+                                                <br>
+                                        
+                                                <div class="slds-col slds-size_1-of-2">
+                                                        <abbr title="required" class="slds-required">*</abbr>
+                                                        <label>External Solution</label>
+                                                        <lightning-textarea label="External Solution"
+                                                                                name="externalSolutionComp"
+                                                                                value={externalSolution}
+                                                                                onchange={handleFieldChange}
+                                                                                variant="label-hidden"
+                                                                                max-length="300">
+                                                        </lightning-textarea>
+                                                </div>
+                                                <div class="slds-col slds-size_1-of-2">
+                                                        <lightning-textarea label="Internal Comments"
+                                                                                name="internalCommentsComp"
+                                                                                value={internalComments}
+                                                                                onchange={handleFieldChange}
+                                                                                max-length="300">
+                                                        </lightning-textarea>
+                        
+                                                </div>
+                                                <div class="slds-col slds-size_1-of-1  slds-p-top_medium slds-align_absolute-center">
+                                                        <lightning-button variant="brand" label="Close Case" onclick={updateCase}></lightning-button>
+                                                </div>
+
+                                        </div>
+                </template>
+        
+                
+        </lightning:card>
+</template>

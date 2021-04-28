@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>Coaching_Card_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Coaching_Card_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Coaching_Date__c</fields>
+        <fields>OwnerId</fields>
+        <fields>Average_Score__c</fields>
+        <label>Coaching Card Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>A_Actively_Evaluate_Numeric__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(ISPICKVAL(A_Actively_Evaluate__c,&quot;Not Rated&quot;), null, VALUE(TEXT(A_Actively_Evaluate__c)))</formula>
+        <label>A - Actively Evaluate #</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>A_Actively_Evaluate_Value__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(  A_Actively_Evaluate__c ,
+&quot;1&quot;, IMAGE(&apos;/resource/CC_1_Star&apos;, &quot;1 Cup&quot; , 49, -1 ),
+&quot;2&quot;, IMAGE(&apos;/resource/CC_2_Star&apos;, &quot;2 Cup&quot; , 49, -1 ),
+&quot;3&quot;, IMAGE(&apos;/resource/CC_3_Star&apos;, &quot;3 Cup&quot; , 49, -1 ),
+&quot;4&quot;, IMAGE(&apos;/resource/CC_4_Star&apos;, &quot;4 Cup&quot; , 49, -1 ),
+&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>A - Actively Evaluate</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>A_Actively_Evaluate__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>- Spent time identifying what went well and what could&apos;ve gone differently?
+- Reviewed the commercial value of the visit for JDE?</inlineHelpText>
+        <label>A - Actively Evaluate</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>BARISTA_Values</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>A_Ask_Questions_Numeric__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(ISPICKVAL(A_Ask_Questions__c,&quot;Not Rated&quot;), null, VALUE(TEXT(A_Ask_Questions__c)))</formula>
+        <label>A - Ask Questions #</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>A_Ask_Questions_Value__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(  A_Ask_Questions__c ,
+&quot;1&quot;, IMAGE(&apos;/resource/CC_1_Star&apos;, &quot;1 Cup&quot; , 49, -1 ),
+&quot;2&quot;, IMAGE(&apos;/resource/CC_2_Star&apos;, &quot;2 Cup&quot; , 49, -1 ),
+&quot;3&quot;, IMAGE(&apos;/resource/CC_3_Star&apos;, &quot;3 Cup&quot; , 49, -1 ),
+&quot;4&quot;, IMAGE(&apos;/resource/CC_4_Star&apos;, &quot;4 Cup&quot; , 49, -1 ),
+&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>A - Ask Questions</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>A_Ask_Questions__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Has the associate…
+
+- Utilised a range of question types
+- Selected the appropriate question type for the situation?
+- Used a logical flow of questions?
+- Avoided duplicative/confusing questions?
+- Used precise language</inlineHelpText>
+        <label>A - Ask Questions</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>BARISTA_Values</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Coaching Cards</relationshipLabel>
+        <relationshipName>Coaching_Cards</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Associate_Feedback__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Here the associate can provide his own feedback based on the Coaching Card</inlineHelpText>
+        <label>Associate&apos;s Feedback</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Associate_Role__c</fullName>
+        <externalId>false</externalId>
+        <formula>Associate__r.UserRole.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>The Role Name of the Associate</inlineHelpText>
+        <label>Associate Role</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Associate__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Associate</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Coaching_Cards</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Average_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>(
+IF ( ISPICKVAL(B_Be_Prepared__c, &apos;Not Rated&apos;) , 0, VALUE(TEXT(B_Be_Prepared__c))) +
+IF ( ISPICKVAL(A_Ask_Questions__c, &apos;Not Rated&apos;) , 0, VALUE(TEXT(A_Ask_Questions__c))) +
+IF ( ISPICKVAL(R_Recap_and_Reconfirm__c, &apos;Not Rated&apos;) , 0, VALUE(TEXT(R_Recap_and_Reconfirm__c))) +
+IF ( ISPICKVAL(I_Introduce_the_Concept__c, &apos;Not Rated&apos;) , 0, VALUE(TEXT(I_Introduce_the_Concept__c))) +
+IF ( ISPICKVAL(S_Seal_The_Deal__c, &apos;Not Rated&apos;) , 0, VALUE(TEXT(S_Seal_The_Deal__c))) +
+IF ( ISPICKVAL(A_Actively_Evaluate__c, &apos;Not Rated&apos;) , 0, VALUE(TEXT(A_Actively_Evaluate__c))) +
+IF ( ISPICKVAL(T_Take_Care_of_Execution__c, &apos;Not Rated&apos;) , 0, VALUE(TEXT(T_Take_Care_of_Execution__c)))
+)
+/
+(
+IF ( ISPICKVAL(B_Be_Prepared__c, &apos;Not Rated&apos;) , 0, 1) +
+IF ( ISPICKVAL(A_Ask_Questions__c, &apos;Not Rated&apos;) , 0, 1) +
+IF ( ISPICKVAL(R_Recap_and_Reconfirm__c, &apos;Not Rated&apos;) , 0, 1) +
+IF ( ISPICKVAL(I_Introduce_the_Concept__c, &apos;Not Rated&apos;) , 0, 1) +
+IF ( ISPICKVAL(S_Seal_The_Deal__c, &apos;Not Rated&apos;) , 0, 1) +
+IF ( ISPICKVAL(A_Actively_Evaluate__c, &apos;Not Rated&apos;) , 0, 1) +
+IF ( ISPICKVAL(T_Take_Care_of_Execution__c, &apos;Not Rated&apos;) , 0, 1)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Average Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>B_Be_Prepared_Numeric__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(ISPICKVAL(B_Be_Prepared__c,&quot;Not Rated&quot;), null, VALUE(TEXT(B_Be_Prepared__c)))</formula>
+        <label>B - Be Prepared #</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>B_Be_Prepared_Value__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE( B_Be_Prepared__c,
+&quot;1&quot;, IMAGE(&apos;/resource/CC_1_Star&apos;, &quot;1 Cup&quot; , 49, -1 ),
+&quot;2&quot;, IMAGE(&apos;/resource/CC_2_Star&apos;, &quot;2 Cup&quot; , 49, -1 ),
+&quot;3&quot;, IMAGE(&apos;/resource/CC_3_Star&apos;, &quot;3 Cup&quot; , 49, -1 ),
+&quot;4&quot;, IMAGE(&apos;/resource/CC_4_Star&apos;, &quot;4 Cup&quot; , 49, -1 ),
+&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>B - Be Prepared</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>B_Be_Prepared__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Has the associate…
+
+- Got the correct (and most appropriate) customer contact name? 
+- Used the customer website &amp; other data sources to anticipate customer goals?
+- Reviewed business history with JDE?
+- Reviewed open requests, issue or complaints</inlineHelpText>
+        <label>B - Be Prepared</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>BARISTA_Values</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Coaching_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Coaching Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Coaching Cards</relationshipLabel>
+        <relationshipName>Coaching_Cards</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Follows_Barista__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Does the associate follow BARISTA?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>I_Introduce_the_Concept_Numeric__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(ISPICKVAL(I_Introduce_the_Concept__c,&quot;Not Rated&quot;), null, VALUE(TEXT(I_Introduce_the_Concept__c)))</formula>
+        <label>I - Introduce the Concept #</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>I_Introduce_the_Concept_Value__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(  I_Introduce_the_Concept__c ,
+&quot;1&quot;, IMAGE(&apos;/resource/CC_1_Star&apos;, &quot;1 Cup&quot; , 49, -1 ),
+&quot;2&quot;, IMAGE(&apos;/resource/CC_2_Star&apos;, &quot;2 Cup&quot; , 49, -1 ),
+&quot;3&quot;, IMAGE(&apos;/resource/CC_3_Star&apos;, &quot;3 Cup&quot; , 49, -1 ),
+&quot;4&quot;, IMAGE(&apos;/resource/CC_4_Star&apos;, &quot;4 Cup&quot; , 49, -1 ),
+&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>I - Introduce the Concept</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>I_Introduce_the_Concept__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>- Used the Perfect Fit selling stories to choose the most appropriate concept?
+- Described the Full Solution wholistically (not just talked about ingredients or machines)?
+- Included a range of cross-sell items?
+- Remembered to include tea?</inlineHelpText>
+        <label>I - Introduce the Concept</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>BARISTA_Values</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Made_Progress__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Has the associate made progress</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Opportunities__c</fullName>
+        <externalId>false</externalId>
+        <label>Opportunities</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Power_of_One__c</fullName>
+        <externalId>false</externalId>
+        <formula>1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>COACHING CARD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>R_Recap_and_Reconfirm_Numeric__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(ISPICKVAL(R_Recap_and_Reconfirm__c,&quot;Not Rated&quot;), null, VALUE(TEXT(R_Recap_and_Reconfirm__c)))</formula>
+        <label>R - Recap and Reconfirm #</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>R_Recap_and_Reconfirm_Value__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(  R_Recap_and_Reconfirm__c ,
+&quot;1&quot;, IMAGE(&apos;/resource/CC_1_Star&apos;, &quot;1 Cup&quot; , 49, -1 ),
+&quot;2&quot;, IMAGE(&apos;/resource/CC_2_Star&apos;, &quot;2 Cup&quot; , 49, -1 ),
+&quot;3&quot;, IMAGE(&apos;/resource/CC_3_Star&apos;, &quot;3 Cup&quot; , 49, -1 ),
+&quot;4&quot;, IMAGE(&apos;/resource/CC_4_Star&apos;, &quot;4 Cup&quot; , 49, -1 ),
+&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>R - Recap and Reconfirm</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>R_Recap_and_Reconfirm__c</fullName>
+        <externalId>false</externalId>
+        <label>R - Recap and Reconfirm</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>BARISTA_Values</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>S_Seal_The_Deal_Numeric__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(ISPICKVAL(S_Seal_The_Deal__c,&quot;Not Rated&quot;), null, VALUE(TEXT(S_Seal_The_Deal__c)))</formula>
+        <label>S - Seal The Deal #</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_Seal_The_Deal_Value__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(  S_Seal_The_Deal__c ,
+&quot;1&quot;, IMAGE(&apos;/resource/CC_1_Star&apos;, &quot;1 Cup&quot; , 49, -1 ),
+&quot;2&quot;, IMAGE(&apos;/resource/CC_2_Star&apos;, &quot;2 Cup&quot; , 49, -1 ),
+&quot;3&quot;, IMAGE(&apos;/resource/CC_3_Star&apos;, &quot;3 Cup&quot; , 49, -1 ),
+&quot;4&quot;, IMAGE(&apos;/resource/CC_4_Star&apos;, &quot;4 Cup&quot; , 49, -1 ),
+&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>S - Seal The Deal</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>S_Seal_The_Deal__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>- Identified all key objections?
+- Presented counter arguments to objections?
+- Overcome resistance using strong communication skills?
+- Remained calm under pressure?
+- Used appropriate price / package / contract options to construct the deal?</inlineHelpText>
+        <label>S - Seal The Deal</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>BARISTA_Values</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sales_Organization__c</fullName>
+        <externalId>false</externalId>
+        <formula>Text(Associate__r.Sales_Organization__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Sales Organization of the Associate</inlineHelpText>
+        <label>Sales Organization</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Strengths__c</fullName>
+        <externalId>false</externalId>
+        <label>Strengths</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>T_Take_Care_of_Execution_Numeric__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(ISPICKVAL(T_Take_Care_of_Execution__c,&quot;Not Rated&quot;), null, VALUE(TEXT(T_Take_Care_of_Execution__c)))</formula>
+        <label>T - Take Care of Execution #</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>T_Take_Care_of_Execution_Value__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE( T_Take_Care_of_Execution__c  ,
+&quot;1&quot;, IMAGE(&apos;/resource/CC_1_Star&apos;, &quot;1 Cup&quot; , 49, -1 ),
+&quot;2&quot;, IMAGE(&apos;/resource/CC_2_Star&apos;, &quot;2 Cup&quot; , 49, -1 ),
+&quot;3&quot;, IMAGE(&apos;/resource/CC_3_Star&apos;, &quot;3 Cup&quot; , 49, -1 ),
+&quot;4&quot;, IMAGE(&apos;/resource/CC_4_Star&apos;, &quot;4 Cup&quot; , 49, -1 ),
+&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>T - Take Care of Execution</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>T_Take_Care_of_Execution__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>- Left the customer with a written proposal?
+- Made specific commitments on follow up actions?
+- Confirmed timelines for next steps?
+- Agreed the next visit date (in line with the contact strategy)?
+- Updated the CRM with all relevant information</inlineHelpText>
+        <label>T - Take Care of Execution</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>BARISTA_Values</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Used_IT_Tools_and_CRM__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Used IT Tools and CRM</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Coaching Card</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Associate__c</columns>
+        <columns>B_Be_Prepared__c</columns>
+        <columns>A_Ask_Questions__c</columns>
+        <columns>R_Recap_and_Reconfirm__c</columns>
+        <columns>I_Introduce_the_Concept__c</columns>
+        <columns>S_Seal_The_Deal__c</columns>
+        <columns>T_Take_Care_of_Execution__c</columns>
+        <columns>A_Actively_Evaluate__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Coaching Card Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Coaching Cards</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>PrintableListView</excludedStandardButtons>
+        <searchResultsAdditionalFields>Associate__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Account__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>B_Be_Prepared__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>A_Ask_Questions__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>R_Recap_and_Reconfirm__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>I_Introduce_the_Concept__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>S_Seal_The_Deal__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>T_Take_Care_of_Execution__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>A_Actively_Evaluate__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>OwnerIsAssociate</fullName>
+        <active>true</active>
+        <errorConditionFormula>$User.Id =  Associate__c</errorConditionFormula>
+        <errorDisplayField>Associate__c</errorDisplayField>
+        <errorMessage>Stop trying to coach yourself!</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

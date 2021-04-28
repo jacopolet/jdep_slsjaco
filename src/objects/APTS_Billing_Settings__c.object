@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Billing_Settings_Lightning_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>v2_Billing_Setting_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>v2_Billing_Setting_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>APTS_Agreement_Billing_Type__c</fields>
+        <fields>APTS_Bill_To_ID__c</fields>
+        <fields>APTS_Agreement_ID__c</fields>
+        <fields>APTS_Billing_Preference_Setting__c</fields>
+        <fields>APTS_Billing_Rule_Contract__c</fields>
+        <fields>APTS_Invoice_Type__c</fields>
+        <fields>APTS_Invoice_Delivery_Preference__c</fields>
+        <fields>APTS_Payment_Method__c</fields>
+        <fields>APTS_Payment_Term_Setting__c</fields>
+        <label>v2 Billing Setting Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>To be used to enable setting up and storing Billing/Invoicing preferences, Payment Terms/Methods</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>APTS_AgreementExtId__c</fullName>
+        <externalId>true</externalId>
+        <label>Agreement External Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Agreement_Billing_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Agreement Billing Setting Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Ingredients</fullName>
+                    <default>false</default>
+                    <label>Ingredients</label>
+                </value>
+                <value>
+                    <fullName>Machine</fullName>
+                    <default>false</default>
+                    <label>Machine &amp; Services</label>
+                </value>
+                <value>
+                    <fullName>Accountcheck</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Accountcheck</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Agreement_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Agreement</label>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipLabel>Billing Settings</relationshipLabel>
+        <relationshipName>Billing_Settings</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>APTS_Agreement_Language__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(APTS_Agreement_ID__r.APTS_Language__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Agreement Language</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Bill_To_ID__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Bill-To ID</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Billing Settings</relationshipLabel>
+        <relationshipName>Billing_Settings</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Billing_Cycle_Start_Translated__c</fullName>
+        <externalId>false</externalId>
+        <label>Machine Billing Cycle Start Translated</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Billing_Cycle_Start__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(APTS_Agreement_Billing_Type__c, &quot;Machine&quot;), TEXT(APTS_Billing_Preference_Setting__r.Apttus_Config2__BillingCycleStart__c) , &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Machine Billing Cycle Start</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Billing_Day_Of_Month_Translated__c</fullName>
+        <externalId>false</externalId>
+        <label>Machine Billing Day Of Month Translated</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Billing_Day_Of_Month__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(APTS_Agreement_Billing_Type__c, &quot;Machine&quot;), TEXT(APTS_Billing_Preference_Setting__r.Apttus_Config2__BillingDayOfMonth2__c) , &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Machine Billing Day Of Month</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Billing_Interval_Translated__c</fullName>
+        <externalId>false</externalId>
+        <label>Machine Billing Interval Translated</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Billing_Interval__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(APTS_Agreement_Billing_Type__c, &quot;Machine&quot;), TEXT(APTS_Billing_Preference_Setting__r.Apttus_Config2__BillingInterval__c) , &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Machine Billing Interval</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Billing_Preference_Setting__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Billing Preference</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.APTS_Sales_Organization__c</field>
+                <operation>equals</operation>
+                <valueField>Apttus_Config2__BillingPreference__c.APTS_SalesOrg__c</valueField>
+            </filterItems>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>Apttus_Config2__BillingPreference__c</referenceTo>
+        <relationshipLabel>Billing Settings</relationshipLabel>
+        <relationshipName>Billing_Settings</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Billing_Rule_Contract__c</fullName>
+        <externalId>false</externalId>
+        <label>Billing Rule</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bill in Advance</fullName>
+                    <default>false</default>
+                    <label>Bill in Advance</label>
+                </value>
+                <value>
+                    <fullName>Bill in Arrears</fullName>
+                    <default>false</default>
+                    <label>Bill in Arrears</label>
+                </value>
+                <value>
+                    <fullName>Bill on Ready for Billing Date</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Bill on Ready for Billing Date</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Billing_Rule_Translated__c</fullName>
+        <externalId>false</externalId>
+        <label>Machine Billing Rule Translated</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Billing_Type_Translated__c</fullName>
+        <externalId>false</externalId>
+        <label>Billing Type Translated</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_ConversionId__c</fullName>
+        <externalId>false</externalId>
+        <label>Conversion Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Ingredient_Bill_Cycle_Start_Trans__c</fullName>
+        <externalId>false</externalId>
+        <label>Ingredient Bill Cycle Start Translated</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Ingredient_Bill_Day_Of_Month_Trans__c</fullName>
+        <externalId>false</externalId>
+        <label>Ingredient Bill Day Of Month Translated</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Ingredient_Bill_Interval_Translated__c</fullName>
+        <externalId>false</externalId>
+        <label>Ingredient Billing Interval Translated</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Ingredient_Billing_Cycle_Start__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(APTS_Agreement_Billing_Type__c, &quot;Ingredients&quot;), TEXT(APTS_Billing_Preference_Setting__r.Apttus_Config2__BillingCycleStart__c) , &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Ingredient Billing Cycle Start</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Ingredient_Billing_Day_Of_Month__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(APTS_Agreement_Billing_Type__c, &quot;Ingredients&quot;),  TEXT(APTS_Billing_Preference_Setting__r.Apttus_Config2__BillingDayOfMonth2__c) , &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Ingredient Billing Day Of Month</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Ingredient_Billing_Interval__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(APTS_Agreement_Billing_Type__c, &quot;Ingredients&quot;), TEXT(APTS_Billing_Preference_Setting__r.Apttus_Config2__BillingInterval__c) , &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Ingredient Billing Interval</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Invoice_Delivery_Preference__c</fullName>
+        <externalId>false</externalId>
+        <label>Invoice Delivery Preference</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>P001</fullName>
+                    <default>false</default>
+                    <label>Print</label>
+                </value>
+                <value>
+                    <fullName>P002</fullName>
+                    <default>false</default>
+                    <label>E-Mail</label>
+                </value>
+                <value>
+                    <fullName>P003</fullName>
+                    <default>false</default>
+                    <label>EDI</label>
+                </value>
+                <value>
+                    <fullName>P004</fullName>
+                    <default>false</default>
+                    <label>Customer Portal</label>
+                </value>
+                <value>
+                    <fullName>3rd Party</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>3rd Party</label>
+                </value>
+                <value>
+                    <fullName>P008</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Cust. Portal summary</label>
+                </value>
+                <value>
+                    <fullName>P006</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>E-mail with summary</label>
+                </value>
+                <value>
+                    <fullName>P007</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>EDI with summary</label>
+                </value>
+                <value>
+                    <fullName>MyServices (Digital)</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>MyServices (Digital)</label>
+                </value>
+                <value>
+                    <fullName>Paper</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Paper</label>
+                </value>
+                <value>
+                    <fullName>P005</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Print with summary</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Invoice_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Invoice Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Single Invoice</fullName>
+                    <default>false</default>
+                    <label>Single Invoice</label>
+                </value>
+                <value>
+                    <fullName>Invoice List – With Summary Page</fullName>
+                    <default>false</default>
+                    <label>Invoice List – With Summary Page</label>
+                </value>
+                <value>
+                    <fullName>Invoice List – Without Summary Page</fullName>
+                    <default>false</default>
+                    <label>Invoice List – Without Summary Page</label>
+                </value>
+                <value>
+                    <fullName>Collective Invoice</fullName>
+                    <default>false</default>
+                    <label>Collective Invoice</label>
+                </value>
+                <value>
+                    <fullName>Collective Invoice – With Summary Page</fullName>
+                    <default>false</default>
+                    <label>Collective Invoice – With Summary Page</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_Invoice_del_pref_translated__c</fullName>
+        <externalId>false</externalId>
+        <label>Invoice del pref translated</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_MigrationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Migration Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Payment_Method_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>APTS_Payment_Method__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Payment Method Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Payment_Method__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Payment Method</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>APTS_Payment_Method__c.APTS_Sales_Org__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.APTS_Sales_Organization__c</valueField>
+            </filterItems>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>APTS_Payment_Method__c</referenceTo>
+        <relationshipLabel>Billing Settings</relationshipLabel>
+        <relationshipName>Billing_Settings</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Payment_Term_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>APTS_Payment_Term_Setting__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Payment Term Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Payment_Term_Setting__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Payment Term</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <filterItems>
+                <field>Apttus_Config2__PaymentTerm__c.APTS_Sales_Org_Text__c</field>
+                <operation>contains</operation>
+                <valueField>$Source.APTS_Sales_Organization__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>Apttus_Config2__PaymentTerm__c.APTS_Legacy__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>Apttus_Config2__PaymentTerm__c</referenceTo>
+        <relationshipLabel>Billing Settings</relationshipLabel>
+        <relationshipName>Billing_Settings</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>APTS_Sales_Organization__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Organization</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>PKL_SalesOrganization</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>APTS_SourceSystem__c</fullName>
+        <externalId>false</externalId>
+        <label>Source System</label>
+        <length>3</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Billing Setting</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>BS-{0000}</displayFormat>
+        <label>Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Billing Settings</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Billing_Rule_for_consumption_model</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(APTS_Agreement_ID__r.RecordType.DeveloperName = &apos;Consumption&apos;, NOT(ISPICKVAL( APTS_Billing_Rule_Contract__c,&apos;Bill in Arrears&apos;)))</errorConditionFormula>
+        <errorDisplayField>APTS_Billing_Rule_Contract__c</errorDisplayField>
+        <errorMessage>Billing rule should be Bill in Arrears for consumption type contract</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

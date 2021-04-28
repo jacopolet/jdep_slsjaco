@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Holds information about custom actions displayed in incentive related pages</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Apttus_Config2__ActionLabelName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the custom label for the action.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the custom label for the action.</inlineHelpText>
+        <label>Action Label Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ActionName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the API name for the action.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the API name for the action.</inlineHelpText>
+        <label>Action Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ActionPage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the custom action page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the custom action page.</inlineHelpText>
+        <label>Action Page</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__ActionParams__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The url parameters for the action. Multiple parameters may be passed by using the ampersand character to separate each parameter. Each parameter is expressed in the form param-name=param-value. For e.g. templateName=XYZ&amp;draft=true</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The url parameters for the action. Multiple parameters may be passed by using the ampersand character to separate each parameter. Each parameter is expressed in the form param-name=param-value. For e.g. templateName=XYZ&amp;draft=true</inlineHelpText>
+        <label>Action Params</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__IsEnabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the action is enabled for the display</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the action is enabled for the display</inlineHelpText>
+        <label>Is Enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__PageAreaForActionDisplay__c</fullName>
+        <defaultValue>&quot;Benefit Matrix&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The area in the page to display the custom actions</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The area in the page to display the custom actions</inlineHelpText>
+        <label>Page Area For Action Display</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__Sequence__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The action display sequence</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The action display sequence</inlineHelpText>
+        <label>Sequence</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Config2__UseType__c</fullName>
+        <defaultValue>&quot;Rebate&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The incentive use type. Valid Values are:
+
+Promotion
+Rebate
+Milestone Incentive</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The incentive use type. Valid Values are:
+
+Promotion
+Rebate
+Milestone Incentive</inlineHelpText>
+        <label>Application Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Incentive Custom Display Actions</label>
+    <visibility>Public</visibility>
+</CustomObject>

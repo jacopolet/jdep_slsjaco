@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Approvals System properties</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Apttus_Approval__AddApproverMyApprovalsFilterPage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>DEPRECATED.  The custom page to filter and add an adhoc approver from the MyApprovals view.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>DEPRECATED.  The custom page to filter and add an adhoc approver from the MyApprovals view.</inlineHelpText>
+        <label>Add Approver My Approvals Filter Page</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__AdminUser__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The admin user name (format = first name, last name)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The admin user is the default owner of activities created by a user who is not allowed to be the owner (for e.g. customer portal user).</inlineHelpText>
+        <label>Admin User</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ApprovalTaskPrefix__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The prefix for the approval history subject.</description>
+        <externalId>false</externalId>
+        <label>Approval Task Prefix</label>
+        <length>30</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__BackupAdminProfile__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The backup admin profile name</description>
+        <externalId>false</externalId>
+        <label>Backup Admin Profile</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__BackupAdminUser__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The backup admin user name</description>
+        <externalId>false</externalId>
+        <label>Backup Admin User</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__BackupFilterPage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The custom page to filter and select a backup user</description>
+        <externalId>false</externalId>
+        <label>Backup Filter Page</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__BypassSharing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether apex code can bypass record sharing</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether apex code can bypass record sharing</inlineHelpText>
+        <label>Bypass Sharing</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__CancellationEmailToApprovedNotified__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If this flag is true then we to send cancellation emails for Approved/Notified requests when approval requests are recalled.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If this flag is true then we to send cancellation emails for Approved/Notified requests when approval requests are recalled.</inlineHelpText>
+        <label>Cancellation Email to Approved/Notified</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__DashboardObjects__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A comma separated list of object api names to include in the Approval Center.  The first item in the list is used as the default tab if one or more requests exist for that object when the user navigates to the Approval Center.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A comma separated list of object api names to include in the Approval Center.  The first item in the list is used as the default tab if one or more requests exist for that object when the user navigates to the Approval Center.</inlineHelpText>
+        <label>Approval Center</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__EmailApprovalServiceAddress__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The email service address that can receive messages for processing.</description>
+        <externalId>false</externalId>
+        <label>Email Approval Service Address</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__EmailSenderDisplayName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates the datasource for the email sender display name. If not set, defaults to the name of the requester for agreements and defaults to the name of the submitter for all others. 
+
+Valid values are : 
+============= 
+Approver 
+Requester 
+Submitter</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the datasource for the email sender display name. If not set, defaults to the name of the requester for agreements and defaults to the name of the submitter for all others.
+
+Valid values are : 
+============= 
+Approver 
+Requester 
+Submitter</inlineHelpText>
+        <label>Email Sender Display Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__EmailSenderOrgWideDisplayNameUsed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Set this flag to true to send emails with the sender specified in the &apos;Email Sender Org Wide Display Name&apos; custom setting.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Set this flag to true to send emails with the sender specified in the &apos;Email Sender Org Wide Display Name&apos; custom setting.</inlineHelpText>
+        <label>Email Sender Org Wide Display Name Used</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__EmailSenderOrgWideDisplayName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates the display name from the Organization-Wide Email Addresses to use for the email sender.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the display name from the Organization-Wide Email Addresses to use for the email sender.</inlineHelpText>
+        <label>Email Sender Org Wide Display Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__EnableApprovalRequestAutoEscalation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Set this field to true to have approval requests currently assigned or reassigned automatically escalated to another user or queue if no actions have been taken after a specified time.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Set this field to true to have approval requests currently assigned or reassigned automatically escalated to another user or queue if no actions have been taken after a specified time.</inlineHelpText>
+        <label>Enable Approval Request Auto-Escalation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__EnableAutoReapprovalOnFinalizedCart__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Setting this flag to true allows previous approvals from the finalized cart to be included in the check for auto-reapproval, otherwise re-approvals start from scratch on the new cart object.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Setting this flag to true allows previous approvals from the finalized cart to be included in the check for auto-reapproval, otherwise re-approvals start from scratch on the new cart object.</inlineHelpText>
+        <label>Enable Auto-Reapproval On Finalized Cart</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__EnableEmailApprovalResponse__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enabling email approval response lets users reply to email approval requests by typing APPROVE or REJECT in the first line and adding comments in the second line.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enabling email approval response lets users reply to email approval requests by typing APPROVE or REJECT in the first line and adding comments in the second line.</inlineHelpText>
+        <label>Enable Email Approval Response</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__EnableResubmit__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This property is used for the submit for approvals button on the related list. When true, and user clicks on submit, current approval requests are cancelled and new approval requests are resubmitted. When false, and user clicks on submit, this flag will prevent the user from canceling and resubmitting an on-going approval process.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Used for the submit for approvals button on the related list. 
+When true, current approval requests are cancelled and new requests are resubmitted. 
+When false, will prevent the user from canceling and resubmitting an on-going approval process.</inlineHelpText>
+        <label>Enable Resubmit</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__EnableUploadAttachmentFromDesktop__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enables user to upload attachments from the desktop instead of limiting attachments to those already associated with the object in the Notes &amp; Attachments section.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enables user to upload attachments from the desktop instead of limiting attachments to those already associated with the object in the Notes &amp; Attachments section.</inlineHelpText>
+        <label>Enable Upload Attachment From Desktop</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__InboundAttachmentCallback__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Inbound attachment callback class name. The class should implement the CustomClass.IInboundAttachmentCallback interface.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Inbound attachment callback class name. The class should implement the CustomClass.IInboundAttachmentCallback interface.</inlineHelpText>
+        <label>Inbound Attachment Callback</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__InstanceUrl__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Salesforce instance url for redirecting to custom pages</description>
+        <externalId>false</externalId>
+        <label>Instance Url</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ProcessSubmitInAsyncMode__c</fullName>
+        <businessStatus>Active</businessStatus>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Process submit for Approvals in async/batch mode</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Process submit for Approvals in async/batch mode</inlineHelpText>
+        <label>Process Submit In Async Mode</label>
+        <securityClassification>Public</securityClassification>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__QueueableApexBatchSize__c</fullName>
+        <defaultValue>1</defaultValue>
+        <deprecated>false</deprecated>
+        <description>DEPRECATED.  Specifies the number of records to be processed by a single queueable apex batch job</description>
+        <externalId>false</externalId>
+        <inlineHelpText>DEPRECATED.  Specifies the number of records to be processed by a single queueable apex batch job</inlineHelpText>
+        <label>Queueable Apex Batch Size-DEPRECATED</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ReassignFilterPage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The custom page to filter and select a reassign user</description>
+        <externalId>false</externalId>
+        <label>Reassign Filter Page</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__ReassignMyApprovalsFilterPage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>DEPRECATED.  The custom page to filter and select a reassign user from the MyApprovals view.</description>
+        <externalId>false</externalId>
+        <label>Reassign My Approvals Filter Page</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__SyncApproveRequestThreshold__c</fullName>
+        <defaultValue>20</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Approval Request count threshold, exceeding which approve/reject actions will be processed in async mode</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Approval Request count threshold, exceeding which approve/reject actions will be processed in async mode</inlineHelpText>
+        <label>Sync Approve Request Threshold</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__SyncSubmitRequestThreshold__c</fullName>
+        <defaultValue>200</defaultValue>
+        <deprecated>false</deprecated>
+        <description>DEPRECATED.  Approval Request count threshold, exceeding which submit will be processed in batch/async mode</description>
+        <externalId>false</externalId>
+        <inlineHelpText>DEPRECATED.  Approval Request count threshold, exceeding which submit will be processed in batch/async mode</inlineHelpText>
+        <label>Sync Submit Request Threshold-DEPRECATED</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__UIAssigneeSearchPageSize__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Specify a value here to denote the number of search results rows to display when searching for assignee queues, roles, rules, or users in admin setup. The default is 20 rows.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specify a value here to denote the number of search results rows to display when searching for assignee queues, roles, rules, or users in admin setup. The default is 20 rows.</inlineHelpText>
+        <label>UI Assignee Search Page Size</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Approval__UICustomAssigneeObjectTypes__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The field specifies a comma separated list of API names of Standard or Custom objects you want to use to when defining custom assignee expressions</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The field specifies a comma separated list of API names of Standard or Custom objects you want to use to when defining custom assignee expressions</inlineHelpText>
+        <label>UI Custom Assignee Object Types</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_CQApprov__CartApprovalContextType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the default cart approval context type. 
+
+Valid values are : 
+============= 
+header 
+cart</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the default cart approval context type. 
+
+Valid values are : 
+============= 
+header 
+cart</inlineHelpText>
+        <label>Cart Approval Context Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_CQApprov__CartApprovalPreviewPage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of a custom page used to show preview information. Leave it blank to use the default page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of a custom page used to show preview information. Leave it blank to use the default page.</inlineHelpText>
+        <label>Cart Approval Preview Page</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_CQApprov__EnableApprovalCheckOnQuoteUpdate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether approval check should performed automatically when a quote updated</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether approval check should performed automatically when a quote updated</inlineHelpText>
+        <label>Enable Approval Check On Quote Update</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Approvals System Properties</label>
+    <visibility>Public</visibility>
+</CustomObject>

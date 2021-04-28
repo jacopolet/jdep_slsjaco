@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Custom Setting to store the values of Product and Pricing Staging Distribution Batch references. Created as part of Kauri Wave 3 Nov&apos;18 Release.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>APTS_AllowedPlantStatusDuringInitialLoad__c</fullName>
+        <description>Field to hold the list of MARA statuses which are allowed during Product creation.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Comma separated list of MARA statuses which are allowed during Initial Product creation</inlineHelpText>
+        <label>Allowed Plant Status During Initial Load</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>APTS_AllowedPlantStatusDuringUpdate__c</fullName>
+        <description>Field to hold the list of MARA statuses which are allowed during Product update.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Comma separated list of MARA statuses which are allowed during Initial Product update</inlineHelpText>
+        <label>Allowed Plant Status During Update</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_BatchProductPricingInitialDataLoad__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Checkbox to indicate whether the Product or Pricing Batch load is initial.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select to indicate that the Product or Pricing Batch load is initial</inlineHelpText>
+        <label>Batch Product/Pricing Initial Data Load</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>APTS_BlockedPlantStatusDuringUpdate__c</fullName>
+        <description>Field to hold the list of MARA statuses which are not allowed during Product update.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Comma separated list of MARA statuses which are not allowed during Product update</inlineHelpText>
+        <label>Blocked Plant Status During Update</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Machine_Category_Record_ID__c</fullName>
+        <description>Field to store the Salesforce Record ID of &apos;Machine&apos; Option Group record of &apos;Category&apos; (Apttus_Config2__ClassificationName__c) Object. Created as part of Kauri Wave 3 Nov&apos;18 Release.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Salesforce Record ID of &apos;Machine&apos; Option Group record of &apos;Category&apos; Object</inlineHelpText>
+        <label>&apos;Machine&apos; Category Record ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Pricing_Batch_Notification_Email_ID__c</fullName>
+        <description>Field to store the Email ID of the recipient to be notified after Pricing Distribution Batch completion.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Email ID of the recipient to be notified after Pricing Distribution Batch completion</inlineHelpText>
+        <label>Pricing Batch Notification Email ID</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Product_Batch_Notification_Email_ID__c</fullName>
+        <description>Field to store the Email ID of the recipient to be notified after Product Distribution Batch completion.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Email ID of the recipient to be notified after Product Distribution Batch completion</inlineHelpText>
+        <label>Product Batch Notification Email ID</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>APTS_Selling_Term_Price_Dimension_Rec_ID__c</fullName>
+        <description>Field to store the Salesforce Record ID of &apos;Selling Term&apos; record of &apos;Price Dimension&apos; (Apttus_Config2__PriceDimension__c) Object. Created as part of Kauri Wave 3 Nov&apos;18 Release.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Salesforce Record ID of Selling Term&apos; record of &apos;Price Dimension&apos; Object</inlineHelpText>
+        <label>&apos;Selling Term&apos; Price Dimension Record ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Product&amp;PricingDistributionBatchSettings</label>
+    <visibility>Public</visibility>
+</CustomObject>
