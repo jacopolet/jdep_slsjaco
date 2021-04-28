@@ -14,6 +14,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
+    <orderEntry type="jdk" jdkName="IlluminatedCloud (jdep-slsjaco/jdep-slsjaco)" jdkType="IlluminatedCloud" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
